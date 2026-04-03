@@ -19,12 +19,7 @@ REQUIRED_KNOWLEDGE_FILES = (
 )
 
 
-def _contains_check(
-    path: Path,
-    needle: str,
-    check_name: str,
-    message: str,
-) -> ValidationResult:
+def _contains_check(path: Path, needle: str, check_name: str, message: str) -> ValidationResult:
     text = path.read_text(encoding="utf-8")
     status = "pass" if needle in text else "fail"
     return ValidationResult(
@@ -48,9 +43,7 @@ def validate_knowledge_package(knowledge_root: Path) -> list[ValidationResult]:
             ValidationResult(
                 check_name="knowledge-required-file",
                 status=status,
-                message="Required Knowledge surface exists."
-                if status == "pass"
-                else "Required Knowledge surface is missing.",
+                message="Required Knowledge surface exists." if status == "pass" else "Required Knowledge surface is missing.",
                 path=str(full_path),
                 expected=relative_path,
                 found=relative_path if status == "pass" else "missing",
@@ -58,72 +51,42 @@ def validate_knowledge_package(knowledge_root: Path) -> list[ValidationResult]:
         )
 
     readme_path = knowledge_root / "README.md"
-    index_path = knowledge_root / "_indexes" / "knowledge-index.md"
     spec_path = knowledge_root / "knowledge-package-spec.md"
+    relationship_path = knowledge_root / "suf-relationship.md"
     contributing_path = knowledge_root / "CONTRIBUTING.md"
 
     if readme_path.exists():
-        results.append(
-            _contains_check(
-                readme_path,
-                "_indexes/knowledge-index.md",
-                "knowledge-readme-entry-link",
-                "Knowledge README references the main index.",
-            )
-        )
-        results.append(
-            _contains_check(
-                readme_path,
-                "../structured-unity-framework/README.md",
-                "knowledge-readme-suf-link",
-                "Knowledge README references the sibling SUF package.",
-            )
-        )
-
-    if index_path.exists():
         for needle, check_name, message in (
-            (
-                "../knowledge-package-spec.md",
-                "knowledge-index-spec-link",
-                "Knowledge index references the live spec filename.",
-            ),
-            (
-                "../README.md",
-                "knowledge-index-readme-link",
-                "Knowledge index references the package README.",
-            ),
-            (
-                "cluster-index.md",
-                "knowledge-index-cluster-link",
-                "Knowledge index references the cluster index.",
-            ),
-            (
-                "node-index.md",
-                "knowledge-index-node-link",
-                "Knowledge index references the node index.",
-            ),
-            (
-                "study-routes-index.md",
-                "knowledge-index-routes-link",
-                "Knowledge index references the study-routes index.",
-            ),
-            (
-                "relation-tags-index.md",
-                "knowledge-index-relations-link",
-                "Knowledge index references the relation-tags index.",
-            ),
+            ("_indexes/knowledge-index.md", "knowledge-readme-entry-link", "Knowledge README references the main index."),
+            ("../structured-unity-framework/README.md", "knowledge-readme-suf-link", "Knowledge README references the sibling SUF package."),
+            ("primary scaffold", "knowledge-readme-primary-scaffold", "Knowledge README includes primary scaffold wording."),
+            ("supporting scaffold", "knowledge-readme-supporting-scaffold", "Knowledge README includes supporting scaffold wording."),
+            ("domain-native lead", "knowledge-readme-domain-native-lead", "Knowledge README includes domain-native lead wording."),
+            ("primary_scaffold", "knowledge-readme-primary-scaffold-code", "Knowledge README includes primary_scaffold."),
+            ("supporting_scaffold", "knowledge-readme-supporting-scaffold-code", "Knowledge README includes supporting_scaffold."),
+            ("domain_native_lead", "knowledge-readme-domain-native-lead-code", "Knowledge README includes domain_native_lead."),
         ):
-            results.append(_contains_check(index_path, needle, check_name, message))
+            results.append(_contains_check(readme_path, needle, check_name, message))
 
     if spec_path.exists():
-        results.append(
-            _contains_check(
-                spec_path,
-                "knowledge-package-spec.md",
-                "knowledge-spec-self-reference",
-                "Knowledge package spec uses the normalized live filename.",
-            )
-        )
+        for needle, check_name, message in (
+            ("knowledge-package-spec.md", "knowledge-spec-self-reference", "Knowledge package spec uses the normalized live filename."),
+            ("`suf_role`", "knowledge-spec-suf-role", "Knowledge package spec documents suf_role."),
+            ("primary_scaffold", "knowledge-spec-primary-scaffold", "Knowledge package spec includes primary_scaffold."),
+            ("supporting_scaffold", "knowledge-spec-supporting-scaffold", "Knowledge package spec includes supporting_scaffold."),
+            ("domain_native_lead", "knowledge-spec-domain-native-lead", "Knowledge package spec includes domain_native_lead."),
+            ("Handoff rule", "knowledge-spec-handoff-rule", "Knowledge package spec includes a handoff rule."),
+        ):
+            results.append(_contains_check(spec_path, needle, check_name, message))
+
+    if relationship_path.exists():
+        for needle, check_name, message in (
+            ("primary scaffold", "knowledge-relationship-primary-scaffold", "SUF relationship note includes primary scaffold wording."),
+            ("supporting scaffold", "knowledge-relationship-supporting-scaffold", "SUF relationship note includes supporting scaffold wording."),
+            ("domain-native lead", "knowledge-relationship-domain-native-lead", "SUF relationship note includes domain-native lead wording."),
+            ("Handoff rule", "knowledge-relationship-handoff-rule", "SUF relationship note includes a handoff rule."),
+        ):
+            results.append(_contains_check(relationship_path, needle, check_name, message))
 
     if contributing_path.exists():
         results.append(
@@ -144,9 +107,7 @@ def validate_knowledge_package(knowledge_root: Path) -> list[ValidationResult]:
         ValidationResult(
             check_name="knowledge-legacy-filename",
             status="pass" if not legacy_hits else "fail",
-            message="No stale spaced legacy filename remains in Knowledge package prose."
-            if not legacy_hits
-            else "Stale spaced legacy filename remains in Knowledge package prose.",
+            message="No stale spaced legacy filename remains in Knowledge package prose." if not legacy_hits else "Stale spaced legacy filename remains in Knowledge package prose.",
             expected="no 'Knowledge Package Spec.md' references",
             found=", ".join(legacy_hits) if legacy_hits else "none",
         )

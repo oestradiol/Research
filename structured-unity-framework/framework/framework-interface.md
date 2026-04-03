@@ -2,24 +2,30 @@
 
 ## 1. Purpose
 
-Framework Interface is the **bridge and boundary** layer. It makes the relation between layers **explicit**, **academically legible**, and **non-circular**. It explains how phenomenology relates to epistemology and how epistemology constrains metaphysics; how Structural Phenomenology, Informational Awareness Framework, and Unity Dynamics Framework depend on one another; and how science and later operational work fit **without** collapsing the stack into one doctrine.
+Framework Interface is the **bridge/control** layer of Structured Unity Framework.
 
-It is a **translation**, **scope-control**, **boundary-discipline**, and **continuity** layer—not a replacement for the source documents.
+It is not a fourth peer theory layer. It exists to make the relation between the three substantive layers explicit, academically legible, and non-circular. It explains how phenomenological grounding, modeling vocabulary, operational work, science, and later interpretation fit together **without** collapsing into one doctrine.
+
+It is a translation, scope-control, boundary-discipline, and continuity layer—not a replacement for the source documents.
 
 ## 2. Executive compression of the stack
 
-- **Structural Phenomenology** — What is given; structure within awareness; science as disciplined mapping inside experience.  
-- **Informational Awareness Framework** — Distinctions as information; stabilization; self/world models; recursion as **structural** description—not silent leap to external metaphysics.  
-- **Unity Dynamics Framework** — **I, C, L, U** at explicit **(τ, σ)**; **U** is operational, not phenomenology.  
-- **Framework Interface** (this file) — Explains fit, claim types, weak naturalization, and safe movement from givenness toward validation and restrained classification.
+Structured Unity Framework has **three substantive framework layers plus one bridge/control layer**:
+
+- **Structural Phenomenology** — epistemic ground: givenness, distinction, pattern, structure inside experience
+- **Informational Awareness Framework** — bounded modeling and bridge vocabulary for distinctions, reporting, feedback, and recursive adjustment
+- **Unity Dynamics Framework** — operational variables `I`, `C`, `L`, and `U` at explicit `(τ, σ)`; the most technical-facing layer, but still underdetermined and route-local
+- **Framework Interface** (this file) — bridge/control layer for claim types, weak naturalization, non-circularity, and safe movement across the stack
 
 ## 3. What this file is
 
-A boundary-aware bridge between first-person **givenness**, **model formation**, **scientific validation**, and **carefully delimited** metaphysical interpretation. It marks where the project moves from direct givenness toward model, validation, and classification.
+A boundary-aware bridge between first-person givenness, model formation, scientific validation, and carefully delimited interpretation.
+
+It marks where the project moves from direct givenness toward model, validation, and classification. It also states what later layers may add without silently rewriting earlier ones.
 
 ## 4. What this file is not
 
-Not a complete metaphysics, final ontology, religion, replacement for evidence, strong theory of consciousness, planning document, methods manual, or literature review.
+Not a complete metaphysics, final ontology, religion, replacement for evidence, strong theory of consciousness, methods manual, or literature review.
 
 It must not drift into pure mysticism, pure physics, pure cognition theory, or pure AI speculation **as if** they alone grounded the whole project.
 
@@ -29,19 +35,17 @@ Framework Interface does not by itself establish the empirical adequacy of the r
 
 ## 5. Core stance
 
-Restrained: epistemically grounded, structurally formalizable, metaphysically minimal, scientifically extendable. Structural claims must not silently harden into stronger ontology than intended. High-risk terms stay **typed**. Underdetermination stays explicit where metrics and thresholds are not fixed. **Interpretive usefulness ≠ evidential force.**
+Restrained: epistemically grounded, structurally formalizable, metaphysically minimal, scientifically extendable.
 
-### 5.1 Terminology lock (interface-level)
+Structural claims must not silently harden into stronger ontology than intended. High-risk terms stay typed. Underdetermination stays explicit where metrics and thresholds are not fixed. **Interpretive usefulness ≠ evidential force.**
 
-- Prefer **unity-like** before **consciousness** at institutional scales.  
-- Use **subjectivity-like** only when an interpretive extension is intended.  
-- Prefer **recursive nested informational subfields** before casual **child-universe** language in restrained prose.  
-- Keep **weak naturalization** explicit when moving from phenomenology to metrics.  
-- Prefer “modeling stance,” “structural description,” “operational readout” over stronger ontological claims where possible.
+### 5.1 Terminology lock
 
-### 5.2 High-risk terms (not banned—disciplined)
-
-Consciousness, subjectivity, self, spirit, God, universe-consciousness, AGI, child-universe, monism—require **claim-type** clarity and **scope** awareness.
+- prefer **unity-like organization** before stronger consciousness language at institutional scales
+- use **subjectivity-like** only when an interpretive extension is intended
+- prefer **recursive nested informational subfields** before casual **child-universe** language in restrained prose
+- keep **weak naturalization** explicit when moving from phenomenology to metrics
+- prefer **modeling vocabulary**, **structural description**, and **operational readout** over stronger ontological claims where possible
 
 ## 6. Claim-type architecture
 
@@ -53,9 +57,9 @@ Consciousness, subjectivity, self, spirit, God, universe-consciousness, AGI, chi
 | **Interpretive** | Meaning-rich extensions not secured as evidence |
 | **Speculative** | Conceivable but not justified at the stated level |
 
-**Why it matters:** epistemic claims mistaken for operational ones, structural claims mistaken for metaphysical proofs, or interpretive moves presented as measurement **destabilize** the stack. Claim-typing is a core anti-confusion device.
+Claim-typing is a core anti-confusion device. The stack fails when epistemic claims are read as operational ones, structural claims are read as metaphysical proofs, or interpretive moves are presented as measurement.
 
-## 7. The bridge movement (central chain)
+## 7. The bridge movement
 
 Framework Interface explains this movement:
 
@@ -63,107 +67,84 @@ Framework Interface explains this movement:
 
 ### 7.1 Givenness → pattern
 
-Something is given; distinctions are noticed; recurring content becomes **pattern**. This remains inside awareness; no external ontology is assumed yet.
+Something is given; distinctions are noticed; recurring content becomes pattern. This remains inside awareness; no external ontology is assumed yet.
 
 ### 7.2 Pattern → structure
 
-Recurring relations are encoded; patterns become **structurally describable**; mathematics, logic, and formal systems arise as compressions of relational regularity—still **within** experience, but opening public comparison and reproducibility.
+Recurring relations are encoded; patterns become structurally describable; mathematics, logic, and formal systems arise as compressions of relational regularity.
 
 ### 7.3 Structure → model
 
-**Self-models**, **world-models**, inferential procedures, scientific representations. Informational Awareness Framework formalizes this through a shared relational modeling frame for describing emergent organization.
+Self-models, world-models, inferential procedures, and scientific representations appear here. Informational Awareness Framework belongs here as a bounded modeling vocabulary, not as a finished technical closure.
 
 ### 7.4 Model → validation
 
-Interventions, instruments, reproducibility, calibration, intersubjective correction—**science** in the disciplined sense. Instruments do not step **outside** awareness; they **extend** it (resolution, repeatability, range).
+Interventions, instruments, reproducibility, calibration, intersubjective correction—science in the disciplined sense. Instruments do not step outside awareness; they extend it.
 
 ### 7.5 Validation → classification
 
-In the **weak** sense used here: grouping structures by stability, specifying domains of applicability, sorting claims by empirical status. **Not** a “view from nowhere”—the strongest justified classification **within** disciplined inquiry.
+Grouping structures by stability, specifying domains of applicability, and sorting claims by empirical status. This remains minimal and bounded, not a view from nowhere.
 
-## 8. Phenomenology, epistemology, metaphysics (boundary rule)
+## 8. Layer relations and non-circularity
 
-**Phenomenology** contributes givenness, appearance, distinction, first-person grounding—the field in which all later modeling occurs. It blocks treating evidence as self-grounding or instruments as escaping experience.
+- **Structural Phenomenology** governs givenness, distinction, pattern, and structure.
+- **Informational Awareness Framework** adds a bounded way to talk about systems that make, carry, and update distinctions through feedback loops.
+- **Unity Dynamics Framework** adds an operational vocabulary for integration, coherence, latency, and unity-like organization at explicit scales and windows.
+- **Framework Interface** states how these layers fit without absorbing their full content.
 
-**Epistemology** contributes representation, inference, calibration, reproducibility, trust, institutional validation—turning givenness into **public** knowledge without granting final metaphysical closure.
+**Non-circularity:** later layers extend earlier ones; they do not rewrite their starting conditions. The Research Program instantiates downstream operational work; it does not redefine Structural Phenomenology. Public translation may simplify wording but may not invert dependence order.
 
-**Metaphysics** here contributes **minimal** classification, taxonomic compression, modal vocabulary—**constrained** classification, not unconstrained speculation. Metaphysics is **not** allowed to outrun phenomenology and epistemology.
+## 9. Weak naturalization
 
-**Order:** phenomenology grounds → epistemology disciplines public knowledge → metaphysics classifies only what has stabilized enough. **Reversing** this order collapses inquiry into assertion.
+Phenomenology constrains models but is not reduced to them. Metrics describe correspondence, not identity with experience. Measurement tracks alignment and stability, not essence. This enables scientific extension without dissolving first-person discipline.
 
-## 9. Layer relations (non-circularity preview)
+## 10. Interface discipline for interpretation
 
-- **Structural Phenomenology** is **prior**: awareness given; structure within awareness; science as mapping inside experience.  
-- **Informational Awareness Framework** adds distinctions-as-information, stabilization, models, recursion—**modeling stance**.  
-- **Unity Dynamics Framework** adds **I, C, L, U** at scales/windows—**operational/dynamic**, not phenomenological essence.  
-- **Framework Interface** states transitions without absorbing the full content of each layer.
+Interpretation is allowed but typed and bounded.
 
-**Non-circularity:** later layers **extend** earlier ones; they do not **rewrite** foundational starting conditions. The Research Program instantiates dynamics; it does not silently redefine Structural Phenomenology. Public translation may simplify wording but not **invert** dependence order. Literature **routes** support; it does not replace reasoning.
+**Allowed when:** a structural pattern is established; the move is explicitly tagged as interpretive; evidential force is not exaggerated; no hidden category shift.
 
-## 10. Weak naturalization
+**Not allowed when:** salience is presented as causation; phenomenological meaning is treated as scientific proof; speculative vocabulary implies completion; metaphor becomes silent ontology.
 
-Phenomenology **constrains** models but is not **reduced** to them. Metrics describe **correspondence**, not **identity** with experience. Measurement tracks alignment and stability, not “essence.” This enables scientific extension without dissolving first-person discipline.
+## 11. Default package spine
 
-## 11. Science inside the field (extended)
+The default public spine should include:
 
-**Science is not outside experience.** That does **not** weaken science; it **situates** it. Instruments, experiments, equations, and models are **experiences**, representations, interventions, calibrations, socially stabilized procedures. Their strength is **disciplined validation**, not escaping the field in which evidence is given.
+- Structural Phenomenology as epistemic constraint
+- Structural Phenomenology downstream role as downstream boundary surface
+- Informational Awareness Framework as bounded modeling vocabulary
+- IAF downstream role as the clearer public statement of what that vocabulary adds
+- Unity Dynamics Framework as the most technical-facing but still underdetermined layer
+- Research Program as the methods burden
+- the New Zealand route as the first bounded empirical anchor
 
-This blocks two errors: **anti-scientific dismissal** and **instrumental naïveté** (treating instruments as if they accessed reality from nowhere).
+The default spine should exclude or quarantine, unless clearly typed and scoped:
 
-## 12. Interface discipline for interpretation
+- strong metaphysical closure
+- literal child-universe readings
+- synchronicity as evidence
+- AGI/final-theory inflation
+- any language implying that current route-local estimators already deliver universal predictive closure
 
-Interpretation is allowed but **typed** and **bounded**.
-
-**Allowed when:** a structural pattern is established; the move is **explicitly tagged** as interpretive; evidential force is not exaggerated; no hidden category shift.
-
-**Not allowed when:** salience is presented as causation; phenomenological meaning is treated as scientific proof; speculative vocabulary implies **completion**; metaphor becomes **silent ontology**.
-
-Especially careful with: subjectivity-like language, higher-order agency, recursive subfields, universe-level unity, synchronicity as evidence, consciousness attribution beyond evidence.
-
-## 13. Scope discipline in this package
-
-The package should preserve:
-
-- a domain-agnostic core
-- a bounded methods posture
-- bounded applications
-- explicit open items
-- restrained terminology
-
-It should not flatten speculative edges, operational details, and foundational claims into one undifferentiated voice.
-
-## 14. Default package spine
-
-**May include:** Structural Phenomenology as epistemic constraint; Informational Awareness Framework as structural/generative layer; Unity Dynamics as underdetermined hypothesis family; the bridge movement; weak naturalization; scale-sensitive unity-like organization; states/societies as first operational route.
-
-**Should exclude or quarantine** from the default spine unless clearly typed and scoped: universe-consciousness foregrounding; strong metaphysical closure; literal child-universe readings; synchronicity as evidence; AGI or final-theory inflation.
-
-This preserves legibility without pretending the broader conceptual space has been settled.
-
-## 15. Failure modes (full list)
+## 12. Failure modes
 
 The stack fails if it drifts into:
 
-1. **Category drift** — phenomenology, operations, and metaphysics confused.  
-2. **Ontological hardening** — modeling language read as literal final ontology.  
-3. **Epistemic inflation** — calibration or elegance mistaken for metaphysical certainty.  
-4. **Phenomenological collapse** — experience reduced to metrics.  
-5. **Instrumental naïveté** — instruments “outside” awareness.  
-6. **Interpretive smuggling** — meaning or synchronicity as causal evidence without operationalization.  
-7. **Falsifiability erosion** — everything fits post hoc; rejection space disappears.  
-8. **Scale confusion** — wrong **(τ, σ)** produces fake coherence/incoherence.  
-9. **Scope inflation** — universe-level or AGI completion claims imported too early for the stated context.  
-10. **README inflation** — entry document becomes a master theory.  
-11. **Publication-pressure drift** — packaging or audience pressure distorts framework architecture prematurely.  
-12. **Application inflation** — one bounded route treated as universal proof.  
-13. **Literature laundering** — citations imply more support than sources give.  
-14. **Domain collapse** — states/societies route mistaken for the entire framework.  
-15. **Infrastructure drift** — release, reference, or versioning rules silently ignored.
+1. category drift
+2. ontological hardening
+3. epistemic inflation
+4. phenomenological collapse
+5. instrumental naïveté
+6. interpretive smuggling
+7. falsifiability erosion
+8. scale confusion
+9. scope inflation
+10. README inflation
+11. application inflation
+12. literature laundering
+13. domain collapse
+14. infrastructure drift
 
-## 16. Package wording discipline
+## 13. Minimal working formulation
 
-Package wording should remain restrained and legible. Prefer unity-like language, explicit windows and scales, and honest limits without distorting dependence order.
-
-## 17. Minimal working formulation
-
-Awareness is given; distinctions appear; distinctions stabilize into patterns and structures; structures support models; validated models support science; stabilized science supports **minimal** classification. Phenomenology grounds; epistemology disciplines public knowledge; metaphysics stays **minimal**. Framework Interface keeps that movement **explicit**, **non-circular**, and **bounded**.
+Framework Interface is the bridge/control layer that keeps the stack explicit, non-circular, and bounded. It clarifies movement from givenness to model to validation, while preventing the three substantive layers from being collapsed into one voice or hardened into stronger ontology than the current package earns.

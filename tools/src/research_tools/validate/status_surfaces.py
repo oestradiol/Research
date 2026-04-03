@@ -12,13 +12,7 @@ from research_tools.reports.nz_summary import compute_route_summary
 VERSION_RE = re.compile(r'^version:\s*"([^"]+)"\s*$', re.MULTILINE)
 
 
-def _contains(
-    check_name: str,
-    path: Path,
-    fragment: str,
-    text: str,
-    message: str,
-) -> ValidationResult:
+def _contains(check_name: str, path: Path, fragment: str, text: str, message: str) -> ValidationResult:
     status = "pass" if fragment in text else "fail"
     return ValidationResult(
         check_name=check_name,
@@ -27,6 +21,18 @@ def _contains(
         path=str(path),
         expected=fragment if status == "fail" else None,
         found="missing" if status == "fail" else None,
+    )
+
+
+def _absent(check_name: str, path: Path, fragment: str, text: str, message: str) -> ValidationResult:
+    status = "pass" if fragment not in text else "fail"
+    return ValidationResult(
+        check_name=check_name,
+        status=status,
+        message=message if status == "pass" else f"{message} Forbidden fragment present.",
+        path=str(path),
+        expected=f"no '{fragment}'",
+        found=fragment if status == "fail" else "none",
     )
 
 
@@ -51,6 +57,9 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
     pending_inventory = paths.suf_root / "docs" / "pending-inventory.md"
     contribution_note = paths.suf_root / "docs" / "contribution-and-payoff-note.md"
     v1_bundle = paths.suf_root / "docs" / "v1-academic-bundle.md"
+    framework_overview = paths.suf_root / "docs" / "framework-overview.md"
+    how_to_read = paths.suf_root / "docs" / "how-to-read-the-framework.md"
+    interface_doc = paths.suf_root / "framework" / "framework-interface.md"
     publication_scope = paths.suf_root / "meta" / "publication-scope.md"
     roadmap = paths.suf_root / "ROADMAP.md"
     research_program = paths.suf_root / "framework" / "research-program.md"
@@ -59,150 +68,56 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         (
             "status-root-readme-main-state",
             root_readme,
-            (
-                f"Current `main` state: aligned with the hosted `{hosted_version}` "
-                "New Zealand monograph-baseline release."
-            ),
+            f"Current `main` state: aligned with the hosted `{hosted_version}` New Zealand monograph-baseline release.",
             "Umbrella README keeps the current release-point alignment explicit.",
-        ),
-        (
-            "status-root-readme-metrics",
-            root_readme,
-            (
-                f"The hosted `{hosted_version}` tag anchors the public citation, changelog, "
-                "and release-note surfaces. Current `main` is aligned with that same release "
-                f"point: a `{nz_summary.event_count}`-event New Zealand monograph-baseline "
-                f"route with a `{nz_summary.main_interval_count}`-event main interval, a "
-                f"`{taiwan_summary.event_count}`-event bounded Taiwan comparator, and the "
-                "same read-only validation layer carried forward under the new release line."
-            ),
-            "Umbrella README release-point metrics match the current package baseline.",
         ),
         (
             "status-suf-readme-metrics",
             suf_readme,
-            (
-                f"a `{nz_summary.event_count}`-event New Zealand public ledger with a "
-                f"`{nz_summary.main_interval_count}`-event main interval"
-            ),
+            f"a `{nz_summary.event_count}`-event New Zealand public ledger with a `{nz_summary.main_interval_count}`-event main interval",
             "SUF README exposes the current New Zealand baseline metrics.",
         ),
         (
             "status-suf-readme-taiwan",
             suf_readme,
-            (
-                f"a `{taiwan_summary.event_count}`-event bounded Taiwan comparator "
-                "with one conservative lag pair"
-            ),
+            f"a `{taiwan_summary.event_count}`-event bounded Taiwan comparator with one conservative lag pair",
             "SUF README exposes the current Taiwan comparator baseline.",
-        ),
-        (
-            "status-project-status-main-state",
-            project_status,
-            (
-                f"Current `main` is aligned with the hosted `{hosted_version}` "
-                "New Zealand monograph-baseline release for the public package."
-            ),
-            "Project status keeps the current release-point alignment explicit.",
-        ),
-        (
-            "status-project-status-metrics",
-            project_status,
-            (
-                f"The framework core is in place, the New Zealand route now includes a "
-                f"`{nz_summary.event_count}`-event public ledger with a "
-                f"`{nz_summary.main_interval_count}`-event main perturbation interval"
-            ),
-            "Project status metrics match the current route and comparator baseline.",
-        ),
-        (
-            "status-pending-inventory-metrics",
-            pending_inventory,
-            (
-                f"- a `{nz_summary.event_count}`-event New Zealand route with a "
-                f"`{nz_summary.main_interval_count}`-event main interval"
-            ),
-            "Pending inventory current-main summary matches the current New Zealand baseline.",
-        ),
-        (
-            "status-pending-inventory-taiwan",
-            pending_inventory,
-            f"- a `{taiwan_summary.event_count}`-event bounded Taiwan comparator",
-            "Pending inventory current-main summary matches the current Taiwan baseline.",
-        ),
-        (
-            "status-contribution-note-pi",
-            contribution_note,
-            (
-                "- public-information coordination receives "
-                f"`{nz_summary.public_information_receiving_count} / "
-                f"{nz_summary.event_count}` coded events"
-            ),
-            "Contribution note current public-information share matches the New Zealand ledger.",
-        ),
-        (
-            "status-contribution-note-taiwan",
-            contribution_note,
-            (
-                "- the current Taiwan bounded comparator also keeps "
-                "public-information coordination central rather than peripheral"
-            ),
-            "Contribution note reflects the current Taiwan comparator posture.",
         ),
         (
             "status-v1-bundle-metrics",
             v1_bundle,
-            (
-                f"The main empirical anchor is a New Zealand pandemic-coordination route with a "
-                f"`{nz_summary.event_count}`-event public ledger, a "
-                f"`{nz_summary.main_interval_count}`-event main perturbation interval"
-            ),
+            f"The main empirical anchor is a New Zealand pandemic-coordination route with a `{nz_summary.event_count}`-event public ledger, a `{nz_summary.main_interval_count}`-event main perturbation interval",
             "v1 academic bundle current New Zealand baseline matches the ledger.",
         ),
         (
             "status-v1-bundle-taiwan",
             v1_bundle,
-            (
-                "A bounded Taiwan comparator now adds a "
-                f"`{taiwan_summary.event_count}`-event archive-clean tranche under "
-                "the same source-admission rule."
-            ),
+            f"A bounded Taiwan comparator now adds a `{taiwan_summary.event_count}`-event archive-clean tranche under the same source-admission rule.",
             "v1 academic bundle current Taiwan baseline matches the comparator ledger.",
         ),
         (
-            "status-publication-scope-nz",
-            publication_scope,
-            (
-                "- the New Zealand demonstrated route with a "
-                f"`{nz_summary.event_count}`-event public ledger, "
-                f"a `{nz_summary.main_interval_count}`-event main interval, "
-                "a chapter-ready monograph baseline, "
-                "first bounded readouts, "
-                "and a `14`-check robustness note"
-            ),
-            "Publication scope current New Zealand baseline matches the ledger.",
+            "status-interface-bridge-control",
+            interface_doc,
+            "Framework Interface is the **bridge/control** layer of Structured Unity Framework.",
+            "Framework Interface explicitly uses bridge/control wording.",
         ),
         (
-            "status-publication-scope-taiwan",
-            publication_scope,
-            (
-                f"- the bounded Taiwan comparator with a "
-                f"`{taiwan_summary.event_count}`-event ledger and one conservative "
-                "lag pair"
-            ),
-            "Publication scope current Taiwan baseline matches the comparator ledger.",
+            "status-overview-layer-framing",
+            framework_overview,
+            "three substantive layers plus one bridge/control layer",
+            "Framework overview reflects the updated layer framing.",
         ),
         (
-            "status-roadmap-main-state",
-            roadmap,
-            (
-                f"Current `main` is aligned with the hosted `{hosted_version}` "
-                "New Zealand monograph-baseline release for the same public package line."
-            ),
-            (
-                "Roadmap keeps the current release-point status synchronized with the "
-                "repo-complete state."
-            ),
+            "status-how-to-read-sp-link",
+            how_to_read,
+            "framework/structural-phenomenology-downstream-role.md",
+            "Reading path includes the Structural Phenomenology downstream-role note.",
+        ),
+        (
+            "status-how-to-read-bounded-gain-link",
+            how_to_read,
+            "bounded-gain-against-simpler-readings.md",
+            "Reading path includes the bounded-gain note.",
         ),
         (
             "status-research-program-open-work",
@@ -212,8 +127,17 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ),
     ]
 
+    forbidden_checks = [
+        ("status-readme-no-four-coordinated", suf_readme, "four coordinated theory layers", "SUF README no longer presents four coordinated theory layers."),
+        ("status-overview-no-four-theory-layers", framework_overview, "The four theory layers", "Framework overview no longer presents four peer theory layers."),
+        ("status-v1-no-four-coordinated", v1_bundle, "four coordinated theory layers", "v1 academic bundle no longer presents four coordinated theory layers."),
+    ]
+
     results: list[ValidationResult] = []
     for check_name, path, fragment, message in checks:
         text = path.read_text(encoding="utf-8")
         results.append(_contains(check_name, path, fragment, text, message))
+    for check_name, path, fragment, message in forbidden_checks:
+        text = path.read_text(encoding="utf-8")
+        results.append(_absent(check_name, path, fragment, text, message))
     return results
