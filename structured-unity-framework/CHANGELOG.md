@@ -13,7 +13,7 @@ First publication-ready bounded hosted release of Structured Unity Framework.
 - package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
 - umbrella tag: [`v1.0.0`](https://github.com/oestradiol/Research/releases/tag/v1.0.0)
 - release notes: [`releases/v1.0.0.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.0.0.md)
-- freeze commit: [`648ded6`](https://github.com/oestradiol/Research/commit/648ded679a91f97dfd3b4d564384a8bd2dcc277f)
+- freeze commit: [`bcab522`](https://github.com/oestradiol/Research/commit/bcab5227a5ad53c26b68af6f55b0bc48a6cb4f1b)
 
 ### Included in this snapshot
 
@@ -27,7 +27,7 @@ First publication-ready bounded hosted release of Structured Unity Framework.
 
 ## `v0.1.0` - 2026-04-01
 
-Local research-phase snapshot for the public package in this tree. Hosted grounding for this package entry begins at the repository initialization commit [`9d059fe`](https://github.com/oestradiol/Research/commit/9d059fe0d6e54c56522008ba6f960924d1c77916), even though the package snapshot date remains `2026-04-01`.
+Local research-phase snapshot for the public package in this tree. Hosted grounding for this package entry begins at the repository initialization commit [`b83d7c0`](https://github.com/oestradiol/Research/commit/b83d7c0ca7458311b91bb2d25434ef4be4051619), even though the package snapshot date remains `2026-04-01`.
 
 ### Included in this snapshot
 
