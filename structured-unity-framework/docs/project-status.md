@@ -100,7 +100,18 @@ That means the active empirical core is now carried forward into a stronger New 
 
 The public atlas is active and intentionally targeted. It maps plausible next domains, comparative directions, and a small frontier set with status labels and bounded starter anchors.
 
-## 10. Cross-links
+## 10. Lessons from the current refactor pass
+
+This branch clarified four lessons that should remain explicit in later control work:
+
+- Taiwan wording should stay disciplined: the live burden is an active **chapter-readiness pass**, not a silently completed chapter, unless later evidence actually justifies stronger wording.
+- Framework Interface should remain the **bridge/control layer**, not drift back into a fourth peer theory-layer voice.
+- Knowledge should stay explicit about SUF role and handoff when SUF is foregrounded, especially in deepened hub notes.
+- the validator layer is now a **read-only drift detector** for tracked wording, link/status consistency, Knowledge-role and handoff discipline, and selected overclaim phrases; it is not a truth adjudicator, not deep semantic review, and not a replacement for human judgment.
+
+These lessons are part of the current control state, not only branch-local history.
+
+## 11. Cross-links
 
 - navigation: `docs/INDEX.md`
 - boundaries: `docs/claims-and-boundaries.md`
