@@ -20,6 +20,8 @@ Current snapshot:
 - typed relation vocabulary
 - interconnected study routes
 
+Hosted package URL: [oestradiol/Research/tree/main/knowledge](https://github.com/oestradiol/Research/tree/main/knowledge)
+
 This is the first bounded public release of the Knowledge package inside the umbrella repository. It is stable and navigable, but it is not the main academic claim of the repository. It is included in the public release as supporting research infrastructure rather than as the principal academic argument.
 
 ## 2. How to use it

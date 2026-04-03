@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note is the public academic front door for the bounded `v1.0.0` release of Structured Unity Framework.
+This note is the public academic front door for the hosted bounded `v1.0.0` release of Structured Unity Framework.
 
 ## Abstract
 
@@ -43,7 +43,6 @@ Do not read it as:
 - This release does not claim a closed empirical result.
 - This release does not treat one demonstrated route as validation across every mapped domain.
 - This release does not claim final ontology from the theory stack or the frontier notes.
-- This release does not complete remote hosting, tag publishing, or hosted release packaging.
 
 ## Where objections and limits are handled
 
@@ -54,4 +53,4 @@ Do not read it as:
 
 ## Status
 
-`public academic front door`
+`public academic front door for hosted v1.0.0`

@@ -2,18 +2,18 @@
 
 This file is future-facing only. It tracks where the public package should move next. For current state, use `docs/project-status.md`. For deferred or still-open items, use `docs/pending-inventory.md`.
 
-## 1. Current local `v1.0.0` phase
+## 1. Current hosted `v1.0.0` phase
 
-The package now exists as a bounded local `v1.0.0` public release. The next steps are no longer about inventing the structure from scratch; they are about publication-launch mechanics, empirical deepening, comparative hardening, and later remote release work.
+The package now exists as a bounded hosted `v1.0.0` public release. The next steps are no longer about inventing the structure from scratch or finishing launch mechanics; they are about empirical deepening, comparative hardening, and later versioned expansion.
 
-## 2. Publication-launch preparation
+## 2. Hosted publication mechanics completed
 
-Next actionable tranche: complete the public-launch mechanics without changing the bounded `v1.0.0` release type.
+Completed without changing the bounded `v1.0.0` release type:
 
-- create the public remote / hosting surface
-- add hosted URLs to citation and README surfaces
-- ground changelog history to hosted version history
-- prepare the first tagged release and release notes
+- public remote / hosting surface
+- hosted URLs in citation and README surfaces
+- changelog grounding to hosted version history
+- first tag preparation and repo-local release notes
 
 ## 3. Post-launch empirical hardening
 
@@ -47,7 +47,7 @@ Next actionable tranche: complete the public-launch mechanics without changing t
 
 ## 6. Longer-horizon versioning
 
-- treat `1.0.0` as the first bounded publication-ready local release, not as universal proof
+- treat `1.0.0` as the first bounded publication-ready hosted release, not as universal proof
 - use later `1.x` releases for empirical deepening, comparative hardening, and reproducibility expansion
 - reserve larger version jumps for real architectural or scope changes rather than routine route growth
 

@@ -2,25 +2,18 @@
 
 This file records what remains open or intentionally deferred. For the current state, use `docs/project-status.md`. For sequencing, use `ROADMAP.md`.
 
-Local git initialization, licensing, maintainer metadata, umbrella-repo structure, and local changelog / citation surfaces are already complete. This file now functions as the ordered publication-prep and post-launch queue for the public package.
+Local git initialization, licensing, maintainer metadata, umbrella-repo structure, hosted remote setup, hosted changelog grounding, and release-note preparation are already complete. This file now functions as the post-launch queue for the public package.
 
-## A. Publication-launch blockers
+## A. No remaining publication-launch blockers
 
-1. `launch blocker` Create the public remote / hosting surface.
-   Why it matters: the current `v1.0.0` is a clean local launch candidate, but it is not yet publicly reachable.
-   When done, update: `Research/README.md`, package README files, and citation surfaces with hosted links where appropriate.
+The hosted `v1.0.0` release now has:
 
-2. `launch blocker` Add hosted package URLs to citation and README surfaces.
-   Why it matters: the public package should point to stable hosted locations rather than only local-relative assumptions.
-   When done, update: `Research/CITATION.cff`, package `CITATION.cff` files, and entry README surfaces.
+- a public remote at `https://github.com/oestradiol/Research`
+- hosted README and citation URLs for the umbrella repo and public packages
+- changelog entries grounded to hosted commit and tag surfaces
+- repo-local release notes at `releases/v1.0.0.md`
 
-3. `launch blocker` Ground `CHANGELOG.md` to hosted git history.
-   Why it matters: the release snapshot should resolve to hosted commits and tags once the remote exists.
-   When done, update: `Research/CHANGELOG.md`, package changelogs, and any release-facing references to version history.
-
-4. `launch blocker` Prepare the first tagged release and release notes.
-   Why it matters: publication mechanics should end in one explicit launch artifact rather than only a local commit.
-   When done, update: release-note surfaces outside the repo if used, and the changelog if tag metadata needs to be reflected.
+No unresolved publication-launch blockers remain inside the current repository state.
 
 ## B. Post-launch `v1.x` empirical hardening
 

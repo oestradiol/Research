@@ -4,7 +4,7 @@
 
 **Structured Unity Framework (SUF)** is a layered, documentation-first research framework for describing **unity-like organization** in complex systems: how parts become integrated, how dynamics stay aligned through time, how delays shape what can be observed, and how those factors combine at explicit scales and time windows.
 
-This directory is the first **publication-ready bounded public release** of the framework. It is readable, bounded, and structured for academic use. It is **not** a claim of universal proof, a closed empirical report, or a finished remote publication workflow.
+This directory is the first **publication-ready bounded public release** of the framework. It is readable, bounded, and structured for academic use. It is **not** a claim of universal proof, a closed empirical report, or a completed empirical monograph.
 
 It is also meant to be usable by careful human readers, reasoning agents, and human assistants working in support roles. That includes accessibility-oriented use where a person benefits from guided navigation, note mediation, or collaborative reading support.
 
@@ -22,17 +22,19 @@ It is also meant to be usable by careful human readers, reasoning agents, and hu
 - present the framework as complete across all domains
 - treat the New Zealand route as proof of the whole stack
 - replace peer review or a full empirical implementation
-- imply that publication-finalization work has already happened
+- imply that hosted publication mechanics settle the empirical burden
 
 ## 3. Current package posture
 
 **Current snapshot:** **`v1.0.0`** dated **2026-04-02**.
 
-This label names the current local bounded public release in this tree: a package with active methods, a demonstrated route, a bounded comparator, a locked payoff sentence, and a targeted atlas. It is not a finished remote release.
+Hosted package URL: [oestradiol/Research/tree/main/structured-unity-framework](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
+
+This label names the current hosted bounded public release in this tree: a package with active methods, a demonstrated route, a bounded comparator, a locked payoff sentence, and a targeted atlas.
 
 **Stable now:** four-layer architecture; weak naturalization; claim-type discipline; applications atlas split; a `35`-event New Zealand seed ledger with a `27`-event main interval; a first route-local estimator implementation; a `14`-check robustness pass; a `12`-event Taiwan starter comparator with one conservative lag pair; a locked public payoff sentence; a dedicated IAF downstream-role note; and standard plus extended reference tiers.
 
-**Still open:** fuller corpus completeness, deeper ledger coverage, further estimator and robustness refinement, deeper Taiwan comparative execution beyond the current starter tranche, later comparator execution beyond Taiwan, hosted package URLs, remote-grounded changelog history, and first tagged release publishing.
+**Still open:** fuller corpus completeness, deeper ledger coverage, further estimator and robustness refinement, deeper Taiwan comparative execution beyond the current starter tranche, and later comparator execution beyond Taiwan.
 
 ## 4. Reading path
 
@@ -93,7 +95,9 @@ Use these public status files by role:
 
 ## 9. Citation note
 
-Use `CITATION.cff` for the title, version, and date of this local snapshot.
+Use `CITATION.cff` for the title, version, and date of this hosted snapshot.
+
+Hosted package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
 
 Use `references/source-registry.md` for canonical public source metadata and durable links.
 
@@ -101,7 +105,7 @@ Use `references/citation-and-archival-policy.md` for the public DOI-first / orig
 
 Local maintainer metadata, licensing, and citation scaffolding are already in place.
 
-Hosted package URLs, remote-grounded changelog history, and first release packaging remain deferred until first upload.
+Hosted package URL, changelog grounding, and repo-level release notes now resolve through the public `Research` repository.
 
 Public prose also follows an explicit anti-inflation rule: critique should focus on argument quality, source quality, unsupported generalization, and rhetorical overreach rather than on whether a text merely "sounds like AI."
 
@@ -127,4 +131,4 @@ Use SUF when you want the bounded framework package and demonstrated-route disci
 
 For pedagogical or self-study use, see [Studying and Teaching with SUF](../knowledge/studying-and-teaching-with-suf.md).
 
-These are relative links inside the same research repository. If the projects are split into separate remotes later, replace them with hosted URLs.
+These are relative links inside the same hosted research repository. If the projects are split into separate remotes later, replace them with dedicated hosted URLs.

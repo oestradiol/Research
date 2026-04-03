@@ -17,7 +17,7 @@ ROOT_README_SNAPSHOT_RE = re.compile(
 )
 SUF_README_SNAPSHOT_RE = ROOT_README_SNAPSHOT_RE
 SUF_STATUS_RE = re.compile(
-    r"\*\*`([^`]+)`\*\* names the dated local snapshot in this tree \(\*\*([0-9-]+)\*\*\)\."
+    r"\*\*`([^`]+)`\*\* names the dated hosted snapshot in this tree \(\*\*([0-9-]+)\*\*\)\."
 )
 KNOWLEDGE_README_SNAPSHOT_RE = re.compile(r"- `([^`]+)` dated `([^`]+)`")
 TOOLS_README_SNAPSHOT_RE = re.compile(r"Current snapshot: `([^`]+)` dated `([^`]+)`\.")

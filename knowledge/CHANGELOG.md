@@ -4,6 +4,13 @@
 
 First bounded public release of Knowledge inside the umbrella `Research/` repository.
 
+### Hosted history
+
+- package URL: [knowledge/](https://github.com/oestradiol/Research/tree/main/knowledge)
+- umbrella tag: [`v1.0.0`](https://github.com/oestradiol/Research/releases/tag/v1.0.0)
+- release notes: [`releases/v1.0.0.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.0.0.md)
+- freeze commit: [`648ded6`](https://github.com/oestradiol/Research/commit/648ded679a91f97dfd3b4d564384a8bd2dcc277f)
+
 ### Included in this snapshot
 
 - stable sibling-atlas posture relative to SUF
@@ -14,6 +21,8 @@ First bounded public release of Knowledge inside the umbrella `Research/` reposi
 ## `v0.1.0` - 2026-04-02
 
 First public Knowledge snapshot in this tree.
+
+Hosted grounding for this package entry begins at the repository initialization commit [`9d059fe`](https://github.com/oestradiol/Research/commit/9d059fe0d6e54c56522008ba6f960924d1c77916).
 
 ### Included in this snapshot
 

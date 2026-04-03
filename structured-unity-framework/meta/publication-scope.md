@@ -16,12 +16,12 @@ Structured Unity Framework is presented here as a first publication-ready bounde
 - standard and extended reading lists for the active package
 - the locked payoff sentence and the v1 academic bundle note
 
-## 3. What is intentionally deferred
+## 3. What is now complete for hosted publication
 
-- remote hosting and public release mechanics
-- hosted package URLs and cross-package remote links
-- changelog grounding to remote git history
-- first tagged release, release notes, and final release packaging
+- public remote / hosting surface at `oestradiol/Research`
+- hosted package URLs and cross-package repository links
+- changelog grounding to hosted git history
+- first tagged release preparation and repo-local release notes
 
 ## 4. What remains open inside the active `v1.0.0` scope
 
@@ -38,8 +38,8 @@ That material is expected to land in later versions, route supplements, or more 
 - that every mapped domain already validates SUF
 - that one demonstrated route proves the framework universally
 - that operational summaries are identical with phenomenological givenness
-- that publication-finalization work has already happened
+- that hosted publication mechanics settle the empirical burden
 
 ## 7. Versioning stance
 
-`v1.0.0` here means the first publication-ready bounded local release. It marks a stable public architecture, a real demonstrated route, a bounded comparator, and reproducibility support. It does **not** mean universal validation, remote-release completion, or closed empirical finality.
+`v1.0.0` here means the first publication-ready bounded hosted release. It marks a stable public architecture, a real demonstrated route, a bounded comparator, and reproducibility support. It does **not** mean universal validation or closed empirical finality.

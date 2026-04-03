@@ -10,6 +10,15 @@ shared tooling package:
 
 Current snapshot: **`v1.0.0`** dated **2026-04-02**.
 
+Hosted repository: [oestradiol/Research](https://github.com/oestradiol/Research)
+
+Hosted package URLs:
+
+- [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
+- [knowledge/](https://github.com/oestradiol/Research/tree/main/knowledge)
+- [tools/](https://github.com/oestradiol/Research/tree/main/tools)
+- [releases/v1.0.0.md](https://github.com/oestradiol/Research/blob/main/releases/v1.0.0.md)
+
 This is the first bounded public release of the full `Research/` repository:
 
 - [structured-unity-framework/](structured-unity-framework/README.md) is the academic core
@@ -18,7 +27,7 @@ This is the first bounded public release of the full `Research/` repository:
 
 This release is publication-ready in a bounded sense. It is **not** a claim of universal proof, final ontology, or closed empirical completion.
 
-The current launch candidate is this local `v1.0.0` snapshot. Next publication-prep steps are limited to public-release mechanics and final handoff clarity, not to reclassifying the framework as incomplete.
+The hosted `v1.0.0` release now anchors the public citation, changelog, and release-note surfaces. Next steps are post-launch empirical and comparative work, not publication-launch mechanics.
 
 For current state use `structured-unity-framework/docs/project-status.md`.
 For open work use `structured-unity-framework/docs/pending-inventory.md`.

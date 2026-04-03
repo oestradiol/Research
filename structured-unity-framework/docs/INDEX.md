@@ -96,7 +96,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 | File | Role |
 |------|------|
 | `README.md` | Project definition, reading path, architecture, current package posture |
-| `CHANGELOG.md` | Dated local change history |
+| `CHANGELOG.md` | Dated hosted change history |
 | `ROADMAP.md` | Future-facing priorities |
 | `CONTRIBUTING.md` | How to propose edits safely |
 | `LICENSE` | License text |

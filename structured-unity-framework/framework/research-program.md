@@ -17,7 +17,7 @@ The package is now a **bounded public `v1.0.0` release** rather than only a draf
 
 The New Zealand route now also carries a route-local estimator implementation and a source-admission rule that accepts new official events only when both the live source and a fixed archive are verified.
 
-Publication-finalization work is still deferred. Local metadata, licensing, and package scaffolding are already in place; remote hosting, hosted URLs, and first release packaging remain outside the scope of this document.
+Hosted publication mechanics are now complete. Local metadata, licensing, package scaffolding, hosted URLs, and first release packaging are already in place; the remaining burden is empirical and methodological rather than launch setup.
 
 ## 3. First active route
 

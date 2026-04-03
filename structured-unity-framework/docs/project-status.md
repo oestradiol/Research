@@ -12,19 +12,19 @@ Use the public status files by role:
 
 ## 2. Current package posture
 
-**`v1.0.0`** names the dated local snapshot in this tree (**2026-04-02**).
+**`v1.0.0`** names the dated hosted snapshot in this tree (**2026-04-02**).
 
 The package now reads as the first **publication-ready bounded public release**: the core framework is in place, the New Zealand route now includes first-pass corpus and event-ledger execution, a `35`-event seed ledger, a `27`-event main perturbation interval, a first bounded readout, a first dependency graph, first bounded `I`, `C`, and `L` passes, a first conjoint window comparison, a route-local estimator implementation, a `14`-check sensitivity/null note, a locked payoff sentence, a dedicated IAF downstream-role note, and a bounded Taiwan comparator. The applications atlas is live, and the public reference layer includes a canonical source registry, citation policy, materially populated reading lists, and fixed-archive coverage for the current direct DPMC and Police route sources that carry the implementation-chain work. A shared tooling package now exists at `../tools/` for read-only validation and report generation against the public route surfaces.
 
-Local git initialization, licensing, maintainer metadata, and umbrella-repo placement are already complete. What remains unfinished is remote-release work, not basic package setup.
+Local git initialization, licensing, maintainer metadata, and umbrella-repo placement are already complete. Public remote creation, hosted URLs, changelog grounding, and the first tag/release-note package are now complete. What remains open is empirical, comparative, and later reproducibility deepening rather than launch mechanics.
 
-It is still **not** a finished remote release, **not** a claim of universal proof, and **not** a closed empirical result.
+It is still **not** a claim of universal proof and **not** a closed empirical result.
 
 ## 3. Publication-prep status
 
 **Already locked**
 
-- bounded local `v1.0.0` release framing
+- bounded hosted `v1.0.0` release framing
 - public architecture and package boundaries
 - New Zealand `35`-event route baseline with `27`-event main interval
 - bounded Taiwan `12`-event comparator starter with one conservative lag pair
@@ -32,12 +32,12 @@ It is still **not** a finished remote release, **not** a claim of universal proo
 - public IAF downstream-role clarification
 - read-only tooling gate with release-readiness reporting
 
-**Still open before public launch**
+**Hosted launch now complete**
 
-- remote creation and hosted URLs
-- changelog grounding to hosted history
-- tag and release-note preparation
-- one final public wording review at publication time to ensure hosted links replace local-only assumptions
+- public remote / hosting surface at `oestradiol/Research`
+- hosted README and citation URLs for the umbrella repo and public packages
+- changelog grounding to hosted commits and the umbrella `v1.0.0` tag
+- repo-local release notes under `releases/v1.0.0.md`
 
 **Explicitly deferred**
 
@@ -53,7 +53,7 @@ This file is the canonical current-state surface for SUF.
 Future execution should use the public status surfaces by role:
 
 - this file = exact current baseline and locked/provisional split
-- `docs/pending-inventory.md` = ordered open work and launch blockers
+- `docs/pending-inventory.md` = ordered open work and any later launch-adjacent housekeeping
 - `ROADMAP.md` = sequence after the current baseline
 - `docs/v1-academic-bundle.md` = public academic front door
 
@@ -83,7 +83,6 @@ That claim is now supported by a denser New Zealand route and a bounded Taiwan c
 - further stress-testing and refinement of the current route-local estimator layer, the first bounded `I`, `C`, and `L` passes, the first conjoint window comparison, and the first bounded sensitivity/null note
 - deeper Taiwan comparative execution beyond the current starter tranche
 - further pressure-testing of the locked payoff sentence against deeper New Zealand and Taiwan execution
-- hosted package URLs, remote changelog grounding, and first tagged release packaging
 
 ## 8. Current route status
 

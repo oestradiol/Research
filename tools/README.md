@@ -6,6 +6,8 @@ This package provides reproducible, read-only research-support tooling for the `
 
 Current snapshot: `1.0.0` dated `2026-04-02`.
 
+Hosted package URL: [oestradiol/Research/tree/main/tools](https://github.com/oestradiol/Research/tree/main/tools)
+
 The current scope covers Structured Unity Framework route and source work, Knowledge package integrity, version-surface consistency, and repository-wide Markdown link validation across `Research/`. It validates current public research surfaces and generates deterministic read-only reports for human review. It is part of the publication-prep trust layer, not an adjudicator of the framework's truth.
 
 This package does **not**:
