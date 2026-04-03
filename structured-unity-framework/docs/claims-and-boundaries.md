@@ -10,6 +10,7 @@ This package mixes phenomenological, structural, operational, and interpretive v
 - weak naturalization is coherent: phenomenology can constrain models without being reduced to metrics
 - scale and window indexing are methodologically necessary for unity-like claims
 - a bounded research-ready program can be built for states-and-societies coordination under perturbation
+- the New Zealand route can now stand as a monograph-baseline empirical core inside the locked windows
 - a route-local estimator layer can be stated without pretending to solve domain-general thresholds
 - a targeted public atlas can map plausible next routes without claiming validation across all domains
 
@@ -18,8 +19,8 @@ This package mixes phenomenological, structural, operational, and interpretive v
 - specific functional forms linking `I`, `C`, and `L` to `U`
 - domain-general thresholds for unity-like organization across all systems
 - domain-general estimator thresholds beyond the current route-local implementation
-- full corpus completion for the New Zealand route
-- any later comparative result beyond the current New Zealand baseline
+- any strong multi-case closure beyond the current New Zealand core plus bounded Taiwan comparator
+- any later comparative result that depends on a real Australia route
 
 ## 4. What remains interpretive
 
@@ -34,8 +35,8 @@ See `project-status.md`, `pending-inventory.md`, `contribution-and-payoff-note.m
 These are known live limits, not unnoticed weaknesses:
 
 - estimator underdetermination beyond the current route-local implementation
-- limited comparator depth, especially on the Taiwan side
-- route-to-framework generalization risk from one demonstrated route
+- limited comparator depth, especially on the Taiwan side and the still-unbuilt Australia route
+- route-to-framework generalization risk from one monograph-baseline route plus one bounded comparator
 - still-thin direct comparison against nearby alternative frameworks
 
 ## 6. What the framework does not claim

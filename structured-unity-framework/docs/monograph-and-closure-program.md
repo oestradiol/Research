@@ -12,6 +12,12 @@ It defines the finish line, phase order, required artifacts, default comparator 
 
 Use this file when planning later execution. Use [project-status.md](project-status.md) for current package posture, [pending-inventory.md](pending-inventory.md) for queued later work, and [../ROADMAP.md](../ROADMAP.md) for the compressed future-facing summary.
 
+## Current phase state
+
+- Phase 0 completed in the hosted `v1.0.1` baseline.
+- Phase 1 completed in the hosted `v1.1.0` release.
+- The next live phase is `v1.2` Taiwan completion.
+
 ## 1. Finish line
 
 The long-range finish line is a **monograph-grade repo**, not merely a denser demonstrated route and not necessarily a journal-style manuscript package.
@@ -46,7 +52,7 @@ Locked planning defaults:
 - monograph shape = New Zealand core plus comparator chapters
 - comparator order = Taiwan, then Australia, then later optional comparator only if explicitly reopened
 - finish line = monograph-grade repo rather than submission-form manuscript by default
-- versioning = keep package metadata at `1.0.1` until a later hosted tag is actually cut; use `Unreleased` changelog sections meanwhile
+- versioning = keep package metadata at `1.1.0` until a later hosted tag is actually cut; use `Unreleased` changelog sections meanwhile
 
 Explicit non-goals:
 
@@ -265,8 +271,8 @@ Future agents should follow this order:
 
 Future agents must keep these distinctions explicit:
 
-- hosted `v1.0.1` = dated public release anchor
-- current `main` = aligned with the hosted `v1.0.1` release point
+- hosted `v1.1.0` = dated public release anchor
+- current `main` = aligned with the hosted `v1.1.0` release point
 - later `1.x` work = deliberate monograph and closure reopening, not unfinished launch mechanics
 
 ## Status

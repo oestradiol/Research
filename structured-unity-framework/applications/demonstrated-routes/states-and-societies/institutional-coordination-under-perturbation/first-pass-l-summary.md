@@ -4,11 +4,11 @@
 
 This file is the first bounded latency summary for the New Zealand demonstrated route.
 
-It uses only date-grain pairings that are already visible in the seed ledger. The point is not to force precision. The point is to see whether the route already shows meaningful non-zero lags between major coordination decisions and their implementation.
+It uses only date-grain pairings that are already visible in the public baseline ledger. The point is not to force precision. The point is to see whether the route already shows meaningful non-zero lags between major coordination decisions and their implementation.
 
 ## Rule for this pass
 
-This `L` summary uses only clearly paired date-grain transitions that the current seed can support publicly.
+This `L` summary uses only clearly paired date-grain transitions that the current public baseline can support publicly.
 
 Confirmed staged pairs in the seed:
 

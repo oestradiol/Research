@@ -17,11 +17,15 @@ Unstable candidates stay here and do not enter the ledger.
 
 | Candidate source | Family | Event or use target | Live URL | Fixed archive | Decision | Reason |
 |---|---|---|---|---|---|---|
-| `src-dpmc-stranded-people-2020` | `D-family D/E bridge` | `2020-03-31` stranded-people coordination plan | `verified` | `verified` | `accepted` | direct Cabinet-minute anchor for stranded-people coordination |
-| `src-dpmc-quarantine-managed-isolation-welfare-2020` | `D-family D/E bridge` | `2020-04-02` welfare of people in quarantine and managed isolation | `verified` | `verified` | `accepted` | direct welfare and managed-isolation coordination anchor |
-| `src-dpmc-cdem-powers-guidance-2020` | `D-family D` | `2020-04-09` CDEM key-powers guidance | `verified` | `verified` | `accepted` | direct emergency-powers and authority-routing anchor |
-| `src-dpmc-review-level4-status-2020` | `D-family D` | `2020-04-14` Level 4 review preparation | `verified` | `verified` | `accepted` | direct review-preparation anchor for the easing chain |
-| `src-dpmc-local-authority-welfare-support-2020` | `D-family D` | `2020-04-21` widened local-authority/CDEM welfare support | `verified` | `verified` | `accepted` | direct local-authority and CDEM implementation-support anchor |
+| `src-dpmc-stranded-people-2020` | `D-family D/E bridge` | `2020-03-31` stranded-people coordination plan | `verified` | `verified` | `accepted and coded` | direct Cabinet-minute anchor promoted into the public ledger |
+| `src-dpmc-national-action-plan-v2-2020` | `D-family A/D bridge` | `2020-04-01` National Action Plan 2.0 architecture surface | `verified` | `verified` | `accepted and coded` | direct action-plan anchor promoted to ground the April 1 architecture event directly in DPMC material |
+| `src-dpmc-quarantine-managed-isolation-welfare-2020` | `D-family D/E bridge` | `2020-04-02` welfare of people in quarantine and managed isolation | `verified` | `verified` | `accepted and coded` | direct welfare and managed-isolation coordination anchor promoted into the public ledger |
+| `src-dpmc-all-of-government-system-2020` | `D-family A` | response operating-system architecture and reporting structure | `verified` | `verified` | `accepted` | promoted as a direct DPMC architecture surface for the monograph-baseline chapter set |
+| `src-dpmc-public-information-2020` | `D-family D/E bridge` | public-information coordination role surface | `verified` | `verified` | `accepted` | promoted as a direct DPMC public-information coordination anchor for the monograph-baseline chapter set |
+| `src-dpmc-cdem-powers-guidance-2020` | `D-family D` | `2020-04-09` CDEM key-powers guidance | `verified` | `verified` | `accepted and coded` | direct emergency-powers and authority-routing anchor promoted into the public ledger |
+| `src-dpmc-review-level4-status-2020` | `D-family D` | `2020-04-14` Level 4 review preparation | `verified` | `verified` | `accepted and coded` | direct review-preparation anchor for the easing chain promoted into the public ledger |
+| `src-dpmc-review-alert-level4-paper-minute-2020` | `D-family D` | `2020-04-20` review of Alert Level 4 | `verified` | `verified` | `accepted and coded` | original PDF now has a fixed archive; promoted to close the remaining late-transition Level 4 review gap |
+| `src-dpmc-local-authority-welfare-support-2020` | `D-family D` | `2020-04-21` widened local-authority/CDEM welfare support | `verified` | `verified` | `accepted and coded` | direct local-authority and CDEM implementation-support anchor promoted into the public ledger |
 | `src-dpmc-national-transition-period-2020` | `D-family D` | `2020-05-12` Comparator B transition-period planning | `verified` | `verified` | `accepted and coded` | durable direct transition-period planning anchor now promoted into the ledger |
 | `src-police-level-3-following-rules-2020` | `D-family E` | `2020-04-28` Level 3 compliance continuity | `verified` | `verified` | `accepted and coded` | fixed archive confirmed; direct Level 3 compliance-continuity page promoted into the ledger |
 | `src-police-covid-major-events-2020` | `D-family E` | `2020-05-01` and `2020-05-08` Level 3 continuity chronology | `verified` | `verified` | `accepted and coded` | exact-date official Police chronology page now used for late-Level-3 continuity events |
@@ -29,23 +33,26 @@ Unstable candidates stay here and do not enter the ledger.
 | `src-dpmc-preparing-review-level3-status-2020` | `D-family D` | `2020-05-04` review-preparation for Level 3 status | `verified` | `verified` | `accepted and coded` | promoted into the late main-interval ledger to strengthen the Level 3 to Level 2 review-preparation chain |
 | `src-dpmc-preparing-for-alert-level-2-2020` | `D-family D` | `2020-05-06` Alert Level 2 preparation | `verified` | `verified` | `accepted and coded` | exact fixed archive confirmed; promoted as the final late-transition DPMC preparation anchor in the v1 pass |
 | `src-dpmc-review-alert-level3-2020` | `D-family D` | `2020-05-11` review of Alert Level 3 | `verified` | `verified` | `accepted and coded` | promoted into the comparator-boundary ledger so the Level 2 shift is not carried only by speeches and legal handoff |
-| `src-dpmc-review-alert-level4-paper-minute-2020` | `D-family D` | `2020-04-20` review of Alert Level 4 | `not promoted` | `not verified` | `rejected for now` | save attempt on the migrated PDF path did not yield a fixed archive |
 | `src-dpmc-alert-level-framework-details-2020` | `D-family D` | `2020-04-15` Levels 1-3 details and implementation | `verified` | `verified under promoted id` | `superseded` | promoted publicly as `src-dpmc-alert-level-implementation-2020` |
 | `src-dpmc-national-transition-period-migrated-path-2020` | `D-family D` | `2020-05-12` national transition period | `verified` | `not verified` | `replaced` | migrated-path save failed; replaced by the original 2020 release-path source above |
 
 ## Current admission result
 
-This tranche now resolves and promotes the remaining late-transition DPMC PDFs that were previously held after the bounded `v1.0.0` freeze pass.
+This tranche now resolves the remaining high-priority New Zealand official queue inside the locked windows.
 
-That is enough to:
+It now does three things directly:
 
-- deepen late-Level-3 authority routing and Level 3 review preparation without weakening the archive rule
-- make the Comparator B transition chain less speech-dependent
-- close the earlier late-transition hold state for the active New Zealand route
+- close the earlier late-transition Level 4 review hold now that a fixed archive exists for the original PDF
+- ground the `2020-04-01` action-plan architecture event directly in DPMC material rather than only retrospective oversight sources
+- promote direct DPMC architecture and public-information operating notes for the monograph-baseline New Zealand chapter set
+
+No unresolved high-priority New Zealand candidate now remains in the current locked-window queue.
+
+Later additions can stay lower-priority unless the route is deliberately reopened beyond the current baseline for deeper briefing, public-information, or post-window expansion.
 
 ## Status
 
-`active discovery control log`
+`monograph-baseline discovery control log`
 
 ## Taiwan comparator log
 

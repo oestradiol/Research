@@ -28,7 +28,7 @@ These are route-support proxies, not final estimator choices.
 
 Interpretation:
 
-The current seed does **not** produce an all-to-all mesh. It produces a selective but non-trivial directed network. That is consistent with a bounded institutional coordination system rather than a flat field of disconnected actors.
+The current public baseline does **not** produce an all-to-all mesh. It produces a selective but non-trivial directed network. That is consistent with a bounded institutional coordination system rather than a flat field of disconnected actors.
 
 ### 2. Participation breadth
 
@@ -36,7 +36,7 @@ The current seed does **not** produce an all-to-all mesh. It produces a selectiv
 
 Interpretation:
 
-Every default `sigma1` unit is already active in the seed network. That matters because the route is not being held together by only one or two symbolic actors.
+Every default `sigma1` unit is already active in the current baseline network. That matters because the route is not being held together by only one or two symbolic actors.
 
 ### 3. Cross-cluster routing
 
@@ -46,7 +46,7 @@ Using the current `sigma2` reading:
 - response operations: public-health policy and command; emergency-management coordination; border-control coordination; enforcement and compliance
 - public alignment: public-information coordination
 
-The current seed shows:
+The current public baseline shows:
 
 - cross-cluster unique directed edges: `16 / 24`
 - cross-cluster weighted edge occurrences: `107 / 142 = 0.75`
@@ -86,7 +86,7 @@ The current `I` pass can already distinguish between at least three possibilitie
 2. broad but flat undifferentiated activity
 3. hub-centred, cross-cluster integration
 
-The current seed supports the third reading best.
+The current public baseline supports the third reading best.
 
 ## Limits
 

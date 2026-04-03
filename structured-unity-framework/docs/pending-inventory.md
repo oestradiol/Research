@@ -1,19 +1,20 @@
 # Pending Inventory
 
-This file records the queued later work after the active core was completed on `main`. For the current package state, use `project-status.md`. For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed future-facing summary, use `../ROADMAP.md`.
+This file records the queued later work after the New Zealand monograph-baseline release was completed on `main`. For the current package state, use `project-status.md`. For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed future-facing summary, use `../ROADMAP.md`.
 
 ## A. No remaining publication or active-core blockers
 
-The hosted `v1.0.1` release now has:
+The hosted `v1.1.0` release now has:
 
 - a public remote at `https://github.com/oestradiol/Research`
 - hosted README and citation URLs for the umbrella repo and public packages
 - changelog entries grounded to hosted commit and tag surfaces
-- repo-local release notes at `releases/v1.0.1.md`
+- repo-local release notes at `releases/v1.1.0.md`
 
 Current `main` is aligned with that hosted snapshot and now has:
 
 - a `38`-event New Zealand route with a `29`-event main interval
+- a chapter-ready New Zealand monograph baseline inside the locked windows
 - a `15`-event bounded Taiwan comparator
 - a retained locked payoff sentence
 - a tooling-ready read-only validation layer for the stable active-core public surfaces
@@ -37,24 +38,24 @@ No unresolved publication blocker or active-core repo-completion blocker remains
 5. `completed` Tooling-ready read-only validation for the stable active-core public surfaces.
    Why it mattered: the docs-first package needed a stronger deterministic check layer before later expansion.
 
+6. `completed` `v1.1` New Zealand monograph hardening.
+   Why it mattered: the route needed to stop reading as a bounded proof-of-concept and become a chapter-ready monograph core inside the locked windows.
+
 ## C. Long-range phase ladder
 
-1. `later` `v1.1` New Zealand monograph hardening.
-   Why it matters: the route needs to move from active-core completion to monograph-grade saturation before later closure claims can be strong.
-
-2. `later` `v1.2` Taiwan completion.
+1. `later` `v1.2` Taiwan completion.
    Why it matters: the current bounded comparator is enough for the active core, but not yet enough for a standalone comparator chapter.
 
-3. `later` `v1.3` Australia federal comparator.
+2. `later` `v1.3` Australia federal comparator.
    Why it matters: strong multi-case closure in bounded form needs a second real comparator, not only a deeper Taiwan branch.
 
-4. `later` `v1.4` bounded pandemic-governance closure and monograph-grade repo.
+3. `later` `v1.4` bounded pandemic-governance closure and monograph-grade repo.
    Why it matters: the long-range finish line is a chapter-readable public research object, not only a stronger route package.
 
-5. `later` `v1.5` analysis-ready tooling.
+4. `later` `v1.5` analysis-ready tooling.
    Why it matters: structured exports, monograph tables, and cross-case validators should follow stable empirical surfaces rather than outrun them.
 
-6. `later` `v1.6` research-ops tooling.
+5. `later` `v1.6` research-ops tooling.
    Why it matters: maintenance helpers should follow actual upkeep pain, not precede it.
 
 ## D. Still deferred after the long-range phase ladder

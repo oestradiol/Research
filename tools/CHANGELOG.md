@@ -4,6 +4,16 @@
 
 - no changes yet
 
+## `1.1.0` - 2026-04-03
+
+Current tooling snapshot aligned to the `v1.1.0` New Zealand monograph-baseline umbrella release.
+
+### Included in this snapshot
+
+- version surfaces aligned to the `v1.1.0` release line
+- status-surface validation aligned to the monograph-baseline New Zealand wording and current hosted version
+- New Zealand summary parsing made tolerant of the public-ledger wording while keeping the canonical metric checks read-only
+
 ## `1.0.1` - 2026-04-02
 
 Current bounded public tooling snapshot inside the umbrella `Research/` repository.

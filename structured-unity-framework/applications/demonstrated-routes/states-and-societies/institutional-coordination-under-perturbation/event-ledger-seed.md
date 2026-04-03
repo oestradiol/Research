@@ -1,21 +1,22 @@
-# Event Ledger Seed
+# Event Ledger
 
 ## Purpose
 
-This file is the first public event ledger for the New Zealand demonstrated route.
+This file is the canonical public event ledger for the New Zealand demonstrated route.
 
-It is not a finished chronological corpus. It is a first-pass coded ledger built from clear official coordination events so the public schema is no longer only hypothetical.
+It is the conservative baseline ledger for the current route. The filename stays stable for tooling compatibility, but the ledger itself is no longer only a seed pass.
 
 ## Current posture
 
-Current status: `seed ledger`
+Current status: `public baseline ledger`
 
 This ledger is intentionally conservative:
 
 - it uses only events that are clearly visible in the official and oversight source base already assembled publicly
 - it tests the public coding schema against real material
 - it covers comparator setup, the main perturbation interval, and the Comparator B boundary
-- it does not pretend to be exhaustive
+- it supports the current monograph-baseline New Zealand chapter set inside the locked windows
+- it does not pretend to be exhaustive beyond those windows
 
 ## Coding note
 
@@ -33,7 +34,7 @@ This first public pass uses the locked public schema:
 - `confidence_note`
 - `scale_tag`
 
-When one official source records a bundled same-day shift, this seed ledger keeps the bundle together rather than forcing false micro-events.
+When one official source records a bundled same-day shift, this public baseline ledger keeps the bundle together rather than forcing false micro-events.
 
 ## Summary list
 
@@ -51,7 +52,7 @@ When one official source records a bundled same-day shift, this seed ledger keep
 | `nz-p-010` | `2020-03-23` | move to Level 3 with Level 4 to follow in 48 hours announced |
 | `nz-p-006` | `2020-03-25` | state of national emergency and Level 4 lockdown begin |
 | `nz-p-019` | `2020-03-31` | all-of-government plan for managing stranded people formalized |
-| `nz-p-007` | `2020-04-01` | Quin-centred all-of-government response structure is visible in the action plan |
+| `nz-p-007` | `2020-04-01` | Quin-centred all-of-government response structure is visible in National Action Plan 2.0 |
 | `nz-p-020` | `2020-04-02` | welfare coordination for people in quarantine and managed isolation formalized |
 | `nz-p-014` | `2020-04-04` | additional Alert Level 4 rules clarified through Police guidance |
 | `nz-p-021` | `2020-04-09` | CDEM Act key powers guidance updated for the state of national emergency |
@@ -278,7 +279,7 @@ This is the clearest high-acuity whole-system event in the public route. It coup
 - `dependency_type`: `information or reporting dependency`; `directive or authority dependency`
 - `implementation_marker`: `implementation observed`
 - `public_information_marker`: `none recorded`
-- `source_citation`: `src-oag-covid-response-2022` (Part 5, Figure 3 and paras. 5.31-5.33); `src-oag-covid-appendix1-2022`
+- `source_citation`: `src-dpmc-national-action-plan-v2-2020`; `src-dpmc-all-of-government-system-2020`; `src-dpmc-public-information-2020`; `src-oag-covid-response-2022` (Part 5, Figure 3 and paras. 5.31-5.33); `src-oag-covid-appendix1-2022`
 - `confidence_note`: `high`
 - `scale_tag`: `sigma1`; `sigma2`; `sigma3`
 
@@ -363,7 +364,7 @@ This event adds a direct emergency-powers guidance layer to the route. It matter
 - `dependency_type`: `directive or authority dependency`; `information or reporting dependency`; `public-communication dependency`
 - `implementation_marker`: `implementation initiated`
 - `public_information_marker`: `none recorded`
-- `source_citation`: `src-dpmc-review-level4-status-2020`
+- `source_citation`: `src-dpmc-review-level4-status-2020`; `src-dpmc-review-alert-level4-paper-minute-2020`
 - `confidence_note`: `high`
 - `scale_tag`: `sigma1`; `sigma2`; `sigma3`
 
@@ -730,15 +731,16 @@ Why it matters:
 
 This closes Comparator B cleanly and marks the point where the most extraordinary emergency powers fall away.
 
-## What this seed ledger already demonstrates
+## What this baseline ledger already demonstrates
 
-Even at this first-pass level, the route now has:
+At the current baseline level, the route now has:
 
 - clear cross-unit events
 - visible shifts in authority, public communication, and implementation pressure
 - direct event-page support for border, alert-level, transition-law, enforcement-guidance, extended-Level-4 enforcement continuity, stranded-people planning, managed-isolation welfare coordination, emergency-powers guidance, Level 3 authority routing, Level 3 review preparation, and local-authority/CDEM support shifts
+- direct DPMC action-plan, operating-system, public-information, and Level 4 review surfaces for the architecture and easing chain
 - enough structure to begin testing simple `I`, `C`, and `L` summaries against real coded material
-- enough window depth to support a first conjoint `I/C/L` comparison without pretending the route is complete
+- enough window depth to support the current conjoint `I/C/L` comparison without pretending the route is universal or final
 
 What it does **not** yet demonstrate:
 
@@ -749,12 +751,12 @@ What it does **not** yet demonstrate:
 
 ## Next build step
 
-The next concrete pass should:
+The next deliberate reopening should:
 
-1. keep adding D-family `D` and `E` direct-source events only when they satisfy the live-plus-fixed-archive rule and materially deepen implementation or review routing
-2. keep the first route-local estimator layer fixed unless the denser ledger forces a rule change
-3. stress-test the first conjoint window comparison against deeper implementation, enforcement, and transition-continuity material
+1. keep this New Zealand baseline stable and reproducible unless a later phase needs deliberate reopening
+2. shift the next empirical burden to Taiwan chapter completion and then Australia comparator construction
+3. reopen the New Zealand route further only if later phase work needs more than the now-lower-priority briefing, public-information, or wider-window additions
 
 ## Status
 
-`seed ledger`
+`public baseline ledger`

@@ -4,6 +4,23 @@
 
 - no changes yet
 
+## `v1.1.0` - 2026-04-03
+
+New Zealand monograph-baseline release of the full `Research/` repository.
+
+### Hosted history
+
+- repository: [oestradiol/Research](https://github.com/oestradiol/Research)
+- tag: [`v1.1.0`](https://github.com/oestradiol/Research/releases/tag/v1.1.0)
+- release notes: [`releases/v1.1.0.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.1.0.md)
+
+### Included in this snapshot
+
+- Structured Unity Framework now carries a chapter-ready New Zealand monograph baseline inside the locked windows, with direct DPMC action-plan, operating-system, public-information, and Level 4 review anchors added to the route-control layer
+- Structured Unity Framework now includes explicit New Zealand monograph chapter notes and a monograph-facing table-and-figure plan while keeping the existing validator-facing metric files stable
+- Knowledge is carried forward unchanged as the stable sibling atlas with the maintained 9-cluster / 70-node public graph
+- Research Tools are aligned to the new `v1.1.0` release line and current monograph-baseline status wording while remaining read-only
+
 ## `v1.0.1` - 2026-04-02
 
 Second bounded public release of the full `Research/` repository.

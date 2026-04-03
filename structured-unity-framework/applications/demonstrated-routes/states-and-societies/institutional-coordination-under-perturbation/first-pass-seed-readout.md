@@ -21,7 +21,7 @@ This pass stays deliberately simple:
 
 - one coded event bundle counts as one event
 - no final edge weighting is imposed yet
-- no lag estimator is forced where the seed ledger does not yet justify one
+- no lag estimator is forced where the public baseline ledger does not yet justify one
 - the point is to see whether the route already exposes structure that flatter crisis-language would blur
 
 ## Window-level snapshot
@@ -32,7 +32,7 @@ This pass stays deliberately simple:
 | Main perturbation interval seed | 29 | 27 | 16 | 3.7 |
 | Comparator B boundary markers | 7 | 7 | 5 | 4.0 |
 
-## Simple counts from the current seed ledger
+## Simple counts from the current public baseline ledger
 
 ### Issuing-unit concentration
 
@@ -64,7 +64,7 @@ Why that matters:
 - it is explicitly marked at the alert-level transition events
 - it remains active not only at the high-acuity boundary into Level 4 but also through Level 4 implementation guidance, Level 3 authority-routing and review papers, formal Level 2 preparation, the extended-Level-4 continuity event, checkpoint governance, repeated Level 3 guidance reminders, transition-period planning, the Comparator B legal handoff, and the move to Level 1
 
-That is already a useful distinction. Flatter coordination language can treat communication as an after-the-fact wrapper around "real" executive action. The seed ledger does not support that flattening. It suggests that public-information coordination is part of the working coordination architecture itself.
+That is already a useful distinction. Flatter coordination language can treat communication as an after-the-fact wrapper around "real" executive action. The public baseline ledger does not support that flattening. It suggests that public-information coordination is part of the working coordination architecture itself.
 
 ## Second bounded yield
 
@@ -84,7 +84,7 @@ That is a meaningful route gain even before final estimators are built. It shows
 
 ## What the seed does not yet support
 
-The current seed ledger still does **not** support:
+The current public baseline ledger still does **not** support:
 
 - a fine-grained or unit-specific `L` estimator
 - final edge weighting

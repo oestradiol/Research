@@ -4,7 +4,7 @@
 
 This file records the locked public payoff sentence alongside the supporting candidate formulations that still matter for interpretation pressure.
 
-The current evidence base is the `38`-event New Zealand route with a `29`-event main interval, first-pass `I`, `C`, `L`, conjoint window comparison, a `14`-check sensitivity/null note, and a `15`-event Taiwan bounded comparator.
+The current evidence base is the `38`-event New Zealand route with a `29`-event main interval, a chapter-ready monograph baseline inside the locked windows, first-pass `I`, `C`, `L`, conjoint window comparison, a `14`-check sensitivity/null note, and a `15`-event Taiwan bounded comparator.
 
 ## Candidate 1
 
@@ -27,6 +27,7 @@ It distinguishes between:
 
 - public-information coordination receives `33 / 38` coded events
 - it remains active across escalation, implementation thickening, easing preparation, and de-escalation
+- the New Zealand architecture chapter now has direct DPMC action-plan and public-information anchors in addition to oversight reconstruction
 - the current bounded null framing that reduces it to downstream messaging is weak against the ledger
 - the current Taiwan bounded comparator also keeps public-information coordination central rather than peripheral
 
@@ -117,7 +118,7 @@ Current decision: lock Candidate 1 as the public payoff sentence.
 Reason:
 
 - Candidate 1 is still the strongest default lock target
-- the New Zealand side is now materially denser and carries a fuller late-transition DPMC authority-and-review layer
+- the New Zealand side is now materially denser, carries a fuller late-transition DPMC authority-and-review layer, and can stand as a chapter-ready monograph baseline inside the locked windows
 - the Taiwan branch is no longer starter-thin and still keeps public-information coordination central
 - Candidate 2 and Candidate 3 remain useful supporting claims, but neither is now stronger than Candidate 1 as a public front-door sentence
 

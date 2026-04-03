@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 from research_tools.models.reports import ValidationResult
@@ -7,6 +8,8 @@ from research_tools.parse.nz_ledger import parse_nz_ledger
 from research_tools.parse.taiwan_ledger import parse_taiwan_ledger
 from research_tools.paths import RepoPaths
 from research_tools.reports.nz_summary import compute_route_summary
+
+VERSION_RE = re.compile(r'^version:\s*"([^"]+)"\s*$', re.MULTILINE)
 
 
 def _contains(
@@ -27,11 +30,20 @@ def _contains(
     )
 
 
+def _extract_version(path: Path) -> str:
+    text = path.read_text(encoding="utf-8")
+    match = VERSION_RE.search(text)
+    if not match:
+        raise ValueError(f"version not found in {path}")
+    return match.group(1)
+
+
 def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
     nz_events = parse_nz_ledger(paths.nz_route_root / "event-ledger-seed.md")
     taiwan_events = parse_taiwan_ledger(paths.taiwan_route_root / "taiwan-event-ledger-seed.md")
     nz_summary = compute_route_summary("nz", nz_events)
     taiwan_summary = compute_route_summary("taiwan", taiwan_events)
+    hosted_version = f"v{_extract_version(paths.research_root / 'CITATION.cff')}"
 
     root_readme = paths.research_root / "README.md"
     suf_readme = paths.suf_root / "README.md"
@@ -48,8 +60,8 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             "status-root-readme-main-state",
             root_readme,
             (
-                "Current `main` state: aligned with the hosted `v1.0.1` repo-complete "
-                "and tooling-ready baseline."
+                f"Current `main` state: aligned with the hosted `{hosted_version}` "
+                "New Zealand monograph-baseline release."
             ),
             "Umbrella README keeps the current release-point alignment explicit.",
         ),
@@ -57,11 +69,12 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             "status-root-readme-metrics",
             root_readme,
             (
-                "The hosted `v1.0.1` tag anchors the public citation, changelog, and "
-                "release-note surfaces. Current `main` is aligned with that same repo-complete "
-                f"baseline: a hardened `{nz_summary.event_count}`-event New Zealand route, a "
-                f"`{taiwan_summary.event_count}`-event bounded Taiwan comparator, and a stronger "
-                "read-only validation layer."
+                f"The hosted `{hosted_version}` tag anchors the public citation, changelog, "
+                "and release-note surfaces. Current `main` is aligned with that same release "
+                f"point: a `{nz_summary.event_count}`-event New Zealand monograph-baseline "
+                f"route with a `{nz_summary.main_interval_count}`-event main interval, a "
+                f"`{taiwan_summary.event_count}`-event bounded Taiwan comparator, and the "
+                "same read-only validation layer carried forward under the new release line."
             ),
             "Umbrella README release-point metrics match the current package baseline.",
         ),
@@ -69,7 +82,7 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             "status-suf-readme-metrics",
             suf_readme,
             (
-                f"a `{nz_summary.event_count}`-event New Zealand seed ledger with a "
+                f"a `{nz_summary.event_count}`-event New Zealand public ledger with a "
                 f"`{nz_summary.main_interval_count}`-event main interval"
             ),
             "SUF README exposes the current New Zealand baseline metrics.",
@@ -87,8 +100,8 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             "status-project-status-main-state",
             project_status,
             (
-                "Current `main` is aligned with the hosted `v1.0.1` repo-complete and "
-                "tooling-ready baseline for the public package."
+                f"Current `main` is aligned with the hosted `{hosted_version}` "
+                "New Zealand monograph-baseline release for the public package."
             ),
             "Project status keeps the current release-point alignment explicit.",
         ),
@@ -97,10 +110,8 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             project_status,
             (
                 f"The framework core is in place, the New Zealand route now includes a "
-                f"`{nz_summary.event_count}`-event seed ledger with a "
-                f"`{nz_summary.main_interval_count}`-event main perturbation interval, "
-                f"the Taiwan branch now exists as a `{taiwan_summary.event_count}`-event bounded "
-                "comparator rather than a starter-only tranche"
+                f"`{nz_summary.event_count}`-event public ledger with a "
+                f"`{nz_summary.main_interval_count}`-event main perturbation interval"
             ),
             "Project status metrics match the current route and comparator baseline.",
         ),
@@ -165,6 +176,7 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
                 "- the New Zealand demonstrated route with a "
                 f"`{nz_summary.event_count}`-event public ledger, "
                 f"a `{nz_summary.main_interval_count}`-event main interval, "
+                "a chapter-ready monograph baseline, "
                 "first bounded readouts, "
                 "and a `14`-check robustness note"
             ),
@@ -184,8 +196,8 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             "status-roadmap-main-state",
             roadmap,
             (
-                "Current `main` is aligned with the hosted `v1.0.1` repo-complete and "
-                "tooling-ready baseline for the same public package line."
+                f"Current `main` is aligned with the hosted `{hosted_version}` "
+                "New Zealand monograph-baseline release for the same public package line."
             ),
             (
                 "Roadmap keeps the current release-point status synchronized with the "

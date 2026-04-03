@@ -11,7 +11,7 @@ Use it when you need:
 - the access or verification date
 - a short note on what a source supports and what it does not justify
 
-All entries in this pass were checked on `2026-04-02`. DOI-backed entries use the DOI URL as the primary persistent pointer. Non-DOI entries use the original public page plus a specific archive surface. The current public registry no longer relies on wildcard Wayback lookup links. For non-DOI entries, `Accessed` also serves as the archive-check date in this pass unless a later refresh records a separate archive date.
+Entries in this public pass were checked on `2026-04-02`, with later DPMC refreshes checked on `2026-04-03`. DOI-backed entries use the DOI URL as the primary persistent pointer. Non-DOI entries use the original public page plus a specific archive surface. The current public registry no longer relies on wildcard Wayback lookup links. For non-DOI entries, `Accessed` also serves as the archive-check date in this pass unless a later refresh records a separate archive date.
 
 ## 2. Framework grounding and methods
 
@@ -439,6 +439,46 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 - Archive link: https://web.archive.org/web/20260402193406/https://www.dpmc.govt.nz/sites/default/files/2023-01/COVID-19-Preparing-to-Review-New-Zealands-Alert-Level-4-Status.pdf
 - Accessed: `2026-04-02`.
 - Use limit: supports formal review preparation and easing-stage planning; does not by itself show the later implementation chain.
+
+### src-dpmc-review-alert-level4-paper-minute-2020
+
+- Citation: Department of the Prime Minister and Cabinet. *Review of COVID-19 Alert Level 4*. 2020.
+- Type: proactive release / Cabinet paper and minute.
+- Role in SUF: direct formal review anchor for the Level 4 to Level 3 transition boundary.
+- Primary link: https://www.dpmc.govt.nz/sites/default/files/2023-01/Paper-and-Minute-Review-of-COVID-19-Alert-Level-4.PDF
+- Archive link: https://web.archive.org/web/20230404182341/https://www.dpmc.govt.nz/sites/default/files/2023-01/Paper-and-Minute-Review-of-COVID-19-Alert-Level-4.PDF
+- Accessed: `2026-04-03`.
+- Use limit: supports the formal Level 4 review surface and late-April easing chain; does not by itself describe later implementation.
+
+### src-dpmc-national-action-plan-v2-2020
+
+- Citation: Department of the Prime Minister and Cabinet. *National Action Plan 2.0*. 2020.
+- Type: proactive release / all-of-government planning document.
+- Role in SUF: direct action-plan anchor for the Quin-centred response architecture visible on `2020-04-01`.
+- Primary link: https://www.dpmc.govt.nz/sites/default/files/2023-04/rpt-national-action-plan-v2-1april.pdf
+- Archive link: https://web.archive.org/web/20260403031643/https://www.dpmc.govt.nz/sites/default/files/2023-04/rpt-national-action-plan-v2-1april.pdf
+- Accessed: `2026-04-03`.
+- Use limit: supports the documented all-of-government response structure and action-plan coordination surface; does not replace the broader oversight chronology.
+
+### src-dpmc-all-of-government-system-2020
+
+- Citation: Department of the Prime Minister and Cabinet. *All-of-Government System*. 2020.
+- Type: proactive release / operating-model note.
+- Role in SUF: direct DPMC architecture surface for the response operating system and reporting structure.
+- Primary link: https://www.dpmc.govt.nz/sites/default/files/2023-01/All-of-Government-System.pdf
+- Archive link: https://web.archive.org/web/20250211083833/https://www.dpmc.govt.nz/sites/default/files/2023-01/All-of-Government-System.pdf
+- Accessed: `2026-04-03`.
+- Use limit: supports the response operating-system and reporting architecture; does not by itself provide the full event chronology.
+
+### src-dpmc-public-information-2020
+
+- Citation: Department of the Prime Minister and Cabinet. *Public Information*. 2020.
+- Type: proactive release / operating-model note.
+- Role in SUF: direct DPMC public-information coordination surface for the New Zealand route.
+- Primary link: https://www.dpmc.govt.nz/sites/default/files/2023-01/Public-Information.pdf
+- Archive link: https://web.archive.org/web/20230930072712/https://www.dpmc.govt.nz/sites/default/files/2023-01/Public-Information.pdf
+- Accessed: `2026-04-03`.
+- Use limit: supports public-information role visibility and reporting structure inside the all-of-government response; does not replace chronology or implementation evidence.
 
 ### src-dpmc-powers-authorisations-level3-2020
 

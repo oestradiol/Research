@@ -70,14 +70,20 @@ The public route is grounded first in official and oversight material:
 - not proof of the framework across all domains
 - not proof of consciousness for a state
 - not a final causal account of outcomes
-- not a substitute for a fuller empirical implementation
+- not a substitute for later multi-case closure or post-window reopening
 
 ## Linked research docs
 
 - [Research Design](research-design.md)
 - [Source Corpus and Coding Protocol](source-corpus-and-coding-protocol.md)
 - [Official Corpus Inventory](official-corpus-inventory.md)
-- [Event Ledger Seed](event-ledger-seed.md)
+- [New Zealand Monograph Boundary and Corpus](nz-monograph-boundary-and-corpus.md)
+- [Event Ledger](event-ledger-seed.md)
+- [New Zealand Monograph Escalation and Architecture](nz-monograph-escalation-and-architecture.md)
+- [New Zealand Monograph Implementation and Routing](nz-monograph-implementation-and-routing.md)
+- [New Zealand Monograph De-escalation and Lag](nz-monograph-de-escalation-and-lag.md)
+- [New Zealand Monograph Robustness and Weakenings](nz-monograph-robustness-and-weakenings.md)
+- [New Zealand Monograph Table and Figure Plan](nz-monograph-table-and-figure-plan.md)
 - [First-Pass Seed Readout](first-pass-seed-readout.md)
 - [First-Pass Dependency Graph](first-pass-dependency-graph.md)
 - [First-Pass I Summary](first-pass-i-summary.md)
@@ -93,4 +99,4 @@ The public route is grounded first in official and oversight material:
 
 ## Status
 
-`demonstrated route`
+`monograph-baseline demonstrated route`

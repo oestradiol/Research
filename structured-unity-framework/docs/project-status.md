@@ -13,9 +13,9 @@ Use the public status files by role:
 
 ## 2. Current package posture
 
-**`v1.0.1`** names the dated hosted snapshot in this tree (**2026-04-02**).
+**`v1.1.0`** names the dated hosted snapshot in this tree (**2026-04-03**).
 
-Current `main` is aligned with the hosted `v1.0.1` repo-complete and tooling-ready baseline for the public package. The framework core is in place, the New Zealand route now includes a `38`-event seed ledger with a `29`-event main perturbation interval, the Taiwan branch now exists as a `15`-event bounded comparator rather than a starter-only tranche, the locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package now functions as a stronger read-only validation and reporting layer for route metrics, comparison surfaces, and public release hygiene.
+Current `main` is aligned with the hosted `v1.1.0` New Zealand monograph-baseline release for the public package. The framework core is in place, the New Zealand route now includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a chapter-ready New Zealand monograph baseline. The Taiwan branch still exists as a `15`-event bounded comparator rather than a starter-only tranche, the locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and public release hygiene.
 
 Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, changelog grounding, and tagged release-note packaging are complete. No remaining launch blocker or active-core repo-completion blocker is left inside the current repository state.
 
@@ -25,9 +25,9 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 
 **Completed on `main`**
 
-- bounded hosted `v1.0.1` release framing remains intact
-- New Zealand route hardened to `38` coded events with a `29`-event main interval
-- late-transition DPMC authority-routing and review papers promoted into the live route
+- bounded hosted `v1.1.0` release framing now names the New Zealand monograph-baseline package state
+- New Zealand route hardened to `38` coded events with a `29`-event main interval and a chapter-ready monograph baseline inside the locked windows
+- late-transition DPMC authority-routing and review papers plus direct action-plan and architecture anchors promoted into the live route
 - Taiwan comparator extended to `15` archive-clean official events with clearer health, border, compliance, and public-alignment separation
 - locked payoff sentence pressure-tested and retained
 - public IAF downstream-role clarification synchronized with the denser NZ/Taiwan evidence
@@ -46,8 +46,8 @@ This file is the canonical current-state surface for SUF on `main`.
 
 Future execution should keep three things explicit:
 
-- hosted `v1.0.1` = the current dated public tag surface
-- current `main` = aligned with the hosted `v1.0.1` release point
+- hosted `v1.1.0` = the current dated public tag surface
+- current `main` = aligned with the hosted `v1.1.0` release point
 - later `1.x` work = deferred expansion and deliberate reopening, not unfinished launch mechanics
 
 Future execution must not silently collapse the current release point and later reopening into one label.
@@ -62,7 +62,7 @@ The locked payoff sentence remains:
 
 That claim is now supported by:
 
-- a `38`-event New Zealand route with a fuller late-transition DPMC layer
+- a `38`-event New Zealand route with a fuller late-transition DPMC layer, a direct action-plan architecture surface, and a chapter-ready monograph baseline
 - a `15`-event bounded Taiwan comparator that no longer reads as command-centre-only
 - a denser read-only validation layer that can now check the stable active-core public metrics against the Markdown route artifacts
 
@@ -71,7 +71,7 @@ That claim is now supported by:
 - the public architecture: docs, framework, applications atlas, meta layer, references, diagrams, and tooling
 - the four-layer framework structure and boundary discipline
 - the applications split between demonstrated routes and research-map nodes
-- the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event seed event ledger, first-pass readout, first dependency graph, first bounded `I`, `C`, and `L` passes, first conjoint window comparison, route-local estimator implementation, and `14`-check sensitivity/null note
+- the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event public ledger, monograph-baseline chapter notes, first-pass metric companions, route-local estimator implementation, and `14`-check sensitivity/null note
 - the current direct DPMC and Police implementation-chain source layer admitted only with live plus fixed-archive support
 - the Taiwan comparator design, extended official corpus inventory, `15`-event bounded ledger, one conservative lag pair, and the bounded NZ-Taiwan comparison note
 - the read-only tooling layer for route, comparison, version, link, archive, knowledge, and release-hygiene validation
@@ -86,11 +86,11 @@ That claim is now supported by:
 
 ## 8. Current route status
 
-The New Zealand package is now a **demonstrated route** supported by a working design stack, hardened public corpus inventory, source-discovery log, `38`-event seed event ledger, route-local estimator implementation, first-pass readout, first dependency graph, first bounded `I`, `C`, and `L` passes, a first conjoint window comparison, and a `14`-check sensitivity/null note.
+The New Zealand package is now a **monograph-baseline demonstrated route** supported by a working design stack, hardened public corpus inventory, source-discovery log, a `38`-event public ledger, direct DPMC architecture and review anchors, route-local estimator implementation, monograph-baseline chapter notes, first-pass metric companions, and a `14`-check sensitivity/null note.
 
 The Taiwan branch is now a **bounded comparator** rather than a starter-only pilot. It is still thinner than the New Zealand route and still lacks a distinct emergency-management layer, but it now includes early onboard-quarantine routing, an airport operating layer, a clearer health/border split, and one public-alignment surface.
 
-That means the active empirical core is repo-complete at the current bounded level even though later monograph-scale expansion remains possible.
+That means the active empirical core is now carried forward into a stronger New Zealand monograph-baseline release even though later Taiwan, Australia, closure, and tooling phases still remain.
 
 ## 9. Current atlas status
 

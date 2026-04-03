@@ -11,7 +11,7 @@ It is still pre-estimator and deliberately coarse. Each coded event bundle contr
 - event bundles are counted once
 - edges are unweighted beyond event count
 - this is a route-support graph, not a final `I` estimator
-- the point is to see whether the current seed already exposes stable directional structure
+- the point is to see whether the current public baseline already exposes stable directional structure
 
 ## Aggregated edge counts
 
@@ -91,7 +91,7 @@ flowchart LR
 
 ### 1. A strong issuing centre
 
-The current seed is not a flat web. It has one clear issuing hub:
+The current public baseline is not a flat web. It has one clear issuing hub:
 
 - `strategic executive coordination`
 
@@ -110,7 +110,7 @@ That reinforces the seed readout's main bounded claim: public-information coordi
 
 ### 3. Response operations are differentiated
 
-The current seed also distinguishes between:
+The current public baseline also distinguishes between:
 
 - public-health command
 - public-service coordination

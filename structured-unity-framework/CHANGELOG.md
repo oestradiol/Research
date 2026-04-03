@@ -4,6 +4,23 @@
 
 - no changes yet
 
+## `v1.1.0` - 2026-04-03
+
+New Zealand monograph-baseline hosted release of Structured Unity Framework.
+
+### Hosted history
+
+- package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
+- umbrella tag: [`v1.1.0`](https://github.com/oestradiol/Research/releases/tag/v1.1.0)
+- release notes: [`releases/v1.1.0.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.1.0.md)
+
+### Included in this snapshot
+
+- New Zealand route carried forward as a `38`-event / `29`-event monograph-baseline core inside the locked windows rather than only an active-core route package
+- direct DPMC action-plan, operating-system, public-information, and Level 4 review anchors promoted into the public route-control layer
+- explicit New Zealand monograph chapter notes and a table-and-figure plan added without breaking the existing route metrics or validators
+- status, roadmap, pending, academic-bundle, publication-scope, claims, payoff, and methods-facing surfaces synchronized to the new hosted release point
+
 ## `v1.0.1` - 2026-04-02
 
 Current publication-ready bounded hosted release of Structured Unity Framework.

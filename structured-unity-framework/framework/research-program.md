@@ -8,7 +8,7 @@ It does not replace the theory stack, prove phenomenology from metrics, or claim
 
 ## 2. Current bounded-release posture
 
-The package is now a **bounded public `v1.0.1` release** rather than only a draft architecture. That means several research tracks are active now:
+The package is now a **bounded public `v1.1.0` release** rather than only a draft architecture. That means several research tracks are active now:
 
 - a research-ready New Zealand route under `applications/demonstrated-routes/`
 - a targeted public atlas under `applications/research-map/`
@@ -17,7 +17,7 @@ The package is now a **bounded public `v1.0.1` release** rather than only a draf
 
 The New Zealand route now also carries a route-local estimator implementation and a source-admission rule that accepts new official events only when both the live source and a fixed archive are verified.
 
-Hosted publication mechanics are complete. Local metadata, licensing, package scaffolding, hosted URLs, and tagged release packaging are already in place; current `main` is aligned with the active-core completion state, so the remaining burden is later expansion rather than unfinished launch setup.
+Hosted publication mechanics are complete. Local metadata, licensing, package scaffolding, hosted URLs, and tagged release packaging are already in place; current `main` is aligned with the New Zealand monograph-baseline completion state, so the remaining burden is later comparator, closure, and tooling expansion rather than unfinished launch setup.
 
 ## 3. First active route
 

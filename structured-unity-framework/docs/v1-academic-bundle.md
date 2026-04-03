@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This note is the public academic front door for the current `v1` line of Structured Unity Framework. The hosted bounded tag is now `v1.0.1`; current `main` is aligned with that repo-complete release point inside the same line.
+This note is the public academic front door for the current `v1` line of Structured Unity Framework. The hosted bounded tag is now `v1.1.0`; current `main` is aligned with that New Zealand monograph-baseline release point inside the same line.
 
 ## Abstract
 
-Structured Unity Framework (SUF) is a layered, documentation-first framework for studying unity-like organization in complex systems without collapsing phenomenological, informational, dynamic, and operational claims into one register. The current `v1` line presents four coordinated theory layers, an explicit methods posture, a bounded demonstrated route, and a read-only reproducibility layer. The main empirical anchor is a New Zealand pandemic-coordination route with a `38`-event public ledger, a `29`-event main perturbation interval, route-local `I`, `C`, and `L` readouts, a dependency graph, a conjoint window comparison, and a `14`-check sensitivity/null note. A bounded Taiwan comparator now adds a `15`-event archive-clean tranche under the same source-admission rule. The strongest current payoff is not universal proof but a concrete case-level distinction: the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture. The package is positioned as methods/framework work first and philosophy/theory second. It offers a disciplined public architecture, a demonstrated route, a bounded comparator, and read-only validation tooling, while keeping broader empirical completion and stronger cross-case claims explicitly deferred rather than unresolved.
+Structured Unity Framework (SUF) is a layered, documentation-first framework for studying unity-like organization in complex systems without collapsing phenomenological, informational, dynamic, and operational claims into one register. The current `v1` line presents four coordinated theory layers, an explicit methods posture, a monograph-baseline New Zealand route core, and a read-only reproducibility layer. The main empirical anchor is a New Zealand pandemic-coordination route with a `38`-event public ledger, a `29`-event main perturbation interval, direct DPMC architecture and review anchors, route-local `I`, `C`, and `L` readouts, a dependency graph, a conjoint window comparison, and a `14`-check sensitivity/null note. A bounded Taiwan comparator now adds a `15`-event archive-clean tranche under the same source-admission rule. The strongest current payoff is not universal proof but a concrete case-level distinction: the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture. The package is positioned as methods/framework work first and philosophy/theory second. It offers a disciplined public architecture, a chapter-ready New Zealand core, a bounded comparator, and read-only validation tooling, while keeping stronger cross-case closure explicitly deferred rather than unresolved.
 
 ## Locked payoff sentence
 
@@ -34,7 +34,7 @@ Do not read it as:
 
 ## Empirical anchor
 
-- New Zealand demonstrated route: `38` coded events, `29`-event main interval, first bounded `I`, `C`, `L`, conjoint comparison, and `14`-check sensitivity/null note.
+- New Zealand monograph-baseline route core: `38` coded events, `29`-event main interval, first bounded `I`, `C`, `L`, conjoint comparison, and `14`-check sensitivity/null note.
 - Taiwan comparator: `15` archive-clean official events and one conservative lag pair under the same source-admission rule.
 
 ## Non-claims and limits

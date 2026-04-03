@@ -152,7 +152,10 @@ def compare_nz_summary_to_docs(
     window_comparison = window_comparison_path.read_text(encoding="utf-8")
     sensitivity_note = sensitivity_note_path.read_text(encoding="utf-8")
 
-    expected_event_count = _extract_first_int(r"`(\d+)`-event seed ledger", project_status)
+    expected_event_count = _extract_first_int(
+        r"`(\d+)`-event (?:seed|public) ledger",
+        project_status,
+    )
     expected_main_interval = _extract_first_int(
         r"`(\d+)`-event main perturbation interval", project_status
     )

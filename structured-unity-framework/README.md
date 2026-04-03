@@ -26,15 +26,15 @@ It is also meant to be usable by careful human readers, reasoning agents, and hu
 
 ## 3. Current package posture
 
-**Hosted snapshot:** **`v1.0.1`** dated **2026-04-02**.
+**Hosted snapshot:** **`v1.1.0`** dated **2026-04-03**.
 
-**Current `main` state:** aligned with the hosted `v1.0.1` repo-complete and tooling-ready baseline.
+**Current `main` state:** aligned with the hosted `v1.1.0` New Zealand monograph-baseline release.
 
 Hosted package URL: [oestradiol/Research/tree/main/structured-unity-framework](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
 
-This label names the current hosted bounded public release in this tree. Current `main` is aligned with that same package line at this release point: a package with active methods, a demonstrated route, a bounded comparator, a locked payoff sentence, a targeted atlas, and a tooling-ready read-only validation layer.
+This label names the current hosted bounded public release in this tree. Current `main` is aligned with that same package line at this release point: a package with active methods, a monograph-baseline demonstrated route, a bounded comparator, a locked payoff sentence, a targeted atlas, and a tooling-ready read-only validation layer.
 
-**Stable now:** four-layer architecture; weak naturalization; claim-type discipline; applications atlas split; a `38`-event New Zealand seed ledger with a `29`-event main interval; a first route-local estimator implementation; a `14`-check robustness pass; a `15`-event bounded Taiwan comparator with one conservative lag pair; a locked public payoff sentence; a dedicated IAF downstream-role note; standard plus extended reference tiers; and a tooling-ready read-only validation layer.
+**Stable now:** four-layer architecture; weak naturalization; claim-type discipline; applications atlas split; a `38`-event New Zealand public ledger with a `29`-event main interval; a chapter-ready New Zealand monograph baseline inside the locked windows; a first route-local estimator implementation; a `14`-check robustness pass; a `15`-event bounded Taiwan comparator with one conservative lag pair; a locked public payoff sentence; a dedicated IAF downstream-role note; standard plus extended reference tiers; and a tooling-ready read-only validation layer.
 
 **Still open but non-blocking:** later monograph-scale corpus expansion, later Taiwan de-escalation or second-comparator work, and later analysis-ready or research-ops tooling layers.
 
@@ -73,7 +73,7 @@ This label names the current hosted bounded public release in this tree. Current
 
 This route is a **bounded demonstrated route** with a research-ready design package. It shows how the framework can attach to a tractable case boundary while remaining explicit about limits.
 
-Current stable route state: `38` coded events, `29` events in the main perturbation interval, a route-local estimator implementation, a live-plus-fixed-archive source-admission rule for new official events, and a `15`-event bounded Taiwan comparator under the same source rule.
+Current stable route state: `38` coded events, `29` events in the main perturbation interval, a monograph-baseline New Zealand chapter set, a route-local estimator implementation, a live-plus-fixed-archive source-admission rule for new official events, and a `15`-event bounded Taiwan comparator under the same source rule.
 
 ## 7. Current atlas scope
 

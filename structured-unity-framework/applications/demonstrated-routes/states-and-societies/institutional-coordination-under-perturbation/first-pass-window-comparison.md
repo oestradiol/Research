@@ -12,7 +12,7 @@ It is still a first-pass comparison. It uses the current [Event Ledger Seed](eve
 
 ## Comparison rule
 
-This pass compares windows only on simple public proxies that the seed ledger can currently support:
+This pass compares windows only on simple public proxies that the public baseline ledger can currently support:
 
 - coded event count
 - `sigma3` event density

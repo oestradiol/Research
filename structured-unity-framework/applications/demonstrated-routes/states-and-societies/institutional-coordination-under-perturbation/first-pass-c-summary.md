@@ -83,7 +83,7 @@ The route also shows a coherent de-escalation pattern rather than a simple disap
 
 Interpretation:
 
-The current seed suggests that coherence in this route depends partly on public-facing coordination, not only on backstage institutional order. That matters because public-information coordination appears coupled to both escalation and de-escalation stability.
+The current public baseline suggests that coherence in this route depends partly on public-facing coordination, not only on backstage institutional order. That matters because public-information coordination appears coupled to both escalation and de-escalation stability.
 
 ## First minimal `C` reading
 
@@ -104,7 +104,7 @@ This first `C` pass gives the route a second non-trivial payoff beyond the `I` s
 
 the New Zealand response seed does not just look connected, it also looks sequenced.
 
-That matters because a system can be densely connected and still be erratic. The current seed suggests something more coordinated than that.
+That matters because a system can be densely connected and still be erratic. The current public baseline suggests something more coordinated than that.
 
 ## Limits
 

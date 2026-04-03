@@ -4,13 +4,13 @@ This file explains what the current public package does and does not imply.
 
 ## 1. Current public scope
 
-Structured Unity Framework is presented here as the public `v1` line: layered theory, research-ready methods, a demonstrated route, a bounded comparator, a targeted applications atlas, tiered references, explicit meta policies, and a read-only validation layer. Hosted `v1.0.1` is the dated public snapshot; current `main` is aligned with that same repo-complete state inside the `v1` line.
+Structured Unity Framework is presented here as the public `v1` line: layered theory, research-ready methods, a demonstrated route, a bounded comparator, a targeted applications atlas, tiered references, explicit meta policies, and a read-only validation layer. Hosted `v1.1.0` is the dated public snapshot; current `main` is aligned with that same monograph-baseline New Zealand state inside the `v1` line.
 
 ## 2. What is active now
 
 - the four-layer framework
 - the Research Program as a research-ready provisional design
-- the New Zealand demonstrated route with a `38`-event public ledger, a `29`-event main interval, first bounded readouts, and a `14`-check robustness note
+- the New Zealand demonstrated route with a `38`-event public ledger, a `29`-event main interval, a chapter-ready monograph baseline, first bounded readouts, and a `14`-check robustness note
 - the bounded Taiwan comparator with a `15`-event ledger and one conservative lag pair
 - the targeted applications atlas under `applications/research-map/`
 - standard and extended reading lists for the active package
@@ -42,4 +42,4 @@ That material is expected to land in later versions, route supplements, or more 
 
 ## 7. Versioning stance
 
-`v1.0.1` here means the current publication-ready bounded hosted release. Current `main` is aligned with that same `v1` state: a hardened `38`/`29` New Zealand route, a `15`-event Taiwan comparator, and tooling-ready read-only validation. Neither label means universal validation or closed empirical finality.
+`v1.1.0` here means the current publication-ready bounded hosted release. Current `main` is aligned with that same `v1` state: a hardened `38`/`29` New Zealand monograph-baseline route, a `15`-event Taiwan comparator, and tooling-ready read-only validation. Neither label means universal validation or closed empirical finality.
