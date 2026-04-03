@@ -21,6 +21,8 @@ This package mixes phenomenological, structural, operational, and interpretive v
 - domain-general estimator thresholds beyond the current route-local implementation
 - any strong multi-case closure beyond the current New Zealand core plus bounded Taiwan comparator
 - any later comparative result that depends on a real Australia route
+- any claim of objectively settled cross-domain measurement for the current `I`, `C`, `L`, and `U` family
+- any claim of demonstrated high-fit predictive closure across domains
 
 ## 4. What remains interpretive
 
@@ -38,6 +40,8 @@ These are known live limits, not unnoticed weaknesses:
 - limited comparator depth, especially on the Taiwan side and the still-unbuilt Australia route
 - route-to-framework generalization risk from one monograph-baseline route plus one bounded comparator
 - still-thin direct comparison against nearby alternative frameworks
+- measurement quality that remains proxy-based, route-local, and partly judgment-laden
+- no present demonstration of strong cross-domain predictive fit
 
 ## 6. What the framework does not claim
 
@@ -45,6 +49,7 @@ These are known live limits, not unnoticed weaknesses:
 - strong consciousness attributions to states, institutions, or collectives as phenomenological fact
 - that one case study validates the entire stack
 - that citation substitutes for argument
+- that the current public package already yields high-`R^2` predictive closure or objectively settled cross-domain measurement
 
 ## 7. Why the applications atlas is not universality proof
 
@@ -57,8 +62,6 @@ Public criticism should not rely on detector rhetoric or vibe-based dismissal.
 - "sounds like AI" is not a framework-level objection
 - stronger criticism asks whether the argument is explicit, whether the sources are real, and whether the prose inflates beyond its evidence
 - detector outputs should not be treated as dependable adjudicators in high-stakes judgment
-
-See `../references/source-registry.md#src-acm-generative-ai-detection-2023`, `../references/source-registry.md#src-cheng-ai-detection-tools-2025`, and `../references/source-registry.md#src-schilke-ai-disclosure-trust-2025`.
 
 ## 9. Public wording policy summary
 
