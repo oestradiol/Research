@@ -10,7 +10,7 @@ This is the clearest current public route for turning SUF into a research-ready 
 
 The route now includes a `38`-event public baseline ledger, a `29`-event main perturbation interval, bounded readouts, a route-local estimator implementation, an expanded `14`-check sensitivity/null note, a resolved high-priority New Zealand discovery queue inside the locked windows, and a stabilized direct-source layer for the current DPMC / Police implementation-chain events under a live-plus-fixed-archive admission rule.
 
-The strongest current bounded gain is still that public-information coordination remains structurally central even after the route thickens with implementation-side material rather than only headline decisions. The Taiwan branch is now a `15`-event bounded comparator with one conservative lag pair and a clearer health/border/public-alignment split than the earlier starter tranche.
+The strongest current bounded gain is still that public-information coordination remains structurally central even after the route thickens with implementation-side material rather than only headline decisions. The Taiwan branch is now a `15`-event bounded comparator with one conservative lag pair and a clearer health/border/public-alignment split than the earlier starter tranche. It is also the active chapter-readiness workstream rather than merely a distant later comparator.
 
 ## Current route set
 
@@ -38,6 +38,9 @@ The strongest current bounded gain is still that public-information coordination
 - [Taiwan Comparator Design](taiwan-comparator-design.md)
 - [Taiwan Official Corpus Inventory](taiwan-official-corpus-inventory.md)
 - [Taiwan Event Ledger Seed](taiwan-event-ledger-seed.md)
+- [Taiwan Chapter Boundary and Corpus](taiwan-chapter-boundary-and-corpus.md)
+- [Taiwan Chapter Evidence Map](taiwan-chapter-evidence-map.md)
+- [Taiwan Chapter Table and Figure Plan](taiwan-chapter-table-and-figure-plan.md)
 - [First NZ-Taiwan Comparison Note](first-nz-taiwan-comparison-note.md)
 
 ## Relation to the atlas

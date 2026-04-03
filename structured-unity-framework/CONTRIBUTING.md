@@ -11,6 +11,7 @@ Use `docs/INDEX.md` to locate files. Read `docs/claims-and-boundaries.md`, `fram
 Use the status surfaces by role:
 
 - `docs/project-status.md` = current package state
+- `docs/current-execution-order.md` = shortest live sequencing surface for the active pass
 - `ROADMAP.md` = future-facing direction
 - `docs/pending-inventory.md` = open and deferred items
 

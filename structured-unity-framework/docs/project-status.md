@@ -1,12 +1,13 @@
 # Project Status
 
-This file is the current-state summary for the public package on `main`. Use `monograph-and-closure-program.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred or optional later work.
+This file is the current-state summary for the public package on `main`. Use `current-execution-order.md` for the shortest live sequencing surface, `monograph-and-closure-program.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred or optional later work.
 
 ## 1. Status-surface rule
 
 Use the public status files by role:
 
 - this file = current package posture on `main`
+- `current-execution-order.md` = shortest live execution order for the active `v1.x` pass
 - `monograph-and-closure-program.md` = canonical long-range program
 - `../ROADMAP.md` = compressed future-facing direction
 - `pending-inventory.md` = deferred or optional later work
@@ -17,7 +18,7 @@ Use the public status files by role:
 
 Current `main` is aligned with the hosted `v1.1.0` New Zealand monograph-baseline release for the public package. The framework core is in place, the New Zealand route now includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a chapter-ready New Zealand monograph baseline. The Taiwan branch still exists as a `15`-event bounded comparator rather than a starter-only tranche, the locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and public release hygiene.
 
-Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, changelog grounding, and tagged release-note packaging are complete. No remaining launch blocker or active-core repo-completion blocker is left inside the current repository state.
+Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, changelog grounding, and tagged release-note packaging are complete. No remaining launch blocker or active-core repository-assembly blocker is left inside the current repository state.
 
 It is still **not** a claim of universal proof and **not** a closed empirical monograph.
 
@@ -32,6 +33,7 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 - locked payoff sentence pressure-tested and retained
 - public IAF downstream-role clarification synchronized with the denser NZ/Taiwan evidence
 - tooling-ready read-only validation and reporting extended across route, comparison, and release-hygiene surfaces
+- reviewer-objections and evidence-status audit surfaces added for clearer academic scrutiny
 
 **Explicitly deferred**
 
@@ -44,10 +46,11 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 
 This file is the canonical current-state surface for SUF on `main`.
 
-Future execution should keep three things explicit:
+Future execution should keep four things explicit:
 
 - hosted `v1.1.0` = the current dated public tag surface
 - current `main` = aligned with the hosted `v1.1.0` release point
+- `current-execution-order.md` = the shortest live sequencing surface for the active pass
 - later `1.x` work = deferred expansion and deliberate reopening, not unfinished launch mechanics
 
 Future execution must not silently collapse the current release point and later reopening into one label.
@@ -69,12 +72,13 @@ That claim is now supported by:
 ## 6. What is currently stable
 
 - the public architecture: docs, framework, applications atlas, meta layer, references, diagrams, and tooling
-- the four-layer framework structure and boundary discipline
+- the three substantive layers plus bridge/control layer and boundary discipline
 - the applications split between demonstrated routes and research-map nodes
 - the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event public ledger, monograph-baseline chapter notes, first-pass metric companions, route-local estimator implementation, and `14`-check sensitivity/null note
 - the current direct DPMC and Police implementation-chain source layer admitted only with live plus fixed-archive support
 - the Taiwan comparator design, extended official corpus inventory, `15`-event bounded ledger, one conservative lag pair, and the bounded NZ-Taiwan comparison note
 - the read-only tooling layer for route, comparison, version, link, archive, knowledge, and release-hygiene validation
+- the reviewer-objections and evidence-status audit layer for public academic scrutiny
 
 ## 7. What remains open but non-blocking
 
@@ -96,14 +100,28 @@ That means the active empirical core is now carried forward into a stronger New 
 
 The public atlas is active and intentionally targeted. It maps plausible next domains, comparative directions, and a small frontier set with status labels and bounded starter anchors.
 
-## 10. Cross-links
+## 10. Lessons from the current refactor pass
+
+This branch clarified four lessons that should remain explicit in later control work:
+
+- Taiwan wording should stay disciplined: the live burden is an active **chapter-readiness pass**, not a silently completed chapter, unless later evidence actually justifies stronger wording.
+- Framework Interface should remain the **bridge/control layer**, not drift back into a fourth peer theory-layer voice.
+- Knowledge should stay explicit about SUF role and handoff when SUF is foregrounded, especially in deepened hub notes.
+- the validator layer is now a **read-only drift detector** for tracked wording, link/status consistency, Knowledge-role and handoff discipline, and selected overclaim phrases; it is not a truth adjudicator, not deep semantic review, and not a replacement for human judgment.
+
+These lessons are part of the current control state, not only branch-local history.
+
+## 11. Cross-links
 
 - navigation: `docs/INDEX.md`
 - boundaries: `docs/claims-and-boundaries.md`
 - contribution candidates: `docs/contribution-and-payoff-note.md`
 - methods: `framework/research-program.md`
 - IAF clarification: `framework/iaf-downstream-role.md`
+- audit objections: `docs/reviewer-objections-and-current-answers.md`
+- evidence status: `docs/evidence-status-matrix.md`
 - applications: `applications/README.md`
+- live sequencing: `docs/current-execution-order.md`
 - long-range program: `docs/monograph-and-closure-program.md`
 - future direction: `ROADMAP.md`
 - deferred and optional later work: `docs/pending-inventory.md`

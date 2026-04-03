@@ -10,44 +10,37 @@ Readers who want a clear path through the package without overload: newcomers, t
 
 ### Newcomer path
 
-Goal: orientation without committing to every detail.
-
 1. `README.md`
 2. `docs/how-to-read-the-framework.md`
 3. `docs/framework-overview.md`
 4. `docs/claims-and-boundaries.md`
 5. `framework/framework-interface.md`
-6. skim `docs/glossary.md` as needed
 
 ### Theory-first path
-
-Goal: understand the layered stack and boundary discipline.
 
 1. `README.md`
 2. `docs/framework-overview.md`
 3. `docs/claims-and-boundaries.md`
 4. `framework/framework-interface.md`
 5. `framework/structural-phenomenology.md`
-6. `framework/informational-awareness-framework.md`
-7. `framework/unity-dynamics-framework.md`
-8. `framework/research-program.md`
-9. `framework/literature-guide.md`
+6. `framework/structural-phenomenology-downstream-role.md`
+7. `framework/informational-awareness-framework.md`
+8. `framework/iaf-downstream-role.md`
+9. `framework/unity-dynamics-framework.md`
+10. `framework/research-program.md`
+11. `framework/literature-guide.md`
 
 ### Demonstrated-route path
-
-Goal: see the active case package, then ground it in theory.
 
 1. `README.md`
 2. `docs/claims-and-boundaries.md`
 3. `applications/README.md`
 4. `applications/demonstrated-routes/README.md`
 5. `applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/new-zealand-pandemic-case.md`
-6. `applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/event-ledger-seed.md`, `.../estimator-implementation.md`, `.../first-pass-seed-readout.md`, and `.../first-pass-window-comparison.md`
+6. `applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/bounded-gain-against-simpler-readings.md`
 7. `framework/framework-interface.md` and `framework/research-program.md`
 
 ### Atlas-first path
-
-Goal: inspect the wider research map before returning to the core theory.
 
 1. `README.md`
 2. `applications/README.md`
@@ -56,53 +49,21 @@ Goal: inspect the wider research map before returning to the core theory.
 5. one or two node files of interest
 6. return to `docs/claims-and-boundaries.md`, `framework/framework-interface.md`, and `framework/research-program.md`
 
-## 3. Recommended reading order
+## 3. Live sequencing note
 
-1. `README.md`
-2. `docs/how-to-read-the-framework.md`
-3. `docs/framework-overview.md`
-4. `docs/claims-and-boundaries.md`
-5. `framework/framework-interface.md`
-6. remaining `framework/` files
-7. `applications/` as needed
-8. `references/` for the source registry, citation policy, and curated reading lists
-9. `meta/` for policies
+If the question is not how to read the package but what the next active workstream is, use `docs/current-execution-order.md` together with `docs/project-status.md` and `ROADMAP.md`.
 
-## 4. What to skip on first pass
-
-- technical route detail if you only want the conceptual structure: skim `framework/research-program.md`
-- reference layer: start with `references/source-registry.md` if you need exact public source metadata, then `references/minimal-reading-list.md` or `references/standard-reading-list.md` for guided reading
-- meta files: optional until you edit or extend the package
-
-## 5. What not to assume too early
+## 4. What not to assume too early
 
 - that one demonstrated route equals the whole framework
 - that `unity-like` implies strong consciousness claims
 - that metrics are identical with experience
-- that atlas breadth means SUF is already validated everywhere
-- that the current hosted `v1` release means universal proof or publication-final closure
+- that IAF is already a finished technical layer rather than a bounded modeling vocabulary
+- that UDF already has objectively settled measurements or high-fit predictive closure
 
-## 6. How the layers relate
+## 5. How the layers relate
 
 - **Structural Phenomenology:** epistemic ground
-- **Informational Awareness Framework:** structural and generative modeling layer
-- **Unity Dynamics Framework:** integration, coherence, latency, and unity-like organization at explicit scales and windows
-- **Framework Interface:** bridge and scope-control layer
-
-Downstream in this package: **Research Program** (methods), **Literature Guide** (citation routing), **Applications Atlas** (demonstrated route plus wider atlas).
-
-## 7. How to read the applications layer
-
-Treat demonstrated routes as bounded uses of the framework and research-map nodes as scoped next-step sketches. Both are useful; neither should be mistaken for universal proof.
-
-## 8. How to use the status surfaces
-
-- use `docs/project-status.md` for the current package posture
-- use `ROADMAP.md` for future-facing direction
-- use `docs/pending-inventory.md` for open and deferred items
-
-## 9. Assisted reading and accessibility support
-
-This package is also meant to work with human assistants and reasoning agents acting in support roles.
-
-If a reader wants guided navigation, paced reading, glossary help, or accessibility-oriented mediation, start with `../using-this-research-with-human-assistants-and-reasoning-agents.md` and keep the original file open while summarizing or explaining it.
+- **Informational Awareness Framework:** modeling vocabulary and bridge layer for distinction, reporting, feedback, and recursive adjustment
+- **Unity Dynamics Framework:** integration, coherence, latency, and unity-like organization at explicit scales and windows; the most technical-facing layer, but still route-local and underdetermined
+- **Framework Interface:** bridge/control layer that keeps claim types, weak naturalization, and scope discipline explicit

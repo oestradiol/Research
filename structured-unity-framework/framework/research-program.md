@@ -132,6 +132,15 @@ Use a dashboard-style conjoint signature, not a single scalar. Interpret `U` com
 
 This document locks the bundle, not one final estimator for every route. It does not freeze one threshold system, one weighting scheme, or one aggregation formula across all future domains.
 
+The current public posture is therefore:
+
+- operationalization is route-local
+- proxies are partly judgment-laden
+- thresholds are not domain-general
+- explanatory readout is stronger than predictive closure
+
+The package should not imply that current route-local estimators already yield objective cross-domain measurement or mature high-fit prediction.
+
 ## 6. Coding schema and source-family rule
 
 ### Event schema
@@ -293,6 +302,7 @@ Readers are most likely to press on:
 - bounded comparator depth
 - route-to-framework generalization
 - alternative-framework comparison depth
+- measurement objectivity and predictive modesty
 
 This package addresses those pressures through:
 
@@ -309,3 +319,4 @@ This document does not claim:
 - strong consciousness attributions to states or institutions
 - that one case or one comparator set validates the whole framework
 - that operational summaries are identical with phenomenological givenness
+- that the current public package already supplies high-fit predictive closure or objectively settled cross-domain measurement

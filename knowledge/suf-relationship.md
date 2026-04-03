@@ -14,12 +14,22 @@ SUF contributes most clearly as:
 - a relation-sensitive way of connecting notes without collapsing them into one theory
 - a route-building discipline for moving from scaffold nodes to applied coordination questions
 
-In practice, that means SUF most strongly shapes:
+In practice, SUF most strongly shapes:
 
 - cluster ordering
 - some typed relation choices
 - the route layer
 - a subset of hub nodes where organization, timing, coordination, or bridge logic matter especially strongly
+
+## SUF role categories
+
+When Knowledge notes explicitly type SUF's role, use:
+
+- **primary scaffold** / `primary_scaffold`
+- **supporting scaffold** / `supporting_scaffold`
+- **domain-native lead** / `domain_native_lead`
+
+These categories prevent the atlas from implying that SUF is the only legitimate framework everywhere.
 
 ## Where SUF is most useful here
 
@@ -34,7 +44,7 @@ SUF is especially helpful in Knowledge when:
 
 Knowledge is deliberately broader than SUF.
 
-Many notes should eventually lean harder on:
+Many notes should lean harder on:
 
 - domain-native methods
 - rival systems traditions
@@ -43,12 +53,6 @@ Many notes should eventually lean harder on:
 
 That is a feature, not a failure. Knowledge is strongest when it lets SUF help where it is genuinely clarifying and then lets better local tools take over where they should.
 
-## Where to start in the SUF package
+## Handoff rule
 
-For the framework-first companion project, start here:
-
-- [Structured Unity Framework README](../structured-unity-framework/README.md)
-- [Framework Overview](../structured-unity-framework/docs/framework-overview.md)
-- [Framework Interface](../structured-unity-framework/framework/framework-interface.md)
-
-These are relative links inside the same research repository. If the projects are split into separate remotes later, replace them with hosted URLs.
+If SUF is not carrying most of the explanatory work in a note, the note should say so plainly and hand off to the better local framework rather than keeping SUF in the foreground by inertia.

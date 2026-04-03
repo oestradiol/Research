@@ -1,6 +1,6 @@
 # Pending Inventory
 
-This file records the queued later work after the New Zealand monograph-baseline release was completed on `main`. For the current package state, use `project-status.md`. For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed future-facing summary, use `../ROADMAP.md`.
+This file records the queued later work after the New Zealand monograph-baseline release was completed on `main`. For the current package state, use `project-status.md`. For the shortest live sequencing surface, use `current-execution-order.md`. For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed future-facing summary, use `../ROADMAP.md`.
 
 ## A. No remaining publication or active-core blockers
 
@@ -72,7 +72,21 @@ No unresolved publication blocker or active-core repo-completion blocker remains
 4. `deferred` Atlas growth beyond the targeted map.
    Why it matters: breadth should not be mistaken for validation.
 
-## E. Long-horizon frontier branches
+## E. Current watchpoints after the refactor pass
+
+1. `watch` Taiwan wording around **chapter-ready** versus **chapter-readiness pass**.
+   Why it matters: later control prose should not silently promote the active `v1.2` burden into already-closed chapter status.
+
+2. `watch` Knowledge role-enforcement scope.
+   Why it matters: SUF-role and handoff discipline should stay strongest where SUF is genuinely foregrounded, especially deepened hub notes, without spreading into noisy universal enforcement.
+
+3. `watch` validator false confidence from phrase-only checks.
+   Why it matters: the current validators catch tracked wording, links, and selected overclaim phrases, but they do not replace human review or deep semantic judgment.
+
+4. `watch` any future re-expansion of Framework Interface into a peer theory-layer voice.
+   Why it matters: the current package now depends on keeping Interface as a bridge/control layer rather than letting it drift back into four-peer-layer wording.
+
+## F. Long-horizon frontier branches
 
 1. `deferred` Quantum-relational ontology and consciousness branch.
    Why it matters: deeper formalization and rival-theory comparison still belong after the empirical monograph-grade program.
