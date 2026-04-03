@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Structured Unity Framework, please cite it and credit Elaina (@oestradiol)."
+type: software
+title: "Structured Unity Framework"
+abstract: "A layered, documentation-first framework for unity-like organization in complex systems, with explicit boundaries, a research-program posture, and bounded application illustrations."
+authors:
+  - family-names: "Elaina"
+    alias: "oestradiol"
+    email: "17bestradiol@proton.me"
+    website: "https://github.com/oestradiol"
+license: CC-BY-4.0
+version: "0.1.0"
+date-released: "2026-04-01"
+keywords:
+  - phenomenology
+  - complex systems
+  - coordination
+  - epistemology
+  - research framework
