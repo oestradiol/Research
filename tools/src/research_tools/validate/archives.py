@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from research_tools.config import ARCHIVE_WILDCARD_MARKERS
+from research_tools.config import ARCHIVE_WILDCARD_MARKERS, NATIVE_FIXED_ARCHIVE_PREFIXES
 from research_tools.models.reports import ValidationResult
 from research_tools.models.sources import SourceEntry
 
@@ -37,6 +37,10 @@ def validate_archive_links(entries: list[SourceEntry]) -> list[ValidationResult]
         if not (
             entry.archive_link.startswith("https://web.archive.org/web/")
             or entry.archive_link.startswith("https://archive.org/")
+            or any(
+                entry.archive_link.startswith(prefix)
+                for prefix in NATIVE_FIXED_ARCHIVE_PREFIXES
+            )
         ):
             results.append(
                 ValidationResult(
@@ -44,7 +48,10 @@ def validate_archive_links(entries: list[SourceEntry]) -> list[ValidationResult]
                     status="fail",
                     message="Archive link is not a recognized fixed archive surface.",
                     path=entry.source_id,
-                    expected="Wayback fixed capture or archive.org item",
+                    expected=(
+                        "Wayback fixed capture, archive.org item, "
+                        "or approved source-native archive"
+                    ),
                     found=entry.archive_link,
                 )
             )

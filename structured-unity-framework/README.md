@@ -77,7 +77,7 @@ The public atlas lives in `applications/research-map/` and is intentionally **ta
 - foundations and methods
 - states, public health, and governance
 - comparative social and organizational domains
-- next routes and one frontier node
+- next routes and a small frontier set
 
 Breadth in the atlas does **not** imply that SUF is already validated across every mapped area.
 

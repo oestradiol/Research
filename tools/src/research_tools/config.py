@@ -40,3 +40,7 @@ ARCHIVE_WILDCARD_MARKERS = (
     "/save/https",
     "web.archive.org/save/",
 )
+
+NATIVE_FIXED_ARCHIVE_PREFIXES = (
+    "https://plato.stanford.edu/archives/",
+)

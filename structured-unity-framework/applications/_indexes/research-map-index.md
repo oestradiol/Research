@@ -15,3 +15,5 @@ Each node should answer, quickly and explicitly:
 2. why SUF is useful there
 3. what a bounded research route would look like
 4. what kind of sources should anchor the route first
+
+The `03` cluster now mixes route-near comparative extensions with a small frontier set. Treat the frontier notes as later-horizon exploratory work, not as part of the current proof burden.

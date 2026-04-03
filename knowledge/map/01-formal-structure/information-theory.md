@@ -60,6 +60,8 @@ Study encoding, entropy, signal, compression, distinguishability, and the formal
 
 This is one of the clearest formal bridges into the informational side of SUF. Knowledge should advertise that connection, but carefully: information theory helps most when it sharpens readout, signal, and uncertainty questions. It should not be used as a magical substitute for semantics, experience, or organization-specific explanation.
 
+For a later-horizon sibling SUF frontier note, see [Quantum-Relational Ontology and Consciousness](../../../structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md). That branch uses information language cautiously and does not treat computational or simulation metaphors as default explanation.
+
 ## Status
 
 `deepened hub node`

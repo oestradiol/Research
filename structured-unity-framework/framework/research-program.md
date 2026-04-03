@@ -255,7 +255,7 @@ The `applications/research-map/` subtree now functions as the outward extension 
 - `00-foundations-and-methods/` records grounding and formalization clusters
 - `01-states-public-health-and-governance/` records the domains nearest the first route
 - `02-comparative-social-and-organizational-domains/` records institutional extension areas
-- `03-next-routes-and-frontiers/` records the first comparative extension and the higher-risk frontier node
+- `03-next-routes-and-frontiers/` records the first comparative extension and the higher-risk frontier set
 
 ## 12. What remains open but non-blocking
 

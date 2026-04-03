@@ -19,3 +19,18 @@ def test_source_registry_and_archive_validators_pass_on_current_state() -> None:
 
     assert not any(result.status == "fail" for result in source_results)
     assert not any(result.status == "fail" for result in archive_results)
+
+
+def test_sep_archive_editions_are_accepted_as_fixed_archives() -> None:
+    entries = parse_source_registry(get_paths().source_registry)
+    archive_results = validate_archive_links(entries)
+    sep_failures = [
+        result
+        for result in archive_results
+        if result.path in {
+            "src-sep-relational-quantum-mechanics-2025",
+            "src-sep-quantum-mechanics-2025",
+        }
+    ]
+
+    assert not sep_failures

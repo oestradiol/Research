@@ -49,3 +49,10 @@ The package now exists as a research-phase public package. The next steps are no
 
 - keep `0.x` for bounded public packages that are still maturing
 - consider `1.0.0` only when the public architecture and publication workflow are materially more stable
+
+## 8. Later-horizon frontier branches
+
+- keep the quantum-relational / consciousness branch explicitly post-proof and bounded to frontier-note status until the current NZ/Taiwan execution burden is materially stronger
+- keep the computational / simulation-universe branch more quarantined still; it should remain internal until a dedicated compatibility table exists against Structural Phenomenology, IAF, Framework Interface, and simulation-inflation cautions
+- keep AGI SUF later than both the consciousness branch and the computational branch; it should remain distinct from the current non-anthropomorphic AI coordination node
+- none of these branches changes the near-term execution queue around corpus deepening, comparative hardening, and payoff locking

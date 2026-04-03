@@ -875,3 +875,72 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 - Primary link: https://doi.org/10.18653/v1/2020.acl-main.463
 - Verified: `2026-04-02`.
 - Use limit: supports caution about equating linguistic form with understanding; does not settle all debates about machine intelligence.
+
+## 6. Quantum-relational frontier and consciousness sources
+
+### src-google-willow-chip-2024
+
+- Citation: Neven, Hartmut. "Meet Willow, our state-of-the-art quantum chip." 2024.
+- Type: company research announcement.
+- Role in SUF: direct public benchmark announcement and hype-demystification anchor for the quantum-relational frontier note.
+- Primary link: https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/
+- Archive link: https://web.archive.org/web/20260111212743/https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/
+- Accessed: `2026-04-02`.
+- Use limit: supports the actual public benchmark claim and the interpretive caution around it; does not justify many-worlds, simulation, or consciousness claims.
+
+### src-google-constructive-interference-2025
+
+- Citation: Google Quantum AI and Collaborators. "Observation of constructive interference at the edge of quantum ergodicity." *Nature*, 2025.
+- Type: journal article.
+- Role in SUF: primary many-body interference, scrambling, and echo-like structure anchor for the frontier note.
+- Primary link: https://doi.org/10.1038/s41586-025-09526-6
+- Verified: `2026-04-02`.
+- Use limit: supports measurable many-body correlation structure; does not justify ontological or consciousness conclusions by itself.
+
+### src-landauer-physical-nature-information-1996
+
+- Citation: Landauer, Rolf. "The Physical Nature of Information." *Physics Letters A* 217(4-5), 1996.
+- Type: journal article.
+- Role in SUF: disciplined bridge for the claim that information is physically instantiated.
+- Primary link: https://doi.org/10.1016/0375-9601(96)00453-7
+- Verified: `2026-04-02`.
+- Use limit: supports the physical-instantiation constraint on information; does not settle a finished metaphysics of information.
+
+### src-sep-relational-quantum-mechanics-2025
+
+- Citation: Dorato, Mauro, and Federico Laudisa. "Relational Quantum Mechanics." *Stanford Encyclopedia of Philosophy*. Spring 2025 edition.
+- Type: encyclopedia entry.
+- Role in SUF: interpretation background for relation-first quantum ontology.
+- Primary link: https://plato.stanford.edu/entries/qm-relational/
+- Archive link: https://plato.stanford.edu/archives/spr2025/entries/qm-relational/
+- Accessed: `2026-04-02`.
+- Use limit: supports the live interpretive option of relation-first quantum mechanics; does not settle ontology uniquely or justify direct neural claims.
+
+### src-sep-quantum-mechanics-2025
+
+- Citation: Albert, David, and Alyssa Ney. "Quantum Mechanics." *Stanford Encyclopedia of Philosophy*. Spring 2025 edition.
+- Type: encyclopedia entry.
+- Role in SUF: interpretation caution and non-uniqueness reminder for the frontier note.
+- Primary link: https://plato.stanford.edu/entries/qm/
+- Archive link: https://plato.stanford.edu/archives/spr2025/entries/qm/
+- Accessed: `2026-04-02`.
+- Use limit: supports caution that quantum mechanics does not uniquely force one metaphysical reading; does not itself support SUF.
+
+### src-ferrante-adversarial-consciousness-theories-2025
+
+- Citation: Ferrante, Oscar, et al. "Adversarial testing of global neuronal workspace and integrated information theories of consciousness." *Nature*, 2025.
+- Type: journal article.
+- Role in SUF: current consciousness-testing baseline for keeping the frontier branch operationally disciplined.
+- Primary link: https://doi.org/10.1038/s41586-025-08888-1
+- Verified: `2026-04-02`.
+- Use limit: supports pressure for explicit, testable consciousness claims; does not settle consciousness theory uniquely or license SUF by itself.
+
+### src-garisto-quantum-echoes-willow-2025
+
+- Citation: Garisto, Dan. "Google Measures 'Quantum Echoes' on Willow Quantum Computer Chip." *Scientific American*, 2025.
+- Type: magazine explainer.
+- Role in SUF: intuition aid for public explanation of echoes, scrambling, and interference language.
+- Primary link: https://www.scientificamerican.com/article/google-measures-quantum-echoes-on-willow-quantum-computer-chip/
+- Archive link: https://web.archive.org/web/20251026054212/https://www.scientificamerican.com/article/google-measures-quantum-echoes-on-willow-quantum-computer-chip/
+- Accessed: `2026-04-02`.
+- Use limit: supports intuition and translation only; it is not a primary anchor for ontology or consciousness claims.

@@ -50,7 +50,7 @@ The main unresolved test is no longer whether the route exists, but whether it c
 
 ## 7. Current atlas status
 
-The public atlas is now active and intentionally targeted. It maps plausible next domains, comparative directions, and one frontier node with status labels and starter anchors.
+The public atlas is now active and intentionally targeted. It maps plausible next domains, comparative directions, and a small frontier set with status labels and starter anchors.
 
 ## 8. Cross-links
 

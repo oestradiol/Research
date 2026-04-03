@@ -58,7 +58,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 | `research-map/00-foundations-and-methods/` | Grounding and formalization cluster |
 | `research-map/01-states-public-health-and-governance/` | Domains nearest the first route |
 | `research-map/02-comparative-social-and-organizational-domains/` | Comparative institutional extensions |
-| `research-map/03-next-routes-and-frontiers/` | Comparative route plus frontier node |
+| `research-map/03-next-routes-and-frontiers/` | Comparative route plus small frontier set |
 
 ## `meta/` - policies
 

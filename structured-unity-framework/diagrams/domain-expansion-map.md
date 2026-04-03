@@ -4,7 +4,7 @@
 
 **Current demonstrated route:** states / societies -> institutional coordination under perturbation -> New Zealand case package.
 
-**Current atlas:** targeted research map with foundations and methods, governance domains, comparative extensions, and one frontier node.
+**Current atlas:** targeted research map with foundations and methods, governance domains, comparative extensions, and a small frontier set.
 
 ```mermaid
 flowchart LR

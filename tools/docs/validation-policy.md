@@ -12,6 +12,12 @@ This package validates structure, parseability, consistency, and deterministic r
 - event-ledger schema
 - route-summary consistency against current SUF published docs
 
+Recognized fixed archive surfaces in tranche 1 are:
+
+- Wayback fixed captures
+- archive.org item pages
+- approved source-native fixed archive editions such as `plato.stanford.edu/archives/...`
+
 ## What tranche 1 does not decide
 
 - whether a theory claim is philosophically correct

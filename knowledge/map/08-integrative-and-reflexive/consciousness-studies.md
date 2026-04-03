@@ -39,6 +39,8 @@ Study consciousness as a cross-disciplinary problem spanning experience, mind, b
 
 One of the most delicate SUF-adjacent zones; useful, but strong claims should stay disciplined and typed.
 
+For a later-horizon sibling SUF frontier note, see [Quantum-Relational Ontology and Consciousness](../../../structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md). That note is a bounded SUF frontier branch, not a Knowledge core note.
+
 ## Status
 
 `seed node`

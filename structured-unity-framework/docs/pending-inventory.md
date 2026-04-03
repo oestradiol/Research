@@ -49,3 +49,11 @@ Local git initialization, licensing, maintainer metadata, umbrella-repo structur
 | Additional bounded application routes | Only after explicit route design, source logic, and status labels are in place. |
 | HTML or GitHub Pages mirror | Optional reading surface, not required for the research-phase package. |
 | Wider atlas growth beyond the targeted map | Only if the package is deliberately rescoped again. |
+
+## F. Later-horizon / post-proof frontier branches
+
+| Item | Notes |
+|------|-------|
+| Quantum-relational ontology and consciousness branch | A bounded public frontier note now exists. What remains open is deeper formalization and a literature-backed comparison against IIT, GNWT, active inference, and dynamical-systems consciousness work. This branch stays post-proof and does not change the NZ/Taiwan queue. |
+| Computational / simulation-universe branch | Intentionally quarantined and internal-only in this tranche. It stays later than the consciousness branch and requires a dedicated compatibility table before any public promotion. |
+| AGI SUF branch | Recorded only as a separate later branch after both the consciousness and computational branches are materially developed. It remains distinct from the current AI coordination frontier and has no public note yet. |
