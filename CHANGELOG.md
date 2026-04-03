@@ -16,3 +16,5 @@ First bounded public release of the full `Research/` repository.
 - hosted package URLs
 - remote-grounded changelog history
 - tagged release publishing
+
+Future `v1.x` releases are expected to deepen empirical routes, comparative execution, and reproducibility support rather than redefine the current bounded release type.

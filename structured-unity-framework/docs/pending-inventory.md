@@ -2,57 +2,100 @@
 
 This file records what remains open or intentionally deferred. For the current state, use `docs/project-status.md`. For sequencing, use `ROADMAP.md`.
 
-Local git initialization, licensing, maintainer metadata, umbrella-repo structure, and local changelog / citation surfaces are already complete. This file tracks what is still open beyond that baseline.
+Local git initialization, licensing, maintainer metadata, umbrella-repo structure, and local changelog / citation surfaces are already complete. This file now functions as the ordered publication-prep and post-launch queue for the public package.
 
-## A. Publication-finalization items
+## A. Publication-launch blockers
 
-| Item | Notes |
-|------|-------|
-| Create public remote / hosting surface | Still deferred until a later publication-finalization pass. |
-| Add hosted package URLs to citation and README surfaces | Replace local-only path assumptions once the public host exists. |
-| Ground `CHANGELOG.md` to remote git history | Tie the changelog to hosted commit and tag history once the remote exists. |
-| Prepare the first tagged release | Tagging, release notes, and publication packaging belong to the late-stage publication pass. |
+1. `launch blocker` Create the public remote / hosting surface.
+   Why it matters: the current `v1.0.0` is a clean local launch candidate, but it is not yet publicly reachable.
+   When done, update: `Research/README.md`, package README files, and citation surfaces with hosted links where appropriate.
 
-## B. Research execution items
+2. `launch blocker` Add hosted package URLs to citation and README surfaces.
+   Why it matters: the public package should point to stable hosted locations rather than only local-relative assumptions.
+   When done, update: `Research/CITATION.cff`, package `CITATION.cff` files, and entry README surfaces.
 
-| Item | Notes |
-|------|-------|
-| Complete the New Zealand official corpus assembly | A first-pass public inventory now exists, but the full corpus still has to be assembled and checked. |
-| Deepen the event ledger | The seed ledger now stands at `35` coded events with a `27`-event main interval and a stronger late-transition implementation layer, but the route still needs fuller chronological coverage and denser implementation-chain coding. |
-| Stress-test the first bounded `I`, `C`, and `L` passes | Initial bounded summaries now exist and now sit beside a route-local estimator implementation, but they still need deeper event coverage, sensitivity work, and comparative pressure. |
-| Stress-test the first conjoint `I/C/L` window comparison | A first comparative pass now exists and has survived an expanded `14`-check robustness note, but it still needs denser implementation-chain coverage and stronger comparative pressure before stronger claims are made. |
-| Implement primary estimators | A first route-local estimator implementation now exists; what remains open is refinement, further route testing, and any later transfer logic beyond this case. |
-| Run sensitivity and null checks | A first `14`-check sensitivity/null note now exists, but fuller perturbation and null work is still required before stronger route-level interpretation. |
-| Execute the first comparative route | A first Taiwan design, corpus inventory, `12`-event seed ledger, one conservative lag pair, and bounded comparison note now exist. What remains open is to deepen Taiwan beyond the current starter tranche under the same live-plus-fixed-archive rule. |
+3. `launch blocker` Ground `CHANGELOG.md` to hosted git history.
+   Why it matters: the release snapshot should resolve to hosted commits and tags once the remote exists.
+   When done, update: `Research/CHANGELOG.md`, package changelogs, and any release-facing references to version history.
 
-## C. Contribution-crystallization items
+4. `launch blocker` Prepare the first tagged release and release notes.
+   Why it matters: publication mechanics should end in one explicit launch artifact rather than only a local commit.
+   When done, update: release-note surfaces outside the repo if used, and the changelog if tag metadata needs to be reflected.
 
-| Item | Notes |
-|------|-------|
-| Pressure-test the locked public payoff sentence | The payoff sentence is now locked in `docs/contribution-and-payoff-note.md`. What remains is to test whether it survives deeper ledger and comparator work without overreach. |
-| Deepen support for the bounded case-level analytical gain | The strongest current gain still concerns the structural centrality of public-information coordination. It remains open to strengthen or weaken that claim under deeper event and comparator pressure. |
-| Keep the Informational Awareness Framework's downstream role synchronized | A public clarification note now exists in `framework/iaf-downstream-role.md`; what remains is to keep its claims synchronized with route execution and comparative work. |
+## B. Post-launch `v1.x` empirical hardening
 
-## D. Maintenance items
+1. `post-launch` Complete the New Zealand official corpus assembly.
+   Why it matters: the current public inventory is good enough for the bounded release but not yet a fuller empirical base.
+   When done, update: NZ corpus inventory, discovery log, event ledger, route summaries, and `docs/project-status.md` if the baseline changes materially.
 
-| Item | Notes |
-|------|-------|
-| Cross-file consistency checks | Recheck wording when route implementation details become more concrete. |
-| Later prose polish before publication | A final polish pass still belongs near publication, not in the middle of execution work. |
-| Diagram refresh if the atlas grows | Update text-first diagrams if the public map expands materially. |
+2. `post-launch` Deepen the New Zealand event ledger beyond the current `35`/`27` baseline.
+   Why it matters: the locked payoff sentence should face denser implementation-chain pressure.
+   When done, update: event-ledger, dependency graph, `I/C/L` summaries, conjoint comparison, sensitivity note, and `docs/contribution-and-payoff-note.md`.
 
-## E. Later optional expansion
+3. `post-launch` Stress-test the route-local estimator layer and the first bounded `I`, `C`, and `L` passes.
+   Why it matters: estimator underdetermination is a known live objection and should be narrowed by further route execution.
+   When done, update: estimator implementation, route summaries, `claims-and-boundaries.md`, and `framework/research-program.md` if methods posture changes materially.
 
-| Item | Notes |
-|------|-------|
-| Additional bounded application routes | Only after explicit route design, source logic, and status labels are in place. |
-| HTML or GitHub Pages mirror | Optional reading surface, not required for the bounded `v1.0.0` package. |
-| Wider atlas growth beyond the targeted map | Only if the package is deliberately rescoped again. |
+4. `post-launch` Deepen the conjoint `I/C/L` window comparison and the `14`-check robustness program.
+   Why it matters: the current comparison is bounded and useful, but it is not yet the strongest possible methods defense.
+   When done, update: window-comparison note, sensitivity/null note, route summaries, and `docs/project-status.md` if the strongest current gain changes.
 
-## F. Later-horizon / post-proof frontier branches
+5. `post-launch` Deepen the Taiwan comparator beyond the current `12`-event starter tranche.
+   Why it matters: comparator depth remains one of the main live limits on external scrutiny.
+   When done, update: Taiwan corpus inventory, Taiwan ledger, NZ-Taiwan comparison note, and `docs/project-status.md`.
 
-| Item | Notes |
-|------|-------|
-| Quantum-relational ontology and consciousness branch | A bounded public frontier note now exists. What remains open is deeper formalization and a literature-backed comparison against IIT, GNWT, active inference, and dynamical-systems consciousness work. This branch stays post-proof and does not change the NZ/Taiwan queue. |
-| Computational / simulation-universe branch | Intentionally quarantined and internal-only in this tranche. It stays later than the consciousness branch and requires a dedicated compatibility table before any public promotion. |
-| AGI SUF branch | Recorded only as a separate later branch after both the consciousness and computational branches are materially developed. It remains distinct from the current AI coordination frontier and has no public note yet. |
+## C. Post-launch interpretation and defense work
+
+1. `post-launch` Pressure-test the locked public payoff sentence.
+   Why it matters: the current front-door claim is now explicit and should survive deeper evidence without slogan drift.
+   When done, update: `docs/contribution-and-payoff-note.md`, `docs/v1-academic-bundle.md`, and `docs/project-status.md` if the lock survives or changes.
+
+2. `post-launch` Deepen support for the bounded case-level analytical gain.
+   Why it matters: the current gain concerns public-information coordination as a routed structural layer, and that claim should either strengthen or weaken honestly under more evidence.
+   When done, update: route notes, `docs/v1-academic-bundle.md`, and `docs/claims-and-boundaries.md` if the support profile changes materially.
+
+3. `post-launch` Keep the Informational Awareness Framework downstream-role note synchronized with route evidence.
+   Why it matters: the IAF clarification should remain tied to route-visible distinctions, not outrun the empirical base.
+   When done, update: `framework/iaf-downstream-role.md` and `docs/project-status.md` if the downstream role expands or narrows.
+
+## D. Ongoing maintenance
+
+1. `post-launch` Re-run cross-file consistency checks when route implementation details become more concrete.
+   Why it matters: the public status and route surfaces must keep moving together.
+   When done, update: whichever status, route, or tooling report surfaces drifted.
+
+2. `deferred` Run later prose polish near actual public launch, not during empirical execution.
+   Why it matters: polish should follow stable claims, not precede them.
+   When done, update: entry surfaces and bundle notes only where readability improves without changing claims.
+
+3. `deferred` Refresh diagrams if the atlas or demonstrated-route map expands materially.
+   Why it matters: text-first diagrams should reflect the public architecture once it actually changes.
+   When done, update: diagram specs and any linked overview surfaces.
+
+## E. Deferred optional expansion
+
+1. `deferred` Add additional bounded application routes only after explicit route design, source logic, and status labels exist.
+   Why it matters: route growth should not dilute the bounded-release discipline.
+   When done, update: applications atlas, route status surfaces, and `ROADMAP.md`.
+
+2. `deferred` Add an HTML or GitHub Pages mirror if a second reading surface becomes useful.
+   Why it matters: this is optional convenience infrastructure, not a requirement for the current bounded launch.
+   When done, update: `Research/README.md`, package README surfaces, and hosted-link references.
+
+3. `deferred` Grow the atlas beyond the targeted map only if the package is deliberately rescoped.
+   Why it matters: breadth should not be mistaken for validation.
+   When done, update: atlas status surfaces and `ROADMAP.md`.
+
+## F. Long-horizon frontier branches
+
+1. `deferred` Quantum-relational ontology and consciousness branch.
+   Why it matters: a bounded public frontier note exists, but deeper formalization and rival-theory comparison still belong after stronger empirical work.
+   When done, update: the frontier note, literature-guide routing, and any explicit public comparison surface.
+
+2. `deferred` Computational / simulation-universe branch.
+   Why it matters: this branch remains intentionally quarantined until a dedicated compatibility table exists and the empirical core is stronger.
+   When done, update: only the explicitly bounded public surfaces chosen for later promotion.
+
+3. `deferred` AGI SUF branch.
+   Why it matters: this remains later than both the consciousness and computational branches and should not be collapsed into the current AI coordination frontier.
+   When done, update: later frontier-planning surfaces only after the branch is formally opened.

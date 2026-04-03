@@ -267,7 +267,23 @@ These items remain open without undermining the current research-ready public pa
 - deeper comparative execution beyond the current Taiwan starter tranche
 - wider atlas expansion beyond the targeted public map
 
-## 13. Non-claims
+## 13. Reviewer-pressure points
+
+Readers are most likely to press on:
+
+- estimator underdetermination
+- bounded comparator depth
+- route-to-framework generalization
+- alternative-framework comparison depth
+
+This package addresses those pressures through:
+
+- explicit claim boundaries in `../docs/claims-and-boundaries.md`
+- the anti-fake-precision rule in this document
+- route-local estimator disclosure in the demonstrated route package
+- published null and sensitivity logic rather than silent methodological confidence
+
+## 14. Non-claims
 
 This document does not claim:
 

@@ -20,7 +20,7 @@ Current snapshot:
 - typed relation vocabulary
 - interconnected study routes
 
-This is the first bounded public release of the Knowledge package inside the umbrella repository. It is stable and navigable, but it is not the main academic claim of the repository.
+This is the first bounded public release of the Knowledge package inside the umbrella repository. It is stable and navigable, but it is not the main academic claim of the repository. It is included in the public release as supporting research infrastructure rather than as the principal academic argument.
 
 ## 2. How to use it
 

@@ -23,6 +23,10 @@ Not a complete metaphysics, final ontology, religion, replacement for evidence, 
 
 It must not drift into pure mysticism, pure physics, pure cognition theory, or pure AI speculation **as if** they alone grounded the whole project.
 
+### 4.1 What this layer does not defend by itself
+
+Framework Interface does not by itself establish the empirical adequacy of the route package, settle estimator design, close comparator objections, or prove that the bounded demonstrated route generalizes across domains. It keeps the stack coherent and legible; it is not a substitute for methods execution or empirical pressure.
+
 ## 5. Core stance
 
 Restrained: epistemically grounded, structurally formalizable, metaphysically minimal, scientifically extendable. Structural claims must not silently harden into stronger ontology than intended. High-risk terms stay **typed**. Underdetermination stays explicit where metrics and thresholds are not fixed. **Interpretive usefulness ≠ evidential force.**

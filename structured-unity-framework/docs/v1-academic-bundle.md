@@ -6,7 +6,7 @@ This note is the public academic front door for the bounded `v1.0.0` release of 
 
 ## Abstract
 
-Structured Unity Framework (SUF) is a layered, documentation-first framework for studying unity-like organization in complex systems without collapsing phenomenological, informational, dynamic, and operational claims into one register. The public `v1.0.0` release presents four coordinated theory layers, an explicit methods posture, a bounded demonstrated route, and a reproducibility layer. The main empirical anchor is a New Zealand pandemic-coordination route with a `35`-event public ledger, a `27`-event main perturbation interval, route-local `I`, `C`, and `L` readouts, a dependency graph, a conjoint window comparison, and a `14`-check sensitivity/null note. A bounded Taiwan comparator now adds a `12`-event archive-clean starter tranche under the same source-admission rule. The strongest current payoff is not universal proof but a concrete case-level distinction: the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture. The package is positioned as methods/framework work first and philosophy/theory second. It offers a disciplined public architecture, a demonstrated route, a bounded comparator, and read-only validation tooling, while keeping broader empirical completion and stronger cross-case claims explicitly open.
+Structured Unity Framework (SUF) is a layered, documentation-first framework for studying unity-like organization in complex systems without collapsing phenomenological, informational, dynamic, and operational claims into one register. The public `v1.0.0` release presents four coordinated theory layers, an explicit methods posture, a bounded demonstrated route, and a reproducibility layer. The main empirical anchor is a New Zealand pandemic-coordination route with a `35`-event public ledger, a `27`-event main perturbation interval, route-local `I`, `C`, and `L` readouts, a dependency graph, a conjoint window comparison, and a `14`-check sensitivity/null note. A bounded Taiwan comparator now adds a `12`-event archive-clean starter tranche under the same source-admission rule. The strongest current payoff is not universal proof but a concrete case-level distinction: the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture. The package is positioned as methods/framework work first and philosophy/theory second. It offers a disciplined public architecture, a demonstrated route, a bounded comparator, and read-only validation tooling, while keeping broader empirical completion and stronger cross-case claims explicitly open. This release is intended to survive scrutiny as a bounded methods/framework release, not as a completed validation program.
 
 ## Locked payoff sentence
 
@@ -22,6 +22,16 @@ Structured Unity Framework (SUF) is a layered, documentation-first framework for
 
 Methods/framework first. Theory and philosophy are supporting architecture, not the sole product.
 
+## Reader expectation
+
+Read this package as a bounded framework-and-methods release with one demonstrated route and one bounded comparator.
+
+Do not read it as:
+
+- a universal proof of SUF
+- a closed empirical monograph
+- a full rival-theory adjudication across the entire consciousness, systems, or institutional-methods literature
+
 ## Empirical anchor
 
 - New Zealand demonstrated route: `35` coded events, `27`-event main interval, first bounded `I`, `C`, `L`, conjoint comparison, and `14`-check sensitivity/null note.
@@ -34,6 +44,13 @@ Methods/framework first. Theory and philosophy are supporting architecture, not 
 - This release does not treat one demonstrated route as validation across every mapped domain.
 - This release does not claim final ontology from the theory stack or the frontier notes.
 - This release does not complete remote hosting, tag publishing, or hosted release packaging.
+
+## Where objections and limits are handled
+
+- claim boundaries and non-claims: `docs/claims-and-boundaries.md`
+- layer discipline and non-circularity: `framework/framework-interface.md`
+- methods burden, null logic, and route design: `framework/research-program.md`
+- current locked versus provisional state: `docs/project-status.md`
 
 ## Status
 

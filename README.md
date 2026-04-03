@@ -18,6 +18,12 @@ This is the first bounded public release of the full `Research/` repository:
 
 This release is publication-ready in a bounded sense. It is **not** a claim of universal proof, final ontology, or closed empirical completion.
 
+The current launch candidate is this local `v1.0.0` snapshot. Next publication-prep steps are limited to public-release mechanics and final handoff clarity, not to reclassifying the framework as incomplete.
+
+For current state use `structured-unity-framework/docs/project-status.md`.
+For open work use `structured-unity-framework/docs/pending-inventory.md`.
+For future direction use `structured-unity-framework/ROADMAP.md`.
+
 ## Maintainer
 
 - Elaina

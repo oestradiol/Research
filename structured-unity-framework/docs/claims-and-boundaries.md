@@ -27,7 +27,16 @@ Careful uses of subjectivity-like or higher-order agency language may appear as 
 
 ## 5. What remains open
 
-See `project-status.md`, `pending-inventory.md`, `contribution-and-payoff-note.md`, `../framework/research-program.md`, and `../framework/iaf-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, payoff locking, and publication-finalization work.
+See `project-status.md`, `pending-inventory.md`, `contribution-and-payoff-note.md`, `../framework/research-program.md`, and `../framework/iaf-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper estimator pressure, and publication-finalization work.
+
+### 5.1 Strongest unresolved objections
+
+These are known live limits, not unnoticed weaknesses:
+
+- estimator underdetermination beyond the current route-local implementation
+- limited comparator depth, especially on the Taiwan side
+- route-to-framework generalization risk from one demonstrated route
+- still-thin direct comparison against nearby alternative frameworks
 
 ## 6. What the framework does not claim
 
