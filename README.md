@@ -32,6 +32,7 @@ This release line is publication-ready in a bounded sense. It is **not** a claim
 The hosted `v1.1.0` tag anchors the public citation, changelog, and release-note surfaces. Current `main` is aligned with that same release point: a `38`-event New Zealand monograph-baseline route with a `29`-event main interval, a `15`-event bounded Taiwan comparator, and the same read-only validation layer carried forward under the new release line.
 
 For current state use `structured-unity-framework/docs/project-status.md`.
+For immediate next-step sequencing use `structured-unity-framework/docs/current-execution-order.md`.
 For open work use `structured-unity-framework/docs/pending-inventory.md`.
 For future direction use `structured-unity-framework/ROADMAP.md`.
 
@@ -44,7 +45,7 @@ For future direction use `structured-unity-framework/ROADMAP.md`.
 ## How to use this repo
 
 - Start with the package README that matches what you need.
-- Use `structured-unity-framework/` for the framework, methods posture, and bounded route package.
+- Use `structured-unity-framework/` for the framework, methods posture, bounded route package, and current sequencing surfaces.
 - Use `knowledge/` for the broader graph of clusters, nodes, relations, and study routes.
 - Use `tools/` for reproducibility, validation, and read-only report generation.
 - Use `using-this-research-with-human-assistants-and-reasoning-agents.md` for collaborative reading, reasoning-agent support, and accessibility-oriented navigation guidance.

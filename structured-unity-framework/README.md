@@ -30,6 +30,8 @@ This directory is the current **publication-ready bounded public release** of th
 
 **Stable now:** three substantive layers plus one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local estimator implementation; a `15`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IAF; a reviewer-facing objections surface; a claim-status matrix; and a tooling-ready read-only validation layer.
 
+For current package posture use `docs/project-status.md`. For live sequencing use `docs/current-execution-order.md`. For long-range planning use `docs/monograph-and-closure-program.md` and `ROADMAP.md`.
+
 ## 4. Reading path
 
 1. this file
