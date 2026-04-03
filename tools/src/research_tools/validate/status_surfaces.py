@@ -85,6 +85,7 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-v1-evidence-doc", v1_bundle, "evidence-status-matrix.md", "v1 bundle links the evidence-status matrix."),
         ("status-reviewer-purpose", reviewer_doc, "This file collects the strongest foreseeable academic objections", "Reviewer-objections doc has its intended purpose text."),
         ("status-evidence-purpose", evidence_doc, "This file maps the major current public claims", "Evidence-status matrix has its intended purpose text."),
+        ("status-reviewer-doc-evidence-mapping", reviewer_doc, "stronger evidence-to-claim mapping", "Reviewer-objections doc keeps the remaining evidence-to-claim mapping burden explicit."),
         ("status-research-program-open-work", research_program, "- deeper comparative execution beyond the current bounded Taiwan comparator", "Research program open-work section reflects the current Taiwan comparator posture."),
         ("status-publication-scope-layer-framing", publication_scope, "three substantive framework layers plus one bridge/control layer", "Publication scope reflects the updated layer framing."),
     ]
@@ -95,6 +96,7 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-v1-no-four-coordinated", v1_bundle, "four coordinated theory layers", "v1 academic bundle no longer presents four coordinated theory layers."),
         ("status-publication-scope-no-four-layer", publication_scope, "the four-layer framework", "Publication scope no longer presents the four-layer framework wording."),
         ("status-project-status-no-four-layer", project_status, "the four-layer framework structure", "Project status no longer presents the four-layer framework wording."),
+        ("status-reviewer-doc-no-indexing-missing", reviewer_doc, "stronger completeness in reviewer-facing indexing", "Reviewer-objections doc no longer describes reviewer-facing indexing as missing or incomplete."),
     ]
 
     results: list[ValidationResult] = []

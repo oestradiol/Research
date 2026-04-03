@@ -62,7 +62,7 @@ For reviewer-facing objection routing and claim-status routing, use:
 - `reviewer-objections-and-current-answers.md`
 - `evidence-status-matrix.md`
 
-These do not replace the boundary file; they index and consolidate the current pressure points.
+These do not replace the boundary file; they index current objections and route major claims to their present status.
 
 ## 9. AI-language and credibility boundary
 

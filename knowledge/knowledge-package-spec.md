@@ -53,7 +53,7 @@ Cluster, domain, and subdomain notes should normally include:
 - current status
 - route links where route travel is genuinely useful
 
-Deepened hub nodes may also include:
+Deepened hub nodes that foreground SUF should include:
 
 - `suf_role`
 - selective `aliases`

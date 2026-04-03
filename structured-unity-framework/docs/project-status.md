@@ -17,7 +17,7 @@ Use the public status files by role:
 
 Current `main` is aligned with the hosted `v1.1.0` New Zealand monograph-baseline release for the public package. The framework core is in place, the New Zealand route now includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a chapter-ready New Zealand monograph baseline. The Taiwan branch still exists as a `15`-event bounded comparator rather than a starter-only tranche, the locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and public release hygiene.
 
-Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, changelog grounding, and tagged release-note packaging are complete. No remaining launch blocker or active-core repo-completion blocker is left inside the current repository state.
+Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, changelog grounding, and tagged release-note packaging are complete. No remaining launch blocker or active-core repository-assembly blocker is left inside the current repository state.
 
 It is still **not** a claim of universal proof and **not** a closed empirical monograph.
 

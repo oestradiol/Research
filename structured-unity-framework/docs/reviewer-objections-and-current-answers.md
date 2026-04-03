@@ -211,7 +211,7 @@ Explicitly accepted by this audit layer.
 
 ### Unresolved remainder
 
-The package still needs stronger completeness in reviewer-facing indexing, stronger empirical closure, and stronger evidence-to-claim mapping to satisfy a harder external review standard.
+The package now has clearer reviewer-facing indexing, but it still needs stronger empirical closure and stronger evidence-to-claim mapping to satisfy a harder external review standard.
 
 ### Primary surfaces
 
