@@ -3,7 +3,7 @@
 ## Top-level entry points
 
 - [Knowledge Package](../README.md)
-- [Knowledge Package Spec](../Knowledge Package Spec.md)
+- [Knowledge Package Spec](../knowledge-package-spec.md)
 - [SUF Relationship](../suf-relationship.md)
 - [Studying and Teaching with SUF](../studying-and-teaching-with-suf.md)
 - [Using This Research with Human Assistants and Reasoning Agents](../../using-this-research-with-human-assistants-and-reasoning-agents.md)

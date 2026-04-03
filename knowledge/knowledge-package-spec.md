@@ -33,7 +33,7 @@ SUF should **not** be treated as the mandatory voice inside every node. Each not
 ```text
 Research/knowledge/
 ├─ README.md
-├─ Knowledge Package Spec.md
+├─ knowledge-package-spec.md
 ├─ CONTRIBUTING.md
 ├─ CHANGELOG.md
 ├─ CITATION.cff

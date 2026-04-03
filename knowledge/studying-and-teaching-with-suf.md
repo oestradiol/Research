@@ -184,7 +184,7 @@ The most honest teaching stance is:
 
 ## Related notes
 
-- [Knowledge Package Spec](Knowledge Package Spec.md)
+- [Knowledge Package Spec](knowledge-package-spec.md)
 - [Knowledge Index](_indexes/knowledge-index.md)
 - [Study Routes](study-routes/README.md)
 - [SUF Relationship](suf-relationship.md)

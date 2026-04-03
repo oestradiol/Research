@@ -9,7 +9,7 @@ This guide is for edits to the public **Knowledge** atlas.
 Read:
 
 - `README.md`
-- `Knowledge Package Spec.md`
+- `knowledge-package-spec.md`
 - `_indexes/knowledge-index.md`
 - `suf-relationship.md`
 
