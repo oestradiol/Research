@@ -48,22 +48,22 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             "status-root-readme-main-state",
             root_readme,
             (
-                "Current `main` state: post-`v1.0.0` active-core completion and "
-                "tooling-ready baseline."
+                "Current `main` state: aligned with the hosted `v1.0.1` repo-complete "
+                "and tooling-ready baseline."
             ),
-            "Umbrella README keeps the hosted-snapshot versus current-main split explicit.",
+            "Umbrella README keeps the current release-point alignment explicit.",
         ),
         (
             "status-root-readme-metrics",
             root_readme,
             (
-                "The hosted `v1.0.0` tag anchors the public citation, changelog, and "
-                "release-note surfaces. Current `main` now carries the repo-complete active-core "
-                f"state with a hardened `{nz_summary.event_count}`-event New Zealand route, a "
+                "The hosted `v1.0.1` tag anchors the public citation, changelog, and "
+                "release-note surfaces. Current `main` is aligned with that same repo-complete "
+                f"baseline: a hardened `{nz_summary.event_count}`-event New Zealand route, a "
                 f"`{taiwan_summary.event_count}`-event bounded Taiwan comparator, and a stronger "
                 "read-only validation layer."
             ),
-            "Umbrella README current-main metrics match the current package baseline.",
+            "Umbrella README release-point metrics match the current package baseline.",
         ),
         (
             "status-suf-readme-metrics",
@@ -87,10 +87,10 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             "status-project-status-main-state",
             project_status,
             (
-                "Current `main` now carries the post-`v1.0.0` active-core completion state "
-                "for the public package."
+                "Current `main` is aligned with the hosted `v1.0.1` repo-complete and "
+                "tooling-ready baseline for the public package."
             ),
-            "Project status keeps the hosted-snapshot versus current-main split explicit.",
+            "Project status keeps the current release-point alignment explicit.",
         ),
         (
             "status-project-status-metrics",
@@ -184,10 +184,13 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
             "status-roadmap-main-state",
             roadmap,
             (
-                "Current `main` now carries the repo-complete active-core and "
+                "Current `main` is aligned with the hosted `v1.0.1` repo-complete and "
                 "tooling-ready baseline for the same public package line."
             ),
-            "Roadmap keeps current-main status synchronized with the repo-complete state.",
+            (
+                "Roadmap keeps the current release-point status synchronized with the "
+                "repo-complete state."
+            ),
         ),
         (
             "status-research-program-open-work",

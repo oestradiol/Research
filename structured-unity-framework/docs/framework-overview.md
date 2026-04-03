@@ -42,10 +42,10 @@ The current demonstrated route is the New Zealand pandemic-coordination package 
 
 - fuller corpus completeness for the New Zealand route
 - further estimator refinement and robustness pressure
-- later comparative execution beyond the New Zealand baseline
+- later comparative execution beyond the current Taiwan comparator baseline
 - later analysis-ready or research-ops tooling beyond the current read-only validation layer
 
-These open items do not erase the current bounded `v1.0.0` package; they mark the next empirical and validation layers of work on `main`.
+These open items do not erase the current bounded `v1.0.1` package; they mark the next empirical and validation layers of work on `main`.
 
 ## 8. Next links
 

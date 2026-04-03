@@ -8,7 +8,7 @@ It does not replace the theory stack, prove phenomenology from metrics, or claim
 
 ## 2. Current bounded-release posture
 
-The package is now a **bounded public `v1.0.0` release** rather than only a draft architecture. That means several research tracks are active now:
+The package is now a **bounded public `v1.0.1` release** rather than only a draft architecture. That means several research tracks are active now:
 
 - a research-ready New Zealand route under `applications/demonstrated-routes/`
 - a targeted public atlas under `applications/research-map/`
@@ -17,7 +17,7 @@ The package is now a **bounded public `v1.0.0` release** rather than only a draf
 
 The New Zealand route now also carries a route-local estimator implementation and a source-admission rule that accepts new official events only when both the live source and a fixed archive are verified.
 
-Hosted publication mechanics are complete. Local metadata, licensing, package scaffolding, hosted URLs, and first release packaging are already in place; current `main` now carries the active-core completion state, so the remaining burden is later expansion rather than unfinished launch setup.
+Hosted publication mechanics are complete. Local metadata, licensing, package scaffolding, hosted URLs, and tagged release packaging are already in place; current `main` is aligned with the active-core completion state, so the remaining burden is later expansion rather than unfinished launch setup.
 
 ## 3. First active route
 
@@ -248,6 +248,22 @@ Recommended federal contrast because it offers:
 
 Comparators must preserve functional equivalence, not just country-level similarity. Comparison should stay bounded to matched windows, matched route boundaries, and justified unit mappings.
 
+### Long-range bounded closure target
+
+If the current program is deliberately reopened beyond the active-core baseline, the explicit closure target is:
+
+- a monograph-grade repo in `New Zealand core + comparator chapters` form
+- strong multi-case closure within pandemic-governance inside the current states-and-societies family
+- no universal validation and no cross-domain closure claim
+
+The default comparator order for that later program is:
+
+1. Taiwan completion
+2. Australia federal comparator
+3. only then any later optional comparator, if explicitly reopened
+
+See [../docs/monograph-and-closure-program.md](../docs/monograph-and-closure-program.md) for the canonical long-range phase ladder.
+
 ## 11. Relation to the public atlas
 
 The `applications/research-map/` subtree now functions as the outward extension surface for this document.
@@ -266,6 +282,8 @@ These items remain open without undermining the current research-ready public pa
 - route-specific software or workflow choices for coding and analysis
 - deeper comparative execution beyond the current bounded Taiwan comparator
 - wider atlas expansion beyond the targeted public map
+
+The canonical later completion path is now defined in [../docs/monograph-and-closure-program.md](../docs/monograph-and-closure-program.md).
 
 ## 13. Reviewer-pressure points
 

@@ -4,7 +4,7 @@
 
 This package provides reproducible, read-only research-support tooling for the `Research/` repository.
 
-Current snapshot: `1.0.0` dated `2026-04-02`.
+Current snapshot: `1.0.1` dated `2026-04-02`.
 
 Hosted package URL: [oestradiol/Research/tree/main/tools](https://github.com/oestradiol/Research/tree/main/tools)
 

@@ -15,6 +15,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 ## Status surfaces
 
 - `project-status.md` = current package posture
+- `monograph-and-closure-program.md` = canonical long-range phase ladder
 - `../ROADMAP.md` = future direction
 - `pending-inventory.md` = open and deferred items
 
@@ -26,6 +27,11 @@ This page is the site map for the Structured Unity Framework public package: eve
 | `framework-overview.md` | Executive summary of the four layers and how they relate |
 | `claims-and-boundaries.md` | What is claimed vs modeled vs open; anti-inflation guardrails |
 | `project-status.md` | Current-state summary for the bounded public release |
+| `monograph-and-closure-program.md` | Canonical long-range phase ladder toward monograph-grade completion |
+| `monograph-table-of-contents.md` | Repo-native monograph shape and chapter order |
+| `monograph-evidence-map.md` | Chapter-to-artifact and unresolved-burden map |
+| `bounded-pandemic-closure-note.md` | Stable scaffold for later family-level closure synthesis |
+| `rival-framework-positioning-note.md` | Stable scaffold for later bounded rival-framework positioning |
 | `pending-inventory.md` | Compiled open-items and deferred-work inventory |
 | `v1-academic-bundle.md` | Abstract, payoff, contributions, and limits for the bounded public release |
 | `contribution-and-payoff-note.md` | Locked public payoff sentence plus supporting contribution candidates |
@@ -97,7 +103,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 |------|------|
 | `README.md` | Project definition, reading path, architecture, current package posture |
 | `CHANGELOG.md` | Dated hosted change history |
-| `ROADMAP.md` | Future-facing priorities |
+| `ROADMAP.md` | Compressed future-facing priorities |
 | `CONTRIBUTING.md` | How to propose edits safely |
 | `LICENSE` | License text |
 | `CITATION.cff` | Snapshot citation metadata |

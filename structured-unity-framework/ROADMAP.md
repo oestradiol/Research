@@ -1,48 +1,45 @@
 # Roadmap
 
-This file is future-facing only. It tracks where the public package should move next. For the current package state on `main`, use `docs/project-status.md`. For deferred or optional later work, use `docs/pending-inventory.md`.
+This file is the compressed future-facing summary for the public package. For the current package state on `main`, use `docs/project-status.md`. For the canonical long-range phase ladder, use [docs/monograph-and-closure-program.md](docs/monograph-and-closure-program.md). For queued later work, use `docs/pending-inventory.md`.
 
-## 1. Hosted `v1.0.0` and current `main`
+## 1. Hosted `v1.0.1` and current `main`
 
-The hosted `v1.0.0` tag remains the dated bounded release.
+The hosted `v1.0.1` tag is the dated bounded release.
 
-Current `main` now carries the repo-complete active-core and tooling-ready baseline for the same public package line. That means the near-term roadmap is no longer about launch mechanics or unfinished active-core hardening.
+Current `main` is aligned with the hosted `v1.0.1` repo-complete and tooling-ready baseline for the same public package line. That means later `1.x` work is a deliberate reopening toward a monograph-grade repo, not a continuation of unfinished launch mechanics.
 
-## 2. Immediate next versioned direction
+## 2. Canonical next program
 
-The next deliberately reopened `1.x` work should come only from explicit deferred queues such as:
+The canonical long-range program is now:
 
-- a later Taiwan de-escalation tranche
-- a second comparator route
-- analysis-ready tooling after the current read-only validation layer
-- research-ops tooling after analysis-ready work proves useful
+- a finished empirical monograph in `New Zealand core + comparator chapters` form
+- strong multi-case closure within pandemic-governance inside the current states-and-societies family
+- a strong final empirical result in bounded form, without universal validation or cross-domain closure
 
-## 3. Later empirical direction
+See [Monograph and Closure Program](docs/monograph-and-closure-program.md).
 
-- push the New Zealand route toward monograph-scale corpus depth only if that deeper burden is deliberately reopened
-- keep the locked payoff sentence synchronized with route-visible evidence if a later tranche materially changes the support profile
-- keep the current IAF downstream-role note synchronized with route-visible evidence if later comparative work changes the support profile
+## 3. Phase order
 
-## 4. Later comparative direction
+1. `v1.1` New Zealand monograph hardening
+2. `v1.2` Taiwan completion
+3. `v1.3` Australia federal comparator
+4. `v1.4` bounded pandemic-governance closure and monograph-grade repo
+5. `v1.5` analysis-ready tooling
+6. `v1.6` research-ops tooling
 
-- open a second comparator route only after matched functional boundaries, unit mappings, and source control are explicit
-- decide which unit-matching rules are strict enough for comparative use before broadening claims
-- keep later comparison bounded unless the evidence base clearly supports a stronger posture
+## 4. Boundary rules for later work
 
-## 5. Later tooling direction
+- keep the current event schema, source-admission rule, window logic, and route-local estimator posture unless the methods docs are revised first
+- keep docs canonical and tools read-only
+- keep comparator order as `Taiwan -> Australia -> later optional comparator` unless the comparative rule is explicitly revised
+- keep closure bounded to pandemic-governance inside the current route family
 
-- `v1.5`: add analysis-ready structured exports and stronger external-analysis support while keeping docs canonical and tools read-only
-- `v1.6`: add research-ops maintenance and workflow infrastructure only after the need is real
-- keep any future automation explicitly gated and ADR-backed
+## 5. Later optional expansion
 
-## 6. Later atlas direction
+- deepen atlas nodes that later become active routes
+- keep frontier branches explicitly post-core
+- do not reopen cross-domain closure, universal validation, or field-settling claims under this roadmap
 
-- deepen atlas nodes that become active routes
-- keep the targeted atlas bounded rather than letting it become a giant undisciplined graph
-- add new routes only when boundaries, units, windows, and sources are explicit from the start
+## Status
 
-## 7. Later frontier direction
-
-- keep the quantum-relational and consciousness branch explicitly post-core and bounded
-- keep the computational or simulation-universe branch more quarantined still
-- keep AGI SUF later than both of those branches
+`future-facing compressed roadmap`

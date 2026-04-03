@@ -1,17 +1,17 @@
 # Pending Inventory
 
-This file records what remains deferred or optional after the active core is completed on `main`. For the current package state, use `docs/project-status.md`. For future direction, use `ROADMAP.md`.
+This file records the queued later work after the active core was completed on `main`. For the current package state, use `project-status.md`. For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed future-facing summary, use `../ROADMAP.md`.
 
 ## A. No remaining publication or active-core blockers
 
-The hosted `v1.0.0` release now has:
+The hosted `v1.0.1` release now has:
 
 - a public remote at `https://github.com/oestradiol/Research`
 - hosted README and citation URLs for the umbrella repo and public packages
 - changelog entries grounded to hosted commit and tag surfaces
-- repo-local release notes at `releases/v1.0.0.md`
+- repo-local release notes at `releases/v1.0.1.md`
 
-Current `main` also now has:
+Current `main` is aligned with that hosted snapshot and now has:
 
 - a `38`-event New Zealand route with a `29`-event main interval
 - a `15`-event bounded Taiwan comparator
@@ -37,46 +37,51 @@ No unresolved publication blocker or active-core repo-completion blocker remains
 5. `completed` Tooling-ready read-only validation for the stable active-core public surfaces.
    Why it mattered: the docs-first package needed a stronger deterministic check layer before later expansion.
 
-## C. Deferred later empirical expansion
+## C. Long-range phase ladder
 
-1. `deferred` Open a later Taiwan de-escalation tranche or a second comparator route.
-   Why it matters: the current bounded comparator is sufficient for the active core, but not for broader cross-case claims.
+1. `later` `v1.1` New Zealand monograph hardening.
+   Why it matters: the route needs to move from active-core completion to monograph-grade saturation before later closure claims can be strong.
 
-2. `deferred` Push the New Zealand route from active-core completion toward monograph-scale corpus depth.
-   Why it matters: the current route is strong enough for the bounded payoff claim, but later empirical saturation is still possible.
+2. `later` `v1.2` Taiwan completion.
+   Why it matters: the current bounded comparator is enough for the active core, but not yet enough for a standalone comparator chapter.
 
-3. `deferred` Add broader comparative execution beyond Taiwan only after explicit route design, unit mapping, and source control are in place.
-   Why it matters: later breadth should not dilute the bounded active-core discipline.
+3. `later` `v1.3` Australia federal comparator.
+   Why it matters: strong multi-case closure in bounded form needs a second real comparator, not only a deeper Taiwan branch.
 
-## D. Deferred later tooling layers
+4. `later` `v1.4` bounded pandemic-governance closure and monograph-grade repo.
+   Why it matters: the long-range finish line is a chapter-readable public research object, not only a stronger route package.
 
-1. `deferred` `v1.5` analysis-ready tooling.
-   Why it matters: structured exports and stronger external-analysis surfaces may become useful later, but the current docs-first canonical model should stay ahead of them.
+5. `later` `v1.5` analysis-ready tooling.
+   Why it matters: structured exports, monograph tables, and cross-case validators should follow stable empirical surfaces rather than outrun them.
 
-2. `deferred` `v1.6` research-ops tooling.
-   Why it matters: maintenance and workflow helpers should follow real upkeep pain, not precede it.
+6. `later` `v1.6` research-ops tooling.
+   Why it matters: maintenance helpers should follow actual upkeep pain, not precede it.
 
-3. `deferred` Any direct public-doc rewriting.
+## D. Still deferred after the long-range phase ladder
+
+1. `deferred` Any direct public-doc rewriting.
    Why it matters: the current tooling posture remains read-only by rule.
 
-## E. Deferred optional expansion
+2. `deferred` Additional bounded application routes beyond the pandemic-governance closure target.
+   Why it matters: route growth should remain disciplined and should not dilute the locked finish line.
 
-1. `deferred` Add additional bounded application routes only after explicit route design, source logic, and status labels exist.
-   Why it matters: route growth should remain disciplined and intentional.
+3. `deferred` HTML or GitHub Pages mirror work.
+   Why it matters: this is optional convenience infrastructure, not required for the monograph-grade repo target.
 
-2. `deferred` Add an HTML or GitHub Pages mirror if a second reading surface becomes useful.
-   Why it matters: this is optional convenience infrastructure, not a requirement for the current bounded package.
-
-3. `deferred` Grow the atlas beyond the targeted map only if the package is deliberately rescoped.
+4. `deferred` Atlas growth beyond the targeted map.
    Why it matters: breadth should not be mistaken for validation.
 
-## F. Long-horizon frontier branches
+## E. Long-horizon frontier branches
 
 1. `deferred` Quantum-relational ontology and consciousness branch.
-   Why it matters: deeper formalization and rival-theory comparison still belong after the empirical core.
+   Why it matters: deeper formalization and rival-theory comparison still belong after the empirical monograph-grade program.
 
 2. `deferred` Computational or simulation-universe branch.
    Why it matters: this remains intentionally quarantined until a dedicated compatibility table exists.
 
 3. `deferred` AGI SUF branch.
    Why it matters: this remains later than both the consciousness and computational branches and should not be collapsed into the current AI coordination frontier.
+
+## Status
+
+`phase-aligned later-work inventory`

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note is the public academic front door for the current `v1` line of Structured Unity Framework. The hosted bounded tag remains `v1.0.0`; current `main` carries the stronger active-core completion state inside that same line.
+This note is the public academic front door for the current `v1` line of Structured Unity Framework. The hosted bounded tag is now `v1.0.1`; current `main` is aligned with that repo-complete release point inside the same line.
 
 ## Abstract
 

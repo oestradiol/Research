@@ -4,6 +4,14 @@
 
 This note records the bounded comparative sequence for the states-and-societies route.
 
+Default order for the later long-range program:
+
+1. Taiwan
+2. Australia
+3. later optional comparator only if explicitly reopened after Australia
+
+See [../../../docs/monograph-and-closure-program.md](../../../docs/monograph-and-closure-program.md) for the canonical long-range phase ladder.
+
 ## Recommended shortlist
 
 ### Taiwan
@@ -41,10 +49,18 @@ Comparability limits:
 - population scale and state-level heterogeneity complicate direct unit matching
 - a bounded Australian route would likely need a narrower Commonwealth-focused or selected-jurisdiction design
 
+## Ordered sequence rule
+
+Future agents should treat the comparator sequence as locked unless the methods layer is explicitly revised first:
+
+- Taiwan is the current active bounded comparator and should be completed first
+- Australia is the default next comparator for bounded family-level closure
+- any later optional comparator should not leapfrog Australia without explicit boundary, unit-mapping, and source-control justification
+
 ## Related atlas node
 
 - [Comparative Pandemic Response](../../research-map/03-next-routes-and-frontiers/comparative-pandemic-response.md)
 
 ## Status
 
-`Taiwan bounded comparator active; Australia pending`
+`Taiwan bounded comparator active; Australia default next comparator`

@@ -4,7 +4,7 @@ This file explains what the current public package does and does not imply.
 
 ## 1. Current public scope
 
-Structured Unity Framework is presented here as the public `v1` line: layered theory, research-ready methods, a demonstrated route, a bounded comparator, a targeted applications atlas, tiered references, explicit meta policies, and a read-only validation layer. Hosted `v1.0.0` remains the dated public snapshot; current `main` carries the stronger active-core completion state inside that same line.
+Structured Unity Framework is presented here as the public `v1` line: layered theory, research-ready methods, a demonstrated route, a bounded comparator, a targeted applications atlas, tiered references, explicit meta policies, and a read-only validation layer. Hosted `v1.0.1` is the dated public snapshot; current `main` is aligned with that same repo-complete state inside the `v1` line.
 
 ## 2. What is active now
 
@@ -21,7 +21,7 @@ Structured Unity Framework is presented here as the public `v1` line: layered th
 - public remote / hosting surface at `oestradiol/Research`
 - hosted package URLs and cross-package repository links
 - changelog grounding to hosted git history
-- first tagged release preparation and repo-local release notes
+- tagged release packaging and repo-local release notes
 
 ## 4. What remains open inside the active `v1` line
 
@@ -42,4 +42,4 @@ That material is expected to land in later versions, route supplements, or more 
 
 ## 7. Versioning stance
 
-`v1.0.0` here means the first publication-ready bounded hosted release. Current `main` now carries a stronger `v1` state with a hardened `38`/`29` New Zealand route, a `15`-event Taiwan comparator, and tooling-ready read-only validation. Neither label means universal validation or closed empirical finality.
+`v1.0.1` here means the current publication-ready bounded hosted release. Current `main` is aligned with that same `v1` state: a hardened `38`/`29` New Zealand route, a `15`-event Taiwan comparator, and tooling-ready read-only validation. Neither label means universal validation or closed empirical finality.

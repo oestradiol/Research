@@ -1,22 +1,23 @@
 # Project Status
 
-This file is the current-state summary for the public package on `main`. Use `ROADMAP.md` for future direction and `docs/pending-inventory.md` for deferred or optional later work.
+This file is the current-state summary for the public package on `main`. Use `monograph-and-closure-program.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred or optional later work.
 
 ## 1. Status-surface rule
 
 Use the public status files by role:
 
 - this file = current package posture on `main`
-- `ROADMAP.md` = future-facing direction
-- `docs/pending-inventory.md` = deferred or optional later work
+- `monograph-and-closure-program.md` = canonical long-range program
+- `../ROADMAP.md` = compressed future-facing direction
+- `pending-inventory.md` = deferred or optional later work
 
 ## 2. Current package posture
 
-**`v1.0.0`** still names the dated hosted snapshot in this tree (**2026-04-02**).
+**`v1.0.1`** names the dated hosted snapshot in this tree (**2026-04-02**).
 
-Current `main` now carries the post-`v1.0.0` active-core completion state for the public package. The framework core is in place, the New Zealand route now includes a `38`-event seed ledger with a `29`-event main perturbation interval, the Taiwan branch now exists as a `15`-event bounded comparator rather than a starter-only tranche, the locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package now functions as a stronger read-only validation and reporting layer for route metrics, comparison surfaces, and public release hygiene.
+Current `main` is aligned with the hosted `v1.0.1` repo-complete and tooling-ready baseline for the public package. The framework core is in place, the New Zealand route now includes a `38`-event seed ledger with a `29`-event main perturbation interval, the Taiwan branch now exists as a `15`-event bounded comparator rather than a starter-only tranche, the locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package now functions as a stronger read-only validation and reporting layer for route metrics, comparison surfaces, and public release hygiene.
 
-Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, changelog grounding, and the first tag/release-note package are complete. No remaining launch blocker or active-core repo-completion blocker is left inside the current repository state.
+Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, changelog grounding, and tagged release-note packaging are complete. No remaining launch blocker or active-core repo-completion blocker is left inside the current repository state.
 
 It is still **not** a claim of universal proof and **not** a closed empirical monograph.
 
@@ -24,7 +25,7 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 
 **Completed on `main`**
 
-- bounded hosted `v1.0.0` release framing remains intact
+- bounded hosted `v1.0.1` release framing remains intact
 - New Zealand route hardened to `38` coded events with a `29`-event main interval
 - late-transition DPMC authority-routing and review papers promoted into the live route
 - Taiwan comparator extended to `15` archive-clean official events with clearer health, border, compliance, and public-alignment separation
@@ -43,13 +44,13 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 
 This file is the canonical current-state surface for SUF on `main`.
 
-Future execution should keep three things distinct:
+Future execution should keep three things explicit:
 
-- hosted `v1.0.0` = the dated public tag surface
-- current `main` = the active-core completion and tooling-ready baseline
-- later `1.x` work = deferred expansion, not unfinished launch mechanics
+- hosted `v1.0.1` = the current dated public tag surface
+- current `main` = aligned with the hosted `v1.0.1` release point
+- later `1.x` work = deferred expansion and deliberate reopening, not unfinished launch mechanics
 
-Future execution must not silently collapse those three surfaces into one label.
+Future execution must not silently collapse the current release point and later reopening into one label.
 
 ## 5. Current contribution profile
 
@@ -103,5 +104,6 @@ The public atlas is active and intentionally targeted. It maps plausible next do
 - methods: `framework/research-program.md`
 - IAF clarification: `framework/iaf-downstream-role.md`
 - applications: `applications/README.md`
+- long-range program: `docs/monograph-and-closure-program.md`
 - future direction: `ROADMAP.md`
 - deferred and optional later work: `docs/pending-inventory.md`

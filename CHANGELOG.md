@@ -2,10 +2,24 @@
 
 ## Unreleased
 
-- current `main` now carries the repo-complete active-core state beyond the hosted `v1.0.0` snapshot
-- Structured Unity Framework current-main surfaces now reflect the hardened `38`-event New Zealand route, the `29`-event main interval, and the `15`-event bounded Taiwan comparator
-- Research Tools now validate public status surfaces directly and handle the current denser NZ-Taiwan comparison outputs cleanly
-- hosted release metadata, citations, and the dated `v1.0.0` snapshot remain unchanged until a new tagged release is cut
+- no changes yet
+
+## `v1.0.1` - 2026-04-02
+
+Second bounded public release of the full `Research/` repository.
+
+### Hosted history
+
+- repository: [oestradiol/Research](https://github.com/oestradiol/Research)
+- tag: [`v1.0.1`](https://github.com/oestradiol/Research/releases/tag/v1.0.1)
+- release notes: [`releases/v1.0.1.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.0.1.md)
+
+### Included in this snapshot
+
+- Structured Unity Framework now hosted at the repo-complete active-core baseline with a hardened `38`-event New Zealand route, a `29`-event main interval, a `15`-event bounded Taiwan comparator, synchronized payoff and status surfaces, and canonical long-range monograph and bounded-closure planning docs
+- Knowledge carried forward as the stable sibling atlas with the normalized `knowledge-package-spec.md` surface and a maintained 9-cluster / 70-node public graph
+- Research Tools now validate public status surfaces directly and align the tooling backlog to the same long-range phase ladder while remaining read-only
+- hosted release metadata, citations, and repo-local release-note surfaces now point to the current `v1.0.1` snapshot
 
 ## `v1.0.0` - 2026-04-02
 

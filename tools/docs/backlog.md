@@ -1,5 +1,7 @@
 # Backlog
 
+This file tracks tooling work against the canonical long-range program. For the full phase ladder, use [../../structured-unity-framework/docs/monograph-and-closure-program.md](../../structured-unity-framework/docs/monograph-and-closure-program.md).
+
 ## Baseline complete
 
 - repository-wide Markdown link validation across `Research/`
@@ -13,15 +15,26 @@
 - deterministic read-only report generation under `out/`
 - route-local New Zealand lag-surface reporting
 
-## Next priorities
+## Phase-aligned support before analysis-ready tooling
 
-- add Taiwan lag-surface support once the comparator yields enough clean pairs
-- add broader package-level audit coverage where it produces real signal beyond links and version checks
+These items support later empirical phases without turning tools into the canonical authoring layer:
 
-## Later priorities
+- `v1.2-v1.4` add Taiwan lag-surface support only if the later comparator evidence yields enough clean pairs
+- `v1.2-v1.4` add broader package-level audit coverage where it produces real signal for monograph-facing public surfaces
+- `v1.2-v1.4` add validation hooks for stable chapter-facing metrics only when the empirical docs themselves are already canonical
 
-- add optional CSV or JSON exports for external analysis
-- add patch-preparation tooling only after a separate ADR and human gate
+## `v1.5` analysis-ready tooling
+
+- add structured exports derived from canonical Markdown
+- add deterministic generation or validation for monograph tables and figure inputs
+- add cross-case validators for New Zealand, Taiwan, Australia, and bounded-closure summary tables
+- keep docs canonical and tools read-only
+
+## `v1.6` research-ops tooling
+
+- add backlog hygiene and discovery-state integrity support
+- add artifact-completeness and future-agent handoff checks
+- add maintenance helpers only if they preserve public-doc authority and explicit human review
 
 ## Deferred
 
@@ -31,4 +44,4 @@
 
 ## Status
 
-`tooling-ready backlog`
+`phase-aligned tooling backlog`

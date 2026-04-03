@@ -4,7 +4,7 @@
 
 **Structured Unity Framework (SUF)** is a layered, documentation-first research framework for describing **unity-like organization** in complex systems: how parts become integrated, how dynamics stay aligned through time, how delays shape what can be observed, and how those factors combine at explicit scales and time windows.
 
-This directory is the first **publication-ready bounded public release** of the framework. It is readable, bounded, and structured for academic use. It is **not** a claim of universal proof, a closed empirical report, or a completed empirical monograph.
+This directory is the current **publication-ready bounded public release** of the framework. It is readable, bounded, and structured for academic use. It is **not** a claim of universal proof, a closed empirical report, or a completed empirical monograph.
 
 It is also meant to be usable by careful human readers, reasoning agents, and human assistants working in support roles. That includes accessibility-oriented use where a person benefits from guided navigation, note mediation, or collaborative reading support.
 
@@ -26,13 +26,13 @@ It is also meant to be usable by careful human readers, reasoning agents, and hu
 
 ## 3. Current package posture
 
-**Hosted snapshot:** **`v1.0.0`** dated **2026-04-02**.
+**Hosted snapshot:** **`v1.0.1`** dated **2026-04-02**.
 
-**Current `main` state:** post-`v1.0.0` active-core completion and tooling-ready baseline.
+**Current `main` state:** aligned with the hosted `v1.0.1` repo-complete and tooling-ready baseline.
 
 Hosted package URL: [oestradiol/Research/tree/main/structured-unity-framework](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
 
-This label names the current hosted bounded public release in this tree. Current `main` now carries the stronger active-core completion state for the same package line: a package with active methods, a demonstrated route, a bounded comparator, a locked payoff sentence, a targeted atlas, and a tooling-ready read-only validation layer.
+This label names the current hosted bounded public release in this tree. Current `main` is aligned with that same package line at this release point: a package with active methods, a demonstrated route, a bounded comparator, a locked payoff sentence, a targeted atlas, and a tooling-ready read-only validation layer.
 
 **Stable now:** four-layer architecture; weak naturalization; claim-type discipline; applications atlas split; a `38`-event New Zealand seed ledger with a `29`-event main interval; a first route-local estimator implementation; a `14`-check robustness pass; a `15`-event bounded Taiwan comparator with one conservative lag pair; a locked public payoff sentence; a dedicated IAF downstream-role note; standard plus extended reference tiers; and a tooling-ready read-only validation layer.
 
@@ -92,7 +92,8 @@ Use these public status files by role:
 
 - `docs/v1-academic-bundle.md` for the short v1-facing academic front door
 - `docs/project-status.md` for the current package state
-- `ROADMAP.md` for future-facing direction
+- `docs/monograph-and-closure-program.md` for the canonical long-range phase ladder
+- `ROADMAP.md` for compressed future-facing direction
 - `docs/pending-inventory.md` for open and deferred items
 
 ## 9. Citation note

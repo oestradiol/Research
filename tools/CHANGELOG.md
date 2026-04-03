@@ -2,10 +2,19 @@
 
 ## Unreleased
 
-- added direct public status-surface validation for the current hosted-snapshot versus current-main posture
-- updated NZ and Taiwan route/report tests to the current `38`/`29`/`15` public baseline
-- fixed NZ-Taiwan issuing-concentration reporting so tied top issuers render correctly
+- no changes yet
+
+## `1.0.1` - 2026-04-02
+
+Current bounded public tooling snapshot inside the umbrella `Research/` repository.
+
+### Included in this snapshot
+
+- direct public status-surface validation for the current hosted release point
+- updated NZ and Taiwan route and report tests for the current `38`/`29`/`15` public baseline
+- NZ-Taiwan issuing-concentration reporting fixed so tied top issuers render correctly
 - documented the tooling-ready validation scope for current `main`
+- aligned the tooling backlog to the long-range monograph and bounded-closure phase ladder while keeping docs canonical and tools read-only
 
 ## `1.0.0` - 2026-04-02
 

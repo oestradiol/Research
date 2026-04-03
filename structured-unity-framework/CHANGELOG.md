@@ -2,11 +2,25 @@
 
 ## Unreleased
 
-- current `main` now carries the active-core completion state beyond the hosted `v1.0.0` snapshot
-- New Zealand demonstrated route hardened from the hosted `35`/`27` baseline to `38` coded events with a `29`-event main interval
-- bounded Taiwan comparator extended from the hosted `12`-event starter to `15` archive-clean official events with clearer health, border, compliance, and public-alignment separation
-- current status, payoff, publication-scope, roadmap, and methods-facing surfaces synchronized to the hosted-snapshot versus current-main split
+- no changes yet
+
+## `v1.0.1` - 2026-04-02
+
+Current publication-ready bounded hosted release of Structured Unity Framework.
+
+### Hosted history
+
+- package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
+- umbrella tag: [`v1.0.1`](https://github.com/oestradiol/Research/releases/tag/v1.0.1)
+- release notes: [`releases/v1.0.1.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.0.1.md)
+
+### Included in this snapshot
+
+- New Zealand demonstrated route hardened from the original hosted `35`/`27` baseline to `38` coded events with a `29`-event main interval
+- bounded Taiwan comparator extended from the original hosted `12`-event starter to `15` archive-clean official events with clearer health, border, compliance, and public-alignment separation
+- current status, payoff, publication-scope, roadmap, and methods-facing surfaces synchronized to the current hosted release point
 - tooling-ready read-only validation support now checks stable public status surfaces in addition to route, comparison, version, archive, link, knowledge, and release-hygiene surfaces
+- canonical monograph and bounded-closure program surfaces now exist under `docs/`, and future-facing roadmap, pending, methods, comparative, and navigation docs now point to them
 
 ## `v1.0.0` - 2026-04-02
 
