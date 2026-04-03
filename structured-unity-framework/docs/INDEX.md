@@ -12,6 +12,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 | Reviewer audit path | `v1-academic-bundle.md` -> `claims-and-boundaries.md` -> `reviewer-objections-and-current-answers.md` -> `evidence-status-matrix.md` -> `framework/framework-interface.md` -> `framework/research-program.md` |
 | Research atlas first | `README.md` -> `applications/README.md` -> `applications/research-map/README.md` |
 | Contributors / edit rules | `CONTRIBUTING.md` -> `claims-and-boundaries.md` -> `meta/publication-scope.md` |
+| Live sequencing / next action | `project-status.md` -> `current-execution-order.md` -> `monograph-and-closure-program.md` |
 
 ## `docs/` - entry, overview, boundaries, status
 
@@ -23,6 +24,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 | `reviewer-objections-and-current-answers.md` | Reviewer-facing objection index, current answer, and unresolved remainder |
 | `evidence-status-matrix.md` | Major claim-by-claim status, support, and weakening map |
 | `project-status.md` | Current-state summary for the bounded public release |
+| `current-execution-order.md` | Shortest live execution-order surface for the active `v1.x` pass |
 | `monograph-and-closure-program.md` | Canonical long-range phase ladder toward monograph-grade completion |
 | `monograph-table-of-contents.md` | Repo-native monograph shape and chapter order |
 | `monograph-evidence-map.md` | Chapter-to-artifact and unresolved-burden map |

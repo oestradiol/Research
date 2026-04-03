@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-- no changes yet
+- add `structured-unity-framework/docs/current-execution-order.md` as the short live sequencing surface for the active `v1.x` pass
+- add Taiwan chapter-facing scaffolds: `taiwan-chapter-boundary-and-corpus.md`, `taiwan-chapter-evidence-map.md`, and `taiwan-chapter-table-and-figure-plan.md`
+- align tracking and navigation surfaces so Taiwan is the active chapter-readiness workstream rather than an unexposed later branch
 
 ## `v1.1.0` - 2026-04-03
 

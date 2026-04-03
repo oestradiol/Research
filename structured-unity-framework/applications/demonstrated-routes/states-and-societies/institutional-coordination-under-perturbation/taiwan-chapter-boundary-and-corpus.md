@@ -2,19 +2,19 @@
 
 ## Purpose
 
-This note promotes the current Taiwan comparator materials into a chapter-facing bounded route surface.
+This note structures the current Taiwan comparator materials into a chapter-facing bounded route surface for the active `v1.2` pass.
 
-It does not replace the canonical Taiwan route-control files. It states what is now stable enough to treat as the Taiwan chapter baseline for the current monograph-facing pass.
+It does not replace the canonical Taiwan route-control files. It states what is already stable, what is still bounded, and what still remains before Taiwan can be treated as fully chapter-ready.
 
 ## Current baseline
 
-The Taiwan route is now chapter-ready in bounded form:
+The Taiwan route now supports an active chapter-readiness pass in bounded form:
 
 - the route boundary remains fixed to official acute command, border, quarantine-support, quarantine-compliance, and public-alignment coordination visible in archive-clean Taiwan CDC / CECC English materials
 - the current functionally matched window remains `2020-01-20` to `2020-04-23`
 - the current public corpus supports a `15`-event bounded ledger rather than a starter-only comparator tranche
 - the route now exposes distinct command, border, health, compliance, local-support, transport-routing, and public-alignment surfaces even though a distinct emergency-management layer is still not visible
-- the current branch can now sustain a bounded standalone chapter with an explicit lag-limit section rather than depending on implied future completion
+- the current branch can now be organized as a bounded standalone chapter target, but the active `v1.2` burden is to complete and stabilize that chapter-facing pass rather than to treat it as already closed
 
 ## Locked controls
 
@@ -26,7 +26,7 @@ The Taiwan route is now chapter-ready in bounded form:
 
 ## Current corpus strength
 
-The current chapter baseline rests on:
+The current chapter-facing baseline rests on:
 
 - CECC activation and cross-agency command-centre language
 - first imported-case detection through onboard quarantine and designated-hospital routing
@@ -49,7 +49,7 @@ That is enough to support:
 
 ## Current bounded interpretation
 
-The current Taiwan chapter baseline supports four stable readings:
+The current Taiwan chapter-facing baseline supports four stable readings:
 
 1. Taiwan should not be read as a command-centre-only case.
 2. Border, quarantine, support, compliance, and public-information coordination are all visible inside the bounded window.
@@ -58,7 +58,7 @@ The current Taiwan chapter baseline supports four stable readings:
 
 ## Residual limits
 
-The current chapter baseline still does **not** provide:
+The current chapter-facing baseline still does **not** provide:
 
 - a distinct emergency-management layer
 - a second clean lag pair strong enough for serious cross-case `L` comparison
@@ -66,7 +66,7 @@ The current chapter baseline still does **not** provide:
 - a claim of full NZ-Taiwan symmetry
 - a claim that the current Taiwan chapter closes the full Taiwan pandemic route
 
-Those remain bounded limits, not blockers for the current chapter-facing pass.
+Those remain active `v1.2` limits, not reasons to reopen boundary architecture.
 
 ## Canonical companions
 
@@ -77,4 +77,4 @@ Those remain bounded limits, not blockers for the current chapter-facing pass.
 
 ## Status
 
-`chapter-ready bounded route note`
+`chapter-facing bounded route note`

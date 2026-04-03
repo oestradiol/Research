@@ -19,7 +19,7 @@ Do now:
 
 Do next:
 
-- make Taiwan chapter-ready in bounded form
+- complete the Taiwan chapter-readiness pass in bounded form
 
 Do after that:
 
@@ -44,7 +44,7 @@ Current public surfaces already provide:
 
 - a bounded release frame
 - a stable New Zealand monograph-baseline core
-- a bounded Taiwan comparator strong enough to become the next active workstream
+- a bounded Taiwan comparator strong enough to justify an active chapter-readiness pass
 - a read-only control and validation layer strong enough to prevent silent drift
 
 That means later work should not spend its best effort on more front-door or boundary churn unless the Taiwan evidence actually forces a revision.
