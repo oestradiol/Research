@@ -121,14 +121,45 @@ def validate_knowledge_package(knowledge_root: Path) -> list[ValidationResult]:
         "knowledge/status/deepened-hub",
         "suf/hub",
     )
+    handoff_markers = (
+        "should not",
+        "better local",
+        "domain-native",
+        "recede",
+        "yield",
+        "not be mistaken",
+        "not a replacement",
+        "not the whole",
+        "not the only",
+    )
+    forbidden_overclaim_fragments = (
+        "suf explains everything",
+        "suf is the only legitimate framework",
+        "suf is the mandatory voice",
+        "suf exhausts the package",
+        "suf should remain in the foreground everywhere",
+    )
+
     role_failures: list[str] = []
+    handoff_failures: list[str] = []
+    overclaim_hits: list[str] = []
 
     if knowledge_map_root.exists():
         for markdown_file in knowledge_map_root.rglob("*.md"):
             text = markdown_file.read_text(encoding="utf-8")
+            text_lower = text.lower()
             is_deepened_hub = any(marker in text for marker in hub_markers)
-            if is_deepened_hub and "SUF" in text and not any(token in text for token in role_tokens):
+            mentions_suf = "SUF" in text
+
+            if is_deepened_hub and mentions_suf and not any(token in text for token in role_tokens):
                 role_failures.append(str(markdown_file))
+
+            if is_deepened_hub and mentions_suf and not any(marker in text_lower for marker in handoff_markers):
+                handoff_failures.append(str(markdown_file))
+
+            matching_overclaims = [fragment for fragment in forbidden_overclaim_fragments if fragment in text_lower]
+            if matching_overclaims:
+                overclaim_hits.append(f"{markdown_file}: {', '.join(matching_overclaims)}")
 
     results.append(
         ValidationResult(
@@ -141,6 +172,34 @@ def validate_knowledge_package(knowledge_root: Path) -> list[ValidationResult]:
             ),
             expected="Deepened SUF-foregrounding hub notes include primary_scaffold, supporting_scaffold, or domain_native_lead",
             found=", ".join(role_failures) if role_failures else "none",
+        )
+    )
+
+    results.append(
+        ValidationResult(
+            check_name="knowledge-map-suf-handoff-discipline",
+            status="pass" if not handoff_failures else "fail",
+            message=(
+                "Deepened hub notes that foreground SUF also include caution or handoff language."
+                if not handoff_failures
+                else "Some deepened hub notes foreground SUF without caution or handoff language."
+            ),
+            expected="Deepened SUF-foregrounding hub notes include at least one caution or handoff marker",
+            found=", ".join(handoff_failures) if handoff_failures else "none",
+        )
+    )
+
+    results.append(
+        ValidationResult(
+            check_name="knowledge-map-no-suf-overclaim",
+            status="pass" if not overclaim_hits else "fail",
+            message=(
+                "Knowledge map prose does not contain tracked SUF-takeover or totalizing overclaim phrases."
+                if not overclaim_hits
+                else "Knowledge map prose contains tracked SUF-takeover or totalizing overclaim phrases."
+            ),
+            expected="no tracked SUF-takeover or totalizing overclaim phrases",
+            found="; ".join(overclaim_hits) if overclaim_hits else "none",
         )
     )
 
