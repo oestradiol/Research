@@ -70,6 +70,8 @@ Use official and oversight material first. Academic retrospective work is allowe
 - [src-police-support-communities-level-4-2020](../../../../references/source-registry.md#src-police-support-communities-level-4-2020)
 - [src-police-avsec-working-together-2020](../../../../references/source-registry.md#src-police-avsec-working-together-2020)
 - [src-police-covid-checkpoints-2020](../../../../references/source-registry.md#src-police-covid-checkpoints-2020)
+- [src-police-level-3-following-rules-2020](../../../../references/source-registry.md#src-police-level-3-following-rules-2020)
+- [src-police-covid-major-events-2020](../../../../references/source-registry.md#src-police-covid-major-events-2020)
 - [src-beehive-alert-level-3-restrictions-2020](../../../../references/source-registry.md#src-beehive-alert-level-3-restrictions-2020)
 - [src-beehive-date-move-level-3-2020](../../../../references/source-registry.md#src-beehive-date-move-level-3-2020)
 - [src-beehive-level-2-legal-framework-2020](../../../../references/source-registry.md#src-beehive-level-2-legal-framework-2020)

@@ -2,15 +2,18 @@
 
 ## Core rule
 
-This package validates structure, parseability, consistency, and deterministic route metrics. It does not decide interpretation.
+This package validates structure, parseability, consistency, version-surface alignment, and deterministic route metrics. It does not decide interpretation.
 
-## What tranche 1 validates
+## What the current public tooling validates
 
 - Markdown link integrity in `Research/`
 - source-registry shape
 - archive-link shape
 - event-ledger schema
 - route-summary consistency against current SUF published docs
+- Knowledge package entry/index integrity
+- version, changelog, citation, and package-snapshot consistency
+- release-readiness hygiene for public placeholders, internal leakage, and local absolute paths
 
 Recognized fixed archive surfaces in tranche 1 are:
 

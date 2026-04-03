@@ -29,18 +29,18 @@ It is still pre-estimator and deliberately coarse. Each coded event bundle contr
 - public-health policy and command -> strategic executive coordination = `1`
 - public-health policy and command -> border-control coordination = `1`
 - public-health policy and command -> public-information coordination = `1`
-- emergency-management coordination -> strategic executive coordination = `2`
-- emergency-management coordination -> public-service system coordination = `2`
+- emergency-management coordination -> strategic executive coordination = `3`
+- emergency-management coordination -> public-service system coordination = `3`
 - emergency-management coordination -> public-health policy and command = `1`
 - emergency-management coordination -> border-control coordination = `1`
-- emergency-management coordination -> public-information coordination = `1`
-- emergency-management coordination -> enforcement and compliance = `2`
+- emergency-management coordination -> public-information coordination = `2`
+- emergency-management coordination -> enforcement and compliance = `3`
 - public-service system coordination -> public-health policy and command = `1`
 - public-service system coordination -> emergency-management coordination = `1`
 - public-service system coordination -> border-control coordination = `1`
 - public-service system coordination -> public-information coordination = `1`
-- enforcement and compliance -> public-health policy and command = `3`
-- enforcement and compliance -> public-information coordination = `4`
+- enforcement and compliance -> public-health policy and command = `6`
+- enforcement and compliance -> public-information coordination = `7`
 - enforcement and compliance -> border-control coordination = `1`
 - enforcement and compliance -> emergency-management coordination = `1`
 - enforcement and compliance -> public-service system coordination = `2`
@@ -68,20 +68,20 @@ flowchart LR
     PH -->|1| BC
     PH -->|1| PI
 
-    EM -->|2| SEC
-    EM -->|2| PSC
+    EM -->|3| SEC
+    EM -->|3| PSC
     EM -->|1| PH
     EM -->|1| BC
-    EM -->|1| PI
-    EM -->|2| EC
+    EM -->|2| PI
+    EM -->|3| EC
 
     PSC -->|1| PH
     PSC -->|1| EM
     PSC -->|1| BC
     PSC -->|1| PI
 
-    EC -->|3| PH
-    EC -->|4| PI
+    EC -->|6| PH
+    EC -->|7| PI
     EC -->|1| BC
     EC -->|1| EM
     EC -->|2| PSC
@@ -104,7 +104,7 @@ Even in this coarse graph:
 - public-information coordination is the second most frequent receiving node from the strategic centre
 - it receives more counted links than border-control coordination or emergency-management coordination
 - it remains tightly coupled to the new April-May transition chain rather than appearing only at the March crisis peak
-- it now also receives repeated implementation-side links from enforcement and compliance and public-service coordination, including the extended Level 4 continuity chain
+- it now also receives repeated implementation-side links from enforcement and compliance and emergency-management coordination, including the extended Level 4 continuity chain and transition-period planning
 
 That reinforces the seed readout's main bounded claim: public-information coordination is part of the core working architecture.
 

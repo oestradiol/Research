@@ -4,7 +4,7 @@
 
 `Research/tools/` is a read-only tooling layer for validating and summarizing research artifacts in `Research/`.
 
-The first tranche is route-focused on SUF, but repository-wide Markdown link validation already spans the full `Research/` tree.
+The current public scope still centers on the SUF route work, but now also includes Knowledge package checks, version-surface validation, and release-readiness reporting for the full public repo.
 
 ## Module boundaries
 

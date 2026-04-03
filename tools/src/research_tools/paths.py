@@ -43,3 +43,20 @@ def get_paths() -> RepoPaths:
         nz_route_root=nz_route_root,
         taiwan_route_root=nz_route_root,
     )
+
+
+def format_report_path(path: Path) -> str:
+    resolved = path.resolve()
+    repo_root = get_paths().repo_root.resolve()
+    try:
+        return resolved.relative_to(repo_root).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
+def format_optional_report_path(path_value: str | None) -> str | None:
+    if not path_value:
+        return None
+    if "/" not in path_value and "\\" not in path_value:
+        return path_value
+    return format_report_path(Path(path_value))

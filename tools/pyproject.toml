@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "research-tools"
-version = "0.1.0"
+version = "1.0.0"
 description = "Read-only research-support tooling for the Research repository."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -32,4 +32,3 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "W"]
-

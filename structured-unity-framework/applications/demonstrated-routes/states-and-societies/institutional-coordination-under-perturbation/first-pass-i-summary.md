@@ -49,7 +49,7 @@ Using the current `sigma2` reading:
 The current seed shows:
 
 - cross-cluster unique directed edges: `16 / 24`
-- cross-cluster weighted edge occurrences: `86 / 113 = 0.76`
+- cross-cluster weighted edge occurrences: `95 / 127 = 0.75`
 
 Interpretation:
 
@@ -57,7 +57,7 @@ Most of the observed routing is cross-cluster rather than trapped inside one clu
 
 ### 4. Issuing concentration
 
-- strategic executive coordination issues `21 / 30` coded events
+- strategic executive coordination issues `22 / 35` coded events
 
 Interpretation:
 
@@ -67,7 +67,7 @@ The current `I` shape is **hub-centred**, not egalitarian. That does not weaken 
 
 The most defensible current reading is:
 
-**The seed route already shows moderate-to-strong integration in the form of a central issuing hub with broad cross-cluster reach and full unit participation, rather than a flat or fragmented coordination pattern. The added DPMC implementation-side events make that shape denser and more differentiated without dissolving it.**
+**The seed route already shows moderate-to-strong integration in the form of a central issuing hub with broad cross-cluster reach and full unit participation, rather than a flat or fragmented coordination pattern. The newly admitted Police continuity events, transition-planning material, and direct Level 2 preparation paper make that shape denser without changing its basic structure.**
 
 That reading is still bounded:
 
@@ -102,8 +102,8 @@ This first pass still lacks:
 
 The next build sequence should be:
 
-1. lock the first route-local estimator implementation against the current `30`-event baseline
-2. stress-test the first conjoint `I/C/L` window comparison against denser implementation and enforcement material
+1. keep the current route-local estimator implementation fixed unless new evidence forces a rule change
+2. stress-test the conjoint `I/C/L` window comparison against the now-`35`-event ledger and the deeper Taiwan tranche
 3. then deepen the ledger further only with newly admitted durable D-family `D` and `E` material
 
 ## Status

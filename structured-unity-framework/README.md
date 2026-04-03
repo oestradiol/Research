@@ -4,7 +4,7 @@
 
 **Structured Unity Framework (SUF)** is a layered, documentation-first research framework for describing **unity-like organization** in complex systems: how parts become integrated, how dynamics stay aligned through time, how delays shape what can be observed, and how those factors combine at explicit scales and time windows.
 
-This directory is a **research-phase public package**. It is readable, bounded, and structured for research use. It is **not** a finished publication artifact, a closed empirical report, or a claim of universal proof.
+This directory is the first **publication-ready bounded public release** of the framework. It is readable, bounded, and structured for academic use. It is **not** a claim of universal proof, a closed empirical report, or a finished remote publication workflow.
 
 It is also meant to be usable by careful human readers, reasoning agents, and human assistants working in support roles. That includes accessibility-oriented use where a person benefits from guided navigation, note mediation, or collaborative reading support.
 
@@ -26,13 +26,13 @@ It is also meant to be usable by careful human readers, reasoning agents, and hu
 
 ## 3. Current package posture
 
-**Current snapshot:** **`v0.1.0`** dated **2026-04-01**.
+**Current snapshot:** **`v1.0.0`** dated **2026-04-02**.
 
-This label names the current local research-phase snapshot in this tree: a bounded public package with active methods, a demonstrated route, and a targeted atlas. It is not a finished remote release.
+This label names the current local bounded public release in this tree: a package with active methods, a demonstrated route, a bounded comparator, a locked payoff sentence, and a targeted atlas. It is not a finished remote release.
 
-**Stable now:** four-layer architecture; weak naturalization; claim-type discipline; applications atlas split; research-ready New Zealand route design; a `30`-event New Zealand seed ledger with a `23`-event main interval; a first route-local estimator implementation; standard and extended reference tiers.
+**Stable now:** four-layer architecture; weak naturalization; claim-type discipline; applications atlas split; a `35`-event New Zealand seed ledger with a `27`-event main interval; a first route-local estimator implementation; a `14`-check robustness pass; a `12`-event Taiwan starter comparator with one conservative lag pair; a locked public payoff sentence; a dedicated IAF downstream-role note; and standard plus extended reference tiers.
 
-**Still open:** fuller corpus completeness, deeper ledger coverage, further estimator and robustness refinement, deeper Taiwan comparative execution beyond the current starter tranche, one locked payoff sentence, hosted package URLs, remote-grounded changelog history, and first tagged release packaging.
+**Still open:** fuller corpus completeness, deeper ledger coverage, further estimator and robustness refinement, deeper Taiwan comparative execution beyond the current starter tranche, later comparator execution beyond Taiwan, hosted package URLs, remote-grounded changelog history, and first tagged release publishing.
 
 ## 4. Reading path
 
@@ -41,11 +41,12 @@ This label names the current local research-phase snapshot in this tree: a bound
 **First-time readers:**
 
 1. this file
-2. `docs/how-to-read-the-framework.md`
-3. `docs/framework-overview.md`
-4. `docs/claims-and-boundaries.md`
-5. `framework/framework-interface.md`
-6. then the remaining `framework/` files in the order listed in `docs/how-to-read-the-framework.md`
+2. `docs/v1-academic-bundle.md`
+3. `docs/how-to-read-the-framework.md`
+4. `docs/framework-overview.md`
+5. `docs/claims-and-boundaries.md`
+6. `framework/framework-interface.md`
+7. then the remaining `framework/` files in the order listed in `docs/how-to-read-the-framework.md`
 
 **Application-first readers:** after `docs/claims-and-boundaries.md`, read `applications/README.md`, then the demonstrated route or the research map depending on what you need.
 
@@ -68,7 +69,7 @@ This label names the current local research-phase snapshot in this tree: a bound
 
 This route is a **bounded demonstrated route** with a research-ready design package. It shows how the framework can attach to a tractable case boundary while remaining explicit about limits.
 
-Current stable route state: `30` coded events, `23` events in the main perturbation interval, a route-local estimator implementation, and a live-plus-fixed-archive source-admission rule for new official events.
+Current stable route state: `35` coded events, `27` events in the main perturbation interval, a route-local estimator implementation, a live-plus-fixed-archive source-admission rule for new official events, and a `12`-event bounded Taiwan comparator under the same source rule.
 
 ## 7. Current atlas scope
 
@@ -85,6 +86,7 @@ Breadth in the atlas does **not** imply that SUF is already validated across eve
 
 Use these public status files by role:
 
+- `docs/v1-academic-bundle.md` for the short v1-facing academic front door
 - `docs/project-status.md` for the current package state
 - `ROADMAP.md` for future-facing direction
 - `docs/pending-inventory.md` for open and deferred items

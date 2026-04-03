@@ -110,10 +110,12 @@ def validate_nz_route(
         compare_nz_summary_to_docs(
             summary=summary,
             window_summary=windows["Main perturbation interval"],
+            comparator_b_summary=windows["Comparator B"],
             project_status_path=route_root.parents[3] / "docs" / "project-status.md",
             i_summary_path=route_root / "first-pass-i-summary.md",
             seed_readout_path=route_root / "first-pass-seed-readout.md",
             window_comparison_path=route_root / "first-pass-window-comparison.md",
+            sensitivity_note_path=route_root / "first-pass-sensitivity-and-null-note.md",
         )
     )
     return results

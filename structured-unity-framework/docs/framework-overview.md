@@ -45,7 +45,7 @@ The current demonstrated route is the New Zealand pandemic-coordination package 
 - later comparative execution beyond the New Zealand baseline
 - remote-release and publication-finalization work
 
-These open items do not erase the current research-phase package; they mark the next layer of work.
+These open items do not erase the current bounded `v1.0.0` package; they mark the next layer of work.
 
 ## 8. Next links
 

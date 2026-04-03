@@ -25,9 +25,10 @@ This page is the site map for the Structured Unity Framework public package: eve
 | `how-to-read-the-framework.md` | Reader paths and canonical order |
 | `framework-overview.md` | Executive summary of the four layers and how they relate |
 | `claims-and-boundaries.md` | What is claimed vs modeled vs open; anti-inflation guardrails |
-| `project-status.md` | Current-state summary for the research-phase public package |
+| `project-status.md` | Current-state summary for the bounded public release |
 | `pending-inventory.md` | Compiled open-items and deferred-work inventory |
-| `contribution-and-payoff-note.md` | Three provisional public payoff candidates tied to the current New Zealand evidence |
+| `v1-academic-bundle.md` | Abstract, payoff, contributions, and limits for the bounded public release |
+| `contribution-and-payoff-note.md` | Locked public payoff sentence plus supporting contribution candidates |
 | `glossary.md` | Core and high-risk vocabulary |
 | `INDEX.md` | This file |
 
@@ -78,7 +79,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 | `source-registry.md` | Canonical public source metadata and durable links |
 | `citation-and-archival-policy.md` | DOI-first / original-plus-archive citation policy |
 | `minimal-reading-list.md` | Minimal starter layer |
-| `standard-reading-list.md` | Active research-phase anchors |
+| `standard-reading-list.md` | Active bounded-release anchors |
 | `extended-reading-list.md` | Selective deeper defense |
 
 ## `diagrams/` - text-first Mermaid specs

@@ -80,7 +80,7 @@ Goal: inspect the wider research map before returning to the core theory.
 - that `unity-like` implies strong consciousness claims
 - that metrics are identical with experience
 - that atlas breadth means SUF is already validated everywhere
-- that `v0.1.0` means publication-final closure
+- that `v1.0.0` means universal proof or publication-final closure
 
 ## 6. How the layers relate
 

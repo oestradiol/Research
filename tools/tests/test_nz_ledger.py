@@ -8,9 +8,9 @@ def test_nz_ledger_parser_matches_current_public_counts() -> None:
     summary = compute_route_summary("nz", events)
     windows = compute_nz_window_summaries(events)
 
-    assert summary.event_count == 30
-    assert summary.main_interval_count == 23
+    assert summary.event_count == 35
+    assert summary.main_interval_count == 27
     assert summary.active_edges == 24
-    assert summary.public_information_receiving_count == 25
-    assert windows["Main perturbation interval"].event_count == 23
-    assert windows["Main perturbation interval"].sigma3_event_count == 21
+    assert summary.public_information_receiving_count == 30
+    assert windows["Main perturbation interval"].event_count == 27
+    assert windows["Main perturbation interval"].sigma3_event_count == 25

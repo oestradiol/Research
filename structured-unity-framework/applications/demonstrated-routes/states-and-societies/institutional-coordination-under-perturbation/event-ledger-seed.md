@@ -63,8 +63,13 @@ When one official source records a bundled same-day shift, this seed ledger keep
 | `nz-p-023` | `2020-04-21` | local-authority and CDEM welfare-support criteria widened for COVID-19 response needs |
 | `nz-p-017` | `2020-04-23` | Police clarify position on community checkpoints with local-authority and CDEM linkage |
 | `nz-p-013` | `2020-04-28` | Alert Level 3 interval begins |
+| `nz-p-024` | `2020-04-28` | Police urge the public to keep following the rules at Alert Level 3 |
 | `nz-p-016` | `2020-04-29` | Aviation Security and Police continue joint reassurance patrols and quarantine/isolation compliance checks |
+| `nz-p-025` | `2020-05-01` | Police remind the public of Alert Level 3 restrictions |
+| `nz-p-027` | `2020-05-06` | formal Level 2 preparation sets guidance, service-phasing, and public-message expectations ahead of the next review |
+| `nz-p-026` | `2020-05-08` | Police remind the public New Zealand remains in Alert Level 3 |
 | `nz-b-004` | `2020-05-11` | Level 2 transition decision publicly announced |
+| `nz-b-006` | `2020-05-12` | national transition period planning formalized in a joint DPMC/NEMA briefing |
 | `nz-b-005` | `2020-05-13` | legal framework for Alert Level 2 passes |
 | `nz-b-001` | `2020-05-13` | state of national emergency lifted and national transition period begins |
 | `nz-b-002` | `2020-05-14` | Alert Level 2 interval begins |
@@ -499,6 +504,74 @@ Why it matters:
 
 This is the implementation-side counterpart to the Level 3 transition planning chain. It gives the public route a more complete main-interval easing sequence rather than leaving the route stuck at the point of acute lockdown.
 
+### `nz-p-024`
+
+- `timestamp_or_date`: `2020-04-28`
+- `issuing_unit`: `enforcement and compliance`
+- `receiving_units`: `public-health policy and command`; `public-information coordination`
+- `action_type`: Police urge the public to keep following the rules at Alert Level 3 as the easing interval begins
+- `dependency_type`: `legal or compliance dependency`; `public-communication dependency`
+- `implementation_marker`: `official guidance update`
+- `public_information_marker`: `official guidance update`; `enforcement or compliance communication`
+- `source_citation`: `src-police-level-3-following-rules-2020`; `src-police-covid-major-events-2020`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event keeps the implementation layer visible on the first day of Alert Level 3 rather than letting the easing sequence appear as a purely strategic handoff. It shows Police-public guidance continuing as an active routed dependency.
+
+### `nz-p-025`
+
+- `timestamp_or_date`: `2020-05-01`
+- `issuing_unit`: `enforcement and compliance`
+- `receiving_units`: `public-health policy and command`; `public-information coordination`
+- `action_type`: Police remind the public of Alert Level 3 restrictions and continued compliance expectations
+- `dependency_type`: `legal or compliance dependency`; `public-communication dependency`
+- `implementation_marker`: `official guidance update`
+- `public_information_marker`: `official guidance update`; `enforcement or compliance communication`
+- `source_citation`: `src-police-covid-major-events-2020`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event thickens the late main interval by showing that the Level 3 phase still required visible compliance guidance after the initial easing move. It improves the route's continuity on the implementation side without changing the basic window boundaries.
+
+### `nz-p-027`
+
+- `timestamp_or_date`: `2020-05-06`
+- `issuing_unit`: `strategic executive coordination`
+- `receiving_units`: `public-health policy and command`; `public-service system coordination`; `enforcement and compliance`; `public-information coordination`
+- `action_type`: formal preparation for Alert Level 2 sets guidance revisions, service phasing, and public messaging expectations ahead of the next review
+- `dependency_type`: `directive or authority dependency`; `information or reporting dependency`; `legal or compliance dependency`; `public-communication dependency`
+- `implementation_marker`: `implementation prepared`
+- `public_information_marker`: `official guidance update`; `alert-level communication`
+- `source_citation`: `src-dpmc-preparing-for-alert-level-2-2020`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event gives the late transition chain one more direct DPMC operating anchor before the Level 2 decision. It makes the move into Comparator B less dependent on speeches and legal passage alone by showing that guidance, local-government services, transport, justice, and wider public messaging were already being staged for the next shift.
+
+### `nz-p-026`
+
+- `timestamp_or_date`: `2020-05-08`
+- `issuing_unit`: `enforcement and compliance`
+- `receiving_units`: `public-health policy and command`; `public-information coordination`
+- `action_type`: Police remind the public New Zealand remains in Alert Level 3 ahead of the next transition decision
+- `dependency_type`: `legal or compliance dependency`; `public-communication dependency`
+- `implementation_marker`: `official guidance update`
+- `public_information_marker`: `official guidance update`; `enforcement or compliance communication`
+- `source_citation`: `src-police-covid-major-events-2020`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event thickens Comparator B preparation without forcing a new window. It shows enforcement-side guidance still operating immediately before the Level 2 decision point, which helps distinguish late-transition continuity from the earlier acute escalation chain.
+
 ## Comparator B boundary markers
 
 ### `nz-b-004`
@@ -517,6 +590,23 @@ This is the implementation-side counterpart to the Level 3 transition planning c
 Why it matters:
 
 This event is useful because it makes the comparator entry visible as a decision event before the lower-acuity period is actually implemented.
+
+### `nz-b-006`
+
+- `timestamp_or_date`: `2020-05-12`
+- `issuing_unit`: `emergency-management coordination`
+- `receiving_units`: `strategic executive coordination`; `public-service system coordination`; `enforcement and compliance`; `public-information coordination`
+- `action_type`: national transition period planning formalized in a joint DPMC/NEMA briefing
+- `dependency_type`: `directive or authority dependency`; `legal or compliance dependency`; `information or reporting dependency`
+- `implementation_marker`: `implementation initiated`
+- `public_information_marker`: `none recorded`
+- `source_citation`: `src-dpmc-national-transition-period-2020`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event adds direct operating-model thickness to the transition window. It makes the move into Comparator B less dependent on speeches and legal passage alone by showing formal joint planning for the national transition period.
 
 ### `nz-b-005`
 
@@ -608,8 +698,8 @@ What it does **not** yet demonstrate:
 The next concrete pass should:
 
 1. keep adding D-family `D` and `E` direct-source events only when they satisfy the live-plus-fixed-archive rule
-2. formalize the first route-local estimator layer against the now-30-event baseline
-3. stress-test the first conjoint window comparison against deeper implementation and enforcement material
+2. keep the first route-local estimator layer fixed unless the denser ledger forces a rule change
+3. stress-test the first conjoint window comparison against deeper implementation, enforcement, and transition-continuity material
 
 ## Status
 

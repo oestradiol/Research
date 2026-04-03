@@ -4,12 +4,12 @@ This file is future-facing only. It tracks where the public package should move 
 
 ## 1. Current phase
 
-The package now exists as a research-phase public package. The next steps are no longer about inventing the structure from scratch; they are about execution, refinement, and later publication-finalization.
+The package now exists as a bounded local `v1.0.0` public release. The next steps are no longer about inventing the structure from scratch; they are about empirical deepening, comparative hardening, and later remote publication-finalization.
 
 ## 2. Contribution-crystallization priorities
 
-- identify and pressure-test the top candidate original contributions of SUF instead of leaving them implicit
-- force one short payoff statement that explains what confusion the framework removes, what distinction it introduces, or what it lets a researcher see more clearly
+- pressure-test the locked payoff statement rather than letting it stand as a one-pass slogan
+- keep the supporting contribution claims explicit and route-visible rather than drifting back into vague synthesis language
 - use the New Zealand route to show at least one bounded case-level analytical yield over flatter coordination language
 - clarify what the Informational Awareness Framework uniquely enables downstream so it does not read as optional decorative vocabulary
 
@@ -19,11 +19,11 @@ The package now exists as a research-phase public package. The next steps are no
 - deepen the seed event ledger into a fuller chronological ledger
 - stress-test and refine the first route-local estimator implementation and the first bounded `I`, `C`, and `L` passes
 - stress-test and deepen the first conjoint `I/C/L` window comparison
-- deepen the current `10`-check sensitivity/null note into a broader perturbation program
+- deepen the current `14`-check sensitivity/null note into a broader perturbation program
 - keep testing the locked coding schema against real source material
 - keep the first estimator layer synchronized with explicit `(tau, sigma)` discipline
 - tighten cross-file consistency as route-level implementation choices become more concrete
-- keep contribution language synchronized with what the route can actually show
+- keep the locked payoff sentence and supporting claims synchronized with what the route can actually show
 
 ## 4. Comparative next steps
 
@@ -47,8 +47,9 @@ The package now exists as a research-phase public package. The next steps are no
 
 ## 7. Longer-horizon versioning
 
-- keep `0.x` for bounded public packages that are still maturing
-- consider `1.0.0` only when the public architecture and publication workflow are materially more stable
+- treat `1.0.0` as the first bounded publication-ready local release, not as universal proof
+- use later `1.x` releases for empirical deepening, comparative hardening, and reproducibility expansion
+- reserve larger version jumps for real architectural or scope changes rather than routine route growth
 
 ## 8. Later-horizon frontier branches
 

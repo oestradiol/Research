@@ -8,6 +8,16 @@ shared tooling package:
 - [tools/](tools/README.md) — the reproducibility and validation support package
 - [using-this-research-with-human-assistants-and-reasoning-agents.md](using-this-research-with-human-assistants-and-reasoning-agents.md) — guidance for collaborative and accessibility-support use
 
+Current snapshot: **`v1.0.0`** dated **2026-04-02**.
+
+This is the first bounded public release of the full `Research/` repository:
+
+- [structured-unity-framework/](structured-unity-framework/README.md) is the academic core
+- [knowledge/](knowledge/README.md) is a stable sibling atlas founded on SUF
+- [tools/](tools/README.md) is the read-only validation and reproducibility layer
+
+This release is publication-ready in a bounded sense. It is **not** a claim of universal proof, final ontology, or closed empirical completion.
+
 ## Maintainer
 
 - Elaina

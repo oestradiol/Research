@@ -30,8 +30,8 @@ These are comparison supports, not final scores.
 | Window | Events | `sigma3` events | PI-marked events | Mean breadth | Active units | SEC issue share | Weighted cross-cluster share | Current lag signal |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
 | Comparator A | `2` | `1` | `1` | `3.5` | `5 / 7` | `1 / 2` | `5 / 7 = 0.71` | `not yet cleanly pairable` |
-| Main perturbation interval | `23` | `21` | `12` | `3.8` | `7 / 7` | `16 / 23` | `66 / 87 = 0.76` | `2-day` and `8-day` staged pairs |
-| Comparator B | `5` | `5` | `5` | `3.8` | `6 / 7` | `4 / 5` | `15 / 19 = 0.79` | `1-day` and `3-day` staged pairs |
+| Main perturbation interval | `27` | `25` | `16` | `3.6` | `7 / 7` | `17 / 27` | `72 / 97 = 0.74` | `2-day` and `8-day` staged pairs |
+| Comparator B | `6` | `6` | `5` | `3.8` | `6 / 7` | `4 / 6` | `18 / 23 = 0.78` | `1-day`, `2-day`, and `3-day` staged pairs |
 
 ## First conjoint read
 
@@ -51,11 +51,11 @@ That makes Comparator A useful as a boundary marker, not yet as a rich coordinat
 The main interval is the clearest high-density coordination window in the current route:
 
 - all `7 / 7` units are active
-- `strategic executive coordination` issues `16 / 23` seeded events
-- weighted cross-cluster routing stays high at `0.76`
+- `strategic executive coordination` issues `17 / 27` seeded events
+- weighted cross-cluster routing stays high at `0.74`
 - public-information coordination remains active through both acute escalation and controlled easing
-- the route now shows both a `2-day` acute escalation stage and an `8-day` Level 3 transition stage
-- the route now also carries a more explicit implementation-side layer through stranded-people planning, managed-isolation welfare coordination, emergency-powers guidance, review preparation, police guidance, extended-Level-4 enforcement continuity, patrol/checkpoint activity, and Cabinet implementation material
+- the route now shows both a `2-day` acute escalation stage and repeated `8-day` easing-preparation stages
+- the route now also carries a more explicit implementation-side layer through stranded-people planning, managed-isolation welfare coordination, emergency-powers guidance, review preparation, formal Level 2 preparation, police guidance, extended-Level-4 enforcement continuity, late-Level-3 continuity reminders, patrol/checkpoint activity, and Cabinet implementation material
 
 This is the strongest current evidence that the route is picking up a real coordination architecture rather than merely a pile of crisis headlines.
 
@@ -63,11 +63,11 @@ This is the strongest current evidence that the route is picking up a real coord
 
 Comparator B is lower-acuity than the main interval, but it is not thin in the same way as Comparator A:
 
-- `5` coded events are already visible
+- `6` coded events are already visible
 - `6 / 7` units remain active even though border-control coordination drops out
-- `strategic executive coordination` still issues `4 / 5` events
-- all `5 / 5` events carry explicit public-information markers
-- the window keeps non-zero staging lags through the legal handoff and Level 2 implementation
+- `strategic executive coordination` still issues `4 / 6` events
+- `5 / 6` events carry explicit public-information markers
+- the window keeps non-zero staging lags through the transition-planning, legal-handoff, and Level 2 implementation sequence
 
 That makes Comparator B look narrower than the main interval, but still coherent and system-wide enough to matter analytically.
 
@@ -81,7 +81,7 @@ That matters because it gives SUF a first bounded comparative payoff inside one 
 
 - Comparator A is too thin to look like the main interval
 - the main interval is the densest and most fully integrated phase
-- Comparator B remains coordinated, but with narrower unit spread and shorter transition staging than the main interval's longer Level 3 preparation chain and denser April implementation layer
+- Comparator B remains coordinated, but with narrower unit spread and shorter transition staging than the main interval's longer Level 3 preparation chain and denser April-to-early-May implementation layer
 
 This is still not a final estimator result, but it is more than description. It shows the route can separate windows by coordination form rather than only by date.
 
@@ -101,7 +101,7 @@ The next practical move is to:
 
 1. test whether the current main-interval and Comparator B differences survive the current denser coding under explicit estimator rules
 2. extend D-family `D` and `E` coverage further only where the live-plus-fixed-archive rule is satisfied
-3. begin the first comparative branch once the NZ gate is explicitly documented as cleared
+3. keep the external comparison bounded until Taiwan moves beyond the current `12`-event starter tranche
 
 ## Status
 

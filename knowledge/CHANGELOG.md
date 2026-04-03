@@ -1,5 +1,16 @@
 # Changelog
 
+## `v1.0.0` - 2026-04-02
+
+First bounded public release of Knowledge inside the umbrella `Research/` repository.
+
+### Included in this snapshot
+
+- stable sibling-atlas posture relative to SUF
+- normalized `knowledge-package-spec.md` naming
+- maintained 9-cluster / 70-node public graph
+- boundary-clean package surfaces suitable for the umbrella `v1.0.0` release
+
 ## `v0.1.0` - 2026-04-02
 
 First public Knowledge snapshot in this tree.

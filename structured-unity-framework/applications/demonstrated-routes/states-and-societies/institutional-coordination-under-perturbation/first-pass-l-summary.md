@@ -14,12 +14,14 @@ Confirmed staged pairs in the seed:
 
 - `2020-03-23` escalation announcement -> `2020-03-25` Level 4 implementation
 - `2020-04-20` Level 3 move-date announcement -> `2020-04-28` Level 3 implementation
+- `2020-05-06` Alert Level 2 preparation -> `2020-05-14` Level 2 implementation
+- `2020-05-12` transition-period planning briefing -> `2020-05-14` Level 2 implementation
 - `2020-05-11` Level 2 announcement -> `2020-05-14` Level 2 implementation
 - `2020-05-13` transition-period legal handoff -> `2020-05-14` Level 2 implementation
 
 These are still coarse. They are enough for a first bounded lag read, not for a final latency estimator.
 
-The newly admitted DPMC events around `2020-03-31`, `2020-04-02`, `2020-04-09`, `2020-04-14`, and `2020-04-21` thicken the implementation context around these pairs, but they do not yet create additional clean public pairings under the current route-local pairing rule.
+The newly admitted DPMC events around `2020-03-31`, `2020-04-02`, `2020-04-09`, `2020-04-14`, `2020-04-21`, `2020-05-06`, and `2020-05-12` thicken the implementation context around these pairs. Under the current route-local pairing rule, the `2020-05-06` Level 2 preparation paper and the `2020-05-12` transition-period planning briefing now add new clean public pairings on the de-escalation side.
 
 ## Current paired gaps
 
@@ -27,12 +29,14 @@ The newly admitted DPMC events around `2020-03-31`, `2020-04-02`, `2020-04-09`, 
 |---|---|---|---:|
 | Escalation staging | `2020-03-23` | `2020-03-25` | `2` days |
 | Level 3 transition staging | `2020-04-20` | `2020-04-28` | `8` days |
+| Level 2 preparation staging | `2020-05-06` | `2020-05-14` | `8` days |
+| Transition-period planning to Level 2 | `2020-05-12` | `2020-05-14` | `2` days |
 | Level 2 staging | `2020-05-11` | `2020-05-14` | `3` days |
 | Legal handoff into Level 2 | `2020-05-13` | `2020-05-14` | `1` day |
 
 ### Simple summary
 
-- paired gaps observed: `1`, `2`, `3`, `8` days
+- paired gaps observed: `1`, `2`, `2`, `3`, `8`, `8` days
 - date-grain median paired gap: `2.5` days
 - observed range: `1-8` days
 
@@ -40,7 +44,7 @@ The newly admitted DPMC events around `2020-03-31`, `2020-04-02`, `2020-04-09`, 
 
 The most defensible current reading is:
 
-**The seed route already shows short-to-moderate non-zero staging lags, which suggests a coordination system that is neither instantaneous nor randomly delayed, but operating through compressed and variable preparation intervals.**
+**The seed route already shows short-to-moderate non-zero staging lags, which suggests a coordination system that is neither instantaneous nor randomly delayed, but operating through compressed and variable preparation intervals. The current lag surface now spans acute escalation, two longer easing-preparation intervals, transition planning, and legal handoff into de-escalation.**
 
 That matters because:
 

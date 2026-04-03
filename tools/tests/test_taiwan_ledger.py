@@ -7,7 +7,7 @@ def test_taiwan_ledger_parser_matches_current_public_counts() -> None:
     events = parse_taiwan_ledger(get_paths().taiwan_route_root / "taiwan-event-ledger-seed.md")
     summary = compute_route_summary("taiwan", events)
 
-    assert summary.event_count == 6
+    assert summary.event_count == 12
     assert summary.active_units == 6
-    assert summary.active_edges == 5
-    assert summary.public_information_receiving_count == 6
+    assert summary.active_edges == 10
+    assert summary.public_information_receiving_count == 12

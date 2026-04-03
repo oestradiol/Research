@@ -2,12 +2,14 @@ from __future__ import annotations
 
 import re
 from collections import Counter
+from datetime import datetime
 from pathlib import Path
-from statistics import fmean
+from statistics import fmean, median
 
 from research_tools.config import NZ_EVENT_PREFIXES, POSSIBLE_DIRECTED_EDGES, UNIT_TO_CLUSTER
 from research_tools.models.ledger import LedgerEvent
 from research_tools.models.reports import RouteSummary, ValidationResult, WindowSummary
+from research_tools.paths import format_report_path
 
 
 def _format_ratio(numerator: int, denominator: int, digits: int) -> str:
@@ -114,13 +116,29 @@ def _extract_ratio(pattern: str, text: str) -> tuple[int, int, str]:
     return int(match.group(1)), int(match.group(2)), match.group(3)
 
 
+def _extract_window_row(label: str, text: str) -> re.Match[str]:
+    match = re.search(
+        (
+            rf"\| {re.escape(label)} \| `(\d+)` \| `(\d+)` \| `(\d+)` \| "
+            r"`([0-9.]+)` \| `(\d+) / 7` \| `(\d+) / (\d+)` \| "
+            r"`(\d+) / (\d+) = ([0-9.]+)` \|"
+        ),
+        text,
+    )
+    if not match:
+        raise ValueError(f"{label} row not found.")
+    return match
+
+
 def compare_nz_summary_to_docs(
     summary: RouteSummary,
     window_summary: WindowSummary,
+    comparator_b_summary: WindowSummary,
     project_status_path: Path,
     i_summary_path: Path,
     seed_readout_path: Path,
     window_comparison_path: Path,
+    sensitivity_note_path: Path,
 ) -> list[ValidationResult]:
     results: list[ValidationResult] = []
 
@@ -128,6 +146,7 @@ def compare_nz_summary_to_docs(
     i_summary = i_summary_path.read_text(encoding="utf-8")
     seed_readout = seed_readout_path.read_text(encoding="utf-8")
     window_comparison = window_comparison_path.read_text(encoding="utf-8")
+    sensitivity_note = sensitivity_note_path.read_text(encoding="utf-8")
 
     expected_event_count = _extract_first_int(r"`(\d+)`-event seed ledger", project_status)
     expected_main_interval = _extract_first_int(
@@ -159,16 +178,30 @@ def compare_nz_summary_to_docs(
     pi_receiving_den = _extract_first_int(
         r"`public-information coordination` receives `\d+/(\d+)` events", seed_readout
     )
-    main_window_match = re.search(
-        (
-            r"\| Main perturbation interval \| `(\d+)` \| `(\d+)` \| `(\d+)` \| "
-            r"`([0-9.]+)` \| `(\d+) / 7` \| `(\d+) / (\d+)` \| "
-            r"`(\d+) / (\d+) = ([0-9.]+)` \|"
-        ),
-        window_comparison,
+    main_window_match = _extract_window_row("Main perturbation interval", window_comparison)
+    comparator_b_match = _extract_window_row("Comparator B", window_comparison)
+    sensitivity_event_count = _extract_first_int(r"- `(\d+)` total coded events", sensitivity_note)
+    sensitivity_main_interval = _extract_first_int(
+        r"- `(\d+)` main-interval events", sensitivity_note
     )
-    if not main_window_match:
-        raise ValueError("Main perturbation interval row not found.")
+    sensitivity_sec_num = _extract_first_int(
+        r"- `strategic executive coordination` issues `(\d+) / \d+`", sensitivity_note
+    )
+    sensitivity_sec_den = _extract_first_int(
+        r"- `strategic executive coordination` issues `\d+ / (\d+)`", sensitivity_note
+    )
+    sensitivity_pi_num = _extract_first_int(
+        r"- `public-information coordination` receives `(\d+) / \d+`", sensitivity_note
+    )
+    sensitivity_pi_den = _extract_first_int(
+        r"- `public-information coordination` receives `\d+ / (\d+)`", sensitivity_note
+    )
+    sensitivity_weighted_num, sensitivity_weighted_den, sensitivity_weighted_display = (
+        _extract_ratio(
+            r"- weighted cross-cluster routing = `(\d+) / (\d+) = ([0-9.]+)`",
+            sensitivity_note,
+        )
+    )
 
     checks = [
         ("nz-event-count", summary.event_count, expected_event_count),
@@ -254,6 +287,85 @@ def compare_nz_summary_to_docs(
             ),
             main_window_match.group(10),
         ),
+        (
+            "nz-comparator-b-events",
+            comparator_b_summary.event_count,
+            int(comparator_b_match.group(1)),
+        ),
+        (
+            "nz-comparator-b-sigma3",
+            comparator_b_summary.sigma3_event_count,
+            int(comparator_b_match.group(2)),
+        ),
+        (
+            "nz-comparator-b-pi-marked",
+            comparator_b_summary.public_information_marked_count,
+            int(comparator_b_match.group(3)),
+        ),
+        (
+            "nz-comparator-b-breadth",
+            f"{comparator_b_summary.mean_receiving_breadth:.1f}",
+            comparator_b_match.group(4),
+        ),
+        (
+            "nz-comparator-b-active-units",
+            comparator_b_summary.active_units,
+            int(comparator_b_match.group(5)),
+        ),
+        (
+            "nz-comparator-b-sec-num",
+            comparator_b_summary.sec_issuing_count,
+            int(comparator_b_match.group(6)),
+        ),
+        (
+            "nz-comparator-b-sec-den",
+            comparator_b_summary.sec_issuing_denominator,
+            int(comparator_b_match.group(7)),
+        ),
+        (
+            "nz-comparator-b-weighted-cross-num",
+            comparator_b_summary.weighted_cross_cluster_numerator,
+            int(comparator_b_match.group(8)),
+        ),
+        (
+            "nz-comparator-b-weighted-cross-den",
+            comparator_b_summary.weighted_cross_cluster_denominator,
+            int(comparator_b_match.group(9)),
+        ),
+        (
+            "nz-comparator-b-weighted-cross-ratio",
+            _format_ratio(
+                comparator_b_summary.weighted_cross_cluster_numerator,
+                comparator_b_summary.weighted_cross_cluster_denominator,
+                2,
+            ),
+            comparator_b_match.group(10),
+        ),
+        ("nz-sensitivity-event-count", summary.event_count, sensitivity_event_count),
+        ("nz-sensitivity-main-interval", summary.main_interval_count, sensitivity_main_interval),
+        ("nz-sensitivity-sec-num", summary.top_issuer_count, sensitivity_sec_num),
+        ("nz-sensitivity-sec-den", summary.event_count, sensitivity_sec_den),
+        ("nz-sensitivity-pi-num", summary.public_information_receiving_count, sensitivity_pi_num),
+        ("nz-sensitivity-pi-den", summary.event_count, sensitivity_pi_den),
+        (
+            "nz-sensitivity-weighted-cross-num",
+            summary.weighted_cross_cluster_numerator,
+            sensitivity_weighted_num,
+        ),
+        (
+            "nz-sensitivity-weighted-cross-den",
+            summary.weighted_cross_cluster_denominator,
+            sensitivity_weighted_den,
+        ),
+        (
+            "nz-sensitivity-weighted-cross-ratio",
+            _format_ratio(
+                summary.weighted_cross_cluster_numerator,
+                summary.weighted_cross_cluster_denominator,
+                2,
+            ),
+            sensitivity_weighted_display,
+        ),
     ]
 
     for check_name, found, expected in checks:
@@ -299,7 +411,7 @@ def render_nz_summary_report(
         if mismatches
         else "- none"
     )
-    files = "\n".join(f"- `{path}`" for path in source_files)
+    files = "\n".join(f"- `{format_report_path(path)}`" for path in source_files)
     weighted_line = (
         f"- weighted cross-cluster routing: "
         f"`{summary.weighted_cross_cluster_numerator} / "
@@ -359,12 +471,85 @@ def render_nz_summary_report(
     return "\n".join(lines)
 
 
+def compute_nz_lag_pairs(events: list[LedgerEvent]) -> list[tuple[str, str, str, int]]:
+    event_index = {event.event_id: event for event in events}
+    pair_specs = (
+        ("Escalation staging", "nz-p-010", "nz-p-006"),
+        ("Level 3 transition staging", "nz-p-012", "nz-p-013"),
+        ("Level 2 preparation staging", "nz-p-027", "nz-b-002"),
+        ("Transition-period planning to Level 2", "nz-b-006", "nz-b-002"),
+        ("Level 2 staging", "nz-b-004", "nz-b-002"),
+        ("Legal handoff into Level 2", "nz-b-005", "nz-b-002"),
+    )
+    pairs: list[tuple[str, str, str, int]] = []
+    for label, start_id, end_id in pair_specs:
+        start = event_index[start_id]
+        end = event_index[end_id]
+        start_date = datetime.strptime(start.timestamp_or_date, "%Y-%m-%d").date()
+        end_date = datetime.strptime(end.timestamp_or_date, "%Y-%m-%d").date()
+        pairs.append((label, start.event_id, end.event_id, (end_date - start_date).days))
+    return pairs
+
+
+def render_nz_lag_report(
+    lag_pairs: list[tuple[str, str, str, int]],
+    generated_at: str,
+    source_files: list[Path],
+) -> str:
+    files = "\n".join(f"- `{format_report_path(path)}`" for path in source_files)
+    gaps = [gap for _, _, _, gap in lag_pairs]
+    sorted_gaps = sorted(gaps)
+    rows = "\n".join(
+        f"| {label} | `{start_id}` | `{end_id}` | `{gap}` |"
+        for label, start_id, end_id, gap in lag_pairs
+    )
+    lines = [
+        "# NZ Lag Surface Report",
+        "",
+        f"Generated: `{generated_at}`",
+        "",
+        "## Source files",
+        "",
+        files,
+        "",
+        "## Computed lag pairs",
+        "",
+        "| Pair | Start event | End event | Date-grain gap |",
+        "|---|---|---|---:|",
+        rows,
+        "",
+        "## Summary",
+        "",
+        f"- paired gaps: `{', '.join(str(gap) for gap in sorted_gaps)}` days",
+        f"- median paired gap: `{median(gaps):g}` days",
+        f"- observed range: `{min(gaps)}-{max(gaps)}` days",
+        "",
+        "## Assumptions",
+        "",
+        "- lag pairs follow the current route-local estimator implementation",
+        "- only explicit public transition pairs are included",
+        "- this report is a read-only support surface, not an auto-update mechanism",
+        "",
+        "## Fit status",
+        "",
+        (
+            "Human review required. This report does not yet compare against a "
+            "dedicated published lag-report surface."
+        ),
+        "",
+        "## Human validation required",
+        "",
+        "This output is read-only and provisional until a human reviews it.",
+    ]
+    return "\n".join(lines)
+
+
 def render_nz_window_report(
     window_summaries: dict[str, WindowSummary],
     generated_at: str,
     source_files: list[Path],
 ) -> str:
-    files = "\n".join(f"- `{path}`" for path in source_files)
+    files = "\n".join(f"- `{format_report_path(path)}`" for path in source_files)
     rows = []
     for label in ("Comparator A", "Main perturbation interval", "Comparator B"):
         summary = window_summaries[label]

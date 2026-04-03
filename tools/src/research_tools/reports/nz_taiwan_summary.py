@@ -5,6 +5,7 @@ from pathlib import Path
 
 from research_tools.config import POSSIBLE_DIRECTED_EDGES
 from research_tools.models.reports import RouteSummary, ValidationResult
+from research_tools.paths import format_report_path
 
 
 def _format_ratio(numerator: int, denominator: int, digits: int) -> str:
@@ -163,7 +164,7 @@ def render_nz_taiwan_report(
         if mismatches
         else "- none"
     )
-    files = "\n".join(f"- `{path}`" for path in source_files)
+    files = "\n".join(f"- `{format_report_path(path)}`" for path in source_files)
     fit_status = (
         "Matches current published docs."
         if not mismatches

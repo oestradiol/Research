@@ -25,7 +25,7 @@ Use only events admitted under the current source-control rule:
 - exact fixed archive URL verified
 - event materially adds boundary, timing, implementation, or dependency detail
 
-The current baseline for this implementation is the public `30`-event ledger.
+The current baseline for this implementation is the public `35`-event ledger.
 
 ## `I` implementation
 

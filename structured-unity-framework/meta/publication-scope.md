@@ -4,15 +4,17 @@ This file explains what the current public package does and does not imply.
 
 ## 1. Current public scope
 
-Structured Unity Framework is presented here as a research-phase public package: layered theory, research-ready methods, a bounded demonstrated route, a targeted applications atlas, tiered references, and explicit meta policies.
+Structured Unity Framework is presented here as a first publication-ready bounded public release: layered theory, research-ready methods, a demonstrated route, a bounded comparator, a targeted applications atlas, tiered references, and explicit meta policies.
 
 ## 2. What is active now
 
 - the four-layer framework
 - the Research Program as a research-ready provisional design
-- the New Zealand demonstrated route and its three supporting research docs
+- the New Zealand demonstrated route with a `35`-event public ledger, a `27`-event main interval, first bounded readouts, and a `14`-check robustness note
+- the bounded Taiwan comparator with a `12`-event starter ledger and one conservative lag pair
 - the targeted applications atlas under `applications/research-map/`
 - standard and extended reading lists for the active package
+- the locked payoff sentence and the v1 academic bundle note
 
 ## 3. What is intentionally deferred
 
@@ -21,15 +23,15 @@ Structured Unity Framework is presented here as a research-phase public package:
 - changelog grounding to remote git history
 - first tagged release, release notes, and final release packaging
 
-## 4. What remains open inside the active research phase
+## 4. What remains open inside the active `v1.0.0` scope
 
-The package is active, but not closed. Estimator implementation detail, corpus completeness, sensitivity execution, and first comparative execution still remain to be done.
+The package is active, but not closed. Fuller corpus completeness, deeper Taiwan execution, further robustness work, and later comparative branches still remain open.
 
 ## 5. Reviewer-expectation note
 
 External readers may reasonably ask for fuller estimator, dataset, event-ledger, or coding-protocol detail.
 
-That material is expected to land in later versions, route supplements, or more mature empirical packages. Its absence here does **not** contradict the current bounded `0.x` package; it marks expected research-program maturation.
+That material is expected to land in later versions, route supplements, or more mature empirical packages. Its absence here does **not** contradict the current bounded `v1.0.0` release; it marks expected research-program maturation.
 
 ## 6. What this package does not imply
 
@@ -40,4 +42,4 @@ That material is expected to land in later versions, route supplements, or more 
 
 ## 7. Versioning stance
 
-`0.x` marks bounded public packages that are still maturing. `1.0.0` is reserved for a later point where both the architecture and the publication workflow are materially more stable.
+`v1.0.0` here means the first publication-ready bounded local release. It marks a stable public architecture, a real demonstrated route, a bounded comparator, and reproducibility support. It does **not** mean universal validation, remote-release completion, or closed empirical finality.

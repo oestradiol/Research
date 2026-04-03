@@ -4,7 +4,9 @@
 
 This package provides reproducible, read-only research-support tooling for the `Research/` repository.
 
-The first tranche is scoped to Structured Unity Framework (SUF) route and source work while also covering repository-wide Markdown link validation across `Research/`. It validates current public research surfaces and generates deterministic read-only reports for human review.
+Current snapshot: `1.0.0` dated `2026-04-02`.
+
+The current scope covers Structured Unity Framework route and source work, Knowledge package integrity, version-surface consistency, and repository-wide Markdown link validation across `Research/`. It validates current public research surfaces and generates deterministic read-only reports for human review.
 
 This package does **not**:
 
@@ -14,12 +16,15 @@ This package does **not**:
 
 ## Current scope
 
-Tranche 1 supports:
+Current support includes:
 
 - Markdown link validation across `Research/`
 - source-registry shape and archive validation
 - New Zealand route parsing and consistency checks
 - Taiwan starter-route parsing and consistency checks
+- Knowledge package entry/index integrity checks
+- version, changelog, and citation-surface consistency checks
+- release-readiness reporting
 - deterministic read-only report generation
 
 ## Workflow model
@@ -47,14 +52,18 @@ pytest
 ```bash
 research-tools validate links
 research-tools validate archives
+research-tools validate knowledge
 research-tools validate source-registry
+research-tools validate versions
 research-tools validate route --route nz
 research-tools validate route --route taiwan
 research-tools validate all
 
 research-tools report nz-summary
 research-tools report nz-window-comparison
+research-tools report nz-lag-surface
 research-tools report nz-taiwan-summary
+research-tools report release-readiness
 ```
 
 ## Output policy
@@ -76,4 +85,4 @@ Important tooling decisions are tracked in:
 
 ## Status
 
-`tranche-1 tooling active`
+`public v1 tooling active`

@@ -8,11 +8,13 @@ from typing import Callable
 from research_tools.parse.nz_ledger import parse_nz_ledger
 from research_tools.parse.source_registry import parse_source_registry, source_registry_index
 from research_tools.parse.taiwan_ledger import parse_taiwan_ledger
-from research_tools.paths import get_paths
+from research_tools.paths import format_optional_report_path, format_report_path, get_paths
 from research_tools.reports.nz_summary import (
     compare_nz_summary_to_docs,
+    compute_nz_lag_pairs,
     compute_nz_window_summaries,
     compute_route_summary,
+    render_nz_lag_report,
     render_nz_summary_report,
     render_nz_window_report,
 )
@@ -20,11 +22,17 @@ from research_tools.reports.nz_taiwan_summary import (
     compare_nz_taiwan_summary_to_docs,
     render_nz_taiwan_report,
 )
+from research_tools.reports.release_readiness import render_release_readiness_report
 from research_tools.validate.archives import validate_archive_links
+from research_tools.validate.knowledge import validate_knowledge_package
 from research_tools.validate.links import validate_markdown_links
 from research_tools.validate.route_consistency import validate_nz_route, validate_taiwan_route
 from research_tools.validate.sources import validate_source_registry
-from research_tools.workflows.validate_all import render_validation_report
+from research_tools.validate.versions import validate_versions
+from research_tools.workflows.validate_all import (
+    collect_validation_results,
+    render_validation_report,
+)
 
 
 def _generated_at() -> str:
@@ -49,12 +57,16 @@ def _render_simple_results(
     results: list,
     source_files: list[Path],
 ) -> str:
-    files = "\n".join(f"- `{path}`" for path in source_files)
+    files = "\n".join(f"- `{format_report_path(path)}`" for path in source_files)
     body = "\n".join(
         f"- `{result.check_name}` [{result.status}] {result.message}"
         + (f" Expected `{result.expected}`." if result.expected else "")
         + (f" Found `{result.found}`." if result.found else "")
-        + (f" Path `{result.path}`." if result.path else "")
+        + (
+            f" Path `{format_optional_report_path(result.path)}`."
+            if result.path
+            else ""
+        )
         for result in results
     )
     return f"""# {title}
@@ -129,6 +141,7 @@ def handle_validate_route(args: argparse.Namespace) -> int:
             paths.nz_route_root / "event-ledger-seed.md",
             paths.nz_route_root / "first-pass-i-summary.md",
             paths.nz_route_root / "first-pass-window-comparison.md",
+            paths.nz_route_root / "first-pass-sensitivity-and-null-note.md",
             paths.suf_root / "docs" / "project-status.md",
         ]
         filename = "validate-route-nz.md"
@@ -147,16 +160,46 @@ def handle_validate_route(args: argparse.Namespace) -> int:
     return _results_exit_code(results)
 
 
+def handle_validate_knowledge(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    results = validate_knowledge_package(paths.knowledge_root)
+    output = _render_simple_results(
+        "Validate Knowledge",
+        _generated_at(),
+        results,
+        [paths.knowledge_root],
+    )
+    output_path = _write_output("validate-knowledge.md", output)
+    print(output_path)
+    return _results_exit_code(results)
+
+
+def handle_validate_versions(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    results = validate_versions(paths)
+    output = _render_simple_results(
+        "Validate Versions",
+        _generated_at(),
+        results,
+        [
+            paths.research_root / "CITATION.cff",
+            paths.research_root / "CHANGELOG.md",
+            paths.suf_root / "CITATION.cff",
+            paths.suf_root / "CHANGELOG.md",
+            paths.knowledge_root / "CITATION.cff",
+            paths.knowledge_root / "CHANGELOG.md",
+            paths.tools_root / "pyproject.toml",
+            paths.tools_root / "src" / "research_tools" / "__init__.py",
+        ],
+    )
+    output_path = _write_output("validate-versions.md", output)
+    print(output_path)
+    return _results_exit_code(results)
+
+
 def handle_validate_all(_: argparse.Namespace) -> int:
     paths = get_paths()
-    entries = parse_source_registry(paths.source_registry)
-    index = source_registry_index(entries)
-    results = []
-    results.extend(validate_markdown_links(paths.research_root))
-    results.extend(validate_source_registry(entries))
-    results.extend(validate_archive_links(entries))
-    results.extend(validate_nz_route(paths.nz_route_root, index))
-    results.extend(validate_taiwan_route(paths.taiwan_route_root, index))
+    results = collect_validation_results(paths)
     output = render_validation_report(
         generated_at=_generated_at(),
         results=results,
@@ -165,6 +208,11 @@ def handle_validate_all(_: argparse.Namespace) -> int:
             paths.source_registry,
             paths.nz_route_root / "event-ledger-seed.md",
             paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+            paths.knowledge_root,
+            paths.research_root / "CITATION.cff",
+            paths.suf_root / "CITATION.cff",
+            paths.knowledge_root / "CITATION.cff",
+            paths.tools_root / "pyproject.toml",
         ],
     )
     output_path = _write_output("validation-report.md", output)
@@ -180,10 +228,12 @@ def handle_report_nz_summary(_: argparse.Namespace) -> int:
     validations = compare_nz_summary_to_docs(
         summary=summary,
         window_summary=window_summaries["Main perturbation interval"],
+        comparator_b_summary=window_summaries["Comparator B"],
         project_status_path=paths.suf_root / "docs" / "project-status.md",
         i_summary_path=paths.nz_route_root / "first-pass-i-summary.md",
         seed_readout_path=paths.nz_route_root / "first-pass-seed-readout.md",
         window_comparison_path=paths.nz_route_root / "first-pass-window-comparison.md",
+        sensitivity_note_path=paths.nz_route_root / "first-pass-sensitivity-and-null-note.md",
     )
     output = render_nz_summary_report(
         summary=summary,
@@ -194,6 +244,7 @@ def handle_report_nz_summary(_: argparse.Namespace) -> int:
             paths.nz_route_root / "first-pass-i-summary.md",
             paths.nz_route_root / "first-pass-seed-readout.md",
             paths.nz_route_root / "first-pass-window-comparison.md",
+            paths.nz_route_root / "first-pass-sensitivity-and-null-note.md",
             paths.suf_root / "docs" / "project-status.md",
         ],
         generated_at=_generated_at(),
@@ -215,6 +266,23 @@ def handle_report_nz_window_comparison(_: argparse.Namespace) -> int:
         ],
     )
     output_path = _write_output("nz-window-comparison.md", output)
+    print(output_path)
+    return 0
+
+
+def handle_report_nz_lag_surface(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    events = parse_nz_ledger(paths.nz_route_root / "event-ledger-seed.md")
+    output = render_nz_lag_report(
+        compute_nz_lag_pairs(events),
+        _generated_at(),
+        [
+            paths.nz_route_root / "event-ledger-seed.md",
+            paths.nz_route_root / "estimator-implementation.md",
+            paths.nz_route_root / "first-pass-l-summary.md",
+        ],
+    )
+    output_path = _write_output("nz-lag-surface.md", output)
     print(output_path)
     return 0
 
@@ -246,6 +314,30 @@ def handle_report_nz_taiwan_summary(_: argparse.Namespace) -> int:
     return _results_exit_code(validations)
 
 
+def handle_report_release_readiness(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    results = collect_validation_results(paths)
+    output = render_release_readiness_report(
+        generated_at=_generated_at(),
+        results=results,
+        source_files=[
+            paths.research_root / "README.md",
+            paths.research_root / "CHANGELOG.md",
+            paths.research_root / "CITATION.cff",
+            paths.suf_root / "README.md",
+            paths.suf_root / "CHANGELOG.md",
+            paths.suf_root / "docs" / "project-status.md",
+            paths.knowledge_root / "README.md",
+            paths.knowledge_root / "CHANGELOG.md",
+            paths.tools_root / "README.md",
+            paths.tools_root / "pyproject.toml",
+        ],
+    )
+    output_path = _write_output("release-readiness.md", output)
+    print(output_path)
+    return _results_exit_code(results)
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="research-tools")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -255,9 +347,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     validate_subparsers.add_parser("links").set_defaults(func=handle_validate_links)
     validate_subparsers.add_parser("archives").set_defaults(func=handle_validate_archives)
+    validate_subparsers.add_parser("knowledge").set_defaults(func=handle_validate_knowledge)
     validate_subparsers.add_parser("source-registry").set_defaults(
         func=handle_validate_source_registry
     )
+    validate_subparsers.add_parser("versions").set_defaults(func=handle_validate_versions)
     validate_route_parser = validate_subparsers.add_parser("route")
     validate_route_parser.add_argument("--route", choices=("nz", "taiwan"), required=True)
     validate_route_parser.set_defaults(func=handle_validate_route)
@@ -269,8 +363,14 @@ def build_parser() -> argparse.ArgumentParser:
     report_subparsers.add_parser("nz-window-comparison").set_defaults(
         func=handle_report_nz_window_comparison
     )
+    report_subparsers.add_parser("nz-lag-surface").set_defaults(
+        func=handle_report_nz_lag_surface
+    )
     report_subparsers.add_parser("nz-taiwan-summary").set_defaults(
         func=handle_report_nz_taiwan_summary
+    )
+    report_subparsers.add_parser("release-readiness").set_defaults(
+        func=handle_report_release_readiness
     )
     return parser
 

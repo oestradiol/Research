@@ -6,9 +6,9 @@ This document is the public methods layer for Structured Unity Framework. It sta
 
 It does not replace the theory stack, prove phenomenology from metrics, or claim that one case confirms the whole framework.
 
-## 2. Current research-phase posture
+## 2. Current bounded-release posture
 
-The package is now a **research-phase public package** rather than only a draft architecture. That means several research tracks are active now:
+The package is now a **bounded public `v1.0.0` release** rather than only a draft architecture. That means several research tracks are active now:
 
 - a research-ready New Zealand route under `applications/demonstrated-routes/`
 - a targeted public atlas under `applications/research-map/`

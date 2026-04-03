@@ -20,8 +20,8 @@ That is enough for a bounded first comparative branch.
 
 The New Zealand baseline cleared the current gate before this comparator was opened:
 
-- `30` coded NZ events total
-- `23` coded NZ events in the main perturbation interval
+- `35` coded NZ events total
+- `27` coded NZ events in the main perturbation interval
 - more than four additional durable implementation-side additions beyond the earlier `25`-event state
 - at least one durable `D-family D` addition
 - all accepted additions admitted only with live plus fixed-archive support
@@ -100,12 +100,12 @@ No Taiwan source enters the starter tranche unless:
 
 Wildcard archive lookups are not accepted.
 
-## Current starter execution target
+## Current starter execution state
 
-This first Taiwan tranche includes:
+The first Taiwan tranche now includes:
 
 - one official corpus inventory
-- one seed event ledger
+- one `12`-event seed event ledger
 - one bounded NZ-Taiwan comparison note using the same route-local estimator logic where applicable
 
 ## Comparability limits
@@ -114,7 +114,7 @@ This first Taiwan tranche includes:
 - the current English official seed is thinner than the New Zealand route
 - the visible Taiwan starter set is more border/quarantine heavy
 - the seed does not yet separate all health, executive, and local functions cleanly enough for stronger claims
-- `L` is likely to remain weak in the first starter tranche because clean decision-to-implementation pairs are sparse
+- `L` is still thin in the current starter tranche even though one conservative clean decision-to-implementation pair is now visible
 
 ## Status
 

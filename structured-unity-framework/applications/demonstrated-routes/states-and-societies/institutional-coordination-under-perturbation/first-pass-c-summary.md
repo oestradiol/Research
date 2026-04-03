@@ -21,7 +21,7 @@ This is a first bounded route read, not a final coherence estimator.
 
 ### 1. Issuing-centre stability
 
-- `strategic executive coordination` issues `21 / 30` coded events
+- `strategic executive coordination` issues `22 / 35` coded events
 
 Interpretation:
 
@@ -49,21 +49,26 @@ The seeded main-interval chain is:
 16. `2020-04-21` local-authority and CDEM welfare-support criteria widened
 17. `2020-04-23` Police clarify position on community checkpoints
 18. `2020-04-28` Level 3 begins
-19. `2020-04-29` Aviation Security and Police continue joint reassurance patrols and quarantine/isolation compliance checks
+19. `2020-04-28` Police urge the public to keep following the rules at Alert Level 3
+20. `2020-04-29` Aviation Security and Police continue joint reassurance patrols and quarantine/isolation compliance checks
+21. `2020-05-01` Police remind the public of Alert Level 3 restrictions
+22. `2020-05-06` formal Alert Level 2 preparation sets guidance, service-phasing, and public-message expectations
+23. `2020-05-08` Police remind the public New Zealand remains in Alert Level 3
 
 Interpretation:
 
-This is not a random pile of crisis events. It is a staged sequence in which border, alert-level, legal, operating-structure, compliance-clarification, extended-Level-4 enforcement continuity, checkpoint governance, controlled easing, and immediate post-transition implementation continuity are progressively thickened rather than abruptly scrambled.
+This is not a random pile of crisis events. It is a staged sequence in which border, alert-level, legal, operating-structure, compliance-clarification, extended-Level-4 enforcement continuity, checkpoint governance, controlled easing, and sustained late-transition Police guidance are progressively thickened rather than abruptly scrambled.
 
 ### 3. De-escalation sequence continuity
 
 The seeded de-escalation chain is:
 
 1. `2020-05-11` Level 2 decision announced
-2. `2020-05-13` legal framework for Level 2 passes
-3. `2020-05-13` state of national emergency lifted and national transition period begins
-4. `2020-05-14` Level 2 begins
-5. `2020-06-08` Level 1 begins and the national transition period ends
+2. `2020-05-12` national transition period planning formalized in a joint DPMC/NEMA briefing
+3. `2020-05-13` legal framework for Level 2 passes
+4. `2020-05-13` state of national emergency lifted and national transition period begins
+5. `2020-05-14` Level 2 begins
+6. `2020-06-08` Level 1 begins and the national transition period ends
 
 Interpretation:
 
@@ -71,7 +76,7 @@ The route also shows a coherent de-escalation pattern rather than a simple disap
 
 ### 4. Public-information coupling
 
-- events with explicit public-information markers: `18 / 30`
+- events with explicit public-information markers: `22 / 35`
 
 Interpretation:
 
@@ -81,7 +86,7 @@ The current seed suggests that coherence in this route depends partly on public-
 
 The most defensible current reading is:
 
-**The seed route already shows moderate-to-strong coherence in the form of stable issuing-centre continuity and staged escalation, implementation thickening, easing preparation, and de-escalation sequences, rather than abrupt incoherent switching between unrelated response modes.**
+**The seed route already shows moderate-to-strong coherence in the form of stable issuing-centre continuity and staged escalation, implementation thickening, easing preparation, late-transition continuity, and de-escalation sequences, rather than abrupt incoherent switching between unrelated response modes.**
 
 That reading is still bounded:
 
@@ -111,8 +116,8 @@ This first pass still lacks:
 
 The next practical move is to:
 
-1. formalize the first route-local estimator implementation
-2. stress-test the bounded `L` pass and first conjoint `I/C/L` comparison against the now-denser implementation chain
+1. keep the current route-local estimator implementation fixed unless new evidence forces a rule change
+2. stress-test the bounded `L` pass and first conjoint `I/C/L` comparison against the now-denser implementation and transition-continuity chain
 3. then examine whether coherence remains as strong under finer-grain event splitting and boundary cuts
 
 ## Status

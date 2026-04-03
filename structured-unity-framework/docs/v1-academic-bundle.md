@@ -1,0 +1,40 @@
+# v1 Academic Bundle
+
+## Purpose
+
+This note is the public academic front door for the bounded `v1.0.0` release of Structured Unity Framework.
+
+## Abstract
+
+Structured Unity Framework (SUF) is a layered, documentation-first framework for studying unity-like organization in complex systems without collapsing phenomenological, informational, dynamic, and operational claims into one register. The public `v1.0.0` release presents four coordinated theory layers, an explicit methods posture, a bounded demonstrated route, and a reproducibility layer. The main empirical anchor is a New Zealand pandemic-coordination route with a `35`-event public ledger, a `27`-event main perturbation interval, route-local `I`, `C`, and `L` readouts, a dependency graph, a conjoint window comparison, and a `14`-check sensitivity/null note. A bounded Taiwan comparator now adds a `12`-event archive-clean starter tranche under the same source-admission rule. The strongest current payoff is not universal proof but a concrete case-level distinction: the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture. The package is positioned as methods/framework work first and philosophy/theory second. It offers a disciplined public architecture, a demonstrated route, a bounded comparator, and read-only validation tooling, while keeping broader empirical completion and stronger cross-case claims explicitly open.
+
+## Locked payoff sentence
+
+**SUF shows that the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture.**
+
+## Contribution claims
+
+1. SUF supplies a disciplined layered framework that keeps phenomenological constraint, informational modeling, dynamic readout, and claim-type boundary control explicit instead of blending them into one vague theory voice.
+2. SUF shows one bounded case-level analytical gain by making public-information coordination visible as a routed structural layer rather than treating it as downstream messaging around executive command.
+3. SUF provides a reproducible documentation-first workflow in which source admission, event coding, window comparison, robustness checks, and read-only validation reports can all be inspected publicly.
+
+## Audience position
+
+Methods/framework first. Theory and philosophy are supporting architecture, not the sole product.
+
+## Empirical anchor
+
+- New Zealand demonstrated route: `35` coded events, `27`-event main interval, first bounded `I`, `C`, `L`, conjoint comparison, and `14`-check sensitivity/null note.
+- Taiwan comparator: `12` archive-clean official events and one conservative lag pair under the same source-admission rule.
+
+## Non-claims and limits
+
+- This release does not claim universal proof of SUF.
+- This release does not claim a closed empirical result.
+- This release does not treat one demonstrated route as validation across every mapped domain.
+- This release does not claim final ontology from the theory stack or the frontier notes.
+- This release does not complete remote hosting, tag publishing, or hosted release packaging.
+
+## Status
+
+`public academic front door`

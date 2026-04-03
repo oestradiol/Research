@@ -460,6 +460,16 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 - Accessed: `2026-04-02`.
 - Use limit: supports transition-period planning and lower-acuity coordination staging; does not replace public announcement and legal-handoff sources.
 
+### src-dpmc-preparing-for-alert-level-2-2020
+
+- Citation: Department of the Prime Minister and Cabinet. *Preparing for Alert Level 2*. 2020.
+- Type: proactive release / Cabinet paper and minute.
+- Role in SUF: late-transition operating-guidance, public-service readiness, and Comparator-B preparation anchor for the New Zealand route.
+- Primary link: https://www.dpmc.govt.nz/sites/default/files/2023-01/Paper-and-Minute-Preparing-for-Alert-Level-2.pdf
+- Archive link: https://web.archive.org/web/20231001181831/https://www.dpmc.govt.nz/sites/default/files/2023-01/Paper-and-Minute-Preparing-for-Alert-Level-2.pdf
+- Accessed: `2026-04-02`.
+- Use limit: supports Level 2 preparation, guidance readiness, and public-service phasing detail; does not by itself describe the whole transition window.
+
 ### src-dpmc-alert-level-implementation-2020
 
 - Citation: Department of the Prime Minister and Cabinet. *Alert Level Framework: Details and Implementation*. 2020.
@@ -509,6 +519,26 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 - Archive link: https://web.archive.org/web/20260315070017/https://www.police.govt.nz/news/release/police-position-covid-19-checkpoints
 - Accessed: `2026-04-02`.
 - Use limit: supports checkpoint coordination and local-authority/CDEM/iwi linkage; does not substitute for national architecture sources.
+
+### src-police-level-3-following-rules-2020
+
+- Citation: New Zealand Police. "Public urged to continuing following the rules at Alert Level 3." 2020.
+- Type: police release.
+- Role in SUF: direct Level 3 compliance-continuity and public-guidance anchor during the immediate post-lockdown easing interval.
+- Primary link: https://www.police.govt.nz/news/release/public-urged-continuing-following-rules-alert-level-3
+- Archive link: https://web.archive.org/web/20260203205234/https://www.police.govt.nz/news/release/public-urged-continuing-following-rules-alert-level-3
+- Accessed: `2026-04-02`.
+- Use limit: supports direct Level 3 compliance-continuity and public-guidance timing; does not by itself characterize the whole late-transition chain.
+
+### src-police-covid-major-events-2020
+
+- Citation: New Zealand Police. *COVID-19 (novel coronavirus).* Current official major-events page.
+- Type: police major-events page.
+- Role in SUF: exact-date official continuity and implementation-communication chronology for late Level 3 and early Level 2 policing surfaces.
+- Primary link: https://www.police.govt.nz/major-events/covid-19-novel-coronavirus
+- Archive link: https://web.archive.org/web/20260116180109/https://www.police.govt.nz/major-events/covid-19-novel-coronavirus
+- Accessed: `2026-04-02`.
+- Use limit: supports exact-date police continuity chronology and public-guidance timing; does not replace fuller implementation-side or architecture sources.
 
 ### src-beehive-major-steps-covid-2020
 
@@ -729,6 +759,66 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 - Archive link: https://web.archive.org/web/20260402200456/https://www.cdc.gov.tw/En/Bulletin/Detail/iesKecLcTdK1gqZr3xgRpg?typeid=158
 - Accessed: `2026-04-02`.
 - Use limit: supports continuity of border-restriction logic into late April; does not by itself justify a full Taiwan de-escalation window.
+
+### src-taiwan-all-travelers-home-quarantine-2020
+
+- Citation: Taiwan Centers for Disease Control. *Travelers entering Taiwan all required to undergo home quarantine for 14 days starting February 10; travelers from China, Hong Kong and Macau still prohibited from transiting through Taiwan*. 2020.
+- Type: government press release.
+- Role in SUF: early Taiwan universal home-quarantine and transit-restriction anchor.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/pevkg6JalT40I4uB6wAWcg?typeid=158
+- Archive link: https://web.archive.org/web/20260106163120/https://www.cdc.gov.tw/En/Bulletin/Detail/pevkg6JalT40I4uB6wAWcg?typeid=158
+- Accessed: `2026-04-02`.
+- Use limit: supports the early quarantine-control shift and later lag pairing with support and follow-up material; does not by itself show the full comparator architecture.
+
+### src-taiwan-home-quarantine-health-agency-routing-2020
+
+- Citation: Taiwan Centers for Disease Control. *CECC confirms 15 more COVID-19 cases, including 14 imported cases*. 2020.
+- Type: government press release.
+- Role in SUF: Taiwan implementation-observed quarantine reporting and health-agency routing anchor.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/oFTGw4t5mVt9-qn_QQgx1A?typeid=158
+- Archive link: https://web.archive.org/web/20260106162507/https://www.cdc.gov.tw/En/Bulletin/Detail/oFTGw4t5mVt9-qn_QQgx1A?typeid=158
+- Accessed: `2026-04-02`.
+- Use limit: supports observed health-agency notification, home-isolation routing, and medical-care arrangement during quarantine; does not justify a full Taiwan route by itself.
+
+### src-taiwan-home-quarantine-domestic-travel-ban-2020
+
+- Citation: Taiwan Centers for Disease Control. *Starting April 1, people subjected to home quarantine prohibited from traveling by domestic flight or ferry; ban on passenger transits through Taiwan extended until April 30*. 2020.
+- Type: government press release.
+- Role in SUF: Taiwan offshore-island travel restriction and acute continuity anchor for quarantine and transit control.
+- Primary link: https://www.cdc.gov.tw/En/Category/ListContent/tov1jahKUv8RGSbvmzLwFg?uaid=wX8RXYe3lmYRgHFCGpKbgg
+- Archive link: https://web.archive.org/web/20250326153506/https://www.cdc.gov.tw/En/Category/ListContent/tov1jahKUv8RGSbvmzLwFg?uaid=wX8RXYe3lmYRgHFCGpKbgg
+- Accessed: `2026-04-02`.
+- Use limit: supports quarantine travel restriction and continued transit-control timing; does not by itself establish a full local-administrative map.
+
+### src-taiwan-symptomatic-travelers-designated-location-2020
+
+- Citation: Taiwan Centers for Disease Control. *Starting April 3, inbound travelers who develop symptoms at airport/port to be transported by epidemic prevention taxis to designated locations for COVID-19 testing and medical evaluation*. 2020.
+- Type: government press release.
+- Role in SUF: point-of-entry screening, designated transport, and testing-logistics anchor for the Taiwan comparator.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/6emsMaYdnl2HLYCy_8t9IQ?typeid=158
+- Archive link: https://web.archive.org/web/20260106162503/https://www.cdc.gov.tw/En/Bulletin/Detail/6emsMaYdnl2HLYCy_8t9IQ?typeid=158
+- Accessed: `2026-04-02`.
+- Use limit: supports point-of-entry screening and transport/logistics routing; does not by itself settle wider local-administrative scope.
+
+### src-taiwan-cumulative-penalties-home-quarantine-2020
+
+- Citation: Taiwan Centers for Disease Control. *CECC urges people in home quarantine/isolation to follow related regulations; violators are subject to cumulative penalties*. 2020.
+- Type: government press release.
+- Role in SUF: Taiwan quarantine-compliance, sanction, and escalation anchor.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/RKleWZ_8LCPansjz0Gya5w?typeid=158
+- Archive link: https://web.archive.org/web/20260106162507/https://www.cdc.gov.tw/En/Bulletin/Detail/RKleWZ_8LCPansjz0Gya5w?typeid=158
+- Accessed: `2026-04-02`.
+- Use limit: supports compliance, sanction, and forced-group-quarantine escalation language; does not alone supply a separate emergency-management layer.
+
+### src-taiwan-quarantine-hotels-europe-americas-2020
+
+- Citation: Taiwan Centers for Disease Control. *Inbound travelers from Europe and Americas should notify health officials before returning to Taiwan and stay at quarantine hotels if they live with persons with chronic disease, the elderly and children*. 2020.
+- Type: government press release.
+- Role in SUF: Taiwan pre-boarding notification and quarantine-hotel routing anchor for vulnerable-household cases.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/_usu_p9uy9pWaRNNj8cLnw?typeid=158
+- Archive link: https://web.archive.org/web/20260106162238/https://www.cdc.gov.tw/En/Bulletin/Detail/_usu_p9uy9pWaRNNj8cLnw?typeid=158
+- Accessed: `2026-04-02`.
+- Use limit: supports quarantine-hotel and pre-boarding notification routing; does not by itself map the whole Taiwan comparator.
 
 ### src-taiwan-airport-ihr
 

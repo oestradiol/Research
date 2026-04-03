@@ -14,10 +14,13 @@ It is designed to be:
 
 Current snapshot:
 
+- `v1.0.0` dated `2026-04-02`
 - 9 cluster gateways
 - 70 node notes
 - typed relation vocabulary
 - interconnected study routes
+
+This is the first bounded public release of the Knowledge package inside the umbrella repository. It is stable and navigable, but it is not the main academic claim of the repository.
 
 ## 2. How to use it
 
