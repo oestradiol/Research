@@ -30,7 +30,7 @@ Careful uses of subjectivity-like or higher-order agency language may appear as 
 
 ## 5. What remains open
 
-See `project-status.md`, `pending-inventory.md`, `contribution-and-payoff-note.md`, `../framework/research-program.md`, and `../framework/iaf-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper estimator pressure, and later deferred expansion beyond the active public core.
+See `project-status.md`, `pending-inventory.md`, `contribution-and-payoff-note.md`, `reviewer-objections-and-current-answers.md`, `evidence-status-matrix.md`, `../framework/research-program.md`, and `../framework/iaf-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper estimator pressure, and later deferred expansion beyond the active public core.
 
 ### 5.1 Strongest unresolved objections
 
@@ -55,7 +55,16 @@ These are known live limits, not unnoticed weaknesses:
 
 The New Zealand route is a demonstrated route and the public atlas is a targeted research map. Together they show how SUF can attach to bounded cases and plausible extension areas. They do not show that every mapped area already confirms the framework.
 
-## 8. AI-language and credibility boundary
+## 8. Audit cross-links
+
+For reviewer-facing objection routing and claim-status routing, use:
+
+- `reviewer-objections-and-current-answers.md`
+- `evidence-status-matrix.md`
+
+These do not replace the boundary file; they index and consolidate the current pressure points.
+
+## 9. AI-language and credibility boundary
 
 Public criticism should not rely on detector rhetoric or vibe-based dismissal.
 
@@ -63,6 +72,6 @@ Public criticism should not rely on detector rhetoric or vibe-based dismissal.
 - stronger criticism asks whether the argument is explicit, whether the sources are real, and whether the prose inflates beyond its evidence
 - detector outputs should not be treated as dependable adjudicators in high-stakes judgment
 
-## 9. Public wording policy summary
+## 10. Public wording policy summary
 
 Prefer framework, research program, unity-like organization, demonstrated route, research-ready route, exploratory map node, comparative candidate, and frontier node where status matters. Avoid application inflation, silent ontological hardening, universalizing language, and generic polish that hides argumentative burden.

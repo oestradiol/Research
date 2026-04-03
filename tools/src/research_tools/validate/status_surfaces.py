@@ -59,78 +59,42 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
     v1_bundle = paths.suf_root / "docs" / "v1-academic-bundle.md"
     framework_overview = paths.suf_root / "docs" / "framework-overview.md"
     how_to_read = paths.suf_root / "docs" / "how-to-read-the-framework.md"
+    index_doc = paths.suf_root / "docs" / "INDEX.md"
+    reviewer_doc = paths.suf_root / "docs" / "reviewer-objections-and-current-answers.md"
+    evidence_doc = paths.suf_root / "docs" / "evidence-status-matrix.md"
     interface_doc = paths.suf_root / "framework" / "framework-interface.md"
     publication_scope = paths.suf_root / "meta" / "publication-scope.md"
     roadmap = paths.suf_root / "ROADMAP.md"
     research_program = paths.suf_root / "framework" / "research-program.md"
 
     checks = [
-        (
-            "status-root-readme-main-state",
-            root_readme,
-            f"Current `main` state: aligned with the hosted `{hosted_version}` New Zealand monograph-baseline release.",
-            "Umbrella README keeps the current release-point alignment explicit.",
-        ),
-        (
-            "status-suf-readme-metrics",
-            suf_readme,
-            f"a `{nz_summary.event_count}`-event New Zealand public ledger with a `{nz_summary.main_interval_count}`-event main interval",
-            "SUF README exposes the current New Zealand baseline metrics.",
-        ),
-        (
-            "status-suf-readme-taiwan",
-            suf_readme,
-            f"a `{taiwan_summary.event_count}`-event bounded Taiwan comparator with one conservative lag pair",
-            "SUF README exposes the current Taiwan comparator baseline.",
-        ),
-        (
-            "status-v1-bundle-metrics",
-            v1_bundle,
-            f"The main empirical anchor is a New Zealand pandemic-coordination route with a `{nz_summary.event_count}`-event public ledger, a `{nz_summary.main_interval_count}`-event main perturbation interval",
-            "v1 academic bundle current New Zealand baseline matches the ledger.",
-        ),
-        (
-            "status-v1-bundle-taiwan",
-            v1_bundle,
-            f"A bounded Taiwan comparator now adds a `{taiwan_summary.event_count}`-event archive-clean tranche under the same source-admission rule.",
-            "v1 academic bundle current Taiwan baseline matches the comparator ledger.",
-        ),
-        (
-            "status-interface-bridge-control",
-            interface_doc,
-            "Framework Interface is the **bridge/control** layer of Structured Unity Framework.",
-            "Framework Interface explicitly uses bridge/control wording.",
-        ),
-        (
-            "status-overview-layer-framing",
-            framework_overview,
-            "three substantive layers plus one bridge/control layer",
-            "Framework overview reflects the updated layer framing.",
-        ),
-        (
-            "status-how-to-read-sp-link",
-            how_to_read,
-            "framework/structural-phenomenology-downstream-role.md",
-            "Reading path includes the Structural Phenomenology downstream-role note.",
-        ),
-        (
-            "status-how-to-read-bounded-gain-link",
-            how_to_read,
-            "bounded-gain-against-simpler-readings.md",
-            "Reading path includes the bounded-gain note.",
-        ),
-        (
-            "status-research-program-open-work",
-            research_program,
-            "- deeper comparative execution beyond the current bounded Taiwan comparator",
-            "Research program open-work section reflects the current Taiwan comparator posture.",
-        ),
+        ("status-root-readme-main-state", root_readme, f"Current `main` state: aligned with the hosted `{hosted_version}` New Zealand monograph-baseline release.", "Umbrella README keeps the current release-point alignment explicit."),
+        ("status-suf-readme-metrics", suf_readme, f"a `{nz_summary.event_count}`-event New Zealand public ledger with a `{nz_summary.main_interval_count}`-event main interval", "SUF README exposes the current New Zealand baseline metrics."),
+        ("status-suf-readme-taiwan", suf_readme, f"a `{taiwan_summary.event_count}`-event bounded Taiwan comparator with one conservative lag pair", "SUF README exposes the current Taiwan comparator baseline."),
+        ("status-v1-bundle-metrics", v1_bundle, f"The main empirical anchor is a New Zealand pandemic-coordination route with a `{nz_summary.event_count}`-event public ledger, a `{nz_summary.main_interval_count}`-event main perturbation interval", "v1 academic bundle current New Zealand baseline matches the ledger."),
+        ("status-v1-bundle-taiwan", v1_bundle, f"A bounded Taiwan comparator now adds a `{taiwan_summary.event_count}`-event archive-clean tranche under the same source-admission rule.", "v1 academic bundle current Taiwan baseline matches the comparator ledger."),
+        ("status-interface-bridge-control", interface_doc, "Framework Interface is the **bridge/control** layer of Structured Unity Framework.", "Framework Interface explicitly uses bridge/control wording."),
+        ("status-overview-layer-framing", framework_overview, "three substantive layers plus one bridge/control layer", "Framework overview reflects the updated layer framing."),
+        ("status-how-to-read-sp-link", how_to_read, "framework/structural-phenomenology-downstream-role.md", "Reading path includes the Structural Phenomenology downstream-role note."),
+        ("status-how-to-read-bounded-gain-link", how_to_read, "bounded-gain-against-simpler-readings.md", "Reading path includes the bounded-gain note."),
+        ("status-index-reviewer-doc", index_doc, "reviewer-objections-and-current-answers.md", "Index includes the reviewer-objections doc."),
+        ("status-index-evidence-doc", index_doc, "evidence-status-matrix.md", "Index includes the evidence-status matrix."),
+        ("status-project-status-reviewer-doc", project_status, "reviewer-objections-and-current-answers.md", "Project status links the reviewer-objections doc."),
+        ("status-project-status-evidence-doc", project_status, "evidence-status-matrix.md", "Project status links the evidence-status matrix."),
+        ("status-v1-reviewer-doc", v1_bundle, "reviewer-objections-and-current-answers.md", "v1 bundle links the reviewer-objections doc."),
+        ("status-v1-evidence-doc", v1_bundle, "evidence-status-matrix.md", "v1 bundle links the evidence-status matrix."),
+        ("status-reviewer-purpose", reviewer_doc, "This file collects the strongest foreseeable academic objections", "Reviewer-objections doc has its intended purpose text."),
+        ("status-evidence-purpose", evidence_doc, "This file maps the major current public claims", "Evidence-status matrix has its intended purpose text."),
+        ("status-research-program-open-work", research_program, "- deeper comparative execution beyond the current bounded Taiwan comparator", "Research program open-work section reflects the current Taiwan comparator posture."),
+        ("status-publication-scope-layer-framing", publication_scope, "three substantive framework layers plus one bridge/control layer", "Publication scope reflects the updated layer framing."),
     ]
 
     forbidden_checks = [
         ("status-readme-no-four-coordinated", suf_readme, "four coordinated theory layers", "SUF README no longer presents four coordinated theory layers."),
         ("status-overview-no-four-theory-layers", framework_overview, "The four theory layers", "Framework overview no longer presents four peer theory layers."),
         ("status-v1-no-four-coordinated", v1_bundle, "four coordinated theory layers", "v1 academic bundle no longer presents four coordinated theory layers."),
+        ("status-publication-scope-no-four-layer", publication_scope, "the four-layer framework", "Publication scope no longer presents the four-layer framework wording."),
+        ("status-project-status-no-four-layer", project_status, "the four-layer framework structure", "Project status no longer presents the four-layer framework wording."),
     ]
 
     results: list[ValidationResult] = []

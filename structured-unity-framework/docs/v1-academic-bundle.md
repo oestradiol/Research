@@ -57,6 +57,8 @@ Do not read it as:
 - IAF downstream value and technical modesty: `framework/iaf-downstream-role.md`
 - methods burden, null logic, and route design: `framework/research-program.md`
 - bounded empirical gain against simpler readings: `applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/bounded-gain-against-simpler-readings.md`
+- reviewer-facing objection index: `docs/reviewer-objections-and-current-answers.md`
+- claim/evidence mapping: `docs/evidence-status-matrix.md`
 - current locked versus provisional state: `docs/project-status.md`
 
 ## Status

@@ -28,7 +28,7 @@ This directory is the current **publication-ready bounded public release** of th
 
 **Current `main` state:** aligned with the hosted `v1.1.0` New Zealand monograph-baseline release.
 
-**Stable now:** three substantive layers plus one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local estimator implementation; a `15`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IAF; and a tooling-ready read-only validation layer.
+**Stable now:** three substantive layers plus one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local estimator implementation; a `15`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IAF; a reviewer-facing objections surface; a claim-status matrix; and a tooling-ready read-only validation layer.
 
 ## 4. Reading path
 
@@ -39,3 +39,14 @@ This directory is the current **publication-ready bounded public release** of th
 5. `docs/claims-and-boundaries.md`
 6. `framework/framework-interface.md`
 7. then the remaining `framework/` files in the order listed in `docs/how-to-read-the-framework.md`
+
+## 5. Reviewer-facing audit path
+
+For a stricter audit-oriented read, use:
+
+- `docs/v1-academic-bundle.md`
+- `docs/claims-and-boundaries.md`
+- `docs/reviewer-objections-and-current-answers.md`
+- `docs/evidence-status-matrix.md`
+- `framework/framework-interface.md`
+- `framework/research-program.md`

@@ -4,11 +4,11 @@ This file explains what the current public package does and does not imply.
 
 ## 1. Current public scope
 
-Structured Unity Framework is presented here as the public `v1` line: layered theory, research-ready methods, a demonstrated route, a bounded comparator, a targeted applications atlas, tiered references, explicit meta policies, and a read-only validation layer. Hosted `v1.1.0` is the dated public snapshot; current `main` is aligned with that same monograph-baseline New Zealand state inside the `v1` line.
+Structured Unity Framework is presented here as the public `v1` line: three substantive framework layers plus one bridge/control layer, research-ready methods, a demonstrated route, a bounded comparator, a targeted applications atlas, tiered references, explicit meta policies, and a read-only validation layer. Hosted `v1.1.0` is the dated public snapshot; current `main` is aligned with that same monograph-baseline New Zealand state inside the `v1` line.
 
 ## 2. What is active now
 
-- the four-layer framework
+- the three substantive layers plus bridge/control layer
 - the Research Program as a research-ready provisional design
 - the New Zealand demonstrated route with a `38`-event public ledger, a `29`-event main interval, a chapter-ready monograph baseline, first bounded readouts, and a `14`-check robustness note
 - the bounded Taiwan comparator with a `15`-event ledger and one conservative lag pair
@@ -29,9 +29,9 @@ The package is active, but not empirically closed. Later monograph-scale corpus 
 
 ## 5. Reviewer-expectation note
 
-External readers may reasonably ask for fuller estimator, dataset, event-ledger, or coding-protocol detail.
+External readers may reasonably ask for fuller estimator, dataset, event-ledger, coding-protocol, or evidence-status detail.
 
-That material is expected to land in later versions, route supplements, or more mature empirical packages. Its absence here does **not** contradict the current bounded `v1` line; it marks expected research-program maturation.
+The current package now makes objections and evidence status easier to inspect, but estimator, dataset, and coding detail still remain bounded and route-local rather than fully monograph-complete. Their current absence as fully mature supplements does **not** contradict the bounded `v1` line; it marks expected research-program maturation.
 
 ## 6. What this package does not imply
 
@@ -39,6 +39,7 @@ That material is expected to land in later versions, route supplements, or more 
 - that one demonstrated route proves the framework universally
 - that operational summaries are identical with phenomenological givenness
 - that hosted publication mechanics settle the empirical burden
+- that the current package already yields objectively settled cross-domain measurement or strong predictive closure
 
 ## 7. Versioning stance
 

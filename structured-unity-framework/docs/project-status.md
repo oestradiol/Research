@@ -32,6 +32,7 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 - locked payoff sentence pressure-tested and retained
 - public IAF downstream-role clarification synchronized with the denser NZ/Taiwan evidence
 - tooling-ready read-only validation and reporting extended across route, comparison, and release-hygiene surfaces
+- reviewer-objections and evidence-status audit surfaces added for clearer academic scrutiny
 
 **Explicitly deferred**
 
@@ -69,12 +70,13 @@ That claim is now supported by:
 ## 6. What is currently stable
 
 - the public architecture: docs, framework, applications atlas, meta layer, references, diagrams, and tooling
-- the four-layer framework structure and boundary discipline
+- the three substantive layers plus bridge/control layer and boundary discipline
 - the applications split between demonstrated routes and research-map nodes
 - the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event public ledger, monograph-baseline chapter notes, first-pass metric companions, route-local estimator implementation, and `14`-check sensitivity/null note
 - the current direct DPMC and Police implementation-chain source layer admitted only with live plus fixed-archive support
 - the Taiwan comparator design, extended official corpus inventory, `15`-event bounded ledger, one conservative lag pair, and the bounded NZ-Taiwan comparison note
 - the read-only tooling layer for route, comparison, version, link, archive, knowledge, and release-hygiene validation
+- the reviewer-objections and evidence-status audit layer for public academic scrutiny
 
 ## 7. What remains open but non-blocking
 
@@ -103,6 +105,8 @@ The public atlas is active and intentionally targeted. It maps plausible next do
 - contribution candidates: `docs/contribution-and-payoff-note.md`
 - methods: `framework/research-program.md`
 - IAF clarification: `framework/iaf-downstream-role.md`
+- audit objections: `docs/reviewer-objections-and-current-answers.md`
+- evidence status: `docs/evidence-status-matrix.md`
 - applications: `applications/README.md`
 - long-range program: `docs/monograph-and-closure-program.md`
 - future direction: `ROADMAP.md`
