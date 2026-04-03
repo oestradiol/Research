@@ -50,6 +50,10 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
     nz_summary = compute_route_summary("nz", nz_events)
     taiwan_summary = compute_route_summary("taiwan", taiwan_events)
     hosted_version = f"v{_extract_version(paths.research_root / 'CITATION.cff')}"
+    locked_payoff_sentence = (
+        "SUF shows that the New Zealand response should not be read only as centralized executive command, "
+        "because public-information coordination is structurally central to the working coordination architecture."
+    )
 
     root_readme = paths.research_root / "README.md"
     suf_readme = paths.suf_root / "README.md"
@@ -66,9 +70,19 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
     publication_scope = paths.suf_root / "meta" / "publication-scope.md"
     roadmap = paths.suf_root / "ROADMAP.md"
     research_program = paths.suf_root / "framework" / "research-program.md"
+    bounded_gain_note = (
+        paths.suf_root
+        / "applications"
+        / "demonstrated-routes"
+        / "states-and-societies"
+        / "institutional-coordination-under-perturbation"
+        / "bounded-gain-against-simpler-readings.md"
+    )
 
     checks = [
         ("status-root-readme-main-state", root_readme, f"Current `main` state: aligned with the hosted `{hosted_version}` New Zealand monograph-baseline release.", "Umbrella README keeps the current release-point alignment explicit."),
+        ("status-suf-readme-bounded-release", suf_readme, "publication-ready bounded public release", "SUF README keeps the bounded public release wording explicit."),
+        ("status-suf-readme-no-proof-whole-stack", suf_readme, "treat the New Zealand route as proof of the whole stack", "SUF README explicitly blocks treating the New Zealand route as proof of the whole stack."),
         ("status-suf-readme-metrics", suf_readme, f"a `{nz_summary.event_count}`-event New Zealand public ledger with a `{nz_summary.main_interval_count}`-event main interval", "SUF README exposes the current New Zealand baseline metrics."),
         ("status-suf-readme-taiwan", suf_readme, f"a `{taiwan_summary.event_count}`-event bounded Taiwan comparator with one conservative lag pair", "SUF README exposes the current Taiwan comparator baseline."),
         ("status-v1-bundle-metrics", v1_bundle, f"The main empirical anchor is a New Zealand pandemic-coordination route with a `{nz_summary.event_count}`-event public ledger, a `{nz_summary.main_interval_count}`-event main perturbation interval", "v1 academic bundle current New Zealand baseline matches the ledger."),
@@ -86,6 +100,16 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-reviewer-purpose", reviewer_doc, "This file collects the strongest foreseeable academic objections", "Reviewer-objections doc has its intended purpose text."),
         ("status-evidence-purpose", evidence_doc, "This file maps the major current public claims", "Evidence-status matrix has its intended purpose text."),
         ("status-reviewer-doc-evidence-mapping", reviewer_doc, "stronger evidence-to-claim mapping", "Reviewer-objections doc keeps the remaining evidence-to-claim mapping burden explicit."),
+        ("status-publication-scope-no-universal-proof", publication_scope, "that one demonstrated route proves the framework universally", "Publication scope explicitly blocks one-route universal proof language."),
+        ("status-publication-scope-no-closure", publication_scope, "that the current package already yields objectively settled cross-domain measurement or strong predictive closure", "Publication scope explicitly blocks settled measurement and predictive closure claims."),
+        ("status-contribution-note-locked-payoff", contribution_note, locked_payoff_sentence, "Contribution note keeps the locked public payoff sentence explicit."),
+        ("status-project-status-locked-payoff", project_status, locked_payoff_sentence, "Project status matches the locked public payoff sentence."),
+        ("status-bounded-gain-locked-payoff", bounded_gain_note, locked_payoff_sentence, "Bounded-gain note matches the locked public payoff sentence."),
+        ("status-evidence-payoff-row", evidence_doc, locked_payoff_sentence, "Evidence-status matrix includes the locked payoff claim."),
+        ("status-evidence-payoff-modeled-locked", evidence_doc, "modeled / provisional but publicly locked", "Evidence-status matrix marks the locked payoff sentence as modeled / provisional but publicly locked."),
+        ("status-evidence-no-predictive-closure", evidence_doc, "| The current package demonstrates high-fit predictive closure. | not established |", "Evidence-status matrix keeps predictive closure as not established."),
+        ("status-evidence-no-cross-domain-measurement", evidence_doc, "| The current package has objectively settled cross-domain measurement for `I`, `C`, `L`, and `U`. | not established |", "Evidence-status matrix keeps settled cross-domain measurement as not established."),
+        ("status-evidence-no-strong-consciousness", evidence_doc, "| The current package justifies strong consciousness attribution to states or institutions. | not established |", "Evidence-status matrix keeps strong institutional consciousness attribution as not established."),
         ("status-research-program-open-work", research_program, "- deeper comparative execution beyond the current bounded Taiwan comparator", "Research program open-work section reflects the current Taiwan comparator posture."),
         ("status-publication-scope-layer-framing", publication_scope, "three substantive framework layers plus one bridge/control layer", "Publication scope reflects the updated layer framing."),
     ]
@@ -97,6 +121,10 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-publication-scope-no-four-layer", publication_scope, "the four-layer framework", "Publication scope no longer presents the four-layer framework wording."),
         ("status-project-status-no-four-layer", project_status, "the four-layer framework structure", "Project status no longer presents the four-layer framework wording."),
         ("status-reviewer-doc-no-indexing-missing", reviewer_doc, "stronger completeness in reviewer-facing indexing", "Reviewer-objections doc no longer describes reviewer-facing indexing as missing or incomplete."),
+        ("status-readme-no-nz-proves-stack", suf_readme, "proves the whole stack", "SUF README does not imply that the New Zealand route proves the whole stack."),
+        ("status-project-status-no-high-fit-closure", project_status, "high-fit predictive closure", "Project status does not imply high-fit predictive closure."),
+        ("status-readme-no-human-like-consciousness", suf_readme, "human-like consciousness", "SUF README does not imply human-like consciousness attribution."),
+        ("status-project-status-no-human-like-consciousness", project_status, "human-like consciousness", "Project status does not imply human-like consciousness attribution."),
     ]
 
     results: list[ValidationResult] = []
