@@ -14,7 +14,7 @@ Structured Unity Framework is presented here as the public `v1` line: three subs
 - the bounded Taiwan comparator with a `15`-event ledger and one conservative lag pair
 - the targeted applications atlas under `applications/research-map/`
 - standard and extended reading lists for the active package
-- the locked payoff sentence, the v1 academic bundle note, and the tooling-ready read-only validation layer
+- the locked payoff sentence, the v1 academic bundle note, the live execution-order surface, and the tooling-ready read-only validation layer
 
 ## 3. What is now complete for hosted publication
 
@@ -25,7 +25,7 @@ Structured Unity Framework is presented here as the public `v1` line: three subs
 
 ## 4. What remains open inside the active `v1` line
 
-The package is active, but not empirically closed. Later monograph-scale corpus deepening, later Taiwan de-escalation work, later comparator branches, and later analysis-ready or research-ops tooling layers still remain open.
+The package is active, but not empirically closed. Later monograph-scale corpus deepening, later Taiwan de-escalation work, later comparator branches, and later analysis-ready or research-ops tooling layers still remain open. For the shortest live sequencing surface inside that longer phase ladder, use `docs/current-execution-order.md`.
 
 ## 5. Reviewer-expectation note
 
