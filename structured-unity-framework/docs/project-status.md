@@ -1,12 +1,13 @@
 # Project Status
 
-This file is the current-state summary for the public package on `main`. Use `monograph-and-closure-program.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred or optional later work.
+This file is the current-state summary for the public package on `main`. Use `current-execution-order.md` for the shortest live sequencing surface, `monograph-and-closure-program.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred or optional later work.
 
 ## 1. Status-surface rule
 
 Use the public status files by role:
 
 - this file = current package posture on `main`
+- `current-execution-order.md` = shortest live execution order for the active `v1.x` pass
 - `monograph-and-closure-program.md` = canonical long-range program
 - `../ROADMAP.md` = compressed future-facing direction
 - `pending-inventory.md` = deferred or optional later work
@@ -45,10 +46,11 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 
 This file is the canonical current-state surface for SUF on `main`.
 
-Future execution should keep three things explicit:
+Future execution should keep four things explicit:
 
 - hosted `v1.1.0` = the current dated public tag surface
 - current `main` = aligned with the hosted `v1.1.0` release point
+- `current-execution-order.md` = the shortest live sequencing surface for the active pass
 - later `1.x` work = deferred expansion and deliberate reopening, not unfinished launch mechanics
 
 Future execution must not silently collapse the current release point and later reopening into one label.
@@ -108,6 +110,7 @@ The public atlas is active and intentionally targeted. It maps plausible next do
 - audit objections: `docs/reviewer-objections-and-current-answers.md`
 - evidence status: `docs/evidence-status-matrix.md`
 - applications: `applications/README.md`
+- live sequencing: `docs/current-execution-order.md`
 - long-range program: `docs/monograph-and-closure-program.md`
 - future direction: `ROADMAP.md`
 - deferred and optional later work: `docs/pending-inventory.md`
