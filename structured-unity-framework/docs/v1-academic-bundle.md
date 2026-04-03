@@ -60,6 +60,7 @@ Do not read it as:
 - reviewer-facing objection index: `docs/reviewer-objections-and-current-answers.md`
 - claim/evidence mapping: `docs/evidence-status-matrix.md`
 - current locked versus provisional state: `docs/project-status.md`
+- shortest live sequencing surface: `docs/current-execution-order.md`
 
 ## Status
 

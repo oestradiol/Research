@@ -49,7 +49,11 @@ Readers who want a clear path through the package without overload: newcomers, t
 5. one or two node files of interest
 6. return to `docs/claims-and-boundaries.md`, `framework/framework-interface.md`, and `framework/research-program.md`
 
-## 3. What not to assume too early
+## 3. Live sequencing note
+
+If the question is not how to read the package but what the next active workstream is, use `docs/current-execution-order.md` together with `docs/project-status.md` and `ROADMAP.md`.
+
+## 4. What not to assume too early
 
 - that one demonstrated route equals the whole framework
 - that `unity-like` implies strong consciousness claims
@@ -57,7 +61,7 @@ Readers who want a clear path through the package without overload: newcomers, t
 - that IAF is already a finished technical layer rather than a bounded modeling vocabulary
 - that UDF already has objectively settled measurements or high-fit predictive closure
 
-## 4. How the layers relate
+## 5. How the layers relate
 
 - **Structural Phenomenology:** epistemic ground
 - **Informational Awareness Framework:** modeling vocabulary and bridge layer for distinction, reporting, feedback, and recursive adjustment
