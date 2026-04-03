@@ -30,8 +30,8 @@ These are comparison supports, not final scores.
 | Window | Events | `sigma3` events | PI-marked events | Mean breadth | Active units | SEC issue share | Weighted cross-cluster share | Current lag signal |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
 | Comparator A | `2` | `1` | `1` | `3.5` | `5 / 7` | `1 / 2` | `5 / 7 = 0.71` | `not yet cleanly pairable` |
-| Main perturbation interval | `27` | `25` | `16` | `3.6` | `7 / 7` | `17 / 27` | `72 / 97 = 0.74` | `2-day` and `8-day` staged pairs |
-| Comparator B | `6` | `6` | `5` | `3.8` | `6 / 7` | `4 / 6` | `18 / 23 = 0.78` | `1-day`, `2-day`, and `3-day` staged pairs |
+| Main perturbation interval | `29` | `27` | `16` | `3.7` | `7 / 7` | `19 / 29` | `80 / 107 = 0.75` | `2-day` and `8-day` staged pairs |
+| Comparator B | `7` | `7` | `5` | `4.0` | `6 / 7` | `5 / 7` | `22 / 28 = 0.79` | `1-day`, `2-day`, and `3-day` staged pairs |
 
 ## First conjoint read
 
@@ -51,11 +51,11 @@ That makes Comparator A useful as a boundary marker, not yet as a rich coordinat
 The main interval is the clearest high-density coordination window in the current route:
 
 - all `7 / 7` units are active
-- `strategic executive coordination` issues `17 / 27` seeded events
-- weighted cross-cluster routing stays high at `0.74`
+- `strategic executive coordination` issues `19 / 29` seeded events
+- weighted cross-cluster routing stays high at `0.75`
 - public-information coordination remains active through both acute escalation and controlled easing
 - the route now shows both a `2-day` acute escalation stage and repeated `8-day` easing-preparation stages
-- the route now also carries a more explicit implementation-side layer through stranded-people planning, managed-isolation welfare coordination, emergency-powers guidance, review preparation, formal Level 2 preparation, police guidance, extended-Level-4 enforcement continuity, late-Level-3 continuity reminders, patrol/checkpoint activity, and Cabinet implementation material
+- the route now also carries a more explicit implementation-side layer through stranded-people planning, managed-isolation welfare coordination, emergency-powers guidance, Level 3 authority routing, Level 3 review preparation, formal Level 2 preparation, police guidance, extended-Level-4 enforcement continuity, late-Level-3 continuity reminders, patrol/checkpoint activity, and Cabinet implementation material
 
 This is the strongest current evidence that the route is picking up a real coordination architecture rather than merely a pile of crisis headlines.
 
@@ -63,11 +63,12 @@ This is the strongest current evidence that the route is picking up a real coord
 
 Comparator B is lower-acuity than the main interval, but it is not thin in the same way as Comparator A:
 
-- `6` coded events are already visible
+- `7` coded events are already visible
 - `6 / 7` units remain active even though border-control coordination drops out
-- `strategic executive coordination` still issues `4 / 6` events
-- `5 / 6` events carry explicit public-information markers
+- `strategic executive coordination` still issues `5 / 7` events
+- `5 / 7` events carry explicit public-information markers
 - the window keeps non-zero staging lags through the transition-planning, legal-handoff, and Level 2 implementation sequence
+- the window now also carries the formal review of Alert Level 3 before the public decision announcement
 
 That makes Comparator B look narrower than the main interval, but still coherent and system-wide enough to matter analytically.
 
@@ -101,7 +102,7 @@ The next practical move is to:
 
 1. test whether the current main-interval and Comparator B differences survive the current denser coding under explicit estimator rules
 2. extend D-family `D` and `E` coverage further only where the live-plus-fixed-archive rule is satisfied
-3. keep the external comparison bounded until Taiwan moves beyond the current `12`-event starter tranche
+3. keep the external comparison bounded until a later tranche opens a fuller Taiwan de-escalation surface or a second comparator route
 
 ## Status
 

@@ -61,13 +61,16 @@ When one official source records a bundled same-day shift, this seed ledger keep
 | `nz-p-015` | `2020-04-20` | Level 3 implementation and compliance framework detailed |
 | `nz-p-018` | `2020-04-20` | Police confirm visible compliance, cross-agency support, and education-first enforcement during extended Level 4 |
 | `nz-p-023` | `2020-04-21` | local-authority and CDEM welfare-support criteria widened for COVID-19 response needs |
+| `nz-p-028` | `2020-04-22` | Level 3 powers and authorisations formalized in Cabinet material |
 | `nz-p-017` | `2020-04-23` | Police clarify position on community checkpoints with local-authority and CDEM linkage |
 | `nz-p-013` | `2020-04-28` | Alert Level 3 interval begins |
 | `nz-p-024` | `2020-04-28` | Police urge the public to keep following the rules at Alert Level 3 |
 | `nz-p-016` | `2020-04-29` | Aviation Security and Police continue joint reassurance patrols and quarantine/isolation compliance checks |
 | `nz-p-025` | `2020-05-01` | Police remind the public of Alert Level 3 restrictions |
+| `nz-p-029` | `2020-05-04` | review-preparation for New Zealand's Level 3 status formalized |
 | `nz-p-027` | `2020-05-06` | formal Level 2 preparation sets guidance, service-phasing, and public-message expectations ahead of the next review |
 | `nz-p-026` | `2020-05-08` | Police remind the public New Zealand remains in Alert Level 3 |
+| `nz-b-007` | `2020-05-11` | Review of Alert Level 3 completed in Cabinet material ahead of the Level 2 shift |
 | `nz-b-004` | `2020-05-11` | Level 2 transition decision publicly announced |
 | `nz-b-006` | `2020-05-12` | national transition period planning formalized in a joint DPMC/NEMA briefing |
 | `nz-b-005` | `2020-05-13` | legal framework for Alert Level 2 passes |
@@ -487,6 +490,23 @@ Why it matters:
 
 This event matters because it makes local checkpoint governance visible as a coordination object in its own right. It is not just rule enforcement; it is a multi-party coordination problem involving Police, local authorities, emergency-management actors, and community leadership.
 
+### `nz-p-028`
+
+- `timestamp_or_date`: `2020-04-22`
+- `issuing_unit`: `strategic executive coordination`
+- `receiving_units`: `public-health policy and command`; `public-service system coordination`; `border-control coordination`; `enforcement and compliance`; `public-information coordination`
+- `action_type`: powers and authorisations to give effect to Alert Level 3 are formalized in Cabinet material
+- `dependency_type`: `directive or authority dependency`; `legal or compliance dependency`; `information or reporting dependency`
+- `implementation_marker`: `implementation prepared`
+- `public_information_marker`: `none recorded`
+- `source_citation`: `src-dpmc-powers-authorisations-level3-2020`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event adds direct authority-routing detail to the late-Level-4 and early-Level-3 transition chain. It makes the move into Level 3 less dependent on announcement pages alone by exposing the formal powers surface behind the implementation handoff.
+
 ### `nz-p-013`
 
 - `timestamp_or_date`: `2020-04-28`
@@ -538,6 +558,23 @@ Why it matters:
 
 This event thickens the late main interval by showing that the Level 3 phase still required visible compliance guidance after the initial easing move. It improves the route's continuity on the implementation side without changing the basic window boundaries.
 
+### `nz-p-029`
+
+- `timestamp_or_date`: `2020-05-04`
+- `issuing_unit`: `strategic executive coordination`
+- `receiving_units`: `public-health policy and command`; `emergency-management coordination`; `public-service system coordination`; `enforcement and compliance`; `public-information coordination`
+- `action_type`: preparation to review New Zealand's Level 3 status is formalized in Cabinet material
+- `dependency_type`: `directive or authority dependency`; `information or reporting dependency`
+- `implementation_marker`: `implementation prepared`
+- `public_information_marker`: `none recorded`
+- `source_citation`: `src-dpmc-preparing-review-level3-status-2020`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event makes the late main interval less discontinuous by showing that the Level 3 to Level 2 decision was preceded by a formal review-preparation layer, not just by public speeches and enforcement reminders.
+
 ### `nz-p-027`
 
 - `timestamp_or_date`: `2020-05-06`
@@ -573,6 +610,23 @@ Why it matters:
 This event thickens Comparator B preparation without forcing a new window. It shows enforcement-side guidance still operating immediately before the Level 2 decision point, which helps distinguish late-transition continuity from the earlier acute escalation chain.
 
 ## Comparator B boundary markers
+
+### `nz-b-007`
+
+- `timestamp_or_date`: `2020-05-11`
+- `issuing_unit`: `strategic executive coordination`
+- `receiving_units`: `public-health policy and command`; `emergency-management coordination`; `public-service system coordination`; `enforcement and compliance`; `public-information coordination`
+- `action_type`: review of Alert Level 3 is completed in Cabinet paper and minute ahead of the move to Level 2
+- `dependency_type`: `directive or authority dependency`; `legal or compliance dependency`; `information or reporting dependency`
+- `implementation_marker`: `decision reviewed`
+- `public_information_marker`: `none recorded`
+- `source_citation`: `src-dpmc-review-alert-level3-2020`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event thickens the Comparator B boundary by adding the formal review layer behind the Level 2 shift. It makes the transition less dependent on public announcement and legal-handoff pages alone.
 
 ### `nz-b-004`
 
@@ -682,7 +736,7 @@ Even at this first-pass level, the route now has:
 
 - clear cross-unit events
 - visible shifts in authority, public communication, and implementation pressure
-- direct event-page support for border, alert-level, transition-law, enforcement-guidance, extended-Level-4 enforcement continuity, stranded-people planning, managed-isolation welfare coordination, emergency-powers guidance, review preparation, and local-authority/CDEM support shifts
+- direct event-page support for border, alert-level, transition-law, enforcement-guidance, extended-Level-4 enforcement continuity, stranded-people planning, managed-isolation welfare coordination, emergency-powers guidance, Level 3 authority routing, Level 3 review preparation, and local-authority/CDEM support shifts
 - enough structure to begin testing simple `I`, `C`, and `L` summaries against real coded material
 - enough window depth to support a first conjoint `I/C/L` comparison without pretending the route is complete
 
@@ -697,7 +751,7 @@ What it does **not** yet demonstrate:
 
 The next concrete pass should:
 
-1. keep adding D-family `D` and `E` direct-source events only when they satisfy the live-plus-fixed-archive rule
+1. keep adding D-family `D` and `E` direct-source events only when they satisfy the live-plus-fixed-archive rule and materially deepen implementation or review routing
 2. keep the first route-local estimator layer fixed unless the denser ledger forces a rule change
 3. stress-test the first conjoint window comparison against deeper implementation, enforcement, and transition-continuity material
 

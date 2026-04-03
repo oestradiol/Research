@@ -12,12 +12,14 @@ PYPROJECT_VERSION_RE = re.compile(r'^version\s*=\s*"([^"]+)"\s*$', re.MULTILINE)
 INIT_VERSION_RE = re.compile(r'__version__\s*=\s*"([^"]+)"')
 CHANGELOG_VERSION_RE = re.compile(r"^## `([^`]+)` - ([0-9]{4}-[0-9]{2}-[0-9]{2})$", re.MULTILINE)
 ROOT_README_SNAPSHOT_RE = re.compile(
-    r"(?:\*\*Current snapshot:\*\*|Current snapshot:)\s+\*\*`([^`]+)`\*\*\s+dated\s+"
+    r"(?:\*\*(?:Hosted|Current) snapshot:\*\*|(?:Hosted|Current) snapshot:)"
+    r"\s+\*\*`([^`]+)`\*\*\s+dated\s+"
     r"\*\*`?([0-9-]+)`?\*\*\."
 )
 SUF_README_SNAPSHOT_RE = ROOT_README_SNAPSHOT_RE
 SUF_STATUS_RE = re.compile(
-    r"\*\*`([^`]+)`\*\* names the dated hosted snapshot in this tree \(\*\*([0-9-]+)\*\*\)\."
+    r"\*\*`([^`]+)`\*\*\s+(?:still\s+)?names the dated hosted snapshot in this tree "
+    r"\(\*\*([0-9-]+)\*\*\)\."
 )
 KNOWLEDGE_README_SNAPSHOT_RE = re.compile(r"- `([^`]+)` dated `([^`]+)`")
 TOOLS_README_SNAPSHOT_RE = re.compile(r"Current snapshot: `([^`]+)` dated `([^`]+)`\.")
@@ -77,6 +79,7 @@ def validate_versions(paths: RepoPaths) -> list[ValidationResult]:
     suf_status = paths.suf_root / "docs" / "project-status.md"
     knowledge_readme = paths.knowledge_root / "README.md"
     tools_readme = paths.tools_root / "README.md"
+    tools_changelog = paths.tools_root / "CHANGELOG.md"
     root_changelog = paths.research_root / "CHANGELOG.md"
     suf_changelog = paths.suf_root / "CHANGELOG.md"
     knowledge_changelog = paths.knowledge_root / "CHANGELOG.md"
@@ -266,6 +269,7 @@ def validate_versions(paths: RepoPaths) -> list[ValidationResult]:
         ("versions-umbrella-changelog", umbrella_version, umbrella_date, root_changelog),
         ("versions-suf-changelog", suf_version, suf_date, suf_changelog),
         ("versions-knowledge-changelog", knowledge_version, knowledge_date, knowledge_changelog),
+        ("versions-tools-changelog", tools_version, umbrella_date, tools_changelog),
     ):
         changelog_version, changelog_date = _extract_changelog(changelog_path)
         results.append(

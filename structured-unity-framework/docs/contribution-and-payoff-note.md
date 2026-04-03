@@ -4,7 +4,7 @@
 
 This file records the locked public payoff sentence alongside the supporting candidate formulations that still matter for interpretation pressure.
 
-The current evidence base is the `35`-event New Zealand route with a `27`-event main interval, first-pass `I`, `C`, `L`, conjoint window comparison, a `14`-check sensitivity/null note, and a `12`-event Taiwan starter comparator.
+The current evidence base is the `38`-event New Zealand route with a `29`-event main interval, first-pass `I`, `C`, `L`, conjoint window comparison, a `14`-check sensitivity/null note, and a `15`-event Taiwan bounded comparator.
 
 ## Candidate 1
 
@@ -25,10 +25,10 @@ It distinguishes between:
 
 ### What current evidence supports it
 
-- public-information coordination receives `30 / 35` coded events
+- public-information coordination receives `33 / 38` coded events
 - it remains active across escalation, implementation thickening, easing preparation, and de-escalation
 - the current bounded null framing that reduces it to downstream messaging is weak against the ledger
-- the current Taiwan starter comparator also keeps public-information coordination central rather than peripheral
+- the current Taiwan bounded comparator also keeps public-information coordination central rather than peripheral
 
 ### What would still need to be true before this becomes the single public payoff sentence
 
@@ -87,8 +87,8 @@ It distinguishes:
 
 ### What current evidence supports it
 
-- the route now includes direct DPMC and Police sources for stranded people, managed-isolation welfare, emergency-powers guidance, review preparation, local-authority/CDEM support, guidance clarification, checkpoints, patrol continuity, repeated Level 3 continuity reminders, and transition-period planning
-- the main interval rose from a thinner headline chain to a `27`-event implementation-rich window without collapsing the earlier readout
+- the route now includes direct DPMC and Police sources for stranded people, managed-isolation welfare, emergency-powers guidance, Level 3 authority routing, review preparation, local-authority/CDEM support, guidance clarification, checkpoints, patrol continuity, repeated Level 3 continuity reminders, and transition-period planning
+- the main interval rose from a thinner headline chain to a `29`-event implementation-rich window without collapsing the earlier readout
 - the route's strongest current empirical gain depends on this implementation-side visibility
 
 ### What would still need to be true before this becomes the single public payoff sentence
@@ -117,8 +117,8 @@ Current decision: lock Candidate 1 as the public payoff sentence.
 Reason:
 
 - Candidate 1 is still the strongest default lock target
-- the New Zealand side is now materially denser and carries an additional late-transition DPMC preparation anchor
-- the Taiwan branch is no longer purely minimal and still keeps public-information coordination central
+- the New Zealand side is now materially denser and carries a fuller late-transition DPMC authority-and-review layer
+- the Taiwan branch is no longer starter-thin and still keeps public-information coordination central
 - Candidate 2 and Candidate 3 remain useful supporting claims, but neither is now stronger than Candidate 1 as a public front-door sentence
 
 ## Status

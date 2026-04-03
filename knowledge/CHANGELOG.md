@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- no Knowledge package content changes recorded after the hosted `v1.0.0` snapshot
+- current `main` only updates sibling-package and umbrella-level status context around SUF and tooling
+
 ## `v1.0.0` - 2026-04-02
 
 First bounded public release of Knowledge inside the umbrella `Research/` repository.

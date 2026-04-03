@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- current `main` now carries the repo-complete active-core state beyond the hosted `v1.0.0` snapshot
+- Structured Unity Framework current-main surfaces now reflect the hardened `38`-event New Zealand route, the `29`-event main interval, and the `15`-event bounded Taiwan comparator
+- Research Tools now validate public status surfaces directly and handle the current denser NZ-Taiwan comparison outputs cleanly
+- hosted release metadata, citations, and the dated `v1.0.0` snapshot remain unchanged until a new tagged release is cut
+
 ## `v1.0.0` - 2026-04-02
 
 First bounded public release of the full `Research/` repository.

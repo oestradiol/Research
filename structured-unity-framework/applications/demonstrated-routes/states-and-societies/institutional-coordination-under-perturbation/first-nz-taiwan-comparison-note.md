@@ -4,74 +4,80 @@
 
 This file records the first bounded external comparison opened after the New Zealand route cleared the current execution gate.
 
-It is a starter comparison only. The Taiwan side is intentionally thinner and archive-clean rather than comprehensive.
+It remains a bounded comparison only. The Taiwan side is now materially denser than the original starter tranche, but it is still archive-clean and intentionally narrower than the New Zealand route.
 
 ## Comparator objects
 
-- New Zealand baseline: the current `35`-event route with a `27`-event main perturbation interval
-- Taiwan starter tranche: the current `12`-event archive-clean official comparator seed from `2020-01-20` to `2020-04-23`
+- New Zealand baseline: the current `38`-event route with a `29`-event main perturbation interval
+- Taiwan bounded comparator: the current `15`-event archive-clean official seed from `2020-01-20` to `2020-04-23`
 
-## Why the comparison is only bounded
+## Why the comparison is still bounded
 
-- the New Zealand route is already much denser
-- the Taiwan starter tranche is currently built from a smaller English official seed
+- the New Zealand route is still denser and carries a fuller implementation-side layer
+- the Taiwan branch still lacks a distinct emergency-management layer
 - the windows are functionally matched, not date-matched
-- `L` remains thin on the Taiwan side even though one conservative clean lag pair is now visible
+- `L` remains thin on the Taiwan side even though one conservative clean lag pair is visible
 
 ## Same-estimator readout where applicable
 
-| Readout | New Zealand baseline | Taiwan starter tranche | Current comparative signal |
+| Readout | New Zealand baseline | Taiwan bounded comparator | Current comparative signal |
 |---|---|---|---|
-| seeded events | `35` | `12` | Taiwan is still thinner, but no longer minimal |
-| active `sigma1` units | `7 / 7` | `6 / 7` | Taiwan starter covers most units except a distinct emergency-management layer |
-| active directed edges | `24` | `10` | Taiwan starter is still narrower, but no longer minimal in visible dependency variety |
-| occupied-edge ratio | `24 / 42 = 0.571` | `10 / 42 = 0.238` | New Zealand is still denser as currently coded |
-| weighted cross-cluster routing | `95 / 127 = 0.75` | `35 / 42 = 0.83` | Taiwan starter remains highly command-centre-to-other-cluster routed even after thickening |
-| mean receiving breadth | `3.6` | `3.5` | both routes already show multi-unit reach per event |
-| issuing concentration | `strategic executive coordination = 22 / 35` | `strategic executive coordination = 10 / 12` | Taiwan starter is still more command-centre concentrated, but no longer purely so |
-| public-information receiving share | `30 / 35` | `12 / 12` | public-information routing is central in both starter views |
+| seeded events | `38` | `15` | Taiwan is now materially denser than the earlier starter, but still thinner than New Zealand |
+| active `sigma1` units | `7 / 7` | `6 / 7` | Taiwan still covers most units except a distinct emergency-management layer |
+| active directed edges | `24` | `20` | Taiwan now shows a much wider visible dependency variety than the earlier starter |
+| occupied-edge ratio | `24 / 42 = 0.571` | `20 / 42 = 0.476` | New Zealand is still denser, but Taiwan is no longer a thin pilot graph |
+| weighted cross-cluster routing | `107 / 142 = 0.75` | `31 / 52 = 0.60` | New Zealand remains more cross-cluster routed overall; Taiwan now shows more within-function density in health and border chains |
+| mean receiving breadth | `3.7` | `3.5` | both routes already show multi-unit reach per event |
+| issuing concentration | `strategic executive coordination = 25 / 38` | `public-health policy and command / border-control coordination = 6 / 15 each` | New Zealand remains strongly strategic-hub-centred; Taiwan now splits visible issuing between health and border functions |
+| public-information receiving share | `33 / 38` | `15 / 15` | public-information routing is central in both bounded views |
 
 ## Current bounded takeaways
 
-### 1. Both routes already reject a flat "communication is just packaging" reading
+### 1. Both routes reject a flat "communication is just packaging" reading
 
-Public-information coordination is structurally central in both seeds. The difference is not whether it matters, but how thickly the current official seed makes that role visible.
+Public-information coordination is structurally central in both routes. The difference is not whether it matters, but how thickly each official seed makes that role visible.
 
-### 2. Taiwan starter visibility is still narrower but less command-centre thin
+### 2. Taiwan no longer reads as a command-centre-only starter
 
-The Taiwan starter tranche is still dominated by CECC-visible command, border control, quarantine support, quarantine logistics, and compliance guidance. But it now also carries one implementation-observed health-agency routing event and one transport-restriction event issued from a border-control function. That gives a cleaner first comparator shape than the earlier `10`-event starter even before a fuller Taiwan ledger exists.
+The Taiwan branch now carries:
 
-### 3. New Zealand is already thicker on implementation breadth
+- an early onboard-quarantine and designated-hospital routing event
+- an airport response-centre operating layer at the main point of entry
+- a clearer split between health, border, compliance, and public-alignment issuing functions
+- one public social-distancing surface inside the acute window
 
-The New Zealand route currently carries more diverse implementation-side material: welfare support, local-authority and CDEM support, police guidance, checkpoint governance, repeated transition continuity reminders, legal-handoff events, and transition preparation. Taiwan now carries more quarantine-routing and sanction detail than before, but it is still not as implementation-broad as the current New Zealand seed.
+That does not make Taiwan symmetrical with New Zealand. It does make the comparator materially less command-centre thin than the original starter tranche.
 
-### 4. Command concentration differs in degree, not in kind
+### 3. New Zealand is still thicker on implementation breadth
 
-Both seeds show strong strategic issuing concentration. Taiwan's starter tranche is still more fully command-centre visible, but it no longer routes every admitted event through the same issuing surface.
+The New Zealand route currently carries more diverse implementation-side material: welfare support, local-authority and CDEM support, Police guidance, checkpoint governance, repeated transition continuity reminders, legal-handoff events, formal Level 3 authority-routing and review material, and transition preparation. Taiwan now carries a denser acute border-health-public-alignment chain than before, but it is still not as implementation-broad as the New Zealand route.
 
-### 5. One conservative Taiwan lag pair is now visible, but the lag surface is still thin
+### 4. The issuing-centre contrast is now more informative
 
-The Taiwan side now supports one cautious lag pairing:
+New Zealand still presents as a strongly strategic-hub-centred route. Taiwan's bounded comparator no longer does. Its top issuing share is now split between public-health policy and command and border-control coordination, which is a meaningful functional difference even inside a still-bounded tranche.
+
+### 5. The lag limit is now explicit rather than merely missing
+
+The Taiwan side still supports only one cautious lag pairing:
 
 - `2020-03-18` foreign-entry restriction and local-district quarantine routing announcement
 - `2020-03-29` observed health-agency notification and medical-care routing during home quarantine
 
-That is enough to keep Taiwan from reading as completely lag-empty. It is not enough for a serious cross-case `L` comparison.
+The expanded Taiwan tranche adds early border-health implementation and public-alignment material, but it does **not** yet add a second clean lag pair strong enough for a serious cross-case `L` comparison.
 
 ## What this does not show yet
 
 - a full NZ-Taiwan comparison of `L`
 - a settled claim about which system was more coherent overall
-- a stable cross-case estimator judgment beyond the current seed
-- any claim that the thinner Taiwan starter set is representative of the full Taiwan route
+- a stable cross-case estimator judgment beyond the current bounded seeds
+- any claim that the current Taiwan set is representative of the full Taiwan route
 
 ## Immediate next comparative tasks
 
-1. deepen the Taiwan official corpus without weakening the archive rule
-2. separate executive, health, and local administrative functions more clearly where the source base permits
-3. look for a denser lag surface on the Taiwan side beyond the first conservative pair
-4. rerun this note after the Taiwan ledger moves beyond the current `12`-event starter tranche
+1. keep the Taiwan comparator bounded unless a later tranche can add de-escalation or stronger retrospective official grounding
+2. search for a second clean Taiwan lag pair before publishing any stronger cross-case `L` claim
+3. open a second comparator route only when matched functional boundary and source control are explicit from the start
 
 ## Status
 
-`starter external comparison`
+`bounded external comparison`

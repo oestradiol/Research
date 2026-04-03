@@ -28,6 +28,7 @@ from research_tools.validate.knowledge import validate_knowledge_package
 from research_tools.validate.links import validate_markdown_links
 from research_tools.validate.route_consistency import validate_nz_route, validate_taiwan_route
 from research_tools.validate.sources import validate_source_registry
+from research_tools.validate.status_surfaces import validate_status_surfaces
 from research_tools.validate.versions import validate_versions
 from research_tools.workflows.validate_all import (
     collect_validation_results,
@@ -190,9 +191,34 @@ def handle_validate_versions(_: argparse.Namespace) -> int:
             paths.knowledge_root / "CHANGELOG.md",
             paths.tools_root / "pyproject.toml",
             paths.tools_root / "src" / "research_tools" / "__init__.py",
+            paths.tools_root / "CHANGELOG.md",
         ],
     )
     output_path = _write_output("validate-versions.md", output)
+    print(output_path)
+    return _results_exit_code(results)
+
+
+def handle_validate_status_surfaces(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    results = validate_status_surfaces(paths)
+    output = _render_simple_results(
+        "Validate Status Surfaces",
+        _generated_at(),
+        results,
+        [
+            paths.research_root / "README.md",
+            paths.suf_root / "README.md",
+            paths.suf_root / "docs" / "project-status.md",
+            paths.suf_root / "docs" / "pending-inventory.md",
+            paths.suf_root / "docs" / "contribution-and-payoff-note.md",
+            paths.suf_root / "docs" / "v1-academic-bundle.md",
+            paths.suf_root / "meta" / "publication-scope.md",
+            paths.suf_root / "ROADMAP.md",
+            paths.suf_root / "framework" / "research-program.md",
+        ],
+    )
+    output_path = _write_output("validate-status-surfaces.md", output)
     print(output_path)
     return _results_exit_code(results)
 
@@ -330,6 +356,7 @@ def handle_report_release_readiness(_: argparse.Namespace) -> int:
             paths.knowledge_root / "README.md",
             paths.knowledge_root / "CHANGELOG.md",
             paths.tools_root / "README.md",
+            paths.tools_root / "CHANGELOG.md",
             paths.tools_root / "pyproject.toml",
         ],
     )
@@ -352,6 +379,9 @@ def build_parser() -> argparse.ArgumentParser:
         func=handle_validate_source_registry
     )
     validate_subparsers.add_parser("versions").set_defaults(func=handle_validate_versions)
+    validate_subparsers.add_parser("status-surfaces").set_defaults(
+        func=handle_validate_status_surfaces
+    )
     validate_route_parser = validate_subparsers.add_parser("route")
     validate_route_parser.add_argument("--route", choices=("nz", "taiwan"), required=True)
     validate_route_parser.set_defaults(func=handle_validate_route)

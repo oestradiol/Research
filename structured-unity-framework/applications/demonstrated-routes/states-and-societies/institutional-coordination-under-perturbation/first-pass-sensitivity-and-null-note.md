@@ -17,7 +17,7 @@ Primary companions:
 
 ## Rule for this pass
 
-This note now works from the current `35`-event public ledger and expands the bounded check set to `14` tests total:
+This note now works from the current `38`-event public ledger and keeps the bounded check set at `14` tests total:
 
 - `10` perturbation checks
 - `4` null framings
@@ -28,11 +28,11 @@ The point is still modest: test whether the route immediately falls apart under 
 
 Current baseline:
 
-- `35` total coded events
-- `27` main-interval events
-- `strategic executive coordination` issues `22 / 35`
-- `public-information coordination` receives `30 / 35`
-- weighted cross-cluster routing = `95 / 127 = 0.75`
+- `38` total coded events
+- `29` main-interval events
+- `strategic executive coordination` issues `25 / 38`
+- `public-information coordination` receives `33 / 38`
+- weighted cross-cluster routing = `107 / 142 = 0.75`
 
 ## Sensitivity check 1: remove the most architecture-heavy observation events
 
@@ -43,10 +43,10 @@ Perturbation:
 
 What survives:
 
-- `33` coded events remain
-- the main interval still contains `26` events
-- `strategic executive coordination` still issues `20 / 33`
-- `public-information coordination` still receives `28 / 33`
+- `36` coded events remain
+- the main interval still contains `28` events
+- `strategic executive coordination` still issues `23 / 36`
+- `public-information coordination` still receives `31 / 36`
 - all `7 / 7` `sigma1` units still remain active
 
 Reading:
@@ -61,9 +61,9 @@ Perturbation:
 
 What survives:
 
-- `strategic executive coordination` still issues `21 / 35`
-- inside the main interval, the strategic centre still issues `16 / 27`
-- `public-information coordination` still receives `30 / 35`
+- `strategic executive coordination` still issues `24 / 38`
+- inside the main interval, the strategic centre still issues `18 / 29`
+- `public-information coordination` still receives `33 / 38`
 - all `7 / 7` units remain active
 
 Reading:
@@ -80,9 +80,10 @@ Perturbation:
 
 What survives:
 
-- the ledger rises from `35` to `36` events
-- `strategic executive coordination` rises to `23 / 36`
-- the main interval rises from `27` to `28` events
+- the ledger rises from `38` to `39` events
+- `strategic executive coordination` rises to `26 / 39`
+- the main interval rises from `29` to `30` events
+- `public-information coordination` still receives `34 / 39`
 - the route still preserves non-zero lag between the `2020-03-23` announcement side and the `2020-03-25` implementation side
 
 Reading:
@@ -97,9 +98,9 @@ Perturbation:
 
 What survives:
 
-- Comparator B still contains `5` coded events
+- Comparator B still contains `6` coded events
 - Comparator B still keeps `6 / 7` active units
-- Comparator B still has explicit public-information markers in `4 / 5` remaining events
+- Comparator B still has explicit public-information markers in `4 / 6` remaining events
 - the lower-acuity transition window still looks more coherent and denser than Comparator A
 
 Reading:
@@ -120,14 +121,14 @@ Why these two:
 
 What survives:
 
-- `33` coded events remain
-- the main interval still contains `25` events
-- `strategic executive coordination` still issues `21 / 33`
-- `public-information coordination` still receives `29 / 33`
+- `36` coded events remain
+- the main interval still contains `27` events
+- `strategic executive coordination` still issues `24 / 36`
+- `public-information coordination` still receives `32 / 36`
 
 Reading:
 
-The route loses some welfare/boundary detail, but the main structural payoff still holds.
+The route loses some welfare and boundary detail, but the main structural payoff still holds.
 
 ## Sensitivity check 6: `sigma2` cluster-reassignment perturbation
 
@@ -137,7 +138,7 @@ Perturbation:
 
 What changes:
 
-- weighted cross-cluster routing rises from `95 / 127 = 0.75` to `105 / 127 = 0.83`
+- weighted cross-cluster routing rises from `107 / 142 = 0.75` to `120 / 142 = 0.85`
 
 Reading:
 
@@ -151,10 +152,10 @@ Perturbation:
 
 What survives:
 
-- the ledger falls only to `34` events
-- the main interval still contains `26` events
-- `strategic executive coordination` still issues `22 / 34`
-- `public-information coordination` still receives `30 / 34`
+- the ledger falls only to `37` events
+- the main interval still contains `28` events
+- `strategic executive coordination` still issues `25 / 37`
+- `public-information coordination` still receives `33 / 37`
 
 Reading:
 
@@ -169,14 +170,14 @@ Perturbation:
 
 Why these two:
 
-- they are the strongest newly admitted left-side thickening events inside the post-lockdown build-out
+- they are the strongest left-side implementation-thickening events inside the post-lockdown build-out
 
 What survives:
 
-- `33` coded events remain
-- the main interval still contains `25` events
-- `strategic executive coordination` still issues `21 / 33`
-- `public-information coordination` still receives `28 / 33`
+- `36` coded events remain
+- the main interval still contains `27` events
+- `strategic executive coordination` still issues `24 / 36`
+- `public-information coordination` still receives `31 / 36`
 
 Reading:
 
@@ -191,8 +192,8 @@ Perturbation:
 
 What survives:
 
-- the ledger remains at `35` events
-- the main interval remains at `27` events
+- the ledger remains at `38` events
+- the main interval remains at `29` events
 - the event set and route metrics remain unchanged
 
 Reading:
@@ -203,18 +204,18 @@ The route does not depend on one dedicated Police page for the late-April contin
 
 Perturbation:
 
-- compare the earlier `30`-event official core against the current `35`-event extended official ledger
+- compare the earlier `30`-event official core against the current `38`-event extended official ledger
 
 What changes:
 
-- total events rise from `30` to `35`
-- main-interval events rise from `23` to `27`
-- `public-information coordination` receiving share rises from `25 / 30` to `30 / 35`
-- weighted cross-cluster routing shifts only from `86 / 113 = 0.76` to `95 / 127 = 0.75`
+- total events rise from `30` to `38`
+- main-interval events rise from `23` to `29`
+- `public-information coordination` receiving share rises from `25 / 30` to `33 / 38`
+- weighted cross-cluster routing shifts only from `86 / 113 = 0.76` to `107 / 142 = 0.75`
 
 Reading:
 
-The route's bounded gain survives extension. The added continuity events change density and timing detail more than they change the basic structural story.
+The route's bounded gain survives extension. The added continuity, authority-routing, and review events change density and timing detail more than they change the basic structural story.
 
 ## Null check 11: treat public-information coordination as downstream messaging only
 
@@ -224,8 +225,8 @@ public-information coordination is only an output wrapper around "real" executiv
 
 Why the null is weak:
 
-- `public-information coordination` receives `30 / 35` coded events
-- it remains active across late-April Police guidance, the transition-planning briefing, Comparator B legal handoff, and the move to Level 1
+- `public-information coordination` receives `33 / 38` coded events
+- it remains active across late-April Police guidance, the formal Level 3 authority-routing and review papers, the transition-planning briefing, Comparator B legal handoff, and the move to Level 1
 - it is visible not only at acute alert-level transitions but also in compliance guidance, checkpoint governance, and continuity reminders
 
 Reading:
@@ -242,7 +243,7 @@ Why the null is weak:
 
 - the current public ledger still contains paired gaps of `1`, `2`, `2`, `3`, `8`, and `8` days
 - those pairs span both acute escalation and later easing transitions
-- the added transition-planning briefing thickens the de-escalation side without erasing the staged gaps
+- the added review material thickens the de-escalation context without erasing the staged gaps
 
 Reading:
 
@@ -272,7 +273,7 @@ the main interval's order does not matter; it is only a dense bag of crisis even
 
 Why the null is weak:
 
-- the current main interval still reads as ordered escalation, implementation thickening, easing preparation, and late-transition continuity
+- the current main interval still reads as ordered escalation, implementation thickening, authority-review preparation, easing preparation, and late-transition continuity
 - shuffling destroys the visible `2020-03-23 -> 2020-03-25`, `2020-04-20 -> 2020-04-28`, and Comparator B staging chains
 - once order is destroyed, the route loses coherence but not density, which shows that sequence is doing real analytical work
 
@@ -297,20 +298,20 @@ What survives estimator-aligned perturbation:
 
 - the integration claim does not depend on one favorable `sigma2` clustering
 - the coherence claim does not depend on one bundled same-day event
-- the current structural gain survives extension from the earlier `30`-event core to the `35`-event ledger
+- the current structural gain survives extension from the earlier `30`-event core to the `38`-event ledger
 
 What still remains weak:
 
 - the lag surface is still date-grain and sparse
 - the route still lacks document-level contradiction coding
-- the Taiwan comparison is still starter-thin relative to the New Zealand branch
+- the Taiwan comparison is now materially denser, but it remains bounded relative to the New Zealand branch
 
 ## Next best step
 
 The next practical move is to:
 
 1. keep adding direct D-family `D` and `E` events only under the live-plus-fixed-archive rule
-2. rerun the same robustness frame after the deeper Taiwan tranche and the new lag report are in place
+2. rerun the same robustness frame after a later Taiwan de-escalation tranche or second comparator route is in place
 3. then move from bounded robustness checks toward a more explicit estimator-stage perturbation program
 
 ## Status

@@ -440,6 +440,36 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 - Accessed: `2026-04-02`.
 - Use limit: supports formal review preparation and easing-stage planning; does not by itself show the later implementation chain.
 
+### src-dpmc-powers-authorisations-level3-2020
+
+- Citation: Department of the Prime Minister and Cabinet. *Powers and Authorisations to Give Effect to Alert Level 3*. 2020.
+- Type: proactive release / Cabinet minute.
+- Role in SUF: formal Alert Level 3 powers-and-authorities anchor for late-transition implementation and enforcement coordination.
+- Primary link: https://www.dpmc.govt.nz/sites/default/files/2023-01/Minute-Powers-and-Authorisations-to-Give-Effect-to-Alert-Level-3.pdf
+- Archive link: https://web.archive.org/web/20251108215251/https://www.dpmc.govt.nz/sites/default/files/2023-01/Minute-Powers-and-Authorisations-to-Give-Effect-to-Alert-Level-3.pdf
+- Accessed: `2026-04-02`.
+- Use limit: supports Level 3 authority routing and implementation readiness; does not by itself describe downstream compliance behavior.
+
+### src-dpmc-preparing-review-level3-status-2020
+
+- Citation: Department of the Prime Minister and Cabinet. *COVID-19: Preparing to Review New Zealand's Level 3 Status*. 2020.
+- Type: proactive release / Cabinet paper and minute.
+- Role in SUF: formal review-preparation and evidence-staging anchor for the Level 3 to Level 2 transition chain.
+- Primary link: https://www.dpmc.govt.nz/sites/default/files/2023-01/Paper-and-Minute-Preparing-to-Review-New-Zealands-Level-3-Status.pdf
+- Archive link: https://web.archive.org/web/20230926123430/https://www.dpmc.govt.nz/sites/default/files/2023-01/Paper-and-Minute-Preparing-to-Review-New-Zealands-Level-3-Status.PDF
+- Accessed: `2026-04-02`.
+- Use limit: supports formal review preparation and staging for the Level 3 status decision; does not by itself show full downstream implementation.
+
+### src-dpmc-review-alert-level3-2020
+
+- Citation: Department of the Prime Minister and Cabinet. *Review of COVID-19 Alert Level 3*. 2020.
+- Type: proactive release / Cabinet paper and minute.
+- Role in SUF: direct decision-review anchor for the Level 3 to Level 2 transition boundary.
+- Primary link: https://www.dpmc.govt.nz/sites/default/files/2023-01/Paper-and-Minute-Review-of-COVID-19-Alert-Level-3.pdf
+- Archive link: https://web.archive.org/web/20250211174425/https://www.dpmc.govt.nz/sites/default/files/2023-01/Paper-and-Minute-Review-of-COVID-19-Alert-Level-3.pdf
+- Accessed: `2026-04-02`.
+- Use limit: supports the formal review and decision-preparation surface for the Level 2 shift; does not replace public announcement or legal-handoff sources.
+
 ### src-dpmc-local-authority-welfare-support-2020
 
 - Citation: Department of the Prime Minister and Cabinet and National Emergency Management Agency. *Widening the criteria for financial support to Local Authorities to provide welfare assistance in response to COVID-19*. 2020.
@@ -710,6 +740,16 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 - Accessed: `2026-04-02`.
 - Use limit: supports early activation, cross-agency command, and initial risk-communication routing; does not by itself supply a whole Taiwan ledger.
 
+### src-taiwan-first-imported-case-onboard-quarantine-2020
+
+- Citation: Taiwan Centers for Disease Control. *Taiwan timely identifies first imported case of 2019 novel coronavirus infection returning from Wuhan, China through onboard quarantine; Central Epidemic Command Center (CECC) raises travel notice level for Wuhan, China to Level 3: Warning*. 2020.
+- Type: government press release.
+- Role in SUF: early Taiwan onboard-quarantine detection, designated-hospital transfer, local-health-authority notification, and first imported-case coordination anchor.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/pVg_jRVvtHhp94C6GShRkQ?typeid=158
+- Archive link: https://web.archive.org/web/20260106163349/https://www.cdc.gov.tw/En/Bulletin/Detail/pVg_jRVvtHhp94C6GShRkQ?typeid=158
+- Accessed: `2026-04-02`.
+- Use limit: supports early onboard-quarantine detection and local-health-routing detail; does not by itself establish the whole Taiwan comparator architecture.
+
 ### src-taiwan-home-quarantine-support-2020
 
 - Citation: Taiwan Centers for Disease Control. *Travelers required to undergo home quarantine advised to follow home quarantine measure; support and care needed for people under home quarantine*. 2020.
@@ -762,13 +802,13 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 
 ### src-taiwan-all-travelers-home-quarantine-2020
 
-- Citation: Taiwan Centers for Disease Control. *Travelers entering Taiwan all required to undergo home quarantine for 14 days starting February 10; travelers from China, Hong Kong and Macau still prohibited from transiting through Taiwan*. 2020.
+- Citation: Taiwan Centers for Disease Control. *Central Epidemic Command Center (CECC) adds instructions on entry home quarantine requirements in relation to 2019 novel coronavirus (2019-nCoV)*. 2020.
 - Type: government press release.
-- Role in SUF: early Taiwan universal home-quarantine and transit-restriction anchor.
+- Role in SUF: early Taiwan entry-home-quarantine tightening and transit-restriction anchor.
 - Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/pevkg6JalT40I4uB6wAWcg?typeid=158
 - Archive link: https://web.archive.org/web/20260106163120/https://www.cdc.gov.tw/En/Bulletin/Detail/pevkg6JalT40I4uB6wAWcg?typeid=158
 - Accessed: `2026-04-02`.
-- Use limit: supports the early quarantine-control shift and later lag pairing with support and follow-up material; does not by itself show the full comparator architecture.
+- Use limit: supports early entry-home-quarantine tightening for specified travel routes and endemic areas; does not by itself show the later universal border-control posture.
 
 ### src-taiwan-home-quarantine-health-agency-routing-2020
 
@@ -809,6 +849,16 @@ All entries in this pass were checked on `2026-04-02`. DOI-backed entries use th
 - Archive link: https://web.archive.org/web/20260106162507/https://www.cdc.gov.tw/En/Bulletin/Detail/RKleWZ_8LCPansjz0Gya5w?typeid=158
 - Accessed: `2026-04-02`.
 - Use limit: supports compliance, sanction, and forced-group-quarantine escalation language; does not alone supply a separate emergency-management layer.
+
+### src-taiwan-social-distancing-measures-2020
+
+- Citation: Taiwan Centers for Disease Control. *CECC announces social distancing measures for COVID-19*. 2020.
+- Type: government press release.
+- Role in SUF: Taiwan public-alignment, phased distancing-guidance, and conditional rule-tightening anchor.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/kM0jm-IqLwNBeT6chKk_wg?typeid=158
+- Archive link: https://web.archive.org/web/20260402195641/https://www.cdc.gov.tw/En/Bulletin/Detail/kM0jm-IqLwNBeT6chKk_wg?typeid=158
+- Accessed: `2026-04-02`.
+- Use limit: supports public-alignment and distancing-guidance logic; does not by itself establish border or quarantine-routing depth.
 
 ### src-taiwan-quarantine-hotels-europe-americas-2020
 

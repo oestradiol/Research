@@ -8,7 +8,7 @@ Current snapshot: `1.0.0` dated `2026-04-02`.
 
 Hosted package URL: [oestradiol/Research/tree/main/tools](https://github.com/oestradiol/Research/tree/main/tools)
 
-The current scope covers Structured Unity Framework route and source work, Knowledge package integrity, version-surface consistency, and repository-wide Markdown link validation across `Research/`. It validates current public research surfaces and generates deterministic read-only reports for human review. It is part of the publication-prep trust layer, not an adjudicator of the framework's truth.
+The current scope covers Structured Unity Framework route and source work, status-surface consistency, Knowledge package integrity, version-surface consistency, and repository-wide Markdown link validation across `Research/`. It validates current public research surfaces and generates deterministic read-only reports for human review. It is part of the repo-complete trust layer, not an adjudicator of the framework's truth.
 
 This package does **not**:
 
@@ -23,7 +23,8 @@ Current support includes:
 - Markdown link validation across `Research/`
 - source-registry shape and archive validation
 - New Zealand route parsing and consistency checks
-- Taiwan starter-route parsing and consistency checks
+- Taiwan bounded-comparator parsing and consistency checks
+- public status-surface mismatch checks against current route and comparison metrics
 - Knowledge package entry/index integrity checks
 - version, changelog, and citation-surface consistency checks
 - release-readiness reporting
@@ -57,6 +58,7 @@ research-tools validate archives
 research-tools validate knowledge
 research-tools validate source-registry
 research-tools validate versions
+research-tools validate status-surfaces
 research-tools validate route --route nz
 research-tools validate route --route taiwan
 research-tools validate all
@@ -79,6 +81,7 @@ research-tools report release-readiness
 
 Important tooling decisions are tracked in:
 
+- `CHANGELOG.md`
 - `docs/architecture.md`
 - `docs/validation-policy.md`
 - `docs/backlog.md`
@@ -87,4 +90,4 @@ Important tooling decisions are tracked in:
 
 ## Status
 
-`public v1 tooling active`
+`tooling-ready read-only validation active`

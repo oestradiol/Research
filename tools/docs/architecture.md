@@ -4,7 +4,7 @@
 
 `Research/tools/` is a read-only tooling layer for validating and summarizing research artifacts in `Research/`.
 
-The current public scope still centers on the SUF route work, but now also includes Knowledge package checks, version-surface validation, and release-readiness reporting for the full public repo.
+The current public scope still centers on the SUF route work, but now also includes public status-surface checks, Knowledge package checks, version-surface validation, and release-readiness reporting for the full public repo.
 
 ## Module boundaries
 
@@ -24,8 +24,9 @@ The current public scope still centers on the SUF route work, but now also inclu
 ## Current route assumptions
 
 - New Zealand is the primary validated route
-- Taiwan is the current starter comparator
+- Taiwan is the current bounded comparator
 - route metrics are derived from public Markdown, not an external database
+- public status and payoff surfaces are treated as published interfaces and validated as such
 - Taiwan comparator files currently live inside the same case directory as the New Zealand route package
 
 ## Output rule
@@ -34,4 +35,4 @@ The tooling may compute, compare, and report. It may not rewrite public docs.
 
 ## Status
 
-`architecture locked for tranche 1`
+`architecture locked for the tooling-ready tranche`

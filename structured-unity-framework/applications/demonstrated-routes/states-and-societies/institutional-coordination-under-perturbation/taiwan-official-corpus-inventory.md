@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This file records the first archive-clean official corpus admitted for the Taiwan comparator starter tranche.
+This file records the current archive-clean official corpus admitted for the Taiwan comparator branch.
 
-It is intentionally narrow. It is enough to open the comparator branch, not enough to claim a finished Taiwan route.
+It remains bounded. It is now denser than the starter tranche, but it is still not a finished Taiwan route.
 
 ## Current admission rule
 
@@ -21,6 +21,7 @@ Unstable candidates remain in [Source Discovery Log](source-discovery-log.md).
 
 - [src-taiwan-cdc-portal](../../../../references/source-registry.md#src-taiwan-cdc-portal)
 - [src-taiwan-cecc-activation-2020](../../../../references/source-registry.md#src-taiwan-cecc-activation-2020)
+- [src-taiwan-first-imported-case-onboard-quarantine-2020](../../../../references/source-registry.md#src-taiwan-first-imported-case-onboard-quarantine-2020)
 - [src-taiwan-airport-ihr](../../../../references/source-registry.md#src-taiwan-airport-ihr)
 
 ### Border, quarantine, and continuity
@@ -34,6 +35,7 @@ Unstable candidates remain in [Source Discovery Log](source-discovery-log.md).
 - [src-taiwan-cumulative-penalties-home-quarantine-2020](../../../../references/source-registry.md#src-taiwan-cumulative-penalties-home-quarantine-2020)
 - [src-taiwan-home-quarantine-domestic-travel-ban-2020](../../../../references/source-registry.md#src-taiwan-home-quarantine-domestic-travel-ban-2020)
 - [src-taiwan-symptomatic-travelers-designated-location-2020](../../../../references/source-registry.md#src-taiwan-symptomatic-travelers-designated-location-2020)
+- [src-taiwan-social-distancing-measures-2020](../../../../references/source-registry.md#src-taiwan-social-distancing-measures-2020)
 - [src-taiwan-quarantine-hotels-europe-americas-2020](../../../../references/source-registry.md#src-taiwan-quarantine-hotels-europe-americas-2020)
 - [src-taiwan-transit-extension-2020](../../../../references/source-registry.md#src-taiwan-transit-extension-2020)
 
@@ -42,7 +44,9 @@ Unstable candidates remain in [Source Discovery Log](source-discovery-log.md).
 | Coverage area | Current state |
 |---|---|
 | command-centre activation | visible |
-| early universal home-quarantine shift | visible |
+| first imported-case detection through onboard quarantine | visible |
+| airport response-centre and points-of-entry operating layer | visible |
+| early entry-home-quarantine tightening | visible |
 | border-entry restriction timing | visible |
 | transit-ban timing | visible |
 | quarantine support and follow-up | visible |
@@ -51,35 +55,39 @@ Unstable candidates remain in [Source Discovery Log](source-discovery-log.md).
 | sanction / compliance language | visible |
 | domestic travel restriction for people under quarantine | visible |
 | designated transport and testing routing | visible |
+| phased public social-distancing guidance | visible |
 | quarantine-hotel routing for vulnerable-household cases | visible |
 | deeper emergency-management separation | thin |
 | richer de-escalation coverage | not yet assembled |
 | full retrospective oversight layer | not yet assembled |
 
-## Why this is enough for a starter tranche
+## Why this is enough for the current bounded comparator
 
 The current set is enough to code:
 
 - early activation
-- early universal quarantine tightening
+- first imported-case routing through onboard quarantine
+- early airport response-centre activation at the main point of entry
+- early entry-home-quarantine tightening
 - border tightening
 - quarantine support
 - implementation-observed health-agency notification and medical-care routing
 - quarantine compliance
+- public social-distancing guidance with conditional mandatory-rule language
 - domestic flight/ferry restriction for people under home quarantine
 - designated transport and testing routing
 - quarantine-hotel routing for vulnerable-household cases
 - continuity of the acute border-control stance
 
-That is enough to build a first bounded Taiwan seed ledger and a first cautious NZ-Taiwan comparison note.
+That is enough to sustain the current bounded Taiwan ledger and a first cautious NZ-Taiwan comparison note.
 
 ## What remains open
 
-- deeper separation of executive, health, and local administrative functions
+- deeper separation of executive, health, local administrative, and transport/logistics functions
 - more explicit retrospective or oversight anchors
 - any later Taiwan de-escalation window
-- a denser lag surface beyond the first clean lag-pair opportunity now visible in the starter tranche
+- a denser lag surface beyond the first clean lag-pair opportunity now visible in the current tranche
 
 ## Status
 
-`starter official corpus`
+`extended official corpus`

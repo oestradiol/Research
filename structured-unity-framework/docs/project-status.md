@@ -1,98 +1,99 @@
 # Project Status
 
-This file is the current-state summary for the public package. Use `ROADMAP.md` for future direction and `docs/pending-inventory.md` for deferred or still-open items.
+This file is the current-state summary for the public package on `main`. Use `ROADMAP.md` for future direction and `docs/pending-inventory.md` for deferred or optional later work.
 
 ## 1. Status-surface rule
 
 Use the public status files by role:
 
-- this file = current package posture
+- this file = current package posture on `main`
 - `ROADMAP.md` = future-facing direction
-- `docs/pending-inventory.md` = open and deferred items
+- `docs/pending-inventory.md` = deferred or optional later work
 
 ## 2. Current package posture
 
-**`v1.0.0`** names the dated hosted snapshot in this tree (**2026-04-02**).
+**`v1.0.0`** still names the dated hosted snapshot in this tree (**2026-04-02**).
 
-The package now reads as the first **publication-ready bounded public release**: the core framework is in place, the New Zealand route now includes first-pass corpus and event-ledger execution, a `35`-event seed ledger, a `27`-event main perturbation interval, a first bounded readout, a first dependency graph, first bounded `I`, `C`, and `L` passes, a first conjoint window comparison, a route-local estimator implementation, a `14`-check sensitivity/null note, a locked payoff sentence, a dedicated IAF downstream-role note, and a bounded Taiwan comparator. The applications atlas is live, and the public reference layer includes a canonical source registry, citation policy, materially populated reading lists, and fixed-archive coverage for the current direct DPMC and Police route sources that carry the implementation-chain work. A shared tooling package now exists at `../tools/` for read-only validation and report generation against the public route surfaces.
+Current `main` now carries the post-`v1.0.0` active-core completion state for the public package. The framework core is in place, the New Zealand route now includes a `38`-event seed ledger with a `29`-event main perturbation interval, the Taiwan branch now exists as a `15`-event bounded comparator rather than a starter-only tranche, the locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package now functions as a stronger read-only validation and reporting layer for route metrics, comparison surfaces, and public release hygiene.
 
-Local git initialization, licensing, maintainer metadata, and umbrella-repo placement are already complete. Public remote creation, hosted URLs, changelog grounding, and the first tag/release-note package are now complete. What remains open is empirical, comparative, and later reproducibility deepening rather than launch mechanics.
+Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, changelog grounding, and the first tag/release-note package are complete. No remaining launch blocker or active-core repo-completion blocker is left inside the current repository state.
 
-It is still **not** a claim of universal proof and **not** a closed empirical result.
+It is still **not** a claim of universal proof and **not** a closed empirical monograph.
 
-## 3. Publication-prep status
+## 3. Active-core completion state
 
-**Already locked**
+**Completed on `main`**
 
-- bounded hosted `v1.0.0` release framing
-- public architecture and package boundaries
-- New Zealand `35`-event route baseline with `27`-event main interval
-- bounded Taiwan `12`-event comparator starter with one conservative lag pair
-- locked payoff sentence
-- public IAF downstream-role clarification
-- read-only tooling gate with release-readiness reporting
-
-**Hosted launch now complete**
-
-- public remote / hosting surface at `oestradiol/Research`
-- hosted README and citation URLs for the umbrella repo and public packages
-- changelog grounding to hosted commits and the umbrella `v1.0.0` tag
-- repo-local release notes under `releases/v1.0.0.md`
+- bounded hosted `v1.0.0` release framing remains intact
+- New Zealand route hardened to `38` coded events with a `29`-event main interval
+- late-transition DPMC authority-routing and review papers promoted into the live route
+- Taiwan comparator extended to `15` archive-clean official events with clearer health, border, compliance, and public-alignment separation
+- locked payoff sentence pressure-tested and retained
+- public IAF downstream-role clarification synchronized with the denser NZ/Taiwan evidence
+- tooling-ready read-only validation and reporting extended across route, comparison, and release-hygiene surfaces
 
 **Explicitly deferred**
 
-- fuller New Zealand corpus completion
-- deeper Taiwan comparative execution
-- broader comparative execution beyond Taiwan
-- frontier branches beyond the current bounded release
+- later monograph-scale corpus expansion beyond the current active proof burden
+- later Taiwan de-escalation work or a second comparator route
+- analysis-ready structured exports and research-ops workflow tooling
+- frontier branches beyond the active empirical core
 
 ## 4. Future-agent handoff rule
 
-This file is the canonical current-state surface for SUF.
+This file is the canonical current-state surface for SUF on `main`.
 
-Future execution should use the public status surfaces by role:
+Future execution should keep three things distinct:
 
-- this file = exact current baseline and locked/provisional split
-- `docs/pending-inventory.md` = ordered open work and any later launch-adjacent housekeeping
-- `ROADMAP.md` = sequence after the current baseline
-- `docs/v1-academic-bundle.md` = public academic front door
+- hosted `v1.0.0` = the dated public tag surface
+- current `main` = the active-core completion and tooling-ready baseline
+- later `1.x` work = deferred expansion, not unfinished launch mechanics
 
-Future execution must not silently rewrite locked `v1.0.0` framing. If a later tranche changes the release posture, it should first update these surfaces explicitly rather than letting route or tooling files drift ahead of them.
+Future execution must not silently collapse those three surfaces into one label.
 
 ## 5. Current contribution profile
 
 The strongest current contribution is still **architectural and methodological**: a dependency-respecting layered stack, a disciplined target concept in **unity-like organization**, and a research-program skeleton with explicit boundary, scale, comparator, null, and weakening logic.
 
-The current locked payoff sentence is:
+The locked payoff sentence remains:
 
 **SUF shows that the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture.**
 
-That claim is now supported by a denser New Zealand route and a bounded Taiwan comparator rather than only by a single thin seed. The next burden is no longer to invent a payoff sentence; it is to deepen and pressure-test the locked one.
+That claim is now supported by:
+
+- a `38`-event New Zealand route with a fuller late-transition DPMC layer
+- a `15`-event bounded Taiwan comparator that no longer reads as command-centre-only
+- a denser read-only validation layer that can now check the stable active-core public metrics against the Markdown route artifacts
 
 ## 6. What is currently stable
 
-- the public architecture: docs, framework, applications atlas, meta layer, references, and diagrams
+- the public architecture: docs, framework, applications atlas, meta layer, references, diagrams, and tooling
 - the four-layer framework structure and boundary discipline
 - the applications split between demonstrated routes and research-map nodes
-- the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, first-pass corpus inventory, source-discovery workflow, `35`-event seed event ledger, first-pass readout, first dependency graph, first bounded `I`, `C`, and `L` passes, first conjoint window comparison, route-local estimator implementation, `14`-check sensitivity/null note, and the current direct DPMC / Police implementation-chain source layer admitted only with live plus fixed-archive support
-- the comparative shortlist of Taiwan and Australia, with a first Taiwan comparator design, official corpus inventory, `12`-event seed ledger, one conservative Taiwan lag pair, and bounded NZ-Taiwan comparison note now in place
+- the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event seed event ledger, first-pass readout, first dependency graph, first bounded `I`, `C`, and `L` passes, first conjoint window comparison, route-local estimator implementation, and `14`-check sensitivity/null note
+- the current direct DPMC and Police implementation-chain source layer admitted only with live plus fixed-archive support
+- the Taiwan comparator design, extended official corpus inventory, `15`-event bounded ledger, one conservative lag pair, and the bounded NZ-Taiwan comparison note
+- the read-only tooling layer for route, comparison, version, link, archive, knowledge, and release-hygiene validation
 
-## 7. What is still provisional
+## 7. What remains open but non-blocking
 
-- fuller source-corpus completion and further event-ledger deepening for the New Zealand route
-- further stress-testing and refinement of the current route-local estimator layer, the first bounded `I`, `C`, and `L` passes, the first conjoint window comparison, and the first bounded sensitivity/null note
-- deeper Taiwan comparative execution beyond the current starter tranche
-- further pressure-testing of the locked payoff sentence against deeper New Zealand and Taiwan execution
+- later corpus deepening beyond the current active proof burden
+- later Taiwan de-escalation work or a second comparator route
+- stronger analysis-ready export/report surfaces after the current tooling-ready state
+- research-ops workflow tooling after analysis-ready work is justified
+- broader comparative and frontier execution beyond the active core
 
 ## 8. Current route status
 
-The New Zealand package is now a **demonstrated route** supported by a working design stack, first-pass official corpus inventory, source-discovery log, `35`-event seed event ledger, route-local estimator implementation, first-pass readout, first dependency graph, first bounded `I`, `C`, and `L` passes, a first conjoint window comparison, a `14`-check sensitivity/null note, and a stabilized direct-source layer for recent DPMC and Police implementation-chain events. It has moved beyond pure route design, but it is not yet a completed empirical monograph.
+The New Zealand package is now a **demonstrated route** supported by a working design stack, hardened public corpus inventory, source-discovery log, `38`-event seed event ledger, route-local estimator implementation, first-pass readout, first dependency graph, first bounded `I`, `C`, and `L` passes, a first conjoint window comparison, and a `14`-check sensitivity/null note.
 
-The main unresolved test is no longer whether the route exists, but whether it can produce a bounded explanatory gain that survives fuller ledger deepening and external comparison. The first Taiwan branch is now open under the same live-plus-fixed-archive admission rule, and it is no longer purely minimal, but it remains a starter tranche rather than a full comparator route.
+The Taiwan branch is now a **bounded comparator** rather than a starter-only pilot. It is still thinner than the New Zealand route and still lacks a distinct emergency-management layer, but it now includes early onboard-quarantine routing, an airport operating layer, a clearer health/border split, and one public-alignment surface.
+
+That means the active empirical core is repo-complete at the current bounded level even though later monograph-scale expansion remains possible.
 
 ## 9. Current atlas status
 
-The public atlas is now active and intentionally targeted. It maps plausible next domains, comparative directions, and a small frontier set with status labels and starter anchors.
+The public atlas is active and intentionally targeted. It maps plausible next domains, comparative directions, and a small frontier set with status labels and bounded starter anchors.
 
 ## 10. Cross-links
 
@@ -103,4 +104,4 @@ The public atlas is now active and intentionally targeted. It maps plausible nex
 - IAF clarification: `framework/iaf-downstream-role.md`
 - applications: `applications/README.md`
 - future direction: `ROADMAP.md`
-- open and deferred items: `docs/pending-inventory.md`
+- deferred and optional later work: `docs/pending-inventory.md`

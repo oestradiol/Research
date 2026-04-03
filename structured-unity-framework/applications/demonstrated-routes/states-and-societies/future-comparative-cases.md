@@ -47,4 +47,4 @@ Comparability limits:
 
 ## Status
 
-`Taiwan starter active; Australia pending`
+`Taiwan bounded comparator active; Australia pending`

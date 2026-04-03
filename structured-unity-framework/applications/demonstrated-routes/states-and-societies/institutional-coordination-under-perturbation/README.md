@@ -8,9 +8,9 @@
 
 This is the clearest current public route for turning SUF into a research-ready institutional case package. It keeps the object bounded, keeps timing central, and makes `I`, `C`, `L`, and `U` legible without pretending the framework is already universal.
 
-The route now includes a `35`-event seed ledger, a `27`-event main perturbation interval, first bounded readouts, a route-local estimator implementation, an expanded `14`-check sensitivity/null note, and a stabilized direct-source layer for the current DPMC / Police implementation-chain events under a live-plus-fixed-archive admission rule.
+The route now includes a `38`-event seed ledger, a `29`-event main perturbation interval, first bounded readouts, a route-local estimator implementation, an expanded `14`-check sensitivity/null note, and a stabilized direct-source layer for the current DPMC / Police implementation-chain events under a live-plus-fixed-archive admission rule.
 
-The strongest current bounded gain is still that public-information coordination remains structurally central even after the route thickens with implementation-side material rather than only headline decisions. The Taiwan branch is now a `12`-event starter comparator with one conservative lag pair rather than a minimal pilot.
+The strongest current bounded gain is still that public-information coordination remains structurally central even after the route thickens with implementation-side material rather than only headline decisions. The Taiwan branch is now a `15`-event bounded comparator with one conservative lag pair and a clearer health/border/public-alignment split than the earlier starter tranche.
 
 ## Current route set
 

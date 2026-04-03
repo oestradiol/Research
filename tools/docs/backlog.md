@@ -5,7 +5,8 @@
 - repository-wide Markdown link validation across `Research/`
 - source-registry structure and archive hygiene validation
 - New Zealand ledger schema and current published metric validation, including the current window-comparison and sensitivity-note baseline surfaces
-- Taiwan starter ledger schema and current published metric validation
+- Taiwan bounded-comparator ledger schema and current published metric validation
+- richer mismatch reporting across public status surfaces
 - Knowledge package entry/index validation
 - version, changelog, and citation-surface validation
 - release-readiness reporting
@@ -15,7 +16,6 @@
 ## Next priorities
 
 - add Taiwan lag-surface support once the comparator yields enough clean pairs
-- add richer mismatch reporting across status surfaces
 - add broader package-level audit coverage where it produces real signal beyond links and version checks
 
 ## Later priorities
@@ -31,4 +31,4 @@
 
 ## Status
 
-`active backlog`
+`tooling-ready backlog`

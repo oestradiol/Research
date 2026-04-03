@@ -4,7 +4,7 @@
 
 This file opens the first comparative branch after the New Zealand route cleared the current durability and ledger gate.
 
-The Taiwan tranche is intentionally narrow. It is a first archive-clean official comparator pass, not a claim of full NZ-Taiwan symmetry.
+The Taiwan tranche remains bounded. It is now denser than the original starter pass, but it is still not a claim of full NZ-Taiwan symmetry.
 
 ## Why Taiwan first
 
@@ -20,10 +20,10 @@ That is enough for a bounded first comparative branch.
 
 The New Zealand baseline cleared the current gate before this comparator was opened:
 
-- `35` coded NZ events total
-- `27` coded NZ events in the main perturbation interval
-- more than four additional durable implementation-side additions beyond the earlier `25`-event state
-- at least one durable `D-family D` addition
+- `38` coded NZ events total
+- `29` coded NZ events in the main perturbation interval
+- multiple durable implementation-side additions beyond the earlier `25`-event state
+- late-transition authority-routing and review papers now admitted under the same archive rule
 - all accepted additions admitted only with live plus fixed-archive support
 
 ## Comparator boundary
@@ -47,7 +47,7 @@ Excluded by default:
 
 ## Matched-window logic
 
-The Taiwan starter window is **functionally matched**, not date-matched, to the New Zealand route.
+The Taiwan comparator window is **functionally matched**, not date-matched, to the New Zealand route.
 
 Reason:
 
@@ -55,7 +55,7 @@ Reason:
 - Taiwan did not reproduce New Zealand's exact alert-level topology
 - using the same calendar window would hide the actual coordination form visible in Taiwan's official record
 
-Current Taiwan starter window:
+Current Taiwan comparator window:
 
 - `2020-01-20` to `2020-04-23`
 
@@ -65,7 +65,7 @@ This is the first acute border/quarantine coordination arc visible in the archiv
 
 Use the New Zealand `sigma1` vocabulary as a functional translation layer, not as a claim of institutional identity.
 
-| SUF `sigma1` label | Taiwan starter mapping rule |
+| SUF `sigma1` label | Taiwan comparator mapping rule |
 |---|---|
 | `strategic executive coordination` | CECC command-centre decisions and explicit Executive Yuan cross-agency support where visible |
 | `public-health policy and command` | Taiwan CDC disease-control, surveillance, medical-routing, and health-bureau coordination functions |
@@ -83,7 +83,7 @@ Use the New Zealand `sigma1` vocabulary as a functional translation layer, not a
 
 ## Source-family priority
 
-Priority for the Taiwan starter tranche:
+Priority for the Taiwan comparator tranche:
 
 1. official command and architecture surfaces
 2. official border and quarantine implementation surfaces
@@ -92,7 +92,7 @@ Priority for the Taiwan starter tranche:
 
 ## Source-admission rule
 
-No Taiwan source enters the starter tranche unless:
+No Taiwan source enters the current comparator tranche unless:
 
 - the live public source is verified
 - an exact fixed archive URL is verified
@@ -100,22 +100,22 @@ No Taiwan source enters the starter tranche unless:
 
 Wildcard archive lookups are not accepted.
 
-## Current starter execution state
+## Current execution state
 
-The first Taiwan tranche now includes:
+The current Taiwan tranche now includes:
 
 - one official corpus inventory
-- one `12`-event seed event ledger
+- one denser seed event ledger beyond the original `12`-event starter
 - one bounded NZ-Taiwan comparison note using the same route-local estimator logic where applicable
 
 ## Comparability limits
 
 - Taiwan's SARS-era preparedness changes the baseline before the matched acute window starts
 - the current English official seed is thinner than the New Zealand route
-- the visible Taiwan starter set is more border/quarantine heavy
-- the seed does not yet separate all health, executive, and local functions cleanly enough for stronger claims
-- `L` is still thin in the current starter tranche even though one conservative clean decision-to-implementation pair is now visible
+- the visible Taiwan tranche is still more border/quarantine heavy than the New Zealand route
+- the branch now separates health, border, compliance, and public-alignment functions more clearly, but not yet completely
+- `L` is still thin even after the denser tranche, and only one conservative clean decision-to-implementation pair remains defensible
 
 ## Status
 
-`active comparator design`
+`bounded comparator design`

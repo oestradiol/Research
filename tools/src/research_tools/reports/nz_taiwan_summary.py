@@ -14,6 +14,13 @@ def _format_ratio(numerator: int, denominator: int, digits: int) -> str:
     return f"{numerator / denominator:.{digits}f}"
 
 
+def _format_issuing_concentration(summary: RouteSummary) -> str:
+    if len(summary.top_issuers) == 1:
+        return f"{summary.top_issuer} = {summary.top_issuer_count} / {summary.event_count}"
+    joined = " / ".join(summary.top_issuers)
+    return f"{joined} = {summary.top_issuer_count} / {summary.event_count} each"
+
+
 def compare_nz_taiwan_summary_to_docs(
     nz_summary: RouteSummary,
     taiwan_summary: RouteSummary,
@@ -45,14 +52,8 @@ def compare_nz_taiwan_summary_to_docs(
             2,
         )}"
     )
-    nz_issuing = (
-        f"strategic executive coordination = {nz_summary.top_issuer_count} / "
-        f"{nz_summary.event_count}"
-    )
-    taiwan_issuing = (
-        f"strategic executive coordination = {taiwan_summary.top_issuer_count} / "
-        f"{taiwan_summary.event_count}"
-    )
+    nz_issuing = _format_issuing_concentration(nz_summary)
+    taiwan_issuing = _format_issuing_concentration(taiwan_summary)
     text = comparison_note_path.read_text(encoding="utf-8")
     rows = {
         "seeded events": (nz_summary.event_count, taiwan_summary.event_count),
@@ -148,14 +149,8 @@ def render_nz_taiwan_report(
             2,
         )}"
     )
-    nz_issuing = (
-        f"strategic executive coordination = {nz_summary.top_issuer_count} / "
-        f"{nz_summary.event_count}"
-    )
-    taiwan_issuing = (
-        f"strategic executive coordination = {taiwan_summary.top_issuer_count} / "
-        f"{taiwan_summary.event_count}"
-    )
+    nz_issuing = _format_issuing_concentration(nz_summary)
+    taiwan_issuing = _format_issuing_concentration(taiwan_summary)
     mismatch_lines = (
         "\n".join(
             f"- `{result.check_name}`: expected `{result.expected}`, found `{result.found}`"
@@ -190,7 +185,7 @@ def render_nz_taiwan_report(
         "",
         "## Computed comparison",
         "",
-        "| Readout | New Zealand baseline | Taiwan starter tranche |",
+        "| Readout | New Zealand baseline | Taiwan bounded comparator |",
         "|---|---|---|",
         f"| seeded events | `{nz_summary.event_count}` | `{taiwan_summary.event_count}` |",
         (
@@ -209,8 +204,11 @@ def render_nz_taiwan_report(
         "",
         "## Assumptions",
         "",
-        "- Taiwan remains a starter tranche",
-        "- lag comparison is intentionally omitted in tranche 1",
+        "- Taiwan is still bounded and thinner than the New Zealand route",
+        (
+            "- lag comparison remains limited because only one conservative clean "
+            "Taiwan lag pair is currently publishable"
+        ),
         "- values are derived from current public ledgers only",
         "",
         "## Mismatch section",

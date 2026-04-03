@@ -21,7 +21,7 @@ This is a first bounded route read, not a final coherence estimator.
 
 ### 1. Issuing-centre stability
 
-- `strategic executive coordination` issues `22 / 35` coded events
+- `strategic executive coordination` issues `25 / 38` coded events
 
 Interpretation:
 
@@ -47,13 +47,15 @@ The seeded main-interval chain is:
 14. `2020-04-20` implementation and compliance framework detailed
 15. `2020-04-20` Police confirm visible compliance, cross-agency support, and education-first enforcement during extended Level 4
 16. `2020-04-21` local-authority and CDEM welfare-support criteria widened
-17. `2020-04-23` Police clarify position on community checkpoints
-18. `2020-04-28` Level 3 begins
-19. `2020-04-28` Police urge the public to keep following the rules at Alert Level 3
-20. `2020-04-29` Aviation Security and Police continue joint reassurance patrols and quarantine/isolation compliance checks
-21. `2020-05-01` Police remind the public of Alert Level 3 restrictions
-22. `2020-05-06` formal Alert Level 2 preparation sets guidance, service-phasing, and public-message expectations
-23. `2020-05-08` Police remind the public New Zealand remains in Alert Level 3
+17. `2020-04-22` Level 3 powers and authorisations formalized
+18. `2020-04-23` Police clarify position on community checkpoints
+19. `2020-04-28` Level 3 begins
+20. `2020-04-28` Police urge the public to keep following the rules at Alert Level 3
+21. `2020-04-29` Aviation Security and Police continue joint reassurance patrols and quarantine/isolation compliance checks
+22. `2020-05-01` Police remind the public of Alert Level 3 restrictions
+23. `2020-05-04` review-preparation for New Zealand's Level 3 status formalized
+24. `2020-05-06` formal Alert Level 2 preparation sets guidance, service-phasing, and public-message expectations
+25. `2020-05-08` Police remind the public New Zealand remains in Alert Level 3
 
 Interpretation:
 
@@ -63,12 +65,13 @@ This is not a random pile of crisis events. It is a staged sequence in which bor
 
 The seeded de-escalation chain is:
 
-1. `2020-05-11` Level 2 decision announced
-2. `2020-05-12` national transition period planning formalized in a joint DPMC/NEMA briefing
-3. `2020-05-13` legal framework for Level 2 passes
-4. `2020-05-13` state of national emergency lifted and national transition period begins
-5. `2020-05-14` Level 2 begins
-6. `2020-06-08` Level 1 begins and the national transition period ends
+1. `2020-05-11` Review of Alert Level 3 completed in Cabinet material
+2. `2020-05-11` Level 2 decision announced
+3. `2020-05-12` national transition period planning formalized in a joint DPMC/NEMA briefing
+4. `2020-05-13` legal framework for Level 2 passes
+5. `2020-05-13` state of national emergency lifted and national transition period begins
+6. `2020-05-14` Level 2 begins
+7. `2020-06-08` Level 1 begins and the national transition period ends
 
 Interpretation:
 
@@ -76,7 +79,7 @@ The route also shows a coherent de-escalation pattern rather than a simple disap
 
 ### 4. Public-information coupling
 
-- events with explicit public-information markers: `22 / 35`
+- events with explicit public-information markers: `22 / 38`
 
 Interpretation:
 
@@ -86,7 +89,7 @@ The current seed suggests that coherence in this route depends partly on public-
 
 The most defensible current reading is:
 
-**The seed route already shows moderate-to-strong coherence in the form of stable issuing-centre continuity and staged escalation, implementation thickening, easing preparation, late-transition continuity, and de-escalation sequences, rather than abrupt incoherent switching between unrelated response modes.**
+**The seed route already shows moderate-to-strong coherence in the form of stable issuing-centre continuity and staged escalation, implementation thickening, authority-review preparation, late-transition continuity, and de-escalation sequences, rather than abrupt incoherent switching between unrelated response modes.**
 
 That reading is still bounded:
 

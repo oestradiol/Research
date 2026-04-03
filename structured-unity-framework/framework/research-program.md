@@ -17,7 +17,7 @@ The package is now a **bounded public `v1.0.0` release** rather than only a draf
 
 The New Zealand route now also carries a route-local estimator implementation and a source-admission rule that accepts new official events only when both the live source and a fixed archive are verified.
 
-Hosted publication mechanics are now complete. Local metadata, licensing, package scaffolding, hosted URLs, and first release packaging are already in place; the remaining burden is empirical and methodological rather than launch setup.
+Hosted publication mechanics are complete. Local metadata, licensing, package scaffolding, hosted URLs, and first release packaging are already in place; current `main` now carries the active-core completion state, so the remaining burden is later expansion rather than unfinished launch setup.
 
 ## 3. First active route
 
@@ -264,7 +264,7 @@ These items remain open without undermining the current research-ready public pa
 - transfer or refinement of the first route-local estimator layer beyond the current case
 - final corpus completeness for the New Zealand route
 - route-specific software or workflow choices for coding and analysis
-- deeper comparative execution beyond the current Taiwan starter tranche
+- deeper comparative execution beyond the current bounded Taiwan comparator
 - wider atlas expansion beyond the targeted public map
 
 ## 13. Reviewer-pressure points

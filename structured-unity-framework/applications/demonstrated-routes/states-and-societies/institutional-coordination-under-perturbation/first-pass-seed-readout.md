@@ -29,28 +29,28 @@ This pass stays deliberately simple:
 | Window | Coded events | `sigma3`-tagged events | Events with explicit public-information markers | Mean receiving-unit breadth |
 |---|---:|---:|---:|---:|
 | Comparator A markers | 2 | 1 | 1 | 3.5 |
-| Main perturbation interval seed | 27 | 25 | 16 | 3.6 |
-| Comparator B boundary markers | 6 | 6 | 5 | 3.8 |
+| Main perturbation interval seed | 29 | 27 | 16 | 3.7 |
+| Comparator B boundary markers | 7 | 7 | 5 | 4.0 |
 
 ## Simple counts from the current seed ledger
 
 ### Issuing-unit concentration
 
-- `strategic executive coordination` issues `22/35` coded events
-- `enforcement and compliance` issues `7/35`
-- `emergency-management coordination` issues `4/35`
-- `public-health policy and command` issues `1/35`
-- `public-service system coordination` issues `1/35`
+- `strategic executive coordination` issues `25/38` coded events
+- `enforcement and compliance` issues `7/38`
+- `emergency-management coordination` issues `4/38`
+- `public-health policy and command` issues `1/38`
+- `public-service system coordination` issues `1/38`
 
 ### Receiving-unit participation
 
-- `public-health policy and command` receives `30/35` events
-- `public-information coordination` receives `30/35` events
-- `public-service system coordination` receives `23/35` events
-- `enforcement and compliance` receives `19/35` events
-- `border-control coordination` receives `12/35` events
-- `emergency-management coordination` receives `9/35` events
-- `strategic executive coordination` receives `4/35` events
+- `public-health policy and command` receives `33/38` events
+- `public-information coordination` receives `33/38` events
+- `public-service system coordination` receives `26/38` events
+- `enforcement and compliance` receives `22/38` events
+- `border-control coordination` receives `13/38` events
+- `emergency-management coordination` receives `11/38` events
+- `strategic executive coordination` receives `4/38` events
 
 ## First bounded analytical yield
 
@@ -60,9 +60,9 @@ The strongest first-pass finding is simple:
 
 Why that matters:
 
-- it receives `30/35` coded events
+- it receives `33/38` coded events
 - it is explicitly marked at the alert-level transition events
-- it remains active not only at the high-acuity boundary into Level 4 but also through Level 4 implementation guidance, review-preparation and implementation papers, formal Level 2 preparation, the extended-Level-4 continuity event, checkpoint governance, repeated Level 3 guidance reminders, transition-period planning, the Comparator B legal handoff, and the move to Level 1
+- it remains active not only at the high-acuity boundary into Level 4 but also through Level 4 implementation guidance, Level 3 authority-routing and review papers, formal Level 2 preparation, the extended-Level-4 continuity event, checkpoint governance, repeated Level 3 guidance reminders, transition-period planning, the Comparator B legal handoff, and the move to Level 1
 
 That is already a useful distinction. Flatter coordination language can treat communication as an after-the-fact wrapper around "real" executive action. The seed ledger does not support that flattening. It suggests that public-information coordination is part of the working coordination architecture itself.
 
@@ -72,7 +72,7 @@ The perturbation interval is not just "more crisis." It shows:
 
 - a visibly thicker strategic issuing centre
 - higher whole-system tagging through `sigma3`
-- a more border-, welfare-, legal-, public-information-, compliance-, and transition-staging-heavy dependency mix once the direct DPMC and Police papers are added
+- a more border-, welfare-, legal-, public-information-, compliance-, and review-staging-heavy dependency mix once the fuller late-transition DPMC layer is added
 - a visibly thicker late-transition continuity layer rather than a sharp drop from late April into mid-May
 
 That is a meaningful route gain even before final estimators are built. It shows that the framework can separate:
@@ -107,8 +107,8 @@ That is still bounded, but it is no longer empty.
 The next practical move is to keep the route empirical without overreaching:
 
 1. keep the current route-local estimator implementation fixed unless the denser route forces a rule change
-2. stress-test the current `I`, `C`, and `L` passes, the first conjoint window comparison, and the expanded sensitivity/null note against the now-`35`-event chain
-3. then move from first bounded comparisons to broader comparative execution
+2. stress-test the current `I`, `C`, and `L` passes, the first conjoint window comparison, and the expanded sensitivity/null note against the now-`38`-event chain
+3. then keep external comparison bounded while the current `15`-event Taiwan branch is pressure-tested
 
 ## Status
 

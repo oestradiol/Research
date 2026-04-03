@@ -2,7 +2,11 @@
 
 ## Unreleased
 
-- no changes recorded after the hosted `v1.0.0` release
+- current `main` now carries the active-core completion state beyond the hosted `v1.0.0` snapshot
+- New Zealand demonstrated route hardened from the hosted `35`/`27` baseline to `38` coded events with a `29`-event main interval
+- bounded Taiwan comparator extended from the hosted `12`-event starter to `15` archive-clean official events with clearer health, border, compliance, and public-alignment separation
+- current status, payoff, publication-scope, roadmap, and methods-facing surfaces synchronized to the hosted-snapshot versus current-main split
+- tooling-ready read-only validation support now checks stable public status surfaces in addition to route, comparison, version, archive, link, knowledge, and release-hygiene surfaces
 
 ## `v1.0.0` - 2026-04-02
 

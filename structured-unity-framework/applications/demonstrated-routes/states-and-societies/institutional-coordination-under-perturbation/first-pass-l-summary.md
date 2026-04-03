@@ -21,7 +21,7 @@ Confirmed staged pairs in the seed:
 
 These are still coarse. They are enough for a first bounded lag read, not for a final latency estimator.
 
-The newly admitted DPMC events around `2020-03-31`, `2020-04-02`, `2020-04-09`, `2020-04-14`, `2020-04-21`, `2020-05-06`, and `2020-05-12` thicken the implementation context around these pairs. Under the current route-local pairing rule, the `2020-05-06` Level 2 preparation paper and the `2020-05-12` transition-period planning briefing now add new clean public pairings on the de-escalation side.
+The newly admitted DPMC events around `2020-03-31`, `2020-04-02`, `2020-04-09`, `2020-04-14`, `2020-04-21`, `2020-04-22`, `2020-05-04`, `2020-05-06`, `2020-05-11`, and `2020-05-12` thicken the implementation context around these pairs. Under the current route-local pairing rule, the `2020-05-06` Level 2 preparation paper and the `2020-05-12` transition-period planning briefing remain the clearest additional clean public pairings on the de-escalation side.
 
 ## Current paired gaps
 
@@ -44,7 +44,7 @@ The newly admitted DPMC events around `2020-03-31`, `2020-04-02`, `2020-04-09`, 
 
 The most defensible current reading is:
 
-**The seed route already shows short-to-moderate non-zero staging lags, which suggests a coordination system that is neither instantaneous nor randomly delayed, but operating through compressed and variable preparation intervals. The current lag surface now spans acute escalation, two longer easing-preparation intervals, transition planning, and legal handoff into de-escalation.**
+**The seed route already shows short-to-moderate non-zero staging lags, which suggests a coordination system that is neither instantaneous nor randomly delayed, but operating through compressed and variable preparation intervals. The current lag surface now spans acute escalation, two longer easing-preparation intervals, transition planning, legal handoff into de-escalation, and a denser review context around the Level 2 shift.**
 
 That matters because:
 

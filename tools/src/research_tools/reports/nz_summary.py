@@ -41,6 +41,9 @@ def compute_route_summary(route_name: str, events: list[LedgerEvent]) -> RouteSu
     active_edges, weighted_cross, weighted_total = _cross_cluster_counts(events)
     issuer_counts = Counter(event.issuing_unit for event in events)
     top_issuer, top_issuer_count = issuer_counts.most_common(1)[0]
+    top_issuers = tuple(
+        issuer for issuer, count in issuer_counts.items() if count == top_issuer_count
+    )
     pi_receiving = sum(
         1 for event in events if "public-information coordination" in event.receiving_units
     )
@@ -60,6 +63,7 @@ def compute_route_summary(route_name: str, events: list[LedgerEvent]) -> RouteSu
         weighted_cross_cluster_denominator=weighted_total,
         weighted_cross_cluster_share=weighted_cross / weighted_total,
         top_issuer=top_issuer,
+        top_issuers=top_issuers,
         top_issuer_count=top_issuer_count,
         public_information_receiving_count=pi_receiving,
         mean_receiving_breadth=mean_breadth,

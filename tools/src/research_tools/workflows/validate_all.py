@@ -11,6 +11,7 @@ from research_tools.validate.links import validate_markdown_links
 from research_tools.validate.release_hygiene import validate_release_hygiene
 from research_tools.validate.route_consistency import validate_nz_route, validate_taiwan_route
 from research_tools.validate.sources import validate_source_registry
+from research_tools.validate.status_surfaces import validate_status_surfaces
 from research_tools.validate.versions import validate_versions
 
 
@@ -32,6 +33,7 @@ def collect_validation_results(paths: RepoPaths) -> list[ValidationResult]:
     results.extend(validate_taiwan_route(paths.taiwan_route_root, source_index))
     results.extend(validate_knowledge_package(paths.knowledge_root))
     results.extend(validate_versions(paths))
+    results.extend(validate_status_surfaces(paths))
     results.extend(validate_release_hygiene(paths.research_root))
     return results
 

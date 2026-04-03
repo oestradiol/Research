@@ -27,7 +27,7 @@ Careful uses of subjectivity-like or higher-order agency language may appear as 
 
 ## 5. What remains open
 
-See `project-status.md`, `pending-inventory.md`, `contribution-and-payoff-note.md`, `../framework/research-program.md`, and `../framework/iaf-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper estimator pressure, and publication-finalization work.
+See `project-status.md`, `pending-inventory.md`, `contribution-and-payoff-note.md`, `../framework/research-program.md`, and `../framework/iaf-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper estimator pressure, and later deferred expansion beyond the active public core.
 
 ### 5.1 Strongest unresolved objections
 

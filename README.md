@@ -8,7 +8,9 @@ shared tooling package:
 - [tools/](tools/README.md) — the reproducibility and validation support package
 - [using-this-research-with-human-assistants-and-reasoning-agents.md](using-this-research-with-human-assistants-and-reasoning-agents.md) — guidance for collaborative and accessibility-support use
 
-Current snapshot: **`v1.0.0`** dated **2026-04-02**.
+Hosted snapshot: **`v1.0.0`** dated **2026-04-02**.
+
+Current `main` state: post-`v1.0.0` active-core completion and tooling-ready baseline.
 
 Hosted repository: [oestradiol/Research](https://github.com/oestradiol/Research)
 
@@ -25,9 +27,9 @@ This is the first bounded public release of the full `Research/` repository:
 - [knowledge/](knowledge/README.md) is a stable sibling atlas founded on SUF
 - [tools/](tools/README.md) is the read-only validation and reproducibility layer
 
-This release is publication-ready in a bounded sense. It is **not** a claim of universal proof, final ontology, or closed empirical completion.
+This release line is publication-ready in a bounded sense. It is **not** a claim of universal proof, final ontology, or closed empirical completion.
 
-The hosted `v1.0.0` release now anchors the public citation, changelog, and release-note surfaces. Next steps are post-launch empirical and comparative work, not publication-launch mechanics.
+The hosted `v1.0.0` tag anchors the public citation, changelog, and release-note surfaces. Current `main` now carries the repo-complete active-core state with a hardened `38`-event New Zealand route, a `15`-event bounded Taiwan comparator, and a stronger read-only validation layer.
 
 For current state use `structured-unity-framework/docs/project-status.md`.
 For open work use `structured-unity-framework/docs/pending-inventory.md`.

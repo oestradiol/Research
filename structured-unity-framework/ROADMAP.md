@@ -1,59 +1,48 @@
 # Roadmap
 
-This file is future-facing only. It tracks where the public package should move next. For current state, use `docs/project-status.md`. For deferred or still-open items, use `docs/pending-inventory.md`.
+This file is future-facing only. It tracks where the public package should move next. For the current package state on `main`, use `docs/project-status.md`. For deferred or optional later work, use `docs/pending-inventory.md`.
 
-## 1. Current hosted `v1.0.0` phase
+## 1. Hosted `v1.0.0` and current `main`
 
-The package now exists as a bounded hosted `v1.0.0` public release. The next steps are no longer about inventing the structure from scratch or finishing launch mechanics; they are about empirical deepening, comparative hardening, and later versioned expansion.
+The hosted `v1.0.0` tag remains the dated bounded release.
 
-## 2. Hosted publication mechanics completed
+Current `main` now carries the repo-complete active-core and tooling-ready baseline for the same public package line. That means the near-term roadmap is no longer about launch mechanics or unfinished active-core hardening.
 
-Completed without changing the bounded `v1.0.0` release type:
+## 2. Immediate next versioned direction
 
-- public remote / hosting surface
-- hosted URLs in citation and README surfaces
-- changelog grounding to hosted version history
-- first tag preparation and repo-local release notes
+The next deliberately reopened `1.x` work should come only from explicit deferred queues such as:
 
-## 3. Post-launch empirical hardening
+- a later Taiwan de-escalation tranche
+- a second comparator route
+- analysis-ready tooling after the current read-only validation layer
+- research-ops tooling after analysis-ready work proves useful
 
-- pressure-test the locked payoff statement rather than letting it stand as a one-pass slogan
-- keep the supporting contribution claims explicit and route-visible rather than drifting back into vague synthesis language
-- use the New Zealand route to show at least one bounded case-level analytical yield over flatter coordination language
-- clarify what the Informational Awareness Framework uniquely enables downstream so it does not read as optional decorative vocabulary
+## 3. Later empirical direction
 
-- extend the New Zealand official corpus beyond the first public inventory
-- deepen the seed event ledger into a fuller chronological ledger
-- stress-test and refine the first route-local estimator implementation and the first bounded `I`, `C`, and `L` passes
-- stress-test and deepen the first conjoint `I/C/L` window comparison
-- deepen the current `14`-check sensitivity/null note into a broader perturbation program
-- keep testing the locked coding schema against real source material
-- keep the first estimator layer synchronized with explicit `(tau, sigma)` discipline
-- tighten cross-file consistency as route-level implementation choices become more concrete
-- keep the locked payoff sentence and supporting claims synchronized with what the route can actually show
+- push the New Zealand route toward monograph-scale corpus depth only if that deeper burden is deliberately reopened
+- keep the locked payoff sentence synchronized with route-visible evidence if a later tranche materially changes the support profile
+- keep the current IAF downstream-role note synchronized with route-visible evidence if later comparative work changes the support profile
 
-## 4. Later comparative work
+## 4. Later comparative direction
 
-- deepen the first New Zealand-Taiwan comparator branch beyond the current starter tranche under the same source-admission rule
-- design the Australia federal-contrast route boundary
-- decide which unit-matching rules are strict enough for comparative use
-- document the first comparative execution plan without inflating claims
+- open a second comparator route only after matched functional boundaries, unit mappings, and source control are explicit
+- decide which unit-matching rules are strict enough for comparative use before broadening claims
+- keep later comparison bounded unless the evidence base clearly supports a stronger posture
 
-## 5. Later atlas work
+## 5. Later tooling direction
+
+- `v1.5`: add analysis-ready structured exports and stronger external-analysis support while keeping docs canonical and tools read-only
+- `v1.6`: add research-ops maintenance and workflow infrastructure only after the need is real
+- keep any future automation explicitly gated and ADR-backed
+
+## 6. Later atlas direction
 
 - deepen atlas nodes that become active routes
 - keep the targeted atlas bounded rather than letting it become a giant undisciplined graph
 - add new routes only when boundaries, units, windows, and sources are explicit from the start
 
-## 6. Longer-horizon versioning
+## 7. Later frontier direction
 
-- treat `1.0.0` as the first bounded publication-ready hosted release, not as universal proof
-- use later `1.x` releases for empirical deepening, comparative hardening, and reproducibility expansion
-- reserve larger version jumps for real architectural or scope changes rather than routine route growth
-
-## 7. Later-horizon frontier branches
-
-- keep the quantum-relational / consciousness branch explicitly post-proof and bounded to frontier-note status until the current NZ/Taiwan execution burden is materially stronger
-- keep the computational / simulation-universe branch more quarantined still; it should remain internal until a dedicated compatibility table exists against Structural Phenomenology, IAF, Framework Interface, and simulation-inflation cautions
-- keep AGI SUF later than both the consciousness branch and the computational branch; it should remain distinct from the current non-anthropomorphic AI coordination node
-- none of these branches changes the near-term execution queue around corpus deepening, comparative hardening, and payoff pressure-testing
+- keep the quantum-relational and consciousness branch explicitly post-core and bounded
+- keep the computational or simulation-universe branch more quarantined still
+- keep AGI SUF later than both of those branches

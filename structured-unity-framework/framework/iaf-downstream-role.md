@@ -85,7 +85,7 @@ In route design, IAF helps justify attention to:
 The current route evidence supports this role at the model-and-method level:
 
 - in New Zealand, public-information coordination remains structurally central across escalation, implementation thickening, late-transition continuity, formal Level 2 preparation, and de-escalation
-- in Taiwan's starter tranche, public-information coordination remains central even after the branch grows beyond a minimal command-centre pilot
+- in Taiwan's bounded comparator, public-information coordination remains central even after the branch grows beyond a command-centre-heavy starter
 - in both cases, reporting, guidance, and recursive adjustment surfaces remain analytically useful without requiring stronger ontology
 
 ## Boundary rule

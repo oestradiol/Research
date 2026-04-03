@@ -44,8 +44,8 @@ def test_nz_summary_report_renders_current_metrics() -> None:
         generated_at="2026-04-02T00:00:00+00:00",
     )
 
-    assert "`35`" in output
-    assert "`27`" in output
+    assert "`38`" in output
+    assert "`29`" in output
     assert "- none" in output
 
 
@@ -60,7 +60,7 @@ def test_nz_window_comparison_report_renders_expected_rows() -> None:
     )
 
     assert "Main perturbation interval" in output
-    assert "`27`" in output
+    assert "`29`" in output
 
 
 def test_nz_lag_report_renders_expected_pairs() -> None:
@@ -97,7 +97,8 @@ def test_nz_taiwan_summary_report_renders_expected_rows() -> None:
         generated_at="2026-04-02T00:00:00+00:00",
     )
 
-    assert "`12`" in output
+    assert "`15`" in output
+    assert "public-health policy and command / border-control coordination = 6 / 15 each" in output
     assert "public-information receiving share" in output
     assert "- none" in output
 

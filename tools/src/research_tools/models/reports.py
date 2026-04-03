@@ -25,6 +25,7 @@ class RouteSummary:
     weighted_cross_cluster_denominator: int
     weighted_cross_cluster_share: float
     top_issuer: str
+    top_issuers: tuple[str, ...]
     top_issuer_count: int
     public_information_receiving_count: int
     mean_receiving_breadth: float
