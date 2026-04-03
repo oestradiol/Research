@@ -115,12 +115,19 @@ def validate_knowledge_package(knowledge_root: Path) -> list[ValidationResult]:
 
     knowledge_map_root = knowledge_root / "map"
     role_tokens = ("primary_scaffold", "supporting_scaffold", "domain_native_lead")
+    hub_markers = (
+        'status: "deepened hub node"',
+        "status: 'deepened hub node'",
+        "knowledge/status/deepened-hub",
+        "suf/hub",
+    )
     role_failures: list[str] = []
 
     if knowledge_map_root.exists():
         for markdown_file in knowledge_map_root.rglob("*.md"):
             text = markdown_file.read_text(encoding="utf-8")
-            if "SUF" in text and not any(token in text for token in role_tokens):
+            is_deepened_hub = any(marker in text for marker in hub_markers)
+            if is_deepened_hub and "SUF" in text and not any(token in text for token in role_tokens):
                 role_failures.append(str(markdown_file))
 
     results.append(
@@ -128,11 +135,11 @@ def validate_knowledge_package(knowledge_root: Path) -> list[ValidationResult]:
             check_name="knowledge-map-suf-role-discipline",
             status="pass" if not role_failures else "fail",
             message=(
-                "Knowledge map notes that foreground SUF also state an explicit SUF role."
+                "Deepened hub notes that foreground SUF also state an explicit SUF role."
                 if not role_failures
-                else "Some Knowledge map notes foreground SUF without stating an explicit SUF role."
+                else "Some deepened hub notes foreground SUF without stating an explicit SUF role."
             ),
-            expected="SUF-foregrounding notes include primary_scaffold, supporting_scaffold, or domain_native_lead",
+            expected="Deepened SUF-foregrounding hub notes include primary_scaffold, supporting_scaffold, or domain_native_lead",
             found=", ".join(role_failures) if role_failures else "none",
         )
     )
