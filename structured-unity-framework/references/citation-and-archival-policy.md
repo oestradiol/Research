@@ -32,7 +32,7 @@ For government pages, inquiry pages, ministry pages, NGO reports, portals, and b
 - record the access date in the registry
 - record the archive-check date in the registry
 
-The current package uses Wayback lookup links in the form `https://web.archive.org/web/*/<original-url>` when a fixed capture could not be minted from the current environment. If a fixed archive capture or Perma link is added later, replace the lookup link with that more specific archive URL.
+The current public registry no longer depends on wildcard Wayback lookup links. If a future pass cannot mint a fixed capture from the current environment, use a temporary fallback only until a specific capture or Perma link is available, then replace it with that exact archive URL.
 
 When a cited catalog page or edition record has an associated Internet Archive item record that materially improves durability, that item record can serve as the archive pointer instead of a Wayback link.
 

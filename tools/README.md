@@ -4,7 +4,7 @@
 
 This package provides reproducible, read-only research-support tooling for the `Research/` repository.
 
-The first tranche is scoped to Structured Unity Framework (SUF). It validates current public research surfaces and generates deterministic read-only reports for human review.
+The first tranche is scoped to Structured Unity Framework (SUF) route and source work while also covering repository-wide Markdown link validation across `Research/`. It validates current public research surfaces and generates deterministic read-only reports for human review.
 
 This package does **not**:
 
@@ -16,7 +16,7 @@ This package does **not**:
 
 Tranche 1 supports:
 
-- Markdown link validation across `Research/structured-unity-framework/`
+- Markdown link validation across `Research/`
 - source-registry shape and archive validation
 - New Zealand route parsing and consistency checks
 - Taiwan starter-route parsing and consistency checks
@@ -59,7 +59,7 @@ research-tools report nz-taiwan-summary
 
 ## Output policy
 
-- validation commands are read-only with respect to repo-tracked SUF docs
+- validation commands are read-only with respect to repo-tracked Research docs
 - report commands write Markdown under `out/`
 - generated outputs are provisional and require human review
 - mismatches are reported, not auto-applied
@@ -76,4 +76,4 @@ Important tooling decisions are tracked in:
 
 ## Status
 
-`tranche-1 tooling scaffold`
+`tranche-1 tooling active`

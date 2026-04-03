@@ -105,6 +105,10 @@ This page is the site map for the Structured Unity Framework public package: eve
 
 - [../../using-this-research-with-human-assistants-and-reasoning-agents.md](../../using-this-research-with-human-assistants-and-reasoning-agents.md) — guidance for human readers, reasoning agents, and accessibility-support workflows
 
+## Shared tooling
+
+- [../../tools/README.md](../../tools/README.md) — read-only validation and reproducibility support for the Research repository
+
 ## Related project
 
 - [../../knowledge/README.md](../../knowledge/README.md) — sibling Obsidian-first knowledge atlas founded on SUF

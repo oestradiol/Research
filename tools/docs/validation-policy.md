@@ -6,11 +6,11 @@ This package validates structure, parseability, consistency, and deterministic r
 
 ## What tranche 1 validates
 
-- Markdown link integrity in `Research/structured-unity-framework/`
+- Markdown link integrity in `Research/`
 - source-registry shape
 - archive-link shape
 - event-ledger schema
-- route-summary consistency against current published docs
+- route-summary consistency against current SUF published docs
 
 ## What tranche 1 does not decide
 

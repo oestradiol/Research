@@ -11,7 +11,7 @@ Use it when you need:
 - the access or verification date
 - a short note on what a source supports and what it does not justify
 
-All entries in this pass were checked on `2026-04-02`. DOI-backed entries use the DOI URL as the primary persistent pointer. Non-DOI entries use the original public page plus an archive link. Where a fixed Wayback capture was confirmed in this pass, the registry now points to that exact capture. Where a fixed capture could not be confirmed cleanly, the registry keeps the Wayback lookup link. For non-DOI entries, `Accessed` also serves as the archive-check date in this pass unless a later refresh records a separate archive date.
+All entries in this pass were checked on `2026-04-02`. DOI-backed entries use the DOI URL as the primary persistent pointer. Non-DOI entries use the original public page plus a specific archive surface. The current public registry no longer relies on wildcard Wayback lookup links. For non-DOI entries, `Accessed` also serves as the archive-check date in this pass unless a later refresh records a separate archive date.
 
 ## 2. Framework grounding and methods
 

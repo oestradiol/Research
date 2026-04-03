@@ -4,7 +4,7 @@
 
 `Research/tools/` is a read-only tooling layer for validating and summarizing research artifacts in `Research/`.
 
-The first tranche is scoped to SUF.
+The first tranche is route-focused on SUF, but repository-wide Markdown link validation already spans the full `Research/` tree.
 
 ## Module boundaries
 
@@ -26,6 +26,7 @@ The first tranche is scoped to SUF.
 - New Zealand is the primary validated route
 - Taiwan is the current starter comparator
 - route metrics are derived from public Markdown, not an external database
+- Taiwan comparator files currently live inside the same case directory as the New Zealand route package
 
 ## Output rule
 

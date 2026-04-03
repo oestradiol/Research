@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from research_tools.paths import get_paths
 from research_tools.validate.links import validate_markdown_links
 
 
@@ -13,3 +14,10 @@ def test_link_validator_catches_missing_relative_target(tmp_path: Path) -> None:
 
     assert any(result.status == "fail" for result in results)
     assert any(result.expected == "missing.md" for result in results if result.status == "fail")
+
+
+def test_research_markdown_links_resolve() -> None:
+    paths = get_paths()
+    results = validate_markdown_links(paths.research_root)
+
+    assert not any(result.status == "fail" for result in results)

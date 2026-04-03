@@ -77,12 +77,12 @@ This output is read-only and provisional until a human reviews it.
 
 def handle_validate_links(_: argparse.Namespace) -> int:
     paths = get_paths()
-    results = validate_markdown_links(paths.suf_root)
+    results = validate_markdown_links(paths.research_root)
     output = _render_simple_results(
         "Validate Links",
         _generated_at(),
         results,
-        [paths.suf_root],
+        [paths.research_root],
     )
     output_path = _write_output("validate-links.md", output)
     print(output_path)
@@ -152,7 +152,7 @@ def handle_validate_all(_: argparse.Namespace) -> int:
     entries = parse_source_registry(paths.source_registry)
     index = source_registry_index(entries)
     results = []
-    results.extend(validate_markdown_links(paths.suf_root))
+    results.extend(validate_markdown_links(paths.research_root))
     results.extend(validate_source_registry(entries))
     results.extend(validate_archive_links(entries))
     results.extend(validate_nz_route(paths.nz_route_root, index))
@@ -161,7 +161,7 @@ def handle_validate_all(_: argparse.Namespace) -> int:
         generated_at=_generated_at(),
         results=results,
         source_files=[
-            paths.suf_root,
+            paths.research_root,
             paths.source_registry,
             paths.nz_route_root / "event-ledger-seed.md",
             paths.taiwan_route_root / "taiwan-event-ledger-seed.md",

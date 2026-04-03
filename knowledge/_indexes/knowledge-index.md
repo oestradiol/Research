@@ -6,7 +6,7 @@
 - [Knowledge Package Spec](../Knowledge Package Spec.md)
 - [SUF Relationship](../suf-relationship.md)
 - [Studying and Teaching with SUF](../studying-and-teaching-with-suf.md)
-- [Using This Research with Human Assistants and Reasoning Agents](../using-this-research-with-human-assistants-and-reasoning-agents.md)
+- [Using This Research with Human Assistants and Reasoning Agents](../../using-this-research-with-human-assistants-and-reasoning-agents.md)
 - [Map Overview](../map/README.md)
 - [Cluster Index](cluster-index.md)
 - [Node Index](node-index.md)

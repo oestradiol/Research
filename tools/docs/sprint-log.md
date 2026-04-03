@@ -43,9 +43,18 @@ Create the first strict-gated tooling package for SUF validation and read-only r
 
 ### Next tasks
 
-- stabilize the first validation outputs under Nix
+- extend validation beyond SUF route surfaces where that adds real value
+- add Knowledge-specific validators and graph checks
 - extend Taiwan support when the comparator branch deepens
 - decide when to add richer report exports
+
+### Verified outcomes
+
+- `nix develop` + local `.venv` workflow confirmed
+- editable install confirmed with `--system-site-packages` and `--no-build-isolation`
+- `ruff check .` passing
+- `pytest` passing
+- report and validation commands generating outputs under `out/`
 
 ## Status
 

@@ -105,6 +105,8 @@ Public prose also follows an explicit anti-inflation rule: critique should focus
 
 For collaborative use guidance, see [Using This Research with Human Assistants and Reasoning Agents](../using-this-research-with-human-assistants-and-reasoning-agents.md).
 
+For reproducibility and validation support, see [Research Tools](../tools/README.md).
+
 ## 10. Creator and attribution
 
 Creator and maintainer:
