@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -56,7 +57,18 @@ def sync_manifest(manifest_path: Path) -> None:
     _write_json(manifest_path, manifest)
 
 
+def sync_edit_baseline(baseline_path: Path) -> None:
+    baseline_rel = baseline_path.relative_to(BASE).as_posix()
+    files = [rel for rel in _actual_files(BASE, "") if rel != baseline_rel]
+    baseline = {"version": "0.1.0", "files": [{"path": rel, "sha256": _sha(BASE / rel)} for rel in files]}
+    _write_json(baseline_path, baseline)
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--include-edit-baseline", action="store_true")
+    args = parser.parse_args()
+
     for rel in [
         'governance/REPOSITORY_FILE_REGISTRY_v0_1.json',
         'structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json',
@@ -67,7 +79,11 @@ def main() -> None:
         'structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json',
     ]:
         sync_manifest(BASE / rel)
-    print('Synced repository file registries and integrity manifests.')
+    if args.include_edit_baseline:
+        sync_edit_baseline(BASE / 'governance/REPOSITORY_EDIT_BASELINE_v0_1.json')
+        print('Synced repository file registries, integrity manifests, and edit baseline.')
+    else:
+        print('Synced repository file registries and integrity manifests.')
 
 
 if __name__ == '__main__':

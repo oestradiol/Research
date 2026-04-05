@@ -29,6 +29,30 @@
       "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
       "needle": "## Provenance",
       "message": "Contribution surface keeps provenance explicit after consolidation."
+    },
+    {
+      "check_name": "suf-audit-inferential-trail",
+      "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
+      "needle": "### Inferential trail `IT-001`",
+      "message": "Audit surface preserves the locked-payoff inferential trail."
+    },
+    {
+      "check_name": "suf-audit-payoff-revision-trigger",
+      "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
+      "needle": "### Weakening conditions and revision triggers",
+      "message": "Audit surface keeps explicit weakening conditions for the locked payoff sentence."
+    },
+    {
+      "check_name": "suf-control-interpretive-pressure",
+      "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "needle": "## Interpretive pressure and minimum challenge tooling",
+      "message": "Control surface names interpretive pressure as current control work."
+    },
+    {
+      "check_name": "suf-execution-parallel-instrumentation",
+      "path": "structured-unity-framework/docs/current-execution-order.md",
+      "needle": "run minimum challenge tooling in parallel",
+      "message": "Execution-order surface keeps bounded instrumentation parallel to Taiwan work."
     }
   ],
   "absent": [

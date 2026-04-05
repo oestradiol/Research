@@ -1,9 +1,67 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 from research_tools.models.reports import ValidationResult
+
+
+SUPPORT_SURFACE_BOUNDARY_EXPECTATIONS = {
+    "structured-unity-framework/framework/research-program.md": {
+        "contains": [
+            "It does not replace the theory stack, prove phenomenology from metrics, or claim that one case confirms the whole framework.",
+            "It does not freeze one threshold system, one weighting scheme, or one aggregation formula across all future domains.",
+            "The package should not imply that current route-local estimators already yield objective cross-domain measurement or mature high-fit prediction.",
+        ],
+        "absent_patterns": [
+            {
+                "label": "conclusive-proof-across-all-domains",
+                "pattern": r"(?i)\b(?:is|was|has been|already is|already been)\s+conclusively\s+proven\s+across\s+all\s+domains\b",
+            },
+            {
+                "label": "empirically-closed-across-all-future-domains",
+                "pattern": r"(?i)\ball\s+future\s+domains\s+(?:are|were|remain|seem|look)\s+already\s+empirically\s+closed\b",
+            },
+        ],
+    },
+    "structured-unity-framework/applications/README.md": {
+        "contains": [
+            "does **not** imply that SUF is already validated across every mapped area.",
+            "demonstrated routes",
+            "research map",
+        ],
+        "absent_patterns": [
+            {
+                "label": "all-applications-empirically-closed",
+                "pattern": r"(?i)\ball\s+applications\s+(?:are|were|remain|seem|look)\s+already\s+empirically\s+closed\b",
+            },
+            {
+                "label": "layer-proves-suf-universally",
+                "pattern": r"(?i)\bthis\s+layer\s+proves\s+SUF\s+universally\b",
+            },
+        ],
+    },
+    "structured-unity-framework/meta/publication-scope.md": {
+        "contains": [
+            "The package is active, but not empirically closed.",
+            "that one demonstrated route proves the framework universally",
+            "that the current package already yields objectively settled cross-domain measurement or strong predictive closure",
+        ],
+        "absent_patterns": [],
+    },
+}
+
+
+EDIT_SCOPE_CURRENT_SURFACE_REGISTRIES = [
+    "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+    "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+]
+
+
+def _sha256(path: Path) -> str:
+    import hashlib
+    return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 ROUTING_SURFACES = {
@@ -74,8 +132,25 @@ def _read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _safe_read_text(path: Path) -> tuple[str | None, str | None]:
+    if not path.exists():
+        return None, f"missing file: {path}"
+    if not path.is_file():
+        return None, f"not a regular file: {path}"
+    return path.read_text(encoding="utf-8"), None
+
+
 def _contains_result(check_name: str, path: Path, needle: str, message: str) -> ValidationResult:
-    text = path.read_text(encoding="utf-8")
+    text, error = _safe_read_text(path)
+    if error is not None:
+        return ValidationResult(
+            check_name=check_name,
+            status="fail",
+            message=f"{message} Required fragment could not be checked because the file is unavailable.",
+            path=str(path),
+            expected=needle,
+            found=error,
+        )
     ok = needle in text
     return ValidationResult(
         check_name=check_name,
@@ -88,8 +163,17 @@ def _contains_result(check_name: str, path: Path, needle: str, message: str) -> 
 
 
 def _absent_result(check_name: str, path: Path, needle: str, message: str) -> ValidationResult:
-    text = path.read_text(encoding="utf-8")
-    ok = needle not in text
+    text, error = _safe_read_text(path)
+    if error is not None:
+        return ValidationResult(
+            check_name=check_name,
+            status="fail",
+            message=f"{message} Forbidden-fragment check could not run because the file is unavailable.",
+            path=str(path),
+            expected=f"absent: {needle}",
+            found=error,
+        )
+    ok = needle.casefold() not in text.casefold()
     return ValidationResult(
         check_name=check_name,
         status="pass" if ok else "fail",
@@ -97,6 +181,29 @@ def _absent_result(check_name: str, path: Path, needle: str, message: str) -> Va
         path=str(path),
         expected=f"absent: {needle}",
         found="absent" if ok else needle,
+    )
+
+
+def _absent_pattern_result(check_name: str, path: Path, pattern: str, label: str, message: str) -> ValidationResult:
+    text, error = _safe_read_text(path)
+    if error is not None:
+        return ValidationResult(
+            check_name=check_name,
+            status="fail",
+            message=f"{message} Forbidden-pattern check could not run because the file is unavailable.",
+            path=str(path),
+            expected=f"absent pattern: {label}",
+            found=error,
+        )
+    match = re.search(pattern, text)
+    ok = match is None
+    return ValidationResult(
+        check_name=check_name,
+        status="pass" if ok else "fail",
+        message=message if ok else f"{message} Forbidden pattern present.",
+        path=str(path),
+        expected=f"absent pattern: {label}",
+        found="absent" if ok else match.group(0),
     )
 
 
@@ -212,6 +319,7 @@ def validate_current_claims(repo_root: Path) -> list[ValidationResult]:
             path = repo_root / item['path']
             results.append(_absent_result(item['check_name'], path, item['needle'], item['message']))
     results.extend(validate_current_surface_hygiene(repo_root))
+    results.extend(validate_support_surface_boundaries(repo_root))
     return results
 
 
@@ -237,7 +345,17 @@ def validate_current_surface_hygiene(repo_root: Path) -> list[ValidationResult]:
             path = repo_root / rel
             if not path.exists() or path.suffix not in {'.md', '.json', '.py'}:
                 continue
-            text = path.read_text(encoding='utf-8')
+            text, error = _safe_read_text(path)
+            if error is not None:
+                results.append(ValidationResult(
+                    check_name=f'{prefix}-surface-hygiene:{rel}',
+                    status='fail',
+                    message='Current surface hygiene could not be checked because the file is unavailable.',
+                    path=str(path),
+                    expected='no stale wrapper fragments',
+                    found=error,
+                ))
+                continue
             bad = [frag for frag in forbidden_fragments if frag in text]
             results.append(ValidationResult(
                 check_name=f'{prefix}-surface-hygiene:{rel}',
@@ -248,6 +366,235 @@ def validate_current_surface_hygiene(repo_root: Path) -> list[ValidationResult]:
                 found='ok' if not bad else ', '.join(bad),
             ))
     return results
+
+
+def validate_support_surface_boundaries(repo_root: Path) -> list[ValidationResult]:
+    results: list[ValidationResult] = []
+    for rel, expectations in SUPPORT_SURFACE_BOUNDARY_EXPECTATIONS.items():
+        path = repo_root / rel
+        for needle in expectations.get('contains', []):
+            results.append(_contains_result(
+                f'support-boundary-present:{rel}:{needle[:32]}',
+                path,
+                needle,
+                'Support surface preserves an explicit bounded-scope boundary anchor.',
+            ))
+        for needle in expectations.get('absent', []):
+            results.append(_absent_result(
+                f'support-boundary-absent:{rel}:{needle[:32]}',
+                path,
+                needle,
+                'Support surface stays free of known absolute-closure or universal-proof overclaims.',
+            ))
+        for item in expectations.get('absent_patterns', []):
+            results.append(_absent_pattern_result(
+                f"support-boundary-absent-pattern:{rel}:{item['label']}",
+                path,
+                item['pattern'],
+                item['label'],
+                'Support surface stays free of known absolute-closure or universal-proof overclaims.',
+            ))
+    return results
+
+
+
+def _canonicalize_repo_relative_path(path: str) -> str | None:
+    candidate = Path(path)
+    if candidate.is_absolute():
+        return None
+
+    parts: list[str] = []
+    for part in candidate.parts:
+        if part in ('', '.'):
+            continue
+        if part == '..':
+            if not parts:
+                return None
+            parts.pop()
+            continue
+        parts.append(part)
+
+    if not parts:
+        return None
+    return Path(*parts).as_posix()
+
+
+
+def _canonicalize_repo_relative_paths(paths: set[str] | list[str]) -> set[str]:
+    canonical: set[str] = set()
+    for path in paths:
+        normalized = _canonicalize_repo_relative_path(path)
+        if normalized is not None:
+            canonical.add(normalized)
+    return canonical
+
+
+
+def _load_current_surface_paths(repo_root: Path) -> set[str]:
+    current: set[str] = set()
+    for rel in EDIT_SCOPE_CURRENT_SURFACE_REGISTRIES:
+        registry = _read_json(repo_root / rel)
+        current.update(registry.get("current_files", []))
+    return _canonicalize_repo_relative_paths(current)
+
+
+
+def _normalize_scope_prefixes(prefixes: list[str] | tuple[str, ...]) -> tuple[str, ...]:
+    normalized: list[str] = []
+    for prefix in prefixes:
+        canonical = _canonicalize_repo_relative_path(prefix)
+        if canonical is None:
+            continue
+        normalized.append(canonical.rstrip('/') + '/')
+    return tuple(sorted(set(normalized)))
+
+
+
+def _path_matches_prefix(path: str, prefix: str) -> bool:
+    return path == prefix[:-1] or path.startswith(prefix)
+
+
+
+def _authorize_edit_path(
+    path: str,
+    *,
+    always_files: set[str],
+    declared_files: set[str],
+    always_prefixes: tuple[str, ...],
+    declared_prefixes: tuple[str, ...],
+) -> dict[str, str | bool]:
+    canonical_path = _canonicalize_repo_relative_path(path)
+    if canonical_path is None:
+        return {
+            'raw_path': path,
+            'canonical_path': '',
+            'editable': False,
+            'reason': 'invalid-path',
+            'matched_scope': '',
+        }
+
+    if canonical_path in always_files:
+        return {
+            'raw_path': path,
+            'canonical_path': canonical_path,
+            'editable': True,
+            'reason': 'always-file',
+            'matched_scope': canonical_path,
+        }
+    if canonical_path in declared_files:
+        return {
+            'raw_path': path,
+            'canonical_path': canonical_path,
+            'editable': True,
+            'reason': 'declared-file',
+            'matched_scope': canonical_path,
+        }
+    for prefix in always_prefixes:
+        if _path_matches_prefix(canonical_path, prefix):
+            return {
+                'raw_path': path,
+                'canonical_path': canonical_path,
+                'editable': True,
+                'reason': 'always-prefix',
+                'matched_scope': prefix,
+            }
+    for prefix in declared_prefixes:
+        if _path_matches_prefix(canonical_path, prefix):
+            return {
+                'raw_path': path,
+                'canonical_path': canonical_path,
+                'editable': True,
+                'reason': 'declared-prefix',
+                'matched_scope': prefix,
+            }
+    return {
+        'raw_path': path,
+        'canonical_path': canonical_path,
+        'editable': False,
+        'reason': 'out-of-scope',
+        'matched_scope': '',
+    }
+
+
+
+def validate_edit_scope(repo_root: Path) -> list[ValidationResult]:
+    policy_path = repo_root / 'governance' / 'AGENT_EDIT_SCOPE_POLICY_v0_1.json'
+    baseline_path = repo_root / 'governance' / 'REPOSITORY_EDIT_BASELINE_v0_1.json'
+
+    policy = _read_json(policy_path)
+    baseline = _read_json(baseline_path)
+
+    excluded_from_baseline = set(policy.get('excluded_from_baseline', [])) | {baseline_path.relative_to(repo_root).as_posix()}
+    baseline_entries = {entry['path']: entry['sha256'] for entry in baseline.get('files', []) if entry['path'] not in excluded_from_baseline}
+    actual_files = [rel for rel in _actual_file_list(repo_root) if rel not in excluded_from_baseline]
+    actual_hashes = {rel: _sha256(repo_root / rel) for rel in actual_files}
+
+    current_surface_files = _load_current_surface_paths(repo_root) if policy.get('include_current_surfaces', False) else set()
+    always_files = current_surface_files | _canonicalize_repo_relative_paths(policy.get('always_allowed_files', []))
+    declared_files = _canonicalize_repo_relative_paths(policy.get('declared_allowed_files', []))
+    always_prefixes = _normalize_scope_prefixes(policy.get('always_allowed_prefixes', []))
+    declared_prefixes = _normalize_scope_prefixes(policy.get('declared_allowed_prefixes', []))
+
+    changed_entries: list[dict[str, str]] = []
+    for rel, sha in sorted(actual_hashes.items()):
+        baseline_sha = baseline_entries.get(rel)
+        if baseline_sha is None:
+            changed_entries.append({'path': rel, 'change': 'new-file'})
+        elif baseline_sha != sha:
+            changed_entries.append({'path': rel, 'change': 'modified'})
+    for rel in sorted(set(baseline_entries) - set(actual_hashes)):
+        changed_entries.append({'path': rel, 'change': 'removed'})
+
+    out_of_scope = []
+    for entry in changed_entries:
+        decision = _authorize_edit_path(
+            entry['path'],
+            always_files=always_files,
+            declared_files=declared_files,
+            always_prefixes=always_prefixes,
+            declared_prefixes=declared_prefixes,
+        )
+        if not decision['editable']:
+            canonical = decision['canonical_path'] or entry['path']
+            out_of_scope.append(f"{entry['change']}:{canonical}")
+
+    declared_targets = sorted(declared_files) + sorted(declared_prefixes)
+    results = [
+        ValidationResult(
+            check_name='edit-scope-baseline-readable',
+            status='pass' if baseline_entries else 'fail',
+            message='Repository edit baseline is present and readable.' if baseline_entries else 'Repository edit baseline is missing or empty.',
+            path=str(baseline_path),
+            expected='baseline file entries available',
+            found=str(len(baseline_entries)),
+        ),
+        ValidationResult(
+            check_name='edit-scope-policy-readable',
+            status='pass',
+            message='Agent edit scope policy is present and readable.',
+            path=str(policy_path),
+            expected='policy file readable',
+            found='ok',
+        ),
+        ValidationResult(
+            check_name='edit-scope-changes-within-policy',
+            status='pass' if not out_of_scope else 'fail',
+            message='All files changed relative to the review baseline stay within current surfaces, designated work surfaces, or declared scope.' if not out_of_scope else 'Some files changed relative to the review baseline fall outside current surfaces, designated work surfaces, and declared scope.',
+            path=str(policy_path),
+            expected='all changed files within allowed scope',
+            found='ok' if not out_of_scope else '; '.join(out_of_scope[:50]),
+        ),
+        ValidationResult(
+            check_name='edit-scope-declared-scope-empty-or-explicit',
+            status='pass',
+            message='Declared edit scope remains explicit; empty means no exceptional paths are currently authorized.',
+            path=str(policy_path),
+            expected='explicit exceptional scope declaration',
+            found='none' if not declared_targets else '; '.join(declared_targets),
+        ),
+    ]
+    return results
+
 
 
 def validate_routing_surfaces(repo_root: Path) -> list[ValidationResult]:
@@ -289,7 +636,17 @@ def validate_merged_doc_quality(repo_root: Path) -> list[ValidationResult]:
     ]
     for rel, required in MERGED_DOC_EXPECTATIONS.items():
         path = repo_root / rel
-        text = path.read_text(encoding='utf-8')
+        text, error = _safe_read_text(path)
+        if error is not None:
+            results.append(ValidationResult(
+                check_name=f'merged-doc-quality:{rel}',
+                status='fail',
+                message='Merged document quality could not be checked because the file is unavailable.',
+                path=str(path),
+                expected='required headings present; no consolidation residue',
+                found=error,
+            ))
+            continue
         missing = [frag for frag in required if frag not in text]
         bad = [frag for frag in forbidden_fragments if frag in text]
         results.append(ValidationResult(

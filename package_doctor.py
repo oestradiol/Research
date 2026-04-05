@@ -21,6 +21,7 @@ from research_tools.validate.governance import (  # noqa: E402
     validate_repository_minimality,
     validate_routing_surfaces,
     validate_merged_doc_quality,
+    validate_edit_scope,
 )
 from research_tools.workflows.validate_all import collect_validation_results  # noqa: E402
 
@@ -43,6 +44,14 @@ def cleanup_transient_artifacts(base: Path) -> tuple[list[str], list[str]]:
             file_path.unlink()
             removed_files.append(file_path.relative_to(base).as_posix())
     return removed_dirs, removed_files
+
+def _safe_read_text(path: Path) -> tuple[str | None, str | None]:
+    if not path.exists():
+        return None, f"missing file: {path.relative_to(BASE).as_posix()}"
+    if not path.is_file():
+        return None, f"not a regular file: {path.relative_to(BASE).as_posix()}"
+    return path.read_text(encoding="utf-8"), None
+
 
 def main() -> None:
     checks = []
@@ -93,6 +102,30 @@ def main() -> None:
         "none" if not failed_validation else "; ".join(f"{r.check_name}:{r.message}" for r in failed_validation[:20]),
     )
 
+
+    suf_audit_path = BASE / "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md"
+    suf_control_path = BASE / "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md"
+    suf_execution_path = BASE / "structured-unity-framework/docs/current-execution-order.md"
+
+    suf_audit_text, audit_error = _safe_read_text(suf_audit_path)
+    record(
+        "suf:locked-payoff-trail-present",
+        audit_error is None and "### Inferential trail `IT-001`" in suf_audit_text and "### Weakening conditions and revision triggers" in suf_audit_text,
+        "locked payoff trail and weakening conditions must both be present" if audit_error is None else audit_error,
+    )
+    suf_control_text, control_error = _safe_read_text(suf_control_path)
+    record(
+        "suf:interpretive-pressure-surface-present",
+        control_error is None and "## Interpretive pressure and minimum challenge tooling" in suf_control_text and "O / C / M / I / P" in suf_control_text,
+        "control surface must keep interpretive-pressure language explicit" if control_error is None else control_error,
+    )
+    suf_execution_text, execution_error = _safe_read_text(suf_execution_path)
+    record(
+        "suf:execution-order-parallel-instrumentation",
+        execution_error is None and "run minimum challenge tooling in parallel" in suf_execution_text,
+        "execution order must keep minimum challenge tooling parallel to Taiwan work" if execution_error is None else execution_error,
+    )
+
     for name, results in [
         ("audit:current-surfaces", validate_current_surfaces(BASE)),
         ("audit:file-registry", validate_repository_file_registry(BASE)),
@@ -100,6 +133,7 @@ def main() -> None:
         ("audit:minimality", validate_repository_minimality(BASE)),
         ("audit:routing", validate_routing_surfaces(BASE)),
         ("audit:merged-doc-quality", validate_merged_doc_quality(BASE)),
+        ("audit:edit-scope", validate_edit_scope(BASE)),
     ]:
         failed = [r for r in results if r.status == "fail"]
         record(name, not failed, "none" if not failed else "; ".join(f"{r.check_name}:{r.message}" for r in failed[:20]))

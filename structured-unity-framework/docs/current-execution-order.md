@@ -20,10 +20,12 @@ Do now:
 Do next:
 
 - complete the Taiwan chapter-readiness pass in bounded form
+- run minimum challenge tooling in parallel so live claims keep explicit inferential pressure during Taiwan work
 
 Do after that:
 
 - open Australia in tightly bounded federal comparator form
+- deepen claim-trace and interpretive-pressure tooling only as needed to keep pace with the comparator work
 
 Do after that:
 
@@ -32,7 +34,7 @@ Do after that:
 
 Only then:
 
-- open analysis-ready tooling
+- open broader analysis-ready tooling
 - open research-ops tooling
 - reopen optional frontier branches
 
@@ -47,7 +49,7 @@ Current public surfaces already provide:
 - a bounded Taiwan comparator strong enough to justify an active chapter-readiness pass
 - a read-only control and validation layer strong enough to prevent silent drift
 
-That means later work should not spend its best effort on more front-door or boundary churn unless the Taiwan evidence actually forces a revision.
+That means later work should not spend its best effort on more front-door or boundary churn unless the Taiwan evidence actually forces a revision. It also means the package should apply bounded interpretive-pressure work now rather than waiting until all harder tooling is deferred to the end of the sequence.
 
 ## Non-priority rule
 
@@ -56,7 +58,7 @@ Do not spend current work on:
 - further public boundary rewrites that are not forced by new Taiwan evidence
 - optional atlas growth
 - closure writing before Taiwan is chapter-ready
-- tooling expansion before the comparator sequence is complete
+- broad tooling expansion before the comparator sequence is complete
 - frontier branches of any kind
 
 ## Status

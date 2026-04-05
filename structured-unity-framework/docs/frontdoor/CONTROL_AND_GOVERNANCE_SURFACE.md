@@ -7,6 +7,7 @@ This is the shortest current map of how the SUF package keeps its academic core 
 - [Current truth surfaces](#current-truth-surfaces)
 - [Checks before use](#checks-before-use)
 - [How the package resists drift](#how-the-package-resists-drift)
+- [Interpretive pressure and minimum challenge tooling](#interpretive-pressure-and-minimum-challenge-tooling)
 - [Skeptical audit](#skeptical-audit)
 - [Trust and style](#trust-and-style)
 - [Honest limit](#honest-limit)
@@ -38,16 +39,30 @@ Supporting audits:
 - `python tools/audit_current_claims.py`
 - `python tools/audit_repository_minimality.py`
 - `python tools/audit_routing_surfaces.py`
+- `python tools/audit_edit_scope.py`
 - `python tools/audit_merged_docs.py`
 
 ## How the package resists drift
 
 - current files are listed explicitly
+- agent edits are checked against a review baseline plus explicit writable-scope policy
 - integrity hashes are tracked for the current authoritative set
 - package status and execution-order surfaces are separated
 - merged docs are checked for navigation headers and provenance
 - historical or supportive material is not treated as present-tense truth by default
 - the package routes readers back to canonical academic surfaces instead of letting control docs silently take over
+
+## Interpretive pressure and minimum challenge tooling
+
+The package now treats inferential pressure as part of current control work rather than as a distant tooling-only phase. Current control should check not only that the live files are current, but also that the strongest public claim still carries an explicit dependency chain, an explicit rival reading, and explicit weakening conditions.
+
+Minimum challenge tooling for the current pass means:
+- keep the locked-payoff sentence attached to `IT-001` in `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
+- keep the trail labels `O / C / M / I / P` explicit so the package shows where observation ends and interpretation begins
+- require the current execution-order surface to keep bounded instrumentation work parallel to Taiwan chapter-readiness rather than silently deferring all harder pressure
+- treat missing inferential-trace language as a current-control failure, not merely as a future polish task
+
+These checks still do not prove truth. They create earlier pressure on the interpretive layer so the package cannot preserve a polished public sentence without also preserving the route from evidence to wording.
 
 ## Skeptical audit
 

@@ -16,7 +16,7 @@
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "17c11db112d0ebe88586f624ace95b2aaedaf25cf14efbbff3cc634d40d72ffe"
+      "sha256": "00d363fbd3cff8b56b1611020cbfa92ae8202dcb769b6489aacc86d06da62b52"
     },
     {
       "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
@@ -36,11 +36,11 @@
     },
     {
       "path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "sha256": "6486a7df11469e4d7245abe17a85e43c0bca4b9561aa09847d71b7c9aed64f56"
+      "sha256": "50edf107ef42d12c5bcc78ff9343d13a9c1962e7402307b7621b061c4dc683d3"
     },
     {
       "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "sha256": "c0d452324b86f1f76c73ad6491d1203a548c0d452a1872e1f7649f642d2d8328"
+      "sha256": "bf74bf589b50e8a67341360406aa02a9823b91f10de6f6d6ec5a129fb58e6b1b"
     },
     {
       "path": "governance/ROOT_ALLOWLIST_v0_1.json",
@@ -72,7 +72,7 @@
     },
     {
       "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
-      "sha256": "ff9abc2418899c252ef81e4a5f5b64f89c58df833996b686b59722ac82d08ab4"
+      "sha256": "b0efd4561e63ef8ed946a60c9104b6ca03d69c38d92cf95fa7221e1d3d3e3b6f"
     }
   ]
 }

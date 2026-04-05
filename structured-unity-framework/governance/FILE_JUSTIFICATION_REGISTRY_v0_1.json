@@ -3,658 +3,658 @@
   "entries": [
     {
       "path": "structured-unity-framework/.gitignore",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/CHANGELOG.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/CITATION.cff",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/CONTRIBUTING.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/LICENSE",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/README.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/ROADMAP.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/START_HERE.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/applications-index.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/demonstrated-routes-index.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/domain-clusters-index.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/relation-tags-index.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/research-map-index.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_relations/constrains.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_relations/emerges-from.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_relations/feeds-back.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_relations/formalizes.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_relations/grounds.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_relations/implements.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_relations/interprets.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_templates/case-route-template.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_templates/comparative-route-template.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_templates/domain-node-template.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/_templates/subdomain-node-template.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/future-comparative-cases.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/bounded-gain-against-simpler-readings.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/comparators-nulls-and-comparative-extension.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/estimator-implementation.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/event-ledger-seed.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-nz-taiwan-comparison-note.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-c-summary.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-dependency-graph.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-i-summary.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-l-summary.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-seed-readout.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-sensitivity-and-null-note.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-window-comparison.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/new-zealand-pandemic-case.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-boundary-and-corpus.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-de-escalation-and-lag.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-escalation-and-architecture.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-implementation-and-routing.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-robustness-and-weakenings.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-table-and-figure-plan.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/official-corpus-inventory.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/research-design.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-corpus-and-coding-protocol.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-discovery-log.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-boundary-and-corpus.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-evidence-map.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-table-and-figure-plan.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-comparator-design.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-event-ledger-seed.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-official-corpus-inventory.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/measurement-theory-and-operationalization.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/network-and-dynamical-systems.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/phenomenology-and-epistemic-grounding.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/philosophy-of-science-and-model-discipline.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/systems-theory-and-cybernetics.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/border-enforcement-and-implementation.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/crisis-governance-and-emergency-management.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-administration-and-executive-coordination.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-health-systems.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-information-and-communication.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/comparative-political-systems.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/legal-and-regulatory-order.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/organizational-coordination-and-bureaucratic-systems.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/policy-implementation-and-institutional-change.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/ai-and-multi-agent-coordination.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/comparative-pandemic-response.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/infrastructure-and-logistics-coordination.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/urban-and-regional-governance.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/applications/research-map/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/INDEX.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/claims-and-boundaries.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/current-execution-order.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/diagrams/dependency-map.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/diagrams/domain-expansion-map.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/diagrams/framework-stack.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/diagrams/reading-path.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/glossary.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/monograph-and-closure-program.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/ops/HANDOFF_GUIDE.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/ops/RELEASE_CHECKLIST_v0_1.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/pending-inventory.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/docs/project-status.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/framework/framework-interface.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/framework/iaf-downstream-role.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/framework/informational-awareness-framework.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/framework/literature-guide.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/framework/research-program.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/framework/structural-phenomenology.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
-      "role": "live_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/meta/claim-structure.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/meta/publication-scope.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/meta/risk-register.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/meta/terminology-policy.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/meta/weak-naturalization.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/references/README.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/references/citation-and-archival-policy.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/references/extended-reading-list.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/references/minimal-reading-list.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/references/source-registry.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     },
     {
       "path": "structured-unity-framework/references/standard-reading-list.md",
-      "role": "supportive_surface",
-      "justification": "Required for package routing, package governance, methods/source grounding, argument/audit support, package content, or current claim control."
+      "job": "recorded package file",
+      "reason": "current surface, package content, reference surface, or operational support"
     }
   ]
 }

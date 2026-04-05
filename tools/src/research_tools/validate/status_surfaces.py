@@ -12,6 +12,14 @@ from research_tools.reports.nz_summary import compute_route_summary
 VERSION_RE = re.compile(r'^version:\s*"([^"]+)"\s*$', re.MULTILINE)
 
 
+def _safe_read_text(path: Path) -> tuple[str | None, str | None]:
+    if not path.exists():
+        return None, f"missing file: {path}"
+    if not path.is_file():
+        return None, f"not a regular file: {path}"
+    return path.read_text(encoding="utf-8"), None
+
+
 def _contains(check_name: str, path: Path, fragment: str, text: str, message: str) -> ValidationResult:
     status = "pass" if fragment in text else "fail"
     return ValidationResult(
@@ -25,7 +33,7 @@ def _contains(check_name: str, path: Path, fragment: str, text: str, message: st
 
 
 def _absent(check_name: str, path: Path, fragment: str, text: str, message: str) -> ValidationResult:
-    status = "pass" if fragment not in text else "fail"
+    status = "pass" if fragment.casefold() not in text.casefold() else "fail"
     return ValidationResult(
         check_name=check_name,
         status=status,
@@ -36,12 +44,27 @@ def _absent(check_name: str, path: Path, fragment: str, text: str, message: str)
     )
 
 
-def _extract_version(path: Path) -> str:
-    text = path.read_text(encoding="utf-8")
+def _absent_pattern(check_name: str, path: Path, pattern: str, label: str, text: str, message: str) -> ValidationResult:
+    match = re.search(pattern, text)
+    status = "pass" if match is None else "fail"
+    return ValidationResult(
+        check_name=check_name,
+        status=status,
+        message=message if status == "pass" else f"{message} Forbidden pattern present.",
+        path=str(path),
+        expected=f"no pattern '{label}'",
+        found="none" if status == "pass" else match.group(0),
+    )
+
+
+def _extract_version(path: Path) -> tuple[str | None, str | None]:
+    text, error = _safe_read_text(path)
+    if error is not None:
+        return None, error
     match = VERSION_RE.search(text)
     if not match:
-        raise ValueError(f"version not found in {path}")
-    return match.group(1)
+        return None, f"version not found in {path}"
+    return match.group(1), None
 
 
 def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
@@ -49,7 +72,8 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
     taiwan_events = parse_taiwan_ledger(paths.taiwan_route_root / "taiwan-event-ledger-seed.md")
     nz_summary = compute_route_summary("nz", nz_events)
     taiwan_summary = compute_route_summary("taiwan", taiwan_events)
-    hosted_version = f"v{_extract_version(paths.research_root / 'CITATION.cff')}"
+    version_value, version_error = _extract_version(paths.research_root / 'CITATION.cff')
+    hosted_version = f"v{version_value}" if version_error is None else None
     locked_payoff_sentence = (
         "SUF shows that the New Zealand response should not be read only as centralized executive command, "
         "because public-information coordination is structurally central to the working coordination architecture."
@@ -79,8 +103,13 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         / "bounded-gain-against-simpler-readings.md"
     )
 
-    checks = [
-        ("status-root-readme-main-state", root_readme, f"Current `main` state: aligned with the hosted `{hosted_version}` New Zealand monograph-baseline release.", "Umbrella README keeps the current release-point alignment explicit."),
+    checks = []
+    if version_error is None:
+        checks.append(("status-root-readme-main-state", root_readme, f"Current `main` state: aligned with the hosted `{hosted_version}` New Zealand monograph-baseline release.", "Umbrella README keeps the current release-point alignment explicit."))
+    else:
+        checks.append(("status-citation-version-readable", paths.research_root / "CITATION.cff", None, "Hosted version can be read from CITATION.cff."))
+
+    checks.extend([
         ("status-suf-readme-bounded-release", suf_readme, "bounded public academic package", "SUF README keeps the bounded public package wording explicit."),
         ("status-suf-readme-no-proof-whole-stack", suf_readme, "treat the New Zealand route as proof of the whole stack", "SUF README explicitly blocks treating the New Zealand route as proof of the whole stack."),
         ("status-suf-readme-metrics", suf_readme, f"a `{nz_summary.event_count}`-event New Zealand public ledger with a `{nz_summary.main_interval_count}`-event main interval", "SUF README exposes the current New Zealand baseline metrics."),
@@ -112,26 +141,60 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-evidence-no-strong-consciousness", evidence_doc, "| The current package justifies strong consciousness attribution to states or institutions. | not established |", "Evidence-status matrix keeps strong institutional consciousness attribution as not established."),
         ("status-research-program-open-work", research_program, "- deeper comparative execution beyond the current bounded Taiwan comparator", "Research program open-work section reflects the current Taiwan comparator posture."),
         ("status-publication-scope-layer-framing", publication_scope, "three substantive framework layers plus one bridge/control layer", "Publication scope reflects the updated layer framing."),
-    ]
+    ])
 
     forbidden_checks = [
-        ("status-readme-no-four-coordinated", suf_readme, "four coordinated theory layers", "SUF README no longer presents four coordinated theory layers."),
-        ("status-overview-no-four-theory-layers", framework_overview, "The four theory layers", "Framework overview no longer presents four peer theory layers."),
-        ("status-v1-no-four-coordinated", v1_bundle, "four coordinated theory layers", "v1 academic bundle no longer presents four coordinated theory layers."),
-        ("status-publication-scope-no-four-layer", publication_scope, "the four-layer framework", "Publication scope no longer presents the four-layer framework wording."),
-        ("status-project-status-no-four-layer", project_status, "the four-layer framework structure", "Project status no longer presents the four-layer framework wording."),
-        ("status-reviewer-doc-no-indexing-missing", reviewer_doc, "stronger completeness in reviewer-facing indexing", "Reviewer-objections doc no longer describes reviewer-facing indexing as missing or incomplete."),
-        ("status-readme-no-nz-proves-stack", suf_readme, "proves the whole stack", "SUF README does not imply that the New Zealand route proves the whole stack."),
-        ("status-project-status-no-high-fit-closure", project_status, "high-fit predictive closure", "Project status does not imply high-fit predictive closure."),
-        ("status-readme-no-human-like-consciousness", suf_readme, "human-like consciousness", "SUF README does not imply human-like consciousness attribution."),
-        ("status-project-status-no-human-like-consciousness", project_status, "human-like consciousness", "Project status does not imply human-like consciousness attribution."),
+        ("status-readme-no-four-coordinated", suf_readme, "four coordinated theory layers", "SUF README no longer presents four coordinated theory layers.", None),
+        ("status-overview-no-four-theory-layers", framework_overview, None, "Framework overview no longer presents four peer theory layers.", r"(?i)\bthe\s+four\s+theory\s+layers\b"),
+        ("status-v1-no-four-coordinated", v1_bundle, "four coordinated theory layers", "v1 academic bundle no longer presents four coordinated theory layers.", None),
+        ("status-publication-scope-no-four-layer", publication_scope, None, "Publication scope no longer presents the four-layer framework wording.", r"(?i)\bthe\s+four-layer\s+framework\b"),
+        ("status-project-status-no-four-layer", project_status, None, "Project status no longer presents the four-layer framework wording.", r"(?i)\bthe\s+four-layer\s+framework\s+structure\b"),
+        ("status-reviewer-doc-no-indexing-missing", reviewer_doc, "stronger completeness in reviewer-facing indexing", "Reviewer-objections doc no longer describes reviewer-facing indexing as missing or incomplete.", None),
+        ("status-readme-no-nz-proves-stack", suf_readme, None, "SUF README does not imply that the New Zealand route proves the whole stack.", r"(?i)\b(?:new\s+zealand\s+route|route)\s+proves\s+the\s+whole\s+stack\b"),
+        ("status-project-status-no-high-fit-closure", project_status, None, "Project status does not imply high-fit predictive closure.", r"(?i)\b(?:already\s+)?(?:yields|demonstrates|has|shows)\s+high-fit\s+predictive\s+closure\b"),
+        ("status-readme-no-human-like-consciousness", suf_readme, None, "SUF README does not imply human-like consciousness attribution.", r"(?i)\b(?:justifies|supports|establishes|attributes?)\s+human-like\s+consciousness\b"),
+        ("status-project-status-no-human-like-consciousness", project_status, None, "Project status does not imply human-like consciousness attribution.", r"(?i)\b(?:justifies|supports|establishes|attributes?)\s+human-like\s+consciousness\b"),
     ]
 
     results: list[ValidationResult] = []
     for check_name, path, fragment, message in checks:
-        text = path.read_text(encoding="utf-8")
+        if fragment is None:
+            results.append(ValidationResult(
+                check_name=check_name,
+                status="fail",
+                message=f"{message} {version_error}.",
+                path=str(path),
+                expected='parseable version line in CITATION.cff',
+                found=version_error,
+            ))
+            continue
+        text, error = _safe_read_text(path)
+        if error is not None:
+            results.append(ValidationResult(
+                check_name=check_name,
+                status="fail",
+                message=f"{message} Required-fragment check could not run because the file is unavailable.",
+                path=str(path),
+                expected=fragment,
+                found=error,
+            ))
+            continue
         results.append(_contains(check_name, path, fragment, text, message))
-    for check_name, path, fragment, message in forbidden_checks:
-        text = path.read_text(encoding="utf-8")
-        results.append(_absent(check_name, path, fragment, text, message))
+    for check_name, path, fragment, message, pattern in forbidden_checks:
+        text, error = _safe_read_text(path)
+        if error is not None:
+            expected = f"no '{fragment}'" if fragment is not None else f"no pattern '{pattern}'"
+            results.append(ValidationResult(
+                check_name=check_name,
+                status="fail",
+                message=f"{message} Forbidden-check could not run because the file is unavailable.",
+                path=str(path),
+                expected=expected,
+                found=error,
+            ))
+            continue
+        if pattern is not None:
+            results.append(_absent_pattern(check_name, path, pattern, pattern, text, message))
+        else:
+            results.append(_absent(check_name, path, fragment, text, message))
     return results

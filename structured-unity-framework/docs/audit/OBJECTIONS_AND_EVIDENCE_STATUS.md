@@ -6,6 +6,7 @@ This file combines the reviewer-facing objection surface and the claim-to-eviden
 - [How to read this file](#how-to-read-this-file)
 - [Reviewer objections and current answers](#reviewer-objections-and-current-answers)
 - [Evidence-status matrix role](#evidence-status-matrix-role)
+- [Inferential audit trail and locked-payoff dependency chain](#inferential-audit-trail-and-locked-payoff-dependency-chain)
 - [Current remaining burden](#current-remaining-burden)
 - [Provenance](#provenance)
 
@@ -97,6 +98,48 @@ This file also acts as the current high-level evidence-status matrix for the mos
 | The current package has objectively settled cross-domain measurement for `I`, `C`, `L`, and `U`. | not established |
 | The current package justifies strong consciousness attribution to states or institutions. | not established |
 | SUF shows that the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture. | modeled / provisional but publicly locked |
+
+## Inferential audit trail and locked-payoff dependency chain
+
+This section makes the strongest current public sentence answerable to an explicit reasoning chain rather than to wording preservation alone.
+
+### Trail labels
+- `O` = observation drawn from the current route-visible record
+- `C` = coding or route-structuring step
+- `M` = modeling step
+- `I` = interpretation step
+- `P` = public-facing claim
+
+### Locked-payoff status rule
+The locked payoff sentence is preserved as current public wording, not as unrevisable truth. Its present-tense status remains **modeled / provisional but publicly locked**, and it stays valid only while the dependency chain below remains better supported than its listed weakening conditions.
+
+### Inferential trail `IT-001`
+- `O1`: the New Zealand route includes a `38`-event ledger, a `29`-event main interval, public-information coordination events, direct DPMC architecture anchors, and implementation-chain sources inside the bounded windows.
+- `C1`: those events are coded into the live route as dependency-bearing coordination actions rather than as one undifferentiated public narrative layer.
+- `M1`: the current route-local readout treats public-information coordination as part of the working coordination architecture when it changes dependency visibility, sequencing, or implementation pathways rather than merely communicating after the fact.
+- `I1`: within the bounded route, public-information coordination appears structurally central enough that reading the response only as centralized executive command loses explanatory structure visible in the coded architecture.
+- `P1`: **SUF shows that the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture.**
+
+### Dependency chain for `P1`
+- bounded-window chronology remains stable enough that the public-information events stay inside the live explanatory interval
+- unitization continues to treat public-information coordination as part of the bounded apparatus for structural reasons rather than symbolic prominence
+- coding decisions continue to support dependency-bearing public-information actions rather than a purely downstream messaging role
+- the current route-local estimator and architecture readout continue to leave the sentence as a better summary than the simpler executive-command-only reading
+- no later Taiwan, Australia, or alternative-framework pressure currently forces a weaker or differently shaped public summary
+
+### Strongest live alternative reading
+The package must keep the rival reading explicit: public-information coordination may still be important while remaining mostly downstream of a more conventionally centralized executive-command structure. The current package prefers `P1` only in bounded form because the route-visible architecture makes that thinner reading lose explanatory structure.
+
+### Weakening conditions and revision triggers
+Revise or weaken `P1` if any of the following recurs under current-route review:
+- boundary or unitization changes move public-information coordination back into a mostly downstream role without major explanatory loss
+- coding review shows the sentence depends mainly on a small number of fragile judgment calls
+- null, sensitivity, or comparator pressure leaves the executive-command-only reading essentially as good as the current architectural reading
+- later Taiwan or Australia work shows that the current sentence is New-Zealand-specific in a way that requires narrower public wording
+- direct alternative-framework comparison yields a better explanation of the same bounded route without needing the current payoff shape
+
+### Audit use
+Use `IT-001` when checking whether the package is preserving a conclusion more strongly than the inferential chain that supports it. The package should preserve this trail and its weakening conditions together.
 
 ## Current remaining burden
 

@@ -16,7 +16,7 @@
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "dfef44329e2d05735578524c50cbaccb9dc6d9ce732f135c0a8a2beed4455349"
+      "sha256": "701a7543b26b48b5fe1833250ca8eae37453e87cd06c0d06112e646c3ec916fc"
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
@@ -28,7 +28,7 @@
     },
     {
       "path": "structured-unity-framework/docs/current-execution-order.md",
-      "sha256": "c9688a5d4bc94551ccd50c9a43546bdbc1f143f5910c9962dcb0ff92ddb824bb"
+      "sha256": "2f782dd7ee4886421bf86b10aa4830ccb618484bd64efad387f1fec002ae5ae6"
     },
     {
       "path": "structured-unity-framework/docs/pending-inventory.md",
@@ -36,7 +36,7 @@
     },
     {
       "path": "structured-unity-framework/docs/claims-and-boundaries.md",
-      "sha256": "509696807888f2bf147a38f345d4ddf240a46e2a1895a7928fe48172ec776d14"
+      "sha256": "c34a0c07dc514132bd5746e03ced8c4755e5dd1d651e120a9341c42d9a14335a"
     },
     {
       "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
@@ -48,7 +48,7 @@
     },
     {
       "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
-      "sha256": "e64986843d4a013f68ec219338399ba736536bf8b138025337bb21ab5149bdfb"
+      "sha256": "70aeaace75c8e6b18ba03f392de6bd1a188eb61dc39cb7bcc2b5badbec3341c4"
     },
     {
       "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
@@ -76,7 +76,7 @@
     },
     {
       "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "sha256": "8c50b58f07ed6baa9e98d52c6198a8eabbb3c5be5344f1ea9248ce2a6f6c6fcb"
+      "sha256": "fcf74fa89739d48ce27b193037d01685a69d4545f8b1ffa3586046fd7d8b61a8"
     },
     {
       "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
@@ -88,7 +88,7 @@
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "sha256": "482d7904757802dd03520626f17a14c2cec65962d57c0daa9ed3d49324993ade"
+      "sha256": "78ec79bf2aaf64e2a105d92597b9e349e562129076bb32f4306ac483f7523da2"
     }
   ]
 }

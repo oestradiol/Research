@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "purpose": "Restrict agent edits to current surfaces, designated work surfaces, or explicitly declared exception scope.",
+  "include_current_surfaces": true,
+  "always_allowed_files": [
+    "package_doctor.py",
+    "research_launch_gate.py",
+    "authoritative_guard.py",
+    "using-this-research-with-human-assistants-and-reasoning-agents.md",
+    "structured-unity-framework/framework/research-program.md",
+    "structured-unity-framework/applications/README.md",
+    "structured-unity-framework/meta/publication-scope.md"
+  ],
+  "always_allowed_prefixes": [
+    "tools/"
+  ],
+  "declared_allowed_files": [],
+  "declared_allowed_prefixes": [],
+  "notes": [
+    "Current surfaces are always writable because they are the governed truth surfaces already reviewed by existing routing, integrity, and claim checks.",
+    "Tooling and package-doctor surfaces are writable because repository hardening work must be able to land without first opening unrelated prose files.",
+    "Non-current support files outside this list require explicit declaration before editing."
+  ],
+  "excluded_from_baseline": [
+    "governance/REPOSITORY_EDIT_BASELINE_v0_1.json"
+  ]
+}

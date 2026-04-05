@@ -75,3 +75,7 @@ That makes it a good support scaffold for both human assistants and reasoning ag
 - [Structured Unity Framework](structured-unity-framework/README.md)
 - [Knowledge](knowledge/README.md)
 - [Studying and Teaching with SUF](knowledge/studying-and-teaching-with-suf.md)
+
+## Edit-scope discipline
+
+Reasoning agents should stay inside current surfaces, designated work surfaces, or an explicitly declared change scope. Editing unrelated existing files should count as a control failure even when the text still sounds plausible.

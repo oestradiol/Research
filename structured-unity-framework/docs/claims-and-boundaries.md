@@ -41,6 +41,7 @@ These are known live limits, not unnoticed weaknesses:
 - route-to-framework generalization risk from one monograph-baseline route plus one bounded comparator
 - still-thin direct comparison against nearby alternative frameworks
 - measurement quality that remains proxy-based, route-local, and partly judgment-laden
+- locked-payoff path dependence unless the public sentence stays tied to its weakening conditions and rival reading
 - no present demonstration of strong cross-domain predictive fit
 
 ## 6. What the framework does not claim
@@ -60,9 +61,8 @@ The New Zealand route is a demonstrated route and the public atlas is a targeted
 For reviewer-facing objection routing and claim-status routing, use:
 
 - `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
-- `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 
-These do not replace the boundary file; they index current objections and route major claims to their present status.
+These do not replace the boundary file; they index current objections, expose the locked-payoff dependency chain through `IT-001`, and route major claims to their present status.
 
 ## 9. AI-language and credibility boundary
 

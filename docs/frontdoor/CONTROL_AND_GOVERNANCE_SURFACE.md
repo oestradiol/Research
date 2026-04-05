@@ -38,15 +38,18 @@ Supporting audits:
 - `python tools/audit_current_claims.py`
 - `python tools/audit_repository_minimality.py`
 - `python tools/audit_routing_surfaces.py`
+- `python tools/audit_edit_scope.py`
 
 ## How the repository resists sprawl
 
 - `../../governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md`
+- `../../governance/AGENT_EDIT_SCOPE_POLICY_v0_1.json`
+- `../../governance/REPOSITORY_EDIT_BASELINE_v0_1.json`
 - `../../governance/ROOT_ALLOWLIST_v0_1.json`
 - `../../governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json`
 - `../../governance/REPOSITORY_FILE_REGISTRY_v0_1.json`
 
-Rule: no root file without a clear routing, governance, licensing, citation, or operational job.
+Rule: no root file without a clear routing, governance, licensing, citation, or operational job. Agent edits outside current surfaces and designated work surfaces should fail review unless explicitly declared.
 
 ## Skeptical audit
 
