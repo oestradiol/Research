@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 01-formal-structure
-suf_role: "informational bridge node"
+suf_role: "supporting_scaffold"
 aliases:
   - information theory
 related_routes:

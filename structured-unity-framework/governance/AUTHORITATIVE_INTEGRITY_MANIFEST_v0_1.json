@@ -1,0 +1,94 @@
+{
+  "version": "0.2.3",
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "structured-unity-framework/README.md",
+      "sha256": "3c6a084ad9039d90a3c817b0c52e29bfec75ec4339bc82496e906efde8c69c9d"
+    },
+    {
+      "path": "structured-unity-framework/START_HERE.md",
+      "sha256": "9174847e086f186926398725f4a86348a31dc0a8716dce1dce4879bbe2936a92"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "sha256": "d98bca48b603c1415677f17bccec9fc50d760c6326234b42fe811e7a078ef5d8"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "sha256": "dfef44329e2d05735578524c50cbaccb9dc6d9ce732f135c0a8a2beed4455349"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
+      "sha256": "84dfd58956da4626d5c5e2bc3587a9f4ed6fe547e9f05743eaa4000f8ece6fbb"
+    },
+    {
+      "path": "structured-unity-framework/docs/project-status.md",
+      "sha256": "7c6cc691a987bb7ccc10a08aba76d66eeb2d8b74555b1e45b9a5da15447d37d2"
+    },
+    {
+      "path": "structured-unity-framework/docs/current-execution-order.md",
+      "sha256": "c9688a5d4bc94551ccd50c9a43546bdbc1f143f5910c9962dcb0ff92ddb824bb"
+    },
+    {
+      "path": "structured-unity-framework/docs/pending-inventory.md",
+      "sha256": "723b26c1bfa7e71d90cc72f837aa95990b17a6846828dbb23ee257b926309dcb"
+    },
+    {
+      "path": "structured-unity-framework/docs/claims-and-boundaries.md",
+      "sha256": "509696807888f2bf147a38f345d4ddf240a46e2a1895a7928fe48172ec776d14"
+    },
+    {
+      "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
+      "sha256": "05da8f3f62faec383af94d1df6df885b593ce6ad08fdc9b1c14fef214ffb9bf2"
+    },
+    {
+      "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
+      "sha256": "347b4ae42984cfa5e43e960fe8ab3f95b7f631ef9cc230b50c4ae31b8327c00e"
+    },
+    {
+      "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
+      "sha256": "e64986843d4a013f68ec219338399ba736536bf8b138025337bb21ab5149bdfb"
+    },
+    {
+      "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
+      "sha256": "117994c71f1154453eff0626bf1098e5fc6e32234137c344ab04c8c179db7101"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "sha256": "20287ddfb6b578e6e5eb7b1169ffca39f032ae1200bd506e9f3a511140d4234b"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
+      "sha256": "24309fbc826334450718d3a5142977137f30b8613d1cecf4c8e5232528d0cd9d"
+    },
+    {
+      "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "sha256": "8c954db281b09e7c7d75dd37e6f0311c086eac907a046690cb6b6f8525aaaaff"
+    },
+    {
+      "path": "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+      "sha256": "27def54d1a8c2588bf426aac07ef01b8551e7dc37a1033ecf0108ce8e0f2666f"
+    },
+    {
+      "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "sha256": "a43aa4d2c5b153949bcd78a28253aa97f536bbf0fc7de3ba5925de58a5f8c8eb"
+    },
+    {
+      "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "sha256": "8c50b58f07ed6baa9e98d52c6198a8eabbb3c5be5344f1ea9248ce2a6f6c6fcb"
+    },
+    {
+      "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
+      "sha256": "46799ad5f8ead16eb5b9edb98d0ec4dbb3c961da9985b7ba0439659b85fd5848"
+    },
+    {
+      "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "sha256": "d92d70fb1bf49211215bf34223afd5a21690c3b4e128aab8549d8dbc9e8fa775"
+    },
+    {
+      "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "sha256": "482d7904757802dd03520626f17a14c2cec65962d57c0daa9ed3d49324993ade"
+    }
+  ]
+}

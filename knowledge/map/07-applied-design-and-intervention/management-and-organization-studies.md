@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 07-applied-design-and-intervention
-suf_role: "organizational operations node"
+suf_role: "supporting_scaffold"
 aliases:
   - organization studies
 related_routes:

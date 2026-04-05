@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 08-integrative-and-reflexive
-suf_role: "atlas design node"
+suf_role: "supporting_scaffold"
 aliases:
   - knowledge organization
   - library science
@@ -64,3 +64,8 @@ This is the clearest reflexive home for shaping Knowledge itself as a navigable 
 ## Status
 
 `deepened hub node`
+
+
+## SUF handoff note
+
+Here SUF should not remain in the foreground by inertia. It is a supporting scaffold and should yield to better local or domain-native frameworks wherever they explain the material more directly.

@@ -1,54 +1,42 @@
 # Research
 
-This repository is the research umbrella for two linked documentation-first projects and one
-shared tooling package:
+Use `START_HERE.md` for the governed repository front door.
 
-- [structured-unity-framework/](structured-unity-framework/README.md) — the bounded SUF framework package
-- [knowledge/](knowledge/README.md) — the broader Obsidian-first knowledge atlas founded on SUF
-- [tools/](tools/README.md) — the reproducibility and validation support package
-- [using-this-research-with-human-assistants-and-reasoning-agents.md](using-this-research-with-human-assistants-and-reasoning-agents.md) — guidance for collaborative and accessibility-support use
+`Research/` is an umbrella repository with three distinct package roles:
+
+- [structured-unity-framework/](structured-unity-framework/README.md) — the academic core
+- [knowledge/](knowledge/README.md) — the broader atlas founded on SUF
+- [tools/](tools/README.md) — the read-only validation and reporting layer
+- [using-this-research-with-human-assistants-and-reasoning-agents.md](using-this-research-with-human-assistants-and-reasoning-agents.md) — assisted-use guidance
 
 Hosted snapshot: **`v1.1.0`** dated **2026-04-03**.
 
 Current `main` state: aligned with the hosted `v1.1.0` New Zealand monograph-baseline release.
 
-Hosted repository: [oestradiol/Research](https://github.com/oestradiol/Research)
+This root README is a routing surface, not the canonical long-form state surface for SUF.
+Use the SUF package for current academic posture, sequence, boundaries, evidence status, and reviewer-facing claims:
 
-Hosted package URLs:
+- `structured-unity-framework/START_HERE.md`
+- `structured-unity-framework/docs/project-status.md`
+- `structured-unity-framework/docs/current-execution-order.md`
+- `structured-unity-framework/docs/pending-inventory.md`
+- `structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md`
 
-- [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
-- [knowledge/](https://github.com/oestradiol/Research/tree/main/knowledge)
-- [tools/](https://github.com/oestradiol/Research/tree/main/tools)
-- [releases/v1.1.0.md](https://github.com/oestradiol/Research/blob/main/releases/v1.1.0.md)
+Use repository-root governance files only to understand package boundaries, current umbrella routing, and release hygiene.
 
-This is the current bounded public release of the full `Research/` repository:
+## Package roles
 
-- [structured-unity-framework/](structured-unity-framework/README.md) is the academic core
-- [knowledge/](knowledge/README.md) is a stable sibling atlas founded on SUF
-- [tools/](tools/README.md) is the read-only validation and reproducibility layer
+- `structured-unity-framework/` is the current academic core
+- `knowledge/` is a sibling atlas rather than a second academic core
+- `tools/` is the read-only validation and reproducibility layer
 
-This release line is publication-ready in a bounded sense. It is **not** a claim of universal proof, final ontology, or closed empirical completion.
-
-The hosted `v1.1.0` tag anchors the public citation, changelog, and release-note surfaces. Current `main` is aligned with that same release point: a `38`-event New Zealand monograph-baseline route with a `29`-event main interval, a `15`-event bounded Taiwan comparator, and the same read-only validation layer carried forward under the new release line.
-
-For current state use `structured-unity-framework/docs/project-status.md`.
-For immediate next-step sequencing use `structured-unity-framework/docs/current-execution-order.md`.
-For open work use `structured-unity-framework/docs/pending-inventory.md`.
-For future direction use `structured-unity-framework/ROADMAP.md`.
+This repository is bounded and publication-ready in a limited public sense. It is **not** a claim of universal proof, final ontology, or closed empirical completion.
 
 ## Maintainer
 
 - Elaina
 - GitHub: [@oestradiol](https://github.com/oestradiol)
 - Email: [17bestradiol@proton.me](mailto:17bestradiol@proton.me)
-
-## How to use this repo
-
-- Start with the package README that matches what you need.
-- Use `structured-unity-framework/` for the framework, methods posture, bounded route package, and current sequencing surfaces.
-- Use `knowledge/` for the broader graph of clusters, nodes, relations, and study routes.
-- Use `tools/` for reproducibility, validation, and read-only report generation.
-- Use `using-this-research-with-human-assistants-and-reasoning-agents.md` for collaborative reading, reasoning-agent support, and accessibility-oriented navigation guidance.
 
 ## Citation and attribution
 
@@ -58,8 +46,6 @@ Each public package has its own `CITATION.cff`:
 - [knowledge/CITATION.cff](knowledge/CITATION.cff)
 
 `tools/` is a support package inside this repository rather than a separately versioned citation target.
-
-If you reuse material from either package, please credit Elaina and, when reasonably practical, link back to the original repository or the GitHub profile above so readers can find the source text.
 
 ## License
 

@@ -12,7 +12,6 @@ New Zealand monograph-baseline hosted release of Structured Unity Framework.
 
 - package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
 - umbrella tag: [`v1.1.0`](https://github.com/oestradiol/Research/releases/tag/v1.1.0)
-- release notes: [`releases/v1.1.0.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.1.0.md)
 
 ### Included in this snapshot
 
@@ -29,7 +28,6 @@ Current publication-ready bounded hosted release of Structured Unity Framework.
 
 - package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
 - umbrella tag: [`v1.0.1`](https://github.com/oestradiol/Research/releases/tag/v1.0.1)
-- release notes: [`releases/v1.0.1.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.0.1.md)
 
 ### Included in this snapshot
 
@@ -47,7 +45,6 @@ First publication-ready bounded hosted release of Structured Unity Framework.
 
 - package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
 - umbrella tag: [`v1.0.0`](https://github.com/oestradiol/Research/releases/tag/v1.0.0)
-- release notes: [`releases/v1.0.0.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.0.0.md)
 - freeze commit: [`bcab522`](https://github.com/oestradiol/Research/commit/bcab5227a5ad53c26b68af6f55b0bc48a6cb4f1b)
 
 ### Included in this snapshot
@@ -58,7 +55,7 @@ First publication-ready bounded hosted release of Structured Unity Framework.
 - archive-clean DPMC and Police implementation-chain layer plus source-discovery control
 - Taiwan starter comparator at `12` archive-clean official events with one conservative lag pair
 - locked public payoff sentence and synchronized IAF downstream-role note
-- public academic front-door bundle under `docs/v1-academic-bundle.md`
+- public academic front-door and contribution framing consolidated under `docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 
 ## `v0.1.0` - 2026-04-01
 

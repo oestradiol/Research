@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "allowed_root_files": [
+    ".gitignore",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "LICENSE",
+    "README.md",
+    "START_HERE.md",
+    "authoritative_guard.py",
+    "package_doctor.py",
+    "research_launch_gate.py",
+    "using-this-research-with-human-assistants-and-reasoning-agents.md"
+  ]
+}

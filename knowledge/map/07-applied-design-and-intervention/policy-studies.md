@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 07-applied-design-and-intervention
-suf_role: "implementation route node"
+suf_role: "supporting_scaffold"
 related_routes:
   - "[[study-routes/suf-guided-orientation-route]]"
   - "[[study-routes/organization-and-coordination-route]]"

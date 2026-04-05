@@ -1,0 +1,43 @@
+{
+  "registry_version": "0.2.3",
+  "scope": "Research root repository",
+  "current_files": [
+    "README.md",
+    "START_HERE.md",
+    "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+    "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+    "governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "governance/AUTHORITATIVE_SOURCES_v0_1.json",
+    "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+    "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+    "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+    "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+    "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+    "governance/ROOT_ALLOWLIST_v0_1.json",
+    "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+    "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+    "structured-unity-framework/START_HERE.md",
+    "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "knowledge/README.md",
+    "tools/README.md",
+    "using-this-research-with-human-assistants-and-reasoning-agents.md"
+  ],
+  "live_entrypoints": [
+    "README.md",
+    "START_HERE.md",
+    "governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "structured-unity-framework/START_HERE.md",
+    "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "knowledge/README.md",
+    "tools/README.md",
+    "using-this-research-with-human-assistants-and-reasoning-agents.md"
+  ],
+  "supportive_zones": [
+    "docs/",
+    "governance/",
+    "knowledge/",
+    "structured-unity-framework/",
+    "tools/"
+  ],
+  "historical_zones": []
+}

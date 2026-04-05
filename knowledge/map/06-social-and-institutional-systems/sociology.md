@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 06-social-and-institutional-systems
-suf_role: "social coordination node"
+suf_role: "supporting_scaffold"
 related_routes:
   - "[[study-routes/suf-guided-orientation-route]]"
   - "[[study-routes/organization-and-coordination-route]]"
@@ -61,3 +61,8 @@ Sociology is one of the clearest places where SUF can become concretely useful r
 ## Status
 
 `deepened hub node`
+
+
+## SUF handoff note
+
+Here SUF should not remain in the foreground by inertia. It is a supporting scaffold and should yield to better local or domain-native frameworks wherever they explain the material more directly.

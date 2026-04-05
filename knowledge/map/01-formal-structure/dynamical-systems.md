@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 01-formal-structure
-suf_role: "temporal-dynamics bridge node"
+suf_role: "supporting_scaffold"
 aliases:
   - dynamic systems
 related_routes:
@@ -63,3 +63,8 @@ This node is central whenever temporal windows, lag, and dynamic persistence are
 ## Status
 
 `deepened hub node`
+
+
+## SUF handoff note
+
+Here SUF should not remain in the foreground by inertia. It is a supporting scaffold and should yield to better local or domain-native frameworks wherever they explain the material more directly.

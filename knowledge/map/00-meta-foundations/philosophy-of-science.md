@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 00-meta-foundations
-suf_role: "claim-discipline bridge"
+suf_role: "supporting_scaffold"
 aliases:
   - philosophy of science
 related_routes:
@@ -63,3 +63,8 @@ Philosophy of science is one of the best places to explain why SUF is appealing 
 ## Status
 
 `deepened hub node`
+
+
+## SUF handoff note
+
+Here SUF should not remain in the foreground by inertia. It is a supporting scaffold and should yield to better local or domain-native frameworks wherever they explain the material more directly.

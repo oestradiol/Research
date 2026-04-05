@@ -1,0 +1,78 @@
+{
+  "version": "0.2.3",
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "8fe0499260ded51022d0eef9ff28ec077ded1ff5c37fe339c75d4847569b235f"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "6d2db813593777fb5d3f3010cd0396763240218c97a40b416b1f6e8d4a2d261b"
+    },
+    {
+      "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "sha256": "3d65bc884f16c465e062abd7956e6532ea525ecb0f41fcc238d975f3cd8e42a1"
+    },
+    {
+      "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "sha256": "17c11db112d0ebe88586f624ace95b2aaedaf25cf14efbbff3cc634d40d72ffe"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "sha256": "71cf2677d2c4cecf8fa182ee47879b275574faf73d00decbbe42aa58cee9c1ae"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_SOURCES_v0_1.json",
+      "sha256": "591938b2597c1e7b849798b4908da5cf1788cebe423cf14adb397b4aaac84697"
+    },
+    {
+      "path": "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "sha256": "b6ab12cb0d0b7af61c4a0088d92e58af8ae0c9348f49eadac3ddc01cf954064d"
+    },
+    {
+      "path": "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+      "sha256": "e61637cd81d23bd325fc229ec6a2a4022b396440622e100f046c86b4f21c856b"
+    },
+    {
+      "path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "sha256": "6486a7df11469e4d7245abe17a85e43c0bca4b9561aa09847d71b7c9aed64f56"
+    },
+    {
+      "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "sha256": "c0d452324b86f1f76c73ad6491d1203a548c0d452a1872e1f7649f642d2d8328"
+    },
+    {
+      "path": "governance/ROOT_ALLOWLIST_v0_1.json",
+      "sha256": "7312deaa58f471fd85b3444cdd7d3ac9b2903bc516c5f1a947e57e9460ea6830"
+    },
+    {
+      "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "sha256": "d973425d47ff7627c000843ff12ab381576600ccc7903f8a2ab2ff906eff6e53"
+    },
+    {
+      "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "sha256": "7bc4b05a13c43a85eb2115dd6f5371a97fadb88151352aa70ede9fefd133c59d"
+    },
+    {
+      "path": "structured-unity-framework/START_HERE.md",
+      "sha256": "9174847e086f186926398725f4a86348a31dc0a8716dce1dce4879bbe2936a92"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "sha256": "20287ddfb6b578e6e5eb7b1169ffca39f032ae1200bd506e9f3a511140d4234b"
+    },
+    {
+      "path": "knowledge/README.md",
+      "sha256": "7736b3ca19dfd8b5cd4030bc3befd013991744140ce7c4334cff930b5f289353"
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "1faa0097dfca91a48e4edddea8c4676dcce9b06cc29670aaf8846dd8a8e35cc9"
+    },
+    {
+      "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
+      "sha256": "ff9abc2418899c252ef81e4a5f5b64f89c58df833996b686b59722ac82d08ab4"
+    }
+  ]
+}

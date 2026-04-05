@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 07-applied-design-and-intervention
-suf_role: "applied coordination node"
+suf_role: "supporting_scaffold"
 aliases:
   - population health
 related_routes:

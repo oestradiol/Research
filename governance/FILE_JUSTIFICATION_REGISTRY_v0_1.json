@@ -1,0 +1,3257 @@
+{
+  "version": "0.2.3",
+  "current_files": [
+    {
+      "path": ".gitignore",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "CITATION.cff",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "LICENSE",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "START_HERE.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "authoritative_guard.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "docs/ops/RELEASE_CHECKLIST_v0_1.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/AUTHORITATIVE_SOURCES_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "governance/ROOT_ALLOWLIST_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/.gitignore",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/CHANGELOG.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/CITATION.cff",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/CONTRIBUTING.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/LICENSE",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_indexes/cluster-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_indexes/knowledge-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_indexes/node-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_indexes/relation-tags-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_indexes/study-routes-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/constrains.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/emerges-from.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/feeds-back.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/formalizes.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/grounds.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/implements.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/interprets.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/requires.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/scaffolds.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_relations/supports.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_templates/cluster-template.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_templates/domain-template.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_templates/study-route-template.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/_templates/subdomain-template.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/knowledge-package-spec.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/epistemology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/ethics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/history-and-sociology-of-knowledge.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/logic.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/metaphysics-and-ontology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/phenomenology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-language.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-mind.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/complexity-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/computer-science-theory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/control-theory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/cybernetics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/decision-theory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/dynamical-systems.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/game-theory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/information-theory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/mathematics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/measurement-theory-and-metrology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/network-theory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/probability.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/statistics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/systems-theory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/astronomy-and-cosmology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/chemistry.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/earth-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/materials-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/physics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/biology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/developmental-biology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/ecology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/evolutionary-theory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/genetics-and-genomics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/neuroscience.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/physiology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/behavioral-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/cognitive-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/linguistics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/psychology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/anthropology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/archaeology-and-prehistory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/cultural-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/history.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/religious-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/communication-and-media-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/economics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/education.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/legal-theory-and-jurisprudence.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/political-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/sociology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/agriculture.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/architecture-and-urbanism.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/artificial-intelligence-and-machine-learning.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/data-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/engineering.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/environmental-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/human-computer-interaction.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/management-and-organization-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/medicine.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/military-and-strategic-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/operations-research.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/policy-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/public-health.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/comparative-civilizational-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/consciousness-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/global-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/interdisciplinary-systems-research.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/knowledge-organization-and-library-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/science-and-technology-studies.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/sustainability-science.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/map/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/study-routes/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/study-routes/framework-comparison-and-knowledge-organization-route.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/study-routes/measurement-and-inference-route.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/study-routes/mind-life-interface-route.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/study-routes/organization-and-coordination-route.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/study-routes/suf-guided-orientation-route.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/study-routes/sustainability-and-governance-route.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/studying-and-teaching-with-suf.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "knowledge/suf-relationship.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "package_doctor.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "research_launch_gate.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/.gitignore",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/CHANGELOG.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/CITATION.cff",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/CONTRIBUTING.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/LICENSE",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/ROADMAP.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/START_HERE.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/applications-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/demonstrated-routes-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/domain-clusters-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/relation-tags-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/research-map-index.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/constrains.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/emerges-from.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/feeds-back.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/formalizes.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/grounds.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/implements.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/interprets.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/case-route-template.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/comparative-route-template.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/domain-node-template.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/subdomain-node-template.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/future-comparative-cases.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/bounded-gain-against-simpler-readings.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/comparators-nulls-and-comparative-extension.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/estimator-implementation.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/event-ledger-seed.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-nz-taiwan-comparison-note.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-c-summary.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-dependency-graph.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-i-summary.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-l-summary.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-seed-readout.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-sensitivity-and-null-note.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-window-comparison.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/new-zealand-pandemic-case.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-boundary-and-corpus.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-de-escalation-and-lag.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-escalation-and-architecture.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-implementation-and-routing.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-robustness-and-weakenings.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-table-and-figure-plan.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/official-corpus-inventory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/research-design.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-corpus-and-coding-protocol.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-discovery-log.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-boundary-and-corpus.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-evidence-map.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-table-and-figure-plan.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-comparator-design.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-event-ledger-seed.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-official-corpus-inventory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/measurement-theory-and-operationalization.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/network-and-dynamical-systems.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/phenomenology-and-epistemic-grounding.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/philosophy-of-science-and-model-discipline.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/systems-theory-and-cybernetics.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/border-enforcement-and-implementation.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/crisis-governance-and-emergency-management.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-administration-and-executive-coordination.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-health-systems.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-information-and-communication.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/comparative-political-systems.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/legal-and-regulatory-order.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/organizational-coordination-and-bureaucratic-systems.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/policy-implementation-and-institutional-change.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/ai-and-multi-agent-coordination.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/comparative-pandemic-response.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/infrastructure-and-logistics-coordination.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/urban-and-regional-governance.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/INDEX.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/claims-and-boundaries.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/current-execution-order.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/dependency-map.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/domain-expansion-map.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/framework-stack.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/reading-path.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/glossary.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/monograph-and-closure-program.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/ops/HANDOFF_GUIDE.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/ops/RELEASE_CHECKLIST_v0_1.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/pending-inventory.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/docs/project-status.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/framework/framework-interface.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/framework/iaf-downstream-role.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/framework/informational-awareness-framework.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/framework/literature-guide.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/framework/research-program.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/framework/structural-phenomenology.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/meta/claim-structure.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/meta/publication-scope.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/meta/risk-register.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/meta/terminology-policy.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/meta/weak-naturalization.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/references/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/references/citation-and-archival-policy.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/references/extended-reading-list.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/references/minimal-reading-list.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/references/source-registry.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "structured-unity-framework/references/standard-reading-list.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/.gitignore",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/.python-version",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/CHANGELOG.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/README.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/audit_current_claims.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/audit_current_surfaces.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/audit_repository_file_registry.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/audit_repository_minimality.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/docs/adr/0001-tooling-scope.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/docs/adr/0002-human-validation-gate.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/docs/adr/0003-nix-plus-venv.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/docs/architecture.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/docs/backlog.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/docs/sprint-log.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/docs/validation-policy.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/flake.lock",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/flake.nix",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/out/.gitkeep",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/pyproject.toml",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/__init__.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/cli.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/config.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/models/__init__.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/models/ledger.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/models/reports.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/models/sources.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/parse/__init__.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/parse/markdown_links.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/parse/nz_ledger.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/parse/source_registry.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/parse/taiwan_ledger.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/paths.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/reports/__init__.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/reports/nz_summary.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/reports/nz_taiwan_summary.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/reports/release_readiness.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/__init__.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/archives.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/governance.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/knowledge.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/links.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/release_hygiene.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/route_consistency.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/sources.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/status_surfaces.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/validate/versions.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/workflows/__init__.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/src/research_tools/workflows/validate_all.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/tests/conftest.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/tests/test_governance.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/tests/test_links.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/tests/test_nz_ledger.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/tests/test_reports.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/tests/test_route_consistency.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/tests/test_source_registry.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "tools/tests/test_taiwan_ledger.py",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    },
+    {
+      "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
+      "role": "supportive_surface",
+      "justification": "Required for repository routing, governance, package separation, package content, or operational support."
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "CITATION.cff",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "LICENSE",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "START_HERE.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "authoritative_guard.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "docs/ops/RELEASE_CHECKLIST_v0_1.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_SOURCES_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "governance/ROOT_ALLOWLIST_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/.gitignore",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/CHANGELOG.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/CITATION.cff",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/CONTRIBUTING.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/LICENSE",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_indexes/cluster-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_indexes/knowledge-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_indexes/node-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_indexes/relation-tags-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_indexes/study-routes-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/constrains.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/emerges-from.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/feeds-back.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/formalizes.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/grounds.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/implements.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/interprets.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/requires.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/scaffolds.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_relations/supports.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_templates/cluster-template.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_templates/domain-template.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_templates/study-route-template.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/_templates/subdomain-template.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/knowledge-package-spec.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/epistemology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/ethics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/history-and-sociology-of-knowledge.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/logic.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/metaphysics-and-ontology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/phenomenology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-language.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-mind.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/complexity-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/computer-science-theory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/control-theory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/cybernetics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/decision-theory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/dynamical-systems.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/game-theory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/information-theory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/mathematics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/measurement-theory-and-metrology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/network-theory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/probability.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/statistics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/systems-theory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/astronomy-and-cosmology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/chemistry.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/earth-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/materials-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/physics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/biology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/developmental-biology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/ecology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/evolutionary-theory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/genetics-and-genomics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/neuroscience.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/physiology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/behavioral-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/cognitive-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/linguistics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/psychology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/anthropology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/archaeology-and-prehistory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/cultural-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/history.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/religious-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/communication-and-media-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/economics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/education.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/legal-theory-and-jurisprudence.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/political-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/sociology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/agriculture.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/architecture-and-urbanism.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/artificial-intelligence-and-machine-learning.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/data-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/engineering.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/environmental-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/human-computer-interaction.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/management-and-organization-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/medicine.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/military-and-strategic-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/operations-research.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/policy-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/public-health.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/comparative-civilizational-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/consciousness-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/global-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/interdisciplinary-systems-research.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/knowledge-organization-and-library-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/science-and-technology-studies.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/sustainability-science.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/map/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/study-routes/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/study-routes/framework-comparison-and-knowledge-organization-route.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/study-routes/measurement-and-inference-route.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/study-routes/mind-life-interface-route.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/study-routes/organization-and-coordination-route.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/study-routes/suf-guided-orientation-route.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/study-routes/sustainability-and-governance-route.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/studying-and-teaching-with-suf.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "knowledge/suf-relationship.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "package_doctor.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "research_launch_gate.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/.gitignore",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/CHANGELOG.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/CITATION.cff",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/CONTRIBUTING.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/LICENSE",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/ROADMAP.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/START_HERE.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/applications-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/demonstrated-routes-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/domain-clusters-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/relation-tags-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/research-map-index.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/constrains.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/emerges-from.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/feeds-back.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/formalizes.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/grounds.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/implements.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/interprets.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/case-route-template.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/comparative-route-template.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/domain-node-template.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/subdomain-node-template.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/future-comparative-cases.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/bounded-gain-against-simpler-readings.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/comparators-nulls-and-comparative-extension.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/estimator-implementation.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/event-ledger-seed.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-nz-taiwan-comparison-note.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-c-summary.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-dependency-graph.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-i-summary.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-l-summary.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-seed-readout.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-sensitivity-and-null-note.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-window-comparison.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/new-zealand-pandemic-case.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-boundary-and-corpus.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-de-escalation-and-lag.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-escalation-and-architecture.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-implementation-and-routing.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-robustness-and-weakenings.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-table-and-figure-plan.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/official-corpus-inventory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/research-design.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-corpus-and-coding-protocol.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-discovery-log.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-boundary-and-corpus.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-evidence-map.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-table-and-figure-plan.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-comparator-design.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-event-ledger-seed.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-official-corpus-inventory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/measurement-theory-and-operationalization.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/network-and-dynamical-systems.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/phenomenology-and-epistemic-grounding.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/philosophy-of-science-and-model-discipline.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/systems-theory-and-cybernetics.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/border-enforcement-and-implementation.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/crisis-governance-and-emergency-management.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-administration-and-executive-coordination.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-health-systems.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-information-and-communication.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/comparative-political-systems.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/legal-and-regulatory-order.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/organizational-coordination-and-bureaucratic-systems.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/policy-implementation-and-institutional-change.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/ai-and-multi-agent-coordination.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/comparative-pandemic-response.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/infrastructure-and-logistics-coordination.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/urban-and-regional-governance.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/INDEX.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/claims-and-boundaries.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/current-execution-order.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/dependency-map.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/domain-expansion-map.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/framework-stack.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/reading-path.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/glossary.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/monograph-and-closure-program.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/ops/HANDOFF_GUIDE.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/ops/RELEASE_CHECKLIST_v0_1.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/pending-inventory.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/docs/project-status.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/framework/framework-interface.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/framework/iaf-downstream-role.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/framework/informational-awareness-framework.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/framework/literature-guide.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/framework/research-program.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/framework/structural-phenomenology.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/meta/claim-structure.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/meta/publication-scope.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/meta/risk-register.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/meta/terminology-policy.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/meta/weak-naturalization.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/references/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/references/citation-and-archival-policy.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/references/extended-reading-list.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/references/minimal-reading-list.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/references/source-registry.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "structured-unity-framework/references/standard-reading-list.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/.gitignore",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/.python-version",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/CHANGELOG.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/README.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/audit_current_claims.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/audit_current_surfaces.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/audit_repository_file_registry.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/audit_repository_minimality.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/docs/adr/0001-tooling-scope.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/docs/adr/0002-human-validation-gate.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/docs/adr/0003-nix-plus-venv.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/docs/architecture.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/docs/backlog.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/docs/sprint-log.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/docs/validation-policy.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/flake.lock",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/flake.nix",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/out/.gitkeep",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/pyproject.toml",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/__init__.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/cli.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/config.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/models/__init__.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/models/ledger.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/models/reports.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/models/sources.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/parse/__init__.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/parse/markdown_links.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/parse/nz_ledger.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/parse/source_registry.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/parse/taiwan_ledger.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/paths.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/reports/__init__.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/reports/nz_summary.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/reports/nz_taiwan_summary.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/reports/release_readiness.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/__init__.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/archives.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/governance.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/knowledge.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/links.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/release_hygiene.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/route_consistency.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/sources.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/status_surfaces.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/validate/versions.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/workflows/__init__.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/src/research_tools/workflows/validate_all.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/tests/conftest.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/tests/test_governance.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/tests/test_links.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/tests/test_nz_ledger.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/tests/test_reports.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/tests/test_route_consistency.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/tests/test_source_registry.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "tools/tests/test_taiwan_ledger.py",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    },
+    {
+      "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
+      "job": "recorded repository file",
+      "reason": "current surface, package entrypoint, package content, reference surface, or operational support"
+    }
+  ]
+}

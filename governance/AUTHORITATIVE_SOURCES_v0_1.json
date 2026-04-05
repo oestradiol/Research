@@ -1,0 +1,34 @@
+{
+  "version": "0.2.3",
+  "package_entrypoints": [
+    "README.md",
+    "START_HERE.md",
+    "governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "structured-unity-framework/START_HERE.md",
+    "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "knowledge/README.md",
+    "tools/README.md",
+    "using-this-research-with-human-assistants-and-reasoning-agents.md"
+  ],
+  "suf_entrypoints": [
+    "structured-unity-framework/README.md",
+    "structured-unity-framework/START_HERE.md",
+    "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
+    "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+    "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+    "structured-unity-framework/docs/project-status.md",
+    "structured-unity-framework/docs/current-execution-order.md",
+    "structured-unity-framework/docs/pending-inventory.md"
+  ],
+  "knowledge_entrypoints": [
+    "knowledge/README.md",
+    "knowledge/_indexes/knowledge-index.md",
+    "knowledge/suf-relationship.md"
+  ],
+  "tools_entrypoints": [
+    "tools/README.md",
+    "tools/docs/validation-policy.md",
+    "tools/src/research_tools/workflows/validate_all.py"
+  ]
+}

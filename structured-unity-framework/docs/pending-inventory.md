@@ -9,7 +9,7 @@ The hosted `v1.1.0` release now has:
 - a public remote at `https://github.com/oestradiol/Research`
 - hosted README and citation URLs for the umbrella repo and public packages
 - changelog entries grounded to hosted commit and tag surfaces
-- repo-local release notes at `releases/v1.1.0.md`
+- root changelog preserved in `../CHANGELOG.md`
 
 Current `main` is aligned with that hosted snapshot and now has:
 

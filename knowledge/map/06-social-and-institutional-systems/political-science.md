@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 06-social-and-institutional-systems
-suf_role: "institutional governance node"
+suf_role: "supporting_scaffold"
 related_routes:
   - "[[study-routes/organization-and-coordination-route]]"
   - "[[study-routes/sustainability-and-governance-route]]"

@@ -1,0 +1,1667 @@
+{
+  "version": "0.2.3",
+  "scope_prefix": "",
+  "live_files": [
+    "README.md",
+    "START_HERE.md",
+    "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+    "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+    "governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "governance/AUTHORITATIVE_SOURCES_v0_1.json",
+    "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+    "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+    "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+    "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+    "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+    "governance/ROOT_ALLOWLIST_v0_1.json",
+    "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+    "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+    "structured-unity-framework/START_HERE.md",
+    "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "knowledge/README.md",
+    "tools/README.md",
+    "using-this-research-with-human-assistants-and-reasoning-agents.md"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "category": ".gitignore",
+      "extension": "[none]"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "CHANGELOG.md",
+      "extension": ".md"
+    },
+    {
+      "path": "CITATION.cff",
+      "category": "CITATION.cff",
+      "extension": ".cff"
+    },
+    {
+      "path": "LICENSE",
+      "category": "LICENSE",
+      "extension": "[none]"
+    },
+    {
+      "path": "README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "START_HERE.md",
+      "category": "START_HERE.md",
+      "extension": ".md"
+    },
+    {
+      "path": "authoritative_guard.py",
+      "category": "authoritative_guard.py",
+      "extension": ".py"
+    },
+    {
+      "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "category": "CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "extension": ".md"
+    },
+    {
+      "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "category": "PROJECT_PURPOSE_AND_USE_CASES.md",
+      "extension": ".md"
+    },
+    {
+      "path": "docs/ops/RELEASE_CHECKLIST_v0_1.md",
+      "category": "RELEASE_CHECKLIST_v0_1.md",
+      "extension": ".md"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "category": "AUTHORITATIVE_INDEX_v0_1.md",
+      "extension": ".md"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+      "category": "AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_SOURCES_v0_1.json",
+      "category": "AUTHORITATIVE_SOURCES_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "category": "CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "category": "CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "category": "FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "category": "PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "extension": ".md"
+    },
+    {
+      "path": "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+      "category": "PACKAGE_STATE_SUMMARY_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "category": "REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "governance/ROOT_ALLOWLIST_v0_1.json",
+      "category": "ROOT_ALLOWLIST_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "knowledge/.gitignore",
+      "category": ".gitignore",
+      "extension": "[none]"
+    },
+    {
+      "path": "knowledge/CHANGELOG.md",
+      "category": "CHANGELOG.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/CITATION.cff",
+      "category": "CITATION.cff",
+      "extension": ".cff"
+    },
+    {
+      "path": "knowledge/CONTRIBUTING.md",
+      "category": "CONTRIBUTING.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/LICENSE",
+      "category": "LICENSE",
+      "extension": "[none]"
+    },
+    {
+      "path": "knowledge/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_indexes/cluster-index.md",
+      "category": "cluster-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_indexes/knowledge-index.md",
+      "category": "knowledge-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_indexes/node-index.md",
+      "category": "node-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_indexes/relation-tags-index.md",
+      "category": "relation-tags-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_indexes/study-routes-index.md",
+      "category": "study-routes-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/constrains.md",
+      "category": "constrains.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/emerges-from.md",
+      "category": "emerges-from.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/feeds-back.md",
+      "category": "feeds-back.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/formalizes.md",
+      "category": "formalizes.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/grounds.md",
+      "category": "grounds.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/implements.md",
+      "category": "implements.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/interprets.md",
+      "category": "interprets.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/requires.md",
+      "category": "requires.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/scaffolds.md",
+      "category": "scaffolds.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_relations/supports.md",
+      "category": "supports.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_templates/cluster-template.md",
+      "category": "cluster-template.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_templates/domain-template.md",
+      "category": "domain-template.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_templates/study-route-template.md",
+      "category": "study-route-template.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/_templates/subdomain-template.md",
+      "category": "subdomain-template.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/knowledge-package-spec.md",
+      "category": "knowledge-package-spec.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/epistemology.md",
+      "category": "epistemology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/ethics.md",
+      "category": "ethics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/history-and-sociology-of-knowledge.md",
+      "category": "history-and-sociology-of-knowledge.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/logic.md",
+      "category": "logic.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/metaphysics-and-ontology.md",
+      "category": "metaphysics-and-ontology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/phenomenology.md",
+      "category": "phenomenology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-language.md",
+      "category": "philosophy-of-language.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-mind.md",
+      "category": "philosophy-of-mind.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/00-meta-foundations/philosophy-of-science.md",
+      "category": "philosophy-of-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/complexity-science.md",
+      "category": "complexity-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/computer-science-theory.md",
+      "category": "computer-science-theory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/control-theory.md",
+      "category": "control-theory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/cybernetics.md",
+      "category": "cybernetics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/decision-theory.md",
+      "category": "decision-theory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/dynamical-systems.md",
+      "category": "dynamical-systems.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/game-theory.md",
+      "category": "game-theory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/information-theory.md",
+      "category": "information-theory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/mathematics.md",
+      "category": "mathematics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/measurement-theory-and-metrology.md",
+      "category": "measurement-theory-and-metrology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/network-theory.md",
+      "category": "network-theory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/probability.md",
+      "category": "probability.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/statistics.md",
+      "category": "statistics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/01-formal-structure/systems-theory.md",
+      "category": "systems-theory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/astronomy-and-cosmology.md",
+      "category": "astronomy-and-cosmology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/chemistry.md",
+      "category": "chemistry.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/earth-science.md",
+      "category": "earth-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/materials-science.md",
+      "category": "materials-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/02-physical-sciences/physics.md",
+      "category": "physics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/biology.md",
+      "category": "biology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/developmental-biology.md",
+      "category": "developmental-biology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/ecology.md",
+      "category": "ecology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/evolutionary-theory.md",
+      "category": "evolutionary-theory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/genetics-and-genomics.md",
+      "category": "genetics-and-genomics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/neuroscience.md",
+      "category": "neuroscience.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/03-life-sciences/physiology.md",
+      "category": "physiology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/behavioral-science.md",
+      "category": "behavioral-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/cognitive-science.md",
+      "category": "cognitive-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/linguistics.md",
+      "category": "linguistics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/04-mind-and-behavior/psychology.md",
+      "category": "psychology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/anthropology.md",
+      "category": "anthropology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/archaeology-and-prehistory.md",
+      "category": "archaeology-and-prehistory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/cultural-studies.md",
+      "category": "cultural-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/history.md",
+      "category": "history.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/05-culture-and-history/religious-studies.md",
+      "category": "religious-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/communication-and-media-studies.md",
+      "category": "communication-and-media-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/economics.md",
+      "category": "economics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/education.md",
+      "category": "education.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/legal-theory-and-jurisprudence.md",
+      "category": "legal-theory-and-jurisprudence.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/political-science.md",
+      "category": "political-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/06-social-and-institutional-systems/sociology.md",
+      "category": "sociology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/agriculture.md",
+      "category": "agriculture.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/architecture-and-urbanism.md",
+      "category": "architecture-and-urbanism.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/artificial-intelligence-and-machine-learning.md",
+      "category": "artificial-intelligence-and-machine-learning.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/data-science.md",
+      "category": "data-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/engineering.md",
+      "category": "engineering.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/environmental-studies.md",
+      "category": "environmental-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/human-computer-interaction.md",
+      "category": "human-computer-interaction.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/management-and-organization-studies.md",
+      "category": "management-and-organization-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/medicine.md",
+      "category": "medicine.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/military-and-strategic-studies.md",
+      "category": "military-and-strategic-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/operations-research.md",
+      "category": "operations-research.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/policy-studies.md",
+      "category": "policy-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/07-applied-design-and-intervention/public-health.md",
+      "category": "public-health.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/comparative-civilizational-studies.md",
+      "category": "comparative-civilizational-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/consciousness-studies.md",
+      "category": "consciousness-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/global-studies.md",
+      "category": "global-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/interdisciplinary-systems-research.md",
+      "category": "interdisciplinary-systems-research.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/knowledge-organization-and-library-science.md",
+      "category": "knowledge-organization-and-library-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/science-and-technology-studies.md",
+      "category": "science-and-technology-studies.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/08-integrative-and-reflexive/sustainability-science.md",
+      "category": "sustainability-science.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/map/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/study-routes/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/study-routes/framework-comparison-and-knowledge-organization-route.md",
+      "category": "framework-comparison-and-knowledge-organization-route.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/study-routes/measurement-and-inference-route.md",
+      "category": "measurement-and-inference-route.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/study-routes/mind-life-interface-route.md",
+      "category": "mind-life-interface-route.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/study-routes/organization-and-coordination-route.md",
+      "category": "organization-and-coordination-route.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/study-routes/suf-guided-orientation-route.md",
+      "category": "suf-guided-orientation-route.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/study-routes/sustainability-and-governance-route.md",
+      "category": "sustainability-and-governance-route.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/studying-and-teaching-with-suf.md",
+      "category": "studying-and-teaching-with-suf.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/suf-relationship.md",
+      "category": "suf-relationship.md",
+      "extension": ".md"
+    },
+    {
+      "path": "package_doctor.py",
+      "category": "package_doctor.py",
+      "extension": ".py"
+    },
+    {
+      "path": "research_launch_gate.py",
+      "category": "research_launch_gate.py",
+      "extension": ".py"
+    },
+    {
+      "path": "structured-unity-framework/.gitignore",
+      "category": ".gitignore",
+      "extension": "[none]"
+    },
+    {
+      "path": "structured-unity-framework/CHANGELOG.md",
+      "category": "CHANGELOG.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/CITATION.cff",
+      "category": "CITATION.cff",
+      "extension": ".cff"
+    },
+    {
+      "path": "structured-unity-framework/CONTRIBUTING.md",
+      "category": "CONTRIBUTING.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/LICENSE",
+      "category": "LICENSE",
+      "extension": "[none]"
+    },
+    {
+      "path": "structured-unity-framework/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/ROADMAP.md",
+      "category": "ROADMAP.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/START_HERE.md",
+      "category": "START_HERE.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/applications-index.md",
+      "category": "applications-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/demonstrated-routes-index.md",
+      "category": "demonstrated-routes-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/domain-clusters-index.md",
+      "category": "domain-clusters-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/relation-tags-index.md",
+      "category": "relation-tags-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_indexes/research-map-index.md",
+      "category": "research-map-index.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/constrains.md",
+      "category": "constrains.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/emerges-from.md",
+      "category": "emerges-from.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/feeds-back.md",
+      "category": "feeds-back.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/formalizes.md",
+      "category": "formalizes.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/grounds.md",
+      "category": "grounds.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/implements.md",
+      "category": "implements.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_relations/interprets.md",
+      "category": "interprets.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/case-route-template.md",
+      "category": "case-route-template.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/comparative-route-template.md",
+      "category": "comparative-route-template.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/domain-node-template.md",
+      "category": "domain-node-template.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/_templates/subdomain-node-template.md",
+      "category": "subdomain-node-template.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/future-comparative-cases.md",
+      "category": "future-comparative-cases.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/bounded-gain-against-simpler-readings.md",
+      "category": "bounded-gain-against-simpler-readings.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/comparators-nulls-and-comparative-extension.md",
+      "category": "comparators-nulls-and-comparative-extension.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/estimator-implementation.md",
+      "category": "estimator-implementation.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/event-ledger-seed.md",
+      "category": "event-ledger-seed.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-nz-taiwan-comparison-note.md",
+      "category": "first-nz-taiwan-comparison-note.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-c-summary.md",
+      "category": "first-pass-c-summary.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-dependency-graph.md",
+      "category": "first-pass-dependency-graph.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-i-summary.md",
+      "category": "first-pass-i-summary.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-l-summary.md",
+      "category": "first-pass-l-summary.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-seed-readout.md",
+      "category": "first-pass-seed-readout.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-sensitivity-and-null-note.md",
+      "category": "first-pass-sensitivity-and-null-note.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-window-comparison.md",
+      "category": "first-pass-window-comparison.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/new-zealand-pandemic-case.md",
+      "category": "new-zealand-pandemic-case.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-boundary-and-corpus.md",
+      "category": "nz-monograph-boundary-and-corpus.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-de-escalation-and-lag.md",
+      "category": "nz-monograph-de-escalation-and-lag.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-escalation-and-architecture.md",
+      "category": "nz-monograph-escalation-and-architecture.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-implementation-and-routing.md",
+      "category": "nz-monograph-implementation-and-routing.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-robustness-and-weakenings.md",
+      "category": "nz-monograph-robustness-and-weakenings.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-table-and-figure-plan.md",
+      "category": "nz-monograph-table-and-figure-plan.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/official-corpus-inventory.md",
+      "category": "official-corpus-inventory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/research-design.md",
+      "category": "research-design.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-corpus-and-coding-protocol.md",
+      "category": "source-corpus-and-coding-protocol.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-discovery-log.md",
+      "category": "source-discovery-log.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-boundary-and-corpus.md",
+      "category": "taiwan-chapter-boundary-and-corpus.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-evidence-map.md",
+      "category": "taiwan-chapter-evidence-map.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-table-and-figure-plan.md",
+      "category": "taiwan-chapter-table-and-figure-plan.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-comparator-design.md",
+      "category": "taiwan-comparator-design.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-event-ledger-seed.md",
+      "category": "taiwan-event-ledger-seed.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-official-corpus-inventory.md",
+      "category": "taiwan-official-corpus-inventory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/measurement-theory-and-operationalization.md",
+      "category": "measurement-theory-and-operationalization.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/network-and-dynamical-systems.md",
+      "category": "network-and-dynamical-systems.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/phenomenology-and-epistemic-grounding.md",
+      "category": "phenomenology-and-epistemic-grounding.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/philosophy-of-science-and-model-discipline.md",
+      "category": "philosophy-of-science-and-model-discipline.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/systems-theory-and-cybernetics.md",
+      "category": "systems-theory-and-cybernetics.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/border-enforcement-and-implementation.md",
+      "category": "border-enforcement-and-implementation.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/crisis-governance-and-emergency-management.md",
+      "category": "crisis-governance-and-emergency-management.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-administration-and-executive-coordination.md",
+      "category": "public-administration-and-executive-coordination.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-health-systems.md",
+      "category": "public-health-systems.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-information-and-communication.md",
+      "category": "public-information-and-communication.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/comparative-political-systems.md",
+      "category": "comparative-political-systems.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/legal-and-regulatory-order.md",
+      "category": "legal-and-regulatory-order.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/organizational-coordination-and-bureaucratic-systems.md",
+      "category": "organizational-coordination-and-bureaucratic-systems.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/policy-implementation-and-institutional-change.md",
+      "category": "policy-implementation-and-institutional-change.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/ai-and-multi-agent-coordination.md",
+      "category": "ai-and-multi-agent-coordination.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/comparative-pandemic-response.md",
+      "category": "comparative-pandemic-response.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/infrastructure-and-logistics-coordination.md",
+      "category": "infrastructure-and-logistics-coordination.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md",
+      "category": "quantum-relational-ontology-and-consciousness.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/urban-and-regional-governance.md",
+      "category": "urban-and-regional-governance.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/applications/research-map/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/INDEX.md",
+      "category": "INDEX.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
+      "category": "CONTRIBUTION_AND_POSITIONING.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
+      "category": "OBJECTIONS_AND_EVIDENCE_STATUS.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/claims-and-boundaries.md",
+      "category": "claims-and-boundaries.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/current-execution-order.md",
+      "category": "current-execution-order.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/dependency-map.md",
+      "category": "dependency-map.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/domain-expansion-map.md",
+      "category": "domain-expansion-map.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/framework-stack.md",
+      "category": "framework-stack.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/diagrams/reading-path.md",
+      "category": "reading-path.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "category": "CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "category": "PROJECT_PURPOSE_AND_USE_CASES.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
+      "category": "SCIENTIFIC_GROUNDING_AND_LIMITS.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/glossary.md",
+      "category": "glossary.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
+      "category": "MONOGRAPH_SUPPORT_PACKAGE.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/monograph-and-closure-program.md",
+      "category": "monograph-and-closure-program.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/ops/HANDOFF_GUIDE.md",
+      "category": "HANDOFF_GUIDE.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/ops/RELEASE_CHECKLIST_v0_1.md",
+      "category": "RELEASE_CHECKLIST_v0_1.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
+      "category": "FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/pending-inventory.md",
+      "category": "pending-inventory.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/docs/project-status.md",
+      "category": "project-status.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/framework/framework-interface.md",
+      "category": "framework-interface.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/framework/iaf-downstream-role.md",
+      "category": "iaf-downstream-role.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/framework/informational-awareness-framework.md",
+      "category": "informational-awareness-framework.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/framework/literature-guide.md",
+      "category": "literature-guide.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/framework/research-program.md",
+      "category": "research-program.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
+      "category": "structural-phenomenology-downstream-role.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/framework/structural-phenomenology.md",
+      "category": "structural-phenomenology.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
+      "category": "unity-dynamics-framework.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "category": "AUTHORITATIVE_INDEX_v0_1.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+      "category": "AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
+      "category": "AUTHORITATIVE_SOURCES_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "category": "CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "category": "CURRENT_SURFACES_REGISTRY_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "category": "FILE_JUSTIFICATION_REGISTRY_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "category": "PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
+      "category": "PACKAGE_STATE_SUMMARY_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "category": "REPOSITORY_FILE_REGISTRY_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
+      "category": "ROOT_ALLOWLIST_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "structured-unity-framework/meta/claim-structure.md",
+      "category": "claim-structure.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/meta/publication-scope.md",
+      "category": "publication-scope.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/meta/risk-register.md",
+      "category": "risk-register.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/meta/terminology-policy.md",
+      "category": "terminology-policy.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/meta/weak-naturalization.md",
+      "category": "weak-naturalization.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/references/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/references/citation-and-archival-policy.md",
+      "category": "citation-and-archival-policy.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/references/extended-reading-list.md",
+      "category": "extended-reading-list.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/references/minimal-reading-list.md",
+      "category": "minimal-reading-list.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/references/source-registry.md",
+      "category": "source-registry.md",
+      "extension": ".md"
+    },
+    {
+      "path": "structured-unity-framework/references/standard-reading-list.md",
+      "category": "standard-reading-list.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/.gitignore",
+      "category": ".gitignore",
+      "extension": "[none]"
+    },
+    {
+      "path": "tools/.python-version",
+      "category": ".python-version",
+      "extension": "[none]"
+    },
+    {
+      "path": "tools/CHANGELOG.md",
+      "category": "CHANGELOG.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/README.md",
+      "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/audit_current_claims.py",
+      "category": "audit_current_claims.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/audit_current_surfaces.py",
+      "category": "audit_current_surfaces.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/audit_merged_docs.py",
+      "category": "audit_merged_docs.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/audit_repository_file_registry.py",
+      "category": "audit_repository_file_registry.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/audit_repository_minimality.py",
+      "category": "audit_repository_minimality.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/audit_routing_surfaces.py",
+      "category": "audit_routing_surfaces.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/docs/adr/0001-tooling-scope.md",
+      "category": "0001-tooling-scope.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/docs/adr/0002-human-validation-gate.md",
+      "category": "0002-human-validation-gate.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/docs/adr/0003-nix-plus-venv.md",
+      "category": "0003-nix-plus-venv.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/docs/architecture.md",
+      "category": "architecture.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/docs/backlog.md",
+      "category": "backlog.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/docs/sprint-log.md",
+      "category": "sprint-log.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/docs/validation-policy.md",
+      "category": "validation-policy.md",
+      "extension": ".md"
+    },
+    {
+      "path": "tools/flake.lock",
+      "category": "flake.lock",
+      "extension": ".lock"
+    },
+    {
+      "path": "tools/flake.nix",
+      "category": "flake.nix",
+      "extension": ".nix"
+    },
+    {
+      "path": "tools/out/.gitkeep",
+      "category": ".gitkeep",
+      "extension": "[none]"
+    },
+    {
+      "path": "tools/pyproject.toml",
+      "category": "pyproject.toml",
+      "extension": ".toml"
+    },
+    {
+      "path": "tools/src/research_tools/__init__.py",
+      "category": "__init__.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/cli.py",
+      "category": "cli.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/config.py",
+      "category": "config.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/models/__init__.py",
+      "category": "__init__.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/models/ledger.py",
+      "category": "ledger.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/models/reports.py",
+      "category": "reports.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/models/sources.py",
+      "category": "sources.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/parse/__init__.py",
+      "category": "__init__.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/parse/markdown_links.py",
+      "category": "markdown_links.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/parse/nz_ledger.py",
+      "category": "nz_ledger.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/parse/source_registry.py",
+      "category": "source_registry.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/parse/taiwan_ledger.py",
+      "category": "taiwan_ledger.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/paths.py",
+      "category": "paths.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/reports/__init__.py",
+      "category": "__init__.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/reports/nz_summary.py",
+      "category": "nz_summary.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/reports/nz_taiwan_summary.py",
+      "category": "nz_taiwan_summary.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/reports/release_readiness.py",
+      "category": "release_readiness.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/__init__.py",
+      "category": "__init__.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/archives.py",
+      "category": "archives.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/governance.py",
+      "category": "governance.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/knowledge.py",
+      "category": "knowledge.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/links.py",
+      "category": "links.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/release_hygiene.py",
+      "category": "release_hygiene.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/route_consistency.py",
+      "category": "route_consistency.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/sources.py",
+      "category": "sources.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/status_surfaces.py",
+      "category": "status_surfaces.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/validate/versions.py",
+      "category": "versions.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/workflows/__init__.py",
+      "category": "__init__.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/workflows/validate_all.py",
+      "category": "validate_all.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/sync_governance_state.py",
+      "category": "sync_governance_state.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/conftest.py",
+      "category": "conftest.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/test_governance.py",
+      "category": "test_governance.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/test_links.py",
+      "category": "test_links.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/test_nz_ledger.py",
+      "category": "test_nz_ledger.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/test_reports.py",
+      "category": "test_reports.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/test_route_consistency.py",
+      "category": "test_route_consistency.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/test_source_registry.py",
+      "category": "test_source_registry.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/test_taiwan_ledger.py",
+      "category": "test_taiwan_ledger.py",
+      "extension": ".py"
+    },
+    {
+      "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
+      "category": "using-this-research-with-human-assistants-and-reasoning-agents.md",
+      "extension": ".md"
+    }
+  ]
+}

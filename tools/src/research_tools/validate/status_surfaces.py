@@ -59,13 +59,13 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
     suf_readme = paths.suf_root / "README.md"
     project_status = paths.suf_root / "docs" / "project-status.md"
     pending_inventory = paths.suf_root / "docs" / "pending-inventory.md"
-    contribution_note = paths.suf_root / "docs" / "contribution-and-payoff-note.md"
-    v1_bundle = paths.suf_root / "docs" / "v1-academic-bundle.md"
-    framework_overview = paths.suf_root / "docs" / "framework-overview.md"
-    how_to_read = paths.suf_root / "docs" / "how-to-read-the-framework.md"
+    contribution_note = paths.suf_root / "docs" / "argument" / "CONTRIBUTION_AND_POSITIONING.md"
+    v1_bundle = paths.suf_root / "docs" / "argument" / "CONTRIBUTION_AND_POSITIONING.md"
+    framework_overview = paths.suf_root / "docs" / "orientation" / "FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md"
+    how_to_read = paths.suf_root / "docs" / "orientation" / "FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md"
     index_doc = paths.suf_root / "docs" / "INDEX.md"
-    reviewer_doc = paths.suf_root / "docs" / "reviewer-objections-and-current-answers.md"
-    evidence_doc = paths.suf_root / "docs" / "evidence-status-matrix.md"
+    reviewer_doc = paths.suf_root / "docs" / "audit" / "OBJECTIONS_AND_EVIDENCE_STATUS.md"
+    evidence_doc = paths.suf_root / "docs" / "audit" / "OBJECTIONS_AND_EVIDENCE_STATUS.md"
     interface_doc = paths.suf_root / "framework" / "framework-interface.md"
     publication_scope = paths.suf_root / "meta" / "publication-scope.md"
     roadmap = paths.suf_root / "ROADMAP.md"
@@ -81,7 +81,7 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
 
     checks = [
         ("status-root-readme-main-state", root_readme, f"Current `main` state: aligned with the hosted `{hosted_version}` New Zealand monograph-baseline release.", "Umbrella README keeps the current release-point alignment explicit."),
-        ("status-suf-readme-bounded-release", suf_readme, "publication-ready bounded public release", "SUF README keeps the bounded public release wording explicit."),
+        ("status-suf-readme-bounded-release", suf_readme, "bounded public academic package", "SUF README keeps the bounded public package wording explicit."),
         ("status-suf-readme-no-proof-whole-stack", suf_readme, "treat the New Zealand route as proof of the whole stack", "SUF README explicitly blocks treating the New Zealand route as proof of the whole stack."),
         ("status-suf-readme-metrics", suf_readme, f"a `{nz_summary.event_count}`-event New Zealand public ledger with a `{nz_summary.main_interval_count}`-event main interval", "SUF README exposes the current New Zealand baseline metrics."),
         ("status-suf-readme-taiwan", suf_readme, f"a `{taiwan_summary.event_count}`-event bounded Taiwan comparator with one conservative lag pair", "SUF README exposes the current Taiwan comparator baseline."),
@@ -91,14 +91,14 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-overview-layer-framing", framework_overview, "three substantive layers plus one bridge/control layer", "Framework overview reflects the updated layer framing."),
         ("status-how-to-read-sp-link", how_to_read, "framework/structural-phenomenology-downstream-role.md", "Reading path includes the Structural Phenomenology downstream-role note."),
         ("status-how-to-read-bounded-gain-link", how_to_read, "bounded-gain-against-simpler-readings.md", "Reading path includes the bounded-gain note."),
-        ("status-index-reviewer-doc", index_doc, "reviewer-objections-and-current-answers.md", "Index includes the reviewer-objections doc."),
-        ("status-index-evidence-doc", index_doc, "evidence-status-matrix.md", "Index includes the evidence-status matrix."),
-        ("status-project-status-reviewer-doc", project_status, "reviewer-objections-and-current-answers.md", "Project status links the reviewer-objections doc."),
-        ("status-project-status-evidence-doc", project_status, "evidence-status-matrix.md", "Project status links the evidence-status matrix."),
-        ("status-v1-reviewer-doc", v1_bundle, "reviewer-objections-and-current-answers.md", "v1 bundle links the reviewer-objections doc."),
-        ("status-v1-evidence-doc", v1_bundle, "evidence-status-matrix.md", "v1 bundle links the evidence-status matrix."),
-        ("status-reviewer-purpose", reviewer_doc, "This file collects the strongest foreseeable academic objections", "Reviewer-objections doc has its intended purpose text."),
-        ("status-evidence-purpose", evidence_doc, "This file maps the major current public claims", "Evidence-status matrix has its intended purpose text."),
+        ("status-index-reviewer-doc", index_doc, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "Index includes the reviewer-objections doc."),
+        ("status-index-evidence-doc", index_doc, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "Index includes the evidence-status matrix."),
+        ("status-project-status-reviewer-doc", project_status, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "Project status links the reviewer-objections doc."),
+        ("status-project-status-evidence-doc", project_status, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "Project status links the evidence-status matrix."),
+        ("status-v1-reviewer-doc", v1_bundle, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "v1 bundle links the reviewer-objections doc."),
+        ("status-v1-evidence-doc", v1_bundle, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "v1 bundle links the evidence-status matrix."),
+        ("status-reviewer-purpose", reviewer_doc, "## Reviewer objections and current answers", "Reviewer-objections doc has its intended reviewer-objection section."),
+        ("status-evidence-purpose", evidence_doc, "## Evidence-status matrix role", "Evidence-status matrix has its intended role section."),
         ("status-reviewer-doc-evidence-mapping", reviewer_doc, "stronger evidence-to-claim mapping", "Reviewer-objections doc keeps the remaining evidence-to-claim mapping burden explicit."),
         ("status-publication-scope-no-universal-proof", publication_scope, "that one demonstrated route proves the framework universally", "Publication scope explicitly blocks one-route universal proof language."),
         ("status-publication-scope-no-closure", publication_scope, "that the current package already yields objectively settled cross-domain measurement or strong predictive closure", "Publication scope explicitly blocks settled measurement and predictive closure claims."),

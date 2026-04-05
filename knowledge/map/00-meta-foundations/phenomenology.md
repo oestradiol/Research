@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 00-meta-foundations
-suf_role: "foundational scaffold node"
+suf_role: "supporting_scaffold"
 aliases:
   - first-person phenomenology
 related_routes:

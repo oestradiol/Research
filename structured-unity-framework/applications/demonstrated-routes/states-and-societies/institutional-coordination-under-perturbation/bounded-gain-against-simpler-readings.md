@@ -137,8 +137,8 @@ That gain is real enough to state publicly, but narrow enough that later compara
 
 ## 7. Companion notes
 
-- [Contribution and Payoff Note](../../../../docs/contribution-and-payoff-note.md)
-- [Rival-Framework Positioning Note](../../../../docs/rival-framework-positioning-note.md)
+- [Contribution and Payoff Note](../../../../docs/argument/CONTRIBUTION_AND_POSITIONING.md)
+- [Rival-Framework Positioning Note](../../../../docs/argument/CONTRIBUTION_AND_POSITIONING.md)
 - [Event Ledger](event-ledger-seed.md)
 - [First-Pass `I` Summary](first-pass-i-summary.md)
 - [First-Pass `C` Summary](first-pass-c-summary.md)
@@ -148,3 +148,8 @@ That gain is real enough to state publicly, but narrow enough that later compara
 ## Status
 
 `bounded gain note against two simpler readings`
+
+
+Locked payoff sentence:
+
+**SUF shows that the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture.**

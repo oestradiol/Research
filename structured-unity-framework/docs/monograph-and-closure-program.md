@@ -68,13 +68,13 @@ The long-range program should treat these docs as stable public interfaces:
 
 - [Monograph and Closure Program](monograph-and-closure-program.md)
   Canonical phase ladder and finish-line definition.
-- [Monograph Table of Contents](monograph-table-of-contents.md)
+- [Monograph Table of Contents](monograph/MONOGRAPH_SUPPORT_PACKAGE.md)
   Repo-native monograph shape and chapter order.
-- [Monograph Evidence Map](monograph-evidence-map.md)
+- [Monograph Evidence Map](monograph/MONOGRAPH_SUPPORT_PACKAGE.md)
   Chapter-to-artifact, source-family, validator, and gap map.
-- [Bounded Pandemic Closure Note](bounded-pandemic-closure-note.md)
+- [Bounded Pandemic Closure Note](monograph/MONOGRAPH_SUPPORT_PACKAGE.md)
   Stable synthesis surface for later three-case closure.
-- [Rival-Framework Positioning Note](rival-framework-positioning-note.md)
+- [Rival-Framework Positioning Note](argument/CONTRIBUTION_AND_POSITIONING.md)
   Stable surface for later bounded comparison against nearby explanatory frames.
 
 The planned Australia route should live alongside the current New Zealand and Taiwan route materials under:
@@ -266,7 +266,7 @@ Future agents should follow this order:
 1. [project-status.md](project-status.md) for current package posture
 2. this file for the canonical long-range program
 3. [pending-inventory.md](pending-inventory.md) for the queued later-work inventory
-4. [monograph-table-of-contents.md](monograph-table-of-contents.md) and [monograph-evidence-map.md](monograph-evidence-map.md) for chapter and artifact structure
+4. [monograph/MONOGRAPH_SUPPORT_PACKAGE.md](monograph/MONOGRAPH_SUPPORT_PACKAGE.md) and [monograph/MONOGRAPH_SUPPORT_PACKAGE.md](monograph/MONOGRAPH_SUPPORT_PACKAGE.md) for chapter and artifact structure
 5. route-level docs only after the phase and chapter target are clear
 
 Future agents must keep these distinctions explicit:

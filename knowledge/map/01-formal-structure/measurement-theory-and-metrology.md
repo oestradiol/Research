@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 01-formal-structure
-suf_role: "measurement discipline node"
+suf_role: "supporting_scaffold"
 aliases:
   - measurement theory
   - metrology
@@ -64,3 +64,8 @@ This node is essential when proxy bundles, indicators, and readout discipline ma
 ## Status
 
 `deepened hub node`
+
+
+## SUF handoff note
+
+Here SUF should not remain in the foreground by inertia. It is a supporting scaffold and should yield to better local or domain-native frameworks wherever they explain the material more directly.

@@ -1,10 +1,12 @@
 # Structured Unity Framework
 
+Use `START_HERE.md` for the governed package front door.
+
 ## 1. What this package is
 
 **Structured Unity Framework (SUF)** is a layered, documentation-first research framework for describing **unity-like organization** in complex systems: how parts become integrated, how dynamics stay aligned through time, how delays shape what can be observed, and how those factors combine at explicit scales and time windows.
 
-This directory is the current **publication-ready bounded public release** of the framework. It is readable, bounded, and structured for academic use. It is **not** a claim of universal proof, a closed empirical report, or a completed empirical monograph.
+This directory is the current **bounded public academic package** of the framework. It is structured for careful academic reading and public scrutiny. It is **not** a claim of universal proof, a closed empirical report, or a completed empirical monograph.
 
 ## 2. What this package does and does not do
 
@@ -26,7 +28,7 @@ This directory is the current **publication-ready bounded public release** of th
 
 **Hosted snapshot:** **`v1.1.0`** dated **2026-04-03**.
 
-**Current `main` state:** aligned with the hosted `v1.1.0` New Zealand monograph-baseline release.
+**Current `main` state:** aligned with the hosted `v1.1.0` bounded New Zealand monograph-baseline package state.
 
 **Stable now:** three substantive layers plus one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local estimator implementation; a `15`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IAF; a reviewer-facing objections surface; a claim-status matrix; and a tooling-ready read-only validation layer.
 
@@ -35,20 +37,18 @@ For current package posture use `docs/project-status.md`. For live sequencing us
 ## 4. Reading path
 
 1. this file
-2. `docs/v1-academic-bundle.md`
-3. `docs/how-to-read-the-framework.md`
-4. `docs/framework-overview.md`
-5. `docs/claims-and-boundaries.md`
-6. `framework/framework-interface.md`
-7. then the remaining `framework/` files in the order listed in `docs/how-to-read-the-framework.md`
+2. `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
+3. `docs/argument/CONTRIBUTION_AND_POSITIONING.md`
+4. `docs/claims-and-boundaries.md`
+5. `framework/framework-interface.md`
+6. then the remaining `framework/` files in the order listed in `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
 
 ## 5. Reviewer-facing audit path
 
 For a stricter audit-oriented read, use:
 
-- `docs/v1-academic-bundle.md`
+- `docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 - `docs/claims-and-boundaries.md`
-- `docs/reviewer-objections-and-current-answers.md`
-- `docs/evidence-status-matrix.md`
+- `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 - `framework/framework-interface.md`
 - `framework/research-program.md`

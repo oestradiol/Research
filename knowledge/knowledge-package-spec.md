@@ -1,5 +1,7 @@
 # Knowledge Package Spec
 
+Canonical filename: `knowledge-package-spec.md`
+
 ## 1. Purpose
 
 This document is the control spec for `Research/knowledge/`.

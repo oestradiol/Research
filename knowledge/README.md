@@ -24,6 +24,8 @@ This is the first bounded public release of the Knowledge package inside the umb
 
 ## 2. How to use it
 
+- See `../structured-unity-framework/README.md` for the sibling SUF package.
+
 - Start with `_indexes/knowledge-index.md`.
 - Use `_indexes/node-index.md` when you want the full program in one place.
 - Use `map/` for cluster gateways and domain notes.

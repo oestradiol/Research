@@ -13,7 +13,7 @@ First bounded public release of Knowledge inside the umbrella `Research/` reposi
 
 - package URL: [knowledge/](https://github.com/oestradiol/Research/tree/main/knowledge)
 - umbrella tag: [`v1.0.0`](https://github.com/oestradiol/Research/releases/tag/v1.0.0)
-- release notes: [`releases/v1.0.0.md`](https://github.com/oestradiol/Research/blob/main/releases/v1.0.0.md)
+- release notes: [`CHANGELOG.md`](https://github.com/oestradiol/Research/blob/main/CHANGELOG.md)
 - freeze commit: [`bcab522`](https://github.com/oestradiol/Research/commit/bcab5227a5ad53c26b68af6f55b0bc48a6cb4f1b)
 
 ### Included in this snapshot

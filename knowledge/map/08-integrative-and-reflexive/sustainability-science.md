@@ -7,7 +7,7 @@ tags:
 kind: node
 status: "deepened hub node"
 cluster: 08-integrative-and-reflexive
-suf_role: "long-horizon governance node"
+suf_role: "supporting_scaffold"
 related_routes:
   - "[[study-routes/sustainability-and-governance-route]]"
   - "[[study-routes/framework-comparison-and-knowledge-organization-route]]"

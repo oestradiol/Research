@@ -1,0 +1,21 @@
+{
+  "package_name": "structured-unity-framework",
+  "version": "1.1.1",
+  "hosted_snapshot": "v1.1.0",
+  "hosted_date": "2026-04-03",
+  "package_status": "publication_ready_bounded_public_release",
+  "current_authoritative_entrypoints": [
+    "structured-unity-framework/README.md",
+    "structured-unity-framework/START_HERE.md",
+    "structured-unity-framework/docs/project-status.md",
+    "structured-unity-framework/docs/current-execution-order.md",
+    "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+    "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
+    "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+    "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json"
+  ],
+  "routes": {
+    "new_zealand": "monograph_baseline_demonstrated_route",
+    "taiwan": "bounded_comparator"
+  }
+}
