@@ -14,9 +14,9 @@ Use the public status files by role:
 
 ## 2. Current package posture
 
-**`v1.1.0`** names the dated hosted snapshot in this tree (**2026-04-03**).
+**`v1.2.0`** names the dated hosted snapshot in this tree (**2026-04-05**).
 
-Current `main` is aligned with the hosted `v1.1.0` New Zealand monograph-baseline release for the public package. The framework core is in place, the New Zealand route now includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a bounded New Zealand monograph baseline. The Taiwan branch still exists as a `15`-event bounded comparator rather than a starter-only tranche, the locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and package hygiene.
+Current `main` is aligned with the hosted `v1.2.0` Taiwan chapter-ready release for the public package. The framework core is in place, the New Zealand route includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a bounded New Zealand monograph baseline. The Taiwan comparator is now chapter-ready with a `15`-event archive-clean official tranche, bounded command/EOC architecture visibility, and retrospective/oversight closure through a December 2024 White Paper with a verified Wayback archive. The locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and package hygiene.
 
 Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, and changelog grounding are complete. No remaining launch blocker or active-core repository-assembly blocker is left inside the current repository state.
 
@@ -26,10 +26,10 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 
 **Completed on `main`**
 
-- bounded hosted `v1.1.0` framing now names the New Zealand monograph-baseline package state
+- bounded hosted `v1.2.0` framing now names the Taiwan chapter-ready package state
 - New Zealand route hardened to `38` coded events with a `29`-event main interval and a bounded monograph baseline inside the locked windows
 - late-transition DPMC authority-routing and review papers plus direct action-plan and architecture anchors promoted into the live route
-- Taiwan comparator extended to `15` archive-clean official events with clearer health, border, compliance, and public-alignment separation
+- Taiwan comparator completed to chapter-ready with `15` archive-clean official events, bounded command/EOC architecture visibility, and retrospective/oversight closure
 - locked payoff sentence pressure-tested and retained
 - public IAF downstream-role clarification synchronized with the denser NZ/Taiwan evidence
 - tooling-ready read-only validation and reporting extended across route, comparison, and release-hygiene surfaces

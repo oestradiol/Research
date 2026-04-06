@@ -15,6 +15,11 @@ from research_tools.reports.nz_taiwan_summary import (
     render_nz_taiwan_report,
 )
 from research_tools.reports.release_readiness import render_release_readiness_report
+from research_tools.reports.taiwan_lag import compute_taiwan_lag_pair, render_taiwan_lag_report
+from research_tools.reports.taiwan_summary import (
+    compare_taiwan_summary_to_docs,
+    render_taiwan_summary_report,
+)
 from research_tools.validate.knowledge import validate_knowledge_package
 from research_tools.validate.versions import validate_versions
 from research_tools.workflows.validate_all import collect_validation_results
@@ -101,6 +106,52 @@ def test_nz_taiwan_summary_report_renders_expected_rows() -> None:
     assert "public-health policy and command / border-control coordination = 6 / 15 each" in output
     assert "public-information receiving share" in output
     assert "- none" in output
+
+
+def test_taiwan_summary_report_renders_expected_rows() -> None:
+    paths = get_paths()
+    taiwan_events = parse_taiwan_ledger(paths.taiwan_route_root / "taiwan-event-ledger-seed.md")
+    taiwan_summary = compute_route_summary("taiwan", taiwan_events)
+    validations = compare_taiwan_summary_to_docs(
+        summary=taiwan_summary,
+        ledger_path=paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+        evidence_map_path=paths.taiwan_route_root / "taiwan-chapter-evidence-map.md",
+        table_plan_path=paths.taiwan_route_root / "taiwan-chapter-table-and-figure-plan.md",
+    )
+
+    output = render_taiwan_summary_report(
+        summary=taiwan_summary,
+        validations=validations,
+        source_files=[
+            paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+            paths.taiwan_route_root / "taiwan-chapter-evidence-map.md",
+            paths.taiwan_route_root / "taiwan-chapter-table-and-figure-plan.md",
+        ],
+        generated_at="2026-04-02T00:00:00+00:00",
+    )
+
+    assert "`15`" in output
+    assert "`31 / 52 = 0.60`" in output
+    assert "public-health policy and command = 6 / 15" in output
+    assert "Matches current published Taiwan chapter-facing docs." in output
+    assert "- none" in output
+
+
+def test_taiwan_lag_report_renders_expected_pair() -> None:
+    paths = get_paths()
+    taiwan_events = parse_taiwan_ledger(paths.taiwan_route_root / "taiwan-event-ledger-seed.md")
+
+    output = render_taiwan_lag_report(
+        compute_taiwan_lag_pair(taiwan_events),
+        "2026-04-02T00:00:00+00:00",
+        [paths.taiwan_route_root / "taiwan-event-ledger-seed.md"],
+    )
+
+    assert "Bounded quarantine-routing lag pair" in output
+    assert "`tw-p-002`" in output
+    assert "`tw-p-010`" in output
+    assert "`11`" in output
+    assert "only one conservative clean Taiwan lag pair is currently publishable" in output
 
 
 def test_knowledge_validation_passes_for_current_package() -> None:

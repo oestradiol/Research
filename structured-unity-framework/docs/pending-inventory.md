@@ -4,18 +4,18 @@ This file records the queued later work after the New Zealand monograph-baseline
 
 ## A. No remaining publication or active-core blockers
 
-The hosted `v1.1.0` release now has:
+The hosted `v1.2.0` release now has:
 
 - a public remote at `https://github.com/oestradiol/Research`
 - hosted README and citation URLs for the umbrella repo and public packages
 - changelog entries grounded to hosted commit and tag surfaces
 - root changelog preserved in `../CHANGELOG.md`
 
-Current `main` is aligned with that hosted snapshot and now has:
+Current `main` is aligned with the hosted `v1.2.0` Taiwan chapter-ready release for the public package and now has:
 
 - a `38`-event New Zealand route with a `29`-event main interval
 - a chapter-ready New Zealand monograph baseline inside the locked windows
-- a `15`-event bounded Taiwan comparator
+- a `15`-event chapter-ready Taiwan comparator
 - a retained locked payoff sentence
 - a tooling-ready read-only validation layer for the stable active-core public surfaces
 
@@ -38,13 +38,13 @@ No unresolved publication blocker or active-core repo-completion blocker remains
 5. `completed` Tooling-ready read-only validation for the stable active-core public surfaces.
    Why it mattered: the docs-first package needed a stronger deterministic check layer before later expansion.
 
-6. `completed` `v1.1` New Zealand monograph hardening.
-   Why it mattered: the route needed to stop reading as a bounded proof-of-concept and become a chapter-ready monograph core inside the locked windows.
+6. `completed` `v1.2` Taiwan chapter-ready completion.
+   Why it mattered: the Taiwan comparator needed to become chapter-ready rather than remaining a bounded starter pilot.
 
 ## C. Long-range phase ladder
 
-1. `later` `v1.2` Taiwan completion.
-   Why it matters: the current bounded comparator is enough for the active core, but not yet enough for a standalone comparator chapter.
+1. `completed` `v1.2` Taiwan chapter-ready completion.
+   Why it mattered: the Taiwan comparator needed to become chapter-ready rather than remaining a bounded starter pilot.
 
 2. `later` `v1.3` Australia federal comparator.
    Why it matters: strong multi-case closure in bounded form needs a second real comparator, not only a deeper Taiwan branch.

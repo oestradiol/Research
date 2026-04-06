@@ -26,9 +26,9 @@ This directory is the current **bounded public academic package** of the framewo
 
 ## 3. Current package posture
 
-**Hosted snapshot:** **`v1.1.0`** dated **2026-04-03**.
+**Hosted snapshot:** **`v1.2.0`** dated **2026-04-05**.
 
-**Current `main` state:** aligned with the hosted `v1.1.0` bounded New Zealand monograph-baseline package state.
+**Current `main` state:** aligned with the hosted `v1.2.0` Taiwan chapter-ready package state.
 
 **Stable now:** three substantive layers plus one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local estimator implementation; a `15`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IAF; a reviewer-facing objections surface; a claim-status matrix; and a tooling-ready read-only validation layer.
 

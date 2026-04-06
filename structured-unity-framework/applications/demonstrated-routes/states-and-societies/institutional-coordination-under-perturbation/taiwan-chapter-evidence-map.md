@@ -41,4 +41,4 @@ That means:
 
 ## Status
 
-`chapter-facing evidence map`
+`chapter-ready evidence map`

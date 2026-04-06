@@ -23,6 +23,14 @@ from research_tools.reports.nz_taiwan_summary import (
     render_nz_taiwan_report,
 )
 from research_tools.reports.release_readiness import render_release_readiness_report
+from research_tools.reports.taiwan_lag import (
+    compute_taiwan_lag_pair,
+    render_taiwan_lag_report,
+)
+from research_tools.reports.taiwan_summary import (
+    compare_taiwan_summary_to_docs,
+    render_taiwan_summary_report,
+)
 from research_tools.validate.archives import validate_archive_links
 from research_tools.validate.knowledge import validate_knowledge_package
 from research_tools.validate.links import validate_markdown_links
@@ -340,6 +348,48 @@ def handle_report_nz_taiwan_summary(_: argparse.Namespace) -> int:
     return _results_exit_code(validations)
 
 
+def handle_report_taiwan_summary(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    taiwan_events = parse_taiwan_ledger(paths.taiwan_route_root / "taiwan-event-ledger-seed.md")
+    taiwan_summary = compute_route_summary("taiwan", taiwan_events)
+    validations = compare_taiwan_summary_to_docs(
+        summary=taiwan_summary,
+        ledger_path=paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+        evidence_map_path=paths.taiwan_route_root / "taiwan-chapter-evidence-map.md",
+        table_plan_path=paths.taiwan_route_root / "taiwan-chapter-table-and-figure-plan.md",
+    )
+    output = render_taiwan_summary_report(
+        summary=taiwan_summary,
+        validations=validations,
+        source_files=[
+            paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+            paths.taiwan_route_root / "taiwan-chapter-evidence-map.md",
+            paths.taiwan_route_root / "taiwan-chapter-table-and-figure-plan.md",
+        ],
+        generated_at=_generated_at(),
+    )
+    output_path = _write_output("taiwan-summary.md", output)
+    print(output_path)
+    return _results_exit_code(validations)
+
+
+def handle_report_taiwan_lag_limit(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    taiwan_events = parse_taiwan_ledger(paths.taiwan_route_root / "taiwan-event-ledger-seed.md")
+    output = render_taiwan_lag_report(
+        compute_taiwan_lag_pair(taiwan_events),
+        _generated_at(),
+        [
+            paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+            paths.taiwan_route_root / "first-nz-taiwan-comparison-note.md",
+            paths.taiwan_route_root / "taiwan-chapter-boundary-and-corpus.md",
+        ],
+    )
+    output_path = _write_output("taiwan-lag-limit.md", output)
+    print(output_path)
+    return 0
+
+
 def handle_report_release_readiness(_: argparse.Namespace) -> int:
     paths = get_paths()
     results = collect_validation_results(paths)
@@ -398,6 +448,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     report_subparsers.add_parser("nz-taiwan-summary").set_defaults(
         func=handle_report_nz_taiwan_summary
+    )
+    report_subparsers.add_parser("taiwan-lag-limit").set_defaults(
+        func=handle_report_taiwan_lag_limit
+    )
+    report_subparsers.add_parser("taiwan-summary").set_defaults(
+        func=handle_report_taiwan_summary
     )
     report_subparsers.add_parser("release-readiness").set_defaults(
         func=handle_report_release_readiness

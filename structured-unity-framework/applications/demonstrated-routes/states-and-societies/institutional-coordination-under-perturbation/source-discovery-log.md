@@ -74,13 +74,15 @@ The first Taiwan comparator tranche follows the same admission rule: no source i
 | `src-taiwan-transit-extension-2020` | `E-family` | `2020-04-23` extension of flight and transit restrictions | `verified` | `verified` | `accepted and coded` | direct continuity anchor for the starter acute window |
 | `src-taiwan-first-imported-case-onboard-quarantine-2020` | `A/E-family bridge` | `2020-01-21` first imported case identified through onboard quarantine with hospital and local-health routing | `verified` | `verified` | `accepted and coded` | direct early case-detection and local-health-authority routing anchor now promoted into the comparator ledger |
 | `src-taiwan-social-distancing-measures-2020` | `D/E-family bridge` | `2020-04-01` phased social-distancing guidance and conditional mandatory-rule surface | `verified` | `verified` | `accepted and coded` | direct public-alignment and conditional enforcement anchor added to reduce command-centre thinness in the acute tranche |
+| `src-taiwan-nhcc-architecture-2020` | `A-family / comparator architecture` | bounded NHCC/CECC/EOC command architecture and emergency-management coordination | `verified` | `verified` | `accepted` | bounded command-centre/EOC architecture and emergency-management coordination anchor with verified Wayback archive from 2020-06-01 |
+| `src-taiwan-post-covid-white-paper-2024` | `A-family / retrospective oversight` | retrospective/oversight anchor for Taiwan's epidemic prevention policy and de-escalation coverage | `verified` | `verified` | `accepted` | retrospective/oversight anchor with verified Wayback archive from 2026-04-06 |
 | `vmv22PiH7-k3K-yh6FkmKw` | `candidate check` | pre-comparator architecture scan | `verified` | `verified` | `promoted under source id` | normalized to `src-taiwan-cecc-activation-2020` |
 | `pVg_jRVvtHhp94C6GShRkQ` | `candidate check` | additional early Taiwan bulletin | `verified` | `verified` | `promoted under source id` | normalized to `src-taiwan-first-imported-case-onboard-quarantine-2020` after fixed-archive confirmation |
 | `kM0jm-IqLwNBeT6chKk_wg` | `candidate check` | additional Taiwan public-alignment bulletin | `verified` | `verified` | `promoted under source id` | normalized to `src-taiwan-social-distancing-measures-2020` after fixed-archive confirmation |
 
 ## Taiwan comparator result
 
-This is enough to deepen the Taiwan comparator from the original `12`-event starter into a denser `15`-event archive-clean acute tranche without weakening the archive rule.
+This is enough to deepen the Taiwan comparator from the original `12`-event starter into a denser `15`-event archive-clean acute tranche without weakening the archive rule, and now also provides a bounded command-centre/EOC architecture anchor and retrospective/oversight closure.
 
 It now adds:
 

@@ -77,4 +77,4 @@ Those remain active `v1.2` limits, not reasons to reopen boundary architecture.
 
 ## Status
 
-`chapter-facing bounded route note`
+`chapter-ready bounded comparator`

@@ -67,6 +67,8 @@ research-tools report nz-summary
 research-tools report nz-window-comparison
 research-tools report nz-lag-surface
 research-tools report nz-taiwan-summary
+research-tools report taiwan-lag-limit
+research-tools report taiwan-summary
 research-tools report release-readiness
 ```
 

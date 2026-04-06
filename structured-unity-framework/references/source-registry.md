@@ -920,6 +920,26 @@ Entries in this public pass were checked on `2026-04-02`, with later DPMC refres
 - Accessed: `2026-04-02`.
 - Use limit: supports border-response comparison; does not alone characterize Taiwan's whole response system.
 
+### src-taiwan-nhcc-architecture-2020
+
+- Citation: Taiwan Centers for Disease Control. *NHCC - Taiwan Centers for Disease Control*. 2020.
+- Type: government organizational page.
+- Role in SUF: bounded Taiwan command-centre/EOC architecture and emergency-management coordination anchor.
+- Primary link: https://www.cdc.gov.tw/En/Category/MPage/gL7-bARtHyNdrDq882pJ9Q
+- Archive link: https://web.archive.org/web/20200601000000/https://www.cdc.gov.tw/En/Category/MPage/gL7-bARtHyNdrDq882pJ9Q
+- Accessed: `2026-04-05`.
+- Use limit: supports bounded command-centre/EOC architecture and emergency-management coordination visibility; does not alone provide a full Taiwan comparator route.
+
+### src-taiwan-post-covid-white-paper-2024
+
+- Citation: Taiwan Centers for Disease Control. *White Paper on Taiwan's Epidemic Prevention Policy in Post-COVID-19 Era*. December 2024.
+- Type: government white paper.
+- Role in SUF: retrospective/oversight anchor for Taiwan's epidemic prevention policy and de-escalation coverage.
+- Primary link: https://www.cdc.gov.tw/En/InfectionReport/Info/9YUAXbFsmorP5T10V8qvMA?infoId=6PufDLBJ4rde9YkP-J-Hgw
+- Archive link: https://web.archive.org/web/20260406020951/https://www.cdc.gov.tw/En/InfectionReport/Info/9YUAXbFsmorP5T10V8qvMA?infoId=6PufDLBJ4rde9YkP-J-Hgw
+- Accessed: `2026-04-05`.
+- Use limit: supports retrospective/oversight coverage and de-escalation visibility; does not alone provide a full Taiwan comparator route.
+
 ### src-australia-pmc-covid-inquiry
 
 - Citation: Department of the Prime Minister and Cabinet (Australia). *Commonwealth Government COVID-19 Response Inquiry*. Current inquiry hub.

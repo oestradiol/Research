@@ -14,6 +14,7 @@ from research_tools.reports.nz_summary import (
     compute_route_summary,
 )
 from research_tools.reports.nz_taiwan_summary import compare_nz_taiwan_summary_to_docs
+from research_tools.reports.taiwan_summary import compare_taiwan_summary_to_docs
 
 
 def _validate_event_schema(
@@ -135,6 +136,14 @@ def validate_taiwan_route(
             nz_summary=nz_summary,
             taiwan_summary=taiwan_summary,
             comparison_note_path=route_root / "first-nz-taiwan-comparison-note.md",
+        )
+    )
+    results.extend(
+        compare_taiwan_summary_to_docs(
+            summary=taiwan_summary,
+            ledger_path=route_root / "taiwan-event-ledger-seed.md",
+            evidence_map_path=route_root / "taiwan-chapter-evidence-map.md",
+            table_plan_path=route_root / "taiwan-chapter-table-and-figure-plan.md",
         )
     )
     return results

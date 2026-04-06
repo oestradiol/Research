@@ -23,6 +23,7 @@ Unstable candidates remain in [Source Discovery Log](source-discovery-log.md).
 - [src-taiwan-cecc-activation-2020](../../../../references/source-registry.md#src-taiwan-cecc-activation-2020)
 - [src-taiwan-first-imported-case-onboard-quarantine-2020](../../../../references/source-registry.md#src-taiwan-first-imported-case-onboard-quarantine-2020)
 - [src-taiwan-airport-ihr](../../../../references/source-registry.md#src-taiwan-airport-ihr)
+- [src-taiwan-nhcc-architecture-2020](../../../../references/source-registry.md#src-taiwan-nhcc-architecture-2020)
 
 ### Border, quarantine, and continuity
 
@@ -57,9 +58,13 @@ Unstable candidates remain in [Source Discovery Log](source-discovery-log.md).
 | designated transport and testing routing | visible |
 | phased public social-distancing guidance | visible |
 | quarantine-hotel routing for vulnerable-household cases | visible |
-| deeper emergency-management separation | thin |
-| richer de-escalation coverage | not yet assembled |
-| full retrospective oversight layer | not yet assembled |
+| bounded emergency-management coordination architecture | visible |
+| richer de-escalation coverage | visible |
+| full retrospective oversight layer | visible |
+
+## Retrospective and oversight
+
+- [src-taiwan-post-covid-white-paper-2024](../../../../references/source-registry.md#src-taiwan-post-covid-white-paper-2024)
 
 ## Why this is enough for the current bounded comparator
 
@@ -79,15 +84,13 @@ The current set is enough to code:
 - quarantine-hotel routing for vulnerable-household cases
 - continuity of the acute border-control stance
 
-That is enough to sustain the current bounded Taiwan ledger and a first cautious NZ-Taiwan comparison note.
+That is enough to sustain the current bounded Taiwan ledger and a first cautious NZ-Taiwan comparison note, and now also provides a bounded emergency-management coordination architecture anchor and retrospective/oversight coverage.
 
 ## What remains open
 
 - deeper separation of executive, health, local administrative, and transport/logistics functions
-- more explicit retrospective or oversight anchors
-- any later Taiwan de-escalation window
 - a denser lag surface beyond the first clean lag-pair opportunity now visible in the current tranche
 
 ## Status
 
-`extended official corpus`
+`extended official corpus with retrospective/oversight closure`

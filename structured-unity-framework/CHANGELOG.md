@@ -4,6 +4,25 @@
 
 - no changes yet
 
+## `v1.2.0` - 2026-04-05
+
+Taiwan chapter-ready hosted release of Structured Unity Framework.
+
+### Hosted history
+
+- package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
+- umbrella tag: [`v1.2.0`](https://github.com/oestradiol/Research/releases/tag/v1.2.0)
+
+### Included in this snapshot
+
+- New Zealand route carried forward as a `38`-event / `29`-event monograph-baseline core inside the locked windows
+- Taiwan comparator completed to chapter-ready with `15` archive-clean official events, bounded command/EOC architecture visibility, and retrospective/oversight closure
+- NHCC architecture source with verified Wayback archive from 2020-06-01 added for bounded emergency-management coordination visibility
+- December 2024 White Paper on Taiwan's Epidemic Prevention Policy in Post-COVID-19 Era added with verified Wayback archive for retrospective/oversight coverage
+- Taiwan lag-limit report tooling added to CLI with bounded readout of the single conservative lag pair
+- All Taiwan chapter-facing surfaces promoted to chapter-ready status
+- Tooling validation and reporting extended across Taiwan route, summary, and lag-limit surfaces
+
 ## `v1.1.0` - 2026-04-03
 
 New Zealand monograph-baseline hosted release of Structured Unity Framework.
