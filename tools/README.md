@@ -27,6 +27,8 @@ Current support includes:
 - public status-surface mismatch checks against current route and comparison metrics
 - Knowledge package entry/index integrity checks
 - version, changelog, and citation-surface consistency checks
+- governance consistency validation (registry integrity, version consistency)
+- integrity manifest generation from CURRENT_SURFACES_REGISTRY
 - release-readiness reporting
 - deterministic read-only report generation
 

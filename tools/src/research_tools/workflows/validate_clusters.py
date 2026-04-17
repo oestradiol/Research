@@ -17,6 +17,7 @@ from research_tools.validate.governance import (
     validate_repository_minimality,
     validate_routing_surfaces,
 )
+from research_tools.validate.governance_consistency import validate_governance_consistency
 from research_tools.validate.knowledge import validate_knowledge_package
 from research_tools.validate.links import validate_markdown_links
 from research_tools.validate.release_hygiene import validate_release_hygiene
@@ -43,6 +44,7 @@ def _run_root_governance_cluster(paths: RepoPaths) -> list[ValidationResult]:
     results.extend(validate_repository_minimality(repo_root))
     results.extend(validate_routing_surfaces(repo_root))
     results.extend(validate_merged_doc_quality(repo_root))
+    results.extend(validate_governance_consistency(repo_root))
     results.extend(validate_edit_scope(repo_root))
     return results
 

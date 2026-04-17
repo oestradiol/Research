@@ -1,8 +1,8 @@
 {
-  "registry_version": "0.3.0",
+  "registry_version": "0.4.0",
   "canonical": true,
   "scope": "Research root repository current surfaces",
-  "notes": "This is the canonical source of truth for current files. Other registries should reference this rather than duplicating.",
+  "notes": "This is the single source of truth for current files. All other registries should derive from this, rather than duplicating.",
   "current_files": [
     "README.md",
     "START_HERE.md",

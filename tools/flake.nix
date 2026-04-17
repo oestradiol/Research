@@ -28,6 +28,9 @@
               ruff
               python312Packages.pytest
             ];
+            shellHook = ''
+              export PATH="${self}/src/research_tools:$PATH"
+            '';
           };
         });
     };
