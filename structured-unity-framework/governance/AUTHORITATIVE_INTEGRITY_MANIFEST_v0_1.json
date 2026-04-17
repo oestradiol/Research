@@ -1,94 +1,14 @@
 {
-  "version": "0.2.3",
+  "version": "0.3.0",
   "algorithm": "sha256",
   "files": [
-    {
-      "path": "structured-unity-framework/README.md",
-      "sha256": "0793780e1bd9b19f0de29e8d2d101ef737a0414d4421d1e3ca62d8e85710abda"
-    },
     {
       "path": "structured-unity-framework/START_HERE.md",
       "sha256": "9174847e086f186926398725f4a86348a31dc0a8716dce1dce4879bbe2936a92"
     },
     {
-      "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "d98bca48b603c1415677f17bccec9fc50d760c6326234b42fe811e7a078ef5d8"
-    },
-    {
-      "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "3542ce84422f8ce254336c0d00e0602430ea4b5d107fa7b32668086192cbf406"
-    },
-    {
-      "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
-      "sha256": "84dfd58956da4626d5c5e2bc3587a9f4ed6fe547e9f05743eaa4000f8ece6fbb"
-    },
-    {
-      "path": "structured-unity-framework/docs/project-status.md",
-      "sha256": "0e8dde039eb8ffd7a43cfa7fd90f23bb013800d0f0c02f6326b27dc0a1932ca8"
-    },
-    {
-      "path": "structured-unity-framework/docs/current-execution-order.md",
-      "sha256": "2f782dd7ee4886421bf86b10aa4830ccb618484bd64efad387f1fec002ae5ae6"
-    },
-    {
-      "path": "structured-unity-framework/docs/pending-inventory.md",
-      "sha256": "13d4caee071c5b5a98bd3058a9e1eba9665f2e7a77147205756eb5405655111a"
-    },
-    {
-      "path": "structured-unity-framework/docs/claims-and-boundaries.md",
-      "sha256": "c34a0c07dc514132bd5746e03ced8c4755e5dd1d651e120a9341c42d9a14335a"
-    },
-    {
-      "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
-      "sha256": "05da8f3f62faec383af94d1df6df885b593ce6ad08fdc9b1c14fef214ffb9bf2"
-    },
-    {
-      "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
-      "sha256": "347b4ae42984cfa5e43e960fe8ab3f95b7f631ef9cc230b50c4ae31b8327c00e"
-    },
-    {
-      "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
-      "sha256": "70aeaace75c8e6b18ba03f392de6bd1a188eb61dc39cb7bcc2b5badbec3341c4"
-    },
-    {
-      "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
-      "sha256": "117994c71f1154453eff0626bf1098e5fc6e32234137c344ab04c8c179db7101"
-    },
-    {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "sha256": "20287ddfb6b578e6e5eb7b1169ffca39f032ae1200bd506e9f3a511140d4234b"
-    },
-    {
-      "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
-      "sha256": "24309fbc826334450718d3a5142977137f30b8613d1cecf4c8e5232528d0cd9d"
-    },
-    {
-      "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "sha256": "8c954db281b09e7c7d75dd37e6f0311c086eac907a046690cb6b6f8525aaaaff"
-    },
-    {
-      "path": "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
-      "sha256": "27def54d1a8c2588bf426aac07ef01b8551e7dc37a1033ecf0108ce8e0f2666f"
-    },
-    {
-      "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "sha256": "a43aa4d2c5b153949bcd78a28253aa97f536bbf0fc7de3ba5925de58a5f8c8eb"
-    },
-    {
-      "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "sha256": "fcf74fa89739d48ce27b193037d01685a69d4545f8b1ffa3586046fd7d8b61a8"
-    },
-    {
-      "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
-      "sha256": "46799ad5f8ead16eb5b9edb98d0ec4dbb3c961da9985b7ba0439659b85fd5848"
-    },
-    {
-      "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
-      "sha256": "d92d70fb1bf49211215bf34223afd5a21690c3b4e128aab8549d8dbc9e8fa775"
-    },
-    {
-      "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "sha256": "78ec79bf2aaf64e2a105d92597b9e349e562129076bb32f4306ac483f7523da2"
+      "sha256": "3f4bb48bd1530568b36cc8e458927dfae713f99bcf9f92a6d78e0c3fc1ccb3be"
     }
   ]
 }

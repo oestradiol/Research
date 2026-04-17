@@ -2,8 +2,13 @@
 
 ## Unreleased
 
-- renewal: delete FILE_JUSTIFICATION_REGISTRY_v0_1.json (107KB of boilerplate justifications) and ROOT_ALLOWLIST_v0_1.json
-- update governance references to removed files
+- full renewal cycle (2026-04-17): fix stale references, reduce duplication, add self-coverage
+  - P0: Fix stale references to deleted files in CURRENT_SURFACES_REGISTRY, AUTHORITATIVE_INTEGRITY_MANIFEST, REPOSITORY_FILE_REGISTRY
+  - P1: Redesign CURRENT_SURFACES_REGISTRY as canonical source of truth for current files
+  - P1: Update root and SUF AUTHORITATIVE_INDEX to reference canonical registry instead of duplicating
+  - P1: Add governance_consistency.py validator to close self-coverage gap
+  - P2: Add cross-references between FEDERATED_SUBSYSTEM_PROTOCOL, IMPLEMENTATION_LAYER_POLICY, PACKAGE_MINIMIZATION_POLICY
+  - P2: Rename misleading handoff file (minimal deletion → accurate name)
 - add federated subsystem protocol and machine-readable coordination infrastructure
   - `governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`: explicit boundaries between root, SUF, knowledge, and tools
   - `governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md`: decision rules for Markdown, JSON, Nix, Python, shell, and compiled layers
