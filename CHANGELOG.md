@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- renewal: delete FILE_JUSTIFICATION_REGISTRY_v0_1.json (107KB of boilerplate justifications) and ROOT_ALLOWLIST_v0_1.json
+- update governance references to removed files
 - add federated subsystem protocol and machine-readable coordination infrastructure
   - `governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`: explicit boundaries between root, SUF, knowledge, and tools
   - `governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md`: decision rules for Markdown, JSON, Nix, Python, shell, and compiled layers

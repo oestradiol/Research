@@ -1,5 +1,5 @@
 {
-  "registry_version": "0.2.3",
+  "registry_version": "0.3.0",
   "scope": "Research root repository",
   "current_files": [
     "README.md",
@@ -12,8 +12,7 @@
     "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
     "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
     "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-    "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-    "governance/ROOT_ALLOWLIST_v0_1.json",
+    "governance/REPOSITORY_EDIT_BASELINE_v0_1.json",
     "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
     "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
     "governance/SUBSYSTEM_REGISTRY_v0_1.json",

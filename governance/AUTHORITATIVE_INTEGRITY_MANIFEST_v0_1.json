@@ -1,5 +1,5 @@
 {
-  "version": "0.2.3",
+  "version": "0.3.0",
   "algorithm": "sha256",
   "files": [
     {
@@ -39,12 +39,8 @@
       "sha256": "cd9f9dc1bf746d2516ba3548d611d2301f53b8bd01328de41fda79c41c962347"
     },
     {
-      "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "sha256": "bf74bf589b50e8a67341360406aa02a9823b91f10de6f6d6ec5a129fb58e6b1b"
-    },
-    {
-      "path": "governance/ROOT_ALLOWLIST_v0_1.json",
-      "sha256": "7312deaa58f471fd85b3444cdd7d3ac9b2903bc516c5f1a947e57e9460ea6830"
+      "path": "governance/REPOSITORY_EDIT_BASELINE_v0_1.json",
+      "sha256": "320e29acb10671609d0a19e4124765ae5aeb6e261807140fe6dc6e44f3aafeaf"
     },
     {
       "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
