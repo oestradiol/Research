@@ -23,8 +23,7 @@ Governance exists here to protect the academic object, not to replace it. No pac
 
 Use these to see what is current and authoritative:
 - `../../governance/AUTHORITATIVE_INDEX_v0_1.md`
-- `../../governance/AUTHORITATIVE_SOURCES_v0_1.json`
-- `../../governance/CURRENT_SURFACES_REGISTRY_v0_1.json`
+- `../../governance/REPOSITORY_FILE_REGISTRY_v0_1.json`
 - `../../governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json`
 - `../project-status.md`
 - `../current-execution-order.md`

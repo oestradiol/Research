@@ -51,8 +51,6 @@ Supporting audits:
 - `../../governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md`
 - `../../governance/AGENT_EDIT_SCOPE_POLICY_v0_1.json`
 - `../../governance/REPOSITORY_EDIT_BASELINE_v0_1.json`
-- `../../governance/ROOT_ALLOWLIST_v0_1.json`
-- `../../governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json`
 - `../../governance/REPOSITORY_FILE_REGISTRY_v0_1.json`
 - `../../governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`
 - `../../governance/SUBSYSTEM_REGISTRY_v0_1.json`

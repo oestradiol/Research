@@ -15,8 +15,7 @@ This file tells you which root repository surfaces are live and which ones are m
 - `AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json`
 - `PACKAGE_STATE_SUMMARY_v0_1.json`
 - `REPOSITORY_FILE_REGISTRY_v0_1.json`
-- `FILE_JUSTIFICATION_REGISTRY_v0_1.json`
-- `ROOT_ALLOWLIST_v0_1.json`
+- `REPOSITORY_EDIT_BASELINE_v0_1.json`
 - `PACKAGE_MINIMIZATION_POLICY_v0_1.md`
 - `FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`
 - `SUBSYSTEM_REGISTRY_v0_1.json`
