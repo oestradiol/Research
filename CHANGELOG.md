@@ -2,6 +2,22 @@
 
 ## Unreleased
 
+- add federated subsystem protocol and machine-readable coordination infrastructure
+  - `governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`: explicit boundaries between root, SUF, knowledge, and tools
+  - `governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md`: decision rules for Markdown, JSON, Nix, Python, shell, and compiled layers
+  - `governance/SUBSYSTEM_REGISTRY_v0_1.json`: machine-readable registry for subsystem ownership, scope, and validation clusters
+- add cluster validation tooling infrastructure
+  - `tools/src/research_tools/models/{clusters,subsystems}.py`: data models for federated validation
+  - `tools/src/research_tools/parse/subsystems.py`: parser for SUBSYSTEM_REGISTRY
+  - `tools/src/research_tools/repo_files.py`: repo file utilities
+  - `tools/src/research_tools/workflows/validate_clusters.py`: federated cluster validation workflow
+  - `tools/tests/test_validation_clusters.py`: tests for cluster validation
+- add knowledge engineering and agentic systems content
+  - `knowledge/map/08-integrative-and-reflexive/knowledge-engineering-and-agentic-systems.md`: new deepened hub node
+  - `knowledge/study-routes/agentic-workflow-and-knowledge-systems-route.md`: new study route for AI-assisted knowledge systems
+- update governance surfaces to reflect federated architecture (AUTHORITATIVE_INDEX, CURRENT_SURFACES_REGISTRY, INTEGRITY_MANIFEST, FILE_REGISTRY, MINIMIZATION_POLICY, AGENT_EDIT_SCOPE_POLICY)
+- update tooling architecture and backlog to consume subsystem registry
+- update knowledge indexes and cluster README for new content
 - add `structured-unity-framework/docs/current-execution-order.md` as the short live sequencing surface for the active `v1.x` pass
 - add Taiwan chapter-facing scaffolds: `taiwan-chapter-boundary-and-corpus.md`, `taiwan-chapter-evidence-map.md`, and `taiwan-chapter-table-and-figure-plan.md`
 - align tracking and navigation surfaces so Taiwan is the active chapter-readiness workstream rather than an unexposed later branch
