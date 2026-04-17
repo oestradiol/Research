@@ -56,35 +56,28 @@ Governance directory now contains 14 files:
 
 ## Renewal Actions
 
-### Action 1: Consolidate File Registries
+### Action 1: Delete Low-Value File Justification Registry
 
-**Merge into:** `REPOSITORY_FILE_REGISTRY_v0_1.json`
+**Analysis:**
+- FILE_JUSTIFICATION_REGISTRY_v0_1.json (107KB) contains:
+  - "current_files" array: simple file list (redundant)
+  - "files" array: per-file objects with path, job, reason
+  - "job" field: always "recorded repository file" (no signal)
+  - "reason" field: generic boilerplate "current surface, package entrypoint..." (no signal)
 
-**New structure:**
-```json
-{
-  "version": "0.3.0",
-  "files": [
-    {
-      "path": "README.md",
-      "category": "README.md",
-      "extension": ".md",
-      "justification": "Repository routing surface",
-      "sha256": "hash"
-    }
-  ]
-}
-```
+**Decision:** Delete FILE_JUSTIFICATION_REGISTRY entirely. It's 107KB of boilerplate with no unique signal.
 
-**Delete:**
-- FILE_JUSTIFICATION_REGISTRY_v0_1.json
-- REPOSITORY_EDIT_BASELINE_v0_1.json
+**Keep:**
+- REPOSITORY_FILE_REGISTRY_v0_1.json (57KB) - has category/extension metadata (useful for tooling)
+- REPOSITORY_EDIT_BASELINE_v0_1.json (59KB) - has SHA256 hashes (useful for integrity)
 
 **Update references:**
-- AUTHORITATIVE_INDEX_v0_1.md
-- CONTROL_AND_GOVERNANCE_SURFACE.md
-- RELEASE_CHECKLIST_v0_1.md
-- Validation tooling
+- AUTHORITATIVE_INDEX_v0_1.md (remove from live files list)
+- CONTROL_AND_GOVERNANCE_SURFACE.md (remove audit command)
+- RELEASE_CHECKLIST_v0_1.md (remove from checklist)
+- Validation tooling (remove checks)
+
+**Expected reduction:** 107KB, 1 file
 
 ### Action 2: Consolidate New Governance Files
 
@@ -112,15 +105,15 @@ Governance directory now contains 14 files:
 
 **Before renewal:**
 - 14 governance files
-- 3 file registries (223KB)
+- 3 file registries (223KB total)
 - 3 new governance files (protocol, policy, registry)
 
 **After renewal:**
-- 12 governance files (merge ROOT_ALLOWLIST)
-- 1 file registry (consolidated, ~80KB)
+- 13 governance files (delete FILE_JUSTIFICATION_REGISTRY, merge ROOT_ALLOWLIST)
+- 2 file registries (116KB total)
 - 3 new governance files (with explicit cross-references)
 
-**Reduction:** 2 files, ~143KB
+**Reduction:** 1 file, 107KB
 
 ## Validation Plan
 
