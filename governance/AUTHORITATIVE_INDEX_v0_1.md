@@ -18,6 +18,9 @@ This file tells you which root repository surfaces are live and which ones are m
 - `FILE_JUSTIFICATION_REGISTRY_v0_1.json`
 - `ROOT_ALLOWLIST_v0_1.json`
 - `PACKAGE_MINIMIZATION_POLICY_v0_1.md`
+- `FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`
+- `SUBSYSTEM_REGISTRY_v0_1.json`
+- `IMPLEMENTATION_LAYER_POLICY_v0_1.md`
 - `CURRENT_CLAIM_EXPECTATIONS_v0_1.json`
 
 ## Live package entrypoints

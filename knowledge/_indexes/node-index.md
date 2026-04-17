@@ -98,3 +98,4 @@ Deepened hub nodes are marked with `Hub`.
 - [Sustainability Science](../map/08-integrative-and-reflexive/sustainability-science.md) — `Hub`
 - [Consciousness Studies](../map/08-integrative-and-reflexive/consciousness-studies.md)
 - [Knowledge Organization and Library Science](../map/08-integrative-and-reflexive/knowledge-organization-and-library-science.md) — `Hub`
+- [Knowledge Engineering and Agentic Systems](../map/08-integrative-and-reflexive/knowledge-engineering-and-agentic-systems.md) — `Hub`

@@ -21,3 +21,4 @@ Study routes provide optional guided traversals through the public Knowledge gra
 - [Mind-Life Interface Route](mind-life-interface-route.md)
 - [Sustainability and Governance Route](sustainability-and-governance-route.md)
 - [Framework Comparison and Knowledge Organization Route](framework-comparison-and-knowledge-organization-route.md)
+- [Agentic Workflow and Knowledge Systems Route](agentic-workflow-and-knowledge-systems-route.md)

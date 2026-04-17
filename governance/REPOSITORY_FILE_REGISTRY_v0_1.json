@@ -104,9 +104,19 @@
       "extension": ".json"
     },
     {
+      "path": "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
+      "category": "FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
+      "extension": ".md"
+    },
+    {
       "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
       "category": "FILE_JUSTIFICATION_REGISTRY_v0_1.json",
       "extension": ".json"
+    },
+    {
+      "path": "governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md",
+      "category": "IMPLEMENTATION_LAYER_POLICY_v0_1.md",
+      "extension": ".md"
     },
     {
       "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
@@ -131,6 +141,11 @@
     {
       "path": "governance/ROOT_ALLOWLIST_v0_1.json",
       "category": "ROOT_ALLOWLIST_v0_1.json",
+      "extension": ".json"
+    },
+    {
+      "path": "governance/SUBSYSTEM_REGISTRY_v0_1.json",
+      "category": "SUBSYSTEM_REGISTRY_v0_1.json",
       "extension": ".json"
     },
     {
@@ -644,6 +659,11 @@
       "extension": ".md"
     },
     {
+      "path": "knowledge/map/08-integrative-and-reflexive/knowledge-engineering-and-agentic-systems.md",
+      "category": "knowledge-engineering-and-agentic-systems.md",
+      "extension": ".md"
+    },
+    {
       "path": "knowledge/map/08-integrative-and-reflexive/knowledge-organization-and-library-science.md",
       "category": "knowledge-organization-and-library-science.md",
       "extension": ".md"
@@ -666,6 +686,11 @@
     {
       "path": "knowledge/study-routes/README.md",
       "category": "README.md",
+      "extension": ".md"
+    },
+    {
+      "path": "knowledge/study-routes/agentic-workflow-and-knowledge-systems-route.md",
+      "category": "agentic-workflow-and-knowledge-systems-route.md",
       "extension": ".md"
     },
     {
@@ -1474,11 +1499,6 @@
       "extension": ".nix"
     },
     {
-      "path": "tools/out/.gitkeep",
-      "category": ".gitkeep",
-      "extension": "[none]"
-    },
-    {
       "path": "tools/pyproject.toml",
       "category": "pyproject.toml",
       "extension": ".toml"
@@ -1504,6 +1524,11 @@
       "extension": ".py"
     },
     {
+      "path": "tools/src/research_tools/models/clusters.py",
+      "category": "clusters.py",
+      "extension": ".py"
+    },
+    {
       "path": "tools/src/research_tools/models/ledger.py",
       "category": "ledger.py",
       "extension": ".py"
@@ -1516,6 +1541,11 @@
     {
       "path": "tools/src/research_tools/models/sources.py",
       "category": "sources.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/models/subsystems.py",
+      "category": "subsystems.py",
       "extension": ".py"
     },
     {
@@ -1539,6 +1569,11 @@
       "extension": ".py"
     },
     {
+      "path": "tools/src/research_tools/parse/subsystems.py",
+      "category": "subsystems.py",
+      "extension": ".py"
+    },
+    {
       "path": "tools/src/research_tools/parse/taiwan_ledger.py",
       "category": "taiwan_ledger.py",
       "extension": ".py"
@@ -1546,6 +1581,11 @@
     {
       "path": "tools/src/research_tools/paths.py",
       "category": "paths.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/repo_files.py",
+      "category": "repo_files.py",
       "extension": ".py"
     },
     {
@@ -1566,6 +1606,16 @@
     {
       "path": "tools/src/research_tools/reports/release_readiness.py",
       "category": "release_readiness.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/reports/taiwan_lag.py",
+      "category": "taiwan_lag.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/src/research_tools/reports/taiwan_summary.py",
+      "category": "taiwan_summary.py",
       "extension": ".py"
     },
     {
@@ -1629,6 +1679,11 @@
       "extension": ".py"
     },
     {
+      "path": "tools/src/research_tools/workflows/validate_clusters.py",
+      "category": "validate_clusters.py",
+      "extension": ".py"
+    },
+    {
       "path": "tools/sync_governance_state.py",
       "category": "sync_governance_state.py",
       "extension": ".py"
@@ -1671,6 +1726,11 @@
     {
       "path": "tools/tests/test_taiwan_ledger.py",
       "category": "test_taiwan_ledger.py",
+      "extension": ".py"
+    },
+    {
+      "path": "tools/tests/test_validation_clusters.py",
+      "category": "test_validation_clusters.py",
       "extension": ".py"
     },
     {

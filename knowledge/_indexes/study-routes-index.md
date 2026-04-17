@@ -7,6 +7,7 @@
 - [Mind-Life Interface Route](../study-routes/mind-life-interface-route.md)
 - [Sustainability and Governance Route](../study-routes/sustainability-and-governance-route.md)
 - [Framework Comparison and Knowledge Organization Route](../study-routes/framework-comparison-and-knowledge-organization-route.md)
+- [Agentic Workflow and Knowledge Systems Route](../study-routes/agentic-workflow-and-knowledge-systems-route.md)
 
 ## Route rule
 

@@ -22,11 +22,11 @@
 
 ## Current package posture
 
-Current public snapshot is a connected study atlas founded on SUF:
+Current working atlas is a connected study package founded on SUF:
 
 - 9 cluster gateways
-- 70 node notes total, including 15 deepened hub nodes
+- 71 node notes total, including 16 deepened hub nodes
 - typed relation vocabulary
-- connected study routes
+- 7 connected study routes
 
 Further deepening remains open package work, not leftover pre-move residue.

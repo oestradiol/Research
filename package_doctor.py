@@ -6,6 +6,9 @@ import sys
 import shutil
 from pathlib import Path
 
+sys.dont_write_bytecode = True
+os.environ.setdefault("PYTHONDONTWRITEBYTECODE", "1")
+
 from authoritative_guard import AuthorityError, verify_integrity
 
 BASE = Path(__file__).resolve().parent
@@ -17,12 +20,14 @@ from research_tools.paths import get_paths  # noqa: E402
 from research_tools.validate.governance import (  # noqa: E402
     validate_current_claims,
     validate_current_surfaces,
+    validate_subsystem_registry,
     validate_repository_file_registry,
     validate_repository_minimality,
     validate_routing_surfaces,
     validate_merged_doc_quality,
     validate_edit_scope,
 )
+from research_tools.workflows.validate_clusters import collect_validation_clusters  # noqa: E402
 from research_tools.workflows.validate_all import collect_validation_results  # noqa: E402
 
 
@@ -30,7 +35,7 @@ from research_tools.workflows.validate_all import collect_validation_results  # 
 def cleanup_transient_artifacts(base: Path) -> tuple[list[str], list[str]]:
     removed_dirs: list[str] = []
     removed_files: list[str] = []
-    for pattern in ('__pycache__', '.pytest_cache'):
+    for pattern in ('__pycache__', '.mypy_cache', '.pytest_cache', '.ruff_cache'):
         for directory in sorted(base.rglob(pattern)):
             if directory.is_dir():
                 shutil.rmtree(directory)
@@ -66,7 +71,7 @@ def main() -> None:
     remaining_transients = [
         p.relative_to(BASE).as_posix()
         for p in BASE.rglob('*')
-        if (p.is_dir() and p.name in {'__pycache__', '.pytest_cache'})
+        if (p.is_dir() and p.name in {'__pycache__', '.mypy_cache', '.pytest_cache', '.ruff_cache'})
         or (p.is_file() and (p.suffix == '.pyc' or p.name == '.DS_Store'))
     ]
     record(
@@ -101,6 +106,20 @@ def main() -> None:
         not failed_validation,
         "none" if not failed_validation else "; ".join(f"{r.check_name}:{r.message}" for r in failed_validation[:20]),
     )
+    cluster_runs = collect_validation_clusters(paths)
+    failed_clusters = [cluster for cluster in cluster_runs if cluster.failed]
+    record(
+        "tools:validate-clusters-pass",
+        not failed_clusters,
+        (
+            "none"
+            if not failed_clusters
+            else "; ".join(
+                f"{cluster.spec.cluster_id}:{cluster.failed} failures"
+                for cluster in failed_clusters[:20]
+            )
+        ),
+    )
 
 
     suf_audit_path = BASE / "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md"
@@ -128,6 +147,7 @@ def main() -> None:
 
     for name, results in [
         ("audit:current-surfaces", validate_current_surfaces(BASE)),
+        ("audit:subsystem-registry", validate_subsystem_registry(BASE)),
         ("audit:file-registry", validate_repository_file_registry(BASE)),
         ("audit:current-claims", validate_current_claims(BASE)),
         ("audit:minimality", validate_repository_minimality(BASE)),

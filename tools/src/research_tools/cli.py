@@ -1,9 +1,14 @@
 from __future__ import annotations
 
 import argparse
+import os
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable
+
+sys.dont_write_bytecode = True
+os.environ.setdefault("PYTHONDONTWRITEBYTECODE", "1")
 
 from research_tools.parse.nz_ledger import parse_nz_ledger
 from research_tools.parse.source_registry import parse_source_registry, source_registry_index
@@ -38,6 +43,10 @@ from research_tools.validate.route_consistency import validate_nz_route, validat
 from research_tools.validate.sources import validate_source_registry
 from research_tools.validate.status_surfaces import validate_status_surfaces
 from research_tools.validate.versions import validate_versions
+from research_tools.workflows.validate_clusters import (
+    collect_validation_clusters,
+    render_cluster_report,
+)
 from research_tools.workflows.validate_all import (
     collect_validation_results,
     render_validation_report,
@@ -254,6 +263,18 @@ def handle_validate_all(_: argparse.Namespace) -> int:
     return _results_exit_code(results)
 
 
+def handle_validate_clusters(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    clusters = collect_validation_clusters(paths)
+    output = render_cluster_report(
+        generated_at=_generated_at(),
+        clusters=clusters,
+    )
+    output_path = _write_output("validate-clusters.md", output)
+    print(output_path)
+    return 1 if any(cluster.failed for cluster in clusters) else 0
+
+
 def handle_report_nz_summary(_: argparse.Namespace) -> int:
     paths = get_paths()
     events = parse_nz_ledger(paths.nz_route_root / "event-ledger-seed.md")
@@ -436,6 +457,7 @@ def build_parser() -> argparse.ArgumentParser:
     validate_route_parser.add_argument("--route", choices=("nz", "taiwan"), required=True)
     validate_route_parser.set_defaults(func=handle_validate_route)
     validate_subparsers.add_parser("all").set_defaults(func=handle_validate_all)
+    validate_subparsers.add_parser("clusters").set_defaults(func=handle_validate_clusters)
 
     report_parser = subparsers.add_parser("report")
     report_subparsers = report_parser.add_subparsers(dest="report_command", required=True)

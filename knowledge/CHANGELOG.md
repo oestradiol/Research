@@ -2,8 +2,9 @@
 
 ## Unreleased
 
-- no Knowledge package content changes recorded after the hosted `v1.0.0` snapshot
-- current `main` only updates sibling-package and umbrella-level status context around SUF and tooling
+- added a deepened hub node on knowledge engineering and agentic systems
+- added an integrative study route on agentic workflow and knowledge systems
+- current `main` now extends the hosted `v1.0.0` atlas in a bounded way without changing package role
 
 ## `v1.0.0` - 2026-04-02
 

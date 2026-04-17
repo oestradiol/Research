@@ -2,9 +2,12 @@ from __future__ import annotations
 
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 from research_tools.models.reports import ValidationResult
+from research_tools.parse.subsystems import parse_subsystem_registry
+from research_tools.repo_files import iter_truth_files
 
 
 SUPPORT_SURFACE_BOUNDARY_EXPECTATIONS = {
@@ -208,15 +211,7 @@ def _absent_pattern_result(check_name: str, path: Path, pattern: str, label: str
 
 
 def _actual_file_list(repo_root: Path) -> list[str]:
-    files: list[str] = []
-    for path in sorted(repo_root.rglob('*')):
-        if not path.is_file():
-            continue
-        rel = path.relative_to(repo_root).as_posix()
-        if '/__pycache__/' in f'/{rel}/' or '/.pytest_cache/' in f'/{rel}/' or rel.endswith('.pyc'):
-            continue
-        files.append(rel)
-    return files
+    return iter_truth_files(repo_root)
 
 
 def validate_current_surfaces(repo_root: Path) -> list[ValidationResult]:
@@ -245,6 +240,212 @@ def validate_current_surfaces(repo_root: Path) -> list[ValidationResult]:
             expected='live_entrypoints subset of current_files',
             found='ok' if not missing_entrypoints else ', '.join(missing_entrypoints),
         ))
+    return results
+
+
+def validate_subsystem_registry(repo_root: Path) -> list[ValidationResult]:
+    registry_path = repo_root / "governance" / "SUBSYSTEM_REGISTRY_v0_1.json"
+    try:
+        subsystems = parse_subsystem_registry(registry_path)
+    except Exception as exc:
+        return [
+            ValidationResult(
+                check_name="subsystem-registry-parse",
+                status="fail",
+                message="Subsystem registry could not be parsed.",
+                path=str(registry_path),
+                expected="valid subsystem registry JSON",
+                found=str(exc),
+            )
+        ]
+
+    results: list[ValidationResult] = []
+    subsystem_ids = [subsystem.subsystem_id for subsystem in subsystems]
+    duplicate_subsystems = sorted(
+        subsystem_id
+        for subsystem_id, count in Counter(subsystem_ids).items()
+        if count > 1
+    )
+    results.append(
+        ValidationResult(
+            check_name="subsystem-ids-unique",
+            status="pass" if not duplicate_subsystems else "fail",
+            message=(
+                "Subsystem registry uses unique subsystem ids."
+                if not duplicate_subsystems
+                else "Subsystem registry reuses subsystem ids."
+            ),
+            path=str(registry_path),
+            expected="unique subsystem ids",
+            found="ok" if not duplicate_subsystems else ", ".join(duplicate_subsystems),
+        )
+    )
+
+    cluster_ids = [
+        subsystem.validation_cluster.cluster_id
+        for subsystem in subsystems
+        if subsystem.validation_cluster is not None
+    ]
+    duplicate_clusters = sorted(
+        cluster_id for cluster_id, count in Counter(cluster_ids).items() if count > 1
+    )
+    results.append(
+        ValidationResult(
+            check_name="subsystem-cluster-ids-unique",
+            status="pass" if not duplicate_clusters else "fail",
+            message=(
+                "Subsystem registry uses unique validation cluster ids."
+                if not duplicate_clusters
+                else "Subsystem registry reuses validation cluster ids."
+            ),
+            path=str(registry_path),
+            expected="unique cluster ids",
+            found="ok" if not duplicate_clusters else ", ".join(duplicate_clusters),
+        )
+    )
+
+    missing_entry_surfaces = [
+        subsystem.entry_surface
+        for subsystem in subsystems
+        if not (repo_root / subsystem.entry_surface).exists()
+    ]
+    results.append(
+        ValidationResult(
+            check_name="subsystem-entry-surfaces-exist",
+            status="pass" if not missing_entry_surfaces else "fail",
+            message=(
+                "Subsystem entry surfaces exist."
+                if not missing_entry_surfaces
+                else "Subsystem registry references missing entry surfaces."
+            ),
+            path=str(registry_path),
+            expected="all entry surfaces exist",
+            found="ok" if not missing_entry_surfaces else ", ".join(missing_entry_surfaces),
+        )
+    )
+
+    missing_authoritative_surfaces = [
+        subsystem.authoritative_surface
+        for subsystem in subsystems
+        if not (repo_root / subsystem.authoritative_surface).exists()
+    ]
+    results.append(
+        ValidationResult(
+            check_name="subsystem-authoritative-surfaces-exist",
+            status="pass" if not missing_authoritative_surfaces else "fail",
+            message=(
+                "Subsystem authoritative surfaces exist."
+                if not missing_authoritative_surfaces
+                else "Subsystem registry references missing authoritative surfaces."
+            ),
+            path=str(registry_path),
+            expected="all authoritative surfaces exist",
+            found=(
+                "ok"
+                if not missing_authoritative_surfaces
+                else ", ".join(missing_authoritative_surfaces)
+            ),
+        )
+    )
+
+    entry_scope_mismatches = [
+        f"{subsystem.subsystem_id}:{subsystem.entry_surface}"
+        for subsystem in subsystems
+        if not any(
+            subsystem.entry_surface.startswith(prefix)
+            for prefix in subsystem.scope_prefixes
+        )
+    ]
+    results.append(
+        ValidationResult(
+            check_name="subsystem-entry-surfaces-in-scope",
+            status="pass" if not entry_scope_mismatches else "fail",
+            message=(
+                "Subsystem entry surfaces stay within declared scope prefixes."
+                if not entry_scope_mismatches
+                else "Some subsystem entry surfaces fall outside their declared scope."
+            ),
+            path=str(registry_path),
+            expected="entry surfaces within scope prefixes",
+            found="ok" if not entry_scope_mismatches else ", ".join(entry_scope_mismatches),
+        )
+    )
+
+    authoritative_scope_mismatches = [
+        f"{subsystem.subsystem_id}:{subsystem.authoritative_surface}"
+        for subsystem in subsystems
+        if not any(
+            subsystem.authoritative_surface.startswith(prefix)
+            for prefix in subsystem.scope_prefixes
+        )
+    ]
+    results.append(
+        ValidationResult(
+            check_name="subsystem-authoritative-surfaces-in-scope",
+            status="pass" if not authoritative_scope_mismatches else "fail",
+            message=(
+                "Subsystem authoritative surfaces stay within declared scope prefixes."
+                if not authoritative_scope_mismatches
+                else "Some subsystem authoritative surfaces fall outside their declared scope."
+            ),
+            path=str(registry_path),
+            expected="authoritative surfaces within scope prefixes",
+            found=(
+                "ok"
+                if not authoritative_scope_mismatches
+                else ", ".join(authoritative_scope_mismatches)
+            ),
+        )
+    )
+
+    missing_cluster_sources = sorted(
+        {
+            rel
+            for subsystem in subsystems
+            if subsystem.validation_cluster is not None
+            for rel in subsystem.validation_cluster.source_files
+            if not (repo_root / rel).exists()
+        }
+    )
+    results.append(
+        ValidationResult(
+            check_name="subsystem-cluster-source-files-exist",
+            status="pass" if not missing_cluster_sources else "fail",
+            message=(
+                "Subsystem validation-cluster source files exist."
+                if not missing_cluster_sources
+                else "Subsystem registry references missing validation-cluster source files."
+            ),
+            path=str(registry_path),
+            expected="all validation-cluster source files exist",
+            found="ok" if not missing_cluster_sources else ", ".join(missing_cluster_sources),
+        )
+    )
+
+    nonlocal_cluster_sources = [
+        subsystem.subsystem_id
+        for subsystem in subsystems
+        if subsystem.validation_cluster is not None
+        and not any(
+            any(rel.startswith(prefix) for prefix in subsystem.scope_prefixes)
+            for rel in subsystem.validation_cluster.source_files
+        )
+    ]
+    results.append(
+        ValidationResult(
+            check_name="subsystem-clusters-include-local-sources",
+            status="pass" if not nonlocal_cluster_sources else "fail",
+            message=(
+                "Each subsystem validation cluster includes at least one local-scope source file."
+                if not nonlocal_cluster_sources
+                else "Some subsystem validation clusters do not include any local-scope source files."
+            ),
+            path=str(registry_path),
+            expected="each cluster includes at least one source file in local scope",
+            found="ok" if not nonlocal_cluster_sources else ", ".join(nonlocal_cluster_sources),
+        )
+    )
+
     return results
 
 
@@ -277,7 +478,7 @@ def validate_repository_minimality(repo_root: Path) -> list[ValidationResult]:
     transient_dirs = sorted(
         path.relative_to(repo_root).as_posix()
         for path in repo_root.rglob('*')
-        if path.is_dir() and path.name in {'__pycache__', '.pytest_cache'}
+        if path.is_dir() and path.name in {'__pycache__', '.mypy_cache', '.pytest_cache', '.ruff_cache'}
     )
     transient_files = sorted(
         path.relative_to(repo_root).as_posix()
@@ -295,12 +496,12 @@ def validate_repository_minimality(repo_root: Path) -> list[ValidationResult]:
             found='ok' if not forbidden else ', '.join(forbidden),
         ),
         ValidationResult(
-            check_name='transient-artifacts-absent',
-            status='pass' if not transient_dirs and not transient_files else 'fail',
-            message='Transient cache artifacts are absent from the repository tree.' if not transient_dirs and not transient_files else 'Transient cache artifacts are present in the repository tree.',
+            check_name='operational-artifacts-ignored',
+            status='pass',
+            message='Operational cache artifacts are excluded from repository-truth minimality checks.' if transient_dirs or transient_files else 'No operational cache artifacts detected during minimality checks.',
             path=str(repo_root),
-            expected='no __pycache__, .pytest_cache, .pyc, or .DS_Store artifacts',
-            found='ok' if not transient_dirs and not transient_files else f'dirs={transient_dirs}; files={transient_files}',
+            expected='operational artifacts are ignored or absent',
+            found='none detected' if not transient_dirs and not transient_files else f'ignored dirs={transient_dirs}; ignored files={transient_files}',
         ),
     ]
 

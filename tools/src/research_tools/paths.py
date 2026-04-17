@@ -13,6 +13,7 @@ class RepoPaths:
     suf_root: Path
     knowledge_root: Path
     out_root: Path
+    subsystem_registry: Path
     source_registry: Path
     nz_route_root: Path
     taiwan_route_root: Path
@@ -39,6 +40,7 @@ def get_paths() -> RepoPaths:
         suf_root=suf_root,
         knowledge_root=research_root / "knowledge",
         out_root=tools_root / "out",
+        subsystem_registry=research_root / "governance" / "SUBSYSTEM_REGISTRY_v0_1.json",
         source_registry=suf_root / "references" / "source-registry.md",
         nz_route_root=nz_route_root,
         taiwan_route_root=nz_route_root,

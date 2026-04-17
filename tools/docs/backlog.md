@@ -35,6 +35,8 @@ These items support later empirical phases without turning tools into the canoni
 - add backlog hygiene and discovery-state integrity support
 - add artifact-completeness and future-agent handoff checks
 - add maintenance helpers only if they preserve public-doc authority and explicit human review
+- add renewal-cycle signals for duplicate growth, stale support surfaces, and rising startup burden without turning tools into autonomous refactoring authority
+- deepen the federated validation-cluster prototype so subsystem ownership can scale without duplicating protocol metadata across docs and code
 
 ## Deferred
 

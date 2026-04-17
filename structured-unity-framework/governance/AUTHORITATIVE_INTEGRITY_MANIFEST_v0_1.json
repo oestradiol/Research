@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "structured-unity-framework/README.md",
-      "sha256": "3c6a084ad9039d90a3c817b0c52e29bfec75ec4339bc82496e906efde8c69c9d"
+      "sha256": "0793780e1bd9b19f0de29e8d2d101ef737a0414d4421d1e3ca62d8e85710abda"
     },
     {
       "path": "structured-unity-framework/START_HERE.md",
@@ -16,7 +16,7 @@
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "701a7543b26b48b5fe1833250ca8eae37453e87cd06c0d06112e646c3ec916fc"
+      "sha256": "3542ce84422f8ce254336c0d00e0602430ea4b5d107fa7b32668086192cbf406"
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
@@ -24,7 +24,7 @@
     },
     {
       "path": "structured-unity-framework/docs/project-status.md",
-      "sha256": "7c6cc691a987bb7ccc10a08aba76d66eeb2d8b74555b1e45b9a5da15447d37d2"
+      "sha256": "0e8dde039eb8ffd7a43cfa7fd90f23bb013800d0f0c02f6326b27dc0a1932ca8"
     },
     {
       "path": "structured-unity-framework/docs/current-execution-order.md",
@@ -32,7 +32,7 @@
     },
     {
       "path": "structured-unity-framework/docs/pending-inventory.md",
-      "sha256": "723b26c1bfa7e71d90cc72f837aa95990b17a6846828dbb23ee257b926309dcb"
+      "sha256": "13d4caee071c5b5a98bd3058a9e1eba9665f2e7a77147205756eb5405655111a"
     },
     {
       "path": "structured-unity-framework/docs/claims-and-boundaries.md",

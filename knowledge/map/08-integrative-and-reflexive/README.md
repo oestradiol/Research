@@ -11,7 +11,7 @@ status: "cluster gateway"
 
 ## Role in the package
 
-This cluster groups science and technology studies, interdisciplinary systems research, comparative civilizational studies, global studies, sustainability science, consciousness studies, and knowledge organization and library science.
+This cluster groups science and technology studies, interdisciplinary systems research, comparative civilizational studies, global studies, sustainability science, consciousness studies, knowledge organization and library science, and knowledge engineering and agentic systems.
 
 ## Current nodes
 
@@ -22,6 +22,7 @@ This cluster groups science and technology studies, interdisciplinary systems re
 - [scaffolds](../../_relations/scaffolds.md) [Sustainability Science](sustainability-science.md)
 - [scaffolds](../../_relations/scaffolds.md) [Consciousness Studies](consciousness-studies.md)
 - [scaffolds](../../_relations/scaffolds.md) [Knowledge Organization and Library Science](knowledge-organization-and-library-science.md)
+- [scaffolds](../../_relations/scaffolds.md) [Knowledge Engineering and Agentic Systems](knowledge-engineering-and-agentic-systems.md)
 
 ## Key study questions
 

@@ -62,6 +62,7 @@ research-tools validate status-surfaces
 research-tools validate route --route nz
 research-tools validate route --route taiwan
 research-tools validate all
+research-tools validate clusters
 
 research-tools report nz-summary
 research-tools report nz-window-comparison
@@ -78,6 +79,19 @@ research-tools report release-readiness
 - report commands write Markdown under `out/`
 - generated outputs are provisional and require human review
 - mismatches are reported, not auto-applied
+
+## Federated cluster prototype
+
+The tooling now includes a first federated validation-cluster prototype:
+
+- `root-governance`
+- `suf-active-core`
+- `knowledge-package`
+- `tooling-release`
+
+Use `research-tools validate clusters` to inspect subsystem-owned validation groupings without flattening every check into one undifferentiated run.
+
+Cluster ownership, entry surfaces, and source-file metadata are now derived from `../governance/SUBSYSTEM_REGISTRY_v0_1.json`. Python keeps the runner logic, but the public subsystem map now lives in one machine-readable governance surface instead of being duplicated in code.
 
 ## Governance
 

@@ -12,13 +12,14 @@ It is designed to be:
 - broad enough to move beyond SUF when the subject matter demands it
 - explicit about where SUF is genuinely useful as scaffold, route logic, and relation discipline
 
-Current snapshot:
+Current working state:
 
-- `v1.0.0` dated `2026-04-02`
+- `v1.0.0` dated `2026-04-02` hosted snapshot anchor
 - 9 cluster gateways
-- 70 node notes
+- 71 node notes
+- 16 deepened hub nodes
 - typed relation vocabulary
-- interconnected study routes
+- 7 interconnected study routes
 
 This is the first bounded public release of the Knowledge package inside the umbrella repository. It is stable and navigable, but it is not the main academic claim of the repository.
 

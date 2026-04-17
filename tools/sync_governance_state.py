@@ -3,9 +3,13 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE / "tools" / "src"))
+
+from research_tools.repo_files import iter_truth_files
 
 
 def _sha(path: Path) -> str:
@@ -13,16 +17,9 @@ def _sha(path: Path) -> str:
 
 
 def _actual_files(repo_root: Path, scope_prefix: str) -> list[str]:
-    files = []
-    for path in sorted(repo_root.rglob('*')):
-        if not path.is_file():
-            continue
-        rel = path.relative_to(repo_root).as_posix()
-        if '/__pycache__/' in f'/{rel}/' or '/.pytest_cache/' in f'/{rel}/' or rel.endswith('.pyc') or rel.endswith('.DS_Store'):
-            continue
-        if scope_prefix and not rel.startswith(scope_prefix):
-            continue
-        files.append(rel)
+    files = iter_truth_files(repo_root)
+    if scope_prefix:
+        files = [rel for rel in files if rel.startswith(scope_prefix)]
     return files
 
 

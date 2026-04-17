@@ -8,4 +8,4 @@
 - [05 Culture and History](../map/05-culture-and-history/README.md) — 5 nodes: anthropology, history, religion, culture, and symbolic order
 - [06 Social and Institutional Systems](../map/06-social-and-institutional-systems/README.md) — 6 nodes: sociology, politics, economics, law, education, and media
 - [07 Applied Design and Intervention](../map/07-applied-design-and-intervention/README.md) — 13 nodes: engineering, medicine, public health, policy, AI, and operations
-- [08 Integrative and Reflexive](../map/08-integrative-and-reflexive/README.md) — 7 nodes: STS, interdisciplinary systems work, sustainability, consciousness studies, and knowledge organization
+- [08 Integrative and Reflexive](../map/08-integrative-and-reflexive/README.md) — 8 nodes: STS, interdisciplinary systems work, sustainability, consciousness studies, knowledge organization, and agentic knowledge design

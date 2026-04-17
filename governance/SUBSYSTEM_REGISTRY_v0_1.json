@@ -1,0 +1,170 @@
+{
+  "version": "0.1.0",
+  "purpose": "Machine-readable registry for public subsystem ownership, scope, navigation, and validation-cluster metadata.",
+  "subsystems": [
+    {
+      "id": "root-governance",
+      "owner": "Research root governance",
+      "purpose": "Own umbrella routing, package-role clarity, current-surface governance, and release hygiene.",
+      "visibility": "public",
+      "scope_prefixes": [
+        "governance/",
+        "docs/frontdoor/"
+      ],
+      "entry_surface": "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
+      "authoritative_surface": "governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "validation_cluster": {
+        "cluster_id": "root-governance",
+        "source_files": [
+          "governance/AUTHORITATIVE_INDEX_v0_1.md",
+          "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+          "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
+          "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
+          "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md"
+        ]
+      }
+    },
+    {
+      "id": "structured-unity-framework",
+      "owner": "Structured Unity Framework",
+      "purpose": "Own academic-core truth, package-local current state, and route/evidence posture.",
+      "visibility": "public",
+      "scope_prefixes": [
+        "structured-unity-framework/"
+      ],
+      "entry_surface": "structured-unity-framework/START_HERE.md",
+      "authoritative_surface": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+      "validation_cluster": {
+        "cluster_id": "suf-active-core",
+        "source_files": [
+          "structured-unity-framework/START_HERE.md",
+          "structured-unity-framework/docs/project-status.md",
+          "structured-unity-framework/docs/current-execution-order.md",
+          "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/event-ledger-seed.md",
+          "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-event-ledger-seed.md"
+        ]
+      }
+    },
+    {
+      "id": "knowledge",
+      "owner": "Knowledge package",
+      "purpose": "Own atlas structure, study routes, typed relations, and SUF-role discipline.",
+      "visibility": "public",
+      "scope_prefixes": [
+        "knowledge/"
+      ],
+      "entry_surface": "knowledge/README.md",
+      "authoritative_surface": "knowledge/README.md",
+      "validation_cluster": {
+        "cluster_id": "knowledge-package",
+        "source_files": [
+          "knowledge/README.md",
+          "knowledge/knowledge-package-spec.md",
+          "knowledge/suf-relationship.md",
+          "knowledge/_indexes/knowledge-index.md",
+          "knowledge/study-routes/README.md"
+        ]
+      }
+    },
+    {
+      "id": "tools",
+      "owner": "Research tools",
+      "purpose": "Own read-only validation, deterministic reporting, and workflow orchestration over public artifacts.",
+      "visibility": "public",
+      "scope_prefixes": [
+        "tools/"
+      ],
+      "entry_surface": "tools/README.md",
+      "authoritative_surface": "tools/README.md",
+      "validation_cluster": {
+        "cluster_id": "tooling-release",
+        "source_files": [
+          "tools/README.md",
+          "tools/docs/architecture.md",
+          "tools/docs/validation-policy.md",
+          "structured-unity-framework/references/source-registry.md",
+          "CHANGELOG.md"
+        ]
+      }
+    }
+  ],
+  "actor_classes": [
+    {
+      "id": "human-operator",
+      "reads_first": [
+        "owning subsystem authoritative/current surfaces",
+        "root governance only when routing or policy is needed"
+      ],
+      "authority": "owns objectives, values, irreversible approvals, and meaning-heavy calls"
+    },
+    {
+      "id": "external-memoryless-agent",
+      "reads_first": [
+        "AGENTS.md boot path outside repo",
+        "owning subsystem entry and authoritative surfaces",
+        "machine-readable registry"
+      ],
+      "authority": "bounded operator recovering state from files rather than chat memory"
+    },
+    {
+      "id": "internal-agent",
+      "reads_first": [
+        "private delta surfaces",
+        "bridge/control surfaces",
+        "owning subsystem authoritative/current surfaces"
+      ],
+      "authority": "bounded operator with stronger local context but no unilateral authority over irreversible decisions"
+    },
+    {
+      "id": "validator-or-tool-worker",
+      "reads_first": [
+        "machine-readable registry",
+        "declared authoritative/current surfaces",
+        "local validation inputs"
+      ],
+      "authority": "deterministic or semi-deterministic support role, not meaning authority"
+    }
+  ],
+  "scope_classes": [
+    {
+      "id": "local-file",
+      "description": "single file, note, or module scope"
+    },
+    {
+      "id": "subsystem",
+      "description": "one bounded package or operating layer"
+    },
+    {
+      "id": "cross-subsystem",
+      "description": "coordination layer spanning more than one bounded part"
+    },
+    {
+      "id": "root-governance",
+      "description": "umbrella routing, policy, and release hygiene"
+    },
+    {
+      "id": "private-internal",
+      "description": "non-public operator and agent delta surfaces"
+    }
+  ],
+  "default_trust_order": [
+    "owning subsystem authoritative and current surfaces",
+    "machine-readable registries for scope, routing, and ownership",
+    "validation outputs and package-state summaries",
+    "supportive prose and historical notes",
+    "prompt-local memory"
+  ],
+  "durable_writeback_packet": [
+    "provenance_or_source_anchor",
+    "short_summary",
+    "target_subsystem",
+    "target_file_reference",
+    "status_candidate_working_or_accepted",
+    "change_class_governance_architecture_knowledge_or_local_execution"
+  ],
+  "governance_meta": {
+    "heterogeneous_agent_assumption": true,
+    "self_reference_required_in_renewal_cycles": true,
+    "guided_convergence_target": "increase coherence, auditability, and self-coverage while resisting drift, stale legacy growth, and meta-inflation"
+  }
+}

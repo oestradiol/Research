@@ -11,6 +11,7 @@ from research_tools.validate.governance import (
     validate_current_surface_hygiene,
     validate_current_surfaces,
     validate_support_surface_boundaries,
+    validate_subsystem_registry,
     validate_repository_file_registry,
     validate_repository_minimality,
     validate_routing_surfaces,
@@ -21,7 +22,7 @@ from research_tools.validate.governance import (
 
 def _cleanup_transients(repo_root):
     for path in sorted(repo_root.rglob('*')):
-        if path.is_dir() and path.name in {'__pycache__', '.pytest_cache'}:
+        if path.is_dir() and path.name in {'__pycache__', '.mypy_cache', '.pytest_cache', '.ruff_cache'}:
             import shutil; shutil.rmtree(path)
     for path in sorted(repo_root.rglob('*.pyc')):
         path.unlink()
@@ -32,6 +33,7 @@ def test_governance_validations_pass() -> None:
     _cleanup_transients(repo_root)
     results = []
     results.extend(validate_current_surfaces(repo_root))
+    results.extend(validate_subsystem_registry(repo_root))
     results.extend(validate_repository_file_registry(repo_root))
     results.extend(validate_current_claims(repo_root))
     results.extend(validate_repository_minimality(repo_root))
@@ -85,6 +87,103 @@ def test_routing_surfaces_catch_orphan(tmp_path) -> None:
     results = validate_routing_surfaces(repo)
 
     assert any(result.status == "fail" for result in results)
+
+
+def test_subsystem_registry_catches_duplicate_cluster_ids(tmp_path) -> None:
+    import json
+
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    (repo / "governance").mkdir(parents=True)
+    (repo / "docs" / "frontdoor").mkdir(parents=True)
+    (repo / "structured-unity-framework" / "governance").mkdir(parents=True)
+    (repo / "governance" / "FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md").write_text("protocol\n", encoding="utf-8")
+    (repo / "governance" / "AUTHORITATIVE_INDEX_v0_1.md").write_text("index\n", encoding="utf-8")
+    (repo / "docs" / "frontdoor" / "CONTROL_AND_GOVERNANCE_SURFACE.md").write_text("control\n", encoding="utf-8")
+    (repo / "structured-unity-framework" / "START_HERE.md").write_text("start\n", encoding="utf-8")
+    (repo / "structured-unity-framework" / "governance" / "AUTHORITATIVE_INDEX_v0_1.md").write_text("index\n", encoding="utf-8")
+    registry = {
+        "version": "0.1.0",
+        "purpose": "test",
+        "subsystems": [
+            {
+                "id": "root-governance",
+                "owner": "Research root governance",
+                "purpose": "Own umbrella routing.",
+                "visibility": "public",
+                "scope_prefixes": ["governance/", "docs/frontdoor/"],
+                "entry_surface": "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
+                "authoritative_surface": "governance/AUTHORITATIVE_INDEX_v0_1.md",
+                "validation_cluster": {
+                    "cluster_id": "duplicate-cluster",
+                    "source_files": ["docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md"],
+                },
+            },
+            {
+                "id": "structured-unity-framework",
+                "owner": "Structured Unity Framework",
+                "purpose": "Own academic-core truth.",
+                "visibility": "public",
+                "scope_prefixes": ["structured-unity-framework/"],
+                "entry_surface": "structured-unity-framework/START_HERE.md",
+                "authoritative_surface": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
+                "validation_cluster": {
+                    "cluster_id": "duplicate-cluster",
+                    "source_files": ["structured-unity-framework/START_HERE.md"],
+                },
+            },
+        ],
+    }
+    (repo / "governance" / "SUBSYSTEM_REGISTRY_v0_1.json").write_text(
+        json.dumps(registry),
+        encoding="utf-8",
+    )
+
+    results = validate_subsystem_registry(repo)
+
+    assert any(
+        result.check_name == "subsystem-cluster-ids-unique" and result.status == "fail"
+        for result in results
+    )
+
+
+def test_subsystem_registry_catches_missing_entry_surface(tmp_path) -> None:
+    import json
+
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    (repo / "governance").mkdir(parents=True)
+    (repo / "governance" / "AUTHORITATIVE_INDEX_v0_1.md").write_text("index\n", encoding="utf-8")
+    registry = {
+        "version": "0.1.0",
+        "purpose": "test",
+        "subsystems": [
+            {
+                "id": "root-governance",
+                "owner": "Research root governance",
+                "purpose": "Own umbrella routing.",
+                "visibility": "public",
+                "scope_prefixes": ["governance/"],
+                "entry_surface": "governance/MISSING.md",
+                "authoritative_surface": "governance/AUTHORITATIVE_INDEX_v0_1.md",
+                "validation_cluster": {
+                    "cluster_id": "root-governance",
+                    "source_files": ["governance/AUTHORITATIVE_INDEX_v0_1.md"],
+                },
+            }
+        ],
+    }
+    (repo / "governance" / "SUBSYSTEM_REGISTRY_v0_1.json").write_text(
+        json.dumps(registry),
+        encoding="utf-8",
+    )
+
+    results = validate_subsystem_registry(repo)
+
+    assert any(
+        result.check_name == "subsystem-entry-surfaces-exist" and result.status == "fail"
+        for result in results
+    )
 
 
 def test_merged_doc_quality_catches_residue(tmp_path) -> None:
@@ -255,3 +354,110 @@ def test_authorize_edit_path_rejects_prefix_near_miss() -> None:
 
     assert decision['editable'] is False
     assert decision['reason'] == 'out-of-scope'
+
+
+def test_repository_file_registry_ignores_operational_artifacts(tmp_path) -> None:
+    import json
+
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    (repo / "governance").mkdir(parents=True)
+    (repo / "structured-unity-framework" / "governance").mkdir(parents=True)
+    (repo / "README.md").write_text("root\n", encoding="utf-8")
+    (repo / ".git").mkdir()
+    (repo / ".git" / "HEAD").write_text("ref: refs/heads/main\n", encoding="utf-8")
+    (repo / "tools" / "out").mkdir(parents=True)
+    (repo / "tools" / "out" / "report.md").write_text("generated\n", encoding="utf-8")
+    (repo / "tools" / ".ruff_cache").mkdir(parents=True)
+    (repo / "tools" / ".ruff_cache" / "cache").write_text("cache\n", encoding="utf-8")
+
+    root_registry = {
+        "scope_prefix": "",
+        "files": [
+            {"path": "README.md", "category": "README.md", "extension": ".md"},
+            {"path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json", "category": "REPOSITORY_FILE_REGISTRY_v0_1.json", "extension": ".json"},
+            {"path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json", "category": "REPOSITORY_FILE_REGISTRY_v0_1.json", "extension": ".json"},
+        ],
+    }
+    suf_registry = {
+        "scope_prefix": "structured-unity-framework/",
+        "files": [
+            {
+                "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+                "category": "REPOSITORY_FILE_REGISTRY_v0_1.json",
+                "extension": ".json",
+            }
+        ],
+    }
+    (repo / "governance" / "REPOSITORY_FILE_REGISTRY_v0_1.json").write_text(json.dumps(root_registry), encoding="utf-8")
+    (repo / "structured-unity-framework" / "governance" / "REPOSITORY_FILE_REGISTRY_v0_1.json").write_text(json.dumps(suf_registry), encoding="utf-8")
+
+    results = validate_repository_file_registry(repo)
+
+    assert not [result for result in results if result.status == "fail"]
+
+
+def test_edit_scope_ignores_operational_artifacts(tmp_path) -> None:
+    import json
+    import hashlib
+
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    (repo / "governance").mkdir(parents=True)
+    (repo / "structured-unity-framework" / "governance").mkdir(parents=True)
+    (repo / "README.md").write_text("root\n", encoding="utf-8")
+    (repo / ".git").mkdir()
+    (repo / ".git" / "HEAD").write_text("ref: refs/heads/main\n", encoding="utf-8")
+    (repo / "tools" / "out").mkdir(parents=True)
+    (repo / "tools" / "out" / "report.md").write_text("generated\n", encoding="utf-8")
+    (repo / "tools" / ".ruff_cache").mkdir(parents=True)
+    (repo / "tools" / ".ruff_cache" / "cache").write_text("cache\n", encoding="utf-8")
+
+    policy_path = repo / "governance" / "AGENT_EDIT_SCOPE_POLICY_v0_1.json"
+    baseline_path = repo / "governance" / "REPOSITORY_EDIT_BASELINE_v0_1.json"
+    current_registry_path = repo / "governance" / "CURRENT_SURFACES_REGISTRY_v0_1.json"
+    suf_registry_path = repo / "structured-unity-framework" / "governance" / "CURRENT_SURFACES_REGISTRY_v0_1.json"
+
+    policy = {
+        "version": "0.1.0",
+        "purpose": "test",
+        "include_current_surfaces": True,
+        "always_allowed_files": [],
+        "always_allowed_prefixes": [],
+        "declared_allowed_files": ["governance/AGENT_EDIT_SCOPE_POLICY_v0_1.json"],
+        "declared_allowed_prefixes": [],
+        "notes": [],
+        "excluded_from_baseline": ["governance/REPOSITORY_EDIT_BASELINE_v0_1.json"],
+    }
+
+    current_registry = {
+        "current_files": [
+            "README.md",
+            "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+            "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
+        ],
+        "live_entrypoints": ["README.md"],
+    }
+    empty_suf_registry = {
+        "current_files": ["structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json"],
+        "live_entrypoints": [],
+    }
+
+    policy_path.write_text(json.dumps(policy), encoding="utf-8")
+    current_registry_path.write_text(json.dumps(current_registry), encoding="utf-8")
+    suf_registry_path.write_text(json.dumps(empty_suf_registry), encoding="utf-8")
+
+    baseline = {
+        "version": "0.1.0",
+        "files": [
+            {"path": "README.md", "sha256": hashlib.sha256((repo / "README.md").read_bytes()).hexdigest()},
+            {"path": "governance/AGENT_EDIT_SCOPE_POLICY_v0_1.json", "sha256": hashlib.sha256(policy_path.read_bytes()).hexdigest()},
+            {"path": "governance/CURRENT_SURFACES_REGISTRY_v0_1.json", "sha256": hashlib.sha256(current_registry_path.read_bytes()).hexdigest()},
+            {"path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json", "sha256": hashlib.sha256(suf_registry_path.read_bytes()).hexdigest()},
+        ],
+    }
+    baseline_path.write_text(json.dumps(baseline), encoding="utf-8")
+
+    results = validate_edit_scope(repo)
+
+    assert not any(result.check_name == "edit-scope-changes-within-policy" and result.status == "fail" for result in results)

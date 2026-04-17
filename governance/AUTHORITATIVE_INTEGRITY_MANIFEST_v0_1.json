@@ -12,15 +12,15 @@
     },
     {
       "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "3d65bc884f16c465e062abd7956e6532ea525ecb0f41fcc238d975f3cd8e42a1"
+      "sha256": "4531bac659ace8e99f6b9c76620231a3a695a219b3547da8da4f78089dce1d47"
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "00d363fbd3cff8b56b1611020cbfa92ae8202dcb769b6489aacc86d06da62b52"
+      "sha256": "01afc7559b51ce6eaa2f2d3cb53cdb71ef80374248bcc3b9b57f6e5e93522c00"
     },
     {
       "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "sha256": "71cf2677d2c4cecf8fa182ee47879b275574faf73d00decbbe42aa58cee9c1ae"
+      "sha256": "3a288ba0cec706b979dbcec386ee129a98d78862f83298c1a98ca329228bcaf9"
     },
     {
       "path": "governance/AUTHORITATIVE_SOURCES_v0_1.json",
@@ -28,7 +28,7 @@
     },
     {
       "path": "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "sha256": "b6ab12cb0d0b7af61c4a0088d92e58af8ae0c9348f49eadac3ddc01cf954064d"
+      "sha256": "99543bf9841677ed94c8565865f3f58be12a05a1fdcd6aef09aa17f960cdd988"
     },
     {
       "path": "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
@@ -36,7 +36,7 @@
     },
     {
       "path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "sha256": "50edf107ef42d12c5bcc78ff9343d13a9c1962e7402307b7621b061c4dc683d3"
+      "sha256": "cd9f9dc1bf746d2516ba3548d611d2301f53b8bd01328de41fda79c41c962347"
     },
     {
       "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
@@ -48,7 +48,19 @@
     },
     {
       "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
-      "sha256": "d973425d47ff7627c000843ff12ab381576600ccc7903f8a2ab2ff906eff6e53"
+      "sha256": "afba23ed44fe43679ca86a7c5f02e3712524be265ebf6934fafc42e778f4365e"
+    },
+    {
+      "path": "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
+      "sha256": "d6d8dbbf84026077190a8a83dd52b4d8b7623ad60e2e9a67b9ef2bcf326a736b"
+    },
+    {
+      "path": "governance/SUBSYSTEM_REGISTRY_v0_1.json",
+      "sha256": "e6989adfe446c8d2f844426bc352b7e19430bf2081e60ac6b19b70b8bb562433"
+    },
+    {
+      "path": "governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md",
+      "sha256": "cac0e29566e8363bd7fb847956f85602fd32834de49561499adceff4859b5dad"
     },
     {
       "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
@@ -64,15 +76,15 @@
     },
     {
       "path": "knowledge/README.md",
-      "sha256": "7736b3ca19dfd8b5cd4030bc3befd013991744140ce7c4334cff930b5f289353"
+      "sha256": "507ed88074907cc8be7a61e84b6cbefa1744f3c417bdf6442f3ca42cf1c069ea"
     },
     {
       "path": "tools/README.md",
-      "sha256": "1faa0097dfca91a48e4edddea8c4676dcce9b06cc29670aaf8846dd8a8e35cc9"
+      "sha256": "809536a3284eee5fe9125ceb31e0fb7e5d94f60c7e829c738350cbb3782af19b"
     },
     {
       "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
-      "sha256": "b0efd4561e63ef8ed946a60c9104b6ca03d69c38d92cf95fa7221e1d3d3e3b6f"
+      "sha256": "2537e1385f8e7d1e04e928bff236982fd6c204c2d3834e3799fa0a644325d20e"
     }
   ]
 }

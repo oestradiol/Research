@@ -7,6 +7,8 @@ This is the shortest current map of how the SUF package keeps its academic core 
 - [Current truth surfaces](#current-truth-surfaces)
 - [Checks before use](#checks-before-use)
 - [How the package resists drift](#how-the-package-resists-drift)
+- [Federated package role](#federated-package-role)
+- [Renewal cycle](#renewal-cycle)
 - [Interpretive pressure and minimum challenge tooling](#interpretive-pressure-and-minimum-challenge-tooling)
 - [Skeptical audit](#skeptical-audit)
 - [Trust and style](#trust-and-style)
@@ -51,6 +53,31 @@ Supporting audits:
 - merged docs are checked for navigation headers and provenance
 - historical or supportive material is not treated as present-tense truth by default
 - the package routes readers back to canonical academic surfaces instead of letting control docs silently take over
+
+## Federated package role
+
+Inside the larger repository, SUF should act as one bounded subsystem with its own surfaces, not as a gravity well that absorbs every neighboring role.
+
+That means:
+
+- SUF owns its academic-core truth and package-local current state
+- root governance should route into SUF rather than restate it
+- Knowledge and Tools should connect to SUF through explicit references and handoff rules rather than through silent role collapse
+- future SUF-specific tests, validators, and maintenance helpers should prefer package-local ownership even when umbrella tooling later aggregates their results
+
+## Renewal cycle
+
+The package should also expect periodic anti-legacy maintenance rather than assuming additive growth is harmless.
+
+When public status surfaces, support docs, route notes, or handoff paths begin to feel heavier than the bounded academic object they are supposed to protect, run a recompression-and-rebirth pass:
+
+1. pause non-essential expansion
+2. identify stale or duplicative support structure
+3. merge, shorten, archive, or remove what no longer earns its place
+4. restore the clearest path back to the canonical academic surfaces
+5. rerun validation before resuming normal work
+
+Governance is strongest when it protects the object with the least necessary scaffolding.
 
 ## Interpretive pressure and minimum challenge tooling
 

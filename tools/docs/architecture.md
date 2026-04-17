@@ -14,6 +14,34 @@ The current public scope still centers on the SUF route work, but now also inclu
 - `reports/`: deterministic read-only summary generation
 - `workflows/`: command-level orchestration for combined checks
 
+## Federation and integration rule
+
+`Research/tools/` is one subsystem in a larger federated repository.
+
+That means:
+
+- tooling should stay read-only over the public docs
+- package-local truth should remain in the package being validated
+- future checks should be grouped near the domain they protect when that keeps ownership clearer
+- umbrella workflows may aggregate results, but should not erase local module or package boundaries
+
+If future test clusters are added for multiple packages, the preferred shape is:
+
+- local tests or validators near each package or module family
+- stable shared result structures and command interfaces
+- optional umbrella orchestration that composes those results without centralizing authorship or truth ownership
+
+## Current federated cluster prototype
+
+The first live prototype now groups validation into subsystem-owned clusters:
+
+- `root-governance`
+- `suf-active-core`
+- `knowledge-package`
+- `tooling-release`
+
+Cluster metadata now comes from `../governance/SUBSYSTEM_REGISTRY_v0_1.json`, while tooling code only keeps execution logic and result rendering. That resolves the first duplication wall between public subsystem policy and Python-owned cluster metadata without collapsing governance prose into code.
+
 ## Data flow
 
 1. path resolution from `paths.py`

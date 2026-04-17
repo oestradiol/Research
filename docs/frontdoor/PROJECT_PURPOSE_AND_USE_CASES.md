@@ -2,6 +2,8 @@
 
 `Research/` is an umbrella repository for one bounded academic core, one sibling knowledge atlas, and one read-only validation package.
 
+It should be operated as a federation of bounded parts, not as a single flattened surface.
+
 ## What the repository contains
 
 - `structured-unity-framework/` — the current academic core and bounded public framework package
@@ -33,3 +35,19 @@ Use the package that matches the job:
 - validation / reports -> `tools/`
 
 Use the governance files before treating any root file as current repository truth. Release history is carried in `CHANGELOG.md` rather than a separate release-notes directory.
+
+## Federation rule
+
+The umbrella repository should keep package roles strong:
+
+- root routes and governs
+- `structured-unity-framework/` owns the academic core
+- `knowledge/` owns the atlas and study-graph layer
+- `tools/` owns read-only validation and reporting
+
+As the system grows, new code, tests, validators, and maintenance routines should prefer the narrowest responsible package instead of accumulating in root by habit. Cross-package coordination should happen through explicit interfaces, current-state surfaces, validation outputs, and file-referenced handoffs.
+
+For the current root protocol, use `governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`.
+For machine-readable scopes, actor classes, navigation, and trust order, use `governance/SUBSYSTEM_REGISTRY_v0_1.json`.
+For stack and language-choice rules plus architecture-decision evidence discipline, use `governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md`.
+Durable research deltas should be written back into the owning subsystem rather than left only in chat or ephemeral memory.

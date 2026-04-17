@@ -58,6 +58,33 @@ That kind of support is encouraged here. It fits the structure of the repository
 4. Distinguish clearly between summary, interpretation, and open questions.
 5. Return to the original note whenever a claim carries real argumentative weight.
 
+## Agent cold-start workflow
+
+Reasoning agents using the public repository should usually:
+
+1. read `README.md` and `START_HERE.md`
+2. read `governance/AUTHORITATIVE_INDEX_v0_1.md`
+3. read the package-local current-state surfaces relevant to the task
+4. capture the current repo commit and working-tree state before editing or summarizing current status
+5. keep local working memory small and rely on file references rather than long restatements
+
+This repository is easier to use well when the agent treats the files as the canonical memory and the prompt as only a temporary working register.
+
+## Externalization and handoff discipline
+
+Agents should prefer:
+
+- short summaries anchored to file paths
+- explicit repo-state references when currentness matters
+- durable write-back into the right note or doc over repeated conversational restatement
+- concise handoff packets that state what changed, how it was checked, and where the next operator should start
+
+Agents should avoid:
+
+- carrying large unreferenced paraphrases in context
+- treating local memory as more authoritative than the files
+- blurring generated synthesis into accepted package truth without updating the appropriate surfaces
+
 ## SUF-specific note
 
 SUF is especially usable in assistant-supported settings because it already emphasizes:
@@ -79,3 +106,7 @@ That makes it a good support scaffold for both human assistants and reasoning ag
 ## Edit-scope discipline
 
 Reasoning agents should stay inside current surfaces, designated work surfaces, or an explicitly declared change scope. Editing unrelated existing files should count as a control failure even when the text still sounds plausible.
+
+## Validation note
+
+When the task depends on current repository state, use the governed validation tooling before treating the repo as clean current state. In Nix-based environments, the intended path is the `tools` flake; in other environments, use the equivalent supported Python setup documented in `tools/README.md`.
