@@ -67,6 +67,28 @@
       }
     },
     {
+      "id": "internal",
+      "owner": "Private delta layer",
+      "purpose": "Own stronger private formulations, unresolved tensions, frontier constraints, and compressed AI notation for agent memory externalization. Sits beside public Research/ repo as delta layer.",
+      "visibility": "private",
+      "scope_prefixes": [
+        "../Internal/"
+      ],
+      "entry_surface": "Internal/FRAMEWORK_CONTROL.md",
+      "authoritative_surface": "Internal/AUTHORITATIVE_INDEX_v0_1.md",
+      "validation_cluster": {
+        "cluster_id": "internal-delta",
+        "source_files": [
+          "Internal/FRAMEWORK_CONTROL.md",
+          "Internal/FRAMEWORK_INTERFACE.md",
+          "Internal/THEORY_DELTA.md",
+          "Internal/METHODS_AND_LITERATURE_DELTA.md",
+          "Internal/DEFERRED_BRANCHES.md",
+          "Internal/LANGUAGE_POLICY_v0_1.md"
+        ]
+      }
+    },
+    {
       "id": "tools",
       "owner": "Research tools",
       "purpose": "Own read-only validation, deterministic reporting, and workflow orchestration over public artifacts.",
