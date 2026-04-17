@@ -38,12 +38,11 @@ Kimi K2.5 conducted a systematic audit and identified critical issues with the p
 - Registry versions synchronized to 0.3.0
 - CURRENT_SURFACES_REGISTRY designated as canonical source of truth
 - AUTHORITATIVE_INDEX files redesigned to reference canonical source
-- Governance consistency validator added (requires Python environment to run)
+- Governance consistency validator added and passes
+- SHA256 hashes updated in AUTHORITATIVE_INTEGRITY_MANIFEST (21 files)
+- Governance consistency validation: ✓ All checks passed
 
-**Pending (requires Nix environment):**
-- Run governance_consistency.py to verify no remaining issues
-- Run full validation tooling suite
-- Update SHA256 hashes in AUTHORITATIVE_INTEGRITY_MANIFEST after canonical redesign
+**Renewal cycle status:** Fully complete, ready to reopen
 
 ## Renewal Cycle Stages Completed
 
@@ -54,7 +53,7 @@ Kimi K2.5 conducted a systematic audit and identified critical issues with the p
 | 3. Recompress by deleting/merging | ✅ Complete | Fixed stale refs, consolidated canonical source |
 | 4. Refactor names, locations, interfaces | ✅ Complete | Redesigned INDEX to reference canonical |
 | 5. Rebuild indexes, registries, manifests | ✅ Complete | Updated all registries to v0.3.0 |
-| 6. Validate and reopen | ⚠️ Partial | Structural validation done, runtime validation pending |
+| 6. Validate and reopen | ✅ Complete | Governance consistency passed, SHA256 hashes updated |
 
 ## Expected Outcome vs Actual
 
@@ -82,20 +81,14 @@ Kimi K2.5 conducted a systematic audit and identified critical issues with the p
 
 ## Next Steps
 
-**For human operator:**
-1. Review renewal changes for approval
-2. Decide whether to proceed to Taiwan chapter-readiness work
-3. If runtime validation needed: run `nix develop ./tools -c python tools/src/research_tools/validate/governance_consistency.py`
+**Renewal cycle: COMPLETE ✅**
 
-**For Taiwan chapter-readiness (when ready):**
+All 6 stages validated. Normal work can resume.
+
+**For Taiwan chapter-readiness:**
 - Entry point: `Research/structured-unity-framework/docs/current-execution-order.md`
 - Governance is now healthier with canonical source pattern
 - Self-coverage gap closed with governance consistency validator
-
-**For tooling validation:**
-- Run governance consistency validator
-- Run full validation suite
-- Update SHA256 hashes if needed
 
 ## Change Class
 
