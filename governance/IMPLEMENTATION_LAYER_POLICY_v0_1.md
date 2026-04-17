@@ -178,3 +178,7 @@ Do not let habit, model preference, or local convenience silently become archite
 ## Skeptical implementation stance
 
 Implementation choices should default to doubt. A persuasive proposal is not enough. The question is what grounds the choice, what failure mode it closes, what new failure mode it introduces, and how the system will notice if that choice later becomes stale or legacy baggage.
+
+## Related governance
+
+This policy is one component of the federated subsystem architecture. For the broader coordination protocol between repository parts, see `FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`. For renewal and minimization rules that apply across all layers, see `PACKAGE_MINIMIZATION_POLICY_v0_1.md`.

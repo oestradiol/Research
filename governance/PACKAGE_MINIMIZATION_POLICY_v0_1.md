@@ -71,3 +71,7 @@ Anti-patterns:
 - root governance quietly replacing package-local ownership
 - shared utilities expanding until subsystem boundaries stop meaning anything
 - agents editing across parts by convenience rather than by declared interface
+
+## Related governance
+
+This policy is one component of the federated subsystem architecture. For the broader coordination protocol between repository parts, see `FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`. For implementation layer and language-choice rules, see `IMPLEMENTATION_LAYER_POLICY_v0_1.md`.
