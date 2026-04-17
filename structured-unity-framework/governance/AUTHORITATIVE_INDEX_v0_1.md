@@ -1,6 +1,10 @@
-# AUTHORITATIVE INDEX v0.2.3
+# AUTHORITATIVE INDEX v0.3.0
 
 This file tells you which SUF package surfaces are live and which ones are merely supportive.
+
+## Current truth
+
+See root `governance/CURRENT_SURFACES_REGISTRY_v0_1.json` for the canonical list of current files across the entire repository. For SUF-specific current surfaces, see the SUF governance registry.
 
 ## Live front door
 - `../README.md`
@@ -10,15 +14,13 @@ This file tells you which SUF package surfaces are live and which ones are merel
 - `../docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md`
 
 ## Live governance files
-- `AUTHORITATIVE_INDEX_v0_1.md`
-- `AUTHORITATIVE_SOURCES_v0_1.json`
-- `CURRENT_SURFACES_REGISTRY_v0_1.json`
-- `AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json`
-- `PACKAGE_STATE_SUMMARY_v0_1.json`
-- `REPOSITORY_FILE_REGISTRY_v0_1.json`
-- `REPOSITORY_EDIT_BASELINE_v0_1.json`
-- `PACKAGE_MINIMIZATION_POLICY_v0_1.md`
-- `CURRENT_CLAIM_EXPECTATIONS_v0_1.json`
+
+See root `governance/CURRENT_SURFACES_REGISTRY_v0_1.json` for canonical list. Key SUF governance surfaces:
+- `AUTHORITATIVE_INDEX_v0_1.md` (this file - routing surface)
+- `CURRENT_SURFACES_REGISTRY_v0_1.json` (root canonical file list)
+- `AUTHORITATIVE_SOURCES_v0_1.json` (entrypoint routing)
+- `PACKAGE_STATE_SUMMARY_v0_1.json` (package status)
+- `PACKAGE_MINIMIZATION_POLICY_v0_1.md` (renewal rules)
 
 ## Canonical long-form current docs
 - `../docs/project-status.md`
