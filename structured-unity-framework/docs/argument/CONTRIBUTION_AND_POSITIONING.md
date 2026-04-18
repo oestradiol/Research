@@ -65,12 +65,17 @@ The payoff sentence stays locked unless new evidence forces revision. Promotion 
 
 The package is not yet making a full rival-framework victory claim. The current task is bounded positioning: make the package legible relative to alternative framings without pretending that all rival comparisons are already closed.
 
-### Planned comparison set
+### Rival framework citations
 
-- command-and-control readings
-- communication-as-wrapper readings
-- generic institutional-capacity readings
-- standard governance-network framings where appropriate
+The following specific academic framings are the current comparison set:
+
+| Rival framing | Representative source | How SUF differs |
+|---|---|---|
+| **Crisis governance as executive-centered coordination** | Boin, Hart, Stern, and Sundelius, *The Politics of Crisis Management* (2017) — crisis coordination under pressure with public-leadership focus | SUF tracks information-structure centrality (public-information coordination receives `33/38` events) rather than assuming executive command is the primary explanatory variable |
+| **Public management reform / institutional capacity** | Pollitt and Bouckaert, *Public Management Reform* (1999) — comparative administrative reform and capacity | SUF adds operational dependency modeling (`I/C/L/U`) rather than stopping at institutional-performance comparison |
+| **Horizontal government / cross-agency coordination** | Peters, *Managing Horizontal Government* (1998) — politics of coordination across ministries | SUF distinguishes unity-like organization from generic coordination by tracking integrity-preserving response under perturbation |
+| **Dependency-based coordination theory** | Malone and Crowston, "The Interdisciplinary Study of Coordination" (1994) — activities and dependencies | SUF narrows the scope to perturbation-response and adds phenomenological grounding absent in general coordination theory |
+| **Distributed cognition without phenomenology** | Hutchins, *Cognition in the Wild* (1995) — distributed cognitive systems | SUF accepts the distributed-cognition insight but adds explicit structural-phenomenological grounding that Hutchins deliberately avoids |
 
 ### Core positioning questions
 

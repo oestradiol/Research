@@ -16,6 +16,7 @@ from research_tools.validate.route_consistency import (
 )
 from research_tools.validate.sources import validate_source_registry
 from research_tools.validate.status_surfaces import validate_status_surfaces
+from research_tools.validate.three_case_synthesis import validate_three_case_synthesis
 from research_tools.validate.versions import validate_versions
 
 
@@ -39,6 +40,14 @@ def collect_validation_results(paths: RepoPaths) -> list[ValidationResult]:
     results.extend(validate_knowledge_package(paths.knowledge_root))
     results.extend(validate_versions(paths))
     results.extend(validate_status_surfaces(paths))
+    results.extend(
+        validate_three_case_synthesis(
+            paths.suf_project_status,
+            paths.nz_route_root / "event-ledger-seed.md",
+            paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+            paths.australia_route_root / "australia-event-ledger-seed.md",
+        )
+    )
     results.extend(validate_release_hygiene(paths.research_root))
     return results
 

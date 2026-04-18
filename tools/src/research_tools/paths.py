@@ -18,6 +18,7 @@ class RepoPaths:
     nz_route_root: Path
     taiwan_route_root: Path
     australia_route_root: Path
+    suf_project_status: Path  # canonical status surface for ground-truth validation
 
 
 @lru_cache(maxsize=1)
@@ -46,6 +47,7 @@ def get_paths() -> RepoPaths:
         nz_route_root=nz_route_root,
         taiwan_route_root=nz_route_root,
         australia_route_root=nz_route_root,
+        suf_project_status=suf_root / "docs" / "project-status.md",
     )
 
 
