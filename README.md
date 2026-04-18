@@ -9,9 +9,9 @@ Use `START_HERE.md` for the governed repository front door.
 - [tools/](tools/README.md) — the read-only validation and reporting layer
 - [using-this-research-with-human-assistants-and-reasoning-agents.md](using-this-research-with-human-assistants-and-reasoning-agents.md) — assisted-use guidance
 
-Hosted snapshot: **`v1.1.0`** dated **2026-04-03**.
+Hosted snapshot: **`v1.4.0`** dated **2026-04-18**.
 
-Current `main` state: aligned with the hosted `v1.1.0` New Zealand monograph-baseline release.
+Current `main` state: aligned with the hosted `v1.4.0` New Zealand monograph-baseline release.
 
 This root README is a routing surface, not the canonical long-form state surface for SUF.
 Use the SUF package for current academic posture, sequence, boundaries, evidence status, and reviewer-facing claims:

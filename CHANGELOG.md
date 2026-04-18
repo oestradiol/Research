@@ -6,6 +6,10 @@
   - Markdown-to-JSON ledger export for programmatic access
   - Cross-case validator for closure-note claims
   - Deterministic table/figure generation from canonical docs
+- surface synchronization: Taiwan comparator baseline updated from 15 to 20 events across all public status surfaces
+- internal boundary enforcement: AUDIT_REPORT_PHASE_1.md moved to private delta layer to prevent public leakage
+- export tooling: ledger-to-json.py parser fixed to correctly extract 38 NZ events, 20 Taiwan events
+- versioning: umbrella CITATION.cff and README aligned to v1.4.0 release date (2026-04-18)
 
 ## `v1.4.0` - 2026-04-18
 

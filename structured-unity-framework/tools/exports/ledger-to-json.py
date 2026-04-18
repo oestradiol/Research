@@ -117,12 +117,17 @@ def parse_ledger(ledger_text: str) -> Dict[str, Any]:
         if edges_match:
             ledger['metadata']['directed_edges'] = int(edges_match.group(1))
     
-    # Extract all event sections
-    event_sections = re.split(r'\n### `[^`]+`\n', ledger_text)
-    if len(event_sections) > 1:
-        for section in event_sections[1:]:  # Skip preamble
-            event = parse_event_section(section)
-            if event and 'event_id' in event:
+    # Extract all event sections by finding event IDs and splitting
+    event_ids = re.findall(r'### `([^`]+)`', ledger_text)
+    for event_id in event_ids:
+        # Find the section for this event
+        pattern = rf'### `{re.escape(event_id)}`\n\n(.+?)(?=\n### |\n## |\Z)'
+        match = re.search(pattern, ledger_text, re.DOTALL)
+        if match:
+            section_text = match.group(1)
+            event = parse_event_section(section_text)
+            if event:
+                event['event_id'] = event_id
                 ledger['events'].append(event)
     
     return ledger

@@ -15,7 +15,7 @@ The strongest current contribution is still architectural and methodological, no
 
 The main empirical anchor is a New Zealand pandemic-coordination route with a `38`-event public ledger, a `29`-event main perturbation interval, first-pass `I`, `C`, `L`, conjoint window comparison, and a `14`-check sensitivity/null note.
 
-A bounded Taiwan comparator now adds a `15`-event archive-clean tranche under the same source-admission rule. That comparator matters because it pressures the route-local reading without pretending to close the family-level question.
+A bounded Taiwan comparator now adds a `20`-event archive-clean tranche under the same source-admission rule. That comparator matters because it pressures the route-local reading without pretending to close the family-level question.
 
 ## Locked payoff and contribution candidates
 

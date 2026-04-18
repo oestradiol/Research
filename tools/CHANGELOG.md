@@ -6,9 +6,9 @@
 - added a first federated validation-cluster prototype with subsystem-owned reports for root governance, SUF active core, Knowledge, and tooling/release checks
 - moved subsystem cluster ownership metadata into `governance/SUBSYSTEM_REGISTRY_v0_1.json`, with tooling now deriving cluster specs from the registry instead of hardcoding them in Python
 
-## `1.1.0` - 2026-04-03
+## `1.1.0` - 2026-04-18
 
-Current tooling snapshot aligned to the `v1.1.0` New Zealand monograph-baseline umbrella release.
+Current tooling snapshot aligned to the `v1.4.0` three-case bounded closure umbrella release.
 
 ### Included in this snapshot
 
