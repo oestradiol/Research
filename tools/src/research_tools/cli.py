@@ -166,7 +166,7 @@ def handle_validate_route(args: argparse.Namespace) -> int:
         ]
         filename = "validate-route-nz.md"
         title = "Validate Route NZ"
-    else:
+    elif args.route == "taiwan":
         results = validate_taiwan_route(paths.taiwan_route_root, index)
         source_files = [
             paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
@@ -174,6 +174,14 @@ def handle_validate_route(args: argparse.Namespace) -> int:
         ]
         filename = "validate-route-taiwan.md"
         title = "Validate Route Taiwan"
+    else:  # australia
+        from research_tools.validate.route_consistency import validate_australia_route
+        results = validate_australia_route(paths.australia_route_root, index)
+        source_files = [
+            paths.australia_route_root / "australia-event-ledger-seed.md",
+        ]
+        filename = "validate-route-australia.md"
+        title = "Validate Route Australia"
     output = _render_simple_results(title, _generated_at(), results, source_files)
     output_path = _write_output(filename, output)
     print(output_path)
@@ -483,7 +491,7 @@ def build_parser() -> argparse.ArgumentParser:
         func=handle_validate_status_surfaces
     )
     validate_route_parser = validate_subparsers.add_parser("route")
-    validate_route_parser.add_argument("--route", choices=("nz", "taiwan"), required=True)
+    validate_route_parser.add_argument("--route", choices=("nz", "taiwan", "australia"), required=True)
     validate_route_parser.set_defaults(func=handle_validate_route)
     validate_subparsers.add_parser("all").set_defaults(func=handle_validate_all)
     validate_subparsers.add_parser("clusters").set_defaults(func=handle_validate_clusters)

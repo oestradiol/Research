@@ -147,3 +147,25 @@ def validate_taiwan_route(
         )
     )
     return results
+
+
+def validate_australia_route(
+    route_root: Path,
+    source_index: dict[str, SourceEntry],
+) -> list[ValidationResult]:
+    from research_tools.parse.australia_ledger import parse_australia_ledger
+    from research_tools.reports.australia_summary import (
+        compare_australia_summary_to_docs,
+        compute_route_summary,
+    )
+
+    australia_events = parse_australia_ledger(route_root / "australia-event-ledger-seed.md")
+    results = _validate_event_schema("australia", australia_events, source_index)
+    summary = compute_route_summary("australia", australia_events)
+    results.extend(
+        compare_australia_summary_to_docs(
+            summary=summary,
+            ledger_path=route_root / "australia-event-ledger-seed.md",
+        )
+    )
+    return results

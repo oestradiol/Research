@@ -17,6 +17,7 @@ class RepoPaths:
     source_registry: Path
     nz_route_root: Path
     taiwan_route_root: Path
+    australia_route_root: Path
 
 
 @lru_cache(maxsize=1)
@@ -44,6 +45,7 @@ def get_paths() -> RepoPaths:
         source_registry=suf_root / "references" / "source-registry.md",
         nz_route_root=nz_route_root,
         taiwan_route_root=nz_route_root,
+        australia_route_root=nz_route_root,
     )
 
 
