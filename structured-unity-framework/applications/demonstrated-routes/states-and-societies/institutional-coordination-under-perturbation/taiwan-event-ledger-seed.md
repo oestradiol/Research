@@ -23,10 +23,15 @@ This seed remains conservative:
 | `tw-a-001` | `2020-01-20` | CECC activated as cross-agency command centre |
 | `tw-a-002` | `2020-01-21` | first imported case identified through onboard quarantine and routed to designated hospital |
 | `tw-a-003` | `2020-01-22` | Taoyuan Airport Response Center formed to implement CECC border-quarantine measures |
+| `tw-p-013` | `2020-02-01` | entry response measures convened for travelers from outbreak areas |
 | `tw-p-006` | `2020-02-08` | entry home-quarantine requirements tightened for specified transit and endemic-area travelers |
+| `tw-p-014` | `2020-02-14` | Entry Quarantine System launched for passenger health declaration and home quarantine |
+| `tw-p-015` | `2020-03-11` | outbreak response measures launched for 48th confirmed case |
+| `tw-p-016` | `2020-03-14` | travel notice raised to Level 3 for Schengen countries with quarantine requirement |
 | `tw-p-001` | `2020-02-15` | home-quarantine support and daily follow-up expectations clarified |
 | `tw-p-002` | `2020-03-18` | foreign-entry restrictions and local-district quarantine procedure announced |
 | `tw-p-003` | `2020-03-22` | airline passenger transit through Taiwan suspended |
+| `tw-p-017` | `2020-03-24` | 20 imported cases response with contact tracing and quarantine reinforcement |
 | `tw-p-004` | `2020-03-27` | home quarantine/isolation rules, local care/support centres, and sanctions clarified |
 | `tw-p-010` | `2020-03-29` | health-agency notification and medical-care routing observed during home quarantine |
 | `tw-p-011` | `2020-04-01` | people under home quarantine barred from domestic flight or ferry travel to offshore islands and transit ban extended |
@@ -293,15 +298,100 @@ Why it matters:
 
 This supplies continuity for the acute border-control window instead of leaving the bounded tranche as a one-shot closure sequence.
 
+### `tw-p-013`
+
+- `timestamp_or_date`: `2020-02-01`
+- `issuing_unit`: `border-control coordination`
+- `receiving_units`: `strategic executive coordination`; `public-health policy and command`; `public-information coordination`
+- `action_type`: entry response measures convened for travelers from outbreak areas including expert meeting and differentiated entry procedures
+- `dependency_type`: `directive or authority dependency`; `information or reporting dependency`; `public-communication dependency`
+- `implementation_marker`: `decision announced`
+- `public_information_marker`: `official guidance update`
+- `source_citation`: `src-taiwan-entry-response-2020-02-01`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`
+
+Why it matters:
+
+This event fills the early February gap between airport activation and the February 8 quarantine tightening. It makes the Taiwan branch less dependent on a single February border event by exposing early differentiated-entry coordination.
+
+### `tw-p-014`
+
+- `timestamp_or_date`: `2020-02-14`
+- `issuing_unit`: `border-control coordination`
+- `receiving_units`: `public-health policy and command`; `public-service system coordination`; `border-control coordination`; `public-information coordination`
+- `action_type`: Entry Quarantine System launched for passenger health declaration and home quarantine information system to expedite immigration clearance
+- `dependency_type`: `directive or authority dependency`; `information or reporting dependency`; `resource or logistics dependency`; `public-communication dependency`
+- `implementation_marker`: `implementation initiated`
+- `public_information_marker`: `official guidance update`
+- `source_citation`: `src-taiwan-entry-quarantine-system-2020-02-14`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`
+
+Why it matters:
+
+This event distinguishes the quarantine information system launch from the February 15 support clarification. It makes the Taiwan border-logistics chain thicker by exposing the technical infrastructure that enables later quarantine routing.
+
+### `tw-p-015`
+
+- `timestamp_or_date`: `2020-03-11`
+- `issuing_unit`: `public-health policy and command`
+- `receiving_units`: `strategic executive coordination`; `public-health policy and command`; `public-service system coordination`; `border-control coordination`; `public-information coordination`
+- `action_type`: outbreak response measures launched for 48th confirmed case including epidemiological investigation and contact tracing
+- `dependency_type`: `information or reporting dependency`; `public-communication dependency`; `resource or logistics dependency`
+- `implementation_marker`: `implementation observed`
+- `public_information_marker`: `major public briefing`
+- `source_citation`: `src-taiwan-outbreak-response-2020-03-11`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event fills the March gap between February quarantine clarification and March 18 entry restrictions. It exposes implementation-observed contact-tracing coordination before the major border escalation.
+
+### `tw-p-016`
+
+- `timestamp_or_date`: `2020-03-14`
+- `issuing_unit`: `border-control coordination`
+- `receiving_units`: `strategic executive coordination`; `public-health policy and command`; `border-control coordination`; `public-information coordination`
+- `action_type`: travel notice raised to Level 3 for Schengen countries with mandatory 14-day home quarantine for arriving travelers
+- `dependency_type`: `directive or authority dependency`; `legal or compliance dependency`; `public-communication dependency`
+- `implementation_marker`: `decision announced`
+- `public_information_marker`: `official guidance update`
+- `source_citation`: `src-taiwan-schengen-level3-2020-03-14`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event adds a distinct regional targeting layer to the border escalation. It makes the Taiwan comparator's border-tightening sequence more granular than a single March 18 announcement.
+
+### `tw-p-017`
+
+- `timestamp_or_date`: `2020-03-24`
+- `issuing_unit`: `public-health policy and command`
+- `receiving_units`: `strategic executive coordination`; `public-health policy and command`; `public-service system coordination`; `border-control coordination`; `public-information coordination`
+- `action_type`: 20 imported cases response with epidemiological investigation, contact tracing, and quarantine reinforcement for Navy cluster
+- `dependency_type`: `information or reporting dependency`; `resource or logistics dependency`; `public-communication dependency`
+- `implementation_marker`: `implementation observed`
+- `public_information_marker`: `major public briefing`
+- `source_citation`: `src-taiwan-navy-cluster-response-2020-03-24`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event fills the late March gap between March 22 transit suspension and March 27 quarantine regulations. It exposes implementation-observed cluster-response coordination and thickens the acute window without requiring later de-escalation material.
+
 ## Current readout cues
 
-- total seeded events: `15`
+- total seeded events: `20`
 - active `sigma1` units visible: `6 / 7`
 - active directed edges: `20`
 - weighted cross-cluster edge share: `31 / 52 = 0.60`
 - mean receiving breadth: `3.5`
-- issuing concentration: `public-health policy and command` and `border-control coordination` each issue `6 / 15` seeded events
-- public-information coordination receives `15 / 15` seeded events
+- issuing concentration: `public-health policy and command` issues `8 / 20`; `border-control coordination` issues `8 / 20` seeded events
+- public-information coordination receives `20 / 20` seeded events
 
 ## Current limit
 

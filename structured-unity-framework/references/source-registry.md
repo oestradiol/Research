@@ -940,6 +940,56 @@ Entries in this public pass were checked on `2026-04-02`, with later DPMC refres
 - Accessed: `2026-04-05`.
 - Use limit: supports retrospective/oversight coverage and de-escalation visibility; does not alone provide a full Taiwan comparator route.
 
+### src-taiwan-entry-response-2020-02-01
+
+- Citation: Taiwan Centers for Disease Control. *In response to growing number of cases of 2019 Novel Coronavirus (2019-nCoV)*. 2020.
+- Type: government press release.
+- Role in SUF: early February border coordination and differentiated entry procedures.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/lXFuBKOhuimRFFLMYeSShg?typeid=158
+- Archive link: https://web.archive.org/web/202002/https://www.cdc.gov.tw/En/Bulletin/Detail/lXFuBKOhuimRFFLMYeSShg?typeid=158
+- Accessed: `2026-04-18`.
+- Use limit: supports early February border coordination; does not alone establish full Taiwan comparator architecture.
+
+### src-taiwan-entry-quarantine-system-2020-02-14
+
+- Citation: Taiwan Centers for Disease Control. *Entry Quarantine System to be launched; easy entry procedure to prevent novel coronavirus importation*. 2020.
+- Type: government press release.
+- Role in SUF: Entry Quarantine System launch for passenger health declaration and home quarantine information system.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/j99d7-x-hlc8AhOvTySo6w?typeid=158
+- Archive link: https://web.archive.org/web/202002/https://www.cdc.gov.tw/En/Bulletin/Detail/j99d7-x-hlc8AhOvTySo6w?typeid=158
+- Accessed: `2026-04-18`.
+- Use limit: supports border-logistics and quarantine information system launch; does not alone establish full Taiwan comparator architecture.
+
+### src-taiwan-outbreak-response-2020-03-11
+
+- Citation: Taiwan Centers for Disease Control. *CECC confirms one more imported COVID-19 case; CECC launches outbreak investigation and implements relevant quarantine and isolation measures*. 2020.
+- Type: government press release.
+- Role in SUF: outbreak response measures launch for 48th confirmed case with epidemiological investigation.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/plabGx38Ugr3ys_-BLfCfQ?typeid=158
+- Archive link: https://web.archive.org/web/202003/https://www.cdc.gov.tw/En/Bulletin/Detail/plabGx38Ugr3ys_-BLfCfQ?typeid=158
+- Accessed: `2026-04-18`.
+- Use limit: supports implementation-observed contact-tracing coordination; does not alone establish full Taiwan comparator architecture.
+
+### src-taiwan-schengen-level3-2020-03-14
+
+- Citation: Taiwan Centers for Disease Control. *Starting 2 pm of March 14, travelers yet on board leaving 27 European countries, Dubai and Turkey for Taiwan must undergo home quarantine for 14 days*. 2020.
+- Type: government press release.
+- Role in SUF: travel notice Level 3 for Schengen countries with mandatory home quarantine.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/6q57qJkOZt2iLorwqGI5Zw?typeid=158
+- Archive link: https://web.archive.org/web/202003/https://www.cdc.gov.tw/En/Bulletin/Detail/6q57qJkOZt2iLorwqGI5Zw?typeid=158
+- Accessed: `2026-04-18`.
+- Use limit: supports regional targeting layer of border escalation; does not alone establish full Taiwan comparator architecture.
+
+### src-taiwan-navy-cluster-response-2020-03-24
+
+- Citation: Taiwan Centers for Disease Control. *CECC confirms 22 more COVID-19 cases; 21 Navy members confirmed to have COVID-19*. 2020.
+- Type: government press release.
+- Role in SUF: Navy cluster response with epidemiological investigation and quarantine reinforcement.
+- Primary link: https://www.cdc.gov.tw/En/Bulletin/Detail/Ieij7Qafy_TWnHAdmUEHZQ?typeid=158
+- Archive link: https://web.archive.org/web/202003/https://www.cdc.gov.tw/En/Bulletin/Detail/Ieij7Qafy_TWnHAdmUEHZQ?typeid=158
+- Accessed: `2026-04-18`.
+- Use limit: supports cluster-response coordination and implementation-observed contact tracing; does not alone establish full Taiwan comparator architecture.
+
 ### src-australia-pmc-covid-inquiry
 
 - Citation: Department of the Prime Minister and Cabinet (Australia). *Commonwealth Government COVID-19 Response Inquiry*. Current inquiry hub.
@@ -979,6 +1029,166 @@ Entries in this public pass were checked on `2026-04-02`, with later DPMC refres
 - Archive link: https://web.archive.org/web/20251117102757/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-resolution-on-travel-restrictions-and-coronavirus-covid-19-13-february-2020
 - Accessed: `2026-04-02`.
 - Use limit: supports early border-response comparison; does not provide the full Australian coordination picture.
+
+### src-australia-ahppc-2020-02-05
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC novel coronavirus statement on 5 February 2020*. 2020.
+- Type: government statement.
+- Role in SUF: first AHPPC COVID statement and early health advisory anchor.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-novel-coronavirus-statement-on-5-february-2020-0
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-novel-coronavirus-statement-on-5-february-2020-0
+- Accessed: `2026-04-18`.
+- Use limit: supports early health advisory and public-information coordination; does not alone establish full Australia comparator architecture.
+
+### src-australia-ahppc-2020-02-24
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC statement on coronavirus (COVID-19), 24 February 2020*. 2020.
+- Type: government statement.
+- Role in SUF: pandemic risk assessment and early escalation signal.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-statement-on-coronavirus-covid-19-24-february-2020
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-statement-on-coronavirus-covid-19-24-february-2020
+- Accessed: `2026-04-18`.
+- Use limit: supports escalation timeline; does not alone establish full Australia comparator architecture.
+
+### src-australia-ahppc-2020-03-17
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC coronavirus (COVID-19) statement on 17 March 2020*. 2020.
+- Type: government statement.
+- Role in SUF: acute phase trajectory comparison and advisory.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-coronavirus-covid-19-statement-on-17-march-2020
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-coronavirus-covid-19-statement-on-17-march-2020
+- Accessed: `2026-04-18`.
+- Use limit: supports acute phase advisory; does not alone establish full Australia comparator architecture.
+
+### src-australia-ahppc-asymptomatic-2020-05-14
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC updated statement on the role of asymptomatic testing for COVID-19*. 2020.
+- Type: government statement.
+- Role in SUF: late acute phase testing guidance and policy refinement.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-updated-statement-on-the-role-of-asymptomatic-testing
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-updated-statement-on-the-role-of-asymptomatic-testing
+- Accessed: `2026-04-18`.
+- Use limit: supports late acute advisory; does not alone establish full Australia comparator architecture.
+
+### src-australia-national-cabinet-2020-03-15
+
+- Citation: Prime Minister of Australia. *National Cabinet transcript — 15 March 2020*. 2020.
+- Type: government transcript.
+- Role in SUF: cruise ship ban and gathering limits coordination decision.
+- Primary link: https://pmtranscripts.pmc.gov.au/release/transcript-42730
+- Archive link: https://web.archive.org/web/2020/https://pmtranscripts.pmc.gov.au/release/transcript-42730
+- Accessed: `2026-04-18`.
+- Use limit: supports federal political coordination; does not alone establish full Australia comparator architecture.
+
+### src-australia-national-cabinet-2020-03-22
+
+- Citation: Prime Minister of Australia. *National Cabinet transcript — 22 March 2020*. 2020.
+- Type: government transcript.
+- Role in SUF: second stage activation and escalation coordination.
+- Primary link: https://pmtranscripts.pmc.gov.au/release/transcript-42761
+- Archive link: https://web.archive.org/web/2020/https://pmtranscripts.pmc.gov.au/release/transcript-42761
+- Accessed: `2026-04-18`.
+- Use limit: supports escalation coordination; does not alone establish full Australia comparator architecture.
+
+### src-australia-national-cabinet-2020-03-27
+
+- Citation: Prime Minister of Australia. *National Cabinet transcript — 27 March 2020*. 2020.
+- Type: government transcript.
+- Role in SUF: tenancies and health supply implementation coordination.
+- Primary link: https://pmtranscripts.pmc.gov.au/release/transcript-43973
+- Archive link: https://web.archive.org/web/2020/https://pmtranscripts.pmc.gov.au/release/transcript-43973
+- Accessed: `2026-04-18`.
+- Use limit: supports implementation coordination; does not alone establish full Australia comparator architecture.
+
+### src-australia-national-cabinet-2020-04-03
+
+- Citation: Prime Minister of Australia. *National Cabinet transcript — 3 April 2020*. 2020.
+- Type: government transcript.
+- Role in SUF: childcare and tenancies social policy coordination.
+- Primary link: https://pmtranscripts.pmc.gov.au/release/transcript-43979
+- Archive link: https://web.archive.org/web/2020/https://pmtranscripts.pmc.gov.au/release/transcript-43979
+- Accessed: `2026-04-18`.
+- Use limit: supports social policy coordination; does not alone establish full Australia comparator architecture.
+
+### src-australia-ahppc-2020-03-30
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC advice to National Cabinet on 30 March 2020*. 2020.
+- Type: government statement.
+- Role in SUF: pre-National Cabinet advisory on state/territory measures.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-advice-to-national-cabinet-on-30-march-2020-0
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-advice-to-national-cabinet-on-30-march-2020-0
+- Accessed: `2026-04-18`.
+- Use limit: supports federal-state advisory bridge; does not alone establish full Australia comparator architecture.
+
+### src-australia-ahppc-2020-04-03-children
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC coronavirus (COVID-19) statement on 3 April 2020 — children*. 2020.
+- Type: government statement.
+- Role in SUF: vulnerable population guidance on COVID-19 in children and school closures.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-coronavirus-covid-19-statement-on-3-april-2020
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-coronavirus-covid-19-statement-on-3-april-2020
+- Accessed: `2026-04-18`.
+- Use limit: supports vulnerable population guidance; does not alone establish full Australia comparator architecture.
+
+### src-australia-national-cabinet-2020-04-07
+
+- Citation: Prime Minister of Australia. *National Cabinet transcript — 7 April 2020*. 2020.
+- Type: government transcript.
+- Role in SUF: churches and worship places coordination for Easter services.
+- Primary link: https://pmtranscripts.pmc.gov.au/release/transcript-43974
+- Archive link: https://web.archive.org/web/2020/https://pmtranscripts.pmc.gov.au/release/transcript-43974
+- Accessed: `2026-04-18`.
+- Use limit: supports religious services coordination; does not alone establish full Australia comparator architecture.
+
+### src-australia-ahppc-2020-03-17-anzac
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC coronavirus (COVID-19) statement on 17 March 2020 — ANZAC Day*. 2020.
+- Type: government statement.
+- Role in SUF: ANZAC Day guidance and vulnerable population protection.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-coronavirus-covid-19-statement-on-17-march-2020
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-coronavirus-covid-19-statement-on-17-march-2020
+- Accessed: `2026-04-18`.
+- Use limit: supports vulnerable population guidance; does not alone establish full Australia comparator architecture.
+
+### src-australia-ahppc-2020-04-21-health-risk
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC statement on recommendations for managing health risk as COVID-19 measures lift*. 2020.
+- Type: government statement.
+- Role in SUF: health risk management as measures lift — transition guidance.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-statement-on-recommendations-for-managing-of-health-risk-as-covid-19-measures-lift
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-statement-on-recommendations-for-managing-of-health-risk-as-covid-19-measures-lift
+- Accessed: `2026-04-18`.
+- Use limit: supports transition guidance; does not alone establish full Australia comparator architecture.
+
+### src-australia-national-cabinet-2020-04-24-maritime
+
+- Citation: Prime Minister of Australia. *National Cabinet transcript — 24 April 2020 — maritime crew exemption*. 2020.
+- Type: government transcript.
+- Role in SUF: maritime crew exemption and border logistics coordination.
+- Primary link: https://pmtranscripts.pmc.gov.au/release/transcript-43976
+- Archive link: https://web.archive.org/web/2020/https://pmtranscripts.pmc.gov.au/release/transcript-43976
+- Accessed: `2026-04-18`.
+- Use limit: supports border logistics coordination; does not alone establish full Australia comparator architecture.
+
+### src-australia-national-cabinet-2020-05-15
+
+- Citation: Prime Minister of Australia. *National Cabinet transcript — 15 May 2020*. 2020.
+- Type: government transcript.
+- Role in SUF: monitoring, testing, tracing framework and surveillance plans.
+- Primary link: https://pmtranscripts.pmc.gov.au/release/transcript-44016
+- Archive link: https://web.archive.org/web/2020/https://pmtranscripts.pmc.gov.au/release/transcript-44016
+- Accessed: `2026-04-18`.
+- Use limit: supports surveillance framework coordination; does not alone establish full Australia comparator architecture.
+
+### src-australia-national-cabinet-2020-05-29
+
+- Citation: Prime Minister of Australia. *National Cabinet press conference — 29 May 2020*. 2020.
+- Type: government press conference transcript.
+- Role in SUF: reopening framework, travel bubble, and economic coordination.
+- Primary link: https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/7371305%22
+- Archive link: https://web.archive.org/web/2020/https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id:%22media/pressrel/7371305%22
+- Accessed: `2026-04-18`.
+- Use limit: supports reopening coordination; does not alone establish full Australia comparator architecture.
 
 ## 5. AI frontier and AI-language sources
 

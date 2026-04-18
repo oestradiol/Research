@@ -16,7 +16,7 @@ Use the public status files by role:
 
 **`v1.2.0`** names the dated hosted snapshot in this tree (**2026-04-05**).
 
-Current `main` is aligned with the hosted `v1.2.0` Taiwan chapter-ready release for the public package. The framework core is in place, the New Zealand route includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a bounded New Zealand monograph baseline. The Taiwan comparator is now chapter-ready with a `15`-event archive-clean official tranche, bounded command/EOC architecture visibility, and retrospective/oversight closure through a December 2024 White Paper with a verified Wayback archive. The locked payoff sentence has been pressure-tested and retained, the IA downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and package hygiene.
+Current `main` represents a **monograph-grade repo** with bounded three-case pandemic-governance closure. The framework core is in place, the New Zealand route includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a bounded New Zealand monograph baseline. The Taiwan comparator is chapter-ready with a **`20`-event** archive-clean official tranche (threshold: 20+ events), bounded command/EOC architecture visibility, and retrospective/oversight closure through a December 2024 White Paper with a verified Wayback archive. The Australia federal comparator is complete with **`18` events**, showing the distinctive AHPPC + National Cabinet dual-layer architecture with federal-only scope maintained. The **three-case synthesis (76 events)** documents what patterns travel across cases (public-information centrality, health-executive bridge, border sequence) and what remains case-specific (emergency management layer, lag cleanliness, federal vs unitary architecture). The **rival-framework positioning note** shows where SUF adds analytical value. The locked payoff sentence has been pressure-tested and retained, the IA downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and package hygiene. The **monograph support package** is now complete with chapter TOC, evidence mapping, and artifact cross-references.
 
 Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, and changelog grounding are complete. No remaining launch blocker or active-core repository-assembly blocker is left inside the current repository state.
 
@@ -29,7 +29,9 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 - bounded hosted `v1.2.0` framing now names the Taiwan chapter-ready package state
 - New Zealand route hardened to `38` coded events with a `29`-event main interval and a bounded monograph baseline inside the locked windows
 - late-transition DPMC authority-routing and review papers plus direct action-plan and architecture anchors promoted into the live route
-- Taiwan comparator completed to chapter-ready with `15` archive-clean official events, bounded command/EOC architecture visibility, and retrospective/oversight closure
+- Taiwan comparator completed to chapter-ready with **`20` archive-clean official events** (threshold met), bounded command/EOC architecture visibility, and retrospective/oversight closure
+- Australia federal comparator completed with **`18` archive-clean official events**, AHPPC + National Cabinet dual-layer architecture, federal-only scope maintained
+- **Monograph-grade repo completed** with three-case bounded pandemic-governance closure (76 events), cross-case synthesis, rival-framework positioning, and chapter-readable structure
 - locked payoff sentence pressure-tested and retained
 - public IA downstream-role clarification synchronized with the denser NZ/Taiwan evidence
 - tooling-ready read-only validation and reporting extended across route, comparison, and release-hygiene surfaces
@@ -66,7 +68,11 @@ The locked payoff sentence remains:
 That claim is now supported by:
 
 - a `38`-event New Zealand route with a fuller late-transition DPMC layer, a direct action-plan architecture surface, and a chapter-ready monograph baseline
-- a `15`-event bounded Taiwan comparator that no longer reads as command-centre-only
+- a **`20`-event bounded Taiwan comparator** that no longer reads as command-centre-only
+- an **`18`-event Australia federal comparator** showing AHPPC health advisory + National Cabinet political coordination dual-layer architecture
+- a **three-case bounded synthesis (76 events)** documenting public-information coordination centrality across unitary, centralized, and federal architectures
+- a **rival-framework positioning note** showing where SUF adds analytical value beyond executive-command-only or communication-as-downstream accounts
+- a **monograph-grade repo** with chapter-readable structure, evidence maps, and artifact cross-references
 - a denser read-only validation layer that can now check the stable active-core public metrics against the Markdown route artifacts
 
 ## 6. What is currently stable
@@ -76,7 +82,8 @@ That claim is now supported by:
 - the applications split between demonstrated routes and research-map nodes
 - the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event public ledger, monograph-baseline chapter notes, first-pass metric companions, route-local structured evidence organizer, and `14`-check sensitivity/null note
 - the current direct DPMC and Police implementation-chain source layer admitted only with live plus fixed-archive support
-- the Taiwan comparator design, extended official corpus inventory, `15`-event bounded ledger, one conservative lag pair, and the bounded NZ-Taiwan comparison note
+- the Taiwan comparator design, extended official corpus inventory, **`20`-event bounded ledger**, one conservative lag pair, and the bounded NZ-Taiwan comparison note
+- the Australia federal comparator design, official corpus inventory, **`18`-event bounded ledger**, AHPPC + National Cabinet architecture visibility
 - the read-only tooling layer for route, comparison, version, link, archive, knowledge, and release-hygiene validation
 - the reviewer-objections and evidence-status audit layer for public academic scrutiny
 

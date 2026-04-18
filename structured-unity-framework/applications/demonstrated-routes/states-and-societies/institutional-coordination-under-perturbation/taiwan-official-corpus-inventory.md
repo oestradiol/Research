@@ -28,7 +28,11 @@ Unstable candidates remain in [Source Discovery Log](source-discovery-log.md).
 ### Border, quarantine, and continuity
 
 - [src-taiwan-all-travelers-home-quarantine-2020](../../../../references/source-registry.md#src-taiwan-all-travelers-home-quarantine-2020)
+- [src-taiwan-entry-response-2020-02-01](../../../../references/source-registry.md#src-taiwan-entry-response-2020-02-01)
+- [src-taiwan-entry-quarantine-system-2020-02-14](../../../../references/source-registry.md#src-taiwan-entry-quarantine-system-2020-02-14)
 - [src-taiwan-home-quarantine-support-2020](../../../../references/source-registry.md#src-taiwan-home-quarantine-support-2020)
+- [src-taiwan-outbreak-response-2020-03-11](../../../../references/source-registry.md#src-taiwan-outbreak-response-2020-03-11)
+- [src-taiwan-schengen-level3-2020-03-14](../../../../references/source-registry.md#src-taiwan-schengen-level3-2020-03-14)
 - [src-taiwan-entry-restrictions-home-quarantine-2020](../../../../references/source-registry.md#src-taiwan-entry-restrictions-home-quarantine-2020)
 - [src-taiwan-transit-ban-2020](../../../../references/source-registry.md#src-taiwan-transit-ban-2020)
 - [src-taiwan-home-quarantine-isolation-regulations-2020](../../../../references/source-registry.md#src-taiwan-home-quarantine-isolation-regulations-2020)
@@ -38,6 +42,7 @@ Unstable candidates remain in [Source Discovery Log](source-discovery-log.md).
 - [src-taiwan-symptomatic-travelers-designated-location-2020](../../../../references/source-registry.md#src-taiwan-symptomatic-travelers-designated-location-2020)
 - [src-taiwan-social-distancing-measures-2020](../../../../references/source-registry.md#src-taiwan-social-distancing-measures-2020)
 - [src-taiwan-quarantine-hotels-europe-americas-2020](../../../../references/source-registry.md#src-taiwan-quarantine-hotels-europe-americas-2020)
+- [src-taiwan-navy-cluster-response-2020-03-24](../../../../references/source-registry.md#src-taiwan-navy-cluster-response-2020-03-24)
 - [src-taiwan-transit-extension-2020](../../../../references/source-registry.md#src-taiwan-transit-extension-2020)
 
 ## Current coverage profile

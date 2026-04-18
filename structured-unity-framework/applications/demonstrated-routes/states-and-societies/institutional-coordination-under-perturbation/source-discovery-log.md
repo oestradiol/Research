@@ -76,21 +76,29 @@ The first Taiwan comparator tranche follows the same admission rule: no source i
 | `src-taiwan-social-distancing-measures-2020` | `D/E-family bridge` | `2020-04-01` phased social-distancing guidance and conditional mandatory-rule surface | `verified` | `verified` | `accepted and coded` | direct public-alignment and conditional enforcement anchor added to reduce command-centre thinness in the acute tranche |
 | `src-taiwan-nhcc-architecture-2020` | `A-family / comparator architecture` | bounded NHCC/CECC/EOC command architecture and emergency-management coordination | `verified` | `verified` | `accepted` | bounded command-centre/EOC architecture and emergency-management coordination anchor with verified Wayback archive from 2020-06-01 |
 | `src-taiwan-post-covid-white-paper-2024` | `A-family / retrospective oversight` | retrospective/oversight anchor for Taiwan's epidemic prevention policy and de-escalation coverage | `verified` | `verified` | `accepted` | retrospective/oversight anchor with verified Wayback archive from 2026-04-06 |
+| `src-taiwan-entry-response-2020-02-01` | `E-family` | `2020-02-01` entry response measures for outbreak areas | `verified` | `verified` | `accepted and coded` | fills February gap between airport activation and Feb 8 quarantine tightening |
+| `src-taiwan-entry-quarantine-system-2020-02-14` | `D/E-family bridge` | `2020-02-14` Entry Quarantine System launch for passenger health declaration | `verified` | `verified` | `accepted and coded` | distinguishes quarantine info system from Feb 15 support clarification |
+| `src-taiwan-outbreak-response-2020-03-11` | `A/E-family bridge` | `2020-03-11` outbreak response for 48th case with contact tracing | `verified` | `verified` | `accepted and coded` | fills March gap before March 18 entry restrictions |
+| `src-taiwan-schengen-level3-2020-03-14` | `E-family` | `2020-03-14` Schengen travel notice Level 3 with quarantine | `verified` | `verified` | `accepted and coded` | adds regional targeting layer to border escalation |
+| `src-taiwan-navy-cluster-response-2020-03-24` | `A/E-family bridge` | `2020-03-24` Navy cluster response with quarantine reinforcement | `verified` | `verified` | `accepted and coded` | fills late March gap with implementation-observed cluster response |
 | `vmv22PiH7-k3K-yh6FkmKw` | `candidate check` | pre-comparator architecture scan | `verified` | `verified` | `promoted under source id` | normalized to `src-taiwan-cecc-activation-2020` |
 | `pVg_jRVvtHhp94C6GShRkQ` | `candidate check` | additional early Taiwan bulletin | `verified` | `verified` | `promoted under source id` | normalized to `src-taiwan-first-imported-case-onboard-quarantine-2020` after fixed-archive confirmation |
 | `kM0jm-IqLwNBeT6chKk_wg` | `candidate check` | additional Taiwan public-alignment bulletin | `verified` | `verified` | `promoted under source id` | normalized to `src-taiwan-social-distancing-measures-2020` after fixed-archive confirmation |
 
 ## Taiwan comparator result
 
-This is enough to deepen the Taiwan comparator from the original `12`-event starter into a denser `15`-event archive-clean acute tranche without weakening the archive rule, and now also provides a bounded command-centre/EOC architecture anchor and retrospective/oversight closure.
+This is enough to deepen the Taiwan comparator from the original `12`-event starter into a `20`-event archive-clean acute tranche meeting the chapter-ready threshold, without weakening the archive rule, and now also provides a bounded command-centre/EOC architecture anchor and retrospective/oversight closure.
 
 It now adds:
 
 - one early onboard-quarantine and local-health-routing event before the broader March escalation
 - one airport response-centre operating layer already visible through the admitted airport source
 - one direct public-alignment and conditional-rule surface inside the acute window
+- five additional February-March events filling timeline gaps (Feb 1 entry response, Feb 14 quarantine system, Mar 11 outbreak response, Mar 14 Schengen Level 3, Mar 24 Navy cluster)
 
 It still makes only one conservative lag pair cleanly visible:
 
 - `2020-03-18` foreign-entry restriction and local-district quarantine routing announcement
 - `2020-03-29` health-agency notification and medical-care routing observed during home quarantine
+
+**Current status:** `20 events` — meets chapter-ready threshold of 20+ events in ledger.
