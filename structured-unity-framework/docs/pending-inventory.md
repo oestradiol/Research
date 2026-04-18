@@ -11,11 +11,11 @@ The hosted `v1.2.0` release now has:
 - changelog entries grounded to hosted commit and tag surfaces
 - root changelog preserved in `../CHANGELOG.md`
 
-Current `main` is aligned with the hosted `v1.2.0` Taiwan chapter-ready release for the public package and now has:
+Current `main` is aligned with the hosted `v1.5.0` release for the public package and now has:
 
 - a `38`-event New Zealand route with a `29`-event main interval
-- a chapter-ready New Zealand monograph baseline inside the locked windows
-- a **`20`-event chapter-ready Taiwan comparator** (threshold met)
+- a New Zealand monograph baseline inside the locked windows
+- a **`20`-event Taiwan comparator** (threshold met)
 - a retained locked payoff sentence
 - a tooling-ready read-only validation layer for the stable active-core public surfaces
 
@@ -38,22 +38,22 @@ No unresolved publication blocker or active-core repo-completion blocker remains
 5. `completed` Tooling-ready read-only validation for the stable active-core public surfaces.
    Why it mattered: the docs-first package needed a stronger deterministic check layer before later expansion.
 
-6. `completed` `v1.2` Taiwan chapter-ready completion.
-   Why it mattered: the Taiwan comparator needed to become chapter-ready rather than remaining a bounded starter pilot.
+6. `completed` `v1.2` Taiwan completion.
+   Why it mattered: the Taiwan comparator needed to reach threshold rather than remaining a bounded starter pilot.
 
-7. `completed` Taiwan ledger extended from 15 to 20 events for chapter-ready threshold.
-   Why it mattered: the chapter-ready threshold required 20+ events; five additional February-March sources coded.
+7. `completed` Taiwan ledger extended from 15 to 20 events for threshold.
+   Why it mattered: the threshold required 20+ events; five additional February-March sources coded.
 
 8. `completed` `v1.3` Australia federal comparator completion (18 events).
    Why it mattered: Phase 2 required 18-22 event federal comparator; AHPPC + National Cabinet dual-layer architecture now visible; federal-only scope maintained.
 
-9. `completed` `v1.4` bounded pandemic-governance closure and monograph-grade repo (76 events, 3-case synthesis).
+9. `completed` `v1.4` bounded pandemic-governance closure and monograph structure (76 events, 3-case synthesis).
    Why it mattered: Three-case comparative closure now documented; patterns that travel vs. case-specific patterns explicitly stated; rival-framework positioning added; monograph TOC and chapter structure established.
 
 ## C. Long-range phase ladder
 
 ```
-G[v1.2]{Taiwan-chapter-ready}+D+{completed}
+G[v1.2]{Taiwan-completion}+D+{completed}
 G[v1.3]{Australia-federal-comparator}+D+{completed}
 G[v1.4]{pandemic-governance-closure}+D+{completed}
 G[v1.5]{analysis-ready-tooling}+N>{structured-exports,validators}
@@ -66,9 +66,9 @@ The locked payoff sentence evolves through phases as the empirical base thickens
 
 | Phase | Empirical Base | Target Size | Payoff Evolution | Gating Criteria |
 |---|---|---|---|---|
-| **Current** | NZ (38) + Taiwan (15) | 53 events | Bounded: "NZ case demonstrates..." | ✓ Hosted v1.2.0; chapter-ready comparator |
+| **Current** | NZ (38) + Taiwan (15) | 53 events | Bounded: "NZ case demonstrates..." | ✓ Hosted v1.2.0; threshold met |
 | **Phase 2** | + Australia federal (18 events) | +18 events | Comparative: "Cross-case suggests..." | ✅ **COMPLETE** — 18-event federal ledger; AHPPC + National Cabinet architecture visible |
-| **Phase 3** | NZ + Taiwan + Australia synthesis | 76 events | Bounded closure: "Patterns that travel..." | ✅ **COMPLETE** — 3-case synthesis documented; rival-framework positioning; monograph-grade repo |
+| **Phase 3** | NZ + Taiwan + Australia synthesis | 76 events | Bounded closure: "Patterns that travel..." | ✅ **COMPLETE** — 3-case synthesis documented; rival-framework positioning; monograph structure |
 | **Phase 3** | + non-pandemic case | +15-25 events | Domain-spanning: "Pattern holds across perturbation types..." | Case from different domain (e.g., natural disaster, cyber incident); `12-20` events |
 | **Phase 4** | + 2+ additional comparators | +30-50 events | Generalized: "Framework provides..." | 4+ cases with consistent I/C/L/U patterns; stable measurement across cases |
 
@@ -103,7 +103,7 @@ Q[atlas-growth]{blocked:breadth≠validation}
 ## E. Current watchpoints
 
 ```
-W[Taiwan-wording]{chapter-ready-threshold-met:20-events}
+W[Taiwan-wording]{threshold-met:20-events}
 W[knowledge-scope]{SUF-role:foregrounded-only}
 W[validator-confidence]{phrase-check≠human-judgment}
 W[interface-drift]{bridge-layer≠peer-theory-layer}
@@ -130,7 +130,7 @@ A[ai-coordination]{archived:2026-04-17|reopen-requires:monograph-complete+500wd-
 AI coordination node archived per D6 decision (2026-04-17). Adjacent to rejected AGI frontier; trend-chasing risk high. Legitimate interest preserved but deferred to post-monograph phase.
 
 **Reopen criteria:**
-- Monograph-grade repo achieved (Phase 4 complete)
+- Monograph structure achieved (Phase 4 complete)
 - 500-word explicit justification addressing:
   - Fit within "states/societies institutional coordination" scope
   - SUF methodological value-add beyond existing literature

@@ -30,7 +30,7 @@ For current package posture, use [project-status.md](project-status.md). For the
 
 | Phase | Status | Deliverable |
 |-------|--------|-------------|
-| v1.2 Taiwan chapter-ready | ✅ **COMPLETE** | 20-event ledger, chapter-ready threshold met |
+| v1.2 Taiwan completion | ✅ **COMPLETE** | 20-event ledger, threshold met |
 | v1.3 Australia federal comparator | ✅ **COMPLETE** | 18-event federal-only ledger, AHPPC + National Cabinet |
 | v1.4 Bounded pandemic-governance closure | ✅ **COMPLETE** | 76-event 3-case synthesis, rival-framework positioning |
 | v1.5 Analysis-ready tooling | ✅ **COMPLETE** | Structured exports, enhanced validators, metric companions |
@@ -64,7 +64,7 @@ Do now:
 
 ## v1.6 Research-ops Tooling (ACTIVE)
 
-**Goal**: Add maintenance support only after monograph-grade repo exists.
+**Goal**: Add maintenance support only after monograph structure is stable.
 
 **v1.6 workstreams**:
 - `research-ops/check-artifact-completeness.py` — monograph/evidence map integrity
@@ -94,7 +94,7 @@ Current public surfaces provide:
 
 - a bounded v1.2.0 release frame
 - a stable New Zealand monograph-baseline core (38 events)
-- a chapter-ready Taiwan comparator (20 events)
+- a Taiwan comparator with 20 events
 - a bounded Australia federal comparator (18 events)
 - a three-case pandemic-governance synthesis (76 events)
 - a read-only validation layer preventing silent drift

@@ -20,13 +20,13 @@ Use this file when planning later execution. Use [project-status.md](project-sta
 
 ## 1. Finish line
 
-The long-range finish line is a **monograph-grade repo**, not merely a denser demonstrated route and not necessarily a journal-style manuscript package.
+The long-range finish line is a **monograph-structured repository**, not merely a denser demonstrated route and not necessarily a journal-style manuscript package.
 
 That means the public repo should eventually contain:
 
 - a chapter-readable monograph structure
 - a New Zealand monograph core that can stand as the primary empirical anchor
-- a chapter-ready Taiwan route
+- a Taiwan route with standalone chapter structure
 - a bounded Australia federal comparator
 - a bounded pandemic-governance closure note that states what travels across those cases and what does not
 - a rival-framework positioning note that shows where SUF adds analytical value and where it remains bounded
@@ -51,7 +51,7 @@ Locked planning defaults:
 
 - monograph shape = New Zealand core plus comparator chapters
 - comparator order = Taiwan, then Australia, then later optional comparator only if explicitly reopened
-- finish line = monograph-grade repo rather than submission-form manuscript by default
+- finish line = monograph-structured repository rather than submission-form manuscript by default
 - versioning = keep package metadata at `1.1.0` until a later hosted tag is actually cut; use `Unreleased` changelog sections meanwhile
 
 Explicit non-goals:
@@ -117,7 +117,7 @@ Exit gate:
 
 Goal:
 
-- reopen New Zealand as the monograph core and push it from active-core completion to monograph-grade saturation
+- reopen New Zealand as the monograph core and push it from active-core completion to monograph-structure saturation
 
 Required work:
 
@@ -125,7 +125,7 @@ Required work:
 - force every high-priority candidate into `promoted`, `rejected`, or `held with durable reason`
 - deepen the New Zealand ledger until the unresolved queue is low-priority rather than structurally important
 - upgrade current first-pass surfaces into stable monograph-baseline interpretation surfaces where the evidence now supports it
-- produce chapter-ready New Zealand evidence mapping across architecture, escalation, implementation thickening, late-transition authority and review, de-escalation, measurement, nulls, and weakening conditions
+- produce New Zealand evidence mapping across architecture, escalation, implementation thickening, late-transition authority and review, de-escalation, measurement, nulls, and weakening conditions
 - plan every stable monograph-facing New Zealand table and figure in canonical docs before any analysis-ready export work begins
 
 Exit gate:
@@ -139,7 +139,7 @@ Exit gate:
 
 Goal:
 
-- push Taiwan from bounded comparator to chapter-ready bounded route
+- push Taiwan from bounded comparator to standalone bounded route
 
 Required work:
 
@@ -177,11 +177,11 @@ Exit gate:
 - the route yields at least one clear implementation-side chain plus enough evidence for a comparator chapter
 - the three-case comparison can now be built without inventing new boundary logic ad hoc
 
-### Phase 4: `v1.4` bounded pandemic-governance closure and monograph-grade repo
+### Phase 4: `v1.4` bounded pandemic-governance closure and monograph structure
 
 Goal:
 
-- turn the repo into a monograph-grade public research object with bounded three-case closure
+- turn the repo into a monograph-structured public research object with bounded three-case closure
 
 Required work:
 
@@ -194,7 +194,7 @@ Required work:
 Exit gate:
 
 - New Zealand, Taiwan, and Australia together support a strong bounded empirical result
-- the repo can be read as a finished monograph-grade package even without journal-style manuscript formatting
+- the repo can be read as a finished monograph-structured package even without journal-style manuscript formatting
 - the closure claim is strong inside the pandemic-governance family and explicitly non-universal outside it
 - rival-framework pressure is answered in a bounded, source-backed way rather than left implicit
 
@@ -221,7 +221,7 @@ Exit gate:
 
 Goal:
 
-- add maintenance support only after the monograph-grade repo exists and actual upkeep pain justifies it
+- add maintenance support only after the monograph structure is stable and actual upkeep pain justifies it
 
 Required work:
 
@@ -247,14 +247,14 @@ After every later phase, run:
 Acceptance scenarios:
 
 - `NZ monograph core`
-  all high-priority New Zealand source candidates are resolved and the route can be read as a chapter-ready empirical core
+  all high-priority New Zealand source candidates are resolved and the route can be read as a standalone empirical core
 - `Taiwan chapter readiness`
   Taiwan supports standalone bounded interpretation and no longer depends on starter framing
 - `Australia comparator readiness`
   the federal comparator is bounded, reproducible, and not swamped by uncontrolled state-level scope
 - `Bounded closure`
   the three-case synthesis states exactly what is supported at the pandemic-governance family level, with explicit weakening conditions
-- `Monograph-grade repo`
+- `Monograph-structured repo`
   chapter map, evidence map, methods, comparative closure, rival-framework note, tables and figures, and appendices all exist and cross-reference cleanly
 - `Tooling alignment`
   every stable public metric or table used in monograph-facing docs is validated by the read-only tooling layer

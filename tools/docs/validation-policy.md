@@ -27,6 +27,26 @@ Recognized fixed archive surfaces in tranche 1 are:
 - whether a boundary choice is the best one
 - whether a reported gain is publishable
 - whether a mismatch should overwrite public docs
+- **whether status surfaces match ground truth** (validators check consistency between surfaces, not correctness of content)
+
+## Validation Limitations (Explicit)
+
+**The 191-check validation suite ensures consistency, not correctness:**
+- ✅ Checks that doc A matches doc B (syntactic)
+- ❌ Does NOT check that doc A matches reality (semantic)
+- ❌ Does NOT prevent surface drift when ledgers update but status docs don't
+
+**Example failure mode (documented):**
+```
+Status surface: "71 events"
+Ledger (old): "71 events coded"
+Validator: ✅ MATCH (passes)
+Reality (new): 76 events coded
+Result: Validation passes, claim is FALSE
+```
+
+**Surface synchronization remains manual responsibility.**
+Validation catches mismatches between surfaces, but cannot catch when all surfaces are stale together.
 
 ## Human gate
 

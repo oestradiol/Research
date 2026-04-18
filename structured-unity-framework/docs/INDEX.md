@@ -23,7 +23,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 | `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md` | Reviewer-facing objection surface and high-level evidence-status matrix |
 | `docs/project-status.md` | Current-state summary for the bounded public release |
 | `docs/current-execution-order.md` | Shortest live execution-order surface for the active `v1.x` pass |
-| `docs/monograph-and-closure-program.md` | Canonical long-range phase ladder toward monograph-grade completion |
+| `docs/monograph-and-closure-program.md` | Canonical long-range phase ladder toward monograph-structured completion |
 | `docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md` | Repo-native monograph scaffold, support map, and bounded closure note |
 | `docs/argument/CONTRIBUTION_AND_POSITIONING.md` | Abstract, payoff, contribution framing, and bounded rival positioning |
 | `docs/pending-inventory.md` | Compiled open-items and deferred-work inventory |
