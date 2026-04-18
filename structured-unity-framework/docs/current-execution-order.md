@@ -1,3 +1,21 @@
+---
+status: active
+phase: v1.5
+phase_type: tooling
+active_workstream: analysis-ready-tooling
+upstream_dependencies:
+  - project-status.md
+  - monograph-and-closure-program.md
+  - ../ROADMAP.md
+downstream_dependencies: []
+validation_gate: research-tools validate all
+last_synced: "2026-04-18"
+entry_for:
+  - what_do_i_do_next
+  - active_phase_check
+  - drift_prevention
+---
+
 # Current Execution Order
 
 ## Purpose
@@ -5,8 +23,6 @@
 This file states the shortest live execution order for the current `v1.x` phase.
 
 Use it when the question is not "what is the whole long-range program?" but "what do we do next without drifting?"
-
-**Updated:** 2026-04-18 — phases v1.2-v1.4 now complete; v1.5 tooling phase active
 
 For current package posture, use [project-status.md](project-status.md). For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed roadmap, use [../ROADMAP.md](../ROADMAP.md).
 

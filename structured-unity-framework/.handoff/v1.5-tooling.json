@@ -1,0 +1,85 @@
+{
+  "handoff_version": "0.1.0",
+  "task_type": "analysis_ready_tooling",
+  "task_id": "v1.5-tooling",
+  "created": "2026-04-18",
+  "context_window_optimized": true,
+  "estimated_tokens": 800,
+  
+  "current_state": {
+    "phase": "v1.5",
+    "phase_name": "Analysis-ready tooling",
+    "previous_phases": ["v1.2", "v1.3", "v1.4"],
+    "empirical_base": {
+      "total_events": 76,
+      "routes": {
+        "new_zealand": {"events": 38, "main_interval": 29, "status": "monograph_baseline"},
+        "taiwan": {"events": 20, "status": "chapter_ready"},
+        "australia": {"events": 18, "status": "federal_comparator"}
+      }
+    }
+  },
+  
+  "objective": {
+    "summary": "Build analysis-ready structured exports and enhanced validators",
+    "exit_criteria": [
+      "Route export validates against 76-event corpus",
+      "Comparison export includes all 3 cases with metadata",
+      "Metric companions auto-generated from ledger",
+      "Validator coverage extended to cross-case patterns"
+    ],
+    "non_goals": [
+      "Corpus expansion beyond 76 events",
+      "v1.6 research-ops tooling",
+      "Frontier branches"
+    ]
+  },
+  
+  "entry_points": {
+    "docs": "docs/current-execution-order.md",
+    "tools": "tools/README.md",
+    "exports": "tools/exports/ledger-to-json.py",
+    "validation": "tools/docs/validation-policy.md"
+  },
+  
+  "constraints": {
+    "docs_posture": "canonical",
+    "tools_posture": "read_only",
+    "empirical_base": "frozen_at_76_events",
+    "scope": "analysis_ready_only"
+  },
+  
+  "validation": {
+    "command": "research-tools validate all",
+    "must_pass_before_commit": true,
+    "expected_checks": 188
+  },
+  
+  "dependencies": {
+    "must_be_current": [
+      "event-ledger-seed.md (NZ)",
+      "taiwan-event-ledger-seed.md",
+      "australia-event-ledger-seed.md"
+    ],
+    "must_not_drift": [
+      "first-nz-taiwan-comparison-note.md",
+      "nz-taiwan-australia-closure-note.md"
+    ]
+  },
+  
+  "escalation_triggers": [
+    "Validation failure (non-zero exit)",
+    "Scope expansion beyond analysis-ready",
+    "Cross-case pattern inconsistencies",
+    "Missing source-registry entries"
+  ],
+  
+  "handoff_packet": {
+    "next_agent_needs": [
+      "Validation passes (188 checks)",
+      "Export surfaces documented",
+      "Tooling README updated",
+      "This packet updated with actual duration"
+    ]
+  }
+}
