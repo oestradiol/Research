@@ -1,5 +1,31 @@
 # Changelog
 
+## Unreleased (v1.5.0)
+
+- analysis-ready tooling for structured exports and validation
+  - Markdown-to-JSON ledger export for programmatic access
+  - Cross-case validator for closure-note claims
+  - Deterministic table/figure generation from canonical docs
+
+## `v1.4.0` - 2026-04-18
+
+Three-case bounded pandemic-governance closure and monograph-grade repo.
+
+### Hosted history
+
+- repository: [oestradiol/Research](https://github.com/oestradiol/Research)
+- tag: [`v1.4.0`](https://github.com/oestradiol/Research/releases/tag/v1.4.0)
+
+### Included in this snapshot
+
+- **New Zealand core**: 38 events, chapter-ready monograph baseline with late-transition DPMC layer
+- **Taiwan comparator**: 20 events, chapter-ready with CECC/NHCC architecture visibility
+- **Australia federal comparator**: 18 events, AHPPC + National Cabinet dual-layer architecture
+- **Three-case synthesis**: 76-event bounded closure documenting patterns that travel (public-information centrality, health-executive bridge, border sequence) and patterns that remain case-specific
+- **Rival-framework positioning**: explicit analytical value vs executive-command-only, communication-as-downstream, loose crisis-governance accounts
+- **Monograph support package**: chapter TOC, evidence maps, artifact cross-references
+- **Comprehensive audit**: Phase 1 complete with red-team challenge, blind spot mapping, meta-audit validation
+
 ## Unreleased
 
 - full renewal cycle (2026-04-17): fix stale references, reduce duplication, add self-coverage
