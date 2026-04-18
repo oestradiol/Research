@@ -4,7 +4,7 @@ This file tells you which SUF package surfaces are live and which ones are merel
 
 ## Current truth
 
-See root `governance/CURRENT_SURFACES_REGISTRY_v0_1.json` for the canonical list of current files across the entire repository. For SUF-specific current surfaces, see the SUF governance registry.
+For SUF-specific current surfaces, see `CURRENT_SURFACES_REGISTRY_v0_1.json` in this directory. For root repository governance, see `../../governance/GOVERNANCE_CORE_v0_2.json`.
 
 ## Live front door
 - `../README.md`
@@ -33,4 +33,4 @@ See root `governance/CURRENT_SURFACES_REGISTRY_v0_1.json` for canonical list. Ke
 - `../docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md`
 
 ## Rule
-If a file is not listed as live here or marked current in `CURRENT_SURFACES_REGISTRY_v0_1.json`, do not treat it as the present-tense package truth surface.
+If a file is not listed as live here or marked current in the SUF `CURRENT_SURFACES_REGISTRY_v0_1.json`, do not treat it as the present-tense package truth surface. Note: Root repository governance has migrated to v0.2; SUF-local governance remains v0.1 until migration.
