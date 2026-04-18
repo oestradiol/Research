@@ -261,6 +261,91 @@ Why it matters:
 
 This event shows National Cabinet coordinating cultural/religious services during acute phase. It adds social-cultural coordination to the ledger, making Australia less purely health/border focused.
 
+### `au-b-013`
+
+- `timestamp_or_date`: `2020-03-17`
+- `issuing_unit`: `public-health policy and command`
+- `receiving_units`: `strategic executive coordination`; `public-information coordination`; `public-service system coordination`
+- `action_type`: AHPPC ANZAC Day guidance for vulnerable population protection and ceremony modifications
+- `dependency_type`: `public-communication dependency`; `information or reporting dependency`
+- `implementation_marker`: `decision announced`
+- `public_information_marker`: `official guidance update`
+- `source_citation`: `src-australia-ahppc-anzac-2020-03-17`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`
+
+Why it matters:
+
+This event shows AHPPC addressing vulnerable population protection through ceremonial guidance. It demonstrates health advisory extending into cultural/commemorative domains, maintaining advisory layer visibility beyond clinical settings.
+
+### `au-b-014`
+
+- `timestamp_or_date`: `2020-04-21`
+- `issuing_unit`: `public-health policy and command`
+- `receiving_units`: `strategic executive coordination`; `public-information coordination`
+- `action_type`: AHPPC health risk management guidance as measures lift and transition planning begins
+- `dependency_type`: `information or reporting dependency`; `public-communication dependency`
+- `implementation_marker`: `implementation clarified`
+- `public_information_marker`: `official guidance update`
+- `source_citation`: `src-australia-ahppc-transition-2020-04-21`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`
+
+Why it matters:
+
+This event captures the transition-phase advisory role. It shows AHPPC guidance continuing as restrictions ease, maintaining health advisory layer through the acute-to-recovery shift rather than disappearing after peak crisis.
+
+### `au-a-015`
+
+- `timestamp_or_date`: `2020-04-24`
+- `issuing_unit`: `strategic executive coordination`
+- `receiving_units`: `border-control coordination`; `public-health policy and command`; `public-information coordination`
+- `action_type`: National Cabinet maritime crew exemption and border logistics coordination for essential shipping
+- `dependency_type`: `directive or authority dependency`; `resource or logistics dependency`; `public-communication dependency`
+- `implementation_marker`: `implementation clarified`
+- `public_information_marker`: `official guidance update`
+- `source_citation`: `src-australia-national-cabinet-maritime-2020-04-24`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event shows border logistics coordination beyond passenger restrictions. It demonstrates National Cabinet handling trade/shipping continuity alongside health controls, exposing the economic-security coordination dimension.
+
+### `au-a-016`
+
+- `timestamp_or_date`: `2020-05-15`
+- `issuing_unit`: `strategic executive coordination`
+- `receiving_units`: `public-health policy and command`; `public-service system coordination`; `public-information coordination`
+- `action_type`: National Cabinet May meeting establishing monitoring, testing, and tracing framework for reopening
+- `dependency_type`: `directive or authority dependency`; `information or reporting dependency`; `public-communication dependency`
+- `implementation_marker`: `implementation initiated`
+- `public_information_marker`: `major public briefing`
+- `source_citation`: `src-australia-national-cabinet-may-2020-05-15`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`
+
+Why it matters:
+
+This event marks the systematic reopening framework. It shows National Cabinet shifting from restriction coordination to monitoring infrastructure, demonstrating adaptive coordination architecture through phase transition.
+
+### `au-a-017`
+
+- `timestamp_or_date`: `2020-05-29`
+- `issuing_unit`: `strategic executive coordination`
+- `receiving_units`: `public-health policy and command`; `border-control coordination`; `public-information coordination`; `public-service system coordination`
+- `action_type`: National Cabinet press conference announcing reopening framework and Australia-New Zealand travel bubble exploration
+- `dependency_type`: `directive or authority dependency`; `public-communication dependency`
+- `implementation_marker`: `decision announced`
+- `public_information_marker`: `major public briefing`
+- `source_citation`: `src-australia-national-cabinet-reopening-2020-05-29`
+- `confidence_note`: `high`
+- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
+
+Why it matters:
+
+This event closes the acute window with reopening announcements and international travel bubble exploration. It demonstrates National Cabinet's political coordination extending through the full pandemic governance cycle into recovery planning.
+
 ## Current readout cues
 
 - total seeded events: `18`

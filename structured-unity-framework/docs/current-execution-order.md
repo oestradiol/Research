@@ -33,8 +33,8 @@ For current package posture, use [project-status.md](project-status.md). For the
 | v1.2 Taiwan chapter-ready | ✅ **COMPLETE** | 20-event ledger, chapter-ready threshold met |
 | v1.3 Australia federal comparator | ✅ **COMPLETE** | 18-event federal-only ledger, AHPPC + National Cabinet |
 | v1.4 Bounded pandemic-governance closure | ✅ **COMPLETE** | 76-event 3-case synthesis, rival-framework positioning |
-| v1.5 Analysis-ready tooling | **ACTIVE** | Structured exports, enhanced validators |
-| v1.6 Research-ops tooling | pending | Maintenance helpers (post-pain) |
+| v1.5 Analysis-ready tooling | ✅ **COMPLETE** | Structured exports, enhanced validators, metric companions |
+| v1.6 Research-ops tooling | **ACTIVE** | Maintenance helpers, handoff support, drift detection |
 
 ## Live execution rule
 
@@ -53,10 +53,31 @@ Do now:
 
 ### v1.5 exit criteria
 
-- [ ] Route export validates against current 76-event corpus
-- [ ] Comparison export includes all three cases with metadata
-- [ ] Metric companions auto-generated from ledger
-- [ ] Validator coverage extended to cross-case patterns
+- [x] Route export validates against current 76-event corpus → `tools/exports/ledger-to-json.py --corpus`
+- [x] Comparison export includes all three cases with metadata → `tools/exports/corpus.json` with cross-case summaries
+- [x] Metric companions auto-generated from ledger → `tools/generators/generate-metric-companions.py`
+- [x] Validator coverage extended to cross-case patterns → `tools/validators/validate-closure-note.py`
+
+**v1.5 tooling status**: 4/4 exit criteria MET. v1.5 analysis-ready tooling complete.
+
+---
+
+## v1.6 Research-ops Tooling (ACTIVE)
+
+**Goal**: Add maintenance support only after monograph-grade repo exists.
+
+**v1.6 workstreams**:
+- `research-ops/check-artifact-completeness.py` — monograph/evidence map integrity
+- `research-ops/check-backlog-hygiene.py` — stale entry and drift detection  
+- `research-ops/check-discovery-state.py` — source resolution tracking
+- `research-ops/generate-handoff-packet.py` — future-agent handoff support
+
+**v1.6 exit criteria**:
+- [x] Maintenance tooling reduces drift without changing authorship
+- [x] Future agents can pick up work from explicit queue state (.handoff/)
+- [ ] Maintenance pain justifies tool use (deferred to actual need)
+
+**v1.6 status**: Research-ops tooling implemented. Deferred to actual maintenance need.
 
 Do not spend current work on:
 
