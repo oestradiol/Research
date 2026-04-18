@@ -1,5 +1,7 @@
 # Project purpose and use cases
 
+> **Terminology note:** "Federation" and related terms are interpretive metaphors from the Agentic Knowledge System (AKS) infrastructure layer, describing repository organization through systems-engineering vocabulary rather than making ontological claims. See [knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md] for AKS/SUF language separation.
+
 `Research/` is an umbrella repository for one bounded academic core, one sibling knowledge atlas, and one read-only validation package.
 
 It should be operated as a federation of bounded parts, not as a single flattened surface.

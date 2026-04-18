@@ -36,20 +36,22 @@ All tools read from `../` (canonical docs) and write to `./outputs/` (derived ar
 
 ```bash
 # Export ledgers to JSON
-python tools/exports/ledger-to-json.py \
+python3 tools/exports/ledger-to-json.py \
   --input applications/demonstrated-routes/.../event-ledger-seed.md \
   --output tools/outputs/nz-ledger.json
 
 # Validate closure note claims
-python tools/validators/validate-closure-note.py \
+python3 tools/validators/validate-closure-note.py \
   --closure-note applications/.../nz-taiwan-australia-closure-note.md \
   --ledgers tools/outputs/*-ledger.json
 
 # Generate comparison table
-python tools/generators/generate-comparison-matrix.py \
+python3 tools/generators/generate-comparison-matrix.py \
   --ledgers tools/outputs/*-ledger.json \
   --output tools/outputs/comparison-matrix.md
 ```
+
+**Environment**: Python 3.8+ required. No external dependencies (standard library only).
 
 ## Status
 

@@ -1,5 +1,7 @@
 # Federation and Layers v0.2
 
+> **Terminology note:** "Federation," "subsystems," and related infrastructure terms are interpretive metaphors from the Agentic Knowledge System (AKS) layer. They describe the repository's organizational structure using systems vocabulary, not claims that the research constitutes a computational system. See [knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md] for AKS/SUF language separation.
+
 ## Purpose
 
 Consolidated governance for Research/ repository: federated subsystem architecture, minimization/renewal cycles, and implementation layer discipline.

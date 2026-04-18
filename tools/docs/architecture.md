@@ -1,5 +1,7 @@
 # Architecture
 
+> **Terminology note:** "Federation," "subsystems," and related infrastructure terms are interpretive metaphors from the Agentic Knowledge System (AKS) layer, describing repository organization through systems-engineering vocabulary rather than making ontological claims about the research.
+
 ## Purpose
 
 `Research/tools/` is a read-only tooling layer for validating and summarizing research artifacts in `Research/`.

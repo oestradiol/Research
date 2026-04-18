@@ -2,6 +2,8 @@
 
 This is the shortest current map of how the root repository stays bounded, current, hard to drift by accident, and readable without inflating package claims.
 
+> **Terminology note:** Terms like "federation," "subsystems," "handoffs," and "boot" are interpretive metaphors drawn from the Agentic Knowledge System (AKS) infrastructure layer. They describe the research repository's organizational structure using systems-engineering vocabulary, not ontological claims about the research itself. See [knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md] for the explicit separation between AKS infrastructure language and SUF academic language.
+
 ## Table of contents
 - [Core rule](#core-rule)
 - [Current truth surfaces](#current-truth-surfaces)

@@ -69,6 +69,7 @@ Automated checks for repository health:
 ## AKS/SUF Separation Rules
 
 ### AKS Language Stays in AKS
+
 - Boot sequences, cold-start, handoffs, subsystems, federation
 - Compressed notation (`OBJ{...}`, `C!{...}`)
 - Agent role definitions, autonomy rules

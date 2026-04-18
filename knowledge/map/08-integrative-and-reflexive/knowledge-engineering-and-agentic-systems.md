@@ -20,6 +20,8 @@ related_routes:
 
 # Knowledge Engineering and Agentic Systems
 
+> **Terminology note:** Terms like "bootloader," "cold-start," "federated subsystems," and "handoffs" are interpretive metaphors from the Agentic Knowledge System (AKS) infrastructure layer. They describe human+AI collaboration workflows using systems vocabulary, not claims that the research constitutes a computational system. This node documents AKS design; for the explicit AKS/SUF language boundary, see this file's "AKS/SUF Separation Rules" section below.
+
 ## Cluster link
 
 - [emerges-from](../../_relations/emerges-from.md) [08 Integrative and Reflexive](README.md)
