@@ -4,7 +4,7 @@ SUF is the bounded academic core of `Research/`.
 
 ## What this package does
 
-- presents a domain-agnostic framework through three substantive layers plus one bridge/control layer
+- presents a domain-agnostic framework through a methodological preface, two substantive layers, and one bridge/control layer
 - exposes the current bounded route package and current package posture
 - carries reviewer-facing boundary, evidence, and objection surfaces
 - supports a targeted next-domain atlas through `applications/`

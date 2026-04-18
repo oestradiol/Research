@@ -6,7 +6,7 @@ This note states what **Structural Phenomenology (SP)** does and does not licens
 
 It is the control surface that prevents SP from being treated as decorative exposition, total ontology, or a shortcut from phenomenology to metrics. It makes the handoff from `structural-phenomenology.md` into `informational-awareness-framework.md`, `unity-dynamics-framework.md`, `research-program.md`, and the route-local measurement layer explicit.
 
-SP is the **phenomenological and epistemic ground** of the framework. It is **not** the direct source of units, proxies, thresholds, lag rules, or state-level phenomenology claims.
+SP is the **methodological preface** of the framework: it sets the phenomenological and epistemic ground under which the substantive layers (IA, UD) operate. It is **not** a peer substantive layer and is **not** the direct source of units, proxies, thresholds, lag rules, or state-level phenomenology claims.
 
 ## 2. Core handoff rule
 

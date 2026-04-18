@@ -4,18 +4,18 @@
 
 Framework Interface is the **bridge/control** layer of Structured Unity Framework.
 
-It is not a fourth peer theory layer. It exists to make the relation between the three substantive layers explicit, academically legible, and non-circular. It explains how phenomenological grounding, modeling vocabulary, operational work, science, and later interpretation fit together **without** collapsing into one doctrine.
+It is not a peer theory layer. It exists to make the relation between the methodological preface (Structural Phenomenology) and the substantive layers (Informational Awareness, Unity Dynamics) explicit, academically legible, and non-circular. It explains how phenomenological grounding, modeling vocabulary, operational work, science, and later interpretation fit together **without** collapsing into one doctrine.
 
 It is a translation, scope-control, boundary-discipline, and continuity layer—not a replacement for the source documents.
 
 ## 2. Executive compression of the stack
 
-Structured Unity Framework has **three substantive framework layers plus one bridge/control layer**:
+Structured Unity Framework is organized as **one methodological preface, two substantive layers, and one bridge/control layer**:
 
-- **Structural Phenomenology** — epistemic ground: givenness, distinction, pattern, structure inside experience
-- **Informational Awareness** — bounded modeling and bridge vocabulary for distinctions, reporting, feedback, and recursive adjustment
-- **Unity Dynamics** — operational variables `I`, `C`, `L`, and `U` at explicit `(τ, σ)`; the most technical-facing layer, but still underdetermined and route-local
-- **Framework Interface** (this file) — bridge/control layer for claim types, weak naturalization, non-circularity, and safe movement across the stack
+- **Structural Phenomenology** — *methodological preface*: epistemic starting conditions and boundary discipline (givenness, distinction, pattern, structure inside experience); carries no predictive or measurement weight of its own
+- **Informational Awareness** — *substantive layer*: bounded modeling and bridge vocabulary for distinctions, reporting, feedback, and recursive adjustment
+- **Unity Dynamics** — *substantive layer*: operational variables `I`, `C`, `L`, and `U` at explicit `(τ, σ)`; the most technical-facing layer, but still underdetermined and route-local
+- **Framework Interface** (this file) — *bridge/control layer* for claim types, weak naturalization, non-circularity, and safe movement across the stack
 
 ## 3. What this file is
 
@@ -162,4 +162,4 @@ This requirement makes claims contestable and prevents the framework from silent
 
 ## 14. Minimal working formulation
 
-Framework Interface is the bridge/control layer that keeps the stack explicit, non-circular, and bounded. It clarifies movement from givenness to model to validation, while preventing the three substantive layers from being collapsed into one voice or hardened into stronger ontology than the current package earns.
+Framework Interface is the bridge/control layer that keeps the stack explicit, non-circular, and bounded. It clarifies movement from givenness to model to validation, while preventing the preface and two substantive layers from being collapsed into one voice or hardened into stronger ontology than the current package earns.

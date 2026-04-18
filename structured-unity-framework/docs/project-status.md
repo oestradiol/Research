@@ -78,7 +78,7 @@ That claim is now supported by:
 ## 6. What is currently stable
 
 - the public architecture: docs, framework, applications atlas, meta layer, references, diagrams, and tooling
-- the three substantive layers plus bridge/control layer and boundary discipline
+- the methodological preface, two substantive layers, and bridge/control layer, plus boundary discipline
 - the applications split between demonstrated routes and research-map nodes
 - the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event public ledger, monograph-baseline chapter notes, first-pass metric companions, route-local structured evidence organizer, and `14`-check sensitivity/null note
 - the current direct DPMC and Police implementation-chain source layer admitted only with live plus fixed-archive support

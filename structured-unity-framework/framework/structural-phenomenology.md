@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-Structural Phenomenology is the **phenomenological and epistemic ground** of the framework. For analyzing coordination systems where information flow, feedback loops, and emergent organization matter, we adopt an **awareness-first framing** because it prevents premature substrate assumptions that would obscure the phenomena under study. This restates the phenomenological *epoché* (Husserl) and James's "stream of thought" as **methodological choices**, not novel metaphysics. We do not adopt this starting point to establish idealism or refute physicalism, but because it better serves the analytical task of tracking how coordination emerges in distributed systems.
+Structural Phenomenology is the **methodological preface** of the framework: it states the epistemic starting conditions and boundary discipline under which the substantive layers (Informational Awareness, Unity Dynamics) operate. It is **not** a peer substantive layer and does not carry predictive or measurement weight. For analyzing coordination systems where information flow, feedback loops, and emergent organization matter, we adopt an **awareness-first framing** because it prevents premature substrate assumptions that would obscure the phenomena under study. This restates the phenomenological *epoché* (Husserl) and James's "stream of thought" as **methodological choices**, not novel metaphysics. We do not adopt this starting point to establish idealism or refute physicalism, but because it better serves the analytical task of tracking how coordination emerges in distributed systems.
 
 Science remains **disciplined mapping** of stable patterns inside experience—not an escape to a "view from nowhere." This document is awareness-first, structure-inside, and epistemically restrained. It does **not** settle final ontology.
 
@@ -44,7 +44,7 @@ Across this layer, the following tags are used consistently:
 
 This is not decorative formalism: it keeps **epistemic status** visible for readers and reviewers.
 
-### 3.2 Axiom A0
+### 4.2 Axiom A0
 
 **[AXIOM]** There is awareness; experience is given and cannot be doubted in the act of doubting. Denial still occurs **within** awareness and presupposes it. Immediate presence is the epistemic starting point of Structural Phenomenology.
 
@@ -62,7 +62,7 @@ It does **not** explain why stable regularities persist; **stability** is the re
 
 This layer is therefore: **not** a denial of external reality; **not** a refutation of physicalism; **not** a proof of idealism; **not** the claim that all interpretations are equally valid; **not** a completed ontology. It is an **epistemic discipline**: begin from givenness, map recurrence, formalize structure cautiously, stay within what the field can justify.
 
-## 4. What is given and primary assumptions
+## 5. What is given and primary assumptions
 
 **[ASSUMPTION]** All patterned content—sensation, thought, memory, identity, models, measurements, theories—**appears within awareness** (scope claim, not a denial of every external-substrate hypothesis).
 
@@ -72,7 +72,7 @@ This layer is therefore: **not** a denial of external reality; **not** a refutat
 
 **[ASSUMPTION]** **Self-model** and **world-model** are distinct **analytic** roles: self-models are agent-modifiable models inside awareness; world-models are patterns of regularity that constrain action and are revised by perception, intervention, instruments, and intersubjective testing.
 
-### 4.1 Immediate consequences (from A0 and assumptions)
+### 5.1 Immediate consequences (from A0 and assumptions)
 
 **M1 — Awareness is epistemically prior.** **[INFERENCE]** Any claim, doubt, measurement, or theory presupposes awareness.
 
@@ -84,14 +84,14 @@ This layer is therefore: **not** a denial of external reality; **not** a refutat
 
 **M5 — Nondual clarification (hypothesis-family at this layer).** **[INFERENCE / HYPOTHESIS]** The apparent separation of self and world arises **inside** the experienced model, not as a directly given ontological division. This does **not** by itself settle metaphysics; it clarifies the **status** of the distinction at the level of givenness.
 
-## 5. Pattern, structure, and appearance
+## 6. Pattern, structure, and appearance
 
 - **Appearance** — Anything present in awareness (sensation, thought, instrument readout, dialogue, etc.).  
 - **Pattern** — Recurring or differentiable regularity among appearances.  
 - **Structure** — Relational encoding that permits comparison, abstraction, compression, and model formation.  
 - **Formalization** — Mathematics, logic, and science as **disciplined formalizations of structure** performed **within** the field on recurring regularities.
 
-## 6. Field and experienced model (analytic distinction)
+## 7. Field and experienced model (analytic distinction)
 
 **[ASSUMPTION]** A useful distinction:
 
@@ -102,11 +102,11 @@ This distinction is **epistemic**, not a claim that two separate ontological sub
 
 Metaphorically, the experienced model may be pictured as a **scene** and identity as a **character**—heuristic only; not a claim that reality is literal simulation or theater.
 
-## 7. Epistemic function of the layer
+## 8. Epistemic function of the layer
 
 This layer prevents both **anti-science** and **scientistic overreach**: scientific practice is strong because it is **intersubjectively disciplined**, not because it “escapes” the field in which evidence is given.
 
-## 8. Methodological stance; stability, intervention, and model revision
+## 9. Methodological stance; stability, intervention, and model revision
 
 Structural Phenomenology treats structural abstractions as **testable, revisable** hypotheses. Structures are stronger when they improve phenomenological fidelity, prediction, reproducibility, and intersubjective coherence.
 
@@ -123,7 +123,7 @@ A world-model is **strengthened** when interventions produce stable, reproducibl
 
 **Loop summary:** self-models act → world-models constrain → interventions shift patterns → shifts update modeled structure.
 
-## 9. Time, identity, and intersubjectivity
+## 10. Time, identity, and intersubjectivity
 
 **Time.** Awareness is only present as immediacy; the past appears as **memory-patterns** in present awareness. Continuity of identity is **emergent structure**, not primitive givenness.
 
@@ -131,7 +131,7 @@ A world-model is **strengthened** when interventions produce stable, reproducibl
 
 **Intersubjectivity.** Other minds are not given as metaphysical objects; they are inferred as **structural regularities** in the world-model from behavior, communication, constraint, and shared validation. Intersubjectivity is **disciplined coordination** of those inferences. Agreement establishes coherence between modeled regularities—it does not, by itself, prove a unique metaphysics of “external access.”
 
-## 10. Consequences (methodologically available, not metaphysically inflated)
+## 11. Consequences (methodologically available, not metaphysically inflated)
 
 From this stance, the following consequences become **available** as disciplined extensions—they remain methodologically grounded rather than treated as completed metaphysics:
 
@@ -139,10 +139,10 @@ From this stance, the following consequences become **available** as disciplined
 - **Physics** — a high-fidelity descriptive system for stable pattern-statistics **within** the field (not a proof of a particular external substance at this layer).  
 - **Agency** — modulation of self-models under constraint from world-model regularities.  
 - **Free will** (if the term is used) — degrees of plasticity and control within that modeling process, not a proof of a separate metaphysical faculty.  
-- **Intersubjectivity** — disciplined coordination of modeled other-agents from regularities in experience (as in §9).  
+- **Intersubjectivity** — disciplined coordination of modeled other-agents from regularities in experience (as in §10).    
 - **Poetic shorthand** — phrases such as “the universe experiencing itself” may function as **poetic** shorthand for self-referential structural patterns, **not** as a literal claim at this layer.
 
-## 11. Positioning and objections (academic restraint)
+## 12. Positioning and objections (academic restraint)
 
 **Against physicalism (as totalizing closure at this layer):** This document does not deny external reality; it **brackets** primitive external-substrate starting points. It does not refute physicalism as a global doctrine; it stays within givenness and how structure is modeled there.
 
@@ -156,17 +156,17 @@ From this stance, the following consequences become **available** as disciplined
 
 **Against anti-scientific readings:** This layer does not oppose science; it denies that science begins from a **view from nowhere**. Observation, instrumentation, and theory remain **inside** experience while expanding what can be stabilized and predicted.
 
-## 12. What this layer is and is not
+## 13. What this layer is and is not
 
-**What it is:** awareness-first; structurally formalizable; epistemically disciplined; compatible with science as an extension of experience; cautious about ontology; suitable as the phenomenological base of the broader framework.
+**What it is:** the framework's **methodological preface**: awareness-first, structurally formalizable, epistemically disciplined, compatible with science as an extension of experience, cautious about ontology; it sets the starting conditions and boundary discipline under which the substantive layers (IA, UD) operate, and carries no predictive or measurement weight of its own.
 
 **What it is not:** a full metaphysical system; a religion; a replacement for scientific evidence; a denial of instruments or public knowledge; a proof of strong nondual ontology; a theory of consciousness in the later **operational** sense.
 
-## 13. Additional exclusions (downstream dependence)
+## 14. Additional exclusions (downstream dependence)
 
-Even where §12 lists what Structural Phenomenology is not, this layer also does **not**—by itself—deliver **full public validation**, **complete epistemology**, or **operational unity criteria**; those require downstream layers and methods discipline.
+Even where §13 lists what Structural Phenomenology is not, this layer also does **not**—by itself—deliver **full public validation**, **complete epistemology**, or **operational unity criteria**; those require downstream layers and methods discipline.
 
-## 14. Boundary relation to later layers (non-circularity)
+## 15. Boundary relation to later layers (non-circularity)
 
 Framework Interface formalizes the bridge movement as:
 
@@ -176,17 +176,17 @@ Structural Phenomenology governs the **first** part of that movement: **givennes
 
 **Non-circularity:** later layers may **extend** this layer but may not **silently redefine** its starting conditions.
 
-## 15. Relation to later layers (summary)
+## 16. Relation to later layers (summary)
 
 Informational Awareness extends **how** structure forms and recurses. Unity Dynamics asks **when** organized systems exhibit unity-like dynamics at explicit scales. Framework Interface states bridges and claim discipline **without** collapsing layers.
 
-## 16. Failure modes / caution points
+## 17. Failure modes / caution points
 
 - Bracketing external substance **misread** as denying rigor of models.  
 - Smuggling **strong metaphysics** without claim-type discipline.  
 - Confusing **epistemic priority of awareness** with a proof of idealism.  
 - Treating **self/world** as primitive ontology rather than modeled distinction.
 
-## 17. Minimal working formulation
+## 18. Minimal working formulation
 
 Structural Phenomenology treats **awareness** as the irreducible epistemic starting point and **structure** as the relational organization of recurring regularities **within** experience. Self, world, model, science, and abstraction arise **within** this field. The layer begins from givenness, formalizes structure cautiously, and brackets stronger ontological claims unless later layers justify them.

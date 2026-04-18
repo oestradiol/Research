@@ -12,7 +12,7 @@ This directory is the current **bounded public academic package** of the framewo
 
 **This package does:**
 
-- present a **domain-agnostic core** through three substantive framework layers plus one bridge/control layer
+- present a **domain-agnostic core** through a methodological preface, two substantive framework layers, and one bridge/control layer
 - carry a **research-ready methods posture** through the Research Program and Literature Guide
 - host a **bounded demonstrated route** through the New Zealand pandemic-coordination case package
 - expose a **targeted public atlas** for plausible next domains, comparative routes, and frontier work
@@ -30,7 +30,7 @@ This directory is the current **bounded public academic package** of the framewo
 
 **Current `main` state:** aligned with the hosted `v1.5.0` package state.
 
-**Stable now:** three substantive layers plus one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local structured evidence organizer; a `20`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IA; a reviewer-facing objections surface; a claim-status matrix; and a tooling-ready read-only validation layer.
+**Stable now:** one methodological preface, two substantive layers, and one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local structured evidence organizer; a `20`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IA; a reviewer-facing objections surface; a claim-status matrix; and a tooling-ready read-only validation layer.
 
 For current package posture use `docs/project-status.md`. For live sequencing use `docs/current-execution-order.md`. For long-range planning use `docs/monograph-and-closure-program.md` and `ROADMAP.md`.
 

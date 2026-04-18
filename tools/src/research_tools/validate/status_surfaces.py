@@ -117,7 +117,7 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-v1-bundle-metrics", v1_bundle, f"The main empirical anchor is a New Zealand pandemic-coordination route with a `{nz_summary.event_count}`-event public ledger, a `{nz_summary.main_interval_count}`-event main perturbation interval", "v1 academic bundle current New Zealand baseline matches the ledger."),
         ("status-v1-bundle-taiwan", v1_bundle, f"A bounded Taiwan comparator now adds a `{taiwan_summary.event_count}`-event archive-clean tranche under the same source-admission rule.", "v1 academic bundle current Taiwan baseline matches the comparator ledger."),
         ("status-interface-bridge-control", interface_doc, "Framework Interface is the **bridge/control** layer of Structured Unity Framework.", "Framework Interface explicitly uses bridge/control wording."),
-        ("status-overview-layer-framing", framework_overview, "three substantive layers plus one bridge/control layer", "Framework overview reflects the updated layer framing."),
+        ("status-overview-layer-framing", framework_overview, "one methodological preface, two substantive layers, and a bridge/control layer", "Framework overview reflects the updated layer framing."),
         ("status-how-to-read-sp-link", how_to_read, "framework/structural-phenomenology-downstream-role.md", "Reading path includes the Structural Phenomenology downstream-role note."),
         ("status-how-to-read-bounded-gain-link", how_to_read, "bounded-gain-against-simpler-readings.md", "Reading path includes the bounded-gain note."),
         ("status-index-reviewer-doc", index_doc, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "Index includes the reviewer-objections doc."),
@@ -140,7 +140,7 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-evidence-no-cross-domain-measurement", evidence_doc, "| The current package has objectively settled cross-domain measurement for `I`, `C`, `L`, and `U`. | not established |", "Evidence-status matrix keeps settled cross-domain measurement as not established."),
         ("status-evidence-no-strong-consciousness", evidence_doc, "| The current package justifies strong consciousness attribution to states or institutions. | not established |", "Evidence-status matrix keeps strong institutional consciousness attribution as not established."),
         ("status-research-program-open-work", research_program, "- deeper comparative execution beyond the current bounded Taiwan comparator", "Research program open-work section reflects the current Taiwan comparator posture."),
-        ("status-publication-scope-layer-framing", publication_scope, "three substantive framework layers plus one bridge/control layer", "Publication scope reflects the updated layer framing."),
+        ("status-publication-scope-layer-framing", publication_scope, "a methodological preface, two substantive framework layers, and one bridge/control layer", "Publication scope reflects the updated layer framing."),
     ])
 
     forbidden_checks = [

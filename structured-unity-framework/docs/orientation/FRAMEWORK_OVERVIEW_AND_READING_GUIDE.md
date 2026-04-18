@@ -13,16 +13,16 @@ This file combines the package overview, reading guide, and audit-path note into
 
 ## Executive overview
 
-Structured Unity Framework is the current academic core of the repository. It is organized as three substantive layers plus one bridge/control layer. The package is bounded, publication-ready in a limited public sense, and not a claim of universal proof or final ontology.
+Structured Unity Framework is the current academic core of the repository. It is organized as one methodological preface, two substantive layers, and a bridge/control layer. The package is bounded, publication-ready in a limited public sense, and not a claim of universal proof or final ontology.
 
 ## Layer structure
 
-### Three substantive layers plus one bridge/control layer
+### One methodological preface, two substantive layers, and a bridge/control layer
 
-- **Structural Phenomenology** supplies the epistemic ground and boundary discipline.
-- **Informational Awareness (IA)** supplies the bounded modeling vocabulary and bridge language.
-- **Unity Dynamics (UD)** supplies the most technical-facing route-local measurement vocabulary.
-- **Framework Interface** is the **bridge/control** layer that stops silent hardening from modeling language into final ontology and keeps layer roles explicit.
+- **Structural Phenomenology** — *methodological preface*: supplies the epistemic starting conditions and boundary discipline. Carries no predictive or measurement weight of its own.
+- **Informational Awareness (IA)** — *substantive layer*: supplies the bounded modeling vocabulary and bridge language.
+- **Unity Dynamics (UD)** — *substantive layer*: supplies the most technical-facing route-local measurement vocabulary.
+- **Framework Interface** — *bridge/control layer*: stops silent hardening from modeling language into final ontology and keeps layer roles explicit.
 
 ### Why the stack is split
 
@@ -57,9 +57,9 @@ The framework does not stand alone from the research program.
 3. `framework/framework-interface.md`
 4. `framework/structural-phenomenology.md`
 5. `framework/structural-phenomenology-downstream-role.md`
-6. `framework/Informational Awareness.md`
+6. `framework/informational-awareness-framework.md`
 7. `framework/ia-downstream-role.md`
-8. `framework/Unity Dynamics.md`
+8. `framework/unity-dynamics-framework.md`
 9. `framework/research-program.md`
 
 ### Demonstrated-route path
