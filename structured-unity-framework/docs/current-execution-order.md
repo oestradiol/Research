@@ -2,77 +2,89 @@
 
 ## Purpose
 
-This file states the shortest live execution order for the current `v1.x` reopening.
+This file states the shortest live execution order for the current `v1.x` phase.
 
 Use it when the question is not "what is the whole long-range program?" but "what do we do next without drifting?"
 
+**Updated:** 2026-04-18 — phases v1.2-v1.4 now complete; v1.5 tooling phase active
+
 For current package posture, use [project-status.md](project-status.md). For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed roadmap, use [../ROADMAP.md](../ROADMAP.md).
+
+## Phase completion status
+
+| Phase | Status | Deliverable |
+|-------|--------|-------------|
+| v1.2 Taiwan chapter-ready | ✅ **COMPLETE** | 20-event ledger, chapter-ready threshold met |
+| v1.3 Australia federal comparator | ✅ **COMPLETE** | 18-event federal-only ledger, AHPPC + National Cabinet |
+| v1.4 Bounded pandemic-governance closure | ✅ **COMPLETE** | 76-event 3-case synthesis, rival-framework positioning |
+| v1.5 Analysis-ready tooling | **ACTIVE** | Structured exports, enhanced validators |
+| v1.6 Research-ops tooling | pending | Maintenance helpers (post-pain) |
 
 ## Live execution rule
 
 Do now:
 
 - stop major boundary rewriting
-- trust the current control layer unless Taiwan evidence forces revision
-- treat `v1.2` Taiwan completion as the active workstream
-- treat everything else as subordinate to Taiwan chapter readiness
+- trust the current three-case synthesis
+- treat `v1.5` analysis-ready tooling as the active workstream
+- keep tooling read-only posture (docs canonical, tools validate)
 
-Do next:
+### v1.5 tooling scope (analysis-ready)
 
-- complete the Taiwan chapter-readiness pass in bounded form
-- run minimum challenge tooling in parallel so live claims keep explicit inferential pressure during Taiwan work
+- **Structured exports:** JSON/CSV route and comparison data for external analysis
+- **Enhanced validators:** Cross-case consistency checks, ledger integrity, metric companions
+- **Export surfaces:** Human- and machine-readable evidence organization
 
-### Taiwan chapter-ready threshold (all required)
+### v1.5 exit criteria
 
-- 20+ events in Taiwan event ledger
-- Lag subsection or explicit lag-limit section in route docs
-- Evidence map aligned to monograph TOC
-- No high-priority source candidates unresolved in discovery queue
+- [ ] Route export validates against current 76-event corpus
+- [ ] Comparison export includes all three cases with metadata
+- [ ] Metric companions auto-generated from ledger
+- [ ] Validator coverage extended to cross-case patterns
 
-### Execution cap
+Do not spend current work on:
 
-- **Week 4 checkpoint (2026-05-15):** Assess 50% progress toward threshold
-- **8-week cap (2026-06-12):** If threshold not met, escalate to "cap vs. continue" decision
-- **Australia source risk check at week 4:** If critical Australia sources at risk, consider bounded parallel opening
-
-Do after that:
-
-- open Australia in tightly bounded federal comparator form
-- deepen claim-trace and interpretive-pressure tooling only as needed to keep pace with the comparator work
-
-Do after that:
-
-- build bounded three-case pandemic-governance closure
-- make the repo monograph-grade
-
-Only then:
-
-- open broader analysis-ready tooling
-- open research-ops tooling
-- reopen optional frontier branches
+- further public boundary rewrites not forced by tooling needs
+- optional atlas growth
+- v1.6 research-ops work before v1.5 analysis-ready is validated
+- frontier branches of any kind
 
 ## Operational interpretation
 
-The main constraint is now sequencing, not conceptual survival.
+The main constraint is now **tooling correctness**, not empirical expansion.
 
-Current public surfaces already provide:
+Current public surfaces provide:
 
-- a bounded release frame
-- a stable New Zealand monograph-baseline core
-- a bounded Taiwan comparator strong enough to justify an active chapter-readiness pass
-- a read-only control and validation layer strong enough to prevent silent drift
+- a bounded v1.2.0 release frame
+- a stable New Zealand monograph-baseline core (38 events)
+- a chapter-ready Taiwan comparator (20 events)
+- a bounded Australia federal comparator (18 events)
+- a three-case pandemic-governance synthesis (76 events)
+- a read-only validation layer preventing silent drift
 
-That means later work should not spend its best effort on more front-door or boundary churn unless the Taiwan evidence actually forces a revision. It also means the package should apply bounded interpretive-pressure work now rather than waiting until all harder tooling is deferred to the end of the sequence.
+That means v1.5 work should focus on **export correctness and validator coverage** rather than corpus expansion. Tooling must honor the current empirical base without requiring new data.
+
+## Stale surface warning
+
+`current-execution-order.md` became stale because v1.2-v1.4 completion was not propagated here immediately. This is a documented failure mode. Post-v1.4 tooling stages must include **surface freshness checks** in the definition of "analysis-ready."
 
 ## Non-priority rule
 
 Do not spend current work on:
 
-- further public boundary rewrites that are not forced by new Taiwan evidence
+- further public boundary rewrites that are not forced by tooling needs
 - optional atlas growth
-- closure writing before Taiwan is chapter-ready
-- broad tooling expansion before the comparator sequence is complete
+- v1.6 research-ops before v1.5 analysis-ready validates
+- corpus expansion beyond current 76-event base
 - frontier branches of any kind
+
+## Tooling-stage discipline
+
+v1.5 must explicitly prevent the stale-surface failure mode that persisted here. Include in exit criteria:
+
+- [ ] All status surfaces (this file, project-status.md, pending-inventory.md) synchronized
+- [ ] ROADMAP.md phase markers match actual completion
+- [ ] Automated or manual freshness check documented
 
 ## Status
 

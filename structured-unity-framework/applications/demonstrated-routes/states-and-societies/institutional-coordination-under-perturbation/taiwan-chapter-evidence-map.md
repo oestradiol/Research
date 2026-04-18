@@ -23,10 +23,10 @@ These values are already stable enough for the current Taiwan chapter-facing pas
 
 - seeded events: `20`
 - active `sigma1` units: `6 / 7`
-- active directed edges: `20`
-- weighted cross-cluster edge share: `31 / 52 = 0.60`
-- mean receiving breadth: `3.5`
-- top issuing share: `public-health policy and command = 8 / 20`; `border-control coordination = 8 / 20`
+- active directed edges: `21`
+- weighted cross-cluster edge share: `43 / 73 = 0.59`
+- mean receiving breadth: `3.6`
+- top issuing share: `public-health policy and command = 9 / 20`; `border-control coordination = 9 / 20`
 - public-information receiving share: `20 / 20`
 
 ## Current bottleneck rule

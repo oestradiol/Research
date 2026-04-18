@@ -9,7 +9,7 @@ It remains a bounded comparison only. The Taiwan side is now materially denser t
 ## Comparator objects
 
 - New Zealand baseline: the current `38`-event route with a `29`-event main perturbation interval
-- Taiwan bounded comparator: the current `15`-event archive-clean official seed from `2020-01-20` to `2020-04-23`
+- Taiwan bounded comparator: the current `20`-event archive-clean official seed from `2020-01-20` to `2020-04-23`
 
 ## Why the comparison is still bounded
 
@@ -22,14 +22,14 @@ It remains a bounded comparison only. The Taiwan side is now materially denser t
 
 | Readout | New Zealand baseline | Taiwan bounded comparator | Current comparative signal |
 |---|---|---|---|
-| seeded events | `38` | `15` | Taiwan is now materially denser than the earlier starter, but still thinner than New Zealand |
+| seeded events | `38` | `20` | Taiwan is now materially denser than the earlier starter, but still thinner than New Zealand |
 | active `sigma1` units | `7 / 7` | `6 / 7` | Taiwan still covers most units except a distinct emergency-management layer |
-| active directed edges | `24` | `20` | Taiwan now shows a much wider visible dependency variety than the earlier starter |
-| occupied-edge ratio | `24 / 42 = 0.571` | `20 / 42 = 0.476` | New Zealand is still denser, but Taiwan is no longer a thin pilot graph |
-| weighted cross-cluster routing | `107 / 142 = 0.75` | `31 / 52 = 0.60` | New Zealand remains more cross-cluster routed overall; Taiwan now shows more within-function density in health and border chains |
-| mean receiving breadth | `3.7` | `3.5` | both routes already show multi-unit reach per event |
-| issuing concentration | `strategic executive coordination = 25 / 38` | `public-health policy and command / border-control coordination = 6 / 15 each` | New Zealand remains strongly strategic-hub-centred; Taiwan now splits visible issuing between health and border functions |
-| public-information receiving share | `33 / 38` | `15 / 15` | public-information routing is central in both bounded views |
+| active directed edges | `24` | `21` | Taiwan shows comparable edge variety to New Zealand |
+| occupied-edge ratio | `24 / 42 = 0.571` | `21 / 42 = 0.500` | New Zealand remains denser, but Taiwan is no longer a thin pilot graph |
+| weighted cross-cluster routing | `107 / 142 = 0.75` | `43 / 73 = 0.59` | New Zealand remains more cross-cluster routed overall; Taiwan shows comparable within-function density in health and border chains |
+| mean receiving breadth | `3.7` | `3.6` | both routes show comparable multi-unit reach per event |
+| issuing concentration | `strategic executive coordination = 25 / 38` | `public-health policy and command / border-control coordination = 9 / 20 each` | New Zealand remains strongly strategic-hub-centred; Taiwan splits issuing between health and border functions |
+| public-information receiving share | `33 / 38` | `20 / 20` | public-information coordination receives all events in both routes |
 
 ## Current bounded takeaways
 

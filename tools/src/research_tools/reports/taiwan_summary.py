@@ -65,9 +65,11 @@ def compare_taiwan_summary_to_docs(
     ledger_pi_den_pattern = (
         r"- public-information coordination receives `\d+ / (\d+)` seeded events"
     )
-    ledger_issuer_num_pattern = (
-        r"- issuing concentration: `public-health policy and command` and "
-        r"`border-control coordination` each issue `(\d+) / \d+` seeded events"
+    ledger_health_issuer_num_pattern = (
+        r"- issuing concentration: `public-health policy and command` issues `(\d+) / \d+`"
+    )
+    ledger_border_issuer_num_pattern = (
+        r"`border-control coordination` issues `(\d+) / \d+` seeded events"
     )
     ledger_issuer_den_pattern = (
         r"- issuing concentration: `public-health policy and command` and "
@@ -162,13 +164,19 @@ def compare_taiwan_summary_to_docs(
         (
             "taiwan-ledger-top-issuer-health-num",
             summary.top_issuer_count,
-            _extract_first_int(ledger_issuer_num_pattern, ledger_text),
+            _extract_first_int(ledger_health_issuer_num_pattern, ledger_text),
             ledger_path,
         ),
         (
-            "taiwan-ledger-top-issuer-health-den",
+            "taiwan-ledger-top-issuer-border-num",
+            summary.top_issuer_count,
+            _extract_first_int(ledger_border_issuer_num_pattern, ledger_text),
+            ledger_path,
+        ),
+        (
+            "taiwan-ledger-top-issuer-den",
             summary.event_count,
-            _extract_first_int(ledger_issuer_den_pattern, ledger_text),
+            _extract_first_int(r"issues `\d+ / (\d+)` seeded events", ledger_text),
             ledger_path,
         ),
     ]

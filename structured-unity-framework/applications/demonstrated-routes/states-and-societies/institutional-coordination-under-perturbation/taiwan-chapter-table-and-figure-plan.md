@@ -10,10 +10,10 @@ Canonical values still come from the Markdown route artifacts. This file is only
 
 | Planned table | Current source anchors | Stable values now | Validation expectation |
 |---|---|---|---|
-| Table 1. Taiwan bounded-window snapshot | `taiwan-event-ledger-seed.md` | `15` total events; `6 / 7` active `sigma1` units; `20` active directed edges | route validation |
-| Table 2. Issuing and receiving-unit participation | `taiwan-event-ledger-seed.md` | `public-health policy and command = 6 / 15`; `border-control coordination = 6 / 15`; `public-information coordination = 15 / 15` receiving share | route validation |
+| Table 1. Taiwan bounded-window snapshot | `taiwan-event-ledger-seed.md` | `20` total events; `6 / 7` active `sigma1` units; `21` active directed edges | route validation |
+| Table 2. Issuing and receiving-unit participation | `taiwan-event-ledger-seed.md` | `public-health policy and command = 9 / 20`; `border-control coordination = 9 / 20`; `public-information coordination = 20 / 20` receiving share | route validation |
 | Table 3. Border, support, and compliance routing surfaces | `taiwan-event-ledger-seed.md`; `taiwan-official-corpus-inventory.md` | current chapter-baseline corpus control state | route validation plus human review |
-| Table 4. Bounded NZ-Taiwan comparison snapshot | `first-nz-taiwan-comparison-note.md` | `15` Taiwan events versus `38` New Zealand events; `0.60` weighted cross-cluster share versus `0.75`; `3.5` receiving breadth versus `3.7` | comparison validation plus human review |
+| Table 4. Bounded NZ-Taiwan comparison snapshot | `first-nz-taiwan-comparison-note.md` | `20` Taiwan events versus `38` New Zealand events; `0.59` weighted cross-cluster share versus `0.75`; `3.6` receiving breadth versus `3.7` | comparison validation plus human review |
 | Table 5. Lag and limit statement | `first-nz-taiwan-comparison-note.md`; `taiwan-chapter-boundary-and-corpus.md` | one conservative clean lag pair; explicit lag-limit section required | route validation plus human review |
 
 ## Figures

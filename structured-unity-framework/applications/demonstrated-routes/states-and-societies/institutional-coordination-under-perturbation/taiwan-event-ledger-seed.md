@@ -387,10 +387,10 @@ This event fills the late March gap between March 22 transit suspension and Marc
 
 - total seeded events: `20`
 - active `sigma1` units visible: `6 / 7`
-- active directed edges: `20`
-- weighted cross-cluster edge share: `31 / 52 = 0.60`
-- mean receiving breadth: `3.5`
-- issuing concentration: `public-health policy and command` issues `8 / 20`; `border-control coordination` issues `8 / 20` seeded events
+- active directed edges: `21`
+- weighted cross-cluster edge share: `43 / 73 = 0.59`
+- mean receiving breadth: `3.6`
+- issuing concentration: `public-health policy and command` issues `9 / 20`; `border-control coordination` issues `9 / 20` seeded events
 - public-information coordination receives `20 / 20` seeded events
 
 ## Current limit
