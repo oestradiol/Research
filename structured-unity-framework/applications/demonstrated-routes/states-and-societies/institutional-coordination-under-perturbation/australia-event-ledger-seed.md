@@ -261,108 +261,26 @@ Why it matters:
 
 This event shows National Cabinet coordinating cultural/religious services during acute phase. It adds social-cultural coordination to the ledger, making Australia less purely health/border focused.
 
-### `au-b-013`
-
-- `timestamp_or_date`: `2020-03-17`
-- `issuing_unit`: `public-health policy and command`
-- `receiving_units`: `strategic executive coordination`; `public-information coordination`; `public-service system coordination`
-- `action_type`: AHPPC ANZAC Day guidance for vulnerable population protection and ceremony modifications
-- `dependency_type`: `public-communication dependency`; `information or reporting dependency`
-- `implementation_marker`: `decision announced`
-- `public_information_marker`: `official guidance update`
-- `source_citation`: `src-australia-ahppc-anzac-2020-03-17`
-- `confidence_note`: `high`
-- `scale_tag`: `sigma1`; `sigma2`
-
-Why it matters:
-
-This event shows AHPPC addressing vulnerable population protection through ceremonial guidance. It demonstrates health advisory extending into cultural/commemorative domains, maintaining advisory layer visibility beyond clinical settings.
-
-### `au-b-014`
-
-- `timestamp_or_date`: `2020-04-21`
-- `issuing_unit`: `public-health policy and command`
-- `receiving_units`: `strategic executive coordination`; `public-information coordination`
-- `action_type`: AHPPC health risk management guidance as measures lift and transition planning begins
-- `dependency_type`: `information or reporting dependency`; `public-communication dependency`
-- `implementation_marker`: `implementation clarified`
-- `public_information_marker`: `official guidance update`
-- `source_citation`: `src-australia-ahppc-transition-2020-04-21`
-- `confidence_note`: `high`
-- `scale_tag`: `sigma1`; `sigma2`
-
-Why it matters:
-
-This event captures the transition-phase advisory role. It shows AHPPC guidance continuing as restrictions ease, maintaining health advisory layer through the acute-to-recovery shift rather than disappearing after peak crisis.
-
-### `au-a-015`
-
-- `timestamp_or_date`: `2020-04-24`
-- `issuing_unit`: `strategic executive coordination`
-- `receiving_units`: `border-control coordination`; `public-health policy and command`; `public-information coordination`
-- `action_type`: National Cabinet maritime crew exemption and border logistics coordination for essential shipping
-- `dependency_type`: `directive or authority dependency`; `resource or logistics dependency`; `public-communication dependency`
-- `implementation_marker`: `implementation clarified`
-- `public_information_marker`: `official guidance update`
-- `source_citation`: `src-australia-national-cabinet-maritime-2020-04-24`
-- `confidence_note`: `high`
-- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
-
-Why it matters:
-
-This event shows border logistics coordination beyond passenger restrictions. It demonstrates National Cabinet handling trade/shipping continuity alongside health controls, exposing the economic-security coordination dimension.
-
-### `au-a-016`
-
-- `timestamp_or_date`: `2020-05-15`
-- `issuing_unit`: `strategic executive coordination`
-- `receiving_units`: `public-health policy and command`; `public-service system coordination`; `public-information coordination`
-- `action_type`: National Cabinet May meeting establishing monitoring, testing, and tracing framework for reopening
-- `dependency_type`: `directive or authority dependency`; `information or reporting dependency`; `public-communication dependency`
-- `implementation_marker`: `implementation initiated`
-- `public_information_marker`: `major public briefing`
-- `source_citation`: `src-australia-national-cabinet-may-2020-05-15`
-- `confidence_note`: `high`
-- `scale_tag`: `sigma1`; `sigma2`
-
-Why it matters:
-
-This event marks the systematic reopening framework. It shows National Cabinet shifting from restriction coordination to monitoring infrastructure, demonstrating adaptive coordination architecture through phase transition.
-
-### `au-a-017`
-
-- `timestamp_or_date`: `2020-05-29`
-- `issuing_unit`: `strategic executive coordination`
-- `receiving_units`: `public-health policy and command`; `border-control coordination`; `public-information coordination`; `public-service system coordination`
-- `action_type`: National Cabinet press conference announcing reopening framework and Australia-New Zealand travel bubble exploration
-- `dependency_type`: `directive or authority dependency`; `public-communication dependency`
-- `implementation_marker`: `decision announced`
-- `public_information_marker`: `major public briefing`
-- `source_citation`: `src-australia-national-cabinet-reopening-2020-05-29`
-- `confidence_note`: `high`
-- `scale_tag`: `sigma1`; `sigma2`; `sigma3`
-
-Why it matters:
-
-This event closes the acute window with reopening announcements and international travel bubble exploration. It demonstrates National Cabinet's political coordination extending through the full pandemic governance cycle into recovery planning.
-
 ## Current readout cues
 
-- total seeded events: `18`
+- total seeded events: `13`
 - active `sigma1` units visible: `6 / 7` (missing `enforcement and compliance` in most events)
-- active directed edges: `22`
-- mean receiving breadth: `3.4`
-- issuing concentration: `public-health policy and command` issues `10 / 18`; `strategic executive coordination` issues `8 / 18`
-- public-information coordination receives `18 / 18` seeded events
+- active directed edges: `20`
+- mean receiving breadth: `3.3`
+- issuing concentration: `public-health policy and command` issues `7 / 13`; `strategic executive coordination` issues `6 / 13`
+- public-information coordination receives `13 / 13` seeded events
 
 ## Current limit
 
-The Australia branch has reached **18 events** — meeting the minimum 18-22 target. It shows the distinctive federal structure (AHPPC + National Cabinet) with:
+The Australia branch has **13 verified events** from admitted official corpus. It shows the distinctive federal structure (AHPPC + National Cabinet) with:
 
-- AHPPC health advisory layer: 10 events
-- National Cabinet political coordination: 8 events
+- AHPPC health advisory layer: 7 events
+- National Cabinet political coordination: 6 events
 - 100% public-information coordination receiving coverage
+
+**Gap**: 5 additional events exist in summary but await source discovery and corpus admission:
+- au-b-013, au-b-014, au-a-015, au-a-016, au-a-017 (sources not in official corpus)
 
 ## Status
 
-`federal comparator ledger — 18 events, target met`
+`federal comparator ledger — 13 verified events, 5 pending source discovery`

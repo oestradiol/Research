@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "total_events": 76,
-    "expected_total": 76,
+    "total_events": 71,
+    "expected_total": 71,
     "validation_passed": true,
     "routes": {
       "nz": {
@@ -25,31 +25,31 @@
         "route_name": "Australia",
         "purpose": "",
         "current_status": "federal comparator ledger — under construction",
-        "total_events": 18,
-        "expected_events": 18
+        "total_events": 13,
+        "expected_events": 13
       }
     }
   },
   "cross_case_summary": {
     "issuing_units": {
-      "strategic executive coordination": 35,
-      "public-health policy and command": 19,
+      "strategic executive coordination": 32,
+      "public-health policy and command": 17,
       "enforcement and compliance": 8,
       "public-service system coordination": 1,
       "emergency-management coordination": 4,
       "border-control coordination": 9
     },
     "dependency_types": {
-      "directive or authority dependency": 50,
-      "information or reporting dependency": 39,
-      "public-communication dependency": 61,
-      "resource or logistics dependency": 19,
+      "directive or authority dependency": 47,
+      "information or reporting dependency": 36,
+      "public-communication dependency": 56,
+      "resource or logistics dependency": 18,
       "legal or compliance dependency": 36
     },
     "scale_tags": {
-      "sigma1": 76,
-      "sigma2": 76,
-      "sigma3": 60
+      "sigma1": 71,
+      "sigma2": 71,
+      "sigma3": 58
     }
   },
   "routes": {
@@ -1564,8 +1564,8 @@
         "route_name": "Australia",
         "purpose": "",
         "current_status": "federal comparator ledger — under construction",
-        "total_events": 18,
-        "expected_events": 18
+        "total_events": 13,
+        "expected_events": 13
       },
       "events": [
         {
@@ -1873,125 +1873,6 @@
           "scale_tag": [
             "sigma1",
             "sigma2"
-          ]
-        },
-        {
-          "event_id": "au-b-013",
-          "timestamp_or_date": "2020-03-17",
-          "issuing_unit": "public-health policy and command",
-          "receiving_units": [
-            "strategic executive coordination",
-            "public-information coordination",
-            "public-service system coordination"
-          ],
-          "action_type": "AHPPC ANZAC Day guidance for vulnerable population protection and ceremony modifications",
-          "dependency_type": [
-            "public-communication dependency",
-            "information or reporting dependency"
-          ],
-          "implementation_marker": "decision announced",
-          "public_information_marker": "official guidance update",
-          "source_citation": "`src-australia-ahppc-anzac-2020-03-17`",
-          "confidence_note": "high",
-          "scale_tag": [
-            "sigma1",
-            "sigma2"
-          ]
-        },
-        {
-          "event_id": "au-b-014",
-          "timestamp_or_date": "2020-04-21",
-          "issuing_unit": "public-health policy and command",
-          "receiving_units": [
-            "strategic executive coordination",
-            "public-information coordination"
-          ],
-          "action_type": "AHPPC health risk management guidance as measures lift and transition planning begins",
-          "dependency_type": [
-            "information or reporting dependency",
-            "public-communication dependency"
-          ],
-          "implementation_marker": "implementation clarified",
-          "public_information_marker": "official guidance update",
-          "source_citation": "`src-australia-ahppc-transition-2020-04-21`",
-          "confidence_note": "high",
-          "scale_tag": [
-            "sigma1",
-            "sigma2"
-          ]
-        },
-        {
-          "event_id": "au-a-015",
-          "timestamp_or_date": "2020-04-24",
-          "issuing_unit": "strategic executive coordination",
-          "receiving_units": [
-            "border-control coordination",
-            "public-health policy and command",
-            "public-information coordination"
-          ],
-          "action_type": "National Cabinet maritime crew exemption and border logistics coordination for essential shipping",
-          "dependency_type": [
-            "directive or authority dependency",
-            "resource or logistics dependency",
-            "public-communication dependency"
-          ],
-          "implementation_marker": "implementation clarified",
-          "public_information_marker": "official guidance update",
-          "source_citation": "`src-australia-national-cabinet-maritime-2020-04-24`",
-          "confidence_note": "high",
-          "scale_tag": [
-            "sigma1",
-            "sigma2",
-            "sigma3"
-          ]
-        },
-        {
-          "event_id": "au-a-016",
-          "timestamp_or_date": "2020-05-15",
-          "issuing_unit": "strategic executive coordination",
-          "receiving_units": [
-            "public-health policy and command",
-            "public-service system coordination",
-            "public-information coordination"
-          ],
-          "action_type": "National Cabinet May meeting establishing monitoring, testing, and tracing framework for reopening",
-          "dependency_type": [
-            "directive or authority dependency",
-            "information or reporting dependency",
-            "public-communication dependency"
-          ],
-          "implementation_marker": "implementation initiated",
-          "public_information_marker": "major public briefing",
-          "source_citation": "`src-australia-national-cabinet-may-2020-05-15`",
-          "confidence_note": "high",
-          "scale_tag": [
-            "sigma1",
-            "sigma2"
-          ]
-        },
-        {
-          "event_id": "au-a-017",
-          "timestamp_or_date": "2020-05-29",
-          "issuing_unit": "strategic executive coordination",
-          "receiving_units": [
-            "public-health policy and command",
-            "border-control coordination",
-            "public-information coordination",
-            "public-service system coordination"
-          ],
-          "action_type": "National Cabinet press conference announcing reopening framework and Australia-New Zealand travel bubble exploration",
-          "dependency_type": [
-            "directive or authority dependency",
-            "public-communication dependency"
-          ],
-          "implementation_marker": "decision announced",
-          "public_information_marker": "major public briefing",
-          "source_citation": "`src-australia-national-cabinet-reopening-2020-05-29`",
-          "confidence_note": "high",
-          "scale_tag": [
-            "sigma1",
-            "sigma2",
-            "sigma3"
           ]
         }
       ],

@@ -53,7 +53,7 @@ Do now:
 
 ### v1.5 exit criteria
 
-- [x] Route export validates against current 76-event corpus → `tools/exports/ledger-to-json.py --corpus`
+- [x] Route export validates against current 71-event verified corpus → `tools/exports/ledger-to-json.py --corpus`
 - [x] Comparison export includes all three cases with metadata → `tools/exports/corpus.json` with cross-case summaries
 - [x] Metric companions auto-generated from ledger → `tools/generators/generate-metric-companions.py`
 - [x] Validator coverage extended to cross-case patterns → `tools/validators/validate-closure-note.py`

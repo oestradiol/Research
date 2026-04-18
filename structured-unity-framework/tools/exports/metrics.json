@@ -106,22 +106,22 @@
         "participation_breadth": 0.8571428571428571,
         "cross_cluster_edges_unique": 7,
         "cross_cluster_edges_total": 9,
-        "cross_cluster_ratio": 0.8431372549019608,
+        "cross_cluster_ratio": 0.8333333333333334,
         "issuing_concentration": {
-          "public-health policy and command": 10,
-          "strategic executive coordination": 8
+          "public-health policy and command": 8,
+          "strategic executive coordination": 5
         },
         "hub_issuer": "public-health policy and command",
-        "hub_issuer_count": 10
+        "hub_issuer_count": 8
       },
       "C": {
-        "total_events": 18,
+        "total_events": 13,
         "events_with_implementation_observed": 1,
-        "events_with_decision_announced": 7,
-        "implementation_ratio": 0.05555555555555555,
-        "temporal_span_days": 114,
+        "events_with_decision_announced": 5,
+        "implementation_ratio": 0.07692307692307693,
+        "temporal_span_days": 99,
         "first_event_date": "2020-02-05",
-        "last_event_date": "2020-05-29"
+        "last_event_date": "2020-05-14"
       },
       "L": {
         "lag_pairs_identified": 0,
@@ -129,9 +129,9 @@
         "notes": "Lag measurement requires manual event pair identification (announcement → implementation)"
       },
       "U": {
-        "integration_continuity_product": 0.016666666666666666,
+        "integration_continuity_product": 0.023076923076923078,
         "cross_case_comparability": true,
-        "notes": "Unity-like organization proxy = I_ratio(0.300) * C_ratio(0.056) = 0.017"
+        "notes": "Unity-like organization proxy = I_ratio(0.300) * C_ratio(0.077) = 0.023"
       }
     }
   }

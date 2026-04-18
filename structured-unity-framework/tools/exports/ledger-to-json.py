@@ -88,12 +88,13 @@ class ParsedLedger:
 
 
 # Expected event counts per route (v1.5 verified corpus)
+# NOTE: Australia has 13 verified events (5 additional events removed - sources unverified)
 CORPUS_SPEC = {
     'nz': {'expected': 38, 'file': 'event-ledger-seed.md', 'name': 'New Zealand'},
     'tw': {'expected': 20, 'file': 'taiwan-event-ledger-seed.md', 'name': 'Taiwan'},
-    'au': {'expected': 18, 'file': 'australia-event-ledger-seed.md', 'name': 'Australia'},
+    'au': {'expected': 13, 'file': 'australia-event-ledger-seed.md', 'name': 'Australia'},
 }
-TOTAL_CORPUS_EVENTS = 76  # Verified (38 + 20 + 18)
+TOTAL_CORPUS_EVENTS = 71  # Verified (38 + 20 + 13)
 
 
 def parse_event_section(section_text: str, event_id: str) -> LedgerEvent:
