@@ -1,11 +1,11 @@
 # Agent Handoff Packet
 
 **Generated**: 2026-04-18
-**Corpus**: R@{76-event corpus} B[Research] T[v1.6-research-ops]
+**Corpus**: R@{71-event verified corpus} B[Research] T[v1.6-research-ops]
 
 ## Objective (OBJ)
 
-Complete v1.6 research-ops tooling for 76-event monograph-grade repo
+Complete v1.6 research-ops tooling for 71-event verified monograph-grade repo
 
 ### Success Criteria
 
@@ -22,8 +22,8 @@ Complete v1.6 research-ops tooling for 76-event monograph-grade repo
 
 ## Completed Work (D+)
 
-- v1.5 analysis-ready tooling: 76-event corpus exports and validators
-- Australia ledger: 18 events detailed (was 13, added 5)
+- v1.5 analysis-ready tooling: 71-event verified corpus exports and validators
+- Australia ledger: 13 verified events (5 additional removed due to unverified sources)
 - I/C/L/U metric companions auto-generated
 - Cross-case pattern validation operational
 
@@ -31,6 +31,7 @@ Complete v1.6 research-ops tooling for 76-event monograph-grade repo
 
 - Implementation-observed marker counts differ from closure note prose
 - Archive link decay not actively monitored (needs v1.7)
+- 5 Australia events pending source discovery (au-b-013, au-b-014, au-a-015, au-a-016, au-a-017)
 
 ## Next Steps (N>)
 
