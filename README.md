@@ -11,7 +11,7 @@ Use `START_HERE.md` for the governed repository front door.
 
 Hosted snapshot: **`v1.5.0`** dated **2026-04-18**.
 
-Current `main` state: aligned with the hosted `v1.5.0` release.
+Current `main` state: aligned with the hosted `v1.5.0` New Zealand monograph-baseline release.
 
 This root README is a routing surface, not the canonical long-form state surface for SUF.
 Use the SUF package for current academic posture, sequence, boundaries, evidence status, and reviewer-facing claims:

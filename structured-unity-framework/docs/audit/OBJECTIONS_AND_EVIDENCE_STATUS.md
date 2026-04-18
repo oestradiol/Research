@@ -36,13 +36,13 @@ For each objection below, the package keeps four things explicit:
 - **Current answer:** substantially accepted; IA is presented as a bounded modeling and bridge vocabulary, not a finished technical theory.
 - **Current evidence status:** explicitly handled.
 - **Unresolved remainder:** stronger technical formalization would still be needed before IA could carry more explanatory burden.
-- **Primary surfaces:** `framework/ia-downstream-role.md`, `framework/Informational Awareness.md`, `framework/framework-interface.md`
+- **Primary surfaces:** `framework/ia-downstream-role.md`, `framework/informational-awareness-framework.md`, `framework/framework-interface.md`
 
 ### 3. “UD still does not show objective measurement or strong predictive closure.”
 - **Current answer:** the package says UD is technical-facing but still route-local, judgment-laden, and not a closed predictive theory.
 - **Current evidence status:** explicitly handled.
 - **Unresolved remainder:** route-local metrics and sensitivity work do not settle cross-domain measurement or strong predictive closure.
-- **Primary surfaces:** `framework/Unity Dynamics.md`, `framework/research-program.md`, `docs/claims-and-boundaries.md`
+- **Primary surfaces:** `framework/unity-dynamics-framework.md`, `framework/research-program.md`, `docs/claims-and-boundaries.md`
 
 ### 4. “This anthropomorphizes states.”
 - **Current answer:** the package distinguishes unity-like organization from strong consciousness attribution and blocks silent anthropomorphic inflation.

@@ -242,10 +242,8 @@ Render at commit time or CI time.
 
 ## Related Documentation
 
-- `Internal/.handoff/2026-04-18-devils-advocate-soundness-critique.md` — validation limitations
 - `Research/tools/docs/validation-policy.md` — current validation scope
 - `Research/structured-unity-framework/docs/current-execution-order.md` — "Tooling-stage discipline" section
-- `Internal/.windsurf/workflows/prepare-handoff.md` — staleness sweep integration
 
 ---
 

@@ -30,7 +30,7 @@ Careful uses of subjectivity-like or higher-order agency language may appear as 
 
 ## 5. What remains open
 
-See `project-status.md`, `pending-inventory.md`, `argument/CONTRIBUTION_AND_POSITIONING.md`, `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`, `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`, `../framework/research-program.md`, and `../framework/ia-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper measurement pressure, and later deferred expansion beyond the active public core.
+See `project-status.md`, `pending-inventory.md`, `argument/CONTRIBUTION_AND_POSITIONING.md`, `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`, `../framework/research-program.md`, and `../framework/ia-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper measurement pressure, and later deferred expansion beyond the active public core.
 
 ### 5.1 Strongest unresolved objections
 
