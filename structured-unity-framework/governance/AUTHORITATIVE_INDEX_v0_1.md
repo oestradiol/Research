@@ -1,6 +1,12 @@
-# AUTHORITATIVE INDEX v0.3.0
+# AUTHORITATIVE INDEX
 
 This file tells you which SUF package surfaces are live and which ones are merely supportive.
+
+## Versioning convention
+
+The `_v0_1` suffix on files in this directory is the **governance-scheme version**, not a content version. The SUF-local governance scheme is stable at v0.1 by design; it does **not** follow the umbrella's v0.1 → v0.2 compression migration, because this subsystem is small enough that the compressed umbrella scheme (5 files replacing 13) does not pay for itself here. Individual files in this directory track their own content versions internally (see `registry_version` / `version` fields in the JSON files).
+
+If future growth justifies it, SUF may adopt the umbrella v0.2 scheme; until then, `_v0_1` is **current, not deprecated**.
 
 ## Current truth
 
@@ -33,4 +39,4 @@ See root `governance/CURRENT_SURFACES_REGISTRY_v0_1.json` for canonical list. Ke
 - `../docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md`
 
 ## Rule
-If a file is not listed as live here or marked current in the SUF `CURRENT_SURFACES_REGISTRY_v0_1.json`, do not treat it as the present-tense package truth surface. Note: Root repository governance has migrated to v0.2; SUF-local governance remains v0.1 until migration.
+If a file is not listed as live here or marked current in the SUF `CURRENT_SURFACES_REGISTRY_v0_1.json`, do not treat it as the present-tense package truth surface. The `_v0_1` governance-scheme suffix is **current by design** at this subsystem scope (see **Versioning convention** above); it is not a deprecation marker.
