@@ -23,15 +23,11 @@ Use this file only when a concrete objection, audience, or frontier question dem
 - [src-malone-crowston-coordination-1994](source-registry.md#src-malone-crowston-coordination-1994) - dependency management across activities.
 - [src-boin-politics-crisis-management-2017](source-registry.md#src-boin-politics-crisis-management-2017) - crisis coordination under pressure.
 
-## 5. Quantum-relational frontier depth
+## 5. Archived sources
 
-- [src-google-willow-chip-2024](source-registry.md#src-google-willow-chip-2024) - direct public announcement for the Willow benchmark and the many-worlds-style hype translation problem.
-- [src-google-constructive-interference-2025](source-registry.md#src-google-constructive-interference-2025) - primary result on many-body constructive interference and quantum ergodicity.
-- [src-landauer-physical-nature-information-1996](source-registry.md#src-landauer-physical-nature-information-1996) - disciplined anchor for the "information is physical" bridge.
-- [src-sep-relational-quantum-mechanics-2025](source-registry.md#src-sep-relational-quantum-mechanics-2025) - relation-first interpretation background.
-- [src-sep-quantum-mechanics-2025](source-registry.md#src-sep-quantum-mechanics-2025) - interpretation caution and non-uniqueness reminder.
-- [src-ferrante-adversarial-consciousness-theories-2025](source-registry.md#src-ferrante-adversarial-consciousness-theories-2025) - current consciousness-theory testing baseline.
-- [src-garisto-quantum-echoes-willow-2025](source-registry.md#src-garisto-quantum-echoes-willow-2025) - intuition aid only for explaining echoes and scrambling in public-facing prose.
+- [src-google-willow-chip-2024](source-registry.md#src-google-willow-chip-2024) — archived
+- [src-google-constructive-interference-2025](source-registry.md#src-google-constructive-interference-2025) — archived
+- [src-ferrante-adversarial-consciousness-theories-2025](source-registry.md#src-ferrante-adversarial-consciousness-theories-2025) — archived
 
 ## 6. AI-language and frontier depth
 

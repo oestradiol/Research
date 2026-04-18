@@ -1,1741 +1,1321 @@
 {
-  "version": "0.4.0",
-  "scope_prefix": "",
-  "live_files": [
-    "README.md",
-    "START_HERE.md",
-    "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-    "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-    "governance/AUTHORITATIVE_INDEX_v0_1.md",
-    "governance/AUTHORITATIVE_SOURCES_v0_1.json",
-    "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-    "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-    "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
-    "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-    "governance/REPOSITORY_EDIT_BASELINE_v0_1.json",
-    "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
-    "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-    "structured-unity-framework/START_HERE.md",
-    "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
-    "knowledge/README.md",
-    "tools/README.md",
-    "using-this-research-with-human-assistants-and-reasoning-agents.md"
-  ],
+  "version": "0.1.0",
   "files": [
     {
       "path": ".gitignore",
-      "category": ".gitignore",
-      "extension": "[none]"
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e"
     },
     {
       "path": "CHANGELOG.md",
-      "category": "CHANGELOG.md",
-      "extension": ".md"
+      "sha256": "a907bdce7ecbfe09fc2c5556a4d9551d1f8996d7d329541a27379d374f5bacd5"
     },
     {
       "path": "CITATION.cff",
-      "category": "CITATION.cff",
-      "extension": ".cff"
+      "sha256": "1daf2f14f562d5751b3c330a0fa99f56033463c1c8ad8bbb20af5ba142fb9fc6"
     },
     {
       "path": "LICENSE",
-      "category": "LICENSE",
-      "extension": "[none]"
+      "sha256": "d805ff9c20563fedbc0f5335d1393ad74e0b3beef9023c54be5b8185cf1ae2f8"
     },
     {
       "path": "README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "8fe0499260ded51022d0eef9ff28ec077ded1ff5c37fe339c75d4847569b235f"
     },
     {
       "path": "START_HERE.md",
-      "category": "START_HERE.md",
-      "extension": ".md"
+      "sha256": "6d2db813593777fb5d3f3010cd0396763240218c97a40b416b1f6e8d4a2d261b"
     },
     {
       "path": "authoritative_guard.py",
-      "category": "authoritative_guard.py",
-      "extension": ".py"
+      "sha256": "d79cbe2430bed9ef89fe3da23850868a751f6c29e740fc718d964edd81a95890"
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "category": "CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "extension": ".md"
+      "sha256": "00d363fbd3cff8b56b1611020cbfa92ae8202dcb769b6489aacc86d06da62b52"
     },
     {
       "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "category": "PROJECT_PURPOSE_AND_USE_CASES.md",
-      "extension": ".md"
+      "sha256": "3d65bc884f16c465e062abd7956e6532ea525ecb0f41fcc238d975f3cd8e42a1"
     },
     {
       "path": "docs/ops/RELEASE_CHECKLIST_v0_1.md",
-      "category": "RELEASE_CHECKLIST_v0_1.md",
-      "extension": ".md"
+      "sha256": "6133967a14a1c25235b89a2110af878a6bda26c4f8e71beab289f3110c4c8590"
     },
     {
       "path": "governance/AGENT_EDIT_SCOPE_POLICY_v0_1.json",
-      "category": "AGENT_EDIT_SCOPE_POLICY_v0_1.json",
-      "extension": ".json"
+      "sha256": "320e29acb10671609d0a19e4124765ae5aeb6e261807140fe6dc6e44f3aafeaf"
     },
     {
       "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "category": "AUTHORITATIVE_INDEX_v0_1.md",
-      "extension": ".md"
+      "sha256": "71cf2677d2c4cecf8fa182ee47879b275574faf73d00decbbe42aa58cee9c1ae"
     },
     {
       "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-      "category": "AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-      "extension": ".json"
+      "sha256": "855aa4db53ec46e5dabc789549049061c50fafb35c16bb184533654727e9e451"
     },
     {
       "path": "governance/AUTHORITATIVE_SOURCES_v0_1.json",
-      "category": "AUTHORITATIVE_SOURCES_v0_1.json",
-      "extension": ".json"
+      "sha256": "591938b2597c1e7b849798b4908da5cf1788cebe423cf14adb397b4aaac84697"
     },
     {
       "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "category": "CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "extension": ".json"
+      "sha256": "7bc4b05a13c43a85eb2115dd6f5371a97fadb88151352aa70ede9fefd133c59d"
     },
     {
       "path": "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "category": "CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "extension": ".json"
-    },
-    {
-      "path": "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
-      "category": "FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
-      "extension": ".md"
+      "sha256": "b6ab12cb0d0b7af61c4a0088d92e58af8ae0c9348f49eadac3ddc01cf954064d"
     },
     {
       "path": "governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "category": "FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "extension": ".json"
-    },
-    {
-      "path": "governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md",
-      "category": "IMPLEMENTATION_LAYER_POLICY_v0_1.md",
-      "extension": ".md"
+      "sha256": "bf74bf589b50e8a67341360406aa02a9823b91f10de6f6d6ec5a129fb58e6b1b"
     },
     {
       "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
-      "category": "PACKAGE_MINIMIZATION_POLICY_v0_1.md",
-      "extension": ".md"
+      "sha256": "d973425d47ff7627c000843ff12ab381576600ccc7903f8a2ab2ff906eff6e53"
     },
     {
       "path": "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
-      "category": "PACKAGE_STATE_SUMMARY_v0_1.json",
-      "extension": ".json"
-    },
-    {
-      "path": "governance/REPOSITORY_EDIT_BASELINE_v0_1.json",
-      "category": "REPOSITORY_EDIT_BASELINE_v0_1.json",
-      "extension": ".json"
+      "sha256": "e61637cd81d23bd325fc229ec6a2a4022b396440622e100f046c86b4f21c856b"
     },
     {
       "path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "category": "REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "extension": ".json"
+      "sha256": "50edf107ef42d12c5bcc78ff9343d13a9c1962e7402307b7621b061c4dc683d3"
     },
     {
       "path": "governance/ROOT_ALLOWLIST_v0_1.json",
-      "category": "ROOT_ALLOWLIST_v0_1.json",
-      "extension": ".json"
-    },
-    {
-      "path": "governance/SUBSYSTEM_REGISTRY_v0_1.json",
-      "category": "SUBSYSTEM_REGISTRY_v0_1.json",
-      "extension": ".json"
+      "sha256": "7312deaa58f471fd85b3444cdd7d3ac9b2903bc516c5f1a947e57e9460ea6830"
     },
     {
       "path": "knowledge/.gitignore",
-      "category": ".gitignore",
-      "extension": "[none]"
+      "sha256": "6e12230ecb81ee4f5238aa95aa083d6490b65f9e3ab750269126303cdf090795"
     },
     {
       "path": "knowledge/CHANGELOG.md",
-      "category": "CHANGELOG.md",
-      "extension": ".md"
+      "sha256": "48345a58f01abcb1b62b45b39667a5de9a8671abff96384aceb1566dd6efe825"
     },
     {
       "path": "knowledge/CITATION.cff",
-      "category": "CITATION.cff",
-      "extension": ".cff"
+      "sha256": "1e0c865b73f45fa9e0fdb4328511521be0819a4aed69654c28cda1591d3da653"
     },
     {
       "path": "knowledge/CONTRIBUTING.md",
-      "category": "CONTRIBUTING.md",
-      "extension": ".md"
+      "sha256": "ca939cd01df78e5b08f04710c7c6a31f1de063aa68a14634d70a08bec910e027"
     },
     {
       "path": "knowledge/LICENSE",
-      "category": "LICENSE",
-      "extension": "[none]"
+      "sha256": "42813ddd7103bc361ed8bd35b2e2bbaa09d5f8ef918b9f5be8ab11f9727801d1"
     },
     {
       "path": "knowledge/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "7736b3ca19dfd8b5cd4030bc3befd013991744140ce7c4334cff930b5f289353"
     },
     {
       "path": "knowledge/_indexes/cluster-index.md",
-      "category": "cluster-index.md",
-      "extension": ".md"
+      "sha256": "9b67dc22b241b93aa5c324130f5ec330f3e64e5af05525927b0f335bb4c9052e"
     },
     {
       "path": "knowledge/_indexes/knowledge-index.md",
-      "category": "knowledge-index.md",
-      "extension": ".md"
+      "sha256": "d8b4bafe501b23f2a20516b321ba08535b4f6eae58542da23aec5663d7c6aa38"
     },
     {
       "path": "knowledge/_indexes/node-index.md",
-      "category": "node-index.md",
-      "extension": ".md"
+      "sha256": "a88b62200fc98f2a9f7943edeea0ca2bf52295fbbd9af6c14c1c159d1947f849"
     },
     {
       "path": "knowledge/_indexes/relation-tags-index.md",
-      "category": "relation-tags-index.md",
-      "extension": ".md"
+      "sha256": "d11d026a95a1a9483a805aa946d9651823d6f35185b483235cf42ea3ecb816fa"
     },
     {
       "path": "knowledge/_indexes/study-routes-index.md",
-      "category": "study-routes-index.md",
-      "extension": ".md"
+      "sha256": "e55dc667976fc818b082940a4ef17c2fc69ed0de40a42b3bfd966de3beb563e0"
     },
     {
       "path": "knowledge/_relations/constrains.md",
-      "category": "constrains.md",
-      "extension": ".md"
+      "sha256": "5c78e97ed5790a4ffe7f34c944a283daa0711b5547e846b606ce4dd300bc7fcd"
     },
     {
       "path": "knowledge/_relations/emerges-from.md",
-      "category": "emerges-from.md",
-      "extension": ".md"
+      "sha256": "57406eafeb68de5b8fb56f0b8f3716254f50c44d8c7b485e91cbee4e77b7999b"
     },
     {
       "path": "knowledge/_relations/feeds-back.md",
-      "category": "feeds-back.md",
-      "extension": ".md"
+      "sha256": "f40ed2f0d25a5ac15f3fcb45dd7f9030d8617aa3462270ca01d79374bb728dc7"
     },
     {
       "path": "knowledge/_relations/formalizes.md",
-      "category": "formalizes.md",
-      "extension": ".md"
+      "sha256": "b77727de779a8465615be362b39583fb80042bd5c8db20857279796845d4d996"
     },
     {
       "path": "knowledge/_relations/grounds.md",
-      "category": "grounds.md",
-      "extension": ".md"
+      "sha256": "67637bf965ea138341ee273d4d7964e4b3ca5b72066273ee4bad1d2a654d32ca"
     },
     {
       "path": "knowledge/_relations/implements.md",
-      "category": "implements.md",
-      "extension": ".md"
+      "sha256": "9b83224a7ab60bde311b6e992747c75e2135cb5626ff06a7bf98461f5019c431"
     },
     {
       "path": "knowledge/_relations/interprets.md",
-      "category": "interprets.md",
-      "extension": ".md"
+      "sha256": "78f230cb6ff2e7086dc2aac2112ff686dfe06d4f4232f3749e6387a953b7ee45"
     },
     {
       "path": "knowledge/_relations/requires.md",
-      "category": "requires.md",
-      "extension": ".md"
+      "sha256": "80eba536d890a709485f52eeb52ac9cffdafa1495619bbd5a1d097e3cffde3a1"
     },
     {
       "path": "knowledge/_relations/scaffolds.md",
-      "category": "scaffolds.md",
-      "extension": ".md"
+      "sha256": "7e8bad934c40509355b44cf1c20dad9d2a8ee5c75424854107e32456055b1142"
     },
     {
       "path": "knowledge/_relations/supports.md",
-      "category": "supports.md",
-      "extension": ".md"
+      "sha256": "26e6fbf1ea0d814b27d07bde0af9fc2588f674fd583f1b733bf4b05f7f17f9e8"
     },
     {
       "path": "knowledge/_templates/cluster-template.md",
-      "category": "cluster-template.md",
-      "extension": ".md"
+      "sha256": "1821c17e759cd5e85cf66805792a9c2c7964a86df6d238f5008bcd3c0fdbc36b"
     },
     {
       "path": "knowledge/_templates/domain-template.md",
-      "category": "domain-template.md",
-      "extension": ".md"
+      "sha256": "24fb20e7c279022d9415d57fbebac3dbec8cdae2b730e794675276f32b200d55"
     },
     {
       "path": "knowledge/_templates/study-route-template.md",
-      "category": "study-route-template.md",
-      "extension": ".md"
+      "sha256": "6743a3b81ca15edfd45720205c34299d089fcf758fcb118c45888f772bf1882d"
     },
     {
       "path": "knowledge/_templates/subdomain-template.md",
-      "category": "subdomain-template.md",
-      "extension": ".md"
+      "sha256": "84a2845a8d736034cad30c226cd0125cb1eea28a45b71d83ce42b4384fad8208"
     },
     {
       "path": "knowledge/knowledge-package-spec.md",
-      "category": "knowledge-package-spec.md",
-      "extension": ".md"
+      "sha256": "b082561adef97cf678d34956da4b8e10e24d7c05b3c37bb9df7448477a7b5549"
     },
     {
       "path": "knowledge/map/00-meta-foundations/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "d95b47b8744247f5ba4ed293dcb76804af209ec27006d653cb2c2b40ed4dd06d"
     },
     {
       "path": "knowledge/map/00-meta-foundations/epistemology.md",
-      "category": "epistemology.md",
-      "extension": ".md"
+      "sha256": "cd127dc9500ce7cb5aace4b109d7f9dfcb8841c21597c4300ba6399633ee6e35"
     },
     {
       "path": "knowledge/map/00-meta-foundations/ethics.md",
-      "category": "ethics.md",
-      "extension": ".md"
+      "sha256": "36749f3c75fad97079f3f3915113ac7ba37b42a6a79cdfdd23f689a531ffcd7e"
     },
     {
       "path": "knowledge/map/00-meta-foundations/history-and-sociology-of-knowledge.md",
-      "category": "history-and-sociology-of-knowledge.md",
-      "extension": ".md"
+      "sha256": "c4564e72f2ac06bf1545b4b7e3d973e8d9e2341fa40e2242e119fc037178cae5"
     },
     {
       "path": "knowledge/map/00-meta-foundations/logic.md",
-      "category": "logic.md",
-      "extension": ".md"
+      "sha256": "4299b5907b67d71660449d2ba134ad06d60a56acac1b982d2523848be3396654"
     },
     {
       "path": "knowledge/map/00-meta-foundations/metaphysics-and-ontology.md",
-      "category": "metaphysics-and-ontology.md",
-      "extension": ".md"
+      "sha256": "c1402fecd6fcc5427111161a704af6bcd7755b7d8f998a527c987729c7bec771"
     },
     {
       "path": "knowledge/map/00-meta-foundations/phenomenology.md",
-      "category": "phenomenology.md",
-      "extension": ".md"
+      "sha256": "31aae68c5b08ccfe5767f02f6201421f119f607c3a13a9d0d80d4bb1c3637fca"
     },
     {
       "path": "knowledge/map/00-meta-foundations/philosophy-of-language.md",
-      "category": "philosophy-of-language.md",
-      "extension": ".md"
+      "sha256": "0125e133a8ec76bc025923524e14d696915e849e8546102acdf047939d4dc516"
     },
     {
       "path": "knowledge/map/00-meta-foundations/philosophy-of-mind.md",
-      "category": "philosophy-of-mind.md",
-      "extension": ".md"
+      "sha256": "fc2df8299713140d61b7a80c61610cf543d60e06b03f0fa71bd42ff943dbaae7"
     },
     {
       "path": "knowledge/map/00-meta-foundations/philosophy-of-science.md",
-      "category": "philosophy-of-science.md",
-      "extension": ".md"
+      "sha256": "0de98668d7e723f4d8a25bcc727fa63b35a3c0f8b9246d11a3b983ee4bcc5e93"
     },
     {
       "path": "knowledge/map/01-formal-structure/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "2f99d746da97c113472fee97e4d53f0af2455ace2d7f6f9b270bdf5e3085a04a"
     },
     {
       "path": "knowledge/map/01-formal-structure/complexity-science.md",
-      "category": "complexity-science.md",
-      "extension": ".md"
+      "sha256": "fdedf670d4d8351e7864668fd5e3a706d98f3bae15d23f41f7cf898004119d39"
     },
     {
       "path": "knowledge/map/01-formal-structure/computer-science-theory.md",
-      "category": "computer-science-theory.md",
-      "extension": ".md"
+      "sha256": "46534d69187114073e1a15abf8fbe3beb3693aeabeb510c1847a0b67f1ea507a"
     },
     {
       "path": "knowledge/map/01-formal-structure/control-theory.md",
-      "category": "control-theory.md",
-      "extension": ".md"
+      "sha256": "4cfc53bc161b9a30438891078f98bf0f833b573f45610aada417c0d7d3cfa88a"
     },
     {
       "path": "knowledge/map/01-formal-structure/cybernetics.md",
-      "category": "cybernetics.md",
-      "extension": ".md"
+      "sha256": "a91f22ac40b46f6022674a29a3116629a9c3a37a43d23570d5cc06f0983cf1b7"
     },
     {
       "path": "knowledge/map/01-formal-structure/decision-theory.md",
-      "category": "decision-theory.md",
-      "extension": ".md"
+      "sha256": "350b0469bbf496360b00f23241d08a00652ad36353b9365833600a982f8f65b2"
     },
     {
       "path": "knowledge/map/01-formal-structure/dynamical-systems.md",
-      "category": "dynamical-systems.md",
-      "extension": ".md"
+      "sha256": "20317ea6ae1a3bdbb882a8df796327e75b44a9674fef24fbdd7ed8ed32392476"
     },
     {
       "path": "knowledge/map/01-formal-structure/game-theory.md",
-      "category": "game-theory.md",
-      "extension": ".md"
+      "sha256": "e59e26db734060056309e5423cdbee85a197ed822ae40a4822f2fdfafa09b105"
     },
     {
       "path": "knowledge/map/01-formal-structure/information-theory.md",
-      "category": "information-theory.md",
-      "extension": ".md"
+      "sha256": "3e6a86a5fddcfb55b9e45ec4c3548de2651f089525576d57d253f646fb917e1f"
     },
     {
       "path": "knowledge/map/01-formal-structure/mathematics.md",
-      "category": "mathematics.md",
-      "extension": ".md"
+      "sha256": "521d176b0f646a8b215f809afd08b507b197500ef6623deb43f7c8cbeeb89700"
     },
     {
       "path": "knowledge/map/01-formal-structure/measurement-theory-and-metrology.md",
-      "category": "measurement-theory-and-metrology.md",
-      "extension": ".md"
+      "sha256": "7f54249d11012b86c4828f042d37389b4a5429cc665e4940415331c9d78da51d"
     },
     {
       "path": "knowledge/map/01-formal-structure/network-theory.md",
-      "category": "network-theory.md",
-      "extension": ".md"
+      "sha256": "573a172d70a4bd30d39c06cc2611f013a1783159fceec851fa3af90878104abb"
     },
     {
       "path": "knowledge/map/01-formal-structure/probability.md",
-      "category": "probability.md",
-      "extension": ".md"
+      "sha256": "fa190d34c88dc8baac807e773a77c5dcc446fd313fdc41f25c98c8961ae07bcf"
     },
     {
       "path": "knowledge/map/01-formal-structure/statistics.md",
-      "category": "statistics.md",
-      "extension": ".md"
+      "sha256": "cc4361455ef2f6184cb5c5fafb8860c742a6db6188d91c645377ff4c5edadb18"
     },
     {
       "path": "knowledge/map/01-formal-structure/systems-theory.md",
-      "category": "systems-theory.md",
-      "extension": ".md"
+      "sha256": "beee5142f5ac88aeb6c4e52c06db877559df14e70e16be59794c34bafdfce869"
     },
     {
       "path": "knowledge/map/02-physical-sciences/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "9813f8d6280ee4886bfaf104fd0ae4a3189bfb000458cffd2615818992557c16"
     },
     {
       "path": "knowledge/map/02-physical-sciences/astronomy-and-cosmology.md",
-      "category": "astronomy-and-cosmology.md",
-      "extension": ".md"
+      "sha256": "b2c13a7d83a338ccc6e674390a584bcfe161d72555dfc741f7150703dbe7269b"
     },
     {
       "path": "knowledge/map/02-physical-sciences/chemistry.md",
-      "category": "chemistry.md",
-      "extension": ".md"
+      "sha256": "b9a65b3861e8d209acbbde7b853444b45b3b3e299aaa217ee1269f43904c3202"
     },
     {
       "path": "knowledge/map/02-physical-sciences/earth-science.md",
-      "category": "earth-science.md",
-      "extension": ".md"
+      "sha256": "d9ace21d154c9643e35f1116573c0fa8e58df8f9126892d063331727ad5d1ee6"
     },
     {
       "path": "knowledge/map/02-physical-sciences/materials-science.md",
-      "category": "materials-science.md",
-      "extension": ".md"
+      "sha256": "79976e3711cc8b09c696b73e5bf1f82e6ebed899905a3f95acac9a3e04b1b308"
     },
     {
       "path": "knowledge/map/02-physical-sciences/physics.md",
-      "category": "physics.md",
-      "extension": ".md"
+      "sha256": "e651df686731b7eff9ffc7c929e8c03c51b4674753e585dfc1a4514469c2811f"
     },
     {
       "path": "knowledge/map/03-life-sciences/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "42958537ab4342a953b5c6cbda967483f4b0778443efe435acd1919636c9e480"
     },
     {
       "path": "knowledge/map/03-life-sciences/biology.md",
-      "category": "biology.md",
-      "extension": ".md"
+      "sha256": "9a3d54971f6f3b42a8d1f32fbc779388c659af25e1c88c86b0a0b77c9b90fd41"
     },
     {
       "path": "knowledge/map/03-life-sciences/developmental-biology.md",
-      "category": "developmental-biology.md",
-      "extension": ".md"
+      "sha256": "bd7ebc73dca5b9816cdd0891c40e3abc8a912dba3f867fa60f5fb7ba1cdc8965"
     },
     {
       "path": "knowledge/map/03-life-sciences/ecology.md",
-      "category": "ecology.md",
-      "extension": ".md"
+      "sha256": "8f17dd3cc85575f572216f7502a8b6410787b1eaa620d594de4564a957d45829"
     },
     {
       "path": "knowledge/map/03-life-sciences/evolutionary-theory.md",
-      "category": "evolutionary-theory.md",
-      "extension": ".md"
+      "sha256": "1ed535129e8fd383559be8f6c2b6abb69d2da0c083c259ca3f154988be86c7a5"
     },
     {
       "path": "knowledge/map/03-life-sciences/genetics-and-genomics.md",
-      "category": "genetics-and-genomics.md",
-      "extension": ".md"
+      "sha256": "320854cada5dbdb7495f428d6331a6410fcb4c9473cde053ad907349685f4a96"
     },
     {
       "path": "knowledge/map/03-life-sciences/neuroscience.md",
-      "category": "neuroscience.md",
-      "extension": ".md"
+      "sha256": "49e283b36aa45401d3b58742c728a691fedcd4194de6a0751fd139572de0b318"
     },
     {
       "path": "knowledge/map/03-life-sciences/physiology.md",
-      "category": "physiology.md",
-      "extension": ".md"
+      "sha256": "b4136ac62d14ba54ad9bf3cf229023acba8e4e5d52283fcb8a1f804ef6450964"
     },
     {
       "path": "knowledge/map/04-mind-and-behavior/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "3c71616a48a098c5aaefb50f730c6dc9901cc0d394811ebfd9728b767b85602f"
     },
     {
       "path": "knowledge/map/04-mind-and-behavior/behavioral-science.md",
-      "category": "behavioral-science.md",
-      "extension": ".md"
+      "sha256": "19e0f66cd811e76f12d35a0e842c543e03bfb5dda048d238d5e2d75208b72089"
     },
     {
       "path": "knowledge/map/04-mind-and-behavior/cognitive-science.md",
-      "category": "cognitive-science.md",
-      "extension": ".md"
+      "sha256": "18301ef38d39e3e97ff865375c81f21f91381a94781ea447e94128ae441fe224"
     },
     {
       "path": "knowledge/map/04-mind-and-behavior/linguistics.md",
-      "category": "linguistics.md",
-      "extension": ".md"
+      "sha256": "f71e16f7bbfd9293401c302adf2bdb4acd9a7843ca6ac286a9780a559f57f930"
     },
     {
       "path": "knowledge/map/04-mind-and-behavior/psychology.md",
-      "category": "psychology.md",
-      "extension": ".md"
+      "sha256": "316d996e49bf5e47c3ec5a5f23c882226fe6618f891920f739ec40889ca70785"
     },
     {
       "path": "knowledge/map/05-culture-and-history/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "669b28f9da534ee30a917f79942d3fe04ec584b157804cdb521eb99c5cce9512"
     },
     {
       "path": "knowledge/map/05-culture-and-history/anthropology.md",
-      "category": "anthropology.md",
-      "extension": ".md"
+      "sha256": "d79aabb2ad933489ebe39bec7a7c54c89a1df52292d4995eb393cff7263bd98c"
     },
     {
       "path": "knowledge/map/05-culture-and-history/archaeology-and-prehistory.md",
-      "category": "archaeology-and-prehistory.md",
-      "extension": ".md"
+      "sha256": "a886267210e4f7d2f8ea969f57e1df08bec8f532ee5c3c092f7755b7f0901c00"
     },
     {
       "path": "knowledge/map/05-culture-and-history/cultural-studies.md",
-      "category": "cultural-studies.md",
-      "extension": ".md"
+      "sha256": "36a3a5d3cb10366547f0dc5f31c4a6712568d3943a0d9c4044a164e4384cbeda"
     },
     {
       "path": "knowledge/map/05-culture-and-history/history.md",
-      "category": "history.md",
-      "extension": ".md"
+      "sha256": "2b3ac9d77e71db9945efa0e1294a513d3305de2ee6613eb9bf186807548ad14e"
     },
     {
       "path": "knowledge/map/05-culture-and-history/religious-studies.md",
-      "category": "religious-studies.md",
-      "extension": ".md"
+      "sha256": "336ff3dda7148771bf6726be23534bb95d3e39234627b99770ed0d54afc2aa07"
     },
     {
       "path": "knowledge/map/06-social-and-institutional-systems/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "cfccdcc1491f6dbbc529bb546f4eb4f97a098313a6e2bd52d16352c448acb065"
     },
     {
       "path": "knowledge/map/06-social-and-institutional-systems/communication-and-media-studies.md",
-      "category": "communication-and-media-studies.md",
-      "extension": ".md"
+      "sha256": "f7d8e685b6c4831f2674f3e9fdadc5437a6cbe7c04916a4d1eecc47a5511310c"
     },
     {
       "path": "knowledge/map/06-social-and-institutional-systems/economics.md",
-      "category": "economics.md",
-      "extension": ".md"
+      "sha256": "120c401208f2146fd279c5f4fd2b526a574ef8144ce84c9c4d6f1f8c8770102f"
     },
     {
       "path": "knowledge/map/06-social-and-institutional-systems/education.md",
-      "category": "education.md",
-      "extension": ".md"
+      "sha256": "54d077e91a69df398ac87da7c5cf8dfa6584da7ffb50da0e2ca9eff0fdc69f47"
     },
     {
       "path": "knowledge/map/06-social-and-institutional-systems/legal-theory-and-jurisprudence.md",
-      "category": "legal-theory-and-jurisprudence.md",
-      "extension": ".md"
+      "sha256": "4428ab66ecf28225b833fd312deb2490a6c4fa602a30e59da182d55583353db0"
     },
     {
       "path": "knowledge/map/06-social-and-institutional-systems/political-science.md",
-      "category": "political-science.md",
-      "extension": ".md"
+      "sha256": "3e4526cfc1e25651bfa02a0d551a7f6944a3a26808e3688ccaad3cc723630628"
     },
     {
       "path": "knowledge/map/06-social-and-institutional-systems/sociology.md",
-      "category": "sociology.md",
-      "extension": ".md"
+      "sha256": "abe4c2b466456d3a153a88105e6d7d1f9ea7514bf6d59c1fccdeda0b6efff45a"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "e8f92c511f859680d7383447da07949269ca0ffe126c23502a00e5ae9d8ea61b"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/agriculture.md",
-      "category": "agriculture.md",
-      "extension": ".md"
+      "sha256": "7ab95997aa51b35605a67500dc70a3c7d05c8c72bcea60251af21d07aecf9bf7"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/architecture-and-urbanism.md",
-      "category": "architecture-and-urbanism.md",
-      "extension": ".md"
+      "sha256": "3e6bd7a603a2166524611d59ced91d3891fcc2f2800dbb7e979d0e2b5cbecfd1"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/artificial-intelligence-and-machine-learning.md",
-      "category": "artificial-intelligence-and-machine-learning.md",
-      "extension": ".md"
+      "sha256": "43fa662070c42987460b1dd601ce12db9690316028ebb0718f90ec2ce362286e"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/data-science.md",
-      "category": "data-science.md",
-      "extension": ".md"
+      "sha256": "b3036746c8a88e6661ea6eecb9753054c462037b881d69a2a5a3a39b07daaa1a"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/engineering.md",
-      "category": "engineering.md",
-      "extension": ".md"
+      "sha256": "f9ed7c77b623b9981eaec87b350c680f6db8aaf96a6350814642b3c3ef6644c0"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/environmental-studies.md",
-      "category": "environmental-studies.md",
-      "extension": ".md"
+      "sha256": "7a478f3b011be50607cdb4f8603526853bd13ce44a4d1c1c97f4aaff90bfaa31"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/human-computer-interaction.md",
-      "category": "human-computer-interaction.md",
-      "extension": ".md"
+      "sha256": "c12ded9ea7aa5a00caba9113b84984874ef4d3a81b4793540a8fd070c6ae2ca2"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/management-and-organization-studies.md",
-      "category": "management-and-organization-studies.md",
-      "extension": ".md"
+      "sha256": "25050a05b6a52a738ad251886de782c473bdb46a1538b321000506c39c47eeb0"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/medicine.md",
-      "category": "medicine.md",
-      "extension": ".md"
+      "sha256": "f5f31507fad6a6cf88e522f8ba91b7d1f613c6c68beb3bba922105cdc7cea919"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/military-and-strategic-studies.md",
-      "category": "military-and-strategic-studies.md",
-      "extension": ".md"
+      "sha256": "51b8748655a17e1947ad1ac7af4dd21f8f60497d9d8850ce01003a4d9450e442"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/operations-research.md",
-      "category": "operations-research.md",
-      "extension": ".md"
+      "sha256": "4046675bdd7641e48616cc496eec60ea42e1aa66e8c4e2f8463e4fc685ecff9f"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/policy-studies.md",
-      "category": "policy-studies.md",
-      "extension": ".md"
+      "sha256": "387a5990d49de11f9e859fdd0fdca50198b777a63684dd3fc9c0cac920367820"
     },
     {
       "path": "knowledge/map/07-applied-design-and-intervention/public-health.md",
-      "category": "public-health.md",
-      "extension": ".md"
+      "sha256": "6b6b243a04afa6226696135a53d673fa6c3f8e9d6bb789526ee1196a8a07825b"
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "b0db01b8cebd099f1bcf21802988782c8129b65a4d986eab2191a630f8f3f569"
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/comparative-civilizational-studies.md",
-      "category": "comparative-civilizational-studies.md",
-      "extension": ".md"
+      "sha256": "c288bed2394ca5e735a56d0a3197e1560b843d530db0d47899ad00926432a24c"
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/consciousness-studies.md",
-      "category": "consciousness-studies.md",
-      "extension": ".md"
+      "sha256": "0d5229414f73c8205f5d026c429cf202bda2ce1ce8b10a28768ea0aa4011c213"
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/global-studies.md",
-      "category": "global-studies.md",
-      "extension": ".md"
+      "sha256": "0021bb8aed48f65c6a4a79c3b535fbbeea95e9fca088150f22964ed599375023"
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/interdisciplinary-systems-research.md",
-      "category": "interdisciplinary-systems-research.md",
-      "extension": ".md"
-    },
-    {
-      "path": "knowledge/map/08-integrative-and-reflexive/knowledge-engineering-and-agentic-systems.md",
-      "category": "knowledge-engineering-and-agentic-systems.md",
-      "extension": ".md"
+      "sha256": "e01f433877ce3002e72c4dec8e70b8d12a8dc6972270e3e7a608770dbe0d9642"
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/knowledge-organization-and-library-science.md",
-      "category": "knowledge-organization-and-library-science.md",
-      "extension": ".md"
+      "sha256": "e7f6c8913c9d7b4d2fef5a59243a1fc50b794a60f5e2c5a1d88865e25bf000b4"
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/science-and-technology-studies.md",
-      "category": "science-and-technology-studies.md",
-      "extension": ".md"
+      "sha256": "7fdfab25f824d4328b5e634b40a4743220aca65c2578444fb70b9f299ce849d9"
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/sustainability-science.md",
-      "category": "sustainability-science.md",
-      "extension": ".md"
+      "sha256": "c987448cd4421b4a6cfc6d30f3f359580593aa16cc97495754604d706e10280d"
     },
     {
       "path": "knowledge/map/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "1da6f351292253b70701aeeb30306e19070e38be0b4fca5ec1bc7ac9f2434a4d"
     },
     {
       "path": "knowledge/study-routes/README.md",
-      "category": "README.md",
-      "extension": ".md"
-    },
-    {
-      "path": "knowledge/study-routes/agentic-workflow-and-knowledge-systems-route.md",
-      "category": "agentic-workflow-and-knowledge-systems-route.md",
-      "extension": ".md"
+      "sha256": "384af694620a3a628ca5c232baa16e9e46a6ab3cd77024a1d5a50911330a69ac"
     },
     {
       "path": "knowledge/study-routes/framework-comparison-and-knowledge-organization-route.md",
-      "category": "framework-comparison-and-knowledge-organization-route.md",
-      "extension": ".md"
+      "sha256": "aa3991fc8e70b2b8f053b4f98251ea1edb10a6ffb26725b9b72c9d2eb5d281f8"
     },
     {
       "path": "knowledge/study-routes/measurement-and-inference-route.md",
-      "category": "measurement-and-inference-route.md",
-      "extension": ".md"
+      "sha256": "f089a63d9a686551b854c5b1665c9bc902d4592fdcad20f54e444133b4a6833e"
     },
     {
       "path": "knowledge/study-routes/mind-life-interface-route.md",
-      "category": "mind-life-interface-route.md",
-      "extension": ".md"
+      "sha256": "9d3ffa41365d49ef60747f21e0e0603bd19a6ba57c9a77dff673b449dd6218f3"
     },
     {
       "path": "knowledge/study-routes/organization-and-coordination-route.md",
-      "category": "organization-and-coordination-route.md",
-      "extension": ".md"
+      "sha256": "91d4858b0d5688fc0aea73fd1473b956acb04e707caa15bc364f592a6fd5a1f7"
     },
     {
       "path": "knowledge/study-routes/suf-guided-orientation-route.md",
-      "category": "suf-guided-orientation-route.md",
-      "extension": ".md"
+      "sha256": "1417bb079d1fff04e0130a9d368aec3b419ba6d23c003d79b36adddadb3a8744"
     },
     {
       "path": "knowledge/study-routes/sustainability-and-governance-route.md",
-      "category": "sustainability-and-governance-route.md",
-      "extension": ".md"
+      "sha256": "c01c63c910446ed9a1a6122ffdd0a1327f36416fcfe9743452fdb7e1a6c0cbf9"
     },
     {
       "path": "knowledge/studying-and-teaching-with-suf.md",
-      "category": "studying-and-teaching-with-suf.md",
-      "extension": ".md"
+      "sha256": "b2d91195dcad5eb50429770d6c912a109228a08735837556abd88db8c545d4dc"
     },
     {
       "path": "knowledge/suf-relationship.md",
-      "category": "suf-relationship.md",
-      "extension": ".md"
+      "sha256": "d591d63a85b60c5e1c38b08338d0647bd9f86361b631a8805cea820f6c88baf5"
     },
     {
       "path": "package_doctor.py",
-      "category": "package_doctor.py",
-      "extension": ".py"
+      "sha256": "4620896235d221a57e67cae5cefe1134c3c2e5a86586dca6315e9ff046b26bbf"
     },
     {
       "path": "research_launch_gate.py",
-      "category": "research_launch_gate.py",
-      "extension": ".py"
+      "sha256": "67418cb8c68c097c5dfcff3b3239e05e05ce4dd144f797aa9ee1f3fbc0d99016"
     },
     {
       "path": "structured-unity-framework/.gitignore",
-      "category": ".gitignore",
-      "extension": "[none]"
+      "sha256": "c2aa9c9b49d4f793c3646bfeb83f71ac0f5a53df1a774cf92dd98617f046bb65"
     },
     {
       "path": "structured-unity-framework/CHANGELOG.md",
-      "category": "CHANGELOG.md",
-      "extension": ".md"
+      "sha256": "16bbf439519b7f7bd1ddbb07e040f7b50ef32a1c74efabd1a714d09d77b69f6a"
     },
     {
       "path": "structured-unity-framework/CITATION.cff",
-      "category": "CITATION.cff",
-      "extension": ".cff"
+      "sha256": "684d1d84291255236af8535ebc1bfddff70aca1ee98b85b83c4a2f7ff03187c8"
     },
     {
       "path": "structured-unity-framework/CONTRIBUTING.md",
-      "category": "CONTRIBUTING.md",
-      "extension": ".md"
+      "sha256": "fe7fd247d2999db77be05fcea59d28a2aa925d19b7b95952a5d7f9bc814b81ad"
     },
     {
       "path": "structured-unity-framework/LICENSE",
-      "category": "LICENSE",
-      "extension": "[none]"
+      "sha256": "b286e9937c3d60631e1d6884149e0a9bf483ec138af884edf5c0a4cbabcb2430"
     },
     {
       "path": "structured-unity-framework/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "3c6a084ad9039d90a3c817b0c52e29bfec75ec4339bc82496e906efde8c69c9d"
     },
     {
       "path": "structured-unity-framework/ROADMAP.md",
-      "category": "ROADMAP.md",
-      "extension": ".md"
+      "sha256": "589c16e5d63b21d4e5faecda172a77e43332b4139753adb8cf5eaa98cb2acbc3"
     },
     {
       "path": "structured-unity-framework/START_HERE.md",
-      "category": "START_HERE.md",
-      "extension": ".md"
+      "sha256": "9174847e086f186926398725f4a86348a31dc0a8716dce1dce4879bbe2936a92"
     },
     {
       "path": "structured-unity-framework/applications/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "f6bfe048708fb5e9379ab4d6e875eeeac640129938cfa3151050c5c9e408ecc0"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/applications-index.md",
-      "category": "applications-index.md",
-      "extension": ".md"
+      "sha256": "e617c612b9f3b2e926eea40f61a26e575bdedff2d2a925d78ed952fdd9dc1abd"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/demonstrated-routes-index.md",
-      "category": "demonstrated-routes-index.md",
-      "extension": ".md"
+      "sha256": "c4046820f90dfd27d37352ef15d3b5b03619b1384a782c0023dc9cb35f5dc917"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/domain-clusters-index.md",
-      "category": "domain-clusters-index.md",
-      "extension": ".md"
+      "sha256": "804af127ca5ae959d1a5506e19e3cb1234eed8d16a3f755dc232439d57fadfcc"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/relation-tags-index.md",
-      "category": "relation-tags-index.md",
-      "extension": ".md"
+      "sha256": "4b3185019861ad48c725b74b139ae11022c5af3938db08a30fae76056d0393fb"
     },
     {
       "path": "structured-unity-framework/applications/_indexes/research-map-index.md",
-      "category": "research-map-index.md",
-      "extension": ".md"
+      "sha256": "d5a027b5f7ec9555c84abf0db40c68186f0214c8fb678cebe62c9d0bc89b2cad"
     },
     {
       "path": "structured-unity-framework/applications/_relations/constrains.md",
-      "category": "constrains.md",
-      "extension": ".md"
+      "sha256": "2b37a6372f88e74ce80ee36ffc1c9d68ac6ec7b6a35666042b7e454be60f9190"
     },
     {
       "path": "structured-unity-framework/applications/_relations/emerges-from.md",
-      "category": "emerges-from.md",
-      "extension": ".md"
+      "sha256": "95e6adcc7332be1f6d156d7e3dbe618280dcb97bd0cac10909d93e10fcb2304a"
     },
     {
       "path": "structured-unity-framework/applications/_relations/feeds-back.md",
-      "category": "feeds-back.md",
-      "extension": ".md"
+      "sha256": "b5cb9fc52572c12c1512540ff7bf27feb60e44782e84c8adc1c0f56f06c45a08"
     },
     {
       "path": "structured-unity-framework/applications/_relations/formalizes.md",
-      "category": "formalizes.md",
-      "extension": ".md"
+      "sha256": "8ed679f15684fe9e4316d05dc9439aad68de0c9e7b88d544057ff55629917960"
     },
     {
       "path": "structured-unity-framework/applications/_relations/grounds.md",
-      "category": "grounds.md",
-      "extension": ".md"
+      "sha256": "305e2878fb9ee75523f019caec0341c7d103df517f90267ece11a9ecf4277ee0"
     },
     {
       "path": "structured-unity-framework/applications/_relations/implements.md",
-      "category": "implements.md",
-      "extension": ".md"
+      "sha256": "915fe290d9487206308286d11d6601f2cf2efd2b723ee9e9e83fcdebafd5cd60"
     },
     {
       "path": "structured-unity-framework/applications/_relations/interprets.md",
-      "category": "interprets.md",
-      "extension": ".md"
+      "sha256": "b6531a43d92e4f929084152ea796fee2833e6f2489c4fdda728fc66390da227e"
     },
     {
       "path": "structured-unity-framework/applications/_templates/case-route-template.md",
-      "category": "case-route-template.md",
-      "extension": ".md"
+      "sha256": "6345677690d6411e7eee719a331d226fbde18e826c9fb5cfb9797420d7dd99f0"
     },
     {
       "path": "structured-unity-framework/applications/_templates/comparative-route-template.md",
-      "category": "comparative-route-template.md",
-      "extension": ".md"
+      "sha256": "ec62cc1863ae2a0bbdb50b3f7eda2ead884ef4fcdd0280ceec345967082f96ed"
     },
     {
       "path": "structured-unity-framework/applications/_templates/domain-node-template.md",
-      "category": "domain-node-template.md",
-      "extension": ".md"
+      "sha256": "67a156e0f7399b08c54f4b871cffb59e6feb6f7ee674a23496ad4c5e025731d4"
     },
     {
       "path": "structured-unity-framework/applications/_templates/subdomain-node-template.md",
-      "category": "subdomain-node-template.md",
-      "extension": ".md"
+      "sha256": "985780df575b3548d73985ffa55b731b87257f7bd65e2855c956149d3594509c"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "7b985606409b3497b8aa2c0e5bfc150ed9c9cd59e42706e99cddca260c2e9a70"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "3039f0fc84024bf2ade2d0a06b3dcb2a296a5c07b630d6f9e85024c95aec8d13"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/future-comparative-cases.md",
-      "category": "future-comparative-cases.md",
-      "extension": ".md"
+      "sha256": "fb8fafe68b80b2d64a30c987e71beb6cfeb217cc26d75c5a157e265de2bd550d"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "9edeed2df614dbe15de3c49be135f1ce0719af19c121fdf23b67a7ccc97f22f5"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/bounded-gain-against-simpler-readings.md",
-      "category": "bounded-gain-against-simpler-readings.md",
-      "extension": ".md"
+      "sha256": "f3517d954f344d1afec7704eb6ddadfa6ee3fd3a8db92fe9bd4630689a223719"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/comparators-nulls-and-comparative-extension.md",
-      "category": "comparators-nulls-and-comparative-extension.md",
-      "extension": ".md"
+      "sha256": "17356edacab596e439f7124f85fa758c1645537a343ab9506dd1ac58c1bfab3c"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/estimator-implementation.md",
-      "category": "estimator-implementation.md",
-      "extension": ".md"
+      "sha256": "a3067d79e9457f59ef967fb664e261334208f8c21439900f627dcd8d1bd30507"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/event-ledger-seed.md",
-      "category": "event-ledger-seed.md",
-      "extension": ".md"
+      "sha256": "0e771efcb4a789a6da60e11e35c6023da9e717f58e22b63eabc5a09106626416"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-nz-taiwan-comparison-note.md",
-      "category": "first-nz-taiwan-comparison-note.md",
-      "extension": ".md"
+      "sha256": "044bb6fc984a850b123ddb7e67f9b449932d802456bfef5424142d55da394c19"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-c-summary.md",
-      "category": "first-pass-c-summary.md",
-      "extension": ".md"
+      "sha256": "cf8b3251d57d0d8a242e6626d4ce77c70f9376ab2f661dc98db03408c1b9580c"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-dependency-graph.md",
-      "category": "first-pass-dependency-graph.md",
-      "extension": ".md"
+      "sha256": "a6af5161b45ddbffa8318c31309e264e32c92f2ebc7b72ff23a5f8bd70e53ab2"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-i-summary.md",
-      "category": "first-pass-i-summary.md",
-      "extension": ".md"
+      "sha256": "af5630242ed6f46826fb2ea14b9f816b9c950c1fb89143a651de32659e348096"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-l-summary.md",
-      "category": "first-pass-l-summary.md",
-      "extension": ".md"
+      "sha256": "2aa8ead3989ab3d2982cca70362c12bd6730dd235e5ec6981c3cba884a039b30"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-seed-readout.md",
-      "category": "first-pass-seed-readout.md",
-      "extension": ".md"
+      "sha256": "d14f5be1cd04a8a440cbd270a232de34bcb9438e650020d72910fc50c802cbfb"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-sensitivity-and-null-note.md",
-      "category": "first-pass-sensitivity-and-null-note.md",
-      "extension": ".md"
+      "sha256": "28ff36b6331507fce9b4ea39f1a75a7a02210952f4bb453d960c91c1d48356d6"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-window-comparison.md",
-      "category": "first-pass-window-comparison.md",
-      "extension": ".md"
+      "sha256": "c23c28556d8ad5eeb320a1be068f2fc8593feaf98b31099e4005ccd49091154b"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/new-zealand-pandemic-case.md",
-      "category": "new-zealand-pandemic-case.md",
-      "extension": ".md"
+      "sha256": "f88d575878d00cb0478c9364f2429006dd310986e5ffc77872d66d5e2f97032b"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-boundary-and-corpus.md",
-      "category": "nz-monograph-boundary-and-corpus.md",
-      "extension": ".md"
+      "sha256": "a1807c24d3e9ace2860ba394997aa6711dc0a48226881434f09616b1af58a1cd"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-de-escalation-and-lag.md",
-      "category": "nz-monograph-de-escalation-and-lag.md",
-      "extension": ".md"
+      "sha256": "091b3d4917db53337252cc650718f40de10aeeb60593a4bc4d578af4393b9f3b"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-escalation-and-architecture.md",
-      "category": "nz-monograph-escalation-and-architecture.md",
-      "extension": ".md"
+      "sha256": "33f0596e22d4aa5774a870beda1bb156a8230de0c9d176135220df4fe2fda52e"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-implementation-and-routing.md",
-      "category": "nz-monograph-implementation-and-routing.md",
-      "extension": ".md"
+      "sha256": "4fa7a54d3d689d316deaf8c10f28b87e846d61ef84f64880841044ca6c1e749c"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-robustness-and-weakenings.md",
-      "category": "nz-monograph-robustness-and-weakenings.md",
-      "extension": ".md"
+      "sha256": "0145422cc18bc50d37714af0ef2999e08d07b8de54f6b6345f64a11ef4f8904b"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-table-and-figure-plan.md",
-      "category": "nz-monograph-table-and-figure-plan.md",
-      "extension": ".md"
+      "sha256": "a723a951ee3cee1820a6d0b10a98080bd2ce5b14f3a5e9833444658581802ba0"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/official-corpus-inventory.md",
-      "category": "official-corpus-inventory.md",
-      "extension": ".md"
+      "sha256": "164cccb38292a02597463a4442fbdb367b4b8e9f512cb9987530941ba0c425e0"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/research-design.md",
-      "category": "research-design.md",
-      "extension": ".md"
+      "sha256": "3dd64501b2099c060be52d5fb570e6b707bc9a3388f350537a9a3ff30deb041e"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-corpus-and-coding-protocol.md",
-      "category": "source-corpus-and-coding-protocol.md",
-      "extension": ".md"
+      "sha256": "0135882e22032bc1ed40414e237db3051c6eb347c3cd396095ea80e81c0e66df"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-discovery-log.md",
-      "category": "source-discovery-log.md",
-      "extension": ".md"
+      "sha256": "cf671717f1a7185cdf2730947829ac6c6a26112fa9b00e2e3ee0868d96a6b111"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-boundary-and-corpus.md",
-      "category": "taiwan-chapter-boundary-and-corpus.md",
-      "extension": ".md"
+      "sha256": "719ce3e06e7d5e5c22ebaafc88b2593ebe4a2eb114fc4fbbbcc7321a4a08c425"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-evidence-map.md",
-      "category": "taiwan-chapter-evidence-map.md",
-      "extension": ".md"
+      "sha256": "e43c000f73e5e5bd60d1ae52ca8468810467fa3f95fc486d3bab39388f992f94"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-table-and-figure-plan.md",
-      "category": "taiwan-chapter-table-and-figure-plan.md",
-      "extension": ".md"
+      "sha256": "caaa148e21a3db2d8f18e9e9f0df8ab6b0079963c31641281bf1166037c81134"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-comparator-design.md",
-      "category": "taiwan-comparator-design.md",
-      "extension": ".md"
+      "sha256": "221898a569866476c71d3398efa7583e07c0ba347f4591b3f3173460afa373ae"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-event-ledger-seed.md",
-      "category": "taiwan-event-ledger-seed.md",
-      "extension": ".md"
+      "sha256": "a3a1a4ae5fbeef402571c90d7ac5cc5402983397eae59456d365bbe6b6f2f089"
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-official-corpus-inventory.md",
-      "category": "taiwan-official-corpus-inventory.md",
-      "extension": ".md"
+      "sha256": "9f5aba2fa86549919ae5d96ac57a8b0db31ab869b830d479038ea6dc617d72fe"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "29c7bd7c95aa7de13ac1e4c950f3678499492ab6fcf5ea711760bf80f3b5c522"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/measurement-theory-and-operationalization.md",
-      "category": "measurement-theory-and-operationalization.md",
-      "extension": ".md"
+      "sha256": "28e9c061fbc936cc1932ba16d2f37e9dca22a3543cea3e224fcf8ff775d69927"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/network-and-dynamical-systems.md",
-      "category": "network-and-dynamical-systems.md",
-      "extension": ".md"
+      "sha256": "4da9bf20ffcd31c069fcf7ebacc64ee87b0069a74f10b5f84ce1afeff0d559cf"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/phenomenology-and-epistemic-grounding.md",
-      "category": "phenomenology-and-epistemic-grounding.md",
-      "extension": ".md"
+      "sha256": "1fc136b9d67d2dc0b347b0797692a5f01647d4e8a16f953a3ff9dce502c80a65"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/philosophy-of-science-and-model-discipline.md",
-      "category": "philosophy-of-science-and-model-discipline.md",
-      "extension": ".md"
+      "sha256": "6c2e979a07cbe6ae5762d331203486f6e6de64a509c6ea01767a51bc74782cbb"
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/systems-theory-and-cybernetics.md",
-      "category": "systems-theory-and-cybernetics.md",
-      "extension": ".md"
+      "sha256": "b16efb1c2138ff2d95c8de37f3ba58aecad84b92f6259b8af6ecf3ee0f4cae81"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "68f44eba0ebd1be37a0b195d8dc8b13e36d6d8321b853c5a12fc74f56856e378"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/border-enforcement-and-implementation.md",
-      "category": "border-enforcement-and-implementation.md",
-      "extension": ".md"
+      "sha256": "c386f255fb9c1822a7c215b1d61d6c4922d23b5e292dab818295550c206e78c5"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/crisis-governance-and-emergency-management.md",
-      "category": "crisis-governance-and-emergency-management.md",
-      "extension": ".md"
+      "sha256": "11c35e5df89eae5ab4fd980e9c9fdb694d3b578afc1879c486c124edfcb2a898"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-administration-and-executive-coordination.md",
-      "category": "public-administration-and-executive-coordination.md",
-      "extension": ".md"
+      "sha256": "f4cecb7865221d20452928611d8c033f94dc73154364d05ec5489b3fba3207ff"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-health-systems.md",
-      "category": "public-health-systems.md",
-      "extension": ".md"
+      "sha256": "d3e14928d50f1c84e91f4b458819a5ab86f2ea4a8dcbe5d71f8e139f0bec19f9"
     },
     {
       "path": "structured-unity-framework/applications/research-map/01-states-public-health-and-governance/public-information-and-communication.md",
-      "category": "public-information-and-communication.md",
-      "extension": ".md"
+      "sha256": "b3009376b6406f3d5a31b16f58e6fc2fc6d8a00292aa16d46ddd04cf25846bd2"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "0fb814fbf7ad3ba34184bd7d0b7eda698b8550531478d4fb9ab4f0f9ddcee5d6"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/comparative-political-systems.md",
-      "category": "comparative-political-systems.md",
-      "extension": ".md"
+      "sha256": "69f19a18ec8021233262d50536e4574dec134bc89806b66bd026a6ccc592e8ae"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/legal-and-regulatory-order.md",
-      "category": "legal-and-regulatory-order.md",
-      "extension": ".md"
+      "sha256": "44ca4356ea25fa9e7cb71934ace11a9cfd2de13bc1f1b6ad63ba45947b4f0c32"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/organizational-coordination-and-bureaucratic-systems.md",
-      "category": "organizational-coordination-and-bureaucratic-systems.md",
-      "extension": ".md"
+      "sha256": "63e4288ee19536fc251fe764cb4f2e2149dd687f1d3318eb099763233f02c393"
     },
     {
       "path": "structured-unity-framework/applications/research-map/02-comparative-social-and-organizational-domains/policy-implementation-and-institutional-change.md",
-      "category": "policy-implementation-and-institutional-change.md",
-      "extension": ".md"
+      "sha256": "24aa45b1331b219654a16382a121e539ae292ff416dc2277dae110bbb809284f"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "13cc33dfbf7ea9e496350fe3566fb9c4ab3395acc4fbf67d4ddc5f7ea9bd87b1"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/ai-and-multi-agent-coordination.md",
-      "category": "ai-and-multi-agent-coordination.md",
-      "extension": ".md"
+      "sha256": "d667a79028c07e518b4a9d0c926fc9f2550fb659f89e7de3adb2712604859dce"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/comparative-pandemic-response.md",
-      "category": "comparative-pandemic-response.md",
-      "extension": ".md"
+      "sha256": "474223735aa2db898191b78919c647b136d05923a0f82b0652922cd271b2e6be"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/infrastructure-and-logistics-coordination.md",
-      "category": "infrastructure-and-logistics-coordination.md",
-      "extension": ".md"
-    },
-    {
-      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md",
-      "category": "quantum-relational-ontology-and-consciousness.md",
-      "extension": ".md"
+      "sha256": "41517f05b0b5bf58b3e33e18710ace003de5bdde3f1c58f8655b98f44db580cf"
     },
     {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/urban-and-regional-governance.md",
-      "category": "urban-and-regional-governance.md",
-      "extension": ".md"
+      "sha256": "ba2a9234f73d6dd1aef04aeab1262dd3281fbe5ebb8fcdf9460e967f04ecb8e6"
     },
     {
       "path": "structured-unity-framework/applications/research-map/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "50bcadd131d7469636d62edd26838da7658bf334483e63f6ab3f2c02cb6c85ba"
     },
     {
       "path": "structured-unity-framework/docs/INDEX.md",
-      "category": "INDEX.md",
-      "extension": ".md"
+      "sha256": "2e6512639e7b1880bace0b0af43d80fefa8fa4173583c4e653dba800a114182e"
     },
     {
       "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
-      "category": "CONTRIBUTION_AND_POSITIONING.md",
-      "extension": ".md"
+      "sha256": "347b4ae42984cfa5e43e960fe8ab3f95b7f631ef9cc230b50c4ae31b8327c00e"
     },
     {
       "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
-      "category": "OBJECTIONS_AND_EVIDENCE_STATUS.md",
-      "extension": ".md"
+      "sha256": "70aeaace75c8e6b18ba03f392de6bd1a188eb61dc39cb7bcc2b5badbec3341c4"
     },
     {
       "path": "structured-unity-framework/docs/claims-and-boundaries.md",
-      "category": "claims-and-boundaries.md",
-      "extension": ".md"
+      "sha256": "c34a0c07dc514132bd5746e03ced8c4755e5dd1d651e120a9341c42d9a14335a"
     },
     {
       "path": "structured-unity-framework/docs/current-execution-order.md",
-      "category": "current-execution-order.md",
-      "extension": ".md"
+      "sha256": "2f782dd7ee4886421bf86b10aa4830ccb618484bd64efad387f1fec002ae5ae6"
     },
     {
       "path": "structured-unity-framework/docs/diagrams/dependency-map.md",
-      "category": "dependency-map.md",
-      "extension": ".md"
+      "sha256": "2f6bf2b6b49e95ff969cd6c06a9e023da9791f1600c7d3112ec9d947181fb1b8"
     },
     {
       "path": "structured-unity-framework/docs/diagrams/domain-expansion-map.md",
-      "category": "domain-expansion-map.md",
-      "extension": ".md"
+      "sha256": "eace7035a14ac73a1020ad074b7e2e7f5d5d4cf68eb94cdb8f16c5edab120629"
     },
     {
       "path": "structured-unity-framework/docs/diagrams/framework-stack.md",
-      "category": "framework-stack.md",
-      "extension": ".md"
+      "sha256": "0a2a8f47a0ad355fef2406df55c319c11fcea3918861cb4167da1ec0cdeb87f7"
     },
     {
       "path": "structured-unity-framework/docs/diagrams/reading-path.md",
-      "category": "reading-path.md",
-      "extension": ".md"
+      "sha256": "02e3f88882a96d4195608a442d6633801565cb1acb9284f835f077534d7f983f"
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "category": "CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "extension": ".md"
+      "sha256": "701a7543b26b48b5fe1833250ca8eae37453e87cd06c0d06112e646c3ec916fc"
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "category": "PROJECT_PURPOSE_AND_USE_CASES.md",
-      "extension": ".md"
+      "sha256": "d98bca48b603c1415677f17bccec9fc50d760c6326234b42fe811e7a078ef5d8"
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
-      "category": "SCIENTIFIC_GROUNDING_AND_LIMITS.md",
-      "extension": ".md"
+      "sha256": "84dfd58956da4626d5c5e2bc3587a9f4ed6fe547e9f05743eaa4000f8ece6fbb"
     },
     {
       "path": "structured-unity-framework/docs/glossary.md",
-      "category": "glossary.md",
-      "extension": ".md"
+      "sha256": "ce81ddd091d14c1e024244837efb5dbb4384e3c79338609f62ea391ff75408e1"
     },
     {
       "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
-      "category": "MONOGRAPH_SUPPORT_PACKAGE.md",
-      "extension": ".md"
+      "sha256": "117994c71f1154453eff0626bf1098e5fc6e32234137c344ab04c8c179db7101"
     },
     {
       "path": "structured-unity-framework/docs/monograph-and-closure-program.md",
-      "category": "monograph-and-closure-program.md",
-      "extension": ".md"
+      "sha256": "b659ebd2ac4cbb61ddef77f7aa6de4b7d5169ed9984601c4a5257287ef472139"
     },
     {
       "path": "structured-unity-framework/docs/ops/HANDOFF_GUIDE.md",
-      "category": "HANDOFF_GUIDE.md",
-      "extension": ".md"
+      "sha256": "07e7bcd9af854486150651e9ebec8559960aefbbdac1fd54a47ec7fd82203802"
     },
     {
       "path": "structured-unity-framework/docs/ops/RELEASE_CHECKLIST_v0_1.md",
-      "category": "RELEASE_CHECKLIST_v0_1.md",
-      "extension": ".md"
+      "sha256": "0381ddad301609f53e396a26ff162c9208f46c19f8597b6ed98c6e959d959f6a"
     },
     {
       "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
-      "category": "FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
-      "extension": ".md"
+      "sha256": "05da8f3f62faec383af94d1df6df885b593ce6ad08fdc9b1c14fef214ffb9bf2"
     },
     {
       "path": "structured-unity-framework/docs/pending-inventory.md",
-      "category": "pending-inventory.md",
-      "extension": ".md"
+      "sha256": "723b26c1bfa7e71d90cc72f837aa95990b17a6846828dbb23ee257b926309dcb"
     },
     {
       "path": "structured-unity-framework/docs/project-status.md",
-      "category": "project-status.md",
-      "extension": ".md"
+      "sha256": "7c6cc691a987bb7ccc10a08aba76d66eeb2d8b74555b1e45b9a5da15447d37d2"
     },
     {
       "path": "structured-unity-framework/framework/framework-interface.md",
-      "category": "framework-interface.md",
-      "extension": ".md"
+      "sha256": "1b6afe6978b9fdbbda0c345aea58952e43aac9372cecbe4a06426dc01dd31314"
     },
     {
       "path": "structured-unity-framework/framework/iaf-downstream-role.md",
-      "category": "iaf-downstream-role.md",
-      "extension": ".md"
+      "sha256": "fe973479b5ab48b1ecd23f71b4ddbdfddd1fea9593d3a4a983a4306743ba9f6b"
     },
     {
       "path": "structured-unity-framework/framework/informational-awareness-framework.md",
-      "category": "informational-awareness-framework.md",
-      "extension": ".md"
+      "sha256": "9c8968bdbd8b9ad564582e23e2778e3c78913cfb0028ce63f9c59b30efe1c0d6"
     },
     {
       "path": "structured-unity-framework/framework/literature-guide.md",
-      "category": "literature-guide.md",
-      "extension": ".md"
+      "sha256": "6568fb83df047c3218ee48a325ba5c8cf749e7f21156fc4bc0e0ac2f33994f5a"
     },
     {
       "path": "structured-unity-framework/framework/research-program.md",
-      "category": "research-program.md",
-      "extension": ".md"
+      "sha256": "739373437ed6f72e6fa9036a5bfee91fcc337e72848bbd224a263c4add710130"
     },
     {
       "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
-      "category": "structural-phenomenology-downstream-role.md",
-      "extension": ".md"
+      "sha256": "28cc617fb7096815d3e93ae53de9e342907c2d86fabaf553a4812c5ac87dcfb1"
     },
     {
       "path": "structured-unity-framework/framework/structural-phenomenology.md",
-      "category": "structural-phenomenology.md",
-      "extension": ".md"
+      "sha256": "bcc98cb27619815369c85ece30358ae44055694df9280010ece8554375897ec3"
     },
     {
       "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
-      "category": "unity-dynamics-framework.md",
-      "extension": ".md"
+      "sha256": "103f69997e8ef76c46be4a2888d0b2f8fd1baf30f93efc39cddc9ec4bfa08d90"
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "category": "AUTHORITATIVE_INDEX_v0_1.md",
-      "extension": ".md"
+      "sha256": "20287ddfb6b578e6e5eb7b1169ffca39f032ae1200bd506e9f3a511140d4234b"
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-      "category": "AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-      "extension": ".json"
+      "sha256": "49d0ea03077ababb36525f05b4a5bbe96e28414af3f5d0268a9af5d7660d9f10"
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
-      "category": "AUTHORITATIVE_SOURCES_v0_1.json",
-      "extension": ".json"
+      "sha256": "24309fbc826334450718d3a5142977137f30b8613d1cecf4c8e5232528d0cd9d"
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "category": "CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "extension": ".json"
+      "sha256": "78ec79bf2aaf64e2a105d92597b9e349e562129076bb32f4306ac483f7523da2"
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "category": "CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "extension": ".json"
+      "sha256": "8c954db281b09e7c7d75dd37e6f0311c086eac907a046690cb6b6f8525aaaaff"
     },
     {
       "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "category": "FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "extension": ".json"
+      "sha256": "fcf74fa89739d48ce27b193037d01685a69d4545f8b1ffa3586046fd7d8b61a8"
     },
     {
       "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
-      "category": "PACKAGE_MINIMIZATION_POLICY_v0_1.md",
-      "extension": ".md"
+      "sha256": "d92d70fb1bf49211215bf34223afd5a21690c3b4e128aab8549d8dbc9e8fa775"
     },
     {
       "path": "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
-      "category": "PACKAGE_STATE_SUMMARY_v0_1.json",
-      "extension": ".json"
+      "sha256": "27def54d1a8c2588bf426aac07ef01b8551e7dc37a1033ecf0108ce8e0f2666f"
     },
     {
       "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "category": "REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "extension": ".json"
+      "sha256": "a43aa4d2c5b153949bcd78a28253aa97f536bbf0fc7de3ba5925de58a5f8c8eb"
     },
     {
       "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
-      "category": "ROOT_ALLOWLIST_v0_1.json",
-      "extension": ".json"
+      "sha256": "46799ad5f8ead16eb5b9edb98d0ec4dbb3c961da9985b7ba0439659b85fd5848"
     },
     {
       "path": "structured-unity-framework/meta/claim-structure.md",
-      "category": "claim-structure.md",
-      "extension": ".md"
+      "sha256": "e5b977caa78ad92e7ca322074d3184d96dca797ffe623dcd4092a75271f13eac"
     },
     {
       "path": "structured-unity-framework/meta/publication-scope.md",
-      "category": "publication-scope.md",
-      "extension": ".md"
+      "sha256": "d663ebc4648ff2764c31a00c2ec51085ce6a153bf0231eb2081a09416801d452"
     },
     {
       "path": "structured-unity-framework/meta/risk-register.md",
-      "category": "risk-register.md",
-      "extension": ".md"
+      "sha256": "6e76879bec9164fb0922d4050466fcabe0fb80c1c10d19233350474976f01741"
     },
     {
       "path": "structured-unity-framework/meta/terminology-policy.md",
-      "category": "terminology-policy.md",
-      "extension": ".md"
+      "sha256": "21f339f9ec0cac5ba6a69fddc866ac4feff848cbe29d9983b5fb46b3afded936"
     },
     {
       "path": "structured-unity-framework/meta/weak-naturalization.md",
-      "category": "weak-naturalization.md",
-      "extension": ".md"
+      "sha256": "32175efa6efbb3307bf724a68b7b5b935a64e709e8ce201ba8d759895ec1055d"
     },
     {
       "path": "structured-unity-framework/references/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "2d0ae26a6c430a7e3cc3286b45dfe8ea3101c2d60a1b8055ec9ae5018d1d6e49"
     },
     {
       "path": "structured-unity-framework/references/citation-and-archival-policy.md",
-      "category": "citation-and-archival-policy.md",
-      "extension": ".md"
+      "sha256": "98aaf2bee0b7aa4cd6a207500e50bc94e7bb6520dac40f35d5eac06226421be6"
     },
     {
       "path": "structured-unity-framework/references/extended-reading-list.md",
-      "category": "extended-reading-list.md",
-      "extension": ".md"
+      "sha256": "b485e9c29c88d521aac377e4ed0bdd57f6ae33c4efa5a172128c32ed0a4f37bc"
     },
     {
       "path": "structured-unity-framework/references/minimal-reading-list.md",
-      "category": "minimal-reading-list.md",
-      "extension": ".md"
+      "sha256": "ee3b88c508c88a25071cf9bfc384af3f02b89da7f53e90f25908ad978cd9cfeb"
     },
     {
       "path": "structured-unity-framework/references/source-registry.md",
-      "category": "source-registry.md",
-      "extension": ".md"
+      "sha256": "f34eec0c437613c4ae83103f3fe9c6f22981f244e73db6dc506c226249278446"
     },
     {
       "path": "structured-unity-framework/references/standard-reading-list.md",
-      "category": "standard-reading-list.md",
-      "extension": ".md"
+      "sha256": "00ddd2cd8c30740842c9c81a628bd875b96cbc0249bf613491917e272b8e7f56"
     },
     {
       "path": "tools/.gitignore",
-      "category": ".gitignore",
-      "extension": "[none]"
+      "sha256": "0ff9697080359ad98e876669077eac2c234d7c162ecc8aaa38fa132a118dd41a"
     },
     {
       "path": "tools/.python-version",
-      "category": ".python-version",
-      "extension": "[none]"
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
     },
     {
       "path": "tools/CHANGELOG.md",
-      "category": "CHANGELOG.md",
-      "extension": ".md"
+      "sha256": "58c29696d80d2a25d7e64010eab8a287db478c49bb972f45ad6c8af3adecc975"
     },
     {
       "path": "tools/README.md",
-      "category": "README.md",
-      "extension": ".md"
+      "sha256": "1faa0097dfca91a48e4edddea8c4676dcce9b06cc29670aaf8846dd8a8e35cc9"
     },
     {
       "path": "tools/audit_current_claims.py",
-      "category": "audit_current_claims.py",
-      "extension": ".py"
+      "sha256": "bd65a2e1fd417a52ffadaf613fd257865525064cfbe1a0876c70c414da929aaa"
     },
     {
       "path": "tools/audit_current_surfaces.py",
-      "category": "audit_current_surfaces.py",
-      "extension": ".py"
+      "sha256": "8d7a153c5c36ac1f4633e70041c938451140df462a2fd70d3349145211137a23"
     },
     {
       "path": "tools/audit_edit_scope.py",
-      "category": "audit_edit_scope.py",
-      "extension": ".py"
+      "sha256": "0cb67275a2bd45664f5db599f6560bf90a6d523e6cf7fd3a7b852290f736a9cd"
     },
     {
       "path": "tools/audit_merged_docs.py",
-      "category": "audit_merged_docs.py",
-      "extension": ".py"
+      "sha256": "c883863071664b4a8a1844413a3d6f2a3d77246a87b8e0f7223988015252ec17"
     },
     {
       "path": "tools/audit_repository_file_registry.py",
-      "category": "audit_repository_file_registry.py",
-      "extension": ".py"
+      "sha256": "3843c0690df8ca814637f07f2e9d49183963dc488ac0c1f775a4b22d0771c117"
     },
     {
       "path": "tools/audit_repository_minimality.py",
-      "category": "audit_repository_minimality.py",
-      "extension": ".py"
+      "sha256": "6eefdae4387edfd2fe47bcf128cdccff1219739deeb837aa4493b55312c06444"
     },
     {
       "path": "tools/audit_routing_surfaces.py",
-      "category": "audit_routing_surfaces.py",
-      "extension": ".py"
+      "sha256": "b55e6e0289ebe2edb1e154fce63fb7ddace52b91edcb667a8a73ea1c6f72e2b1"
     },
     {
       "path": "tools/docs/adr/0001-tooling-scope.md",
-      "category": "0001-tooling-scope.md",
-      "extension": ".md"
+      "sha256": "4cfccd73ebf41698cc297a39f9f4b81779b09c639b5433c79ed3a9af8adca0b2"
     },
     {
       "path": "tools/docs/adr/0002-human-validation-gate.md",
-      "category": "0002-human-validation-gate.md",
-      "extension": ".md"
+      "sha256": "0f7b7e9eb6da2a0e3d40cf30cbd3c6132c8c3ba71fc32835915b341b91db45c3"
     },
     {
       "path": "tools/docs/adr/0003-nix-plus-venv.md",
-      "category": "0003-nix-plus-venv.md",
-      "extension": ".md"
+      "sha256": "d802302d4f6ab2aa48f3a6c783acfc35a463805c81acf73a533d69dfe6aff2c6"
     },
     {
       "path": "tools/docs/architecture.md",
-      "category": "architecture.md",
-      "extension": ".md"
+      "sha256": "e205b7dc0bd1f553e9db5d6a33caa4c955ee89b6eeb7ce6f5c993d40cf72c6f8"
     },
     {
       "path": "tools/docs/backlog.md",
-      "category": "backlog.md",
-      "extension": ".md"
+      "sha256": "a4990a63eabd859c0982dc3b5fbaf256a270fe27c1671fc0e8ae37f64e616b9e"
     },
     {
       "path": "tools/docs/sprint-log.md",
-      "category": "sprint-log.md",
-      "extension": ".md"
+      "sha256": "275ddd0a20687cab6b4b8b7f0e74a0abe1fdfcbb97dc853aa00dcde5d1c6f29b"
     },
     {
       "path": "tools/docs/validation-policy.md",
-      "category": "validation-policy.md",
-      "extension": ".md"
+      "sha256": "87d59a7b770bfe3dfabbe27f155906308daed24d7b69efdfae719b5dfa5f6aee"
     },
     {
       "path": "tools/flake.lock",
-      "category": "flake.lock",
-      "extension": ".lock"
+      "sha256": "489237a0c19a991621fc5e50e8f039aa335aed1c4ad5bc497b77d0b9b4b0daaf"
     },
     {
       "path": "tools/flake.nix",
-      "category": "flake.nix",
-      "extension": ".nix"
+      "sha256": "946cb7177fdb121871ed1665133276d3039adf99ce9b05e15bb5d421c91c06f0"
+    },
+    {
+      "path": "tools/out/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "path": "tools/pyproject.toml",
-      "category": "pyproject.toml",
-      "extension": ".toml"
+      "sha256": "310f49f6c4e06492c64ad5a16b2d855abc3ec7dbe12f8cbb905a783af015827e"
     },
     {
       "path": "tools/src/research_tools/__init__.py",
-      "category": "__init__.py",
-      "extension": ".py"
+      "sha256": "ea3ef1496a90084d660ebea1247c1d058411d20e72333ae9a15172cfe2ba485a"
     },
     {
       "path": "tools/src/research_tools/cli.py",
-      "category": "cli.py",
-      "extension": ".py"
+      "sha256": "93aad37264d07df45e3eb0178d4280e5ed73a3f84ad7af918c82d738e25d20e4"
     },
     {
       "path": "tools/src/research_tools/config.py",
-      "category": "config.py",
-      "extension": ".py"
+      "sha256": "9fab66b0cc2e7935dd81f2585bd1eafd4d724221d76f844d9481015468b64b25"
     },
     {
       "path": "tools/src/research_tools/models/__init__.py",
-      "category": "__init__.py",
-      "extension": ".py"
-    },
-    {
-      "path": "tools/src/research_tools/models/clusters.py",
-      "category": "clusters.py",
-      "extension": ".py"
+      "sha256": "46b46213cd85997501d6187813b83f5c5c70b0e68c5fa5a0e0446b87fa2d1cc4"
     },
     {
       "path": "tools/src/research_tools/models/ledger.py",
-      "category": "ledger.py",
-      "extension": ".py"
+      "sha256": "8e2ad21975ce22c2d0a005c393b3873aed7f156bdeb9a5cb6ca32a38e340b5be"
     },
     {
       "path": "tools/src/research_tools/models/reports.py",
-      "category": "reports.py",
-      "extension": ".py"
+      "sha256": "25166e76949a05cb8e0779fb552379f15dbd2984524bcedb0bf6f4cd78e6eebc"
     },
     {
       "path": "tools/src/research_tools/models/sources.py",
-      "category": "sources.py",
-      "extension": ".py"
-    },
-    {
-      "path": "tools/src/research_tools/models/subsystems.py",
-      "category": "subsystems.py",
-      "extension": ".py"
+      "sha256": "13995bd000a9d1881f513fec2bec00b22222b24ac2f636a59cb22d0eb0707c0d"
     },
     {
       "path": "tools/src/research_tools/parse/__init__.py",
-      "category": "__init__.py",
-      "extension": ".py"
+      "sha256": "25edf473e4e5b2c5e041c258cca6723e58ef40bcb2e0ce4f306d5b06e78d193d"
     },
     {
       "path": "tools/src/research_tools/parse/markdown_links.py",
-      "category": "markdown_links.py",
-      "extension": ".py"
+      "sha256": "f4778cb7ecbae6db53c34be121f8042117943fa99f9f2a00c69c7944c79b3a04"
     },
     {
       "path": "tools/src/research_tools/parse/nz_ledger.py",
-      "category": "nz_ledger.py",
-      "extension": ".py"
+      "sha256": "ab030b30cd5006420c694d746385b40a8600f37891597ece609070842eb5fb57"
     },
     {
       "path": "tools/src/research_tools/parse/source_registry.py",
-      "category": "source_registry.py",
-      "extension": ".py"
-    },
-    {
-      "path": "tools/src/research_tools/parse/subsystems.py",
-      "category": "subsystems.py",
-      "extension": ".py"
+      "sha256": "b55cc957abbde2c50940dcf039bc056c8193621c6170926a2599d549802e1573"
     },
     {
       "path": "tools/src/research_tools/parse/taiwan_ledger.py",
-      "category": "taiwan_ledger.py",
-      "extension": ".py"
+      "sha256": "8a4dba04340a0b56aa89687d5ce24692508a1507e364fc36f71a1e2c280f5073"
     },
     {
       "path": "tools/src/research_tools/paths.py",
-      "category": "paths.py",
-      "extension": ".py"
-    },
-    {
-      "path": "tools/src/research_tools/repo_files.py",
-      "category": "repo_files.py",
-      "extension": ".py"
+      "sha256": "c01b262d98652fce7826ff7fde772381201965354601baf05af800ab7a54fa76"
     },
     {
       "path": "tools/src/research_tools/reports/__init__.py",
-      "category": "__init__.py",
-      "extension": ".py"
+      "sha256": "de15221b99a25c13111a68e63f42ffa128c78473ac50efa4d520b35aee5423aa"
     },
     {
       "path": "tools/src/research_tools/reports/nz_summary.py",
-      "category": "nz_summary.py",
-      "extension": ".py"
+      "sha256": "f8d6e822700e2a7d0439393541f06d07928a2fe10dc2215ac640e443aff8a8b6"
     },
     {
       "path": "tools/src/research_tools/reports/nz_taiwan_summary.py",
-      "category": "nz_taiwan_summary.py",
-      "extension": ".py"
+      "sha256": "9aee3bf9170e377b4a5e0b430db251296e73dbe7882a47e6c603f410eecdcae6"
     },
     {
       "path": "tools/src/research_tools/reports/release_readiness.py",
-      "category": "release_readiness.py",
-      "extension": ".py"
-    },
-    {
-      "path": "tools/src/research_tools/reports/taiwan_lag.py",
-      "category": "taiwan_lag.py",
-      "extension": ".py"
-    },
-    {
-      "path": "tools/src/research_tools/reports/taiwan_summary.py",
-      "category": "taiwan_summary.py",
-      "extension": ".py"
+      "sha256": "5aec956405a5584360e9ac4424c7c47884918480ce19acb73def14430f182f26"
     },
     {
       "path": "tools/src/research_tools/validate/__init__.py",
-      "category": "__init__.py",
-      "extension": ".py"
+      "sha256": "b1fe6efeb2ac12cd08892dc0cecdcd23ae97153ab41885c95d78c767e6650d38"
     },
     {
       "path": "tools/src/research_tools/validate/archives.py",
-      "category": "archives.py",
-      "extension": ".py"
+      "sha256": "60430cca04d887d725a6956c27e96e91fc06cde28a51891682f9f81448e9455b"
     },
     {
       "path": "tools/src/research_tools/validate/governance.py",
-      "category": "governance.py",
-      "extension": ".py"
+      "sha256": "54ae0d6da07919c2fb28469f5c00585e46e69509d53a08b7ffc0f3ebdf899054"
     },
     {
       "path": "tools/src/research_tools/validate/knowledge.py",
-      "category": "knowledge.py",
-      "extension": ".py"
+      "sha256": "2f8e7a69aa2d097dccc6dddd13af9933d3f344fb879ffdd3e9dcaa5a56096f15"
     },
     {
       "path": "tools/src/research_tools/validate/links.py",
-      "category": "links.py",
-      "extension": ".py"
+      "sha256": "90d9061382183524a1fedf452095f64e1eae7a7c86ab9388d28d8e38f590d4cc"
     },
     {
       "path": "tools/src/research_tools/validate/release_hygiene.py",
-      "category": "release_hygiene.py",
-      "extension": ".py"
+      "sha256": "6c3ff2488b961c252842f4a5e96d8548b298d4e86a0d8d1514a9bb22518c98fd"
     },
     {
       "path": "tools/src/research_tools/validate/route_consistency.py",
-      "category": "route_consistency.py",
-      "extension": ".py"
+      "sha256": "91b4654040c781837e0ea397f65506050db02386b0dcc60392adc69f234359ce"
     },
     {
       "path": "tools/src/research_tools/validate/sources.py",
-      "category": "sources.py",
-      "extension": ".py"
+      "sha256": "58b5fd6c466c9f79d9178e0a13831f31b08f81345a5d86c84ac8ee7803db0d5a"
     },
     {
       "path": "tools/src/research_tools/validate/status_surfaces.py",
-      "category": "status_surfaces.py",
-      "extension": ".py"
+      "sha256": "7b8ee49748f1d7f13a202bd41a552e869489e3e7e60c5bc59ffa83d902553f30"
     },
     {
       "path": "tools/src/research_tools/validate/versions.py",
-      "category": "versions.py",
-      "extension": ".py"
+      "sha256": "8124dfd0725a0eac0dbc3e6749352c40fd74ba428a6fb241cdf8cecb39b4318c"
     },
     {
       "path": "tools/src/research_tools/workflows/__init__.py",
-      "category": "__init__.py",
-      "extension": ".py"
+      "sha256": "fd0331e7b92e29c9e7695cfb430c7d25acc09ed5170dc9f9ba7677855d541a52"
     },
     {
       "path": "tools/src/research_tools/workflows/validate_all.py",
-      "category": "validate_all.py",
-      "extension": ".py"
-    },
-    {
-      "path": "tools/src/research_tools/workflows/validate_clusters.py",
-      "category": "validate_clusters.py",
-      "extension": ".py"
+      "sha256": "37759a92fa3628381cd68d5274b493d113b8dd39ba30942d5413d212c708f064"
     },
     {
       "path": "tools/sync_governance_state.py",
-      "category": "sync_governance_state.py",
-      "extension": ".py"
+      "sha256": "ebb8d0b7638e18fbe2dadf18efdb130ef5a840bec0928e3ebc1ec93f472e0a82"
     },
     {
       "path": "tools/tests/conftest.py",
-      "category": "conftest.py",
-      "extension": ".py"
+      "sha256": "14ce185ec07054877d152a7411e75459a28b7c66589461ea2b5183f013f87b28"
     },
     {
       "path": "tools/tests/test_governance.py",
-      "category": "test_governance.py",
-      "extension": ".py"
+      "sha256": "e30b2c15a316fbc755e7d07d594421f4b672c61103d4eca137f6dc67bc04450c"
     },
     {
       "path": "tools/tests/test_links.py",
-      "category": "test_links.py",
-      "extension": ".py"
+      "sha256": "b076da1dfad1da9f2b42d12b93cf457e993c413dab096b0da4df50d97f9b9f57"
     },
     {
       "path": "tools/tests/test_nz_ledger.py",
-      "category": "test_nz_ledger.py",
-      "extension": ".py"
+      "sha256": "88f15ad19038b261fe8891ecffcd8eb417c1036400bbe044d772cfbbe42350b1"
     },
     {
       "path": "tools/tests/test_reports.py",
-      "category": "test_reports.py",
-      "extension": ".py"
+      "sha256": "711b12e49546bcf66e37c4288c6aad13187328ecf5212f664b77086e14980f5b"
     },
     {
       "path": "tools/tests/test_route_consistency.py",
-      "category": "test_route_consistency.py",
-      "extension": ".py"
+      "sha256": "5007ed8f80323afcbf8b10c816cdf5336eb83d8de16dbad1557a8ce9bef1237d"
     },
     {
       "path": "tools/tests/test_source_registry.py",
-      "category": "test_source_registry.py",
-      "extension": ".py"
+      "sha256": "2b470dc6a276209b4cd493c89f973d51ae5929e3de2151fbae48937a8081988a"
     },
     {
       "path": "tools/tests/test_taiwan_ledger.py",
-      "category": "test_taiwan_ledger.py",
-      "extension": ".py"
-    },
-    {
-      "path": "tools/tests/test_validation_clusters.py",
-      "category": "test_validation_clusters.py",
-      "extension": ".py"
+      "sha256": "92e288d133b01420fb2d8ee33914edb54cbac39e8625d05a620904a278ad5f9e"
     },
     {
       "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
-      "category": "using-this-research-with-human-assistants-and-reasoning-agents.md",
-      "extension": ".md"
+      "sha256": "b0efd4561e63ef8ed946a60c9104b6ca03d69c38d92cf95fa7221e1d3d3e3b6f"
     }
   ]
 }

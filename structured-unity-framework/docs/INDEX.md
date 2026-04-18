@@ -7,7 +7,7 @@ This page is the site map for the Structured Unity Framework public package: eve
 | Goal | Start here |
 |------|------------|
 | First-time linear read | `README.md` -> `docs/argument/CONTRIBUTION_AND_POSITIONING.md` -> `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md` -> `docs/claims-and-boundaries.md` -> `framework/framework-interface.md` |
-| Theory-first read | `README.md` -> `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md` -> `framework/framework-interface.md` -> `framework/structural-phenomenology.md` -> `framework/structural-phenomenology-downstream-role.md` -> `framework/informational-awareness-framework.md` -> `framework/iaf-downstream-role.md` -> `framework/unity-dynamics-framework.md` -> `framework/research-program.md` |
+| Theory-first read | `README.md` -> `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md` -> `framework/framework-interface.md` -> `framework/structural-phenomenology.md` -> `framework/structural-phenomenology-downstream-role.md` -> `framework/informational-awareness-framework.md` -> `framework/ia-downstream-role.md` -> `framework/unity-dynamics-framework.md` -> `framework/research-program.md` |
 | Demonstrated route first | `README.md` -> `docs/claims-and-boundaries.md` -> `applications/README.md` -> `applications/demonstrated-routes/README.md` -> New Zealand route package -> `bounded-gain-against-simpler-readings.md` |
 | Reviewer audit path | `docs/argument/CONTRIBUTION_AND_POSITIONING.md` -> `docs/claims-and-boundaries.md` -> `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md` -> `framework/framework-interface.md` -> `framework/research-program.md` |
 | Research atlas first | `README.md` -> `applications/README.md` -> `applications/research-map/README.md` |
@@ -37,9 +37,9 @@ This page is the site map for the Structured Unity Framework public package: eve
 | `framework/framework-interface.md` | Bridge/control layer and anti-hardening boundary surface |
 | `framework/structural-phenomenology.md` | Structural Phenomenology layer |
 | `framework/structural-phenomenology-downstream-role.md` | Structural Phenomenology downstream-role clarification |
-| `framework/informational-awareness-framework.md` | IAF layer |
-| `framework/iaf-downstream-role.md` | IAF downstream-role clarification |
-| `framework/unity-dynamics-framework.md` | UDF layer |
+| `framework/informational-awareness-framework.md` | IA (Informational Awareness) layer |
+| `framework/ia-downstream-role.md` | IA downstream-role clarification |
+| `framework/unity-dynamics-framework.md` | UD (Unity Dynamics) layer |
 | `framework/research-program.md` | Methods posture, route logic, nulls, weakening, and future work |
 | `framework/literature-guide.md` | Literature and positioning guide |
 

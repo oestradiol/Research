@@ -24,7 +24,6 @@ Use these labels consistently across this layer:
 - `research-ready route`
 - `exploratory map node`
 - `comparative candidate`
-- `frontier node`
 
 ## 3. Current active public route
 

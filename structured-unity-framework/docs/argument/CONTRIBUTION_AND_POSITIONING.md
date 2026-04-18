@@ -21,11 +21,21 @@ A bounded Taiwan comparator now adds a `15`-event archive-clean tranche under th
 
 ### Locked payoff sentence
 
-**SUF shows that the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture.**
+**SUF shows that the New Zealand response should not be read only through command-and-control frameworks (e.g., Allison & Zelikow's governmental politics model, traditional public-administration hierarchy models) or generic institutional-capacity narratives, because public-information coordination is structurally central to the working coordination architecture.**
 
 ### Why that sentence is locked
 
-It removes the flattening move that treats communication as an after-the-fact wrapper around the “real” response, while staying bounded enough to avoid claiming universal proof or closed predictive closure.
+It removes the flattening move that treats communication as an after-the-fact wrapper around the "real" response, while staying bounded enough to avoid claiming universal proof or closed predictive closure. The explicit naming of rival frameworks makes the claim contestable and the comparison transparent.
+
+### Weakening conditions and revision triggers
+
+Revise or weaken this payoff if:
+
+- **Boundary changes**: Taiwan/Australia analysis shows public-information coordination as consistently downstream of executive command without major explanatory loss
+- **Coding fragility**: Review shows the sentence depends mainly on a small number of fragile judgment calls (≤5 events)
+- **Comparator pressure**: Null, sensitivity, or alternative-framework comparison leaves the executive-command-only reading essentially as good as the current architectural reading
+- **Route-specificity**: Later Taiwan or Australia work shows the current sentence is New-Zealand-specific in a way requiring narrower public wording
+- **Alternative framework victory**: Direct comparison with alternative frameworks (network governance, communicative planning, etc.) yields better explanation without needing SUF-specific vocabulary
 
 ### Supporting contribution candidates
 
@@ -43,11 +53,11 @@ It removes the flattening move that treats communication as an after-the-fact wr
 #### Candidate 3 — unity-like organization is route-specific, not a generic state label
 - The current route uses bounded empirical structure rather than generic praise language.
 - The package keeps weakening, null, and comparator logic explicit.
-- The route-local estimator is admitted as technical-facing but not a closed predictive theory.
+- The route-local structured evidence organizer is admitted as technical-facing but not a closed predictive theory.
 
 ### Lock rule
 
-The payoff sentence stays locked unless new evidence forces revision. Promotion to a stronger public sentence would require the same pattern to survive fuller ledgers, estimator hardening, sensitivity expansion, and at least one meaningful external comparison.
+The payoff sentence stays locked unless new evidence forces revision. Promotion to a stronger public sentence would require the same pattern to survive fuller ledgers, measurement hardening, sensitivity expansion, and at least one meaningful external comparison.
 
 ## Bounded rival positioning
 
@@ -73,6 +83,14 @@ The package is not yet making a full rival-framework victory claim. The current 
 - do not promote one route into proof of the whole framework
 - do not collapse modeling language into final ontology
 - do not claim that current route-local measurement settles cross-domain measurement
+
+## Predictive aspiration note
+
+UD currently provides **descriptive vocabulary** for unity-like organization, not predictive theory. This is an honest posture given the current empirical base.
+
+**Deferred aspiration:** If 3-case closure (New Zealand, Taiwan, Australia) yields stable I/C/L/U patterns across comparable coordination architectures, a targeted predictive test will be designed. The framework remains falsifiable in principle—specific weakening conditions are published—but predictive work is deferred until the empirical base supports it.
+
+**Implication:** SUF's strongest current contribution is architectural and methodological, not predictive. This is acknowledged as a limitation and a deferred aspiration, not a final stance.
 
 ## v1 academic bundle
 

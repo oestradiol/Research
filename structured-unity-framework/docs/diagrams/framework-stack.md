@@ -4,20 +4,19 @@
 flowchart TB
   subgraph theory [Theory layers]
     SP[Structural Phenomenology]
-    IAF[Informational Awareness Framework]
-    UDF[Unity Dynamics Framework]
-    FI[Framework Interface]
+    IA[Informational Awareness]
+    UD[Unity Dynamics Interface]
   end
-  SP --> IAF --> UDF
+  SP --> IA --> UD
   FI -. clarifies .-> SP
-  FI -. clarifies .-> IAF
-  FI -. clarifies .-> UDF
+  FI -. clarifies .-> IA
+  FI -. clarifies .-> UD
   RP[Research Program]
   LG[Literature Guide]
   APP[Applications Atlas]
   DR[Demonstrated Routes]
   RM[Research Map]
-  UDF --> RP
+  UD --> RP
   theory --> LG
   RP --> APP
   APP --> DR

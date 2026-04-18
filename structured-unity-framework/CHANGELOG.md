@@ -6,7 +6,7 @@
 
 ## `v1.2.0` - 2026-04-05
 
-Taiwan chapter-ready hosted release of Structured Unity Framework.
+Taiwan chapter-ready hosted release of Structured Unity Dynamics.
 
 ### Hosted history
 
@@ -25,7 +25,7 @@ Taiwan chapter-ready hosted release of Structured Unity Framework.
 
 ## `v1.1.0` - 2026-04-03
 
-New Zealand monograph-baseline hosted release of Structured Unity Framework.
+New Zealand monograph-baseline hosted release of Structured Unity Dynamics.
 
 ### Hosted history
 
@@ -35,13 +35,13 @@ New Zealand monograph-baseline hosted release of Structured Unity Framework.
 ### Included in this snapshot
 
 - New Zealand route carried forward as a `38`-event / `29`-event monograph-baseline core inside the locked windows rather than only an active-core route package
-- direct DPMC action-plan, operating-system, public-information, and Level 4 review anchors promoted into the public route-control layer
+- direct DPMC action-plan, operating-system, public-Informational Awarenessvel 4 review anchors promoted into the public route-control layer
 - explicit New Zealand monograph chapter notes and a table-and-figure plan added without breaking the existing route metrics or validators
 - status, roadmap, pending, academic-bundle, publication-scope, claims, payoff, and methods-facing surfaces synchronized to the new hosted release point
 
 ## `v1.0.1` - 2026-04-02
 
-Current publication-ready bounded hosted release of Structured Unity Framework.
+Current publication-ready bounded hosted release of Structured Unity Dynamics.
 
 ### Hosted history
 
@@ -58,7 +58,7 @@ Current publication-ready bounded hosted release of Structured Unity Framework.
 
 ## `v1.0.0` - 2026-04-02
 
-First publication-ready bounded hosted release of Structured Unity Framework.
+First publication-ready bounded hosted release of Structured Unity Dynamics.
 
 ### Hosted history
 
@@ -69,11 +69,11 @@ First publication-ready bounded hosted release of Structured Unity Framework.
 ### Included in this snapshot
 
 - New Zealand demonstrated route at `35` coded events with a `27`-event main perturbation interval
-- first route-local estimator implementation and bounded `I`, `C`, `L`, and conjoint window readouts
+- first route-local structured evidence organizer and bounded `I`, `C`, `L`, and conjoint window readouts
 - `14`-check sensitivity/null note
 - archive-clean DPMC and Police implementation-chain layer plus source-discovery control
 - Taiwan starter comparator at `12` archive-clean official events with one conservative lag pair
-- locked public payoff sentence and synchronized IAF downstream-role note
+- locked public payoff sentence and synchronized IA downstream-role note
 - public academic front-door and contribution framing consolidated under `docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 
 ## `v0.1.0` - 2026-04-01

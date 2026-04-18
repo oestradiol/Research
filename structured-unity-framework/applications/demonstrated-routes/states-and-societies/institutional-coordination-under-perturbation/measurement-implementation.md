@@ -1,4 +1,4 @@
-# Estimator Implementation
+# Measurement Implementation
 
 ## Purpose
 
@@ -177,4 +177,4 @@ Primary companions:
 
 ## Status
 
-`first route-local estimator implementation`
+`first route-local structured evidence organizer`

@@ -6,7 +6,7 @@ This node supplies the main formal toolkit for time-sensitive dependency analysi
 
 ## Why SUF applies here
 
-SUF needs a way to describe interaction structure through time. Temporal networks and dynamical-systems language provide that without forcing all routes into one estimator.
+SUF needs a way to describe interaction structure through time. Temporal networks and dynamical-systems language provide that without forcing all routes into one measurement protocol.
 
 ## Main objects of study
 

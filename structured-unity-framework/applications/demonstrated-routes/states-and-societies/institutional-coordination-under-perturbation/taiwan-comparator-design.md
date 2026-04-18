@@ -106,7 +106,7 @@ The current Taiwan tranche now includes:
 
 - one official corpus inventory
 - one denser seed event ledger beyond the original `12`-event starter
-- one bounded NZ-Taiwan comparison note using the same route-local estimator logic where applicable
+- one bounded NZ-Taiwan comparison note using the same route-local structured evidence organizer logic where applicable
 
 ## Comparability limits
 

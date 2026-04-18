@@ -158,8 +158,8 @@
       "extension": ".md"
     },
     {
-      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/estimator-implementation.md",
-      "category": "estimator-implementation.md",
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/measurement-implementation.md",
+      "category": "measurement-implementation.md",
       "extension": ".md"
     },
     {
@@ -398,11 +398,6 @@
       "extension": ".md"
     },
     {
-      "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md",
-      "category": "quantum-relational-ontology-and-consciousness.md",
-      "extension": ".md"
-    },
-    {
       "path": "structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/urban-and-regional-governance.md",
       "category": "urban-and-regional-governance.md",
       "extension": ".md"
@@ -518,8 +513,8 @@
       "extension": ".md"
     },
     {
-      "path": "structured-unity-framework/framework/iaf-downstream-role.md",
-      "category": "iaf-downstream-role.md",
+      "path": "structured-unity-framework/framework/ia-downstream-role.md",
+      "category": "ia-downstream-role.md",
       "extension": ".md"
     },
     {

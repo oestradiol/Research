@@ -20,8 +20,8 @@ Structured Unity Framework is the current academic core of the repository. It is
 ### Three substantive layers plus one bridge/control layer
 
 - **Structural Phenomenology** supplies the epistemic ground and boundary discipline.
-- **Informational Awareness Framework (IAF)** supplies the bounded modeling vocabulary and bridge language.
-- **Unity Dynamics Framework (UDF)** supplies the most technical-facing route-local measurement vocabulary.
+- **Informational Awareness (IA)** supplies the bounded modeling vocabulary and bridge language.
+- **Unity Dynamics (UD)** supplies the most technical-facing route-local measurement vocabulary.
 - **Framework Interface** is the **bridge/control** layer that stops silent hardening from modeling language into final ontology and keeps layer roles explicit.
 
 ### Why the stack is split
@@ -57,9 +57,9 @@ The framework does not stand alone from the research program.
 3. `framework/framework-interface.md`
 4. `framework/structural-phenomenology.md`
 5. `framework/structural-phenomenology-downstream-role.md`
-6. `framework/informational-awareness-framework.md`
-7. `framework/iaf-downstream-role.md`
-8. `framework/unity-dynamics-framework.md`
+6. `framework/Informational Awareness.md`
+7. `framework/ia-downstream-role.md`
+8. `framework/Unity Dynamics.md`
 9. `framework/research-program.md`
 
 ### Demonstrated-route path
@@ -87,7 +87,7 @@ The framework does not stand alone from the research program.
 
 Do not assume too early that:
 - one demonstrated route proves the whole stack
-- route-local estimators yield closed predictive theory
+- route-local structured evidence organizers yield closed predictive theory
 - current language settles cross-domain measurement
 - the framework is already a final ontology
 

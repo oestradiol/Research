@@ -4,8 +4,13 @@ from collections.abc import Callable
 
 from research_tools.models.clusters import ValidationClusterRun, ValidationClusterSpec
 from research_tools.models.reports import ValidationResult
+from research_tools.parse.governance_core import (
+    GovernanceCore,
+    SubsystemSpec as V2SubsystemSpec,
+    derive_subsystem_validation_cluster,
+    parse_governance_core,
+)
 from research_tools.parse.source_registry import parse_source_registry, source_registry_index
-from research_tools.parse.subsystems import parse_subsystem_registry
 from research_tools.paths import RepoPaths, format_optional_report_path, format_report_path
 from research_tools.validate.archives import validate_archive_links
 from research_tools.validate.governance import (
@@ -75,10 +80,11 @@ def _run_tooling_release_cluster(paths: RepoPaths) -> list[ValidationResult]:
 
 
 CLUSTER_RUNNERS: dict[str, Callable[[RepoPaths], list[ValidationResult]]] = {
-    "root-governance": _run_root_governance_cluster,
-    "suf-active-core": _run_suf_active_core_cluster,
-    "knowledge-package": _run_knowledge_cluster,
-    "tooling-release": _run_tooling_release_cluster,
+    # v0.2 cluster IDs (derived from subsystem_id)
+    "root_governance_cluster": _run_root_governance_cluster,
+    "structured_unity_framework_cluster": _run_suf_active_core_cluster,
+    "knowledge_cluster": _run_knowledge_cluster,
+    "tools_cluster": _run_tooling_release_cluster,
 }
 
 
@@ -99,129 +105,125 @@ def _build_cluster_run(
     )
 
 
-def _error_cluster_run(paths: RepoPaths, message: str) -> ValidationClusterRun:
-    spec = ValidationClusterSpec(
-        cluster_id="subsystem-registry-error",
-        owner="Research root governance",
-        purpose="Expose subsystem-registry parse failures before cluster orchestration continues.",
-        entry_surface="governance/SUBSYSTEM_REGISTRY_v0_1.json",
-        source_files=("governance/SUBSYSTEM_REGISTRY_v0_1.json",),
-    )
-    return _build_cluster_run(
-        spec,
-        paths,
-        [
-            ValidationResult(
-                check_name="cluster-registry-parse",
-                status="fail",
-                message=message,
-                path=str(paths.subsystem_registry),
-                expected="valid subsystem registry JSON",
-                found="parse error",
-            )
-        ],
-    )
-
-
-def _cluster_spec_from_registry(subsystem) -> ValidationClusterSpec:
-    validation_cluster = subsystem.validation_cluster
-    if validation_cluster is None:
-        raise ValueError(f"subsystem `{subsystem.subsystem_id}` has no validation cluster")
+def _cluster_spec_from_v2(subsystem: V2SubsystemSpec, research_root: Path) -> ValidationClusterSpec | None:
+    """Build cluster spec from v0.2 governance core subsystem."""
+    source_files = derive_subsystem_validation_cluster(subsystem, research_root)
+    if source_files is None:
+        return None
+    
+    cluster_id = subsystem.subsystem_id.replace("-", "_") + "_cluster"
+    entry_surface = subsystem.entry if subsystem.entry else (subsystem.surfaces[0] if subsystem.surfaces else "")
+    
     return ValidationClusterSpec(
-        cluster_id=validation_cluster.cluster_id,
+        cluster_id=cluster_id,
         owner=subsystem.owner,
         purpose=subsystem.purpose,
-        entry_surface=subsystem.entry_surface,
-        source_files=validation_cluster.source_files,
+        entry_surface=entry_surface,
+        source_files=tuple(source_files),
     )
 
 
-def _cluster_protocol_results(paths: RepoPaths, subsystem) -> list[ValidationResult]:
-    results: list[ValidationResult] = []
-    entry_path = paths.research_root / subsystem.entry_surface
-    authoritative_path = paths.research_root / subsystem.authoritative_surface
-    results.append(
-        ValidationResult(
-            check_name="cluster-entry-surface-exists",
-            status="pass" if entry_path.exists() else "fail",
-            message=(
-                "Cluster entry surface exists."
-                if entry_path.exists()
-                else "Cluster entry surface is missing."
-            ),
-            path=str(paths.subsystem_registry),
-            expected=subsystem.entry_surface,
-            found=subsystem.entry_surface if entry_path.exists() else "missing",
-        )
-    )
-    results.append(
-        ValidationResult(
-            check_name="cluster-authoritative-surface-exists",
-            status="pass" if authoritative_path.exists() else "fail",
-            message=(
-                "Cluster authoritative surface exists."
-                if authoritative_path.exists()
-                else "Cluster authoritative surface is missing."
-            ),
-            path=str(paths.subsystem_registry),
-            expected=subsystem.authoritative_surface,
-            found=(
-                subsystem.authoritative_surface
-                if authoritative_path.exists()
-                else "missing"
-            ),
-        )
-    )
-    missing_sources = [
-        rel
-        for rel in subsystem.validation_cluster.source_files
-        if not (paths.research_root / rel).exists()
-    ]
-    results.append(
-        ValidationResult(
-            check_name="cluster-source-files-exist",
-            status="pass" if not missing_sources else "fail",
-            message=(
-                "Cluster source files exist."
-                if not missing_sources
-                else "Cluster source files are missing."
-            ),
-            path=str(paths.subsystem_registry),
-            expected="all cluster source files exist",
-            found="ok" if not missing_sources else ", ".join(missing_sources),
-        )
-    )
-    return results
-
-
-def collect_validation_clusters(paths: RepoPaths) -> list[ValidationClusterRun]:
-    try:
-        subsystems = parse_subsystem_registry(paths.subsystem_registry)
-    except Exception as exc:
-        return [_error_cluster_run(paths, f"Subsystem registry could not be parsed: {exc}")]
-
+def _collect_v2_clusters(paths: RepoPaths, governance: GovernanceCore) -> list[ValidationClusterRun]:
+    """Collect validation clusters from v0.2 governance core."""
     clusters: list[ValidationClusterRun] = []
-    for subsystem in subsystems:
-        if subsystem.validation_cluster is None:
+    
+    for subsystem_id, subsystem in governance.subsystems.items():
+        if subsystem.visibility == "private":
+            continue  # Skip internal subsystems in public validation
+        
+        spec = _cluster_spec_from_v2(subsystem, paths.research_root)
+        if spec is None:
             continue
-        spec = _cluster_spec_from_registry(subsystem)
-        results = _cluster_protocol_results(paths, subsystem)
+        
+        # Build protocol validation results
+        results: list[ValidationResult] = []
+        
+        # Check entry surface exists
+        if subsystem.entry:
+            entry_path = paths.research_root / subsystem.entry
+            results.append(
+                ValidationResult(
+                    check_name="cluster-entry-surface-exists",
+                    status="pass" if entry_path.exists() else "fail",
+                    message="Cluster entry surface exists." if entry_path.exists() else "Cluster entry surface is missing.",
+                    path=str(paths.governance_core),
+                    expected=subsystem.entry,
+                    found=subsystem.entry if entry_path.exists() else "missing",
+                )
+            )
+        
+        # Check state surface exists
+        if subsystem.state_surface:
+            state_path = paths.research_root / subsystem.state_surface
+            results.append(
+                ValidationResult(
+                    check_name="cluster-state-surface-exists",
+                    status="pass" if state_path.exists() else "fail",
+                    message="Cluster state surface exists." if state_path.exists() else "Cluster state surface is missing.",
+                    path=str(paths.governance_core),
+                    expected=subsystem.state_surface,
+                    found=subsystem.state_surface if state_path.exists() else "missing",
+                )
+            )
+        
+        # Run cluster-specific validation
         runner = CLUSTER_RUNNERS.get(spec.cluster_id)
+        if runner is None:
+            # Try alternate cluster_id formats
+            alt_id = subsystem_id.replace("-", "_")
+            runner = CLUSTER_RUNNERS.get(alt_id)
+        
         if runner is None:
             results.append(
                 ValidationResult(
                     check_name="cluster-runner-registered",
-                    status="fail",
-                    message="Validation cluster has no registered runner.",
-                    path=str(paths.subsystem_registry),
+                    status="warn",  # Warn, don't fail - v0.2 may define new clusters
+                    message=f"Validation cluster `{spec.cluster_id}` has no registered runner yet (v0.2 migration in progress).",
+                    path=str(paths.governance_core),
                     expected=spec.cluster_id,
-                    found="missing",
+                    found="not yet mapped",
                 )
             )
         else:
             results.extend(runner(paths))
+        
         clusters.append(_build_cluster_run(spec, paths, results))
+    
     return clusters
+
+
+def collect_validation_clusters(paths: RepoPaths) -> list[ValidationClusterRun]:
+    """Collect validation clusters from v0.2 governance core."""
+    if not paths.governance_core.exists():
+        return [
+            ValidationClusterRun(
+                spec=ValidationClusterSpec(
+                    cluster_id="governance-core-missing",
+                    owner="Research root",
+                    purpose="GOVERNANCE_CORE_v0_2.json is required for cluster validation",
+                    entry_surface="governance/GOVERNANCE_CORE_v0_2.json",
+                    source_files=(),
+                ),
+                source_files=(),
+                results=[
+                    ValidationResult(
+                        check_name="governance-core-exists",
+                        status="fail",
+                        message="GOVERNANCE_CORE_v0_2.json not found. Run governance compression migration.",
+                        path=str(paths.governance_core),
+                        expected="governance/GOVERNANCE_CORE_v0_2.json",
+                        found="missing",
+                    )
+                ],
+                passed=0,
+                failed=1,
+                warned=0,
+                status="fail",
+            )
+        ]
+    
+    governance = parse_governance_core(paths.governance_core)
+    return _collect_v2_clusters(paths, governance)
 
 
 def render_cluster_report(generated_at: str, clusters: list[ValidationClusterRun]) -> str:

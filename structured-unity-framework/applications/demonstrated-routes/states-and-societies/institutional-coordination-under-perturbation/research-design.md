@@ -105,7 +105,7 @@ The route weakens the current framing if these patterns recur:
 
 ## Research posture
 
-This design is now sufficiently locked for public research use. What remains open are estimator implementation choices, corpus completeness, and later comparative execution, not the basic route architecture.
+This design is now sufficiently locked for public research use. What remains open are measurement implementation choices, corpus completeness, and later comparative execution, not the basic route architecture.
 
 ## Status
 

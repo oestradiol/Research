@@ -15,7 +15,7 @@ The package is now a **bounded public `v1.1.0` release** rather than only a draf
 - a canonical source registry plus materially populated standard and extended reading lists
 - an explicit comparative shortlist for later route extension
 
-The New Zealand route now also carries a route-local estimator implementation and a source-admission rule that accepts new official events only when both the live source and a fixed archive are verified.
+The New Zealand route now also carries a route-local structured evidence organizer and a source-admission rule that accepts new official events only when both the live source and a fixed archive are verified.
 
 Hosted publication mechanics are complete. Local metadata, licensing, package scaffolding, hosted URLs, and tagged release packaging are already in place; current `main` is aligned with the New Zealand monograph-baseline completion state, so the remaining burden is later comparator, closure, and tooling expansion rather than unfinished launch setup.
 
@@ -130,7 +130,7 @@ Use a dashboard-style conjoint signature, not a single scalar. Interpret `U` com
 
 ### Anti-fake-precision rule
 
-This document locks the bundle, not one final estimator for every route. It does not freeze one threshold system, one weighting scheme, or one aggregation formula across all future domains.
+This document locks the bundle, not one final measurement protocol for every route. It does not freeze one threshold system, one weighting scheme, or one aggregation formula across all future domains.
 
 The current public posture is therefore:
 
@@ -139,7 +139,7 @@ The current public posture is therefore:
 - thresholds are not domain-general
 - explanatory readout is stronger than predictive closure
 
-The package should not imply that current route-local estimators already yield objective cross-domain measurement or mature high-fit prediction.
+The package should not imply that current route-local structured evidence organizers already yield objective cross-domain measurement or mature high-fit prediction.
 
 ## 6. Coding schema and source-family rule
 
@@ -280,13 +280,13 @@ The `applications/research-map/` subtree now functions as the outward extension 
 - `00-foundations-and-methods/` records grounding and formalization clusters
 - `01-states-public-health-and-governance/` records the domains nearest the first route
 - `02-comparative-social-and-organizational-domains/` records institutional extension areas
-- `03-next-routes-and-frontiers/` records the first comparative extension and the higher-risk frontier set
+- `03-next-routes-and-frontiers/` records the first comparative extension
 
 ## 12. What remains open but non-blocking
 
 These items remain open without undermining the current research-ready public package:
 
-- transfer or refinement of the first route-local estimator layer beyond the current case
+- transfer or refinement of the first route-local structured evidence organizer layer beyond the current case
 - final corpus completeness for the New Zealand route
 - route-specific software or workflow choices for coding and analysis
 - deeper comparative execution beyond the current bounded Taiwan comparator
@@ -298,7 +298,7 @@ The canonical later completion path is now defined in [../docs/monograph-and-clo
 
 Readers are most likely to press on:
 
-- estimator underdetermination
+- measurement underdetermination
 - bounded comparator depth
 - route-to-framework generalization
 - alternative-framework comparison depth
@@ -308,7 +308,7 @@ This package addresses those pressures through:
 
 - explicit claim boundaries in `../docs/claims-and-boundaries.md`
 - the anti-fake-precision rule in this document
-- route-local estimator disclosure in the demonstrated route package
+- route-local structured evidence organizer disclosure in the demonstrated route package
 - published null and sensitivity logic rather than silent methodological confidence
 
 ## 14. Non-claims

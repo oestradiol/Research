@@ -13,7 +13,7 @@ Structural companion:
 - [First-Pass Window Comparison](first-pass-window-comparison.md)
 - [First-Pass Sensitivity and Null Note](first-pass-sensitivity-and-null-note.md)
 
-It is not a final estimator layer and it is not the completed route. It asks a simpler question: once the public route is forced to code real official coordination events, does SUF surface anything non-trivial yet?
+It is not a final measurement layer and it is not the completed route. It asks a simpler question: once the public route is forced to code real official coordination events, does SUF surface anything non-trivial yet?
 
 ## Readout rule
 
@@ -21,7 +21,7 @@ This pass stays deliberately simple:
 
 - one coded event bundle counts as one event
 - no final edge weighting is imposed yet
-- no lag estimator is forced where the public baseline ledger does not yet justify one
+- no lag measurement is forced where the public baseline ledger does not yet justify one
 - the point is to see whether the route already exposes structure that flatter crisis-language would blur
 
 ## Window-level snapshot
@@ -75,7 +75,7 @@ The perturbation interval is not just "more crisis." It shows:
 - a more border-, welfare-, legal-, public-information-, compliance-, and review-staging-heavy dependency mix once the fuller late-transition DPMC layer is added
 - a visibly thicker late-transition continuity layer rather than a sharp drop from late April into mid-May
 
-That is a meaningful route gain even before final estimators are built. It shows that the framework can separate:
+That is a meaningful route gain even before final measurements are completed. It shows that the framework can separate:
 
 - early strategic consolidation
 - high-acuity legal and implementation compression
@@ -86,7 +86,7 @@ That is a meaningful route gain even before final estimators are built. It shows
 
 The current public baseline ledger still does **not** support:
 
-- a fine-grained or unit-specific `L` estimator
+- a fine-grained or unit-specific `L` measurement
 - final edge weighting
 - strong comparative claims
 - outcome claims about success or failure
@@ -106,7 +106,7 @@ That is still bounded, but it is no longer empty.
 
 The next practical move is to keep the route empirical without overreaching:
 
-1. keep the current route-local estimator implementation fixed unless the denser route forces a rule change
+1. keep the current route-local structured evidence organizer fixed unless the denser route forces a rule change
 2. stress-test the current `I`, `C`, and `L` passes, the first conjoint window comparison, and the expanded sensitivity/null note against the now-`38`-event chain
 3. then keep external comparison bounded while the current `15`-event Taiwan branch is pressure-tested
 

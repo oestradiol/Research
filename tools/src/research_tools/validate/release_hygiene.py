@@ -8,6 +8,12 @@ from research_tools.models.reports import ValidationResult
 PLACEHOLDER_RE = re.compile(r"\b(TODO|FIXME)\b")
 ABSOLUTE_PATH_RE = re.compile(r"(/home/|/Users/|file://|vscode://)")
 IGNORED_DIR_NAMES = {".venv", ".pytest_cache", ".ruff_cache", "__pycache__", "out"}
+# Files that legitimately reference Internal/ as a boundary concept (not as leaks)
+INTERNAL_REF_EXCLUDED_PATHS = {
+    "knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md",
+    "governance/COMPRESSION_MIGRATION_PLAN_v0_2.md",
+    "governance/FEDERATION_AND_LAYERS_v0_2.md",
+}
 
 
 def validate_release_hygiene(research_root: Path) -> list[ValidationResult]:
@@ -27,7 +33,9 @@ def validate_release_hygiene(research_root: Path) -> list[ValidationResult]:
         if path.suffix in {".md", ".toml", ".cff"} and PLACEHOLDER_RE.search(text):
             placeholder_hits.append(str(path))
         if path.suffix in {".md", ".toml", ".cff"} and "Internal/" in text:
-            internal_hits.append(str(path))
+            rel_path = path.relative_to(research_root).as_posix()
+            if rel_path not in INTERNAL_REF_EXCLUDED_PATHS:
+                internal_hits.append(str(path))
         if path.suffix in {".md", ".toml", ".cff"} and ABSOLUTE_PATH_RE.search(text):
             absolute_path_hits.append(str(path))
 

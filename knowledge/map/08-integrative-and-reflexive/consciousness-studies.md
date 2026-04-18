@@ -39,7 +39,22 @@ Study consciousness as a cross-disciplinary problem spanning experience, mind, b
 
 One of the most delicate SUF-adjacent zones; useful, but strong claims should stay disciplined and typed.
 
-For a later-horizon sibling SUF frontier note, see [Quantum-Relational Ontology and Consciousness](../../../structured-unity-framework/applications/research-map/03-next-routes-and-frontiers/quantum-relational-ontology-and-consciousness.md). That note is a bounded SUF frontier branch, not a Knowledge core note.
+### Mandatory boundary tag for any SUF reference
+
+Any reference to SUF in this node must include explicit boundary discipline:
+
+```
+{SUF-boundary: SUF does not license consciousness attribution to non-human systems; 
+claims remain bounded to unity-like organization only}
+```
+
+**Tag variants:**
+- `{SUF-boundary: SUF-recedes}` — SUF not relevant to this specific claim
+- `{SUF-boundary: SUF-neutral}` — SUF provides structural vocabulary but no specific claim
+- `{SUF-boundary: SUF-supported}` — SUF provides methodological support (rare; requires explicit justification)
+
+**Validation:** `research-tools validate knowledge` checks for SUF references without boundary tags.
+
 
 ## Status
 

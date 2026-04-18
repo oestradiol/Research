@@ -8,7 +8,7 @@ This file is the first conjoint `I/C/L` comparison across the three currently lo
 - the main perturbation interval
 - Comparator B
 
-It is still a first-pass comparison. It uses the current [Event Ledger Seed](event-ledger-seed.md), [First-Pass `I` Summary](first-pass-i-summary.md), [First-Pass `C` Summary](first-pass-c-summary.md), and [First-Pass `L` Summary](first-pass-l-summary.md) without pretending the route already has a finished estimator stack.
+It is still a first-pass comparison. It uses the current [Event Ledger Seed](event-ledger-seed.md), [First-Pass `I` Summary](first-pass-i-summary.md), [First-Pass `C` Summary](first-pass-c-summary.md), and [First-Pass `L` Summary](first-pass-l-summary.md) without pretending the route already has a finished measurement stack.
 
 ## Comparison rule
 
@@ -84,7 +84,7 @@ That matters because it gives SUF a first bounded comparative payoff inside one 
 - the main interval is the densest and most fully integrated phase
 - Comparator B remains coordinated, but with narrower unit spread and shorter transition staging than the main interval's longer Level 3 preparation chain and denser April-to-early-May implementation layer
 
-This is still not a final estimator result, but it is more than description. It shows the route can separate windows by coordination form rather than only by date.
+This is still not a final measurement result, but it is more than description. It shows the route can separate windows by coordination form rather than only by date.
 
 ## Limits
 
@@ -100,7 +100,7 @@ This first conjoint pass still does **not** justify:
 
 The next practical move is to:
 
-1. test whether the current main-interval and Comparator B differences survive the current denser coding under explicit estimator rules
+1. test whether the current main-interval and Comparator B differences survive the current denser coding under explicit measurement rules
 2. extend D-family `D` and `E` coverage further only where the live-plus-fixed-archive rule is satisfied
 3. keep the external comparison bounded until a later tranche opens a fuller Taiwan de-escalation surface or a second comparator route
 

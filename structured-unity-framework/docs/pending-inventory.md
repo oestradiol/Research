@@ -43,59 +43,87 @@ No unresolved publication blocker or active-core repo-completion blocker remains
 
 ## C. Long-range phase ladder
 
-1. `completed` `v1.2` Taiwan chapter-ready completion.
-   Why it mattered: the Taiwan comparator needed to become chapter-ready rather than remaining a bounded starter pilot.
+```
+G[v1.2]{Taiwan-chapter-ready}+D+{completed}
+G[v1.3]{Australia-federal-comparator}+N>{strong-multi-case-closure}
+G[v1.4]{pandemic-governance-closure}+N>{chapter-readable-repo}
+G[v1.5]{analysis-ready-tooling}+N>{structured-exports,validators}
+G[v1.6]{research-ops-tooling}+N>{maintenance-helpers-post-pain}
+```
 
-2. `later` `v1.3` Australia federal comparator.
-   Why it matters: strong multi-case closure in bounded form needs a second real comparator, not only a deeper Taiwan branch.
+## C.1 Empirical thickening plan for locked payoff evolution
 
-3. `later` `v1.4` bounded pandemic-governance closure and monograph-grade repo.
-   Why it matters: the long-range finish line is a chapter-readable public research object, not only a stronger route package.
+The locked payoff sentence evolves through phases as the empirical base thickens:
 
-4. `later` `v1.5` analysis-ready tooling.
-   Why it matters: structured exports, monograph tables, and cross-case validators should follow stable empirical surfaces rather than outrun them.
+| Phase | Empirical Base | Target Size | Payoff Evolution | Gating Criteria |
+|---|---|---|---|---|
+| **Current** | NZ (38) + Taiwan (15) | 53 events | Bounded: "NZ case demonstrates..." | ✓ Hosted v1.2.0; chapter-ready comparator |
+| **Phase 2** | + Australia federal | +20-30 events | Comparative: "Cross-case suggests..." | Australia official corpus assembled; `18-25` events coded |
+| **Phase 3** | + non-pandemic case | +15-25 events | Domain-spanning: "Pattern holds across perturbation types..." | Case from different domain (e.g., natural disaster, cyber incident); `12-20` events |
+| **Phase 4** | + 2+ additional comparators | +30-50 events | Generalized: "Framework provides..." | 4+ cases with consistent I/C/L/U patterns; stable measurement across cases |
 
-5. `later` `v1.6` research-ops tooling.
-   Why it matters: maintenance helpers should follow actual upkeep pain, not precede it.
+### Phase 2: Australia federal comparator — requirements before start
+
+- [ ] Confirm Australia official source availability (audit/oversight reports comparable to NZ OAG/Royal Commission)
+- [ ] Define admission rule for federal vs. state-level coordination (scope decision)
+- [ ] Pre-commit to `18-25` event target before coding begins (anti-scope-creep)
+- [ ] Draft Australia-specific coding protocol amendments (if needed)
+- [ ] Add Australia to `../ROADMAP.md` as active phase
+
+### Weakening conditions (from CONTRIBUTION_AND_POSITIONING.md)
+
+Revise or weaken locked payoff if:
+- **Boundary changes**: Taiwan/Australia show public-information as consistently downstream
+- **Coding fragility**: Review shows dependence on ≤5 fragile judgment calls
+- **Comparator pressure**: Null/alternative-framework comparison leaves executive-command-only reading equally good
+- **Route-specificity**: Later work shows sentence is NZ-specific requiring narrower wording
+- **Alternative framework victory**: Direct comparison yields better explanation without SUF vocabulary
 
 ## D. Still deferred after the long-range phase ladder
 
-1. `deferred` Any direct public-doc rewriting.
-   Why it matters: the current tooling posture remains read-only by rule.
+```
+Q[public-doc-rewrite]{blocked:read-only-posture}
+Q[additional-routes]{blocked:discipline>dilution-risk}
+Q[html-mirror]{blocked:optional-convenience}
+Q[atlas-growth]{blocked:breadth≠validation}
+```
 
-2. `deferred` Additional bounded application routes beyond the pandemic-governance closure target.
-   Why it matters: route growth should remain disciplined and should not dilute the locked finish line.
+## E. Current watchpoints
 
-3. `deferred` HTML or GitHub Pages mirror work.
-   Why it matters: this is optional convenience infrastructure, not required for the monograph-grade repo target.
+```
+W[Taiwan-wording]{chapter-ready≠chapter-readiness-pass}
+W[knowledge-scope]{SUF-role:foregrounded-only}
+W[validator-confidence]{phrase-check≠human-judgment}
+W[interface-drift]{bridge-layer≠peer-theory-layer}
+```
 
-4. `deferred` Atlas growth beyond the targeted map.
-   Why it matters: breadth should not be mistaken for validation.
+## F. Long-horizon frontier branches — REJECTED
 
-## E. Current watchpoints after the refactor pass
+```
+Q[consciousness-branch]{REJECTED:frontier-stack-purged}
+Q[simulation-branch]{REJECTED:frontier-stack-purged}
+Q[AGI-branch]{REJECTED:frontier-stack-purged}
+```
 
-1. `watch` Taiwan wording around **chapter-ready** versus **chapter-readiness pass**.
-   Why it matters: later control prose should not silently promote the active `v1.2` burden into already-closed chapter status.
+All speculative frontier extensions (quantum-relational ontology/consciousness, computational simulation, AGI) have been **explicitly rejected** and removed from the framework trajectory. These aspirational branches created a "false sense of rigor" — elaborate governance apparatus around underdetermined target concepts beyond SUF's empirical base.
 
-2. `watch` Knowledge role-enforcement scope.
-   Why it matters: SUF-role and handoff discipline should stay strongest where SUF is genuinely foregrounded, especially deepened hub notes, without spreading into noisy universal enforcement.
+SUF remains strictly bounded to states/societies institutional coordination with demonstrated empirical grounding.
 
-3. `watch` validator false confidence from phrase-only checks.
-   Why it matters: the current validators catch tracked wording, links, and selected overclaim phrases, but they do not replace human review or deep semantic judgment.
+## G. Archived nodes — REOPEN REQUIRES JUSTIFICATION
 
-4. `watch` any future re-expansion of Framework Interface into a peer theory-layer voice.
-   Why it matters: the current package now depends on keeping Interface as a bridge/control layer rather than letting it drift back into four-peer-layer wording.
+```
+A[ai-coordination]{archived:2026-04-17|reopen-requires:monograph-complete+500wd-justification}
+```
 
-## F. Long-horizon frontier branches
+AI coordination node archived per D6 decision (2026-04-17). Adjacent to rejected AGI frontier; trend-chasing risk high. Legitimate interest preserved but deferred to post-monograph phase.
 
-1. `deferred` Quantum-relational ontology and consciousness branch.
-   Why it matters: deeper formalization and rival-theory comparison still belong after the empirical monograph-grade program.
-
-2. `deferred` Computational or simulation-universe branch.
-   Why it matters: this remains intentionally quarantined until a dedicated compatibility table exists.
-
-3. `deferred` AGI SUF branch.
-   Why it matters: this remains later than both the consciousness and computational branches and should not be collapsed into the current AI coordination frontier.
+**Reopen criteria:**
+- Monograph-grade repo achieved (Phase 4 complete)
+- 500-word explicit justification addressing:
+  - Fit within "states/societies institutional coordination" scope
+  - SUF methodological value-add beyond existing literature
+  - Anti-anthropomorphism discipline for this domain
+  - Resource availability
 
 ## Status
 

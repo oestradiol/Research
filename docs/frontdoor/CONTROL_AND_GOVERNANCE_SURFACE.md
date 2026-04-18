@@ -157,6 +157,8 @@ Default trust order:
 4. supportive prose and historical notes
 5. prompt-local memory
 
+Actors should navigate by scope, not by convenience.
+
 ## Skeptical audit
 
 The repository should default to adversarial honesty rather than cooperative drift. Human proposals, agent proposals, and inherited structure should all be treated as possibly incomplete, possibly wrong, or insufficiently grounded until checked against files, tests, sources, or explicit review.

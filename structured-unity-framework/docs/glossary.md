@@ -8,8 +8,8 @@ Use this file to **stabilize vocabulary** in public reading. High-risk terms are
 
 - **Awareness (field)** — Epistemic starting point: what is given in experience; not used here as a proof of a particular ontology.  
 - **Structure** — Relational organization of recurring patterns **within** experience (Structural Phenomenology).  
-- **Information (in IAF)** — Distinguishable content and relations modeled **within** the awareness-information modeling stance; not reified as ultimate substance.  
-- **Integration (I)** — Mutual constraint and dependency across parts of a system (Unity Dynamics Framework).  
+- **Information (in IA)** — Distinguishable content and relations modeled **within** the awareness-information modeling stance; not reified as ultimate substance.  
+- **Integration (I)** — Mutual constraint and dependency across parts of a system (Unity Dynamics).  
 - **Coherence (C)** — Alignment, persistence, and organized consistency of dynamics through time.  
 - **Latency (L)** — Delays in propagation, feedback, and coordination—**modulates** scales at which unity-like organization is visible; not assumed to be only a binary “low is good” gate.  
 - **Unity-like organization (U)** — Operational/dynamic readout at explicit **(τ, σ)**; **not** direct phenomenology.  
@@ -17,13 +17,11 @@ Use this file to **stabilize vocabulary** in public reading. High-risk terms are
 - **Research Program** — Public methods layer (`framework/research-program.md`).  
 - **Literature Guide** — Citation-routing scaffold (`framework/literature-guide.md`).  
 
-## 3. High-risk terms (use with caution)
+## 3. High-risk terms
 
-- **Consciousness** — Prefer **unity-like** / coordination language for institutional scales unless claim is explicitly typed and scoped.  
-- **Subjectivity** — Use **subjectivity-like** only when interpretive extension is intended.  
-- **Monism** — Avoid as a public label for the stack; the project uses a **modeling stance** instead of ontological closure.  
-- **God, spirit, universe-consciousness, child-universe** — Quarantined or poetic unless explicitly marked speculative/interpretive.  
-- **AGI** — Not a core claim of this package.  
+**REJECTED:** AGI, child-universe, universe-consciousness, simulation-as-substrate.
+
+**High-risk (bounded use):** consciousness (literature/phenomenology only), subjectivity (phenomenology only).  
 
 ## 4. Package-preferred equivalents
 

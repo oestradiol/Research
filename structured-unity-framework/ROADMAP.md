@@ -28,7 +28,7 @@ See [Monograph and Closure Program](docs/monograph-and-closure-program.md).
 
 ## 4. Boundary rules for later work
 
-- keep the current event schema, source-admission rule, window logic, and route-local estimator posture unless the methods docs are revised first
+- keep the current event schema, source-admission rule, window logic, and route-local structured evidence organizer posture unless the methods docs are revised first
 - keep docs canonical and tools read-only
 - keep comparator order as `Taiwan -> Australia -> later optional comparator` unless the comparative rule is explicitly revised
 - keep closure bounded to pandemic-governance inside the current route family

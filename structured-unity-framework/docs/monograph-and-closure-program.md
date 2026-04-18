@@ -44,7 +44,7 @@ These defaults stay in force unless the methods docs are revised first and the r
 - keep the current event schema as the public route contract
 - keep the live-plus-fixed-archive source-admission rule
 - keep the current window logic unless stronger source evidence forces an explicit revision
-- keep the route-local estimator posture rather than introducing a universal scalar
+- keep the route-local structured evidence organizer posture rather than introducing a universal scalar
 - keep docs canonical and tools read-only
 
 Locked planning defaults:
@@ -125,7 +125,7 @@ Required work:
 - force every high-priority candidate into `promoted`, `rejected`, or `held with durable reason`
 - deepen the New Zealand ledger until the unresolved queue is low-priority rather than structurally important
 - upgrade current first-pass surfaces into stable monograph-baseline interpretation surfaces where the evidence now supports it
-- produce chapter-ready New Zealand evidence mapping across architecture, escalation, implementation thickening, late-transition authority and review, de-escalation, estimator, nulls, and weakening conditions
+- produce chapter-ready New Zealand evidence mapping across architecture, escalation, implementation thickening, late-transition authority and review, de-escalation, measurement, nulls, and weakening conditions
 - plan every stable monograph-facing New Zealand table and figure in canonical docs before any analysis-ready export work begins
 
 Exit gate:
@@ -168,7 +168,7 @@ Required work:
 - build around National Cabinet, AHPPC, Commonwealth border and quarantine coordination, public-health command, and official inquiry material
 - include only the minimum state-interface layer needed for dependency chains
 - keep the route bounded enough that federal complexity does not destroy comparability
-- produce a parallel bounded route package with design, corpus, discovery, ledger, estimator, comparison, and limits surfaces
+- produce a parallel bounded route package with design, corpus, discovery, ledger, measurement, comparison, and limits surfaces
 
 Exit gate:
 

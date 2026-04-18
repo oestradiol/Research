@@ -22,6 +22,19 @@ Do next:
 - complete the Taiwan chapter-readiness pass in bounded form
 - run minimum challenge tooling in parallel so live claims keep explicit inferential pressure during Taiwan work
 
+### Taiwan chapter-ready threshold (all required)
+
+- 20+ events in Taiwan event ledger
+- Lag subsection or explicit lag-limit section in route docs
+- Evidence map aligned to monograph TOC
+- No high-priority source candidates unresolved in discovery queue
+
+### Execution cap
+
+- **Week 4 checkpoint (2026-05-15):** Assess 50% progress toward threshold
+- **8-week cap (2026-06-12):** If threshold not met, escalate to "cap vs. continue" decision
+- **Australia source risk check at week 4:** If critical Australia sources at risk, consider bounded parallel opening
+
 Do after that:
 
 - open Australia in tightly bounded federal comparator form

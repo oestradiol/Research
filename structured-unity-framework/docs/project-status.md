@@ -1,6 +1,6 @@
 # Project Status
 
-This file is the current-state summary for the public package on `main`. Use `current-execution-order.md` for the shortest live sequencing surface, `monograph-and-closure-program.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred or optional later work.
+This file is the current-state summary for the public package on `main`. Use `current-execution-order.md` for the shortest live sequencing surface, `monograph-and-closure-program.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred Informational Awareness.
 
 ## 1. Status-surface rule
 
@@ -10,13 +10,13 @@ Use the public status files by role:
 - `current-execution-order.md` = shortest live execution order for the active `v1.x` pass
 - `monograph-and-closure-program.md` = canonical long-range program
 - `../ROADMAP.md` = compressed future-facing direction
-- `pending-inventory.md` = deferred or optional later work
+- `pending-inventory.md` = deferred Informational Awareness
 
 ## 2. Current package posture
 
 **`v1.2.0`** names the dated hosted snapshot in this tree (**2026-04-05**).
 
-Current `main` is aligned with the hosted `v1.2.0` Taiwan chapter-ready release for the public package. The framework core is in place, the New Zealand route includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a bounded New Zealand monograph baseline. The Taiwan comparator is now chapter-ready with a `15`-event archive-clean official tranche, bounded command/EOC architecture visibility, and retrospective/oversight closure through a December 2024 White Paper with a verified Wayback archive. The locked payoff sentence has been pressure-tested and retained, the IAF downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and package hygiene.
+Current `main` is aligned with the hosted `v1.2.0` Taiwan chapter-ready release for the public package. The framework core is in place, the New Zealand route includes a `38`-event public ledger with a `29`-event main perturbation interval, a resolved high-priority discovery queue inside the locked windows, a direct DPMC action-plan and architecture layer, and a bounded New Zealand monograph baseline. The Taiwan comparator is now chapter-ready with a `15`-event archive-clean official tranche, bounded command/EOC architecture visibility, and retrospective/oversight closure through a December 2024 White Paper with a verified Wayback archive. The locked payoff sentence has been pressure-tested and retained, the IA downstream-role note is synchronized to the route-visible evidence, and the shared tooling package remains a read-only validation and reporting layer for route metrics, comparison surfaces, and package hygiene.
 
 Local git initialization, licensing, maintainer metadata, umbrella-repo placement, public remote creation, hosted URLs, and changelog grounding are complete. No remaining launch blocker or active-core repository-assembly blocker is left inside the current repository state.
 
@@ -31,7 +31,7 @@ It is still **not** a claim of universal proof and **not** a closed empirical mo
 - late-transition DPMC authority-routing and review papers plus direct action-plan and architecture anchors promoted into the live route
 - Taiwan comparator completed to chapter-ready with `15` archive-clean official events, bounded command/EOC architecture visibility, and retrospective/oversight closure
 - locked payoff sentence pressure-tested and retained
-- public IAF downstream-role clarification synchronized with the denser NZ/Taiwan evidence
+- public IA downstream-role clarification synchronized with the denser NZ/Taiwan evidence
 - tooling-ready read-only validation and reporting extended across route, comparison, and release-hygiene surfaces
 - reviewer-objections and evidence-status audit surfaces added for clearer academic scrutiny
 
@@ -74,7 +74,7 @@ That claim is now supported by:
 - the public architecture: docs, framework, applications atlas, meta layer, references, diagrams, and tooling
 - the three substantive layers plus bridge/control layer and boundary discipline
 - the applications split between demonstrated routes and research-map nodes
-- the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event public ledger, monograph-baseline chapter notes, first-pass metric companions, route-local estimator implementation, and `14`-check sensitivity/null note
+- the New Zealand route boundary, unit architecture, scales, windows, primary measurement bundle, source-discovery workflow, `38`-event public ledger, monograph-baseline chapter notes, first-pass metric companions, route-local structured evidence organizer, and `14`-check sensitivity/null note
 - the current direct DPMC and Police implementation-chain source layer admitted only with live plus fixed-archive support
 - the Taiwan comparator design, extended official corpus inventory, `15`-event bounded ledger, one conservative lag pair, and the bounded NZ-Taiwan comparison note
 - the read-only tooling layer for route, comparison, version, link, archive, knowledge, and release-hygiene validation
@@ -90,7 +90,7 @@ That claim is now supported by:
 
 ## 8. Current route status
 
-The New Zealand package is now a **monograph-baseline demonstrated route** supported by a working design stack, hardened public corpus inventory, source-discovery log, a `38`-event public ledger, direct DPMC architecture and review anchors, route-local estimator implementation, bounded chapter scaffolding, first-pass metric companions, and a `14`-check sensitivity/null note.
+The New Zealand package is now a **monograph-baseline demonstrated route** supported by a working design stack, hardened public corpus inventory, source-discovery log, a `38`-event public ledger, direct DPMC architecture and review anchors, route-local structured evidence organizer, bounded chapter scaffolding, first-pass metric companions, and a `14`-check sensitivity/null note.
 
 The Taiwan branch is now a **bounded comparator** rather than a starter-only pilot. It is still thinner than the New Zealand route and still lacks a distinct emergency-management layer, but it now includes early onboard-quarantine routing, an airport operating layer, a clearer health/border split, and one public-alignment surface.
 
@@ -105,7 +105,7 @@ The public atlas is active and intentionally targeted. It maps plausible next do
 This branch clarified four lessons that should remain explicit in later control work:
 
 - Taiwan wording should stay disciplined: the live burden is an active **chapter-readiness pass**, not a silently completed chapter, unless later evidence actually justifies stronger wording.
-- Framework Interface should remain the **bridge/control layer**, not drift back into a fourth peer theory-layer voice.
+- Unity Dynamics Interface should remain the **bridge/control layer**, not drift back into a fourth peer theory-layer voice.
 - Knowledge should stay explicit about SUF role and handoff when SUF is foregrounded, especially in deepened hub notes.
 - the validator layer is now a **read-only drift detector** for tracked wording, link/status consistency, Knowledge-role and handoff discipline, and selected overclaim phrases; it is not a truth adjudicator, not deep semantic review, and not a replacement for human judgment.
 
@@ -117,7 +117,7 @@ These lessons are part of the current control state, not only branch-local histo
 - boundaries: `docs/claims-and-boundaries.md`
 - contribution candidates: `docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 - methods: `framework/research-program.md`
-- IAF clarification: `framework/iaf-downstream-role.md`
+- IA clarification: `framework/ia-downstream-role.md`
 - audit objections: `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 - evidence status: `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 - applications: `applications/README.md`

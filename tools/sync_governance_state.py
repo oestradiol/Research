@@ -1,3 +1,10 @@
+"""Sync governance state for v0_2 consolidated governance.
+
+Per ADR-0003 and COMPRESSION_MIGRATION_PLAN_v0_2:
+- REGISTRY_MANIFEST_v0_2.json contains full file catalog with SHA256
+- INTEGRITY_MANIFEST is derived at validation time from GOVERNANCE_CORE.current_surfaces
+"""
+
 from __future__ import annotations
 
 import argparse
@@ -16,71 +23,127 @@ def _sha(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def _actual_files(repo_root: Path, scope_prefix: str) -> list[str]:
+def _actual_files(repo_root: Path, scope_prefix: str = "") -> list[str]:
     files = iter_truth_files(repo_root)
     if scope_prefix:
         files = [rel for rel in files if rel.startswith(scope_prefix)]
-    return files
-
-
-def _category(path: str) -> str:
-    name = Path(path).name
-    return name if name else path
+    return sorted(files)
 
 
 def _write_json(path: Path, data: object) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
-def sync_registry(registry_path: Path) -> None:
-    repo_root = BASE
+def sync_registry_manifest_v2(registry_path: Path, repo_root: Path) -> None:
+    """Sync REGISTRY_MANIFEST_v0_2.json with current file tree state."""
     registry = json.loads(registry_path.read_text(encoding='utf-8'))
-    scope_prefix = registry['scope_prefix']
-    files = _actual_files(repo_root, scope_prefix)
+    
+    # Build full file catalog with SHA256
+    files = _actual_files(repo_root, "")
     registry['files'] = [
-        {'path': rel, 'category': _category(rel), 'extension': Path(rel).suffix or '[none]'}
+        {
+            'path': rel,
+            'sha256': _sha(repo_root / rel),
+            'size_bytes': (repo_root / rel).stat().st_size
+        }
         for rel in files
     ]
+    registry['file_count'] = len(files)
+    registry['updated'] = hashlib.sha256(str(Path().stat()).encode()).hexdigest()[:8]  # Simple timestamp proxy
+    
     _write_json(registry_path, registry)
+    print(f"Synced {registry['file_count']} files to {registry_path.name}")
 
 
-def sync_manifest(manifest_path: Path) -> None:
-    repo_root = BASE
-    manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
-    manifest['files'] = [
-        {'path': entry['path'], 'sha256': _sha(repo_root / entry['path'])}
-        for entry in manifest['files']
-    ]
-    _write_json(manifest_path, manifest)
-
-
-def sync_edit_baseline(baseline_path: Path) -> None:
-    baseline_rel = baseline_path.relative_to(BASE).as_posix()
-    files = [rel for rel in _actual_files(BASE, "") if rel != baseline_rel]
-    baseline = {"version": "0.1.0", "files": [{"path": rel, "sha256": _sha(BASE / rel)} for rel in files]}
-    _write_json(baseline_path, baseline)
+def derive_integrity_manifest_v2(
+    governance_core_path: Path,
+    registry_manifest_path: Path,
+    output_path: Path | None = None,
+) -> dict:
+    """Derive integrity manifest from GOVERNANCE_CORE.current_surfaces + REGISTRY_MANIFEST.
+    
+    Per v0_2 design: integrity is computed, not stored statically.
+    """
+    gov = json.loads(governance_core_path.read_text(encoding='utf-8'))
+    reg = json.loads(registry_manifest_path.read_text(encoding='utf-8'))
+    
+    # Build lookup from registry
+    sha_lookup = {f['path']: f['sha256'] for f in reg['files']}
+    
+    # Collect all current surface paths from governance core
+    current = gov['current_surfaces']
+    paths_to_check = []
+    paths_to_check.extend(current['root_entrypoints'])
+    paths_to_check.extend(current['root_governance'])
+    paths_to_check.extend(current['package_entrypoints'].values())
+    paths_to_check.append(current['assisted_use'])
+    
+    # Add subsystem state surfaces
+    for subsys in gov['subsystems'].values():
+        if subsys.get('state_surface'):
+            paths_to_check.append(subsys['state_surface'])
+        if subsys.get('entry'):
+            paths_to_check.append(subsys['entry'])
+        if subsys.get('validation_policy'):
+            paths_to_check.append(subsys['validation_policy'])
+        if subsys.get('surfaces'):
+            paths_to_check.extend(subsys['surfaces'])
+    
+    # Deduplicate
+    seen = set()
+    unique_paths = []
+    for p in paths_to_check:
+        if p not in seen:
+            seen.add(p)
+            unique_paths.append(p)
+    
+    # Build integrity manifest
+    integrity = {
+        'version': '0.2.0-derived',
+        'purpose': 'Derived from GOVERNANCE_CORE_v0_2 + REGISTRY_MANIFEST_v0_2',
+        'algorithm': 'sha256',
+        'file_count': len(unique_paths),
+        'files': [
+            {
+                'path': p,
+                'sha256': sha_lookup.get(p, '[file-not-in-registry]'),
+                'status': 'current' if p in sha_lookup else 'missing'
+            }
+            for p in unique_paths
+        ]
+    }
+    
+    if output_path:
+        _write_json(output_path, integrity)
+        print(f"Derived integrity manifest: {len(unique_paths)} current surfaces -> {output_path.name}")
+    
+    return integrity
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--include-edit-baseline", action="store_true")
+    parser = argparse.ArgumentParser(description='Sync v0_2 governance state')
+    parser.add_argument('--derive-integrity', action='store_true',
+                        help='Derive integrity manifest from current surfaces')
+    parser.add_argument('--output-integrity', type=Path, default=None,
+                        help='Output path for derived integrity manifest')
     args = parser.parse_args()
 
-    for rel in [
-        'governance/REPOSITORY_FILE_REGISTRY_v0_1.json',
-        'structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json',
-    ]:
-        sync_registry(BASE / rel)
-    for rel in [
-        'governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json',
-        'structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json',
-    ]:
-        sync_manifest(BASE / rel)
-    if args.include_edit_baseline:
-        sync_edit_baseline(BASE / 'governance/REPOSITORY_EDIT_BASELINE_v0_1.json')
-        print('Synced repository file registries, integrity manifests, and edit baseline.')
+    gov_core = BASE / 'governance/GOVERNANCE_CORE_v0_2.json'
+    reg_manifest = BASE / 'governance/REGISTRY_MANIFEST_v0_2.json'
+    
+    # Sync registry manifest
+    sync_registry_manifest_v2(reg_manifest, BASE)
+    
+    # Derive integrity if requested
+    if args.derive_integrity:
+        derive_integrity_manifest_v2(
+            gov_core,
+            reg_manifest,
+            args.output_integrity or BASE / 'governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json'
+        )
+        print('Governance state synced and integrity manifest derived.')
     else:
-        print('Synced repository file registries and integrity manifests.')
+        print('Governance state synced. Use --derive-integrity to compute current surface integrity.')
 
 
 if __name__ == '__main__':

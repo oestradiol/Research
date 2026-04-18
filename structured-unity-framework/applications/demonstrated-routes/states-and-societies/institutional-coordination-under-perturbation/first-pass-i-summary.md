@@ -4,7 +4,7 @@
 
 This file is the first minimal integration summary for the New Zealand demonstrated route.
 
-It is intentionally pre-final. It uses the current [Event Ledger Seed](event-ledger-seed.md) and [First-Pass Dependency Graph](first-pass-dependency-graph.md) to produce a cautious `I` readout without pretending the route already has a finished estimator stack.
+It is intentionally pre-final. It uses the current [Event Ledger Seed](event-ledger-seed.md) and [First-Pass Dependency Graph](first-pass-dependency-graph.md) to produce a cautious `I` readout without pretending the route already has a finished measurement stack.
 
 ## Rule for this pass
 
@@ -16,7 +16,7 @@ This `I` summary uses only simple public proxies:
 - cross-cluster routing share
 - issuing concentration
 
-These are route-support proxies, not final estimator choices.
+These are route-support proxies, not final measurement choices.
 
 ## Current proxy snapshot
 
@@ -102,9 +102,13 @@ This first pass still lacks:
 
 The next build sequence should be:
 
-1. keep the current route-local estimator implementation fixed unless new evidence forces a rule change
+1. keep the current route-local structured evidence organizer fixed unless new evidence forces a rule change
 2. stress-test the conjoint `I/C/L` window comparison against the now-`38`-event ledger and the deeper Taiwan tranche
 3. then deepen the ledger further only with newly admitted durable D-family `D` and `E` material
+
+## Handoff Statement
+
+This operationalization traces: **SP field/structure** → **IA distinction/dependency edges** → **UD I (Integration via directed-edge proxies)**
 
 ## Status
 

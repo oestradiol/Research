@@ -10,9 +10,11 @@ High-impact words trigger category drift across phenomenology, science, metaphys
 - **modeling stance**, **shared relational frame**, **operational readout**, and **correspondence** for public theory prose
 - **multi-agent coordination**, **oversight**, and **socio-technical systems** before anthropomorphic AI language
 
-## 3. High-risk terms and caution rules
+## 3. High-risk terms
 
-**Consciousness, subjectivity, self, spirit, God, universe-consciousness, AGI, child-universe, monism** require explicit scope, claim type, and audience awareness. Broad package prose should prefer lower-risk alternatives.
+**REJECTED from framework:** AGI, child-universe/universe-consciousness, simulation-as-substrate, quantum-consciousness extensions.
+
+**High-risk (bounded use only):** consciousness (literature/phenomenology only), subjectivity (phenomenology only), self (with scope discipline).
 
 ## 4. AI-language policy
 

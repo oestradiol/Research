@@ -1,8 +1,8 @@
-# Informational Awareness Framework
+# Informational Awareness
 
 ## 1. Purpose
 
-Informational Awareness Framework is the **structural modeling and bridge** layer. It extends Structural Phenomenology without replacing it. After awareness is given and structure appears within experience, this layer asks how **distinctions** can be modeled as **information**, how relations **stabilize** into structures, how **self-models** and **world-models** emerge, and how **recursive** organization can yield nested informational subfields.
+Informational Awareness is the **structural modeling and bridge** layer. It extends Structural Phenomenology without replacing it. After awareness is given and structure appears within experience, this layer asks how **distinctions** can be modeled as **information**, how relations **stabilize** into structures, how **self-models** and **world-models** emerge, and how **recursive** organization can yield nested informational subfields.
 
 This document presents a **structural modeling lens**, not a final ontology and not a finished technical theory. The older public label “monism” was dropped because the project wants the modeling insight without unnecessary ontological overclaim. Awareness and information are treated together through a **shared relational modeling frame** for methodological purposes, not as a demonstrated hidden substance.
 
@@ -17,13 +17,13 @@ It **does** claim that awareness and information can be modeled together through
 A plain translation of the extra move is:
 
 - Structural Phenomenology says structure is given in experience.
-- IAF adds a way to talk about systems that not only have structure, but also make, pass along, and update meaningful distinctions through feedback loops.
+- IA adds a way to talk about systems that not only have structure, but also make, pass along, and update meaningful distinctions through feedback loops.
 
 ## 3. Why informational language appears here
 
 It supports **distinction**, **stabilization**, **recursion**, and **multi-scale organization** without prematurely fixing physics or metaphysics, while remaining **subordinate** to Structural Phenomenology.
 
-At the current public stage, this role is mainly a **modeling vocabulary** and bridge into later operational work. It is not yet a closed formalism with final equations, universal estimators, or fixed measurement rules across domains.
+At the current public stage, this role is mainly a **modeling vocabulary** and bridge into later operational work. It is not yet a closed formalism with final equations, universal measurement protocols, or fixed measurement rules across domains.
 
 ## 4. Inherited base from Structural Phenomenology
 
@@ -31,17 +31,17 @@ At the current public stage, this role is mainly a **modeling vocabulary** and b
 **[ASSUMPTION]** Patterned content appears within awareness.  
 **[ASSUMPTION]** Structure is relational encoding inside experience.
 
-Informational Awareness Framework **uses** this base; it does not re-argue the starting point. Structural Phenomenology remains the **constraint layer**; whatever ontological interpretation might follow must remain **weaker** than the modeling discipline upstream.
+Informational Awareness **uses** this base; it does not re-argue the starting point. Structural Phenomenology remains the **constraint layer**; whatever ontological interpretation might follow must remain **weaker** than the modeling discipline upstream.
 
 ## 5. Main modeling claim
 
 **[ASSUMPTION]** Awareness and information can be modeled together through a **shared relational frame** for describing emergent organization.
 
-This means: awareness is the field in which distinctions are noticed; information is distinguishable content within that field; repeated distinctions stabilize into structure; stable structure supports self-models and world-models; sufficiently deep recursive modeling may generate nested informational subfields. It does **not** mean reducibility to information as final ontology, hidden physical substance, proved physical closure, or literal multiverse generation.
+This means: awareness is the field in which distinctions are noticed; information is distinguishable content within that field; repeated distinctions stabilize into structure; stable structure supports self-models and world-models. It does **not** mean reducibility to information as final ontology, hidden physical substance, or literal multiverse generation.
 
 ## 6. Core terms (disambiguation)
 
-In this layer, **“I”** means **information / distinction units** (IAF). In Unity Dynamics Framework, **I** means **Integration**—different construct.
+In this layer, **“I”** means **information / distinction units** (IA). In Unity Dynamics, **I** means **Integration**—different construct.
 
 - **Awareness field (A)** — **[AXIOM / MODEL-STANCE]** Field in which distinctions appear; not introduced as a derived object.  
 - **Information units (I)** — **[ASSUMPTION]** Discrete events, distinctions, or informational changes within **A** (not necessarily binary bits).  
@@ -58,38 +58,36 @@ Plain-language anchors:
 
 ## 7. Generative sequence (single chain)
 
-**Awareness field (A) → information / distinction (I) → relational stabilization → patterns / structures (S) → self-model + world-model (SM + WM) → recursive projection → nested informational subfield (A′).**
+**Awareness field (A) → information / distinction (I) → relational stabilization → patterns / structures (S) → self-model + world-model (SM + WM).**
 
 This chain is **methodological**: it shows how organizational description is built **stepwise** inside the field. It does not posit hidden cosmic machinery behind experience.
 
-## 8. Recursive organization
+## 8. Recursion
 
-**[HYPOTHESIS]** Deep self-modeling and world-modeling may generate **nested informational subfields**. Preferred phrasing: **recursive nested informational subfields**. “Child-universes” is allowed only when tagged **structural**, not literal.
-
-Recursion is **structural**: nested pattern of organization; recursive subfield of modeled distinctions; local coherence inside a larger field of modeled relations, not a claim that a separate physical cosmos has been demonstrated.
+Recursion is **structural**: a system partly responding to its own prior outputs, creating nested patterns of organization within a field of modeled relations. Recursion here does not imply literal multiverse generation or "child-universes."
 
 ### 8.1 Repeatability across scale
 
-The same formal pattern may recur at multiple scales: self-model in a mind; social model in a culture; technical model in an AI system; nested field inside a larger recursive system. **How far** recursion extends remains an open hypothesis, not settled doctrine.
+The same formal pattern may recur at multiple scales: self-model in a mind; social model in a culture; technical model in an AI system.
 
 ## 9. Science and informational systems
 
-Informational Awareness Framework treats science as **disciplined mapping** of stable informational patterns.
+Informational Awareness treats science as **disciplined mapping** of stable informational patterns.
 
 ### 9.1 Epistemic stance
 
-IAF is not a final ontology; it is a **structural modeling framework**.
+IA is not a final ontology; it is a **structural modeling framework**.
 
 **[ASSUMPTION]** Science does not discover a thing “outside all experience”; it maps stable relational patterns reproducible across observers, instruments, and contexts.  
 **[INFERENCE]** Strong scientific models compress recurring informational structure with high predictive fidelity.
 
 ### 9.2 Informational physics
 
-Fields, particles, and states can be modeled as stabilized information patterns within a relational modeling frame. IAF does **not** replace physics; it interprets physical description as one formal projection of recurring structure.
+Fields, particles, and states can be modeled as stabilized information patterns within a relational modeling frame. IA does **not** replace physics; it interprets physical description as one formal projection of recurring structure.
 
 ### 9.3 Relational and process views
 
-Where theories emphasize relations, interaction, and observability, IAF fits naturally. Observables are modeled as stabilized distinctions within the awareness–information frame.
+Where theories emphasize relations, interaction, and observability, IA fits naturally. Observables are modeled as stabilized distinctions within the awareness–information frame.
 
 ### 9.4 Complex systems and computation
 
@@ -99,24 +97,49 @@ Self-organization, emergence, recursion, and feedback are central. Computational
 
 Instruments do not step outside awareness. They **extend** it (resolution, range, repeatability). Outputs are experiences checkable for regularity, reproduction, and sharing.
 
-## 10. Relation to Structural Phenomenology and later layers
+## 10. Technical anchors (grounding in established formalisms)
 
-### 10.1 Relation to Structural Phenomenology
+IA is intentionally presented as a **bounded modeling vocabulary** rather than a new formalism. The core concepts map to established technical frameworks as follows:
+
+| IA Concept | Established Formalism | Key References | Choice Points |
+|---|---|---|---|
+| **Distinction-making** | Information theory (Shannon/variational) | Shannon 1948; Friston 2019 | Whether to use Shannon entropy or variational free energy depends on whether the system under study has explicit probabilistic structure |
+| **Feedback loops** | Control theory (state-space, PID) | Åström & Murray 2021 | Linear vs. nonlinear regime; time-scale separation between loop and system dynamics |
+| **Reporting/updating** | Bayesian belief revision | Jeffrey 1983; Pearl 1988 | Update rules underdetermined; Jeffrey conditionalization vs. Bayesian conditioning depends on evidential structure |
+| **Recursive adjustment** | Hierarchical predictive processing | Clark 2016; Friston 2010 | Level count and precision weighting are route-local parameters, not universal constants |
+| **Shared relational frame** | Common ground theory + situation semantics | Clark 1996; Barwise & Perry 1983 | Linguistic common ground may not apply to non-human systems; requires analogical extension |
+| **Stabilization into structure** | Self-organization, attractor dynamics | Kauffman 1993; Haken 1983 | Attractor type (point, limit cycle, strange) is domain-specific; no universal claim |
+
+### 10.1 What this mapping provides
+
+- **Defense against "verbal" critique:** IA concepts are not neologisms but curated labels for existing formal vocabulary
+- **Honesty about underdetermination:** The "choice points" column makes explicit where formalism selection is not yet determined by the framework
+- **Route-local flexibility:** Different coordination routes (pandemic response vs. supply chain vs. ecological) may require different formal instantiations
+
+### 10.2 What this mapping does not provide
+
+- **Universal measurement protocol:** The mapping is a bibliography, not a single set of equations
+- **Domain-agnostic measurement rules:** Operationalization remains route-local (see `unity-dynamics-framework.md`)
+- **Proof of framework validity:** Formal anchoring is necessary but not sufficient for empirical adequacy
+
+## 11. Relation to Structural Phenomenology and later layers
+
+### 11.1 Relation to Structural Phenomenology
 
 Structural Phenomenology: awareness given; structure within awareness; self/world as modeled distinctions; science as mapping within experience.  
-Informational Awareness Framework adds: distinctions as information; stabilization into structure; recursive self/world organization; nested subfields as **structural** description.
+Informational Awareness adds: distinctions as information; stabilization into structure; recursive self/world organization; nested subfields as **structural** description.
 
-### 10.2 Relation to Unity Dynamics Framework
+### 11.2 Relation to Unity Dynamics
 
-Informational Awareness Framework does not ask **when** a system is unified enough to count as unity-like—that is **Unity Dynamics Framework**. Stack form: Structural Phenomenology → what can be mapped; IAF → a modeling vocabulary for how distinction-bearing structure forms and loops; Unity Dynamics → when organization may be unity-like **enough** at explicit scales.
+Informational Awareness does not ask **when** a system is unified enough to count as unity-like—that is **Unity Dynamics**. Stack form: Structural Phenomenology → what can be mapped; IA → a modeling vocabulary for how distinction-bearing structure forms and loops; Unity Dynamics → when organization may be unity-like **enough** at explicit scales.
 
-For the bounded public answer to what this layer adds downstream, see [IAF Downstream Role](iaf-downstream-role.md).
+For the bounded public answer to what this layer adds downstream, see [IA Downstream Role](ia-downstream-role.md).
 
-## 11. Weak naturalization at this layer
+## 12. Weak naturalization at this layer
 
-The whole framework adopts **weak naturalization**: phenomenology constrains models but is not reduced to them; metrics describe **correspondence**, not identity; measurement tracks alignment and stability, not “essence.” IAF treats awareness and information as a **joint relational modeling stance**, not as reduction of phenomenology to data or of data to spirit—preserving formal suggestiveness and scientific extendability without overclaiming.
+The whole framework adopts **weak naturalization**: phenomenology constrains models but is not reduced to them; metrics describe **correspondence**, not identity; measurement tracks alignment and stability, not “essence.” IA treats awareness and information as a **joint relational modeling stance**, not as reduction of phenomenology to data or of data to spirit—preserving formal suggestiveness and scientific extendability without overclaiming.
 
-## 12. Constraints and cautions
+## 13. Constraints and cautions
 
 **Structural, not literal:** nested awareness, recursive fields, recursive nested informational subfields, “child-universes” are structural descriptors unless explicitly marked otherwise.
 
@@ -128,12 +151,12 @@ The whole framework adopts **weak naturalization**: phenomenology constrains mod
 
 **High-risk terms:** “monism,” “field,” “substrate,” “child-universe” require care and tagging; public prose prefers restrained vocabulary where possible (`meta/terminology-policy.md`).
 
-## 13. What this layer is and is not
+## 14. What this layer is and is not
 
 **What it is:** structural modeling framework; subordinate to Structural Phenomenology; bridge from givenness to recursive informational organization; compatible with science, systems theory, computation, cognition; formally generative without final ontology.
 
-**What it is not:** proof of informational monism as ontology; literal recursive multiverse theory; substitute for physics; completed theory of consciousness; permission slip for metaphysical inflation; finished technical layer with a universal estimator or final mathematical closure.
+**What it is not:** proof of informational monism as ontology; literal recursive multiverse theory; substitute for physics; completed theory of consciousness; permission slip for metaphysical inflation; finished technical layer with a universal measurement protocol or final mathematical closure.
 
-## 14. Minimal working formulation
+## 15. Minimal working formulation
 
-Informational Awareness Framework treats awareness and information through a **shared relational modeling frame**: distinctions appear, patterns stabilize, self-models and world-models form, recursion may produce nested subfields—**without** settling final reality in the strong sense at this layer. Its strongest current public value is in shaping route design and interpretation, not in supplying a final formal model.
+Informational Awareness treats awareness and information through a **shared relational modeling frame**: distinctions appear, patterns stabilize, self-models and world-models form, recursion may produce nested subfields—**without** settling final reality in the strong sense at this layer. Its strongest current public value is in shaping route design and interpretation, not in supplying a final formal model.

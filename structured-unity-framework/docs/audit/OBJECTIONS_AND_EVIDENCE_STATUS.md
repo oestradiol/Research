@@ -32,17 +32,17 @@ For each objection below, the package keeps four things explicit:
 - **Unresolved remainder:** the repo is stronger at marking the philosophical boundary than at proving why this starting point should dominate all rivals.
 - **Primary surfaces:** `framework/framework-interface.md`, `framework/structural-phenomenology-downstream-role.md`, `docs/claims-and-boundaries.md`
 
-### 2. “IAF sounds verbal rather than technical.”
-- **Current answer:** substantially accepted; IAF is presented as a bounded modeling and bridge vocabulary, not a finished technical theory.
+### 2. “IA sounds verbal rather than technical.”
+- **Current answer:** substantially accepted; IA is presented as a bounded modeling and bridge vocabulary, not a finished technical theory.
 - **Current evidence status:** explicitly handled.
-- **Unresolved remainder:** stronger technical formalization would still be needed before IAF could carry more explanatory burden.
-- **Primary surfaces:** `framework/iaf-downstream-role.md`, `framework/informational-awareness-framework.md`, `framework/framework-interface.md`
+- **Unresolved remainder:** stronger technical formalization would still be needed before IA could carry more explanatory burden.
+- **Primary surfaces:** `framework/ia-downstream-role.md`, `framework/Informational Awareness.md`, `framework/framework-interface.md`
 
-### 3. “UDF still does not show objective measurement or strong predictive closure.”
-- **Current answer:** the package says UDF is technical-facing but still route-local, judgment-laden, and not a closed predictive theory.
+### 3. “UD still does not show objective measurement or strong predictive closure.”
+- **Current answer:** the package says UD is technical-facing but still route-local, judgment-laden, and not a closed predictive theory.
 - **Current evidence status:** explicitly handled.
 - **Unresolved remainder:** route-local metrics and sensitivity work do not settle cross-domain measurement or strong predictive closure.
-- **Primary surfaces:** `framework/unity-dynamics-framework.md`, `framework/research-program.md`, `docs/claims-and-boundaries.md`
+- **Primary surfaces:** `framework/Unity Dynamics.md`, `framework/research-program.md`, `docs/claims-and-boundaries.md`
 
 ### 4. “This anthropomorphizes states.”
 - **Current answer:** the package distinguishes unity-like organization from strong consciousness attribution and blocks silent anthropomorphic inflation.
@@ -62,11 +62,11 @@ For each objection below, the package keeps four things explicit:
 - **Unresolved remainder:** the current comparator is enough for bounded pressure but not enough for strong global rival-positioning claims.
 - **Primary surfaces:** `docs/argument/CONTRIBUTION_AND_POSITIONING.md`, `framework/research-program.md`, Taiwan route package
 
-### 7. “Coding and estimator choices are too judgment-laden.”
-- **Current answer:** accepted in part; the package openly says coding and estimator choices remain judgment-sensitive and route-local.
+### 7. “Coding and measurement choices are too judgment-laden.”
+- **Current answer:** accepted in part; the package openly says coding and measurement choices remain judgment-sensitive and route-local.
 - **Current evidence status:** explicitly handled.
 - **Unresolved remainder:** later technical and comparative hardening is still needed.
-- **Primary surfaces:** `framework/research-program.md`, New Zealand route package, `tools/README.md`
+- **Primary surfaces:** `framework/research-program.md`, New Zealand route package, `tools/measurement.md`
 
 ### 8. “The package is too broad.”
 - **Current answer:** the package separates current demonstrated work from atlas-scale and future work rather than collapsing everything into one live claim.
@@ -124,7 +124,7 @@ The locked payoff sentence is preserved as current public wording, not as unrevi
 - bounded-window chronology remains stable enough that the public-information events stay inside the live explanatory interval
 - unitization continues to treat public-information coordination as part of the bounded apparatus for structural reasons rather than symbolic prominence
 - coding decisions continue to support dependency-bearing public-information actions rather than a purely downstream messaging role
-- the current route-local estimator and architecture readout continue to leave the sentence as a better summary than the simpler executive-command-only reading
+- the current route-local structured evidence organizer and architecture readout continue to leave the sentence as a better summary than the simpler executive-command-only reading
 - no later Taiwan, Australia, or alternative-framework pressure currently forces a weaker or differently shaped public summary
 
 ### Strongest live alternative reading

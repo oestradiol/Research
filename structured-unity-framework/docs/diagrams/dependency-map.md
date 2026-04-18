@@ -3,8 +3,8 @@
 **Non-circularity (intent)**
 
 - Structural Phenomenology grounds the epistemic starting point
-- Informational Awareness Framework extends structural description without replacing givenness
-- Unity Dynamics Framework adds `I`, `C`, `L`, and `U` at explicit `(tau, sigma)`
+- Informational Awareness extends structural description without replacing givenness
+- Unity Dynamics adds `I`, `C`, `L`, and `U` at explicit `(tau, sigma)`
 - Framework Interface keeps claims typed and layered
 - Research Program instantiates the route design and methods bundle
 - Literature Guide routes source support
@@ -12,15 +12,15 @@
 
 ```mermaid
 flowchart TD
-  SP[Structural Phenomenology] --> IAF[Informational Awareness Framework]
-  IAF --> UDF[Unity Dynamics Framework]
-  UDF --> RP[Research Program]
+  SP[Structural Phenomenology] --> IA[Informational Awareness]
+  IA --> UD[Unity Dynamics]
+  UD --> RP[Research Program]
   SP --> FI[Framework Interface]
-  IAF --> FI
-  UDF --> FI
+  IA --> FI
+  UD --> FI
   LG[Literature Guide] -. supports .-> SP
-  LG -. supports .-> IAF
-  LG -. supports .-> UDF
+  LG -. supports .-> IA
+  LG -. supports .-> UD
   LG -. supports .-> FI
   LG -. supports .-> RP
   RP --> APP[Applications Atlas]

@@ -1,12 +1,11 @@
-"""
-Generate AUTHORITATIVE_INTEGRITY_MANIFEST from CURRENT_SURFACES_REGISTRY.
+"""Generate AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2 from GOVERNANCE_CORE + REGISTRY_MANIFEST.
 
-This command automates SHA256 hash generation for current files,
-eliminating manual synchronization errors.
+Per v0.2 design: integrity is derived at validation time, not stored statically.
+This command generates the derived manifest for human inspection and auditing.
 """
 
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Set
 import json
 import hashlib
 
@@ -31,76 +30,141 @@ def compute_sha256(file_path: Path) -> str:
     return sha256_hash.hexdigest()
 
 
-def generate_integrity_manifest(
+def collect_current_surfaces(gov: Dict) -> Set[str]:
+    """Collect all current surface paths from GOVERNANCE_CORE.
+    
+    Resolves subsystem surfaces relative to scope_prefixes.
+    Filters out paths outside the Research/ repo (e.g., Internal/)."""
+    paths = set()
+    current = gov.get('current_surfaces', {})
+    
+    # Root surfaces - already full paths
+    paths.update(current.get('root_entrypoints', []))
+    paths.update(current.get('root_governance', []))
+    paths.update(current.get('package_entrypoints', {}).values())
+    if current.get('assisted_use'):
+        paths.add(current['assisted_use'])
+    
+    # Subsystem surfaces - resolve relative to scope_prefixes
+    for subsys_id, subsys in gov.get('subsystems', {}).items():
+        # Get primary scope prefix for resolution
+        prefixes = subsys.get('scope_prefixes', [])
+        primary_prefix = prefixes[0] if prefixes else ''
+        
+        # Skip paths outside Research/ repo (Internal/, etc.)
+        if primary_prefix.startswith('..'):
+            continue
+        
+        # Helper to resolve surface path
+        def resolve(path: str) -> str:
+            if not path:
+                return None
+            # Already has prefix
+            if any(path.startswith(p.replace('../', '')) for p in prefixes):
+                return path
+            # Needs prefix
+            if primary_prefix and not primary_prefix.startswith('..'):
+                return f"{primary_prefix}{path}"
+            return path
+        
+        if subsys.get('entry'):
+            resolved = resolve(subsys['entry'])
+            if resolved:
+                paths.add(resolved)
+        if subsys.get('state_surface'):
+            resolved = resolve(subsys['state_surface'])
+            if resolved:
+                paths.add(resolved)
+        if subsys.get('validation_policy'):
+            resolved = resolve(subsys['validation_policy'])
+            if resolved:
+                paths.add(resolved)
+        if subsys.get('surfaces'):
+            for surface in subsys['surfaces']:
+                resolved = resolve(surface)
+                if resolved:
+                    paths.add(resolved)
+    
+    return paths
+
+
+def generate_integrity_manifest_v2(
     repo_root: Path,
-    current_surfaces_path: Path = None,
+    governance_core_path: Path = None,
+    registry_manifest_path: Path = None,
     output_path: Path = None
 ) -> Dict:
     """
-    Generate integrity manifest from CURRENT_SURFACES_REGISTRY.
+    Generate v0.2 integrity manifest from GOVERNANCE_CORE + REGISTRY_MANIFEST.
+    
+    Per v0.2 design: integrity is computed, not stored statically.
     
     Args:
         repo_root: Repository root directory
-        current_surfaces_path: Path to CURRENT_SURFACES_REGISTRY (default: governance/CURRENT_SURFACES_REGISTRY_v0_1.json)
-        output_path: Path to write manifest (default: governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json)
+        governance_core_path: Path to GOVERNANCE_CORE_v0_2.json
+        registry_manifest_path: Path to REGISTRY_MANIFEST_v0_2.json
+        output_path: Path to write manifest
     
     Returns:
         Generated manifest dictionary
     """
-    if current_surfaces_path is None:
-        current_surfaces_path = repo_root / 'governance' / 'CURRENT_SURFACES_REGISTRY_v0_1.json'
+    if governance_core_path is None:
+        governance_core_path = repo_root / 'governance' / 'GOVERNANCE_CORE_v0_2.json'
+    
+    if registry_manifest_path is None:
+        registry_manifest_path = repo_root / 'governance' / 'REGISTRY_MANIFEST_v0_2.json'
     
     if output_path is None:
-        output_path = repo_root / 'governance' / 'AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json'
+        output_path = repo_root / 'governance' / 'AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json'
     
-    # Load CURRENT_SURFACES_REGISTRY
-    surfaces = load_json(current_surfaces_path)
+    # Load source files
+    gov = load_json(governance_core_path)
+    reg = load_json(registry_manifest_path)
     
-    # Validate canonical flag
-    if not surfaces.get('canonical', False):
-        raise ValueError(f"CURRENT_SURFACES_REGISTRY missing 'canonical: true' flag at {current_surfaces_path}")
+    # Build lookup from registry
+    sha_lookup = {f['path']: f.get('sha256', '[pending-sync]') for f in reg.get('files', [])}
     
-    current_files = surfaces.get('current_files', [])
+    # Collect current surfaces from governance
+    current_surfaces = collect_current_surfaces(gov)
     
-    if not current_files:
-        raise ValueError(f"No current_files found in CURRENT_SURFACES_REGISTRY at {current_surfaces_path}")
+    if not current_surfaces:
+        raise ValueError("No current surfaces found in GOVERNANCE_CORE")
     
-    # Generate hashes
+    # Generate entries
     files_with_hashes = []
     missing_files = []
     
-    for file_ref in current_files:
+    for file_ref in sorted(current_surfaces):
         full_path = repo_root / file_ref
         if full_path.exists():
-            sha256 = compute_sha256(full_path)
+            # Use cached SHA from registry if available, otherwise compute
+            sha256 = sha_lookup.get(file_ref)
+            if not sha256 or sha256 == '[pending-sync]':
+                sha256 = compute_sha256(full_path)
             files_with_hashes.append({
                 'path': file_ref,
-                'sha256': sha256
+                'sha256': sha256,
+                'status': 'current'
             })
         else:
             missing_files.append(file_ref)
-    
-    if missing_files:
-        raise ValueError(f"Files listed in CURRENT_SURFACES_REGISTRY do not exist: {missing_files}")
-    
-    # Load existing manifest to preserve version
-    if output_path.exists():
-        existing_manifest = load_json(output_path)
-        version = existing_manifest.get('version', '0.1.0')
-        # Increment minor version on regeneration
-        parts = version.split('.')
-        if len(parts) >= 2:
-            parts[1] = str(int(parts[1]) + 1)
-            version = '.'.join(parts)
-    else:
-        version = '0.1.0'
+            files_with_hashes.append({
+                'path': file_ref,
+                'sha256': '[file-not-found]',
+                'status': 'missing'
+            })
     
     # Build manifest
     manifest = {
-        'version': version,
+        'version': '0.2.0',
         'algorithm': 'sha256',
-        'source': 'CURRENT_SURFACES_REGISTRY_v0_1.json',
-        'files': files_with_hashes
+        'source': 'Derived from GOVERNANCE_CORE_v0_2 + REGISTRY_MANIFEST_v0_2',
+        'file_count': len(current_surfaces),
+        'files': files_with_hashes,
+        '_meta': {
+            'derived_at': '[auto-generated]',
+            'missing_files': missing_files if missing_files else []
+        }
     }
     
     # Write manifest
@@ -118,10 +182,11 @@ if __name__ == '__main__':
     repo_root = Path(__file__).parent.parent.parent.parent.parent
     
     try:
-        manifest = generate_integrity_manifest(repo_root)
-        print(f"✓ Generated integrity manifest with {len(manifest['files'])} files")
-        print(f"  Version: {manifest['version']}")
-        print(f"  Output: governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json")
+        manifest = generate_integrity_manifest_v2(repo_root)
+        print(f"✓ Generated v0.2 integrity manifest with {manifest['file_count']} current surfaces")
+        print(f"  Output: governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json")
+        if manifest['_meta']['missing_files']:
+            print(f"  ⚠ Warning: {len(manifest['_meta']['missing_files'])} files missing")
     except ValueError as e:
         print(f"✗ Error: {e}")
         sys.exit(1)

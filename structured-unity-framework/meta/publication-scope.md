@@ -29,9 +29,9 @@ The package is active, but not empirically closed. Later monograph-scale corpus 
 
 ## 5. Reviewer-expectation note
 
-External readers may reasonably ask for fuller estimator, dataset, event-ledger, coding-protocol, or evidence-status detail.
+External readers may reasonably ask for fuller measurement, dataset, event-ledger, coding-protocol, or evidence-status detail.
 
-The current package now makes objections and evidence status easier to inspect, but estimator, dataset, and coding detail still remain bounded and route-local rather than fully monograph-complete. Their current absence as fully mature supplements does **not** contradict the bounded `v1` line; it marks expected research-program maturation.
+The current package now makes objections and evidence status easier to inspect, but measurement, dataset, and coding detail still remain bounded and route-local rather than fully monograph-complete. Their current absence as fully mature supplements does **not** contradict the bounded `v1` line; it marks expected research-program maturation.
 
 ## 6. What this package does not imply
 

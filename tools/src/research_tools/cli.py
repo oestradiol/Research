@@ -51,6 +51,8 @@ from research_tools.workflows.validate_all import (
     collect_validation_results,
     render_validation_report,
 )
+from research_tools.generate.integrity_manifest import generate_integrity_manifest
+from research_tools.generate.file_registry import generate_file_registry
 
 
 def _generated_at() -> str:
@@ -436,6 +438,32 @@ def handle_report_release_readiness(_: argparse.Namespace) -> int:
     return _results_exit_code(results)
 
 
+def handle_generate_integrity_manifest(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    try:
+        manifest = generate_integrity_manifest(paths.research_root)
+        print(f"✓ Generated integrity manifest with {len(manifest['files'])} files")
+        print(f"  Version: {manifest['version']}")
+        print(f"  Output: governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json")
+        return 0
+    except ValueError as e:
+        print(f"✗ Error: {e}")
+        return 1
+
+
+def handle_generate_file_registry(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    try:
+        registry = generate_file_registry(paths.research_root)
+        print(f"✓ Generated file registry with {registry['file_count']} files")
+        print(f"  Version: {registry['version']}")
+        print(f"  Output: governance/REPOSITORY_FILE_REGISTRY_v0_1.json")
+        return 0
+    except Exception as e:
+        print(f"✗ Error: {e}")
+        return 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="research-tools")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -458,6 +486,15 @@ def build_parser() -> argparse.ArgumentParser:
     validate_route_parser.set_defaults(func=handle_validate_route)
     validate_subparsers.add_parser("all").set_defaults(func=handle_validate_all)
     validate_subparsers.add_parser("clusters").set_defaults(func=handle_validate_clusters)
+
+    generate_parser = subparsers.add_parser("generate")
+    generate_subparsers = generate_parser.add_subparsers(dest="generate_command", required=True)
+    generate_subparsers.add_parser("integrity-manifest").set_defaults(
+        func=handle_generate_integrity_manifest
+    )
+    generate_subparsers.add_parser("file-registry").set_defaults(
+        func=handle_generate_file_registry
+    )
 
     report_parser = subparsers.add_parser("report")
     report_subparsers = report_parser.add_subparsers(dest="report_command", required=True)

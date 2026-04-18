@@ -18,7 +18,7 @@ It remains a bounded comparison only. The Taiwan side is now materially denser t
 - the windows are functionally matched, not date-matched
 - `L` remains thin on the Taiwan side even though one conservative clean lag pair is visible
 
-## Same-estimator readout where applicable
+## Same-measurement readout where applicable
 
 | Readout | New Zealand baseline | Taiwan bounded comparator | Current comparative signal |
 |---|---|---|---|
@@ -69,7 +69,7 @@ The expanded Taiwan tranche adds early border-health implementation and public-a
 
 - a full NZ-Taiwan comparison of `L`
 - a settled claim about which system was more coherent overall
-- a stable cross-case estimator judgment beyond the current bounded seeds
+- a stable cross-case measurement judgment beyond the current bounded seeds
 - any claim that the current Taiwan set is representative of the full Taiwan route
 
 ## Immediate next comparative tasks

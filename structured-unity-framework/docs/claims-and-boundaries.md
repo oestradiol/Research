@@ -11,14 +11,14 @@ This package mixes phenomenological, structural, operational, and interpretive v
 - scale and window indexing are methodologically necessary for unity-like claims
 - a bounded research-ready program can be built for states-and-societies coordination under perturbation
 - the New Zealand route can now stand as a monograph-baseline empirical core inside the locked windows
-- a route-local estimator layer can be stated without pretending to solve domain-general thresholds
+- a route-local structured evidence organizer can be stated without pretending to solve domain-general thresholds
 - a targeted public atlas can map plausible next routes without claiming validation across all domains
 
 ## 3. What remains modeled rather than established
 
 - specific functional forms linking `I`, `C`, and `L` to `U`
 - domain-general thresholds for unity-like organization across all systems
-- domain-general estimator thresholds beyond the current route-local implementation
+- domain-general measurement thresholds beyond the current route-local implementation
 - any strong multi-case closure beyond the current New Zealand core plus bounded Taiwan comparator
 - any later comparative result that depends on a real Australia route
 - any claim of objectively settled cross-domain measurement for the current `I`, `C`, `L`, and `U` family
@@ -30,13 +30,13 @@ Careful uses of subjectivity-like or higher-order agency language may appear as 
 
 ## 5. What remains open
 
-See `project-status.md`, `pending-inventory.md`, `argument/CONTRIBUTION_AND_POSITIONING.md`, `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`, `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`, `../framework/research-program.md`, and `../framework/iaf-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper estimator pressure, and later deferred expansion beyond the active public core.
+See `project-status.md`, `pending-inventory.md`, `argument/CONTRIBUTION_AND_POSITIONING.md`, `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`, `audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`, `../framework/research-program.md`, and `../framework/ia-downstream-role.md`. Open items now mainly concern comparative execution, further robustness pressure, deeper measurement pressure, and later deferred expansion beyond the active public core.
 
 ### 5.1 Strongest unresolved objections
 
 These are known live limits, not unnoticed weaknesses:
 
-- estimator underdetermination beyond the current route-local implementation
+- measurement underdetermination beyond the current route-local implementation
 - limited comparator depth, especially on the Taiwan side and the still-unbuilt Australia route
 - route-to-framework generalization risk from one monograph-baseline route plus one bounded comparator
 - still-thin direct comparison against nearby alternative frameworks
@@ -74,4 +74,4 @@ Public criticism should not rely on detector rhetoric or vibe-based dismissal.
 
 ## 10. Public wording policy summary
 
-Prefer framework, research program, unity-like organization, demonstrated route, research-ready route, exploratory map node, comparative candidate, and frontier node where status matters. Avoid application inflation, silent ontological hardening, universalizing language, and generic polish that hides argumentative burden.
+Prefer framework, research program, unity-like organization, demonstrated route, research-ready route, exploratory map node, and comparative candidate where status matters. Avoid speculative extensions, application inflation, silent ontological hardening, universalizing language, and generic polish that hides argumentative burden.

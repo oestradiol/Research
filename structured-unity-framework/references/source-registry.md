@@ -96,7 +96,7 @@ Entries in this public pass were checked on `2026-04-02`, with later DPMC refres
 - Primary link: https://www.chelseagreen.com/product/thinking-in-systems/
 - Archive link: https://web.archive.org/web/20260330183658/https://www.chelseagreen.com/product/thinking-in-systems/
 - Accessed: `2026-04-02`.
-- Use limit: supports systems intuition and feedback framing; does not supply formal estimator design.
+- Use limit: supports systems intuition and feedback framing; does not supply formal measurement design.
 
 ### src-hand-measurement-vsi-2016
 
@@ -169,7 +169,7 @@ Entries in this public pass were checked on `2026-04-02`, with later DPMC refres
 - Role in SUF: causal-explanation and intervention discipline for methods objections.
 - Primary link: https://doi.org/10.1093/0195155270.001.0001
 - Verified: `2026-04-02`.
-- Use limit: supports causal reasoning discipline; does not itself specify SUF estimators.
+- Use limit: supports causal reasoning discipline; does not itself specify SUF measurement protocols.
 
 ## 3. Governance, organization, and comparative extension
 
@@ -986,7 +986,7 @@ Entries in this public pass were checked on `2026-04-02`, with later DPMC refres
 
 - Citation: NIST. *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. 2023.
 - Type: standards/guidance document.
-- Role in SUF: governance and risk-control starter anchor for the AI frontier node.
+- Role in SUF: governance and risk-control baseline.
 - Primary link: https://doi.org/10.6028/NIST.AI.100-1
 - Verified: `2026-04-02`.
 - Use limit: supports governance and risk framing; does not justify anthropomorphic language.
@@ -1076,71 +1076,33 @@ Entries in this public pass were checked on `2026-04-02`, with later DPMC refres
 - Verified: `2026-04-02`.
 - Use limit: supports caution about equating linguistic form with understanding; does not settle all debates about machine intelligence.
 
-## 6. Quantum-relational frontier and consciousness sources
+## 6. Quantum-relational frontier and consciousness sources — ARCHIVED
 
-### src-google-willow-chip-2024
+**REJECTED:** The quantum-relational ontology and consciousness frontier branch has been explicitly rejected and removed from the framework trajectory. These sources remain in the registry for historical documentation only.
+
+### src-google-willow-chip-2024 — ARCHIVED
 
 - Citation: Neven, Hartmut. "Meet Willow, our state-of-the-art quantum chip." 2024.
 - Type: company research announcement.
-- Role in SUF: direct public benchmark announcement and hype-demystification anchor for the quantum-relational frontier note.
+- ~~Role in SUF: direct public benchmark announcement and hype-demystification anchor for the quantum-relational frontier note.~~ — **ARCHIVED**: Frontier branch rejected.
 - Primary link: https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/
 - Archive link: https://web.archive.org/web/20260111212743/https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/
 - Accessed: `2026-04-02`.
-- Use limit: supports the actual public benchmark claim and the interpretive caution around it; does not justify many-worlds, simulation, or consciousness claims.
 
-### src-google-constructive-interference-2025
+### src-google-constructive-interference-2025 — ARCHIVED
 
 - Citation: Google Quantum AI and Collaborators. "Observation of constructive interference at the edge of quantum ergodicity." *Nature*, 2025.
 - Type: journal article.
-- Role in SUF: primary many-body interference, scrambling, and echo-like structure anchor for the frontier note.
+- ~~Role in SUF: primary many-body interference, scrambling, and echo-like structure anchor for the frontier note.~~ — **ARCHIVED**: Frontier branch rejected.
 - Primary link: https://doi.org/10.1038/s41586-025-09526-6
 - Verified: `2026-04-02`.
-- Use limit: supports measurable many-body correlation structure; does not justify ontological or consciousness conclusions by itself.
 
-### src-landauer-physical-nature-information-1996
-
-- Citation: Landauer, Rolf. "The Physical Nature of Information." *Physics Letters A* 217(4-5), 1996.
-- Type: journal article.
-- Role in SUF: disciplined bridge for the claim that information is physically instantiated.
-- Primary link: https://doi.org/10.1016/0375-9601(96)00453-7
-- Verified: `2026-04-02`.
-- Use limit: supports the physical-instantiation constraint on information; does not settle a finished metaphysics of information.
-
-### src-sep-relational-quantum-mechanics-2025
-
-- Citation: Dorato, Mauro, and Federico Laudisa. "Relational Quantum Mechanics." *Stanford Encyclopedia of Philosophy*. Spring 2025 edition.
-- Type: encyclopedia entry.
-- Role in SUF: interpretation background for relation-first quantum ontology.
-- Primary link: https://plato.stanford.edu/entries/qm-relational/
-- Archive link: https://plato.stanford.edu/archives/spr2025/entries/qm-relational/
-- Accessed: `2026-04-02`.
-- Use limit: supports the live interpretive option of relation-first quantum mechanics; does not settle ontology uniquely or justify direct neural claims.
-
-### src-sep-quantum-mechanics-2025
-
-- Citation: Albert, David, and Alyssa Ney. "Quantum Mechanics." *Stanford Encyclopedia of Philosophy*. Spring 2025 edition.
-- Type: encyclopedia entry.
-- Role in SUF: interpretation caution and non-uniqueness reminder for the frontier note.
-- Primary link: https://plato.stanford.edu/entries/qm/
-- Archive link: https://plato.stanford.edu/archives/spr2025/entries/qm/
-- Accessed: `2026-04-02`.
-- Use limit: supports caution that quantum mechanics does not uniquely force one metaphysical reading; does not itself support SUF.
-
-### src-ferrante-adversarial-consciousness-theories-2025
+### src-ferrante-adversarial-consciousness-theories-2025 — ARCHIVED
 
 - Citation: Ferrante, Oscar, et al. "Adversarial testing of global neuronal workspace and integrated information theories of consciousness." *Nature*, 2025.
 - Type: journal article.
-- Role in SUF: current consciousness-testing baseline for keeping the frontier branch operationally disciplined.
+- ~~Role in SUF: current consciousness-testing baseline for keeping the frontier branch operationally disciplined.~~ — **ARCHIVED**: Frontier branch rejected.
 - Primary link: https://doi.org/10.1038/s41586-025-08888-1
 - Verified: `2026-04-02`.
-- Use limit: supports pressure for explicit, testable consciousness claims; does not settle consciousness theory uniquely or license SUF by itself.
-
-### src-garisto-quantum-echoes-willow-2025
-
-- Citation: Garisto, Dan. "Google Measures 'Quantum Echoes' on Willow Quantum Computer Chip." *Scientific American*, 2025.
-- Type: magazine explainer.
-- Role in SUF: intuition aid for public explanation of echoes, scrambling, and interference language.
-- Primary link: https://www.scientificamerican.com/article/google-measures-quantum-echoes-on-willow-quantum-computer-chip/
-- Archive link: https://web.archive.org/web/20251026054212/https://www.scientificamerican.com/article/google-measures-quantum-echoes-on-willow-quantum-computer-chip/
 - Accessed: `2026-04-02`.
 - Use limit: supports intuition and translation only; it is not a primary anchor for ontology or consciousness claims.

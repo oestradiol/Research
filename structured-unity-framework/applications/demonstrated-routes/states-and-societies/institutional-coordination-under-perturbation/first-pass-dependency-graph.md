@@ -4,13 +4,13 @@
 
 This file turns the current [Event Ledger Seed](event-ledger-seed.md) into a simple directed dependency graph.
 
-It is still pre-estimator and deliberately coarse. Each coded event bundle contributes one counted directional link from the issuing unit to each receiving unit named in that event.
+It is still pre-measurement and deliberately coarse. Each coded event bundle contributes one counted directional link from the issuing unit to each receiving unit named in that event.
 
 ## Readout rule
 
 - event bundles are counted once
 - edges are unweighted beyond event count
-- this is a route-support graph, not a final `I` estimator
+- this is a route-support graph, not a final `I` measurement
 - the point is to see whether the current public baseline already exposes stable directional structure
 
 ## Aggregated edge counts
@@ -129,7 +129,7 @@ This graph still does **not** capture:
 - chain length
 - edge timing density inside narrower windows
 - edge strength differences inside the same event bundle
-- whole-system comparison against Comparator A and Comparator B in a final estimator sense
+- whole-system comparison against Comparator A and Comparator B in a final measurement sense
 
 ## Relation to the readout
 

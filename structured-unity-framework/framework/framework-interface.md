@@ -13,8 +13,8 @@ It is a translation, scope-control, boundary-discipline, and continuity layer—
 Structured Unity Framework has **three substantive framework layers plus one bridge/control layer**:
 
 - **Structural Phenomenology** — epistemic ground: givenness, distinction, pattern, structure inside experience
-- **Informational Awareness Framework** — bounded modeling and bridge vocabulary for distinctions, reporting, feedback, and recursive adjustment
-- **Unity Dynamics Framework** — operational variables `I`, `C`, `L`, and `U` at explicit `(τ, σ)`; the most technical-facing layer, but still underdetermined and route-local
+- **Informational Awareness** — bounded modeling and bridge vocabulary for distinctions, reporting, feedback, and recursive adjustment
+- **Unity Dynamics** — operational variables `I`, `C`, `L`, and `U` at explicit `(τ, σ)`; the most technical-facing layer, but still underdetermined and route-local
 - **Framework Interface** (this file) — bridge/control layer for claim types, weak naturalization, non-circularity, and safe movement across the stack
 
 ## 3. What this file is
@@ -31,7 +31,7 @@ It must not drift into pure mysticism, pure physics, pure cognition theory, or p
 
 ### 4.1 What this layer does not defend by itself
 
-Framework Interface does not by itself establish the empirical adequacy of the route package, settle estimator design, close comparator objections, or prove that the bounded demonstrated route generalizes across domains. It keeps the stack coherent and legible; it is not a substitute for methods execution or empirical pressure.
+Framework Interface does not by itself establish the empirical adequacy of the route package, settle measurement design, close comparator objections, or prove that the bounded demonstrated route generalizes across domains. It keeps the stack coherent and legible; it is not a substitute for methods execution or empirical pressure.
 
 ## 5. Core stance
 
@@ -43,7 +43,7 @@ Structural claims must not silently harden into stronger ontology than intended.
 
 - prefer **unity-like organization** before stronger consciousness language at institutional scales
 - use **subjectivity-like** only when an interpretive extension is intended
-- prefer **recursive nested informational subfields** before casual **child-universe** language in restrained prose
+- **REJECTED: child-universe language** — removed from framework; no literal interpretation permitted
 - keep **weak naturalization** explicit when moving from phenomenology to metrics
 - prefer **modeling vocabulary**, **structural description**, and **operational readout** over stronger ontological claims where possible
 
@@ -75,7 +75,7 @@ Recurring relations are encoded; patterns become structurally describable; mathe
 
 ### 7.3 Structure → model
 
-Self-models, world-models, inferential procedures, and scientific representations appear here. Informational Awareness Framework belongs here as a bounded modeling vocabulary, not as a finished technical closure.
+Self-models, world-models, inferential procedures, and scientific representations appear here. Informational Awareness belongs here as a bounded modeling vocabulary, not as a finished technical closure.
 
 ### 7.4 Model → validation
 
@@ -88,8 +88,8 @@ Grouping structures by stability, specifying domains of applicability, and sorti
 ## 8. Layer relations and non-circularity
 
 - **Structural Phenomenology** governs givenness, distinction, pattern, and structure.
-- **Informational Awareness Framework** adds a bounded way to talk about systems that make, carry, and update distinctions through feedback loops.
-- **Unity Dynamics Framework** adds an operational vocabulary for integration, coherence, latency, and unity-like organization at explicit scales and windows.
+- **Informational Awareness** adds a bounded way to talk about systems that make, carry, and update distinctions through feedback loops.
+- **Unity Dynamics** adds an operational vocabulary for integration, coherence, latency, and unity-like organization at explicit scales and windows.
 - **Framework Interface** states how these layers fit without absorbing their full content.
 
 **Non-circularity:** later layers extend earlier ones; they do not rewrite their starting conditions. The Research Program instantiates downstream operational work; it does not redefine Structural Phenomenology. Public translation may simplify wording but may not invert dependence order.
@@ -112,19 +112,19 @@ The default public spine should include:
 
 - Structural Phenomenology as epistemic constraint
 - Structural Phenomenology downstream role as downstream boundary surface
-- Informational Awareness Framework as bounded modeling vocabulary
-- IAF downstream role as the clearer public statement of what that vocabulary adds
-- Unity Dynamics Framework as the most technical-facing but still underdetermined layer
+- Informational Awareness as bounded modeling vocabulary
+- IA downstream role as the clearer public statement of what that vocabulary adds
+- Unity Dynamics as the most technical-facing but still underdetermined layer
 - Research Program as the methods burden
 - the New Zealand route as the first bounded empirical anchor
 
 The default spine should exclude or quarantine, unless clearly typed and scoped:
 
 - strong metaphysical closure
-- literal child-universe readings
+- literal child-universe readings (rejected)
 - synchronicity as evidence
-- AGI/final-theory inflation
-- any language implying that current route-local estimators already deliver universal predictive closure
+- AGI/final-theory inflation (rejected)
+- any language implying that current route-local structured evidence organizers already deliver universal predictive closure
 
 ## 12. Failure modes
 
@@ -145,6 +145,21 @@ The stack fails if it drifts into:
 13. domain collapse
 14. infrastructure drift
 
-## 13. Minimal working formulation
+## 13. Rival reading requirement
+
+For every substantive public claim, include a one-sentence "rival reading" that names an alternative framework:
+
+> "SUF shows X (though [rival framework] would say [Y], which is not ruled out but loses explanatory structure [Z])."
+
+**Examples:**
+
+| SUF Claim | Rival Reading |
+|---|---|
+| Public-information coordination is structurally central | (though command-and-control frameworks would treat it as downstream messaging, which is not ruled out but loses the feedback-loop structure visible in the event ledger) |
+| Unity-like organization is route-specific | (though generic institutional-capacity narratives would attribute coordination success to prior organizational quality, which is not ruled out but loses the temporal dynamics visible in the window analysis) |
+
+This requirement makes claims contestable and prevents the framework from silently treating its own vocabulary as the only valid description.
+
+## 14. Minimal working formulation
 
 Framework Interface is the bridge/control layer that keeps the stack explicit, non-circular, and bounded. It clarifies movement from givenness to model to validation, while preventing the three substantive layers from being collapsed into one voice or hardened into stronger ontology than the current package earns.

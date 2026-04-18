@@ -39,24 +39,34 @@ Use as much literature as the file needs and no more. Public SUF should stay leg
 
 ### Structural Phenomenology
 
-Primary registry family:
+**Canonical sources** (genealogy and methodological precedent):
+
+- Husserl, E. (1913). *Ideas Pertaining to a Pure Phenomenology and to a Phenomenological Philosophy, First Book* (§§24–29, the *epoché*). Trans. Kersten, 1982; trans. Dahlstrom, 2014.
+- James, W. (1890). *The Principles of Psychology*, Chapter 9: "The Stream of Thought." Dover, 1950; Harvard UP, 1983 (critical edition).
+- Merleau-Ponty, M. (1945). *Phenomenology of Perception*, Part 1: "Introduction." Trans. Landes, 2012.
+
+**Contemporary registry family** (SUF direct sources):
 
 - [src-gallagher-zahavi-phenomenological-mind-2012](../references/source-registry.md#src-gallagher-zahavi-phenomenological-mind-2012)
 - [src-zahavi-subjectivity-selfhood-2005](../references/source-registry.md#src-zahavi-subjectivity-selfhood-2005)
 - [src-varela-embodied-mind-1991](../references/source-registry.md#src-varela-embodied-mind-1991)
+- [src-varela-neurophenomenology-1996](../references/source-registry.md#src-varela-neurophenomenology-1996) (methodological bridge to empirical research)
 
-Supports:
+**Supports:**
 
-- awareness-first discipline
+- awareness-first discipline (as methodological choice, not novel metaphysics)
 - first-person structure and embodiment
 - constraints on what later operational layers may claim
+- weak naturalization (phenomenology constrains models without being reduced to metrics)
 
-Does not justify:
+**Does not justify:**
 
 - a final ontology
 - a direct metric for unity-like organization
+- idealism as settled doctrine
+- anti-scientific stance
 
-### Informational Awareness Framework
+### Informational Awareness
 
 Primary registry family:
 
@@ -76,7 +86,7 @@ Does not justify:
 - information as finished metaphysics
 - awareness reduced to signal mathematics
 
-### Unity Dynamics Framework
+### Unity Dynamics
 
 Primary registry family:
 
@@ -157,7 +167,7 @@ Use when moving from one acute route into recurring institutional, implementatio
 
 ### `03-next-routes-and-frontiers`
 
-Use for bounded route extension and clearly marked higher-risk exploratory work. The frontier cluster now contains one AI-governance / coordination node and one quantum-relational consciousness node. Neither changes the current proof burden for the demonstrated route.
+Use for bounded route extension. **REJECTED:** ~~quantum-relational consciousness node~~ — explicitly rejected and removed from framework trajectory. SUF remains strictly bounded to demonstrated empirical routes (states/societies institutional coordination).
 
 ## 7. AI-language routing
 
@@ -177,31 +187,13 @@ These sources support three public-writing rules:
 - avoid detector language as if it were dependable adjudication
 - prefer concrete, bounded, source-bearing prose over generic polish
 
-## 8. Quantum-relational frontier routing
+## 8. Archived sources
 
-Use these sources only for the bounded frontier branch on quantum-relational ontology and consciousness:
+The following sources are archived for historical documentation only:
 
-- [src-google-willow-chip-2024](../references/source-registry.md#src-google-willow-chip-2024) for the actual public Willow announcement and for separating the real benchmark claim from the sensational afterlife around it
-- [src-google-constructive-interference-2025](../references/source-registry.md#src-google-constructive-interference-2025) for the underlying many-body interference / scrambling result
-- [src-landauer-physical-nature-information-1996](../references/source-registry.md#src-landauer-physical-nature-information-1996) for the claim that information is physically instantiated
-- [src-sep-relational-quantum-mechanics-2025](../references/source-registry.md#src-sep-relational-quantum-mechanics-2025) and [src-sep-quantum-mechanics-2025](../references/source-registry.md#src-sep-quantum-mechanics-2025) for interpretation background and caution
-- [src-ferrante-adversarial-consciousness-theories-2025](../references/source-registry.md#src-ferrante-adversarial-consciousness-theories-2025) for the current consciousness-testing baseline
-- [src-garisto-quantum-echoes-willow-2025](../references/source-registry.md#src-garisto-quantum-echoes-willow-2025) only as an intuition aid for the echo / scrambling picture
-
-These sources support:
-
-- demystifying Willow-like hype into measurable many-body structure
-- a bounded philosophical pressure toward relation / information / constraint-first readings
-- a systems-information-relational consciousness line that keeps ontology separate from neural mechanism
-
-These sources do not support:
-
-- direct quantum-consciousness claims
-- many-worlds proof claims
-- a unique settled ontology
-- substrate hardening beyond current public IAF limits
-
-This branch should stay later-horizon and explicitly post-proof until the demonstrated-route and comparative work are stronger.
+- [src-google-willow-chip-2024](../references/source-registry.md#src-google-willow-chip-2024)
+- [src-google-constructive-interference-2025](../references/source-registry.md#src-google-constructive-interference-2025)
+- [src-ferrante-adversarial-consciousness-theories-2025](../references/source-registry.md#src-ferrante-adversarial-consciousness-theories-2025)
 
 ## 9. Objection routing
 

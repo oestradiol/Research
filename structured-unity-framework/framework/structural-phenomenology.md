@@ -2,15 +2,36 @@
 
 ## 1. Purpose
 
-Structural Phenomenology is the **phenomenological and epistemic ground** of the framework. It begins from what is **immediately given** in experience and treats models, mathematics, logic, and scientific descriptions as structures that arise **within** that field. Science remains **disciplined mapping** of stable patterns inside experience—not an escape to a “view from nowhere.” This document is awareness-first, structure-inside, and epistemically restrained. It does **not** settle final ontology.
+Structural Phenomenology is the **phenomenological and epistemic ground** of the framework. For analyzing coordination systems where information flow, feedback loops, and emergent organization matter, we adopt an **awareness-first framing** because it prevents premature substrate assumptions that would obscure the phenomena under study. This restates the phenomenological *epoché* (Husserl) and James's "stream of thought" as **methodological choices**, not novel metaphysics. We do not adopt this starting point to establish idealism or refute physicalism, but because it better serves the analytical task of tracking how coordination emerges in distributed systems.
 
-## 2. Executive compression
+Science remains **disciplined mapping** of stable patterns inside experience—not an escape to a "view from nowhere." This document is awareness-first, structure-inside, and epistemically restrained. It does **not** settle final ontology.
+
+## 2. Why awareness-first for coordination analysis
+
+### 2.1 Rival starting points and why SUF doesn't use them
+
+| Starting Point | Valid Use Cases | Why SUF Doesn't Use It | Risk for Coordination Analysis |
+|---|---|---|---|
+| **Physicalism-first** | Physics, chemistry, material science | Smuggles unexamined observer assumptions; assumes substrate before modeling coordination relationships | Loses track of information-flow structure; reduces coordination to particle interactions |
+| **Computational-first** | AI/ML engineering, algorithm design | Treats information as pure abstraction separate from experiencing systems | Misses the lived experience of coordination; ignores phenomenological constraints on information processing |
+| **Network/relational-first** | Sociology, ecology, graph theory | Often skips the experiencing subject as locus of coordination | Weak on phenomenological constraints; may treat coordination as purely external pattern |
+| **Institutional-capacity-first** | Public administration, organizational studies | Assumes institutional properties explain coordination without modeling emergence | Risks circularity (good coordination = good institutions); misses micro-to-macro dynamics |
+
+### 2.2 The methodological wager
+
+We adopt awareness-first framing as a **methodological wager**: for the specific task of modeling coordination in distributed systems, starting from givenness and emergent structure yields better analytical traction than starting from assumed substrates. This is not a claim that awareness is the only valid starting point for all inquiry.
+
+### 2.3 Addressing analytical philosophy concerns
+
+> **For readers steeped in analytical philosophy:** You may worry that awareness-first framing opens the door to idealism or anti-scientific positions. This layer is **compatible with physicalism as a global doctrine**; we simply do not assume it at the starting layer because doing so does not improve our models of coordination. The framework is not a denial of external reality, not a refutation of physicalism, and not a proof of idealism. It is an **epistemic discipline** for a specific analytical task—tracking how coordination emerges—rather than a claim about the fundamental nature of all reality.
+
+## 3. Executive compression
 
 **Awareness** is the irreducible epistemic starting point. **Structure** is the relational organization of recurring regularities **within** experience. Observer/observed, self-model, and world-model are introduced as distinctions that arise **inside** the experienced field, not as separate substances proved in advance. The project proceeds by structural clarification rather than by assuming an external substrate at the starting layer.
 
-## 3. Starting conditions, notation, and axiom
+## 4. Starting conditions, notation, and axiom
 
-### 3.1 Notation policy (boundary discipline)
+### 4.1 Notation policy (boundary discipline)
 
 Across this layer, the following tags are used consistently:
 
@@ -27,11 +48,13 @@ This is not decorative formalism: it keeps **epistemic status** visible for read
 
 **[AXIOM]** There is awareness; experience is given and cannot be doubted in the act of doubting. Denial still occurs **within** awareness and presupposes it. Immediate presence is the epistemic starting point of Structural Phenomenology.
 
-### 3.3 Experiential check
+> **Genealogy note:** This restates the phenomenological *epoché* (Husserl, *Ideas I*, 1913, §§24–29) and the "stream of thought" starting point (James, *Principles of Psychology*, 1890, Ch. 9) as methodological choices rather than novel metaphysics. We adopt awareness-first framing because it prevents premature substrate assumptions in coordination analysis, not to establish idealism or refute physicalism.
+
+### 4.3 Experiential check
 
 Before naming, explaining, or modeling, something is already present. That presence may later be structured or theorized; its **givenness** is prior to the theory built around it.
 
-### 3.4 Scope (what this layer does and does not assert)
+### 4.4 Scope (what this layer does and does not assert)
 
 Structural Phenomenology makes **no direct claim** about entities outside experience as an independent primitive. It maps what is given and what is structured **within** awareness. Claims about an external substrate are treated as inferences **inside** the field when they appear—not as unearned starting points.
 
@@ -155,7 +178,7 @@ Structural Phenomenology governs the **first** part of that movement: **givennes
 
 ## 15. Relation to later layers (summary)
 
-Informational Awareness Framework extends **how** structure forms and recurses. Unity Dynamics Framework asks **when** organized systems exhibit unity-like dynamics at explicit scales. Framework Interface states bridges and claim discipline **without** collapsing layers.
+Informational Awareness extends **how** structure forms and recurses. Unity Dynamics asks **when** organized systems exhibit unity-like dynamics at explicit scales. Framework Interface states bridges and claim discipline **without** collapsing layers.
 
 ## 16. Failure modes / caution points
 

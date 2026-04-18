@@ -30,7 +30,7 @@ This directory is the current **bounded public academic package** of the framewo
 
 **Current `main` state:** aligned with the hosted `v1.2.0` Taiwan chapter-ready package state.
 
-**Stable now:** three substantive layers plus one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local estimator implementation; a `15`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IAF; a reviewer-facing objections surface; a claim-status matrix; and a tooling-ready read-only validation layer.
+**Stable now:** three substantive layers plus one bridge/control layer; weak naturalization; claim-type discipline; a `38`-event New Zealand public ledger with a `29`-event main interval; a first route-local structured evidence organizer; a `15`-event bounded Taiwan comparator with one conservative lag pair; downstream-role clarification for Structural Phenomenology and IA; a reviewer-facing objections surface; a claim-status matrix; and a tooling-ready read-only validation layer.
 
 For current package posture use `docs/project-status.md`. For live sequencing use `docs/current-execution-order.md`. For long-range planning use `docs/monograph-and-closure-program.md` and `ROADMAP.md`.
 

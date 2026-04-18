@@ -1,6 +1,7 @@
 {
-  "version": "0.3.0",
+  "version": "0.5.0",
   "algorithm": "sha256",
+  "source": "CURRENT_SURFACES_REGISTRY_v0_1.json",
   "files": [
     {
       "path": "README.md",
@@ -16,11 +17,11 @@
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "50f5b017d9aaadf8caf3982008afd5b459dc53a02d5cc345092476876546eccc"
+      "sha256": "9fbd02f7e7eac062b86841341b1fd3a10c54ce8d3debc779284ed1fb384d7715"
     },
     {
       "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "sha256": "2ccd57725b39c6b2e8883e20ce8b9ef945f83931abbb1b95eb713c8cd030a993"
+      "sha256": "21bef66d2c5f188150b68cf71c6b9960ebc57de6d27a4e43f4349ad3ffaa51ed"
     },
     {
       "path": "governance/AUTHORITATIVE_SOURCES_v0_1.json",
@@ -28,11 +29,11 @@
     },
     {
       "path": "governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "sha256": "2b6aec800c7c724fd8a0019fa006de7deed70a1bcf5adceedbdb70f2e6391831"
+      "sha256": "09faa7ef7844d6711cff0c34717d6fc5e5662def659aa876a96a1455b5c302f6"
     },
     {
       "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-      "sha256": "a5758329714f4587c4ddd320ff14a09d0a4d347aa65d5a0c4e7711aba416fe76"
+      "sha256": "ecb4ebd5d35fe13e552e8d182b6a91a8aded632986b31a6fc7f0e4709ecbda6d"
     },
     {
       "path": "governance/PACKAGE_STATE_SUMMARY_v0_1.json",
@@ -40,11 +41,11 @@
     },
     {
       "path": "governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "sha256": "9276e0f599e2ed09ebb28ec14934501366359142c293cd158e68fad3e8084e48"
+      "sha256": "f86d110ff82040b8bf0294daf3e09830ca14663c8c79c21c99e39c02e4b0db42"
     },
     {
       "path": "governance/REPOSITORY_EDIT_BASELINE_v0_1.json",
-      "sha256": "76a37423e6b62f6f57916e332ad95103dfa749071be5bf178986cb60520e6e74"
+      "sha256": "9582089437fed79590c1be3fc6ac01df3eb5c4302f10bb09526988b52bdaf5fd"
     },
     {
       "path": "governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
@@ -52,11 +53,11 @@
     },
     {
       "path": "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
-      "sha256": "280fad308fd1deddf490ed0143ccba1dab9c2951f0d90504ad574ddd4ce8315b"
+      "sha256": "ff50302b8dfbac1a06357223e0099fcdbb5b45bad85dafca5ead51df5c4c1fe0"
     },
     {
       "path": "governance/SUBSYSTEM_REGISTRY_v0_1.json",
-      "sha256": "2f42cc453c258afb23dd9996d6781ab1773dc4ce67f232051a4f1c51243f52a6"
+      "sha256": "430b345cf29230f463799ab0c5cc745498be7cc63102cb7bf5990586fc859068"
     },
     {
       "path": "governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md",
@@ -80,7 +81,7 @@
     },
     {
       "path": "tools/README.md",
-      "sha256": "809536a3284eee5fe9125ceb31e0fb7e5d94f60c7e829c738350cbb3782af19b"
+      "sha256": "cd7a4862a43b357b433e18d18537f9fb5ff73f306cdd9de93916dcf8f37ce08d"
     },
     {
       "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",

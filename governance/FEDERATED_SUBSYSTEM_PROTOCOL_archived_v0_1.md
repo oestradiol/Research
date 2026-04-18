@@ -32,7 +32,7 @@ Owns:
 
 Does not own:
 
-- SUF package-local academic truth
+- SUF subsystem-local academic truth
 - Knowledge atlas-local structure
 - tools-local implementation detail
 
@@ -41,8 +41,8 @@ Does not own:
 Owns:
 
 - academic-core truth
-- package-local current state
-- package-local route and evidence posture
+- subsystem-local current state
+- subsystem-local route and evidence posture
 
 Primary entry and control surfaces:
 
@@ -110,14 +110,14 @@ When work crosses subsystem boundaries:
 2. make the smallest effective local change there first
 3. update a neighboring subsystem only if coordination, routing, validation, or handoff really changed
 4. validate locally first
-5. validate at umbrella level when the cross-part interface changed
+5. validate at umbrella level when the cross-subsystem interface changed
 6. leave a handoff trail through file references rather than implicit memory
 7. write durable research deltas back into the owning subsystem with provenance, short summary, status, and target file reference
 
 ## Placement rules for future code, tests, and validators
 
 - new code should land in the narrowest responsible subsystem
-- package-local tests or validators should live near the package or module they protect when possible
+- subsystem-local tests or validators should live near the subsystem or module they protect when possible
 - umbrella orchestration may compose subsystem outputs, but should not erase local ownership
 - root should not become the default location for unrelated helpers just because it is convenient
 
@@ -131,7 +131,7 @@ Federation and renewal support each other.
 
 ## Anti-patterns
 
-- one package or folder becoming the default home for unrelated logic
+- one subsystem or folder becoming the default home for unrelated logic
 - root governance drifting into package-local truth maintenance
 - shared helpers expanding until every subsystem depends on one hidden center
 - cross-subsystem edits happening by convenience rather than by explicit protocol
@@ -144,7 +144,7 @@ A new bounded subsystem should earn its place by showing:
 - a distinct job that existing parts do not already own well
 - a stable entry surface
 - a local validation or review path
-- a clear relationship to current root governance and the other packages
+- a clear relationship to current root governance and the other subsystems
 - enough expected future growth to justify bounded ownership
 
 If those conditions are not met, prefer extending an existing subsystem instead.

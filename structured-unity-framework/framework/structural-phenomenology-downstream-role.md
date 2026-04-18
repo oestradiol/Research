@@ -4,7 +4,7 @@
 
 This note states what **Structural Phenomenology (SP)** does and does not license downstream.
 
-It is the control surface that prevents SP from being treated as decorative exposition, total ontology, or a shortcut from phenomenology to metrics. It makes the handoff from `structural-phenomenology.md` into `informational-awareness-framework.md`, `unity-dynamics-framework.md`, `research-program.md`, and the route-local estimator layer explicit.
+It is the control surface that prevents SP from being treated as decorative exposition, total ontology, or a shortcut from phenomenology to metrics. It makes the handoff from `structural-phenomenology.md` into `informational-awareness-framework.md`, `unity-dynamics-framework.md`, `research-program.md`, and the route-local measurement layer explicit.
 
 SP is the **phenomenological and epistemic ground** of the framework. It is **not** the direct source of units, proxies, thresholds, lag rules, or state-level phenomenology claims.
 
@@ -17,10 +17,10 @@ SP licenses downstream work only under this chain:
 That means downstream layers may formalize, compare, and operationalize only when they keep the **status change** explicit.
 
 - SP governs **givenness, distinction, pattern, and structure**.
-- IAF governs **model formation, recursive organization, and structural description**.
-- UDF governs **operational variables and unity-like dynamics at explicit scales and windows**.
+- IA governs **model formation, recursive organization, and structural description**.
+- UD governs **operational variables and unity-like dynamics at explicit scales and windows**.
 - Research Program governs **unitization, proxy bundles, windows, nulls, source families, and route discipline**.
-- Estimator implementation governs **route-local reporting choices**, not phenomenological essence.
+- Measurement implementation governs **route-local reporting choices**, not phenomenological essence.
 
 ## 3. Forbidden modeling moves
 
@@ -56,7 +56,7 @@ Not licensed:
 
 - moving straight from awareness-first language to a metric bundle
 - treating weak naturalization as permission to bypass modeling discipline
-- importing statistical or graph outputs without a clear IAF/UDF bridge
+- importing statistical or graph outputs without a clear IA/UD bridge
 
 ### 3.5 Hardening epistemic ground into completed ontology
 
@@ -94,7 +94,7 @@ Permitted:
 - blocking naïve realism and anti-scientific collapse at the same time
 - reminding readers that later structural descriptions remain later descriptions
 
-### 4.4 Using SP to block ontological overreach in UDF and route prose
+### 4.4 Using SP to block ontological overreach in UD and route prose
 
 Permitted:
 
@@ -121,7 +121,7 @@ SP blocks that inference.
 What SP permits instead:
 
 - the route shows structured coordination patterns
-- those patterns can be modeled through IAF and operationalized through UDF
+- those patterns can be modeled through IA and operationalized through UD
 - the research program can compare windows and scales using route-local proxies
 - the result is a bounded claim about **unity-like organization**, not direct phenomenology
 
@@ -136,20 +136,20 @@ Blocked inference:
 Why it is blocked:
 
 1. SP gives an **epistemic starting point**, not a universal attribution rule.
-2. IAF adds a **modeling stance**, not a proof of subjectivity.
-3. UDF adds an **operational/dynamic frame**, not direct phenomenology.
+2. IA adds a **modeling stance**, not a proof of subjectivity.
+3. UD adds an **operational/dynamic frame**, not direct phenomenology.
 4. The research program explicitly uses bounded proxies and non-anthropomorphic route discipline.
 
-## 7. Direct links into methods and estimator surfaces
+## 7. Direct links into methods and measurement surfaces
 
 This note should be read together with:
 
 - [Structural Phenomenology](structural-phenomenology.md)
-- [Informational Awareness Framework](informational-awareness-framework.md)
-- [Unity Dynamics Framework](unity-dynamics-framework.md)
+- [Informational Awareness](informational-awareness-framework.md)
+- [Unity Dynamics](unity-dynamics-framework.md)
 - [Framework Interface](framework-interface.md)
 - [Research Program](research-program.md)
-- [Estimator Implementation](../applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/estimator-implementation.md)
+- [Measurement Implementation](../applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/measurement-implementation.md)
 
 ## 8. Required downstream wording discipline
 

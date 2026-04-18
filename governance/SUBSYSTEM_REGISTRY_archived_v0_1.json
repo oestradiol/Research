@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "purpose": "Machine-readable registry for public subsystem ownership, scope, navigation, and validation-cluster metadata.",
+  "purpose": "Machine-readable registry for public package ownership, scope, navigation, and validation-cluster metadata.",
   "subsystems": [
     {
       "id": "root-governance",
@@ -11,7 +11,7 @@
         "governance/",
         "docs/frontdoor/"
       ],
-      "entry_surface": "governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md",
+      "entry_surface": "governance/PACKAGE_BOUNDARY_PROTOCOL_v0_1.md",
       "authoritative_surface": "governance/AUTHORITATIVE_INDEX_v0_1.md",
       "validation_cluster": {
         "cluster_id": "root-governance",
@@ -74,16 +74,16 @@
       "scope_prefixes": [
         "../Internal/"
       ],
-      "entry_surface": "Internal/FRAMEWORK_CONTROL.md",
+      "entry_surface": "Internal/Framework Control.md",
       "authoritative_surface": "Internal/AUTHORITATIVE_INDEX_v0_1.md",
       "validation_cluster": {
         "cluster_id": "internal-delta",
         "source_files": [
           "Internal/FRAMEWORK_CONTROL.md",
           "Internal/FRAMEWORK_INTERFACE.md",
-          "Internal/THEORY_DELTA.md",
-          "Internal/METHODS_AND_LITERATURE_DELTA.md",
-          "Internal/DEFERRED_BRANCHES.md",
+          "Internal/Theory Delta.md",
+          "Internal/Methods and Literature Delta.md",
+          "Internal/Deferred Branches.md",
           "Internal/LANGUAGE_POLICY_v0_1.md"
         ]
       }

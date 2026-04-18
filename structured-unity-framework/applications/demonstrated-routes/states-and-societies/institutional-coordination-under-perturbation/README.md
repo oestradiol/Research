@@ -8,7 +8,7 @@
 
 This is the clearest current public route for turning SUF into a research-ready institutional case package. It keeps the object bounded, keeps timing central, and makes `I`, `C`, `L`, and `U` legible without pretending the framework is already universal.
 
-The route now includes a `38`-event public baseline ledger, a `29`-event main perturbation interval, bounded readouts, a route-local estimator implementation, an expanded `14`-check sensitivity/null note, a resolved high-priority New Zealand discovery queue inside the locked windows, and a stabilized direct-source layer for the current DPMC / Police implementation-chain events under a live-plus-fixed-archive admission rule.
+The route now includes a `38`-event public baseline ledger, a `29`-event main perturbation interval, bounded readouts, a route-local structured evidence organizer, an expanded `14`-check sensitivity/null note, a resolved high-priority New Zealand discovery queue inside the locked windows, and a stabilized direct-source layer for the current DPMC / Police implementation-chain events under a live-plus-fixed-archive admission rule.
 
 The strongest current bounded gain is still that public-information coordination remains structurally central even after the route thickens with implementation-side material rather than only headline decisions. The Taiwan branch is now a `15`-event bounded comparator with one conservative lag pair and a clearer health/border/public-alignment split than the earlier starter tranche. It is also the active chapter-readiness workstream rather than merely a distant later comparator.
 
@@ -26,7 +26,7 @@ The strongest current bounded gain is still that public-information coordination
 - [New Zealand Monograph De-escalation and Lag](nz-monograph-de-escalation-and-lag.md)
 - [New Zealand Monograph Robustness and Weakenings](nz-monograph-robustness-and-weakenings.md)
 - [New Zealand Monograph Table and Figure Plan](nz-monograph-table-and-figure-plan.md)
-- [Estimator Implementation](estimator-implementation.md)
+- [Measurement Implementation](measurement-implementation.md)
 - [First-Pass Seed Readout](first-pass-seed-readout.md)
 - [First-Pass Dependency Graph](first-pass-dependency-graph.md)
 - [First-Pass I Summary](first-pass-i-summary.md)

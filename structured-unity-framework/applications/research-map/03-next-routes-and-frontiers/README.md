@@ -1,6 +1,6 @@
-# 03 Next Routes and Frontiers
+# 03 Next Routes
 
-This cluster records the most plausible near-next routes plus a small set of intentionally higher-risk frontier nodes.
+This cluster records plausible near-next routes for SUF methodology. All speculative frontier extensions have been **REJECTED** and removed from the framework trajectory.
 
 ## Route-near next steps
 
@@ -8,11 +8,17 @@ This cluster records the most plausible near-next routes plus a small set of int
 - [Infrastructure and Logistics Coordination](infrastructure-and-logistics-coordination.md)
 - [Urban and Regional Governance](urban-and-regional-governance.md)
 
-## Higher-risk frontier exploration
+## REJECTED frontier extensions
 
-- [AI and Multi-Agent Coordination](ai-and-multi-agent-coordination.md)
-- [Quantum-Relational Ontology and Consciousness](quantum-relational-ontology-and-consciousness.md)
+The following speculative branches have been **explicitly rejected** and removed:
+
+- ~~Quantum-Relational Ontology and Consciousness~~ — DELETED
+- ~~Higher-risk AI/AGI frontier extensions~~ — REJECTED
+
+These aspirational extensions created a "false sense of rigor" — elaborate governance apparatus around underdetermined target concepts beyond the framework's empirical base (NZ/Taiwan pandemic coordination routes).
+
+SUF remains strictly bounded to states/societies institutional coordination with demonstrated empirical grounding.
 
 ## Cluster use
 
-Use this cluster to see where the current route can expand next without pretending the framework is already settled across every new domain. The first three nodes are route-near next steps. The frontier notes are later-horizon, higher-risk branches that remain bounded and explicitly non-default.
+Use this cluster to see where the current route can expand next within its bounded scope. All nodes remain subject to the framework's empirical constraints and anti-inflation discipline.

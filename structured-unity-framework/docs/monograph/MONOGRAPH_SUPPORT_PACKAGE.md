@@ -15,7 +15,7 @@ This file maps the planned monograph chapter set to the current canonical docs, 
 
 ### Core evidence-map anchors
 - front door and contribution framing -> `docs/argument/CONTRIBUTION_AND_POSITIONING.md`, `docs/claims-and-boundaries.md`
-- framework architecture -> `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`, `framework/framework-interface.md`, `framework/iaf-downstream-role.md`
+- framework architecture -> `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`, `framework/framework-interface.md`, `framework/ia-downstream-role.md`
 - methods and route design -> `framework/research-program.md`
 - New Zealand route boundary and corpus -> New Zealand route package surfaces
 - comparator work -> Taiwan route package surfaces
@@ -31,7 +31,7 @@ This file maps the planned monograph chapter set to the current canonical docs, 
 ### Part II — framework and methods
 - framework architecture
 - methods posture and route design
-- estimator, robustness, and validation posture
+- measurement, robustness, and validation posture
 
 ### Part III — New Zealand monograph core
 - route boundary and corpus
@@ -76,7 +76,7 @@ Closure is still future work. The package is stronger at demonstrated-route arch
 
 ### Weakening conditions
 - comparator failure
-- route-local estimator breakdown
+- route-local structured evidence organizer breakdown
 - evidence that public-information coordination is peripheral rather than central in the comparator family
 
 ### Non-claims

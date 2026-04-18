@@ -11,7 +11,7 @@ does the route's current bounded gain survive reasonable perturbations and null 
 Primary companions:
 
 - [Event Ledger Seed](event-ledger-seed.md)
-- [Estimator Implementation](estimator-implementation.md)
+- [Measurement Implementation](measurement-implementation.md)
 - [First-Pass Seed Readout](first-pass-seed-readout.md)
 - [First-Pass Window Comparison](first-pass-window-comparison.md)
 
@@ -22,7 +22,7 @@ This note now works from the current `38`-event public ledger and keeps the boun
 - `10` perturbation checks
 - `4` null framings
 
-The point is still modest: test whether the route immediately falls apart under plausible stress, not whether it is already estimator-complete.
+The point is still modest: test whether the route immediately falls apart under plausible stress, not whether it is already measurement-complete.
 
 ## Baseline reference
 
@@ -294,7 +294,7 @@ What survives coarse perturbation:
 - public-information coordination remains structurally central
 - Comparator B remains analytically real rather than a pure labeling artifact
 
-What survives estimator-aligned perturbation:
+What survives measurement-aligned perturbation:
 
 - the integration claim does not depend on one favorable `sigma2` clustering
 - the coherence claim does not depend on one bundled same-day event
@@ -312,7 +312,7 @@ The next practical move is to:
 
 1. keep adding direct D-family `D` and `E` events only under the live-plus-fixed-archive rule
 2. rerun the same robustness frame after a later Taiwan de-escalation tranche or second comparator route is in place
-3. then move from bounded robustness checks toward a more explicit estimator-stage perturbation program
+3. then move from bounded robustness checks toward a more explicit measurement-stage perturbation program
 
 ## Status
 

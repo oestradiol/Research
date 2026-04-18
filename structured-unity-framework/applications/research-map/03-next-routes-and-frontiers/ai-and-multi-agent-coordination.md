@@ -1,8 +1,10 @@
 # AI and Multi-Agent Coordination
 
+> **STATUS: ARCHIVED** — Archived per D6 decision (2026-04-17). Adjacent to rejected AGI frontier; trend-chasing risk high. Reopen requires monograph completion + 500-word explicit justification addressing scope fit, value-add, anti-anthropomorphism discipline, and resources. See `pending-inventory.md` for reopen criteria.
+
 ## Role in the applications atlas
 
-This is the deliberately higher-risk frontier node. It marks a plausible extension area while keeping the framework honest about what is and is not yet demonstrated.
+This node records AI and multi-agent coordination as a potential research area for SUF methodology. It remains speculative and does not represent an active extension of the framework beyond the current empirical base.
 
 ## Why SUF applies here
 
@@ -27,7 +29,7 @@ Units may include agents, controllers, oversight roles, tool chains, or organiza
 
 ## Likely I / C / L / U relevance
 
-`I`, `C`, and `L` are plausible operationally, especially for coordination analysis. `U` is the most constrained variable here and should be treated as a tightly bounded organizational signature, not as a shortcut to consciousness talk.
+`I`, `C`, and `L` are plausible operationally for coordination analysis. `U` should be treated as a tightly bounded organizational signature only.
 
 This node also has a writing-discipline burden. AI work is easy to dismiss or oversell with generic prose. Public SUF writing in this area should therefore stay concrete, non-anthropomorphic, and source-bearing, and should not treat detector rhetoric as if it were dependable adjudication.
 
@@ -61,4 +63,4 @@ A route on a human-supervised multi-agent workflow where the object is organizat
 
 ## Status
 
-`frontier node`
+`research area — not actively developed`

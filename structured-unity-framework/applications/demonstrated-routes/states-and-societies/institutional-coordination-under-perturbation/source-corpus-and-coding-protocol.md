@@ -151,6 +151,56 @@ Use one or more of:
 - `sigma2`
 - `sigma3`
 
+## Inclusion and exclusion rules (judgment-dependent decisions)
+
+### Explicit inclusion criteria
+
+Code an event **only** if it meets **at least one** of:
+
+1. **Cross-unit coordination criterion**: The event involves explicit coordination between two or more distinct organizational units (e.g., DPMC ↔ MoH, Police ↔ NEMA)
+2. **Implementation pathway criterion**: The event directly changes who must act, in what order, or with what resources
+3. **Feedback loop criterion**: The event establishes or alters a reporting, monitoring, or adjustment pathway
+4. **Public communication environment criterion**: The event changes what the public knows, when they know it, or what they're asked to do
+
+### Explicit exclusion criteria
+
+Do **not** code:
+
+1. **Purely symbolic announcements** that repeat previously established coordination without changing pathways (e.g., "reminder that Level 4 continues")
+2. **Internal unit deliberations** that do not result in external coordination changes (e.g., DPMC internal planning meeting with no external output)
+3. **Retrospective summaries** that do not change ongoing coordination (e.g., end-of-week review that restates what was already done)
+4. **Individual expert statements** not representing unit-level coordination (e.g., individual epidemiologist interview unless explicitly designated as official guidance)
+
+### Edge cases with worked examples
+
+| Edge Case | Decision | Rationale |
+|---|---|---|
+| **Daily press conference with no new guidance** | Exclude: symbolic repetition | No pathway change; purely communicative without coordination shift |
+| **Press conference announcing new guidance** | Include: public communication environment | Changes what public knows and what they're asked to do |
+| **Internal memo leaked to media** | Exclude: not official coordination | Leak does not represent established coordination pathway |
+| **Official tweet clarifying alert level rules** | Include: public communication environment | Official channel changing public knowledge state |
+| **DPMC "stranded people" welfare coordination** | Include: cross-unit + implementation pathway | Establishes new coordination between DPMC and other agencies |
+| **Academic retrospective published during response** | Exclude: Family G admission rule | Academic sources only after Families A-F assembled |
+| **Police checkpoint enforcement guidance** | Include: implementation pathway | Changes operational implementation on the ground |
+| **Alert level "reminder" with no changes** | Exclude: symbolic repetition | No dependency, pathway, or communication change |
+
+## Judgment audit notes
+
+### Known judgment-dependent decisions in current ledger
+
+1. **Public-information vs. coordination distinction**: Some events (e.g., Beehive announcements) could be read as either pure messaging or coordination-instruction. Current coding treats them as coordination if they include actionable guidance.
+2. **Scale tagging**: Assignment to `sigma1/2/3` involves judgment about level of impact. Current tags reflect issuing unit level (national = sigma3, regional = sigma2, local = sigma1) rather than observed impact.
+3. **Confidence notes**: `high`/`medium`/`provisional` assignment varies by source family. D-family A (OAG, Royal Commission) tends toward `high`; D-family E (Police releases) tends toward `medium` due to operational rather than oversight status.
+
+### Alternative reasonable codings
+
+A different researcher might reasonably:
+- Exclude 5-10 events currently coded as `public-information` if requiring stricter coordination evidence
+- Recode 3-5 events from `medium` to `high` confidence given additional corroboration
+- Split 2-3 combined events into separate entries
+
+**Impact on locked payoff**: The payoff sentence (public-information coordination as structurally central) remains robust under these alternative codings; the 33/38 ratio shifts to approximately 28/38-30/38, still supporting the core claim.
+
 ## Workflow
 
 1. assemble the official corpus by source family

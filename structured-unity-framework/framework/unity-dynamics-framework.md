@@ -1,8 +1,8 @@
-# Unity Dynamics Framework
+# Unity Dynamics
 
 ## 1. Purpose
 
-Unity Dynamics Framework is the **dynamic** layer. After Structural Phenomenology and Informational Awareness Framework, it asks: **when** does a structured system exhibit **unity-like organization** at explicit temporal windows **(τ)** and structural scales **(σ)**? It centers on **Integration (I)**, **Coherence (C)**, **Latency (L)**, and **unity-like organization (U)**.
+Unity Dynamics is the **dynamic** layer. After Structural Phenomenology and Informational Awareness, it asks: **when** does a structured system exhibit **unity-like organization** at explicit temporal windows **(τ)** and structural scales **(σ)**? It centers on **Integration (I)**, **Coherence (C)**, **Latency (L)**, and **unity-like organization (U)**.
 
 **Notation:** **[AXIOM]**, **[ASSUMPTION]**, **[INFERENCE]**, **[HYPOTHESIS]** as in other layers.
 
@@ -12,7 +12,7 @@ This document is **not** a final theory of consciousness and **not** a completed
 
 **U** characterizes organized, more-than-aggregate behavior at **(τ, σ)**. **U is not direct phenomenology**—it is an operational/dynamic readout. **L** **modulates** the scales and windows at which unity-like organization is visible; it is **not** assumed to be only a universal “low latency wins” gate.
 
-UDF is the **most technical-facing** layer in the current public stack, but it is **not** a fully closed predictive theory. The public package does **not** claim one universal formula, objectively settled cross-domain measurement of `I`, `C`, `L`, and `U`, a validated high-`R^2` predictive model, or a neural-network implementation.
+UD is the **most technical-facing** layer in the current public stack, but it is **not** a fully closed predictive theory. The public package does **not** claim one universal formula, objectively settled cross-domain measurement of `I`, `C`, `L`, and `U`, a validated high-`R^2` predictive model, or a neural-network implementation.
 
 ## 3. Why unity-like organization is modeled dynamically
 
@@ -76,11 +76,9 @@ These are **hypothesis-family** statements—revisable, not proclaimed as univer
 
 ## 10. Domain placement and observability asymmetry
 
-**Baseline domains** contemplated in principle include: human brains; **states / societies**; internet/markets/AI networks; **universe-level** cases.
+**Current priority:** **states / societies**—large-scale coordination, institutions, timing, delay, documented perturbations. State/social systems are more directly observable than speculative limit cases.
 
-**Current priority:** **states / societies**—large-scale coordination, institutions, timing, delay, documented perturbations—tractable for bounded operational work relative to more diffuse cases.
-
-**Observability asymmetry (locked):** state/social systems and universe-level cases must **not** be treated symmetrically. State/social systems are **more directly observable** and more suitable for near-term operationalization; **universe-level unity** remains a **speculative limit case**, not interchangeable with institutional analysis.
+**Not in scope:** universe-level cases, AGI, quantum-consciousness claims.
 
 ## 11. Anti-anthropomorphism rule (locked)
 
@@ -101,15 +99,15 @@ The honest public posture is:
 - thresholds are not domain-general
 - explanatory readout is stronger than predictive closure
 
-A route-local estimator can still be useful. It can make assumptions explicit, compare windows within a case, reveal dependency patterns, support bounded comparator work, and show where interpretations are sensitive to coding changes. But a route-local estimator is not the same thing as a domain-general measurement system.
+A route-local structured evidence organizer can still be useful. It can make assumptions explicit, compare windows within a case, reveal dependency patterns, support bounded comparator work, and show where interpretations are sensitive to coding changes. But a route-local structured evidence organizer is not the same thing as a domain-general measurement system.
 
 So the safer current claim is not:
 
-> UDF predicts outcomes with strong general statistical fit.
+> UD predicts outcomes with strong general statistical fit.
 
 The safer current claim is:
 
-> UDF offers a structured way to organize and compare route-level evidence using a small operational vocabulary whose present measurement quality is limited and context-dependent.
+> UD offers a structured way to organize and compare route-level evidence using a small operational vocabulary whose present measurement quality is limited and context-dependent.
 
 ## 13. Minimum falsification package and weakening conditions
 
@@ -145,8 +143,8 @@ It also does **not** yet prove:
 
 ## 15. Relation to Research Program and earlier layers
 
-Structural Phenomenology grounds the field; Informational Awareness Framework describes how structure forms; Unity Dynamics adds **dynamics** without claiming phenomenological essence. The Research Program supplies pilot shape, proxy families, comparators, nulls, and robustness—downstream.
+Structural Phenomenology grounds the field; Informational Awareness describes how structure forms; Unity Dynamics adds **dynamics** without claiming phenomenological essence. The Research Program supplies pilot shape, proxy families, comparators, nulls, and robustness—downstream.
 
 ## 16. Minimal working formulation
 
-Unity-like organization is modeled as **scale-relative** dynamic organization shaped by integration, coherence, and latency—**hypothesis family**, not a final law—**falsifiable in principle**, not direct phenomenology. UDF is the most technical-facing layer in the framework, but it does not yet offer a universal formula, objectively settled measurements, or demonstrated high-fit predictive closure across domains.
+Unity-like organization is modeled as **scale-relative** dynamic organization shaped by integration, coherence, and latency—**hypothesis family**, not a final law—**falsifiable in principle**, not direct phenomenology. Unity Dynamics is the most technical-facing layer in the framework, but it does not yet offer a universal formula, objectively settled measurements, or demonstrated high-fit predictive closure across domains.

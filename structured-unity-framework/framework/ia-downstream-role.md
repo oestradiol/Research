@@ -1,18 +1,18 @@
-# IAF Downstream Role
+# IA Downstream Role
 
 ## Purpose
 
 This note answers one question only:
 
-what does the Informational Awareness Framework enable downstream that Structural Phenomenology, Unity Dynamics, and Interface discipline do not already supply by themselves?
+what does Informational Awareness (IA) enable downstream that Structural Phenomenology, Unity Dynamics, and Interface discipline do not already supply by themselves?
 
-It also states the current **technical limits** of that role, so IAF is not read as either decorative jargon or a finished technical framework.
+It also states the current **technical limits** of that role, so IA is not read as either decorative jargon or a finished technical framework.
 
 ## Short answer
 
-IAF gives SUF a bounded **model-bridge vocabulary** for systems that not only have structure, but also **make, carry, update, and act on distinctions through feedback loops**.
+IA gives SUF a bounded **model-bridge vocabulary** for systems that not only have structure, but also **make, carry, update, and act on distinctions through feedback loops**.
 
-That role is real, but modest. IAF is mainly a modeling vocabulary and bridge layer. It is **not** yet a closed formalism, a final equation set, a neural-network implementation, or a universal estimator family.
+That role is real, but modest. IA is mainly a modeling vocabulary and bridge layer. It is **not** yet a closed formalism, a final equation set, a neural-network implementation, or a universal measurement protocol.
 
 ## Start with the simplest terms
 
@@ -68,7 +68,7 @@ Structural Phenomenology supplies:
 
 It does **not** by itself give a general public vocabulary for systems that make, pass along, and update distinctions through feedback-bearing coordination loops.
 
-### Unity Dynamics Framework
+### Unity Dynamics
 
 Unity Dynamics supplies:
 
@@ -88,17 +88,17 @@ Interface discipline supplies:
 
 It does **not** by itself provide the substantive modeling language that later route work can use when systems are built from distinctions, signaling, reporting, feedback, and recursive adjustment.
 
-## What IAF adds downstream
+## What IA adds downstream
 
 ### 1. A way to describe distinction-processing systems
 
-Without IAF, the framework can still say:
+Without IA, the framework can still say:
 
 - there are parts
 - the parts are related
 - the system has structure
 
-With IAF, the framework can say something more specific:
+With IA, the framework can say something more specific:
 
 - the system makes distinctions
 - those distinctions move through reporting and guidance channels
@@ -109,7 +109,7 @@ That is more than static structure, even if it is not yet a final technical form
 
 ### 2. A recursion frame without silent anthropomorphism
 
-IAF makes recursive organization easier to name without immediately collapsing into anthropomorphism.
+IA makes recursive organization easier to name without immediately collapsing into anthropomorphism.
 
 That matters for:
 
@@ -120,7 +120,7 @@ That matters for:
 
 ### 3. Route-design utility
 
-In route design, IAF helps justify attention to:
+In route design, IA helps justify attention to:
 
 - information or reporting dependencies
 - public-information coordination as a real working layer
@@ -139,13 +139,13 @@ A plain example from the New Zealand route:
 6. the new situation gets reported back
 7. the next round of guidance changes again
 
-That is the kind of loop IAF names more directly.
+That is the kind of loop IA names more directly.
 
 A plain structural description can say the parts are connected.
 
-IAF lets the framework say that the connections are carrying distinctions that affect later states of the system.
+IA lets the framework say that the connections are carrying distinctions that affect later states of the system.
 
-This is one reason IAF helps the public-information claim. If public-information coordination were only downstream packaging, it would look like a final output surface. But if information is part of the loop that keeps changing later coordination, then public-information can be structurally central rather than merely decorative.
+This is one reason IA helps the public-information claim. If public-information coordination were only downstream packaging, it would look like a final output surface. But if information is part of the loop that keeps changing later coordination, then public-information can be structurally central rather than merely decorative.
 
 ## Current route-visible support
 
@@ -157,14 +157,14 @@ The current route evidence supports this role at the model-and-method level:
 
 ## Technical payoff and limits
 
-IAF is **not** yet a finished technical theory.
+IA is **not** yet a finished technical theory.
 
 It does **not** yet provide:
 
 - a closed formalism
 - a final equation set
 - a neural-network implementation
-- a universal estimator
+- a universal measurement protocol
 - fixed measurement rules for all cases
 
 Its current technical payoff is narrower:
@@ -174,7 +174,7 @@ Its current technical payoff is narrower:
 - it clarifies why some communication layers may be structurally central rather than merely downstream
 - it gives a bridge vocabulary for later operational work without pretending that bridge is already a final technical model
 
-So if a reader says IAF currently feels more verbal than technical, that is a fair reaction. The honest claim is that IAF is a **technical-orienting** layer, not a technically completed one.
+So if a reader says IA currently feels more verbal than technical, that is a fair reaction. The honest claim is that IA is a **technical-orienting** layer, not a technically completed one.
 
 ## Boundary rule
 
@@ -182,13 +182,13 @@ This is a model- and method-level role.
 
 It does **not** require:
 
-- stronger substrate claims than the public IAF note already allows
+- stronger substrate claims than the public IA note already allows
 - collective consciousness claims
 - any assumption that informational language alone explains a case
 
 ## Practical consequence
 
-The downstream value of IAF is not that it proves ontology.
+The downstream value of IA is not that it proves ontology.
 
 Its value is that it lets SUF:
 
@@ -198,7 +198,7 @@ Its value is that it lets SUF:
 
 ## Minimal honest formulation
 
-IAF is best read as a bounded shared way to describe systems that do not just have organized parts, but also make and use meaningful distinctions through feedback loops. Its strongest current value is in shaping route design and interpretation, not in supplying a final formal model.
+IA is best read as a bounded shared way to describe systems that do not just have organized parts, but also make and use meaningful distinctions through feedback loops. Its strongest current value is in shaping route design and interpretation, not in supplying a final formal model.
 
 ## Status
 

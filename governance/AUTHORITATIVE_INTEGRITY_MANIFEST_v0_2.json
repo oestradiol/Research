@@ -1,0 +1,87 @@
+{
+  "version": "0.2.0",
+  "algorithm": "sha256",
+  "source": "Derived from GOVERNANCE_CORE_v0_2 + REGISTRY_MANIFEST_v0_2",
+  "file_count": 15,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "8fe0499260ded51022d0eef9ff28ec077ded1ff5c37fe339c75d4847569b235f",
+      "status": "current"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "6d2db813593777fb5d3f3010cd0396763240218c97a40b416b1f6e8d4a2d261b",
+      "status": "current"
+    },
+    {
+      "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
+      "sha256": "9fbd02f7e7eac062b86841341b1fd3a10c54ce8d3debc779284ed1fb384d7715",
+      "status": "current"
+    },
+    {
+      "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "sha256": "b031c342987741573b2cf0848361260390e8dbdc08bcb69aa00c990670de8cae",
+      "status": "current"
+    },
+    {
+      "path": "governance/AUTHORITATIVE_SOURCES_v0_2.json",
+      "sha256": "80a4899b93e08c0886b8ca2e4bddd9c3ed15fc9467bf5c1792a94779f34467eb",
+      "status": "current"
+    },
+    {
+      "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_2.json",
+      "sha256": "2f1e122d2b532089e3f2b3cca2ebb49ca53663b8077e4a277b8a33899e419e65",
+      "status": "current"
+    },
+    {
+      "path": "governance/FEDERATION_AND_LAYERS_v0_2.md",
+      "sha256": "fa2d658bd6d4746bb09e43548c042043b67f2f8a23b13fd20ea6ba64717ea719",
+      "status": "current"
+    },
+    {
+      "path": "governance/GOVERNANCE_CORE_v0_2.json",
+      "sha256": "17097c1afc08ff9d1355c3af42ff5c8b656df5dd5b9fe7beb7a54f985154568d",
+      "status": "current"
+    },
+    {
+      "path": "governance/REGISTRY_MANIFEST_v0_2.json",
+      "sha256": "c4cbc980a74f123895a045c83969371935636e43f5cb6cbda6781b27e9ada70f",
+      "status": "current"
+    },
+    {
+      "path": "knowledge/README.md",
+      "sha256": "507ed88074907cc8be7a61e84b6cbefa1744f3c417bdf6442f3ca42cf1c069ea",
+      "status": "current"
+    },
+    {
+      "path": "structured-unity-framework/START_HERE.md",
+      "sha256": "9174847e086f186926398725f4a86348a31dc0a8716dce1dce4879bbe2936a92",
+      "status": "current"
+    },
+    {
+      "path": "structured-unity-framework/docs/project-status.md",
+      "sha256": "fc59758a92fb42caf170e346b83f52ef570522f70a658fc8842ab6648f7152ad",
+      "status": "current"
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "cd7a4862a43b357b433e18d18537f9fb5ff73f306cdd9de93916dcf8f37ce08d",
+      "status": "current"
+    },
+    {
+      "path": "tools/docs/validation-policy.md",
+      "sha256": "87d59a7b770bfe3dfabbe27f155906308daed24d7b69efdfae719b5dfa5f6aee",
+      "status": "current"
+    },
+    {
+      "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
+      "sha256": "2537e1385f8e7d1e04e928bff236982fd6c204c2d3834e3799fa0a644325d20e",
+      "status": "current"
+    }
+  ],
+  "_meta": {
+    "derived_at": "[auto-generated]",
+    "missing_files": []
+  }
+}
