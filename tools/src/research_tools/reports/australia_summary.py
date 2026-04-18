@@ -14,6 +14,7 @@ compute_route_summary = _compute_route_summary
 def compare_australia_summary_to_docs(
     summary: RouteSummary,
     ledger_path: Path,
+    events: list[LedgerEvent] | None = None,
 ) -> list[ValidationResult]:
     """Compare computed Australia ledger summary to expected values from docs."""
     results: list[ValidationResult] = []
@@ -52,12 +53,12 @@ def compare_australia_summary_to_docs(
             )
         )
 
-    # Validate federal scope maintained via top issuer analysis
+    # Validate federal scope maintained via all issuer analysis
     # AHPPC issues as "public-health policy and command", National Cabinet as "strategic executive coordination"
-    top_issuer = summary.top_issuer.lower() if summary.top_issuer else ""
-    top_issuers = [t.lower() for t in summary.top_issuers] if summary.top_issuers else []
-    has_ahppc = any("health" in t or "public-health" in t for t in top_issuers)
-    has_national_cabinet = any("executive" in t or "strategic" in t for t in top_issuers)
+    # Check all unique issuing units, not just top (counts may differ)
+    all_issuers = {event.issuing_unit.lower() for event in events}
+    has_ahppc = any("health" in t or "public-health" in t for t in all_issuers)
+    has_national_cabinet = any("executive" in t or "strategic" in t for t in all_issuers)
 
     if not has_ahppc:
         results.append(

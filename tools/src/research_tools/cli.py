@@ -261,6 +261,7 @@ def handle_validate_all(_: argparse.Namespace) -> int:
             paths.source_registry,
             paths.nz_route_root / "event-ledger-seed.md",
             paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+            paths.australia_route_root / "australia-event-ledger-seed.md",
             paths.knowledge_root,
             paths.research_root / "CITATION.cff",
             paths.suf_root / "CITATION.cff",

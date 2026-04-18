@@ -1060,6 +1060,16 @@ Entries in this public pass were checked on `2026-04-02`, with later DPMC refres
 - Accessed: `2026-04-18`.
 - Use limit: supports acute phase advisory; does not alone establish full Australia comparator architecture.
 
+### src-australia-ahppc-aged-care-2020-03-13
+
+- Citation: Australian Health Protection Principal Committee. *AHPPC coronavirus (COVID-19) statement on 13 March 2020 — residential aged care facilities*. 2020.
+- Type: government statement.
+- Role in SUF: vulnerable population protection and aged care outbreak preparedness.
+- Primary link: https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-coronavirus-covid-19-statement-on-13-march-2020-0
+- Archive link: https://web.archive.org/web/2020/https://www.health.gov.au/news/australian-health-protection-principal-committee-ahppc-coronavirus-covid-19-statement-on-13-march-2020-0
+- Accessed: `2026-04-18`.
+- Use limit: supports vulnerable population coordination; does not alone establish full Australia comparator architecture.
+
 ### src-australia-ahppc-asymptomatic-2020-05-14
 
 - Citation: Australian Health Protection Principal Committee. *AHPPC updated statement on the role of asymptomatic testing for COVID-19*. 2020.

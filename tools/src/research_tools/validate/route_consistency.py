@@ -166,6 +166,7 @@ def validate_australia_route(
         compare_australia_summary_to_docs(
             summary=summary,
             ledger_path=route_root / "australia-event-ledger-seed.md",
+            events=australia_events,
         )
     )
     return results
