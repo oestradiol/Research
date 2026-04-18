@@ -51,7 +51,7 @@ from research_tools.workflows.validate_all import (
     collect_validation_results,
     render_validation_report,
 )
-from research_tools.generate.integrity_manifest import generate_integrity_manifest
+from research_tools.generate.integrity_manifest import generate_integrity_manifest_v2
 from research_tools.generate.file_registry import generate_file_registry
 
 
@@ -441,10 +441,11 @@ def handle_report_release_readiness(_: argparse.Namespace) -> int:
 def handle_generate_integrity_manifest(_: argparse.Namespace) -> int:
     paths = get_paths()
     try:
-        manifest = generate_integrity_manifest(paths.research_root)
-        print(f"✓ Generated integrity manifest with {len(manifest['files'])} files")
-        print(f"  Version: {manifest['version']}")
-        print(f"  Output: governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json")
+        manifest = generate_integrity_manifest_v2(paths.research_root)
+        print(f"✓ Generated v0.2 integrity manifest with {manifest['file_count']} current surfaces")
+        print(f"  Output: governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json")
+        if manifest['_meta'].get('missing_files'):
+            print(f"  ⚠ Warning: {len(manifest['_meta']['missing_files'])} files missing")
         return 0
     except ValueError as e:
         print(f"✗ Error: {e}")
