@@ -1,7 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "purpose": "Compression-friendly structured comparison metrics (replaces prose tables)",
-  "source": "Derived from event ledgers at validation time",
+  "data_type": "suf_route_metrics",
+  "source": "Research/structured-unity-framework event ledgers",
+  "validation": "research-tools validate all",
   "last_updated": "2026-04-18",
   
   "routes": {
@@ -61,12 +62,11 @@
     ]
   },
   
-  "comparison_notes": {
-    "nz_vs_taiwan": {
-      "edge_density": "NZ denser (0.571 vs 0.500)",
-      "cross_cluster_routing": "NZ higher (0.75 vs 0.59)",
-      "issuing_structure": "NZ strategic-hub vs Taiwan split",
-      "implementation_breadth": "NZ fuller (welfare, Police, CDEM, legal)"
-    }
-  }
+  "dependencies": [
+    "Research/structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/event-ledger-seed.md",
+    "Research/structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-event-ledger-seed.md",
+    "Research/structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/australia-event-ledger-seed.md"
+  ],
+  
+  "canonical_reference": "Research/structured-unity-framework/.handoff/agent-structure-decision.json"
 }
