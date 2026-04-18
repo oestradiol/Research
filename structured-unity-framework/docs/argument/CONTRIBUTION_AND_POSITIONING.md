@@ -21,7 +21,7 @@ A bounded Taiwan comparator now adds a `15`-event archive-clean tranche under th
 
 ### Locked payoff sentence
 
-**SUF shows that the New Zealand response should not be read only through command-and-control frameworks (e.g., Allison & Zelikow's governmental politics model, traditional public-administration hierarchy models) or generic institutional-capacity narratives, because public-information coordination is structurally central to the working coordination architecture.**
+**SUF shows that the New Zealand response should not be read only as centralized executive command, because public-information coordination is structurally central to the working coordination architecture.**
 
 ### Why that sentence is locked
 
