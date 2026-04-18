@@ -118,7 +118,7 @@ F. **Changelog**
 
 ## Evidence status summary
 
-| Case | Events | Source families | Archive-clean | Monograph-grade |
+| Case | Events | Source families | Archive-clean | Monograph-aspiring |
 |---|---|---|---|---|
 | New Zealand | 38 | 5 | ✅ | ✅ |
 | Taiwan | 20 | 4 | ✅ | ✅ |
@@ -129,9 +129,9 @@ F. **Changelog**
 
 `monograph support package — v1.4 complete`
 
-- New Zealand core: chapter-ready
-- Taiwan comparator: chapter-ready  
-- Australia comparator: chapter-ready
+- New Zealand core: chapter-scaffolded
+- Taiwan comparator: chapter-scaffolded  
+- Australia comparator: chapter-scaffolded
 - Three-case closure: bounded and documented
 - Rival-framework positioning: explicit
 - Weakening conditions: specified

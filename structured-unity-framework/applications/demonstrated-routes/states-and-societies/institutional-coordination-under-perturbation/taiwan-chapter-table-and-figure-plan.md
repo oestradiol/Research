@@ -33,4 +33,4 @@ Canonical values still come from the Markdown route artifacts. This file is only
 
 ## Status
 
-`chapter-ready table-and-figure plan`
+`chapter-scaffolded table-and-figure plan`

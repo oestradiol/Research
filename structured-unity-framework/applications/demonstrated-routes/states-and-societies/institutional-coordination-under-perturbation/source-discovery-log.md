@@ -87,7 +87,7 @@ The first Taiwan comparator tranche follows the same admission rule: no source i
 
 ## Taiwan comparator result
 
-This is enough to deepen the Taiwan comparator from the original `12`-event starter into a `20`-event archive-clean acute tranche meeting the chapter-ready threshold, without weakening the archive rule, and now also provides a bounded command-centre/EOC architecture anchor and retrospective/oversight closure.
+This is enough to deepen the Taiwan comparator from the original `12`-event starter into a `20`-event archive-clean acute tranche meeting the chapter-scaffolded threshold, without weakening the archive rule, and now also provides a bounded command-centre/EOC architecture anchor and retrospective/oversight closure.
 
 It now adds:
 
@@ -101,4 +101,4 @@ It still makes only one conservative lag pair cleanly visible:
 - `2020-03-18` foreign-entry restriction and local-district quarantine routing announcement
 - `2020-03-29` health-agency notification and medical-care routing observed during home quarantine
 
-**Current status:** `20 events` — meets chapter-ready threshold of 20+ events in ledger.
+**Current status:** `20 events` — meets chapter-scaffolded threshold of 20+ events in ledger.

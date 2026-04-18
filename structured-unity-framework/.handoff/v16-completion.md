@@ -5,7 +5,7 @@
 
 ## Objective (OBJ)
 
-Complete v1.6 research-ops tooling for 71-event verified monograph-grade repo
+Complete v1.6 research-ops tooling for 71-event verified monograph-aspiring repo
 
 ### Success Criteria
 

@@ -2,13 +2,13 @@
 
 ## Purpose
 
-This note is the chapter-ready boundary and corpus-control surface for the New Zealand monograph core.
+This note is the chapter-scaffolded boundary and corpus-control surface for the New Zealand monograph core.
 
 It does not replace the canonical route-control files. It states what is now stable enough to treat as the current monograph baseline inside the locked windows.
 
 ## Current baseline
 
-The New Zealand route is now chapter-ready inside the locked windows:
+The New Zealand route is now chapter-scaffolded inside the locked windows:
 
 - the route boundary remains fixed to the core all-of-government pandemic coordination apparatus
 - the seven-unit `sigma1` architecture and locked `sigma2` / `sigma3` readings remain unchanged

@@ -261,7 +261,7 @@ Comparators must preserve functional equivalence, not just country-level similar
 
 If the current program is deliberately reopened beyond the active-core baseline, the explicit closure target is:
 
-- a monograph-grade repo in `New Zealand core + comparator chapters` form
+- a monograph-aspiring repo in `New Zealand core + comparator chapters` form
 - strong multi-case closure within pandemic-governance inside the current states-and-societies family
 - no universal validation and no cross-domain closure claim
 

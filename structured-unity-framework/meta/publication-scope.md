@@ -10,7 +10,7 @@ Structured Unity Framework is presented here as the public `v1` line: a methodol
 
 - the methodological preface, two substantive layers, and bridge/control layer
 - the Research Program as a research-ready provisional design
-- the New Zealand demonstrated route with a `38`-event public ledger, a `29`-event main interval, a chapter-ready monograph baseline, first bounded readouts, and a `14`-check robustness note
+- the New Zealand demonstrated route with a `38`-event public ledger, a `29`-event main interval, a chapter-scaffolded monograph baseline, first bounded readouts, and a `14`-check robustness note
 - the bounded Taiwan comparator with a `15`-event ledger and one conservative lag pair
 - the targeted applications atlas under `applications/research-map/`
 - standard and extended reading lists for the active package

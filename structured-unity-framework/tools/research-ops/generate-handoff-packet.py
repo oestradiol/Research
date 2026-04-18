@@ -145,7 +145,7 @@ def generate_v16_completion_packet() -> HandoffPacket:
     packet = HandoffPacket(
         generated_at=now,
         corpus_anchor="R@{76-event corpus} B[Research] T[v1.6-research-ops]",
-        objective="Complete v1.6 research-ops tooling for 76-event monograph-grade repo",
+        objective="Complete v1.6 research-ops tooling for 76-event monograph-aspiring repo",
         success_criteria=[
             "Artifact completeness checks implemented",
             "Backlog hygiene monitoring active",

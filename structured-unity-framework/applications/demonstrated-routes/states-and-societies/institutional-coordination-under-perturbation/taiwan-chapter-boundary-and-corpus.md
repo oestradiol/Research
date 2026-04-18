@@ -4,7 +4,7 @@
 
 This note structures the current Taiwan comparator materials into a chapter-facing bounded route surface for the active `v1.2` pass.
 
-It does not replace the canonical Taiwan route-control files. It states what is already stable, what is still bounded, and what still remains before Taiwan can be treated as fully chapter-ready.
+It does not replace the canonical Taiwan route-control files. It states what is already stable, what is still bounded, and what still remains before Taiwan can be treated as fully chapter-scaffolded.
 
 ## Current baseline
 
@@ -77,4 +77,4 @@ Those remain active `v1.2` limits, not reasons to reopen boundary architecture.
 
 ## Status
 
-`chapter-ready bounded comparator`
+`chapter-scaffolded bounded comparator`

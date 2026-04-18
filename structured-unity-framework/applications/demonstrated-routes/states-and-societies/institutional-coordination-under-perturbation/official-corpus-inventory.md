@@ -12,7 +12,7 @@ Current status: `monograph-baseline public inventory`
 
 What is already true inside the locked route boundary:
 
-- the core official and oversight source base is now assembled strongly enough to support a chapter-ready New Zealand monograph core
+- the core official and oversight source base is now assembled strongly enough to support a chapter-scaffolded New Zealand monograph core
 - Families `A`, `B`, and `F` now have a durable public core inside the locked windows
 - Family `C` now has both official-review chronology and direct event-page support
 - Families `D` and `E` now have a direct DPMC/Police implementation-side layer plus direct DPMC architecture and public-information anchors admitted under the live-plus-fixed-archive rule
@@ -37,7 +37,7 @@ The current public core is already strong enough to support:
 - a bounded seven-unit `sigma1` architecture
 - the locked `sigma2` and `sigma3` readings
 - the main interval and both comparator windows
-- a chapter-ready public event ledger built from clear official coordination shifts and direct event pages
+- a chapter-scaffolded public event ledger built from clear official coordination shifts and direct event pages
 - a first conjoint comparison across Comparator A, the main perturbation interval, and Comparator B using the same public event family
 - a public distinction between what is architecturally grounded now and what still needs deeper event-level sourcing
 - a stronger direct source base for the current implementation-chain and sensitivity pass in D-family `D` and `E`, now filtered through an explicit live-plus-fixed-archive admission rule
