@@ -4,7 +4,7 @@ This file records the queued later work after the New Zealand monograph-baseline
 
 ## A. No remaining publication or active-core blockers
 
-The hosted `v1.2.0` release now has:
+The hosted `v1.5.0` release now has:
 
 - a public remote at `https://github.com/oestradiol/Research`
 - hosted README and citation URLs for the umbrella repo and public packages

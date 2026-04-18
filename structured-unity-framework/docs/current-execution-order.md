@@ -92,7 +92,7 @@ The main constraint is now **tooling correctness**, not empirical expansion.
 
 Current public surfaces provide:
 
-- a bounded v1.2.0 release frame
+- a bounded v1.5.0 release frame
 - a stable New Zealand monograph-baseline core (38 events)
 - a Taiwan comparator with 20 events
 - a bounded Australia federal comparator (18 events)
