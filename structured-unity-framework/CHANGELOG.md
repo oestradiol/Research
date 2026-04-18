@@ -4,6 +4,24 @@
 
 - no changes yet
 
+## `v1.5.0` - 2026-04-18
+
+Analysis-ready tooling, three-case synthesis, and monograph structure.
+
+### Hosted history
+
+- package URL: [structured-unity-framework/](https://github.com/oestradiol/Research/tree/main/structured-unity-framework)
+- umbrella tag: [`v1.5.0`](https://github.com/oestradiol/Research/releases/tag/v1.5.0)
+
+### Included in this snapshot
+
+- New Zealand route: 38 events with monograph-baseline structure
+- Taiwan comparator: 20 events with bounded architecture visibility
+- Australia federal comparator: 18 events with AHPPC + National Cabinet dual-layer architecture
+- Three-case synthesis: 76-event bounded closure with rival-framework positioning
+- Analysis-ready tooling: structured exports, cross-case validators, metric companions
+- Validation layer: 191 consistency checks across routes, versions, and release hygiene
+
 ## `v1.2.0` - 2026-04-05
 
 Taiwan chapter-ready hosted release of Structured Unity Dynamics.
