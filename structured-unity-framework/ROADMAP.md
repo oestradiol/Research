@@ -23,8 +23,8 @@ See [Monograph and Closure Program](docs/monograph-and-closure-program.md).
 1. ✅ `v1.2` Taiwan completion (20 events, chapter-ready threshold met)
 2. ✅ `v1.3` Australia federal comparator (18 events, AHPPC + National Cabinet dual-layer, federal-only scope)
 3. ✅ `v1.4` bounded pandemic-governance closure and monograph-grade repo (76 events, 3-case synthesis, rival-framework positioning)
-4. `v1.5` analysis-ready tooling
-5. `v1.6` research-ops tooling
+4. ✅ `v1.5` analysis-ready tooling (structured exports, validators, metric companions, surface sync)
+5. `v1.6` research-ops tooling (deferred to actual maintenance need)
 
 ## 4. Boundary rules for later work
 
