@@ -1,7 +1,7 @@
 # Handoff Packet: Australia Tooling (v1.5)
 
 **Date**: 2026-04-18  
-**Commit**: `ba3424a`  
+**Commit**: `88265dd`  
 **Agent**: Cascade  
 **Previous**: `.handoff/rebirth-protocol-2026-04-18.md`
 
@@ -15,6 +15,7 @@
 | Test // turbo annotation | ✅ Complete | Working as expected |
 | v1.5 Australia tooling | ✅ Complete | Parser, validator, CLI integration |
 | Australia event completion | ✅ Complete | 18 events with verified sources (Phase 2 target) |
+| Surface synchronization | ✅ Complete | Fixed Taiwan issuing concentration, removed internal leakage |
 
 ---
 
@@ -43,11 +44,19 @@
 
 ---
 
+## Validation Status (V+)
+
+**All validations passing** — 191 checks, 0 failures as of commit `HEAD`.
+
+Previous failures resolved:
+- `nz-taiwan-issuing-concentration`: Fixed stale metric in comparison note (border-control 9/20, not both issuers)
+- `release-hygiene-internal-leakage`: Removed devils-advocate-audit.md from public `.handoff/`
+
 ## Open Risks (RK)
 
 | Risk | Level | Context |
 |------|-------|---------|
-| None remaining | — | All v1.5 Australia tooling objectives complete |
+| None remaining | — | All v1.5 tooling objectives complete, surfaces synchronized |
 
 ---
 
@@ -99,12 +108,12 @@ Research/structured-unity-framework/applications/demonstrated-routes/states-and-
 
 ## Validation Status (V+)
 
-**V+** — All tooling changes committed, validators passing, 18-event Australia ledger with verified federal dual-layer architecture (AHPPC + National Cabinet)
+**V+** — All tooling changes committed, validators passing (191/0/0), 18-event Australia ledger with verified federal dual-layer architecture (AHPPC + National Cabinet)
 
 ---
 
 ## Cross-References
 
 - `.handoff/rebirth-protocol-2026-04-18.md` — OS state review that triggered this work
-- `.handoff/devils-advocate-audit.md` — Unverified Australia events remediation
+- ~~`.handoff/devils-advocate-audit.md`~~ — Removed (internal leakage resolved)
 - `Research/tools/out/validate-route-australia.md` — Latest validation report

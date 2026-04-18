@@ -9,7 +9,7 @@ upstream_dependencies:
   - ../ROADMAP.md
 downstream_dependencies: []
 validation_gate: research-tools validate all
-last_synced: "2026-04-18"
+last_synced: "2026-04-18T07:35:00+00:00"
 entry_for:
   - what_do_i_do_next
   - active_phase_check
@@ -119,9 +119,11 @@ Do not spend current work on:
 
 v1.5 must explicitly prevent the stale-surface failure mode that persisted here. Include in exit criteria:
 
-- [ ] All status surfaces (this file, project-status.md, pending-inventory.md) synchronized
-- [ ] ROADMAP.md phase markers match actual completion
-- [ ] Automated or manual freshness check documented
+- [x] All status surfaces (this file, project-status.md, pending-inventory.md) synchronized
+- [x] ROADMAP.md phase markers match actual completion
+- [x] Automated or manual freshness check documented (`validate all` gate)
+
+**Surface synchronization completed**: Fixed `nz-taiwan-issuing-concentration` metric (border-control 9/20, removed devils-advocate-audit.md internal leakage).
 
 ## Status
 
