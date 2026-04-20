@@ -63,7 +63,7 @@ That kind of support is encouraged here. It fits the structure of the repository
 Reasoning agents using the public repository should usually:
 
 1. read `README.md` and `START_HERE.md`
-2. read `governance/AUTHORITATIVE_INDEX_v0_1.md`
+2. read `governance/AUTHORITATIVE_INDEX_v0_2.md`
 3. read the package-local current-state surfaces relevant to the task
 4. capture the current repo commit and working-tree state before editing or summarizing current status
 5. keep local working memory small and rely on file references rather than long restatements

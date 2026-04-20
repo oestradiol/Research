@@ -7,7 +7,7 @@ Read these in order:
 1. `README.md`
 2. `docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md`
 3. `docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md`
-4. `governance/AUTHORITATIVE_INDEX_v0_1.md`
+4. `governance/AUTHORITATIVE_INDEX_v0_2.md`
 5. `structured-unity-framework/START_HERE.md`
 6. `knowledge/README.md`
 7. `tools/README.md`
