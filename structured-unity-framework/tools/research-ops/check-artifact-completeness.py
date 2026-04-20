@@ -58,7 +58,7 @@ def check_monograph_completeness(monograph_dir: Path) -> dict:
     referenced_files = set()
     
     # Check main support package for links
-    support_package = monograph_dir / 'MONOGRAPH_SUPPORT_PACKAGE.md'
+    support_package = monograph_dir / 'SUPPORT_PACKAGE.md'
     if support_package.exists():
         content = support_package.read_text(encoding='utf-8')
         links = extract_markdown_links(content)
@@ -79,7 +79,7 @@ def check_monograph_completeness(monograph_dir: Path) -> dict:
     
     # Find orphaned files (existing but not referenced)
     for md_file in all_md_files:
-        if md_file.resolve() not in referenced_files and md_file.name != 'MONOGRAPH_SUPPORT_PACKAGE.md':
+        if md_file.resolve() not in referenced_files and md_file.name != 'SUPPORT_PACKAGE.md':
             results['orphaned_files'].append(str(md_file.relative_to(monograph_dir)))
     
     return results

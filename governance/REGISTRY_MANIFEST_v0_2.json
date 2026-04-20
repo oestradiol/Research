@@ -3,7 +3,7 @@
   "purpose": "Full Research/ repository file catalog with integrity. INTEGRITY_MANIFEST derived from this + GOVERNANCE_CORE.current_surfaces at validation time.",
   "updated": "6b4b195e",
   "algorithm": "sha256",
-  "file_count": 377,
+  "file_count": 373,
   "note": "Full catalog for tooling. GOVERNANCE_CORE defines 'current' surfaces; this provides integrity for all tracked files.",
   "catalog_uri": "governance/REGISTRY_MANIFEST_v0_2.json",
   "generation_rule": "regenerate on release or when file tree changes materially",
@@ -79,23 +79,13 @@
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "a47917b8a6d68bd88f45de8a4e3a0056fb77d64c417c22f0bc8ef8da3ccaa848",
-      "size_bytes": 9902
+      "sha256": "9f5c2d5b9208ba9c57d7fd526a2bda9e52ed6fa2b5e2751c52e27c72b027adae",
+      "size_bytes": 10486
     },
     {
       "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
       "sha256": "ac0d3c905690d50e2b3567d88da2bb00c8562e8339905b92fce1b58e67f89224",
       "size_bytes": 2814
-    },
-    {
-      "path": "docs/ops/RELEASE_CHECKLIST_v0_1.md",
-      "sha256": "6133967a14a1c25235b89a2110af878a6bda26c4f8e71beab289f3110c4c8590",
-      "size_bytes": 625
-    },
-    {
-      "path": "docs/ops/SURFACE_STALENESS_RESEARCH_NOTE.md",
-      "sha256": "47e98739259288cccbadbe705ef45c3ed3adc5b9a62fa6b7e433f6273ed6a656",
-      "size_bytes": 7622
     },
     {
       "path": "governance/AUTHORITATIVE_INDEX_v0_2.md",
@@ -104,7 +94,7 @@
     },
     {
       "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json",
-      "sha256": "22441e93fd2d5e25b07642444599910d771e2ff5c4e03151b58596defe6d9976",
+      "sha256": "4dfda6e0ac25fccd6b1de3d315079a0694334d10130ff011a1a739a0aa5e739f",
       "size_bytes": 2895
     },
     {
@@ -134,8 +124,8 @@
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "f5a377039cff10a1c4e0bb3d9ca42465a94f9b911d6065a0785e3483fbaf48f6",
-      "size_bytes": 80592
+      "sha256": "1053eaf29a23839451ac61ff0a3894ca4cf52492344f555a1eabab7cc947955e",
+      "size_bytes": 78880
     },
     {
       "path": "knowledge/.gitignore",
@@ -246,11 +236,6 @@
       "path": "knowledge/_templates/subdomain-template.md",
       "sha256": "84a2845a8d736034cad30c226cd0125cb1eea28a45b71d83ce42b4384fad8208",
       "size_bytes": 379
-    },
-    {
-      "path": "knowledge/data/suf-comparison-metrics.json",
-      "sha256": "51bb4ac684d4bb9875efa7e0390b74f94b43886cf6a41641e708a90ec1a8948a",
-      "size_bytes": 2804
     },
     {
       "path": "knowledge/knowledge-package-spec.md",
@@ -764,8 +749,8 @@
     },
     {
       "path": "structured-unity-framework/START_HERE.md",
-      "sha256": "bb0be03f2db47f4c65259580501e9f4bf0038c39b0e72b613f5e330e8fcab6e6",
-      "size_bytes": 981
+      "sha256": "7e8e3bb0810c5f382902d87c1df477d45fadc3475ffb397004d582d205f4935b",
+      "size_bytes": 971
     },
     {
       "path": "structured-unity-framework/applications/README.md",
@@ -1169,8 +1154,8 @@
     },
     {
       "path": "structured-unity-framework/docs/INDEX.md",
-      "sha256": "18f6768ec856b557997bc172e419c7f3d18693e8a56e789b409a1ca99bd182b7",
-      "size_bytes": 3810
+      "sha256": "22945cbb49ae27da348a0d1e7a4a9baa4e9d40c4a660e57b5baee2910140bcb3",
+      "size_bytes": 3800
     },
     {
       "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
@@ -1189,8 +1174,8 @@
     },
     {
       "path": "structured-unity-framework/docs/current-execution-order.md",
-      "sha256": "55c475fef9f154d75f7502e819eaa3ee718afce70e68ed2b205487db5fa8f16c",
-      "size_bytes": 5337
+      "sha256": "bf0215366668c244561970c009efd463f4784fabbb2c7ccf05fae7b74a2cd307",
+      "size_bytes": 5325
     },
     {
       "path": "structured-unity-framework/docs/diagrams/dependency-map.md",
@@ -1244,23 +1229,23 @@
     },
     {
       "path": "structured-unity-framework/docs/monograph/CLOSURE_PROGRAM.md",
-      "sha256": "fba99cfe71fa2dca07a103a9cb9da2a9667c81347fc00e60707f5008fdafc392",
-      "size_bytes": 12851
+      "sha256": "c5eea429af2c2c09b000382bee14c56f28068ab5d4670327fa731ef340e36fd6",
+      "size_bytes": 12842
     },
     {
-      "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
-      "sha256": "b7a00306e9e22028bf9ebe89f02a102da7d653812ada13a7247542d8b155ddb1",
-      "size_bytes": 7168
+      "path": "structured-unity-framework/docs/monograph/SUPPORT_PACKAGE.md",
+      "sha256": "216aa4b423632926d614754ad1ba92ed83d5d05efb7240a4fd85fd872deecd19",
+      "size_bytes": 7148
     },
     {
       "path": "structured-unity-framework/docs/pending-inventory.md",
-      "sha256": "d7f6e5ab69878a5d44c68e7d5d8c59c88ce2546b3200f6c19ff990cef8e2a997",
-      "size_bytes": 7975
+      "sha256": "8dd8300b4e768080dfb289b1b53158acfd40fccef89c3ba9ee0083757a05ff72",
+      "size_bytes": 7967
     },
     {
       "path": "structured-unity-framework/docs/project-status.md",
-      "sha256": "d6cc8c5b15d7a5809eae5131ca824367cddc4fc84b502ae8ea5ab4cd554376fb",
-      "size_bytes": 10977
+      "sha256": "200934529d9a5d30b6cc29023b6b694bf80717c1877d03a72fb3539fe4e5e073",
+      "size_bytes": 10970
     },
     {
       "path": "structured-unity-framework/framework/framework-interface.md",
@@ -1304,8 +1289,8 @@
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "sha256": "c307ca628a7388ccc6d1bebc5acb5d5b1f9b0afd40430c2fc9aed23811f6c421",
-      "size_bytes": 2378
+      "sha256": "9032dcdd075cc5557a6b0a2adaaf4bfb25e556d97a9bf602937f1633d944c254",
+      "size_bytes": 2368
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
@@ -1324,13 +1309,13 @@
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "sha256": "5e84ac3b3d8d4b627c0312f5833880bf58c90ee39e5011ff3090249be61c449e",
-      "size_bytes": 2943
+      "sha256": "e73ea7b0529a25b122ea3b959f32fd5124ca774ba79a9187099630f988449aa2",
+      "size_bytes": 2933
     },
     {
       "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "sha256": "64757aa79382232cd1fed930d127c92d2f0b4d3497e95aa38ee5c15099226820",
-      "size_bytes": 33493
+      "sha256": "4e07d4d2bc472b394544d086fc8d4c98b132f8e8fd9d7a3ae888bf09e7e4ca5b",
+      "size_bytes": 33483
     },
     {
       "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
@@ -1344,8 +1329,8 @@
     },
     {
       "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "sha256": "5b19d7ffb8942e59e1475c4ade751218080c771bca0f0c0837e4f991e9da7130",
-      "size_bytes": 30453
+      "sha256": "814b9d6afd530a47cf495e5b97dc28cc9bcc2c5630607a7a792a20d8d7833fd3",
+      "size_bytes": 30433
     },
     {
       "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
@@ -1469,8 +1454,8 @@
     },
     {
       "path": "structured-unity-framework/tools/research-ops/check-artifact-completeness.py",
-      "sha256": "16d6aa23de021c8ad850133499e7c96ef57f00ad2cd4b9a2e0bbf76b83d2ee6d",
-      "size_bytes": 6745
+      "sha256": "47a447ada3eb51c0a92cc208a2b7dfae9193255281a0a06a4346facf234b9ffe",
+      "size_bytes": 6725
     },
     {
       "path": "structured-unity-framework/tools/research-ops/check-backlog-hygiene.py",
@@ -1583,19 +1568,14 @@
       "size_bytes": 2983
     },
     {
-      "path": "tools/docs/archive/sprint-log.md",
-      "sha256": "100de51b7a44eadf00a83b42096e0540d2cd9a290333a781c047bc90ac4de3f3",
-      "size_bytes": 2630
-    },
-    {
       "path": "tools/docs/backlog.md",
       "sha256": "0e2afca1c21156ac0d7389b76458af4866183fac3fad5d805531dd069ea5b07d",
       "size_bytes": 2495
     },
     {
       "path": "tools/docs/validation-policy.md",
-      "sha256": "a2df7610e28009784891c24c74a5916115e550f7e68ac353e977ebdd84c3ff98",
-      "size_bytes": 2179
+      "sha256": "7b03dec67db804d1dadf08bc039e1208918989d6f29c11245fbf293ee20612c5",
+      "size_bytes": 2191
     },
     {
       "path": "tools/flake.lock",
@@ -1804,8 +1784,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/governance.py",
-      "sha256": "d8ed073cc3e259eb49ae2fa36b55b482210722a1e61126976f4038cc7a7707b4",
-      "size_bytes": 46943
+      "sha256": "f1b2930b61c5161558e12c1a767beb7bb121ac627f660255229208e0a1397d0f",
+      "size_bytes": 47026
     },
     {
       "path": "tools/src/research_tools/validate/governance_consistency.py",
@@ -1829,8 +1809,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/release_hygiene.py",
-      "sha256": "9a2021758ec30b4172afb8b079f0e8d49cab9d3194d563cf884dfbcf57bb3b9e",
-      "size_bytes": 2541
+      "sha256": "b4fcaf25aea80af8a7d8fd81a38af10d218a42efba9d01b8ea5ba45e4fd9d417",
+      "size_bytes": 2830
     },
     {
       "path": "tools/src/research_tools/validate/route_consistency.py",
@@ -1844,8 +1824,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/status_surfaces.py",
-      "sha256": "0c9e2d8167e61f6e1af67e57d6e5d0124b80b77d7817d988d388bfcfbdeec385",
-      "size_bytes": 15114
+      "sha256": "6d1a60396551732327f46f6c632704f8151cce31d5f127dc19a1d3ca9ad5337a",
+      "size_bytes": 15110
     },
     {
       "path": "tools/src/research_tools/validate/three_case_synthesis.py",

@@ -144,8 +144,8 @@ Closure is still future work. The package is stronger at demonstrated-route arch
 ## Provenance
 
 This file consolidates the roles previously carried by:
-- `monograph/MONOGRAPH_SUPPORT_PACKAGE.md` (top-level; chapter TOC + evidence status)
-- `docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md` (pre-merge; support-map framing + bounded closure note)
+- `monograph/SUPPORT_PACKAGE.md` (top-level; chapter TOC + evidence status)
+- `docs/monograph/SUPPORT_PACKAGE.md` (pre-merge; support-map framing + bounded closure note)
 - `monograph-evidence-map.md`
 - `monograph-table-of-contents.md`
 - `bounded-pandemic-closure-note.md`

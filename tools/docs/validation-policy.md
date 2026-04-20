@@ -29,24 +29,11 @@ Recognized fixed archive surfaces in tranche 1 are:
 - whether a mismatch should overwrite public docs
 - **whether status surfaces match ground truth** (validators check consistency between surfaces, not correctness of content)
 
-## Validation Limitations (Explicit)
+## Validation layers
 
-**The 191-check validation suite ensures consistency, not correctness:**
-- ✅ Checks that doc A matches doc B (syntactic)
-- ❌ Does NOT check that doc A matches reality (semantic)
-- ❌ Does NOT prevent surface drift when ledgers update but status docs don't
+The suite checks both consistency (doc A matches doc B) and bounded ground truth (doc A matches ledger). Ground-truth validators (`ground_truth-nz-event-count`, `ground_truth-taiwan-event-count`, `ground_truth-australia-event-count`, `ground_truth-three-case-synthesis-total`) parse ledgers and compare counts to status-surface claims, catching cases where all prose surfaces drift together.
 
-**Example failure mode (documented):**
-```
-Status surface: "71 events"
-Ledger (old): "71 events coded"
-Validator: ✅ MATCH (passes)
-Reality (new): 76 events coded
-Result: Validation passes, claim is FALSE
-```
-
-**Surface synchronization remains manual responsibility.**
-Validation catches mismatches between surfaces, but cannot catch when all surfaces are stale together.
+Remaining manual responsibility: version numbers and dates (CITATION.cff, README.md, CHANGELOG.md) still require hand-propagation. If staleness recurs, the next escalation is either a `research-tools release sync` subcommand or template-based status-surface generation.
 
 ## Human gate
 

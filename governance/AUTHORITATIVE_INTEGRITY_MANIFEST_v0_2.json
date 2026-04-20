@@ -16,7 +16,7 @@
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "a47917b8a6d68bd88f45de8a4e3a0056fb77d64c417c22f0bc8ef8da3ccaa848",
+      "sha256": "9f5c2d5b9208ba9c57d7fd526a2bda9e52ed6fa2b5e2751c52e27c72b027adae",
       "status": "current"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "431a841242f608cac6daf7a01ee742905bc7f2bfea8e6f80c7ec1694d73d2032",
+      "sha256": "33e68dc42863f11ac199c29b924595cc6159c0320c08895b6d72b9ed5ed9b069",
       "status": "current"
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "path": "structured-unity-framework/START_HERE.md",
-      "sha256": "bb0be03f2db47f4c65259580501e9f4bf0038c39b0e72b613f5e330e8fcab6e6",
+      "sha256": "7e8e3bb0810c5f382902d87c1df477d45fadc3475ffb397004d582d205f4935b",
       "status": "current"
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "path": "tools/docs/validation-policy.md",
-      "sha256": "a2df7610e28009784891c24c74a5916115e550f7e68ac353e977ebdd84c3ff98",
+      "sha256": "7b03dec67db804d1dadf08bc039e1208918989d6f29c11245fbf293ee20612c5",
       "status": "current"
     },
     {

@@ -66,7 +66,7 @@ Explicit non-goals:
 
 The long-range program should treat these docs as stable public interfaces:
 
-- [Monograph Support Package](MONOGRAPH_SUPPORT_PACKAGE.md)
+- [Monograph Support Package](SUPPORT_PACKAGE.md)
   Repo-native monograph shape, chapter-to-artifact map, and bounded closure note.
 - [Rival-Framework Positioning Note](../argument/CONTRIBUTION_AND_POSITIONING.md)
   Stable surface for later bounded comparison against nearby explanatory frames.
@@ -260,7 +260,7 @@ Future agents should follow this order:
 1. [project-status.md](../project-status.md) for current package posture
 2. this file for the canonical long-range program
 3. [pending-inventory.md](../pending-inventory.md) for the queued later-work inventory
-4. [MONOGRAPH_SUPPORT_PACKAGE.md](MONOGRAPH_SUPPORT_PACKAGE.md) for chapter and artifact structure
+4. [SUPPORT_PACKAGE.md](SUPPORT_PACKAGE.md) for chapter and artifact structure
 5. route-level docs only after the phase and chapter target are clear
 
 Future agents must keep these distinctions explicit:

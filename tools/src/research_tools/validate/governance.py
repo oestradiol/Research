@@ -130,7 +130,7 @@ MERGED_DOC_EXPECTATIONS = {
         "## Evidence-status matrix role",
         "## Provenance",
     ],
-    "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md": [
+    "structured-unity-framework/docs/monograph/SUPPORT_PACKAGE.md": [
         "## Table of contents",
         "## Monograph chapter scaffold",
         "## Bounded closure note",

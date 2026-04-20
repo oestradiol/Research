@@ -13,7 +13,7 @@ Read these in order:
 7. `docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
 8. `docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 9. `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
-10. `docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md`
+10. `docs/monograph/SUPPORT_PACKAGE.md`
 11. `governance/AUTHORITATIVE_INDEX_v0_1.md`
 
 Simple summary:

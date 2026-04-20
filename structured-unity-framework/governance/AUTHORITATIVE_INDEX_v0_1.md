@@ -36,7 +36,7 @@ See root `../../governance/GOVERNANCE_CORE_v0_2.json` for umbrella current surfa
 - `../docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
 - `../docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 - `../docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
-- `../docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md`
+- `../docs/monograph/SUPPORT_PACKAGE.md`
 
 ## Rule
 If a file is not listed as live here or marked current in the SUF `CURRENT_SURFACES_REGISTRY_v0_1.json`, do not treat it as the present-tense package truth surface. The `_v0_1` governance-scheme suffix is **current by design** at this subsystem scope (see **Versioning convention** above); it is not a deprecation marker.

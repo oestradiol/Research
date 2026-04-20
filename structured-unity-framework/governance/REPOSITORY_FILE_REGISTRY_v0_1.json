@@ -1,5 +1,5 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "scope_prefix": "structured-unity-framework/",
   "files": [
     {
@@ -518,8 +518,8 @@
       "extension": ".md"
     },
     {
-      "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
-      "category": "MONOGRAPH_SUPPORT_PACKAGE.md",
+      "path": "structured-unity-framework/docs/monograph/SUPPORT_PACKAGE.md",
+      "category": "SUPPORT_PACKAGE.md",
       "extension": ".md"
     },
     {

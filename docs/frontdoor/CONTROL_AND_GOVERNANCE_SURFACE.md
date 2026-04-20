@@ -40,6 +40,7 @@ Use these to see what is current and authoritative:
 Run these from the repository root:
 - `python package_doctor.py`
 - `python research_launch_gate.py`
+- `research-tools validate all` (full validation suite)
 
 Supporting audits:
 - `python tools/audit_current_surfaces.py`
@@ -48,6 +49,17 @@ Supporting audits:
 - `python tools/audit_repository_minimality.py`
 - `python tools/audit_routing_surfaces.py`
 - `python tools/audit_edit_scope.py`
+
+## Release checklist
+
+Before treating the repository as current and governed:
+
+1. `package_doctor.py` and `research_launch_gate.py` pass
+2. `research-tools validate all` passes (including ground-truth validators)
+3. Root and SUF integrity manifests regenerate cleanly
+4. New root files added to `governance/REGISTRY_MANIFEST_v0_2.json` and SUF `REPOSITORY_FILE_REGISTRY_v0_1.json`
+5. Root docs route to package surfaces rather than duplicating package state
+6. Current claim expectations still match the bounded public posture
 
 ## How the repository resists sprawl
 
