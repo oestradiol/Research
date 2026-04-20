@@ -4,7 +4,7 @@
 
 This note states what **Structural Phenomenology (SP)** does and does not license downstream.
 
-It is the control surface that prevents SP from being treated as decorative exposition, total ontology, or a shortcut from phenomenology to metrics. It makes the handoff from `structural-phenomenology.md` into `informational-awareness-framework.md`, `unity-dynamics-framework.md`, `research-program.md`, and the route-local measurement layer explicit.
+It is the control surface that prevents SP from being treated as decorative exposition, total ontology, or a shortcut from phenomenology to metrics. It makes the handoff from `structural-phenomenology.md` into `informational-awareness.md`, `unity-dynamics.md`, `research-program.md`, and the route-local measurement layer explicit.
 
 SP is the **methodological preface** of the framework: it sets the phenomenological and epistemic ground under which the substantive layers (IA, UD) operate. It is **not** a peer substantive layer and is **not** the direct source of units, proxies, thresholds, lag rules, or state-level phenomenology claims.
 
@@ -145,8 +145,8 @@ Why it is blocked:
 This note should be read together with:
 
 - [Structural Phenomenology](structural-phenomenology.md)
-- [Informational Awareness](informational-awareness-framework.md)
-- [Unity Dynamics](unity-dynamics-framework.md)
+- [Informational Awareness](informational-awareness.md)
+- [Unity Dynamics](unity-dynamics.md)
 - [Framework Interface](framework-interface.md)
 - [Research Program](research-program.md)
 - [Measurement Implementation](../applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/measurement-implementation.md)

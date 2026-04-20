@@ -517,7 +517,7 @@
       "reason": "current surface, package content, reference surface, or operational support"
     },
     {
-      "path": "structured-unity-framework/framework/informational-awareness-framework.md",
+      "path": "structured-unity-framework/framework/informational-awareness.md",
       "job": "recorded package file",
       "reason": "current surface, package content, reference surface, or operational support"
     },
@@ -542,7 +542,7 @@
       "reason": "current surface, package content, reference surface, or operational support"
     },
     {
-      "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
+      "path": "structured-unity-framework/framework/unity-dynamics.md",
       "job": "recorded package file",
       "reason": "current surface, package content, reference surface, or operational support"
     },

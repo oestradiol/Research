@@ -104,7 +104,7 @@ This is **bounded and route-specific**, not universal.
 
 ## Relation to other SUF documents
 
-- `unity-dynamics-framework.md`: Core UD layer specification
+- `unity-dynamics.md`: Core UD layer specification
 - `CONTRIBUTION_AND_POSITIONING.md`: Bounded rival positioning with citations
 - `framework-interface.md`: Bridge layer that prevents UD from overclaiming
 - `research-program.md`: Empirical roadmap for UD development

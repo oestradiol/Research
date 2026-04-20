@@ -119,7 +119,7 @@ IA is intentionally presented as a **bounded modeling vocabulary** rather than a
 ### 10.2 What this mapping does not provide
 
 - **Universal measurement protocol:** The mapping is a bibliography, not a single set of equations
-- **Domain-agnostic measurement rules:** Operationalization remains route-local (see `unity-dynamics-framework.md`)
+- **Domain-agnostic measurement rules:** Operationalization remains route-local (see `unity-dynamics.md`)
 - **Proof of framework validity:** Formal anchoring is necessary but not sufficient for empirical adequacy
 
 ## 11. Relation to Structural Phenomenology and later layers

@@ -1,7 +1,7 @@
 {
   "version": "0.2.0",
   "purpose": "Full Research/ repository file catalog with integrity. INTEGRITY_MANIFEST derived from this + GOVERNANCE_CORE.current_surfaces at validation time.",
-  "updated": "2b3270fb",
+  "updated": "6b4b195e",
   "algorithm": "sha256",
   "file_count": 386,
   "note": "Full catalog for tooling. GOVERNANCE_CORE defines 'current' surfaces; this provides integrity for all tracked files.",
@@ -119,7 +119,7 @@
     },
     {
       "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json",
-      "sha256": "2091df641faf9b9d786b1e6174962c669804d567b6563295f98223d997a5753d",
+      "sha256": "22441e93fd2d5e25b07642444599910d771e2ff5c4e03151b58596defe6d9976",
       "size_bytes": 2895
     },
     {
@@ -149,8 +149,8 @@
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "5438697915833ebaeb660ca32d8516044f98a6c3caf910ec50f83da655f01e86",
-      "size_bytes": 80635
+      "sha256": "7ba8a368c189631876de04749571c034131a283d20044fbaa93042cd1e2acc49",
+      "size_bytes": 80615
     },
     {
       "path": "knowledge/.gitignore",
@@ -659,8 +659,8 @@
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/knowledge-engineering-and-agentic-systems.md",
-      "sha256": "71e2ba808124197c779908e01c05edaf8b349023fcb806ea48bbb7272ce7aa5e",
-      "size_bytes": 10543
+      "sha256": "6973556b1dfd957f5b0cf60c3f4a7db2594cca8210dd6becf0a7ed753c76eda5",
+      "size_bytes": 11585
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/knowledge-organization-and-library-science.md",
@@ -1204,8 +1204,8 @@
     },
     {
       "path": "structured-unity-framework/docs/INDEX.md",
-      "sha256": "0736fbe954beefd77989864e8bec6c614dfc3837d5e096949df6f061ba7b47e6",
-      "size_bytes": 3858
+      "sha256": "1a1591b13b4d440857fb443578e618dbb69cfef41118304cff9f714372620bb4",
+      "size_bytes": 3818
     },
     {
       "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
@@ -1214,13 +1214,13 @@
     },
     {
       "path": "structured-unity-framework/docs/argument/UD_DIFFERENTIATION_SCAFFOLD.md",
-      "sha256": "648c3852a460796765826a894bb377398aeac0945399e2560fa91b71f3b84a30",
-      "size_bytes": 6681
+      "sha256": "427a6c42bf1a4b0575bac7e1c1453ba5561d73d73d6c02c196c79e1ea8fbf22f",
+      "size_bytes": 6671
     },
     {
       "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
-      "sha256": "3cc16d2aa84f084850bbf1435cd5d9eeeaa738091646fca255dfbcf272cb4c69",
-      "size_bytes": 11270
+      "sha256": "a74190f605d2aa38cca799f7f4c5c6ace22aa2cb5ab0a219910f71f15760fd48",
+      "size_bytes": 11250
     },
     {
       "path": "structured-unity-framework/docs/claims-and-boundaries.md",
@@ -1294,8 +1294,8 @@
     },
     {
       "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
-      "sha256": "2e574b0afb99e9a8c3d9063c044a034c338dc85828d6c08b5f49307f7a2dc8de",
-      "size_bytes": 4428
+      "sha256": "53b74506fbcd8f16e043b67b0cc0a77c16b3bce972892ffbab305d252e5c9364",
+      "size_bytes": 4408
     },
     {
       "path": "structured-unity-framework/docs/pending-inventory.md",
@@ -1318,9 +1318,9 @@
       "size_bytes": 7181
     },
     {
-      "path": "structured-unity-framework/framework/informational-awareness-framework.md",
-      "sha256": "a306df6fb2b1e7140d1108bc37126137cf729541772f0cae519d5a549aff8a31",
-      "size_bytes": 13111
+      "path": "structured-unity-framework/framework/informational-awareness.md",
+      "sha256": "29c9bf9f156409c0b14452d0ae4740b85bbabf0fdb9a9784d11c09d165101eea",
+      "size_bytes": 13101
     },
     {
       "path": "structured-unity-framework/framework/literature-guide.md",
@@ -1334,8 +1334,8 @@
     },
     {
       "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
-      "sha256": "bb2ab39e927b534c229e89c544930054d6c67cc57b896c9fe1e41d3d4a14ab8b",
-      "size_bytes": 7363
+      "sha256": "312f80e067b1f20e3769b8b32451e21d58307ee681bfe6874fd035ab69608c6c",
+      "size_bytes": 7323
     },
     {
       "path": "structured-unity-framework/framework/structural-phenomenology.md",
@@ -1343,7 +1343,7 @@
       "size_bytes": 17506
     },
     {
-      "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
+      "path": "structured-unity-framework/framework/unity-dynamics.md",
       "sha256": "e075fe4956e3445eb33fcdf38ccaa704ae827116a646e0fb614c7b436ae8e62c",
       "size_bytes": 9776
     },
@@ -1374,8 +1374,8 @@
     },
     {
       "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "sha256": "e7a5cb081384c60b84ab1ec6c3f9291af2c20a29a0ef1a303175d8a1de71b661",
-      "size_bytes": 33531
+      "sha256": "97d2fc4567e66ace6f8afb283af59de293928363376ea6f8ab578fc15bac1c01",
+      "size_bytes": 33511
     },
     {
       "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
@@ -1389,8 +1389,8 @@
     },
     {
       "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "sha256": "fa0e3e7032b9e028305b76251ea0ba6fb1258026c1f60a91b42ccfc15cf0f4b5",
-      "size_bytes": 25934
+      "sha256": "98338c2034b643feb78f3c02476e76d65b4b1e3e553d59cff332f9698b6fdcce",
+      "size_bytes": 25894
     },
     {
       "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
@@ -1854,8 +1854,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/governance_consistency.py",
-      "sha256": "7269ba1cb744b06d2300bdd7e019c849191556459be6a07f30918ed9768b00d8",
-      "size_bytes": 14654
+      "sha256": "23e2a8cfd803f1d7cdba2178e65c98932cc255b657fe5db33cfcbcd932b1f970",
+      "size_bytes": 14614
     },
     {
       "path": "tools/src/research_tools/validate/ground_truth.py",

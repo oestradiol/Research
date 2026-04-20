@@ -57,9 +57,9 @@ The framework does not stand alone from the research program.
 3. `framework/framework-interface.md`
 4. `framework/structural-phenomenology.md`
 5. `framework/structural-phenomenology-downstream-role.md`
-6. `framework/informational-awareness-framework.md`
+6. `framework/informational-awareness.md`
 7. `framework/ia-downstream-role.md`
-8. `framework/unity-dynamics-framework.md`
+8. `framework/unity-dynamics.md`
 9. `framework/research-program.md`
 
 ### Demonstrated-route path

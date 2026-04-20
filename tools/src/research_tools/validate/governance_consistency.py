@@ -180,15 +180,15 @@ def validate_framework_files_for_category_drift(repo_root: Path) -> List[Tuple[s
     
     Checks:
     - structural-phenomenology.md for ontology hardening in epistemic sections
-    - informational-awareness-framework.md for proof claims
-    - unity-dynamics-framework.md for consciousness inflation
+    - informational-awareness.md for proof claims
+    - unity-dynamics.md for consciousness inflation
     """
     issues = []
     
     framework_files = [
         'Research/structured-unity-framework/framework/structural-phenomenology.md',
-        'Research/structured-unity-framework/framework/informational-awareness-framework.md',
-        'Research/structured-unity-framework/framework/unity-dynamics-framework.md',
+        'Research/structured-unity-framework/framework/informational-awareness.md',
+        'Research/structured-unity-framework/framework/unity-dynamics.md',
     ]
     
     for file_ref in framework_files:

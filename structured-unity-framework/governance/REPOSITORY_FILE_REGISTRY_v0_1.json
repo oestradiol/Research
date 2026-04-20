@@ -518,8 +518,8 @@
       "extension": ".md"
     },
     {
-      "path": "structured-unity-framework/framework/informational-awareness-framework.md",
-      "category": "informational-awareness-framework.md",
+      "path": "structured-unity-framework/framework/informational-awareness.md",
+      "category": "informational-awareness.md",
       "extension": ".md"
     },
     {
@@ -543,8 +543,8 @@
       "extension": ".md"
     },
     {
-      "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
-      "category": "unity-dynamics-framework.md",
+      "path": "structured-unity-framework/framework/unity-dynamics.md",
+      "category": "unity-dynamics.md",
       "extension": ".md"
     },
     {
