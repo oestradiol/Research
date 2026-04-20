@@ -228,11 +228,6 @@
       "size_bytes": 2685
     },
     {
-      "path": "knowledge/_indexes/cluster-index.md",
-      "sha256": "995b754a09389d37ead3c721a75377112f183ddf580bff57a870b0e598b32cb7",
-      "size_bytes": 1434
-    },
-    {
       "path": "knowledge/_indexes/knowledge-index.md",
       "sha256": "36ba75a65afd93c65841f3e203a6a0d3512dfd95a70a9b251991b2dec5e5e242",
       "size_bytes": 1094
@@ -241,16 +236,6 @@
       "path": "knowledge/_indexes/node-index.md",
       "sha256": "81385b5dbc8c8110a9e834bec6de9eae8b016dc32d0694f79bd347d30aff6c48",
       "size_bytes": 6048
-    },
-    {
-      "path": "knowledge/_indexes/relation-tags-index.md",
-      "sha256": "d11d026a95a1a9483a805aa946d9651823d6f35185b483235cf42ea3ecb816fa",
-      "size_bytes": 1054
-    },
-    {
-      "path": "knowledge/_indexes/study-routes-index.md",
-      "sha256": "e5f18059c2f4b0e32d4899f3cd83d6955f4da90a08fac6df71a935961da9ef76",
-      "size_bytes": 1146
     },
     {
       "path": "knowledge/_relations/constrains.md",
@@ -1546,11 +1531,6 @@
       "path": "tools/docs/backlog.md",
       "sha256": "42be4c3a754efce200f85b19c574a7f9a8d1a9b1133124be73c4c24c44ad9640",
       "size_bytes": 2503
-    },
-    {
-      "path": "tools/docs/sprint-log.md",
-      "sha256": "275ddd0a20687cab6b4b8b7f0e74a0abe1fdfcbb97dc853aa00dcde5d1c6f29b",
-      "size_bytes": 2649
     },
     {
       "path": "tools/docs/validation-policy.md",

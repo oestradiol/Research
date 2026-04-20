@@ -11,10 +11,7 @@ REQUIRED_KNOWLEDGE_FILES = (
     "suf-relationship.md",
     "studying-and-teaching-with-suf.md",
     "_indexes/knowledge-index.md",
-    "_indexes/cluster-index.md",
     "_indexes/node-index.md",
-    "_indexes/study-routes-index.md",
-    "_indexes/relation-tags-index.md",
     "study-routes/README.md",
 )
 

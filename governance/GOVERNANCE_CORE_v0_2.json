@@ -68,8 +68,8 @@
       "purpose": "stronger formulations, unresolved tensions, compressed AI notation",
       "scope_prefixes": ["../Internal/"],
       "visibility": "private",
-      "entry": "Internal/Framework Control.md",
-      "note": "Outside git repo; delta layer only"
+      "entry": "Internal/active/framework-control.md",
+      "note": "Outside git repo; delta layer only. Path is informational; scope_prefixes point outside repo so validators treat this subsystem as an expected exception."
     }
   },
 
@@ -84,7 +84,7 @@
     },
     "internal-agent": {
       "authority": "bounded operator with local context, no unilateral irreversible decisions",
-      "reads_first": ["Internal/Framework Control.md", "Translation Decision Map.md", "GOVERNANCE_CORE"]
+      "reads_first": ["Internal/active/framework-control.md", "Translation Decision Map.md", "GOVERNANCE_CORE"]
     },
     "validator": {
       "authority": "deterministic support role, not meaning authority",
