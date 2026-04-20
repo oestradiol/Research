@@ -15,6 +15,7 @@ from research_tools.validate.route_consistency import (
     validate_taiwan_route,
 )
 from research_tools.validate.sources import validate_source_registry
+from research_tools.validate.ground_truth import validate_ground_truth
 from research_tools.validate.status_surfaces import validate_status_surfaces
 from research_tools.validate.three_case_synthesis import validate_three_case_synthesis
 from research_tools.validate.versions import validate_versions
@@ -48,6 +49,7 @@ def collect_validation_results(paths: RepoPaths) -> list[ValidationResult]:
             paths.australia_route_root / "australia-event-ledger-seed.md",
         )
     )
+    results.extend(validate_ground_truth(paths))
     results.extend(validate_release_hygiene(paths.research_root))
     return results
 
