@@ -510,8 +510,8 @@ def validate_repository_file_registry(repo_root: Path) -> list[ValidationResult]
         ))
         return results
     
-    # Fall back to v0.1 registry
-    for registry_path, prefix in ((repo_root / 'governance' / 'REPOSITORY_FILE_REGISTRY_v0_1.json', 'root'), (repo_root / 'structured-unity-framework' / 'governance' / 'REPOSITORY_FILE_REGISTRY_v0_1.json', 'suf')):
+    # Fall back to v0.1 registry (SUF only; root uses v0.2 REGISTRY_MANIFEST)
+    for registry_path, prefix in ((repo_root / 'governance' / 'REGISTRY_MANIFEST_v0_2.json', 'root'), (repo_root / 'structured-unity-framework' / 'governance' / 'REPOSITORY_FILE_REGISTRY_v0_1.json', 'suf')):
         if not registry_path.exists():
             continue
         registry = _read_json(registry_path)
@@ -534,8 +534,8 @@ def validate_repository_file_registry(repo_root: Path) -> list[ValidationResult]
 def validate_repository_minimality(repo_root: Path) -> list[ValidationResult]:
     results: list[ValidationResult] = []
     
-    # Check for v0.1 allowlist (optional during v0.2 migration)
-    allowlist_path = repo_root / 'governance' / 'ROOT_ALLOWLIST_v0_1.json'
+    # Check for v0.2 allowlist in REGISTRY_MANIFEST
+    allowlist_path = repo_root / 'governance' / 'REGISTRY_MANIFEST_v0_2.json'
     if allowlist_path.exists():
         allow = _read_json(allowlist_path)
         allowed = set(allow.get('allowed_root_files', []))
@@ -597,7 +597,7 @@ def validate_current_surface_hygiene(repo_root: Path) -> list[ValidationResult]:
         'docs/state/CURRENT_EXECUTION_ORDER.md',
         'docs/state/PENDING_INVENTORY.md',
         'CURRENT_OPERATOR_START_HERE.md',
-        'PACKAGE_ENFORCEMENT_LAYER_v0_1.md',
+        # PACKAGE_ENFORCEMENT_LAYER archived in v0.2 migration
     ]
     results: list[ValidationResult] = []
     seen: set[str] = set()
@@ -801,23 +801,24 @@ def _authorize_edit_path(
 
 
 def validate_edit_scope(repo_root: Path) -> list[ValidationResult]:
-    # v0.2 migration: AGENT_EDIT_SCOPE_POLICY_v0_1.json and REPOSITORY_EDIT_BASELINE_v0_1.json are archived
-    # Extract edit_scope_policy from GOVERNANCE_CORE_v0_2.json instead
-    policy_path = repo_root / 'governance' / 'AGENT_EDIT_SCOPE_POLICY_v0_1.json'
-    baseline_path = repo_root / 'governance' / 'REPOSITORY_EDIT_BASELINE_v0_1.json'
+    # v0.2: Extract edit_scope_policy from GOVERNANCE_CORE_v0_2.json
     governance_core_path = repo_root / 'governance' / 'GOVERNANCE_CORE_v0_2.json'
-    
-    # If v0.1 files are archived, use GOVERNANCE_CORE for policy
-    if not policy_path.exists() and governance_core_path.exists():
-        governance = _read_json(governance_core_path)
-        policy = governance.get('edit_scope_policy', {})
-        # Use empty baseline (no historical comparison possible without v0.1 baseline)
-        baseline = {'files': []}
-    else:
-        policy = _read_json(policy_path) if policy_path.exists() else {}
-        baseline = _read_json(baseline_path) if baseline_path.exists() else {'files': []}
+    if not governance_core_path.exists():
+        return [ValidationResult(
+            check_name='edit-scope-governance-core',
+            status='fail',
+            message='GOVERNANCE_CORE_v0_2.json not found',
+            path=str(governance_core_path),
+            expected='file exists',
+            found='missing',
+        )]
+    governance = _read_json(governance_core_path)
+    policy = governance.get('edit_scope_policy', {})
+    # Use empty baseline (no historical comparison possible without v0.1 baseline archived)
+    baseline = {'files': []}
+    baseline_path = repo_root / 'governance' / 'GOVERNANCE_CORE_v0_2.json'
 
-    excluded_from_baseline = set(policy.get('excluded_from_baseline', [])) | {baseline_path.relative_to(repo_root).as_posix()}
+    excluded_from_baseline = set(policy.get('excluded_from_baseline', [])) | {'governance/GOVERNANCE_CORE_v0_2.json'}
     baseline_entries = {entry['path']: entry['sha256'] for entry in baseline.get('files', []) if entry['path'] not in excluded_from_baseline}
     actual_files = [rel for rel in _actual_file_list(repo_root) if rel not in excluded_from_baseline]
     actual_hashes = {rel: _sha256(repo_root / rel) for rel in actual_files}
@@ -865,15 +866,15 @@ def validate_edit_scope(repo_root: Path) -> list[ValidationResult]:
             check_name='edit-scope-policy-readable',
             status='pass',
             message='Agent edit scope policy is present and readable.',
-            path=str(policy_path),
-            expected='policy file readable',
+            path=str(governance_core_path),
+            expected='GOVERNANCE_CORE_v0_2.json readable',
             found='ok',
         ),
         ValidationResult(
             check_name='edit-scope-changes-within-policy',
             status='pass' if not out_of_scope else 'fail',
             message='All files changed relative to the review baseline stay within current surfaces, designated work surfaces, or declared scope.' if not out_of_scope else 'Some files changed relative to the review baseline fall outside current surfaces, designated work surfaces, and declared scope.',
-            path=str(policy_path),
+            path=str(governance_core_path),
             expected='all changed files within allowed scope',
             found='ok' if not out_of_scope else '; '.join(out_of_scope[:50]),
         ),
@@ -881,7 +882,7 @@ def validate_edit_scope(repo_root: Path) -> list[ValidationResult]:
             check_name='edit-scope-declared-scope-empty-or-explicit',
             status='pass',
             message='Declared edit scope remains explicit; empty means no exceptional paths are currently authorized.',
-            path=str(policy_path),
+            path=str(governance_core_path),
             expected='explicit exceptional scope declaration',
             found='none' if not declared_targets else '; '.join(declared_targets),
         ),

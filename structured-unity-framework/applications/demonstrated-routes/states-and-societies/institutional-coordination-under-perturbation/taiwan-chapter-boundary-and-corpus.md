@@ -12,7 +12,7 @@ The Taiwan route now supports an active chapter-readiness pass in bounded form:
 
 - the route boundary remains fixed to official acute command, border, quarantine-support, quarantine-compliance, and public-alignment coordination visible in archive-clean Taiwan CDC / CECC English materials
 - the current functionally matched window remains `2020-01-20` to `2020-04-23`
-- the current public corpus supports a `15`-event bounded ledger rather than a starter-only comparator tranche
+- the current public corpus supports a **`20`-event** bounded ledger (threshold met), not merely a starter-only comparator tranche
 - the route now exposes distinct command, border, health, compliance, local-support, transport-routing, and public-alignment surfaces even though a distinct emergency-management layer is still not visible
 - the current branch can now be organized as a bounded standalone chapter target, but the active `v1.2` burden is to complete and stabilize that chapter-facing pass rather than to treat it as already closed
 

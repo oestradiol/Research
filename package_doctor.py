@@ -90,7 +90,7 @@ def main() -> None:
         "START_HERE.md",
         "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
         "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-        "governance/AUTHORITATIVE_INDEX_v0_1.md",
+        "governance/AUTHORITATIVE_INDEX_v0_2.md",
         "structured-unity-framework/START_HERE.md",
         "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
     ]:

@@ -7,6 +7,18 @@
   "note": "Full catalog for tooling. GOVERNANCE_CORE defines 'current' surfaces; this provides integrity for all tracked files.",
   "catalog_uri": "governance/REGISTRY_MANIFEST_v0_2.json",
   "generation_rule": "regenerate on release or when file tree changes materially",
+  "allowed_root_files": [
+    "authoritative_guard.py",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    ".gitignore",
+    "LICENSE",
+    "package_doctor.py",
+    "README.md",
+    "research_launch_gate.py",
+    "START_HERE.md",
+    "using-this-research-with-human-assistants-and-reasoning-agents.md"
+  ],
   "files_sample": [
     {
       "path": "README.md",
@@ -1849,6 +1861,21 @@
       "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
       "sha256": "2537e1385f8e7d1e04e928bff236982fd6c204c2d3834e3799fa0a644325d20e",
       "size_bytes": 4910
+    },
+    {
+      "path": "authoritative_guard.py",
+      "sha256": "42813fa1873e6f4f88ac62f010743c7e37bbfeb4b6f00a306e5dd9d6523c4379",
+      "size_bytes": 1740
+    },
+    {
+      "path": "package_doctor.py",
+      "sha256": "8bc9cfa5dc7b31430380fc9ad577efacc0a2aaac827dfcf8f91644d6fa24c8cb",
+      "size_bytes": 7300
+    },
+    {
+      "path": "research_launch_gate.py",
+      "sha256": "67418cb8c68c097c5dfcff3b3239e05e05ce4dd144f797aa9ee1f3fbc0d99016",
+      "size_bytes": 1400
     }
   ]
 }

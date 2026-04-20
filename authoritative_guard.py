@@ -38,7 +38,7 @@ def _verify_manifest(manifest_rel: str) -> dict:
 
 
 def verify_integrity(strict: bool = True) -> dict:
-    reports = [_verify_manifest('governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json'), _verify_manifest('structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json')]
+    reports = [_verify_manifest('governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json'), _verify_manifest('structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json')]
     mismatches = [m for report in reports for m in report['mismatches']]
     status = 'PASS' if not mismatches else 'FAIL'
     summary = {'status': status, 'reports': reports, 'verified_files': sum(report['verified_files'] for report in reports)}
