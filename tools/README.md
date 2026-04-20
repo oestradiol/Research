@@ -82,9 +82,9 @@ research-tools report release-readiness
 - generated outputs are provisional and require human review
 - mismatches are reported, not auto-applied
 
-## Federated cluster prototype
+## Federated cluster layer
 
-The tooling now includes a first federated validation-cluster prototype:
+The tooling now includes a federated validation-cluster layer:
 
 - `root-governance`
 - `suf-active-core`
@@ -93,7 +93,7 @@ The tooling now includes a first federated validation-cluster prototype:
 
 Use `research-tools validate clusters` to inspect subsystem-owned validation groupings without flattening every check into one undifferentiated run.
 
-Cluster ownership, entry surfaces, and source-file metadata are now derived from `../governance/SUBSYSTEM_REGISTRY_v0_1.json`. Python keeps the runner logic, but the public subsystem map now lives in one machine-readable governance surface instead of being duplicated in code.
+Cluster ownership, entry surfaces, source-file groupings, actor classes, and trust order are now derived from `../governance/GOVERNANCE_CORE_v0_2.json`. Python keeps the runner logic, while the public subsystem map lives in the consolidated governance surface instead of being duplicated in code and prose.
 
 ## Governance
 

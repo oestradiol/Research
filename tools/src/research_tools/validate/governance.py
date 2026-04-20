@@ -15,10 +15,15 @@ SUPPORT_SURFACE_BOUNDARY_EXPECTATIONS = {
         "contains": [
             "It does not replace the theory stack, prove phenomenology from metrics, or claim that one case confirms the whole framework.",
             "It does not freeze one threshold system, one weighting scheme, or one aggregation formula across all future domains.",
-            # Updated 2026-04-20: prose renamed "estimators" -> "structured evidence organizers"
-            # per Internal/active/framework-control.md §Current Substantive Decisions
-            # (Estimator -> Structured Evidence Organizer rename to prevent predictive overselling).
-            "The package should not imply that current route-local structured evidence organizers already yield objective cross-domain measurement or mature high-fit prediction.",
+        ],
+        "contains_any": [
+            [
+                # Updated 2026-04-20: prose renamed "estimators" -> "structured evidence organizers"
+                # per Internal/active/framework-control.md §Current Substantive Decisions
+                # (Estimator -> Structured Evidence Organizer rename to prevent predictive overselling).
+                "The package should not imply that current route-local structured evidence organizers already yield objective cross-domain measurement or mature high-fit prediction.",
+                "The package should not imply that current route-local estimators already yield objective cross-domain measurement or mature high-fit prediction.",
+            ]
         ],
         "absent_patterns": [
             {
@@ -61,7 +66,7 @@ SUPPORT_SURFACE_BOUNDARY_EXPECTATIONS = {
 
 EDIT_SCOPE_CURRENT_SURFACE_REGISTRIES = [
     "governance/GOVERNANCE_CORE_v0_2.json",
-    "governance/REGISTRY_MANIFEST_v0_2.json",
+    "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
 ]
 
 
@@ -136,6 +141,30 @@ MERGED_DOC_EXPECTATIONS = {
 
 def _read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _load_root_current_registry(repo_root: Path) -> tuple[dict, Path, str]:
+    v2_path = repo_root / "governance" / "GOVERNANCE_CORE_v0_2.json"
+    if v2_path.exists():
+        return _read_json(v2_path), v2_path, "v0.2"
+
+    v1_path = repo_root / "governance" / "CURRENT_SURFACES_REGISTRY_v0_1.json"
+    if v1_path.exists():
+        return _read_json(v1_path), v1_path, "v0.1"
+
+    raise FileNotFoundError("missing root governance current-surface registry")
+
+
+def _load_root_subsystem_registry(repo_root: Path) -> tuple[str, Path]:
+    v2_path = repo_root / "governance" / "GOVERNANCE_CORE_v0_2.json"
+    if v2_path.exists():
+        return "v0.2", v2_path
+
+    v1_path = repo_root / "governance" / "SUBSYSTEM_REGISTRY_v0_1.json"
+    if v1_path.exists():
+        return "v0.1", v1_path
+
+    raise FileNotFoundError("missing root subsystem registry")
 
 
 def _safe_read_text(path: Path) -> tuple[str | None, str | None]:
@@ -219,26 +248,15 @@ def _actual_file_list(repo_root: Path) -> list[str]:
 
 def validate_current_surfaces(repo_root: Path) -> list[ValidationResult]:
     results: list[ValidationResult] = []
-    # v0.2: Use GOVERNANCE_CORE instead of archived CURRENT_SURFACES_REGISTRY_v0_1
-    root_registry_path = repo_root / 'governance' / 'GOVERNANCE_CORE_v0_2.json'
+    root_registry, root_registry_path, _ = _load_root_current_registry(repo_root)
     suf_registry_path = repo_root / 'structured-unity-framework' / 'governance' / 'CURRENT_SURFACES_REGISTRY_v0_1.json'
-    
-    # Validate root governance (v0.2)
-    registry = _read_json(root_registry_path)
-    current_surfaces = registry.get('current_surfaces', {})
-    current_files = []
-    current_files.extend(current_surfaces.get('root_entrypoints', []))
-    current_files.extend(current_surfaces.get('root_governance', []))
-    current_files.extend(current_surfaces.get('package_entrypoints', {}).values())
-    assisted = current_surfaces.get('assisted_use')
-    if assisted:
-        current_files.append(assisted)
-    
+
+    current_files = _extract_current_files_from_registry(root_registry, "root")
     missing = [rel for rel in current_files if not (repo_root / rel).exists()]
     results.append(ValidationResult(
         check_name='root-current-surfaces-exist',
         status='pass' if not missing else 'fail',
-        message='All current surfaces listed in GOVERNANCE_CORE exist.' if not missing else 'GOVERNANCE_CORE references missing files.',
+        message='All current root surfaces exist.' if not missing else 'Root current-surface registry references missing files.',
         path=str(root_registry_path),
         expected='all listed current files exist',
         found='none missing' if not missing else ', '.join(missing),
@@ -271,25 +289,37 @@ def validate_current_surfaces(repo_root: Path) -> list[ValidationResult]:
 
 
 def validate_subsystem_registry(repo_root: Path) -> list[ValidationResult]:
-    # v0.2: Use GOVERNANCE_CORE instead of archived SUBSYSTEM_REGISTRY_v0_1
-    registry_path = repo_root / "governance" / "GOVERNANCE_CORE_v0_2.json"
     try:
-        from research_tools.parse.governance_core import parse_governance_core
-        governance = parse_governance_core(registry_path)
-        # Convert v0.2 subsystems to format expected by validation logic
-        subsystems = []
-        for sid, sdata in governance.subsystems.items():
+        registry_version, registry_path = _load_root_subsystem_registry(repo_root)
+        if registry_version == "v0.2":
             from research_tools.models.subsystems import SubsystemSpec, SubsystemValidationCluster
-            subsystems.append(SubsystemSpec(
-                subsystem_id=sid,
-                owner=sdata.owner,
-                purpose=sdata.purpose,
-                visibility=sdata.visibility,
-                scope_prefixes=sdata.scope_prefixes,
-                entry_surface=sdata.entry or "",
-                authoritative_surface=sdata.state_surface or "",
-                validation_cluster=None,  # v0.2 derives clusters dynamically
-            ))
+            from research_tools.parse.governance_core import (
+                derive_subsystem_validation_cluster,
+                parse_governance_core,
+            )
+
+            governance = parse_governance_core(registry_path)
+            subsystems = []
+            for sid, sdata in governance.subsystems.items():
+                cluster_sources = derive_subsystem_validation_cluster(sdata, registry_path)
+                validation_cluster = None
+                if cluster_sources:
+                    validation_cluster = SubsystemValidationCluster(
+                        cluster_id=sid,
+                        source_files=tuple(cluster_sources),
+                    )
+                subsystems.append(SubsystemSpec(
+                    subsystem_id=sid,
+                    owner=sdata.owner,
+                    purpose=sdata.purpose,
+                    visibility=sdata.visibility,
+                    scope_prefixes=sdata.scope_prefixes,
+                    entry_surface=sdata.entry or "",
+                    authoritative_surface=sdata.state_surface or "",
+                    validation_cluster=validation_cluster,
+                ))
+        else:
+            subsystems = parse_subsystem_registry(registry_path)
     except Exception as exc:
         return [
             ValidationResult(
@@ -452,12 +482,28 @@ def validate_subsystem_registry(repo_root: Path) -> list[ValidationResult]:
         )
     )
 
+    def _normalized_cluster_sources(subsystem) -> tuple[str, ...]:
+        if subsystem.validation_cluster is None:
+            return ()
+        local_prefixes = [
+            prefix.rstrip("/")
+            for prefix in subsystem.scope_prefixes
+            if not prefix.startswith("../")
+        ]
+        default_prefix = local_prefixes[0] if local_prefixes else ""
+        normalized: list[str] = []
+        for rel in subsystem.validation_cluster.source_files:
+            if "/" not in rel and default_prefix:
+                normalized.append(f"{default_prefix}/{rel}")
+            else:
+                normalized.append(rel)
+        return tuple(normalized)
+
     missing_cluster_sources = sorted(
         {
             rel
-            for subsystem in subsystems
-            if subsystem.validation_cluster is not None
-            for rel in subsystem.validation_cluster.source_files
+            for subsystem in public_subsystems
+            for rel in _normalized_cluster_sources(subsystem)
             if not (repo_root / rel).exists()
         }
     )
@@ -478,11 +524,10 @@ def validate_subsystem_registry(repo_root: Path) -> list[ValidationResult]:
 
     nonlocal_cluster_sources = [
         subsystem.subsystem_id
-        for subsystem in subsystems
-        if subsystem.validation_cluster is not None
-        and not any(
+        for subsystem in public_subsystems
+        if not any(
             any(rel.startswith(prefix) for prefix in subsystem.scope_prefixes)
-            for rel in subsystem.validation_cluster.source_files
+            for rel in _normalized_cluster_sources(subsystem)
         )
     ]
     results.append(
@@ -607,41 +652,51 @@ def validate_current_claims(repo_root: Path) -> list[ValidationResult]:
 
 
 def validate_current_surface_hygiene(repo_root: Path) -> list[ValidationResult]:
-    forbidden_fragments = [
+    base_forbidden_fragments = [
         'docs/state/PROJECT_STATUS.md',
         'docs/state/CURRENT_EXECUTION_ORDER.md',
         'docs/state/PENDING_INVENTORY.md',
         'CURRENT_OPERATOR_START_HERE.md',
+    ]
+    root_v02_archived_fragments = [
         # PACKAGE_ENFORCEMENT_LAYER archived in v0.2 migration
+        'governance/AUTHORITATIVE_SOURCES_v0_1.json',
+        'governance/CURRENT_SURFACES_REGISTRY_v0_1.json',
+        'governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md',
+        'governance/SUBSYSTEM_REGISTRY_v0_1.json',
+        'governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md',
     ]
     results: list[ValidationResult] = []
     seen: set[str] = set()
-    for registry_path, prefix in (
-        (repo_root / 'governance' / 'GOVERNANCE_CORE_v0_2.json', 'root'),
-        (repo_root / 'structured-unity-framework' / 'governance' / 'CURRENT_SURFACES_REGISTRY_v0_1.json', 'suf'),
-    ):
-        registry = _read_json(registry_path)
+    registry_specs: list[tuple[dict, Path, str, list[str]]] = []
+    root_registry, root_registry_path, root_version = _load_root_current_registry(repo_root)
+    registry_specs.append(
+        (
+            root_registry,
+            root_registry_path,
+            'root',
+            base_forbidden_fragments + (root_v02_archived_fragments if root_version == 'v0.2' else []),
+        )
+    )
+    suf_registry_path = repo_root / 'structured-unity-framework' / 'governance' / 'CURRENT_SURFACES_REGISTRY_v0_1.json'
+    if suf_registry_path.exists():
+        registry_specs.append((
+            _read_json(suf_registry_path),
+            suf_registry_path,
+            'suf',
+            list(base_forbidden_fragments),
+        ))
+
+    for registry, registry_path, prefix, forbidden_fragments in registry_specs:
         # Handle v0.2 GOVERNANCE_CORE structure (current_surfaces with nested arrays)
         # or v0.1 CURRENT_SURFACES_REGISTRY structure (current_files flat list)
-        current_surfaces = registry.get('current_surfaces', {})
-        if current_surfaces:
-            # v0.2: extract from nested structure
-            current_files = []
-            current_files.extend(current_surfaces.get('root_entrypoints', []))
-            current_files.extend(current_surfaces.get('root_governance', []))
-            current_files.extend(current_surfaces.get('package_entrypoints', {}).values())
-            assisted = current_surfaces.get('assisted_use')
-            if assisted:
-                current_files.append(assisted)
-        else:
-            # v0.1: flat current_files list
-            current_files = registry.get('current_files', [])
+        current_files = _extract_current_files_from_registry(registry, prefix)
         for rel in current_files:
             if rel in seen:
                 continue
             seen.add(rel)
             path = repo_root / rel
-            if not path.exists() or path.suffix not in {'.md', '.json', '.py'}:
+            if not path.exists() or path.suffix not in {'.md', '.py'}:
                 continue
             text, error = _safe_read_text(path)
             if error is not None:
@@ -676,6 +731,27 @@ def validate_support_surface_boundaries(repo_root: Path) -> list[ValidationResul
                 path,
                 needle,
                 'Support surface preserves an explicit bounded-scope boundary anchor.',
+            ))
+        for alternatives in expectations.get('contains_any', []):
+            text, error = _safe_read_text(path)
+            if error is not None:
+                results.append(ValidationResult(
+                    check_name=f'support-boundary-present-any:{rel}:{alternatives[0][:32]}',
+                    status='fail',
+                    message='Support surface boundary alternatives could not be checked because the file is unavailable.',
+                    path=str(path),
+                    expected='one of the accepted boundary anchors present',
+                    found=error,
+                ))
+                continue
+            found = next((needle for needle in alternatives if needle in text), None)
+            results.append(ValidationResult(
+                check_name=f'support-boundary-present-any:{rel}:{alternatives[0][:32]}',
+                status='pass' if found else 'fail',
+                message='Support surface preserves an accepted bounded-scope boundary anchor.' if found else 'Support surface is missing an accepted bounded-scope boundary anchor.',
+                path=str(path),
+                expected='one of: ' + ' | '.join(alternatives),
+                found=found or 'missing',
             ))
         for needle in expectations.get('absent', []):
             results.append(_absent_result(
@@ -732,7 +808,7 @@ def _load_current_surface_paths(repo_root: Path) -> set[str]:
     current: set[str] = set()
     for rel in EDIT_SCOPE_CURRENT_SURFACE_REGISTRIES:
         registry = _read_json(repo_root / rel)
-        current.update(registry.get("current_files", []))
+        current.update(_extract_current_files_from_registry(registry, "root"))
     return _canonicalize_repo_relative_paths(current)
 
 
@@ -829,16 +905,20 @@ def validate_edit_scope(repo_root: Path) -> list[ValidationResult]:
         )]
     governance = _read_json(governance_core_path)
     policy = governance.get('edit_scope_policy', {})
-    # Use empty baseline (no historical comparison possible without v0.1 baseline archived)
-    baseline = {'files': []}
-    baseline_path = repo_root / 'governance' / 'GOVERNANCE_CORE_v0_2.json'
+    baseline_path = repo_root / 'governance' / 'REGISTRY_MANIFEST_v0_2.json'
+    if baseline_path.exists():
+        baseline = _read_json(baseline_path)
+    else:
+        legacy_baseline_path = repo_root / 'governance' / 'REPOSITORY_EDIT_BASELINE_v0_1.json'
+        baseline = _read_json(legacy_baseline_path) if legacy_baseline_path.exists() else {'files': []}
+        baseline_path = legacy_baseline_path if legacy_baseline_path.exists() else governance_core_path
 
-    excluded_from_baseline = set(policy.get('excluded_from_baseline', [])) | {'governance/GOVERNANCE_CORE_v0_2.json'}
+    excluded_from_baseline = set(policy.get('excluded_from_baseline', []))
     baseline_entries = {entry['path']: entry['sha256'] for entry in baseline.get('files', []) if entry['path'] not in excluded_from_baseline}
     actual_files = [rel for rel in _actual_file_list(repo_root) if rel not in excluded_from_baseline]
     actual_hashes = {rel: _sha256(repo_root / rel) for rel in actual_files}
 
-    current_surface_files = _load_current_surface_paths(repo_root) if policy.get('include_current_surfaces', False) else set()
+    current_surface_files = _load_current_surface_paths(repo_root) if policy.get('include_current_surfaces', True) else set()
     always_files = current_surface_files | _canonicalize_repo_relative_paths(policy.get('always_allowed_files', []))
     declared_files = _canonicalize_repo_relative_paths(policy.get('declared_allowed_files', []))
     always_prefixes = _normalize_scope_prefixes(policy.get('always_allowed_prefixes', []))
@@ -934,18 +1014,37 @@ def _extract_current_files_from_registry(registry: dict, scope: str) -> list[str
 
 def validate_routing_surfaces(repo_root: Path) -> list[ValidationResult]:
     results: list[ValidationResult] = []
-    # v0.2: root uses GOVERNANCE_CORE; SUF still on v0.1
-    registries = {
-        'root': _read_json(repo_root / 'governance' / 'GOVERNANCE_CORE_v0_2.json'),
-        'suf': _read_json(repo_root / 'structured-unity-framework' / 'governance' / 'CURRENT_SURFACES_REGISTRY_v0_1.json'),
-    }
+    root_registry, _, _ = _load_root_current_registry(repo_root)
+    registries = {'root': root_registry}
+    suf_registry_path = repo_root / 'structured-unity-framework' / 'governance' / 'CURRENT_SURFACES_REGISTRY_v0_1.json'
+    if suf_registry_path.exists():
+        registries['suf'] = _read_json(suf_registry_path)
+
     for scope, registry in registries.items():
-        routing_paths = [repo_root / rel for rel in ROUTING_SURFACES[scope]]
+        routing_relpaths = list(ROUTING_SURFACES[scope])
+        if scope == 'root':
+            if (repo_root / 'governance' / 'AUTHORITATIVE_INDEX_v0_2.md').exists():
+                routing_relpaths = [
+                    'README.md',
+                    'START_HERE.md',
+                    'docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md',
+                    'docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md',
+                    'governance/AUTHORITATIVE_INDEX_v0_2.md',
+                ]
+            else:
+                routing_relpaths = [
+                    'README.md',
+                    'START_HERE.md',
+                    'docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md',
+                    'docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md',
+                    'governance/AUTHORITATIVE_INDEX_v0_1.md',
+                ]
+        routing_paths = [repo_root / rel for rel in routing_relpaths]
         routing_text = '\n'.join(path.read_text(encoding='utf-8') for path in routing_paths if path.exists())
         scope_prefix = 'structured-unity-framework/' if scope == 'suf' else ''
         orphans = []
         for rel in _extract_current_files_from_registry(registry, scope):
-            if rel in ROUTING_SURFACES[scope]:
+            if rel in routing_relpaths:
                 continue
             candidates = {rel, Path(rel).name}
             if scope_prefix and rel.startswith(scope_prefix):

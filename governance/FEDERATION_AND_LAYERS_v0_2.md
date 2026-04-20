@@ -43,7 +43,7 @@ Growth phases followed by deliberate **recompression**:
 | structured-unity-framework | SUF package | academic truth, route posture | structured-unity-framework/START_HERE.md |
 | knowledge | Knowledge package | atlas, study routes | knowledge/README.md |
 | tools | Tools package | read-only validation | tools/README.md |
-| internal | Private delta | stronger formulations | Internal/Framework Control.md |
+| internal | Private delta | stronger formulations | Internal/active/framework-control.md |
 
 Cross-subsystem edits require explicit handoff: provenance, summary, target, status, change_class.
 

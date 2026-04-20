@@ -1,7 +1,7 @@
 {
   "version": "0.2.0",
   "purpose": "Full Research/ repository file catalog with integrity. INTEGRITY_MANIFEST derived from this + GOVERNANCE_CORE.current_surfaces at validation time.",
-  "updated": "2026-04-20",
+  "updated": "2b3270fb",
   "algorithm": "sha256",
   "file_count": 386,
   "note": "Full catalog for tooling. GOVERNANCE_CORE defines 'current' surfaces; this provides integrity for all tracked files.",
@@ -94,13 +94,13 @@
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "8585daa2df4818b93bc100e6c906e3e07dc39b3811b7ba6ead40bcae856f418f",
-      "size_bytes": 10396
+      "sha256": "5a211bbf06b4876a1b37e11ed98bdb1ea09275c22ed47354c99e7e359131c098",
+      "size_bytes": 10369
     },
     {
       "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "c6bdb257d4069e901435642b21d21a48a7870bec3a76f8292d0e0ad9c976a97b",
-      "size_bytes": 3038
+      "sha256": "c9a7c2b878df267bca6a0e59ff74050e1c5ad667992b213d7db820fd8059da23",
+      "size_bytes": 2996
     },
     {
       "path": "docs/ops/RELEASE_CHECKLIST_v0_1.md",
@@ -119,7 +119,7 @@
     },
     {
       "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json",
-      "sha256": "98d83d72aa65f73c26c16b0dd30019973e3496f7ee00162b3afcdb798abe2ea3",
+      "sha256": "2091df641faf9b9d786b1e6174962c669804d567b6563295f98223d997a5753d",
       "size_bytes": 2895
     },
     {
@@ -134,23 +134,23 @@
     },
     {
       "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_2.json",
-      "sha256": "2f1e122d2b532089e3f2b3cca2ebb49ca53663b8077e4a277b8a33899e419e65",
-      "size_bytes": 2027
+      "sha256": "9dc0b3a5080e91cacd3fadef94bca81af2ebaf2d000b29a87026ad768ed3892b",
+      "size_bytes": 2064
     },
     {
       "path": "governance/FEDERATION_AND_LAYERS_v0_2.md",
-      "sha256": "b85d6b73abece957e5fe43d2a048abebd1b6f466ef0787be2244367bac48e6ab",
-      "size_bytes": 4114
+      "sha256": "08606f4f52a6340aedb18f2bcb1a970b3cc7f1f4f9d2e98454f73e87398967db",
+      "size_bytes": 4121
     },
     {
       "path": "governance/GOVERNANCE_CORE_v0_2.json",
-      "sha256": "21a410e83e695c540afb483c36fac92658c4f7e456970add68dca143554944a2",
-      "size_bytes": 6410
+      "sha256": "0bd831b70369644969adfa27bb7ec25383e8d96692fa784bd41edbae28b719b3",
+      "size_bytes": 6814
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "d1095d7b359074a62ca9f75a2b1c4b04503c0e9929d062037e2e963adb7c888e",
-      "size_bytes": 75464
+      "sha256": "5438697915833ebaeb660ca32d8516044f98a6c3caf910ec50f83da655f01e86",
+      "size_bytes": 80635
     },
     {
       "path": "knowledge/.gitignore",
@@ -634,8 +634,8 @@
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md",
-      "sha256": "8e25ebcc9d5bcebfb2ef740db196be236c3dfc163c3f5cd7d87f51413fdf38cf",
-      "size_bytes": 4381
+      "sha256": "30eec8436b34e3164648dc07d18ec37662a6ead941e3cc268fd979cdc8698995",
+      "size_bytes": 4412
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/comparative-civilizational-studies.md",
@@ -734,13 +734,13 @@
     },
     {
       "path": "package_doctor.py",
-      "sha256": "8bc9cfa5dc7b31430380fc9ad577efacc0a2aaac827dfcf8f91644d6fa24c8cb",
-      "size_bytes": 7312
+      "sha256": "7c9b518e24101ba4bcba04deaa06b6565d44732b833604153083ae35469d990a",
+      "size_bytes": 7316
     },
     {
       "path": "research_launch_gate.py",
-      "sha256": "67418cb8c68c097c5dfcff3b3239e05e05ce4dd144f797aa9ee1f3fbc0d99016",
-      "size_bytes": 1374
+      "sha256": "bcde3f335c05d57332bc4711abaeef28698c589c35120ff135c915525ba0109c",
+      "size_bytes": 1454
     },
     {
       "path": "structured-unity-framework/.gitignore",
@@ -1349,13 +1349,13 @@
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "sha256": "a90666f4ffb0c46f8eb16e26f6d919f1eafc4514002751e4c3ca1aa74fd39d02",
-      "size_bytes": 2360
+      "sha256": "b866905254fc6cad673b739b98f80d25a9b446661c6906b3995d8ea32c4e323d",
+      "size_bytes": 2370
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-      "sha256": "6e5b77b61789c1c48785ba17877d6218a463d4022f7032203a0d13db06a679e8",
-      "size_bytes": 399
+      "sha256": "3f7fa6850387f8f9770e681187c466ced0b1e2ef4749105fe147e292ebcacdee",
+      "size_bytes": 400
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
@@ -1364,13 +1364,13 @@
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "sha256": "1bd5b382eb8f99dedafd0cb5a2f9d0edb2bf0e11a40e0ea3b7546e02fb1e4571",
-      "size_bytes": 3254
+      "sha256": "adc36b70d87e42c25d5b68ed5d248a3f2ef588eb0a8c3635ab9326e53339a526",
+      "size_bytes": 3205
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "sha256": "8c954db281b09e7c7d75dd37e6f0311c086eac907a046690cb6b6f8525aaaaff",
-      "size_bytes": 2649
+      "sha256": "057d510870891856238d9bf03b7d2d509664b3f7d9caf09bb49e66b1bc6cbe1d",
+      "size_bytes": 2935
     },
     {
       "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
@@ -1559,13 +1559,13 @@
     },
     {
       "path": "tools/CHANGELOG.md",
-      "sha256": "1d5f0842082fbb471330f3d5d54023c69f7ae09546341df80611de096c9889cd",
-      "size_bytes": 2065
+      "sha256": "6ecf78ecbbd79ef214c0b915d8a8eb158d6b9b058422ceba59029e4fc6d59ee1",
+      "size_bytes": 2191
     },
     {
       "path": "tools/README.md",
-      "sha256": "1f213eb59bd3d8d30f6b9f4f18b74f45e0552a403fa2576a99aeb844ea870251",
-      "size_bytes": 3723
+      "sha256": "74b91edea1ef12ac6255283eac688a5d3d2fa578665f717ea990731e353410f1",
+      "size_bytes": 3739
     },
     {
       "path": "tools/audit_current_claims.py",
@@ -1624,8 +1624,8 @@
     },
     {
       "path": "tools/docs/architecture.md",
-      "sha256": "1399a3077fee19e925673301225a69d739b926b8becf5e9bc8254abe1d867dc5",
-      "size_bytes": 3020
+      "sha256": "d0b07a9996077c29b6e33b795d2b1fb7781f0f454d95b6a089043d7841c9156b",
+      "size_bytes": 3040
     },
     {
       "path": "tools/docs/archive/sprint-log.md",
@@ -1849,8 +1849,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/governance.py",
-      "sha256": "e0785584779cfa10ac3118bd20627d5496471062afa87ad97d27e63396716bd0",
-      "size_bytes": 42711
+      "sha256": "b954d8dd329b4c30efff1eeb135c2bba06350c935f525f7cdbe1df8e870e1f2f",
+      "size_bytes": 47274
     },
     {
       "path": "tools/src/research_tools/validate/governance_consistency.py",
@@ -1919,8 +1919,8 @@
     },
     {
       "path": "tools/sync_governance_state.py",
-      "sha256": "8768530fb6f6ad160671a92b77afa1a9ec858107b70d54f5ceb583fe69b4b337",
-      "size_bytes": 5196
+      "sha256": "5f003d78934dd5e37e646984f33f0aff814d39c0e662764515e563ca92735bd2",
+      "size_bytes": 3679
     },
     {
       "path": "tools/tests/conftest.py",
@@ -1929,8 +1929,8 @@
     },
     {
       "path": "tools/tests/test_governance.py",
-      "sha256": "40c361458e8d34998225bcb2f884129d39cfc5b5642a26a2012f75e50c8746a5",
-      "size_bytes": 20366
+      "sha256": "cbf71d634efdd488074c298fdacdd58691ec40ac78d41f47bf82597bc097481f",
+      "size_bytes": 21409
     },
     {
       "path": "tools/tests/test_links.py",

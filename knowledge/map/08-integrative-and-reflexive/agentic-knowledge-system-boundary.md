@@ -38,14 +38,14 @@ Agent memory externalization using symbolic shorthand:
 - `D+{...}` = durable deltas landed
 - `V+` / `V?` = validation state
 
-Defined in `Internal/LANGUAGE_POLICY_v0_1.md`. Human-readable prose in `Research/`; compressed notation in `Internal/`.
+Defined in `Internal/delta/language-policy.md`. Human-readable prose in `Research/`; compressed notation in `Internal/`.
 
 ### 3. Cold-Start Protocol
 
 Agents entering the system follow a strict boot sequence:
 1. Read `AGENTS.md`
 2. Read `Translation Decision Map.md`
-3. Read `Internal/Agent Custom Instructions.md`
+3. Read `Internal/active/agent-instructions.md`
 4. Then read relevant public package surfaces
 
 This prevents agents from generating their own maps or assumptions.
@@ -101,7 +101,7 @@ Automated checks for repository health:
 
 ## Status
 
-AKS is a **working prototype**, not a finished system. It enables current research but continues to evolve. SUF validity does not depend on AKS — SUF stands on its empirical base (NZ/Taiwan routes) and theoretical architecture, not on the infrastructure used to build it.
+AKS is a **working infrastructure layer with an active sibling repo**, not a finished or closed system. It enables current research but continues to evolve. SUF validity does not depend on AKS — SUF stands on its empirical base and theoretical architecture, not on the infrastructure used to build it.
 
 ---
 

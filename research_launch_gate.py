@@ -15,8 +15,9 @@ def main():
         print('Do not treat the repository as current-operated until package_doctor.py passes.')
         sys.exit(1)
 
-    cfg = json.loads((BASE / 'governance' / 'AUTHORITATIVE_SOURCES_v0_1.json').read_text(encoding='utf-8'))
-    required = [BASE / rel for rel in cfg['package_entrypoints'] + cfg['suf_entrypoints']]
+    cfg = json.loads((BASE / 'governance' / 'AUTHORITATIVE_SOURCES_v0_2.json').read_text(encoding='utf-8'))
+    package_entrypoints = [BASE / rel for rel in cfg['package_entrypoints'].values()]
+    required = [BASE / rel for rel in cfg['root_entrypoints']] + package_entrypoints
     missing = [str(p.relative_to(BASE)) for p in required if not p.exists()]
     if missing:
         print('LAUNCH GATE: FAIL')

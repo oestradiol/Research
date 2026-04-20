@@ -16,12 +16,12 @@
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "8585daa2df4818b93bc100e6c906e3e07dc39b3811b7ba6ead40bcae856f418f",
+      "sha256": "5a211bbf06b4876a1b37e11ed98bdb1ea09275c22ed47354c99e7e359131c098",
       "status": "current"
     },
     {
       "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "c6bdb257d4069e901435642b21d21a48a7870bec3a76f8292d0e0ad9c976a97b",
+      "sha256": "c9a7c2b878df267bca6a0e59ff74050e1c5ad667992b213d7db820fd8059da23",
       "status": "current"
     },
     {
@@ -36,17 +36,17 @@
     },
     {
       "path": "governance/FEDERATION_AND_LAYERS_v0_2.md",
-      "sha256": "b85d6b73abece957e5fe43d2a048abebd1b6f466ef0787be2244367bac48e6ab",
+      "sha256": "08606f4f52a6340aedb18f2bcb1a970b3cc7f1f4f9d2e98454f73e87398967db",
       "status": "current"
     },
     {
       "path": "governance/GOVERNANCE_CORE_v0_2.json",
-      "sha256": "21a410e83e695c540afb483c36fac92658c4f7e456970add68dca143554944a2",
+      "sha256": "0bd831b70369644969adfa27bb7ec25383e8d96692fa784bd41edbae28b719b3",
       "status": "current"
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "dca15780c033e5be1a7e371bbe8c16a94078700baa51d3954cec801c65c8e4aa",
+      "sha256": "a9f8629f5df17b825c137d6e5b7d4d2d32899b4f8c9acac9da15c16602bf6f3c",
       "status": "current"
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "path": "tools/README.md",
-      "sha256": "1f213eb59bd3d8d30f6b9f4f18b74f45e0552a403fa2576a99aeb844ea870251",
+      "sha256": "74b91edea1ef12ac6255283eac688a5d3d2fa578665f717ea990731e353410f1",
       "status": "current"
     },
     {

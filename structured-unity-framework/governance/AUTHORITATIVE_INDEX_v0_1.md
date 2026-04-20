@@ -21,9 +21,9 @@ For SUF-specific current surfaces, see `CURRENT_SURFACES_REGISTRY_v0_1.json` in 
 
 ## Live governance files
 
-See root `governance/CURRENT_SURFACES_REGISTRY_v0_1.json` for canonical list. Key SUF governance surfaces:
+See root `../../governance/GOVERNANCE_CORE_v0_2.json` for umbrella current surfaces. Key SUF governance surfaces:
 - `AUTHORITATIVE_INDEX_v0_1.md` (this file - routing surface)
-- `CURRENT_SURFACES_REGISTRY_v0_1.json` (root canonical file list)
+- `CURRENT_SURFACES_REGISTRY_v0_1.json` (SUF-local current file list)
 - `AUTHORITATIVE_SOURCES_v0_1.json` (entrypoint routing)
 - `PACKAGE_STATE_SUMMARY_v0_1.json` (package status)
 - `PACKAGE_MINIMIZATION_POLICY_v0_1.md` (renewal rules)

@@ -38,6 +38,28 @@ Study how knowledge systems, graph structures, retrieval layers, and AI agents c
 - What should stay human-authored, what can be agent-assisted, and what should never be promoted without review?
 - How do we keep a recursive knowledge system from becoming a recursive hallucination system?
 
+## Current design lineage
+
+The current AKS-oriented reading of this space hardened through a sequence:
+
+1. structured cognition and explicit execution order
+2. workflow architecture instead of one-shot prompting
+3. recursive knowledge substrate instead of chat-local memory alone
+4. epistemic operating model with memory, tools, validation, and governance
+5. explicit human / agent authority split
+6. cold-start boot path plus compressed but lossless relevant memory
+7. renewal / rebirth / recompression as normal maintenance
+8. federated subsystems with local ownership
+9. shared protocol layer for handoffs, trust order, and validation
+10. first live prototype
+11. first refactor wall when truth starts duplicating
+12. explicit layer policy by job
+13. registry-driven self-coverage so the system can audit itself
+
+This sequence matters because it explains why the current design emphasizes
+small boot surfaces, explicit boundaries, typed current-state files, and
+structural anti-drift measures instead of treating them as arbitrary style.
+
 ## Canonical anchors
 
 - knowledge engineering, ontology design, and metadata-system literatures

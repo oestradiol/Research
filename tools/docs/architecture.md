@@ -42,7 +42,7 @@ The first live prototype now groups validation into subsystem-owned clusters:
 - `knowledge-package`
 - `tooling-release`
 
-Cluster metadata now comes from `../governance/SUBSYSTEM_REGISTRY_v0_1.json`, while tooling code only keeps execution logic and result rendering. That resolves the first duplication wall between public subsystem policy and Python-owned cluster metadata without collapsing governance prose into code.
+Cluster metadata now comes from `../governance/GOVERNANCE_CORE_v0_2.json`, while tooling code only keeps execution logic and result rendering. That resolves the earlier duplication wall between public subsystem policy and Python-owned cluster metadata without re-expanding governance into multiple near-duplicate files.
 
 ## Data flow
 

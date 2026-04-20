@@ -35,11 +35,6 @@ from research_tools.workflows.validate_all import collect_validation_results  # 
 def cleanup_transient_artifacts(base: Path) -> tuple[list[str], list[str]]:
     removed_dirs: list[str] = []
     removed_files: list[str] = []
-    for pattern in ('__pycache__', '.mypy_cache', '.pytest_cache', '.ruff_cache'):
-        for directory in sorted(base.rglob(pattern)):
-            if directory.is_dir():
-                shutil.rmtree(directory)
-                removed_dirs.append(directory.relative_to(base).as_posix())
     for file_path in sorted(base.rglob('*.pyc')):
         if file_path.is_file():
             file_path.unlink()
@@ -48,6 +43,11 @@ def cleanup_transient_artifacts(base: Path) -> tuple[list[str], list[str]]:
         if file_path.is_file():
             file_path.unlink()
             removed_files.append(file_path.relative_to(base).as_posix())
+    for pattern in ('__pycache__', '.mypy_cache', '.pytest_cache', '.ruff_cache'):
+        for directory in sorted(base.rglob(pattern), reverse=True):
+            if directory.is_dir():
+                shutil.rmtree(directory)
+                removed_dirs.append(directory.relative_to(base).as_posix())
     return removed_dirs, removed_files
 
 def _safe_read_text(path: Path) -> tuple[str | None, str | None]:

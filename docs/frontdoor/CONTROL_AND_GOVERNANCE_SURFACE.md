@@ -27,11 +27,12 @@ No repository-level claim should be stronger than the current package boundaries
 ## Current truth surfaces
 
 Use these to see what is current and authoritative:
-- `../../governance/AUTHORITATIVE_INDEX_v0_1.md`
-- `../../governance/AUTHORITATIVE_SOURCES_v0_1.json`
-- `../../governance/CURRENT_SURFACES_REGISTRY_v0_1.json`
-- `../../governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json`
-- `../../governance/PACKAGE_STATE_SUMMARY_v0_1.json`
+- `../../governance/AUTHORITATIVE_INDEX_v0_2.md`
+- `../../governance/GOVERNANCE_CORE_v0_2.json`
+- `../../governance/REGISTRY_MANIFEST_v0_2.json`
+- `../../governance/FEDERATION_AND_LAYERS_v0_2.md`
+- `../../governance/AUTHORITATIVE_SOURCES_v0_2.json`
+- `../../governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json`
 - `../../structured-unity-framework/START_HERE.md`
 
 ## Checks before use
@@ -50,15 +51,12 @@ Supporting audits:
 
 ## How the repository resists sprawl
 
-- `../../governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md`
-- `../../governance/AGENT_EDIT_SCOPE_POLICY_v0_1.json`
-- `../../governance/REPOSITORY_EDIT_BASELINE_v0_1.json`
-- `../../governance/REPOSITORY_FILE_REGISTRY_v0_1.json`
-- `../../governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`
-- `../../governance/SUBSYSTEM_REGISTRY_v0_1.json`
-- `../../governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md`
+- `../../governance/GOVERNANCE_CORE_v0_2.json`
+- `../../governance/REGISTRY_MANIFEST_v0_2.json`
+- `../../governance/FEDERATION_AND_LAYERS_v0_2.md`
+- `../../governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json`
 
-Rule: no root file without a clear routing, governance, licensing, citation, or operational job. Agent edits outside current surfaces and designated work surfaces should fail review unless explicitly declared.
+Rule: no root file without a clear routing, governance, licensing, citation, or operational job. Current surfaces, subsystem scopes, actor classes, trust order, edit scope, renewal-cycle triggers, and derived integrity now route through the v0.2 consolidated governance stack rather than through separate v0.1 policy files.
 
 ## Federated architecture
 

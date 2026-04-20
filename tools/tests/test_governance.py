@@ -21,11 +21,11 @@ from research_tools.validate.governance import (
 
 
 def _cleanup_transients(repo_root):
-    for path in sorted(repo_root.rglob('*')):
-        if path.is_dir() and path.name in {'__pycache__', '.mypy_cache', '.pytest_cache', '.ruff_cache'}:
-            import shutil; shutil.rmtree(path)
     for path in sorted(repo_root.rglob('*.pyc')):
         path.unlink()
+    for path in sorted(repo_root.rglob('*'), reverse=True):
+        if path.is_dir() and path.name in {'__pycache__', '.mypy_cache', '.pytest_cache', '.ruff_cache'}:
+            import shutil; shutil.rmtree(path)
 
 
 def test_governance_validations_pass() -> None:
@@ -62,6 +62,33 @@ def test_current_surface_hygiene_catches_stale_wrapper_fragment(tmp_path) -> Non
     import json
     (repo / "governance" / "CURRENT_SURFACES_REGISTRY_v0_1.json").write_text(json.dumps(root_registry), encoding="utf-8")
     (repo / "structured-unity-framework" / "governance" / "CURRENT_SURFACES_REGISTRY_v0_1.json").write_text(json.dumps(suf_registry), encoding="utf-8")
+
+    results = validate_current_surface_hygiene(repo)
+
+    assert any(result.status == "fail" for result in results)
+
+
+def test_current_surface_hygiene_catches_archived_governance_reference(tmp_path) -> None:
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    (repo / "governance").mkdir(parents=True)
+    (repo / "structured-unity-framework" / "governance").mkdir(parents=True)
+    bad = repo / "bad.md"
+    bad.write_text("see governance/AUTHORITATIVE_SOURCES_v0_1.json\n", encoding="utf-8")
+    import json
+    gov = {
+        "current_surfaces": {
+            "root_entrypoints": ["bad.md"],
+            "root_governance": [],
+            "package_entrypoints": {},
+            "assisted_use": None,
+        }
+    }
+    (repo / "governance" / "GOVERNANCE_CORE_v0_2.json").write_text(json.dumps(gov), encoding="utf-8")
+    (repo / "structured-unity-framework" / "governance" / "CURRENT_SURFACES_REGISTRY_v0_1.json").write_text(
+        json.dumps({"current_files": [], "live_entrypoints": []}),
+        encoding="utf-8",
+    )
 
     results = validate_current_surface_hygiene(repo)
 

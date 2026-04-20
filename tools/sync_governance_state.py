@@ -17,6 +17,7 @@ BASE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE / "tools" / "src"))
 
 from research_tools.repo_files import iter_truth_files
+from research_tools.generate.integrity_manifest import generate_integrity_manifest_v2
 
 
 def _sha(path: Path) -> str:
@@ -60,63 +61,18 @@ def derive_integrity_manifest_v2(
     registry_manifest_path: Path,
     output_path: Path | None = None,
 ) -> dict:
-    """Derive integrity manifest from GOVERNANCE_CORE.current_surfaces + REGISTRY_MANIFEST.
-    
-    Per v0_2 design: integrity is computed, not stored statically.
-    """
-    gov = json.loads(governance_core_path.read_text(encoding='utf-8'))
-    reg = json.loads(registry_manifest_path.read_text(encoding='utf-8'))
-    
-    # Build lookup from registry
-    sha_lookup = {f['path']: f['sha256'] for f in reg['files']}
-    
-    # Collect all current surface paths from governance core
-    current = gov['current_surfaces']
-    paths_to_check = []
-    paths_to_check.extend(current['root_entrypoints'])
-    paths_to_check.extend(current['root_governance'])
-    paths_to_check.extend(current['package_entrypoints'].values())
-    paths_to_check.append(current['assisted_use'])
-    
-    # Add subsystem state surfaces
-    for subsys in gov['subsystems'].values():
-        if subsys.get('state_surface'):
-            paths_to_check.append(subsys['state_surface'])
-        if subsys.get('entry'):
-            paths_to_check.append(subsys['entry'])
-        if subsys.get('validation_policy'):
-            paths_to_check.append(subsys['validation_policy'])
-        if subsys.get('surfaces'):
-            paths_to_check.extend(subsys['surfaces'])
-    
-    # Deduplicate
-    seen = set()
-    unique_paths = []
-    for p in paths_to_check:
-        if p not in seen:
-            seen.add(p)
-            unique_paths.append(p)
-    
-    # Build integrity manifest
-    integrity = {
-        'version': '0.2.0-derived',
-        'purpose': 'Derived from GOVERNANCE_CORE_v0_2 + REGISTRY_MANIFEST_v0_2',
-        'algorithm': 'sha256',
-        'file_count': len(unique_paths),
-        'files': [
-            {
-                'path': p,
-                'sha256': sha_lookup.get(p, '[file-not-in-registry]'),
-                'status': 'current' if p in sha_lookup else 'missing'
-            }
-            for p in unique_paths
-        ]
-    }
-    
+    """Derive integrity manifest from the canonical generator path."""
+    repo_root = governance_core_path.parent.parent
+    integrity = generate_integrity_manifest_v2(
+        repo_root=repo_root,
+        governance_core_path=governance_core_path,
+        registry_manifest_path=registry_manifest_path,
+        output_path=output_path,
+    )
     if output_path:
-        _write_json(output_path, integrity)
-        print(f"Derived integrity manifest: {len(unique_paths)} current surfaces -> {output_path.name}")
-    
+        print(
+            f"Derived integrity manifest: {integrity['file_count']} current surfaces -> {output_path.name}"
+        )
     return integrity
 
 

@@ -49,7 +49,7 @@ The umbrella repository should keep package roles strong:
 
 As the system grows, new code, tests, validators, and maintenance routines should prefer the narrowest responsible package instead of accumulating in root by habit. Cross-package coordination should happen through explicit interfaces, current-state surfaces, validation outputs, and file-referenced handoffs.
 
-For the current root protocol, use `governance/FEDERATED_SUBSYSTEM_PROTOCOL_v0_1.md`.
-For machine-readable scopes, actor classes, navigation, and trust order, use `governance/SUBSYSTEM_REGISTRY_v0_1.json`.
-For stack and language-choice rules plus architecture-decision evidence discipline, use `governance/IMPLEMENTATION_LAYER_POLICY_v0_1.md`.
+For canonical machine-readable governance state, use `governance/GOVERNANCE_CORE_v0_2.json`.
+For the shortest human-readable federation, minimization, and layer policy, use `governance/FEDERATION_AND_LAYERS_v0_2.md`.
+For entrypoint and source routing, use `governance/AUTHORITATIVE_SOURCES_v0_2.json`.
 Durable research deltas should be written back into the owning subsystem rather than left only in chat or ephemeral memory.
