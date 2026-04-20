@@ -121,26 +121,22 @@ def generate_integrity_manifest_v2(
     gov = load_json(governance_core_path)
     reg = load_json(registry_manifest_path)
     
-    # Build lookup from registry
-    sha_lookup = {f['path']: f.get('sha256', '[pending-sync]') for f in reg.get('files', [])}
-    
     # Collect current surfaces from governance
     current_surfaces = collect_current_surfaces(gov)
     
     if not current_surfaces:
         raise ValueError("No current surfaces found in GOVERNANCE_CORE")
     
-    # Generate entries
+    # Generate entries — always hash on disk (per v0.2 design: integrity is
+    # computed, not stored statically; registry-cached hashes drift when
+    # surface files are edited without a registry regeneration).
     files_with_hashes = []
     missing_files = []
     
     for file_ref in sorted(current_surfaces):
         full_path = repo_root / file_ref
         if full_path.exists():
-            # Use cached SHA from registry if available, otherwise compute
-            sha256 = sha_lookup.get(file_ref)
-            if not sha256 or sha256 == '[pending-sync]':
-                sha256 = compute_sha256(full_path)
+            sha256 = compute_sha256(full_path)
             files_with_hashes.append({
                 'path': file_ref,
                 'sha256': sha256,
