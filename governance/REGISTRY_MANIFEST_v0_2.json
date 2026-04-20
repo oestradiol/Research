@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
   "purpose": "Full Research/ repository file catalog with integrity. INTEGRITY_MANIFEST derived from this + GOVERNANCE_CORE.current_surfaces at validation time.",
-  "updated": "2d8b3bf6",
+  "updated": "2026-04-20",
   "algorithm": "sha256",
-  "file_count": 364,
+  "file_count": 386,
   "note": "Full catalog for tooling. GOVERNANCE_CORE defines 'current' surfaces; this provides integrity for all tracked files.",
   "catalog_uri": "governance/REGISTRY_MANIFEST_v0_2.json",
   "generation_rule": "regenerate on release or when file tree changes materially",
@@ -21,14 +21,14 @@
   ],
   "files_sample": [
     {
-      "path": "README.md",
-      "sha256": "8fe0499260ded51022d0eef9ff28ec077ded1ff5c37fe339c75d4847569b235f",
-      "size_bytes": 2278
+      "path": ".github/workflows/governance-validation.yml",
+      "sha256": "66ce6b1fefd4d23983058b71c9a453cc4b9983b0266f7b681be9ab37a2d7e876",
+      "size_bytes": 1175
     },
     {
-      "path": "governance/GOVERNANCE_CORE_v0_2.json",
-      "sha256": "[to-be-computed-on-release]",
-      "size_bytes": 0
+      "path": ".gitignore",
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+      "size_bytes": 10
     }
   ],
   "package_state": {
@@ -53,13 +53,23 @@
       "size_bytes": 10
     },
     {
+      "path": ".handoff/2026-04-18-australia-tooling.md",
+      "sha256": "8d861dcdf738857cda582054c0962ffb2c56ee81941faca49fb8ce2113f3bae7",
+      "size_bytes": 4493
+    },
+    {
+      "path": ".handoff/2026-04-19-rebirth-devils-advocate-audit.md",
+      "sha256": "bf58ee2271358cfeb0efe3edcb8cc596e1e2000353fcb68e7c8c94ee0a3187e0",
+      "size_bytes": 6635
+    },
+    {
       "path": "CHANGELOG.md",
-      "sha256": "db5f466dc797ca867bd4a53cf89a8cfcd7fafebbb7c5e7663d839bab9e43167d",
-      "size_bytes": 6217
+      "sha256": "07e2ab7b0bef49a7db3e10bbd6eb915f0a2d60e216cb2cdb30421f6cd625f7eb",
+      "size_bytes": 8161
     },
     {
       "path": "CITATION.cff",
-      "sha256": "1daf2f14f562d5751b3c330a0fa99f56033463c1c8ad8bbb20af5ba142fb9fc6",
+      "sha256": "2ff6e405baefc519bb6e0973075546c8648a23a180cf6d2812e7cb8e88e4f9d6",
       "size_bytes": 844
     },
     {
@@ -69,28 +79,28 @@
     },
     {
       "path": "README.md",
-      "sha256": "8fe0499260ded51022d0eef9ff28ec077ded1ff5c37fe339c75d4847569b235f",
+      "sha256": "01b8bf8eb679460555376cc7d489cdb9a55a9b98caccda76a6fa9469805286be",
       "size_bytes": 2278
     },
     {
       "path": "START_HERE.md",
-      "sha256": "6d2db813593777fb5d3f3010cd0396763240218c97a40b416b1f6e8d4a2d261b",
+      "sha256": "43eed059a1a372db660f43cf3f7d43c791d8944e6af519412124655ab3fc712c",
       "size_bytes": 856
     },
     {
       "path": "authoritative_guard.py",
-      "sha256": "d79cbe2430bed9ef89fe3da23850868a751f6c29e740fc718d964edd81a95890",
+      "sha256": "42813fa1873e6f4f88ac62f010743c7e37bbfeb4b6f00a306e5dd9d6523c4379",
       "size_bytes": 1674
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "9fbd02f7e7eac062b86841341b1fd3a10c54ce8d3debc779284ed1fb384d7715",
-      "size_bytes": 9884
+      "sha256": "8585daa2df4818b93bc100e6c906e3e07dc39b3811b7ba6ead40bcae856f418f",
+      "size_bytes": 10396
     },
     {
       "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "b031c342987741573b2cf0848361260390e8dbdc08bcb69aa00c990670de8cae",
-      "size_bytes": 2661
+      "sha256": "c6bdb257d4069e901435642b21d21a48a7870bec3a76f8292d0e0ad9c976a97b",
+      "size_bytes": 3038
     },
     {
       "path": "docs/ops/RELEASE_CHECKLIST_v0_1.md",
@@ -98,14 +108,9 @@
       "size_bytes": 625
     },
     {
-      "path": "governance/AGENT_EDIT_SCOPE_POLICY_archived_v0_1.json",
-      "sha256": "6f2e3341f03bb567c1647031fd86e80bf2ec358e62509c64f755e92c8bbd0399",
-      "size_bytes": 2261
-    },
-    {
-      "path": "governance/AUTHORITATIVE_INDEX_archived_v0_1.md",
-      "sha256": "c53c141efee5ea781e99a5164a11c2c80ea9b393ec118da70e94349ea684945f",
-      "size_bytes": 1807
+      "path": "docs/ops/SURFACE_STALENESS_RESEARCH_NOTE.md",
+      "sha256": "47e98739259288cccbadbe705ef45c3ed3adc5b9a62fa6b7e433f6273ed6a656",
+      "size_bytes": 7622
     },
     {
       "path": "governance/AUTHORITATIVE_INDEX_v0_2.md",
@@ -113,14 +118,9 @@
       "size_bytes": 1501
     },
     {
-      "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_archived_v0_1.json",
-      "sha256": "10e0435ec615058dceceae85fc415bfa9c935b89dd80c3b6026f9c45c41fea83",
-      "size_bytes": 3369
-    },
-    {
-      "path": "governance/AUTHORITATIVE_SOURCES_archived_v0_1.json",
-      "sha256": "591938b2597c1e7b849798b4908da5cf1788cebe423cf14adb397b4aaac84697",
-      "size_bytes": 1285
+      "path": "governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_2.json",
+      "sha256": "98d83d72aa65f73c26c16b0dd30019973e3496f7ee00162b3afcdb798abe2ea3",
+      "size_bytes": 2895
     },
     {
       "path": "governance/AUTHORITATIVE_SOURCES_v0_2.json",
@@ -133,69 +133,24 @@
       "size_bytes": 4383
     },
     {
-      "path": "governance/CURRENT_CLAIM_EXPECTATIONS_archived_v0_1.json",
-      "sha256": "7bc4b05a13c43a85eb2115dd6f5371a97fadb88151352aa70ede9fefd133c59d",
-      "size_bytes": 1472
-    },
-    {
       "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_2.json",
       "sha256": "2f1e122d2b532089e3f2b3cca2ebb49ca53663b8077e4a277b8a33899e419e65",
       "size_bytes": 2027
     },
     {
-      "path": "governance/CURRENT_SURFACES_REGISTRY_archived_v0_1.json",
-      "sha256": "09faa7ef7844d6711cff0c34717d6fc5e5662def659aa876a96a1455b5c302f6",
-      "size_bytes": 1809
-    },
-    {
-      "path": "governance/FEDERATED_SUBSYSTEM_PROTOCOL_archived_v0_1.md",
-      "sha256": "ff50302b8dfbac1a06357223e0099fcdbb5b45bad85dafca5ead51df5c4c1fe0",
-      "size_bytes": 6048
-    },
-    {
       "path": "governance/FEDERATION_AND_LAYERS_v0_2.md",
-      "sha256": "fa2d658bd6d4746bb09e43548c042043b67f2f8a23b13fd20ea6ba64717ea719",
-      "size_bytes": 3688
+      "sha256": "b85d6b73abece957e5fe43d2a048abebd1b6f466ef0787be2244367bac48e6ab",
+      "size_bytes": 4114
     },
     {
       "path": "governance/GOVERNANCE_CORE_v0_2.json",
-      "sha256": "17097c1afc08ff9d1355c3af42ff5c8b656df5dd5b9fe7beb7a54f985154568d",
-      "size_bytes": 6277
-    },
-    {
-      "path": "governance/IMPLEMENTATION_LAYER_POLICY_archived_v0_1.md",
-      "sha256": "e3a9a7bac272a7599069207e23bdc2befeef1f5dbe23f48ce3291c2cc56e4d3a",
-      "size_bytes": 5421
-    },
-    {
-      "path": "governance/PACKAGE_MINIMIZATION_POLICY_archived_v0_1.md",
-      "sha256": "688b44678b5edb5e37509e309312c5c9b2fa5be3d556affa538d4c295dbce9c8",
-      "size_bytes": 4408
-    },
-    {
-      "path": "governance/PACKAGE_STATE_SUMMARY_archived_v0_1.json",
-      "sha256": "e61637cd81d23bd325fc229ec6a2a4022b396440622e100f046c86b4f21c856b",
-      "size_bytes": 694
+      "sha256": "21a410e83e695c540afb483c36fac92658c4f7e456970add68dca143554944a2",
+      "size_bytes": 6410
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "c4cbc980a74f123895a045c83969371935636e43f5cb6cbda6781b27e9ada70f",
-      "size_bytes": 1205
-    },
-    {
-      "path": "governance/REPOSITORY_EDIT_BASELINE_archived_v0_1.json",
-      "sha256": "9582089437fed79590c1be3fc6ac01df3eb5c4302f10bb09526988b52bdaf5fd",
-      "size_bytes": 58742
-    },
-    {
-      "path": "governance/REPOSITORY_FILE_REGISTRY_archived_v0_1.json",
-      "sha256": "e02eb84a517e913b54b501e86605ea961794ab79f687b10a2e44f7e855f8b31b",
-      "size_bytes": 84493
-    },
-    {
-      "path": "governance/SUBSYSTEM_REGISTRY_archived_v0_1.json",
-      "sha256": "430b345cf29230f463799ab0c5cc745498be7cc63102cb7bf5990586fc859068",
-      "size_bytes": 7057
+      "sha256": "d1095d7b359074a62ca9f75a2b1c4b04503c0e9929d062037e2e963adb7c888e",
+      "size_bytes": 75464
     },
     {
       "path": "knowledge/.gitignore",
@@ -229,8 +184,8 @@
     },
     {
       "path": "knowledge/_indexes/knowledge-index.md",
-      "sha256": "36ba75a65afd93c65841f3e203a6a0d3512dfd95a70a9b251991b2dec5e5e242",
-      "size_bytes": 1094
+      "sha256": "808fd96207380951ccb6fcc2ad74be179710b2b2d0e4c182ebf5a169816cbf6c",
+      "size_bytes": 3473
     },
     {
       "path": "knowledge/_indexes/node-index.md",
@@ -306,6 +261,11 @@
       "path": "knowledge/_templates/subdomain-template.md",
       "sha256": "84a2845a8d736034cad30c226cd0125cb1eea28a45b71d83ce42b4384fad8208",
       "size_bytes": 379
+    },
+    {
+      "path": "knowledge/data/suf-comparison-metrics.json",
+      "sha256": "51bb4ac684d4bb9875efa7e0390b74f94b43886cf6a41641e708a90ec1a8948a",
+      "size_bytes": 2804
     },
     {
       "path": "knowledge/knowledge-package-spec.md",
@@ -674,8 +634,8 @@
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md",
-      "sha256": "ac57eda4a49d142e724c22853efd6cf3dc4d4f226536f21adc737c62be5d8d24",
-      "size_bytes": 4394
+      "sha256": "8e25ebcc9d5bcebfb2ef740db196be236c3dfc163c3f5cd7d87f51413fdf38cf",
+      "size_bytes": 4381
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/comparative-civilizational-studies.md",
@@ -699,8 +659,8 @@
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/knowledge-engineering-and-agentic-systems.md",
-      "sha256": "457ddb950edcbd5c11b8f65698b92e548a336d0892339863b52d4570cf6a723c",
-      "size_bytes": 10079
+      "sha256": "71e2ba808124197c779908e01c05edaf8b349023fcb806ea48bbb7272ce7aa5e",
+      "size_bytes": 10543
     },
     {
       "path": "knowledge/map/08-integrative-and-reflexive/knowledge-organization-and-library-science.md",
@@ -716,11 +676,6 @@
       "path": "knowledge/map/08-integrative-and-reflexive/sustainability-science.md",
       "sha256": "c987448cd4421b4a6cfc6d30f3f359580593aa16cc97495754604d706e10280d",
       "size_bytes": 2900
-    },
-    {
-      "path": "knowledge/map/08-integrative-and-reflexive/unknown-unknowns-post-v0-2-compression.md",
-      "sha256": "236c84b6b7f883c63dd3f376a7662c54d914a26ba8fa8fce89c0e42bf3c95e79",
-      "size_bytes": 4271
     },
     {
       "path": "knowledge/map/README.md",
@@ -768,11 +723,6 @@
       "size_bytes": 3380
     },
     {
-      "path": "knowledge/study-routes/unknown-unknowns-mapping-route.md",
-      "sha256": "f8a656bcd2ddfc8dce4ce1039350ff30b50a88f29e96e76be62cbdfaeabc1cfb",
-      "size_bytes": 3387
-    },
-    {
       "path": "knowledge/studying-and-teaching-with-suf.md",
       "sha256": "b2d91195dcad5eb50429770d6c912a109228a08735837556abd88db8c545d4dc",
       "size_bytes": 7699
@@ -784,7 +734,7 @@
     },
     {
       "path": "package_doctor.py",
-      "sha256": "871ee25223e911fe1c0b18b5704ea63dd7b18f6aca139b81ec73638714a1bfb8",
+      "sha256": "8bc9cfa5dc7b31430380fc9ad577efacc0a2aaac827dfcf8f91644d6fa24c8cb",
       "size_bytes": 7312
     },
     {
@@ -798,13 +748,33 @@
       "size_bytes": 22
     },
     {
+      "path": "structured-unity-framework/.handoff/agent-structure-decision.json",
+      "sha256": "6d94f94ed08b11fa5e20388cedb207dad241d8714bf21b8f02c1c4fa6eec7a44",
+      "size_bytes": 4656
+    },
+    {
+      "path": "structured-unity-framework/.handoff/q3-q5-completion.md",
+      "sha256": "30bca3f450c191e4d110aeb00268a7efcb41c00e678f68e01fd2e61ecb435955",
+      "size_bytes": 3956
+    },
+    {
+      "path": "structured-unity-framework/.handoff/v1.5-tooling.json",
+      "sha256": "ec536175e10e46c34ff9c80fd02beb9f4ba1662ef5f178c678b02bb9f1697716",
+      "size_bytes": 2365
+    },
+    {
+      "path": "structured-unity-framework/.handoff/v16-completion.md",
+      "sha256": "d94788ec06f3c2a4c2eb9733cbd3299288913299780a25426f49da7e58060101",
+      "size_bytes": 1812
+    },
+    {
       "path": "structured-unity-framework/CHANGELOG.md",
-      "sha256": "2037def8a1b95b4a6243c447579fcf521f64502c2744be167e3bcd9652726019",
-      "size_bytes": 5196
+      "sha256": "49ac35b0c3e505912c301dd4a36d183b4e215c48a92e51b758e0395cb978766e",
+      "size_bytes": 6042
     },
     {
       "path": "structured-unity-framework/CITATION.cff",
-      "sha256": "697fc9aeb95c11555224e9062e446d348ded7aef8c093f3d4ad2f6b857000a93",
+      "sha256": "1f9aef7de1a9cafee4a490c6fd5c2dfa173f0db26195083301a189fb37de684b",
       "size_bytes": 813
     },
     {
@@ -819,13 +789,13 @@
     },
     {
       "path": "structured-unity-framework/README.md",
-      "sha256": "69199bf5c8e8f6d7e2602590c97dda2314fc770349682bd3d7fbd7df463e8389",
-      "size_bytes": 2947
+      "sha256": "77beb38819095c7bd0bede987d9ce90b37a90ec9796396414fda9fa93cf1dc52",
+      "size_bytes": 2976
     },
     {
       "path": "structured-unity-framework/ROADMAP.md",
-      "sha256": "2c6e00160bc9d7afe2c5e6354f29eb7999275bdf88057f0379efa01f35912fd7",
-      "size_bytes": 2137
+      "sha256": "17fa811138fdb4af4855a13b13b767382a00fe8ebff536f9403ec3254e70e09c",
+      "size_bytes": 2380
     },
     {
       "path": "structured-unity-framework/START_HERE.md",
@@ -938,6 +908,26 @@
       "size_bytes": 3878
     },
     {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/australia-comparator-design.md",
+      "sha256": "85b26ecde1a538a2e852c8ce1ec90fb69dfe477805b6e02fe4433bd3dec8264a",
+      "size_bytes": 4024
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/australia-event-ledger-seed.md",
+      "sha256": "45ec34114af87bda2f870b0f14aeb0cf1fdb7e5d3323cdbc8bdcadb802a2b234",
+      "size_bytes": 19961
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/australia-official-corpus-inventory.md",
+      "sha256": "e4d63c15f00cc729ae57151dc22747a0c62ec976f173e08e3cb6c87511aeeead",
+      "size_bytes": 5336
+    },
+    {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/australia-source-discovery-log.md",
+      "sha256": "404bde89acf6b2c5cc0f0ee209d2dad945c26f98003c5101473a52e10d96265c",
+      "size_bytes": 4323
+    },
+    {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/bounded-gain-against-simpler-readings.md",
       "sha256": "f3517d954f344d1afec7704eb6ddadfa6ee3fd3a8db92fe9bd4630689a223719",
       "size_bytes": 7364
@@ -954,8 +944,8 @@
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-nz-taiwan-comparison-note.md",
-      "sha256": "ef7a08d64e89dba825153b498cc13a37ca1a2cd02b658f9be45c843350df523e",
-      "size_bytes": 5310
+      "sha256": "e0af9d6f102f443f0f9640372043c8a727ffcf2f3428261f616b2a4f9cdcbbd6",
+      "size_bytes": 5253
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/first-pass-c-summary.md",
@@ -1014,8 +1004,8 @@
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-boundary-and-corpus.md",
-      "sha256": "a1807c24d3e9ace2860ba394997aa6711dc0a48226881434f09616b1af58a1cd",
-      "size_bytes": 2754
+      "sha256": "f463f3dd57c8116fd9f3d0c10e4db2bac3b5bb319f879daca33d0b2bf51bb1ca",
+      "size_bytes": 2764
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-monograph-de-escalation-and-lag.md",
@@ -1043,9 +1033,14 @@
       "size_bytes": 2315
     },
     {
+      "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/nz-taiwan-australia-closure-note.md",
+      "sha256": "315d2926cd3fce8cbe5efa4ddf8f35c11af8d3bd21565ab716914f5eb7a8b54e",
+      "size_bytes": 9019
+    },
+    {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/official-corpus-inventory.md",
-      "sha256": "164cccb38292a02597463a4442fbdb367b4b8e9f512cb9987530941ba0c425e0",
-      "size_bytes": 10570
+      "sha256": "44cb1e5d43a81022647f852b413f2a4360456918370bfcff8424a08c55676337",
+      "size_bytes": 10580
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/research-design.md",
@@ -1059,23 +1054,23 @@
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/source-discovery-log.md",
-      "sha256": "3d5155fb85a8de3d3e9cf5df137f83a84697477f81806f048a5f38b442c6a0f4",
-      "size_bytes": 12406
+      "sha256": "cd7ab52164cbc5694f520532951ca0622ff324f3269d7ffee44a06fe430683b2",
+      "size_bytes": 13955
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-boundary-and-corpus.md",
-      "sha256": "e54f6d443e03920ae75ce0e50b3f4a4ce5206f2008c4a782a600a3b66f772423",
-      "size_bytes": 4353
+      "sha256": "381713d4d1546908c2610c2eddff31dc89bcb97f5dec0d38154e5011c95abe08",
+      "size_bytes": 4383
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-evidence-map.md",
-      "sha256": "abf68a3fcf9ce0f9c1dce742d8b66fe4a2e023a37fc6cbd758d64c65236ea9fb",
-      "size_bytes": 3084
+      "sha256": "49cfc15c5ad5fcfdea7b619de43122b568c483fb42ff7a849e5e404a1d8db3f8",
+      "size_bytes": 3010
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-chapter-table-and-figure-plan.md",
-      "sha256": "61d1899c133bbdde159c4c5c0a06af1839987f73bb85a6de3177d2bdd7a9e41b",
-      "size_bytes": 2567
+      "sha256": "38d9ff2ae519e1f345362f96a3ff301020c3f84a036157726200371c926fdbff",
+      "size_bytes": 2572
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-comparator-design.md",
@@ -1084,13 +1079,13 @@
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-event-ledger-seed.md",
-      "sha256": "a3a1a4ae5fbeef402571c90d7ac5cc5402983397eae59456d365bbe6b6f2f089",
-      "size_bytes": 18060
+      "sha256": "e7a9e0746ab0066b5f7974b90e7d5b197bd5b0d41480a22f76ea4ef71beb014d",
+      "size_bytes": 23768
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/taiwan-official-corpus-inventory.md",
-      "sha256": "3cff1a337a3f4d47b34a7ed9ec4cdad3f1baed910310519b2cc82398634da079",
-      "size_bytes": 5275
+      "sha256": "4386bb97a5a84ca1d2cc021b8825edebe5f777408112694ba2e4edac1e4dcd55",
+      "size_bytes": 5920
     },
     {
       "path": "structured-unity-framework/applications/research-map/00-foundations-and-methods/README.md",
@@ -1209,28 +1204,33 @@
     },
     {
       "path": "structured-unity-framework/docs/INDEX.md",
-      "sha256": "1df6e72a905f425e9235129968740679cc13859e288ec67ae900204d0c26db63",
-      "size_bytes": 3853
+      "sha256": "0736fbe954beefd77989864e8bec6c614dfc3837d5e096949df6f061ba7b47e6",
+      "size_bytes": 3858
     },
     {
       "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
-      "sha256": "bbb7c55df30b5056601727655c761c1c80092c980e5bf2cb9b3c60619631ad8e",
-      "size_bytes": 7615
+      "sha256": "bf82a39244eecf5c91e38491e969f9619ab396797965c1080efa42854a1b4bb9",
+      "size_bytes": 8941
+    },
+    {
+      "path": "structured-unity-framework/docs/argument/UD_DIFFERENTIATION_SCAFFOLD.md",
+      "sha256": "648c3852a460796765826a894bb377398aeac0945399e2560fa91b71f3b84a30",
+      "size_bytes": 6681
     },
     {
       "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
-      "sha256": "6109baec1a9f50426d5e17482503d16d960ed5725b790964b38bfce17bd7d03d",
-      "size_bytes": 11250
+      "sha256": "3cc16d2aa84f084850bbf1435cd5d9eeeaa738091646fca255dfbcf272cb4c69",
+      "size_bytes": 11270
     },
     {
       "path": "structured-unity-framework/docs/claims-and-boundaries.md",
-      "sha256": "282dbf48426185e267b0e10a4485e25b9712ca80bf13dc412dd0d4125dd5e560",
-      "size_bytes": 4775
+      "sha256": "2f5d06b44748685062368977d589637557491011df094b3c4400eb09b339d87c",
+      "size_bytes": 4732
     },
     {
       "path": "structured-unity-framework/docs/current-execution-order.md",
-      "sha256": "9881d4be3d9be565442206956f479ac42d608fa45ad616ef412957022d8fbfea",
-      "size_bytes": 2951
+      "sha256": "a087243677ca775959485f5660f6b047ac0d949f43fb8695d932bfbf131b8753",
+      "size_bytes": 5340
     },
     {
       "path": "structured-unity-framework/docs/diagrams/dependency-map.md",
@@ -1259,8 +1259,8 @@
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "d98bca48b603c1415677f17bccec9fc50d760c6326234b42fe811e7a078ef5d8",
-      "size_bytes": 1395
+      "sha256": "4e3b32be99046fbd18ff54e02554d8e1a0f3b214cbd78b06021bb97b682124cd",
+      "size_bytes": 1419
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
@@ -1279,8 +1279,8 @@
     },
     {
       "path": "structured-unity-framework/docs/monograph-and-closure-program.md",
-      "sha256": "6dd2a9a0618387e301bb6e1ebea91374c79e0aa2ce06810c3438dc516925a9ee",
-      "size_bytes": 13274
+      "sha256": "511ae38326434d4ef0f10b078558e39c18f0548c0c079093281bde3bebe3aa6e",
+      "size_bytes": 13316
     },
     {
       "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
@@ -1294,23 +1294,23 @@
     },
     {
       "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
-      "sha256": "be82861d46a1731fd31f776de37a3ab0c13dacbdd4e8c02c5cd566613b16b20b",
-      "size_bytes": 4220
+      "sha256": "2e574b0afb99e9a8c3d9063c044a034c338dc85828d6c08b5f49307f7a2dc8de",
+      "size_bytes": 4428
     },
     {
       "path": "structured-unity-framework/docs/pending-inventory.md",
-      "sha256": "9bb2587941455e1ffe104e869296ab746193c1648ee4959f2806e06e535e7609",
-      "size_bytes": 6780
+      "sha256": "d7f6e5ab69878a5d44c68e7d5d8c59c88ce2546b3200f6c19ff990cef8e2a997",
+      "size_bytes": 7975
     },
     {
       "path": "structured-unity-framework/docs/project-status.md",
-      "sha256": "fc59758a92fb42caf170e346b83f52ef570522f70a658fc8842ab6648f7152ad",
-      "size_bytes": 9168
+      "sha256": "f79c893c39a578e4fa34c20755da4a3094bd7c5c161a82e3d9742a549f71e403",
+      "size_bytes": 10971
     },
     {
       "path": "structured-unity-framework/framework/framework-interface.md",
-      "sha256": "d238b7d38704d1080c31e86805a777d7cf97c86136b3006990e7e8bac672a2f9",
-      "size_bytes": 9140
+      "sha256": "c226c46df8de3ba2cca2ced0a68e6178ad96157903b7970ffce23d73974880dc",
+      "size_bytes": 9429
     },
     {
       "path": "structured-unity-framework/framework/ia-downstream-role.md",
@@ -1329,18 +1329,18 @@
     },
     {
       "path": "structured-unity-framework/framework/research-program.md",
-      "sha256": "fbe363a0ddae2e8e5cd0a21443a1ee4e997db6f683cc7e9655dcb6dc9763650b",
-      "size_bytes": 12576
+      "sha256": "dc7cdd91e57e5f56d6fb2854eef3b544933548ac3b695032f71f3f6830883afe",
+      "size_bytes": 12579
     },
     {
       "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
-      "sha256": "a67a0e19b91240aff104f2337b024815f4b295a675e4b998ef5fc9488663c8f7",
-      "size_bytes": 7235
+      "sha256": "bb2ab39e927b534c229e89c544930054d6c67cc57b896c9fe1e41d3d4a14ab8b",
+      "size_bytes": 7363
     },
     {
       "path": "structured-unity-framework/framework/structural-phenomenology.md",
-      "sha256": "bf8caa0d5ceaf1253b394cf59241d22a2cc23f3a85faab786ed005bf01bd169e",
-      "size_bytes": 17122
+      "sha256": "bc220add25cbf9a343f24617817914a3a05cae52425078358e100464ab55a1c8",
+      "size_bytes": 17506
     },
     {
       "path": "structured-unity-framework/framework/unity-dynamics-framework.md",
@@ -1349,12 +1349,12 @@
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "sha256": "3f4bb48bd1530568b36cc8e458927dfae713f99bcf9f92a6d78e0c3fc1ccb3be",
-      "size_bytes": 1556
+      "sha256": "a90666f4ffb0c46f8eb16e26f6d919f1eafc4514002751e4c3ca1aa74fd39d02",
+      "size_bytes": 2360
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
-      "sha256": "f9ada42787459f8d0cd7cb8df7a082a73494935691737df42f9289d897545c66",
+      "sha256": "6e5b77b61789c1c48785ba17877d6218a463d4022f7032203a0d13db06a679e8",
       "size_bytes": 399
     },
     {
@@ -1364,8 +1364,8 @@
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "sha256": "78ec79bf2aaf64e2a105d92597b9e349e562129076bb32f4306ac483f7523da2",
-      "size_bytes": 3230
+      "sha256": "1bd5b382eb8f99dedafd0cb5a2f9d0edb2bf0e11a40e0ea3b7546e02fb1e4571",
+      "size_bytes": 3254
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
@@ -1384,8 +1384,8 @@
     },
     {
       "path": "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
-      "sha256": "27def54d1a8c2588bf426aac07ef01b8551e7dc37a1033ecf0108ce8e0f2666f",
-      "size_bytes": 881
+      "sha256": "045541fb375d2740656a189965d8792f3c664a0d435c1127c200a9fb01e40285",
+      "size_bytes": 1213
     },
     {
       "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
@@ -1404,8 +1404,8 @@
     },
     {
       "path": "structured-unity-framework/meta/publication-scope.md",
-      "sha256": "3ca998b1eed575b2fa38ade2d115f6e92bf3eec9151aa31b093babf81b0b6de9",
-      "size_bytes": 3209
+      "sha256": "74c178cfe11e93114528319800c5c5c7a2861359ba08ba67ebcdb36b40868871",
+      "size_bytes": 3260
     },
     {
       "path": "structured-unity-framework/meta/risk-register.md",
@@ -1421,6 +1421,11 @@
       "path": "structured-unity-framework/meta/weak-naturalization.md",
       "sha256": "32175efa6efbb3307bf724a68b7b5b935a64e709e8ce201ba8d759895ec1055d",
       "size_bytes": 1366
+    },
+    {
+      "path": "structured-unity-framework/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
+      "sha256": "5eaacca1aee79569ad61691ef74a46de555ed80f1ee0831add8e6a5934e64c8b",
+      "size_bytes": 4423
     },
     {
       "path": "structured-unity-framework/references/README.md",
@@ -1444,13 +1449,103 @@
     },
     {
       "path": "structured-unity-framework/references/source-registry.md",
-      "sha256": "11a8ef0d521f6651c6599d8635fb7d58343b45118c74515713c0f92c5d30ce8d",
-      "size_bytes": 72079
+      "sha256": "2068ea3cca209bd4d23379a5d8ddf556e4fae3de42d4bd0be01eb0aba20526e3",
+      "size_bytes": 87429
     },
     {
       "path": "structured-unity-framework/references/standard-reading-list.md",
       "sha256": "00ddd2cd8c30740842c9c81a628bd875b96cbc0249bf613491917e272b8e7f56",
       "size_bytes": 5936
+    },
+    {
+      "path": "structured-unity-framework/tools/README.md",
+      "sha256": "deefe5a21f70d7a97748eba6571a6bcb1eb52910352b665220a5c91f626b0b3a",
+      "size_bytes": 2725
+    },
+    {
+      "path": "structured-unity-framework/tools/exports/corpus.csv",
+      "sha256": "e69e7ab564bd8e34927231a9a370795153b6c8c1c2385234b4e6ec92b94f7e03",
+      "size_bytes": 36423
+    },
+    {
+      "path": "structured-unity-framework/tools/exports/corpus.json",
+      "sha256": "b2374e22ccfff813874d0d2e58b8583267ece6a5c7a1fdc2e45690b89c8e631d",
+      "size_bytes": 75581
+    },
+    {
+      "path": "structured-unity-framework/tools/exports/ledger-to-json.py",
+      "sha256": "39142265308aa18ec4a75a13aadc5592ee2caf884d079ce8940ff54e52c0fe0e",
+      "size_bytes": 16063
+    },
+    {
+      "path": "structured-unity-framework/tools/exports/metrics.json",
+      "sha256": "e9be70279131adf9c7f9479ca930fe3ec0ee429c936635631c6352b5d3f59173",
+      "size_bytes": 4638
+    },
+    {
+      "path": "structured-unity-framework/tools/exports/metrics.md",
+      "sha256": "e18b0ac0dc2b0697f12f96d5334e3b656501b9c5eca7a8c9fe479393b2fc5fca",
+      "size_bytes": 2557
+    },
+    {
+      "path": "structured-unity-framework/tools/generators/generate-comparison-matrix.py",
+      "sha256": "96d381bcf2bd29bd35010f633ac15c8b5911c363cf92e7f20e4268b3b886a033",
+      "size_bytes": 6511
+    },
+    {
+      "path": "structured-unity-framework/tools/generators/generate-metric-companions.py",
+      "sha256": "53ad9a6197f0ec283fd1b218ad3cf5a5a5294ea1a4afb86db91cae08e1f16234",
+      "size_bytes": 13634
+    },
+    {
+      "path": "structured-unity-framework/tools/out/australia-ledger.json",
+      "sha256": "9381bba4eeed47415aa3592b5ea7e6f62bbc448f26ed66343fda830fcfcd60dd",
+      "size_bytes": 11200
+    },
+    {
+      "path": "structured-unity-framework/tools/out/nz-ledger.json",
+      "sha256": "a3511cfd2d0b4a66cb3133d2acb909b226d00f5b62052b0e83957e2fdd2502ba",
+      "size_bytes": 33790
+    },
+    {
+      "path": "structured-unity-framework/tools/out/taiwan-ledger.json",
+      "sha256": "14f4b609fd1fc3be73a53d668261e7fe271700bd4ba24a89b3971b71bc7a1287",
+      "size_bytes": 19257
+    },
+    {
+      "path": "structured-unity-framework/tools/research-ops/check-artifact-completeness.py",
+      "sha256": "16d6aa23de021c8ad850133499e7c96ef57f00ad2cd4b9a2e0bbf76b83d2ee6d",
+      "size_bytes": 6745
+    },
+    {
+      "path": "structured-unity-framework/tools/research-ops/check-backlog-hygiene.py",
+      "sha256": "a17b59714cfef7fa4c1d98fba57ea066008247726b341a24d96bc6fe0cc0b828",
+      "size_bytes": 7047
+    },
+    {
+      "path": "structured-unity-framework/tools/research-ops/check-discovery-state.py",
+      "sha256": "f632cae81264cdee89c9dd5d7b4bf001cc98b52ac156bcd1a7869f67b24b579c",
+      "size_bytes": 6585
+    },
+    {
+      "path": "structured-unity-framework/tools/research-ops/generate-handoff-packet.py",
+      "sha256": "044747b423077d9a0b241a120a42f0f829edf866e1d1ce072b3c4a6670ff3ed8",
+      "size_bytes": 7460
+    },
+    {
+      "path": "structured-unity-framework/tools/validate-all.py",
+      "sha256": "522c8fcf2839aab5986eff23a8462b0dba948f5370e84fcf110156bb90bfac79",
+      "size_bytes": 3960
+    },
+    {
+      "path": "structured-unity-framework/tools/validators/validate-closure-note.py",
+      "sha256": "a6bfa20e2f3c2d0f13531df679fca6ec81dc9c3eeb5a972de5fc56370d36be9d",
+      "size_bytes": 10203
+    },
+    {
+      "path": "structured-unity-framework/tools/validators/validate-ledger-counts.py",
+      "sha256": "c6c1a55805f2723eecb0a4c718f50d2efb3d14db58dc1b76422041cc2c5b3af0",
+      "size_bytes": 1995
     },
     {
       "path": "tools/.gitignore",
@@ -1464,12 +1559,12 @@
     },
     {
       "path": "tools/CHANGELOG.md",
-      "sha256": "b3b5b79be8314403bbd660da355411dfa70540d47bbd81b6e53f8ea30781b231",
-      "size_bytes": 2069
+      "sha256": "1d5f0842082fbb471330f3d5d54023c69f7ae09546341df80611de096c9889cd",
+      "size_bytes": 2065
     },
     {
       "path": "tools/README.md",
-      "sha256": "cd7a4862a43b357b433e18d18537f9fb5ff73f306cdd9de93916dcf8f37ce08d",
+      "sha256": "1f213eb59bd3d8d30f6b9f4f18b74f45e0552a403fa2576a99aeb844ea870251",
       "size_bytes": 3723
     },
     {
@@ -1508,6 +1603,11 @@
       "size_bytes": 753
     },
     {
+      "path": "tools/docs/ENVIRONMENT_ENTRY.md",
+      "sha256": "db5c1d4d057bc8126dd864fadcceb6c33ba4992eb794b49adf46a31a638ea5d1",
+      "size_bytes": 1363
+    },
+    {
       "path": "tools/docs/adr/0001-tooling-scope.md",
       "sha256": "4cfccd73ebf41698cc297a39f9f4b81779b09c639b5433c79ed3a9af8adca0b2",
       "size_bytes": 351
@@ -1524,8 +1624,13 @@
     },
     {
       "path": "tools/docs/architecture.md",
-      "sha256": "fb8233c0e49a98ab5197e37d5eb70d74bf1f7b3aa6d72a64cb59079968659544",
-      "size_bytes": 2728
+      "sha256": "1399a3077fee19e925673301225a69d739b926b8becf5e9bc8254abe1d867dc5",
+      "size_bytes": 3020
+    },
+    {
+      "path": "tools/docs/archive/sprint-log.md",
+      "sha256": "275ddd0a20687cab6b4b8b7f0e74a0abe1fdfcbb97dc853aa00dcde5d1c6f29b",
+      "size_bytes": 2649
     },
     {
       "path": "tools/docs/backlog.md",
@@ -1534,8 +1639,8 @@
     },
     {
       "path": "tools/docs/validation-policy.md",
-      "sha256": "87d59a7b770bfe3dfabbe27f155906308daed24d7b69efdfae719b5dfa5f6aee",
-      "size_bytes": 1406
+      "sha256": "6d1e3b84c82460878f78039abdd513ff947de337f5d348b621bea708c38b77b0",
+      "size_bytes": 2205
     },
     {
       "path": "tools/flake.lock",
@@ -1589,8 +1694,8 @@
     },
     {
       "path": "tools/src/research_tools/cli.py",
-      "sha256": "342f7d2e4023fa5613c05cfbaa403f880ba0d87d9abe5ebdde63126852972492",
-      "size_bytes": 20035
+      "sha256": "a6ffca3539666e4756b463cd67dfcae157a565c616e2faef2cf6f1994849a576",
+      "size_bytes": 21498
     },
     {
       "path": "tools/src/research_tools/config.py",
@@ -1609,8 +1714,8 @@
     },
     {
       "path": "tools/src/research_tools/generate/integrity_manifest.py",
-      "sha256": "a661c063a883975c7d393bca1afbde43421295bb3e3180d6433dcdb25ade0f52",
-      "size_bytes": 4032
+      "sha256": "7ab2748f54588a0dfd6623f48976aa37994e45b34fe50a7c6249d818edd5e556",
+      "size_bytes": 6504
     },
     {
       "path": "tools/src/research_tools/models/__init__.py",
@@ -1648,9 +1753,19 @@
       "size_bytes": 45
     },
     {
+      "path": "tools/src/research_tools/parse/australia_ledger.py",
+      "sha256": "fd04dc7954f3baf4fc2375219860763d9d1d4e93734556d9d89604e08c0dff1a",
+      "size_bytes": 379
+    },
+    {
       "path": "tools/src/research_tools/parse/governance_core.py",
       "sha256": "d20d47cecf2f646922564ba4a420552cd880c7ef7a9dbe1eec5bb6f43b3b3942",
       "size_bytes": 4747
+    },
+    {
+      "path": "tools/src/research_tools/parse/ledger.py",
+      "sha256": "5c0f4e9cd11fe4c044f78bf282c1f9142461adbdddb77585a74f4a0b45d88be1",
+      "size_bytes": 4079
     },
     {
       "path": "tools/src/research_tools/parse/markdown_links.py",
@@ -1659,8 +1774,8 @@
     },
     {
       "path": "tools/src/research_tools/parse/nz_ledger.py",
-      "sha256": "ab030b30cd5006420c694d746385b40a8600f37891597ece609070842eb5fb57",
-      "size_bytes": 2333
+      "sha256": "c8d33c4a34cd2f7e617e852646bbe9e928bc1dea469d8d8b7fb10f0e8bccf50c",
+      "size_bytes": 369
     },
     {
       "path": "tools/src/research_tools/parse/source_registry.py",
@@ -1674,13 +1789,13 @@
     },
     {
       "path": "tools/src/research_tools/parse/taiwan_ledger.py",
-      "sha256": "8a4dba04340a0b56aa89687d5ce24692508a1507e364fc36f71a1e2c280f5073",
-      "size_bytes": 2337
+      "sha256": "58636f0c2e8a498336af15e20cf54bda63be590f8849f8a63ff1be9071a60e2b",
+      "size_bytes": 367
     },
     {
       "path": "tools/src/research_tools/paths.py",
-      "sha256": "6e9014baeed3d6b92afec867857efade16988fa1cfd0643ecf0a7a3bb681c61e",
-      "size_bytes": 1884
+      "sha256": "b156ec2b89d5981c5befa2ba668d0c4399c3cef26d2eb5c521ca5347a82b1c48",
+      "size_bytes": 2112
     },
     {
       "path": "tools/src/research_tools/repo_files.py",
@@ -1691,6 +1806,11 @@
       "path": "tools/src/research_tools/reports/__init__.py",
       "sha256": "de15221b99a25c13111a68e63f42ffa128c78473ac50efa4d520b35aee5423aa",
       "size_bytes": 56
+    },
+    {
+      "path": "tools/src/research_tools/reports/australia_summary.py",
+      "sha256": "d2cfbac4f0133c96d3ad316ff7fab2531ea08e703a94fc0e78107c781cdc5c8b",
+      "size_bytes": 3363
     },
     {
       "path": "tools/src/research_tools/reports/nz_summary.py",
@@ -1714,8 +1834,8 @@
     },
     {
       "path": "tools/src/research_tools/reports/taiwan_summary.py",
-      "sha256": "4199f4ad03d7a82e18c12707088269bcc469ec234c509d3e501d5f4d40644a76",
-      "size_bytes": 14852
+      "sha256": "1614a8fd7c46997b97002116178a5ec1f5388c8675442303a40f28eb1983b443",
+      "size_bytes": 15144
     },
     {
       "path": "tools/src/research_tools/validate/__init__.py",
@@ -1729,18 +1849,23 @@
     },
     {
       "path": "tools/src/research_tools/validate/governance.py",
-      "sha256": "dfe0e4a530aba79afc9211b5d2415807c9423defb655057cfb14078e51b1632b",
-      "size_bytes": 41395
+      "sha256": "e0785584779cfa10ac3118bd20627d5496471062afa87ad97d27e63396716bd0",
+      "size_bytes": 42711
     },
     {
       "path": "tools/src/research_tools/validate/governance_consistency.py",
-      "sha256": "f9f0a194f07f998f8ebd1f5a14b4d8501a6d211795fe86ff5f7678e3bf401769",
-      "size_bytes": 14284
+      "sha256": "7269ba1cb744b06d2300bdd7e019c849191556459be6a07f30918ed9768b00d8",
+      "size_bytes": 14654
+    },
+    {
+      "path": "tools/src/research_tools/validate/ground_truth.py",
+      "sha256": "f2796a1631163b1c767ae5a3969285e5dde4502729ccb8a297babc336d66f840",
+      "size_bytes": 6978
     },
     {
       "path": "tools/src/research_tools/validate/knowledge.py",
-      "sha256": "2f8e7a69aa2d097dccc6dddd13af9933d3f344fb879ffdd3e9dcaa5a56096f15",
-      "size_bytes": 9691
+      "sha256": "0de834c0d5c5fb5ef9e1b6a964a1dcedace4ab3a0d530b2f2db6c9ae26d0c384",
+      "size_bytes": 9581
     },
     {
       "path": "tools/src/research_tools/validate/links.py",
@@ -1754,8 +1879,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/route_consistency.py",
-      "sha256": "ebade1cd6a8e410a664d9a2f16c8b8b4b8dddde3aef5f42a7a16b8e76e438fea",
-      "size_bytes": 5853
+      "sha256": "1898959ffd07d845ed6c1e1449d5283001c8c9380354ff473ef0078aada325f8",
+      "size_bytes": 6672
     },
     {
       "path": "tools/src/research_tools/validate/sources.py",
@@ -1764,8 +1889,13 @@
     },
     {
       "path": "tools/src/research_tools/validate/status_surfaces.py",
-      "sha256": "7b8ee49748f1d7f13a202bd41a552e869489e3e7e60c5bc59ffa83d902553f30",
-      "size_bytes": 15088
+      "sha256": "83a988052b968b39c140b217f965200e9e137b84d81f877add41492f58a4ee6b",
+      "size_bytes": 15136
+    },
+    {
+      "path": "tools/src/research_tools/validate/three_case_synthesis.py",
+      "sha256": "2226f72071e71367b3f9d0a67d4091e398faaa134840196acbf334e4226f14a5",
+      "size_bytes": 6484
     },
     {
       "path": "tools/src/research_tools/validate/versions.py",
@@ -1779,8 +1909,8 @@
     },
     {
       "path": "tools/src/research_tools/workflows/validate_all.py",
-      "sha256": "37759a92fa3628381cd68d5274b493d113b8dd39ba30942d5413d212c708f064",
-      "size_bytes": 3003
+      "sha256": "a9278e4ba1414550a6190c1e57ad592a07c560b9636e760f12626d71a4cd9534",
+      "size_bytes": 3655
     },
     {
       "path": "tools/src/research_tools/workflows/validate_clusters.py",
@@ -1839,23 +1969,8 @@
     },
     {
       "path": "using-this-research-with-human-assistants-and-reasoning-agents.md",
-      "sha256": "2537e1385f8e7d1e04e928bff236982fd6c204c2d3834e3799fa0a644325d20e",
+      "sha256": "697b109b9f4a19bd7c241564884d3e95a49d144c4fbfbb048aeddaff771eeb4e",
       "size_bytes": 4910
-    },
-    {
-      "path": "authoritative_guard.py",
-      "sha256": "42813fa1873e6f4f88ac62f010743c7e37bbfeb4b6f00a306e5dd9d6523c4379",
-      "size_bytes": 1740
-    },
-    {
-      "path": "package_doctor.py",
-      "sha256": "8bc9cfa5dc7b31430380fc9ad577efacc0a2aaac827dfcf8f91644d6fa24c8cb",
-      "size_bytes": 7300
-    },
-    {
-      "path": "research_launch_gate.py",
-      "sha256": "67418cb8c68c097c5dfcff3b3239e05e05ce4dd144f797aa9ee1f3fbc0d99016",
-      "size_bytes": 1400
     }
   ]
 }

@@ -21,11 +21,14 @@
     "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
     "structured-unity-framework/governance/PACKAGE_STATE_SUMMARY_v0_1.json",
     "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
+    "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md"
+  ],
+  "_validator_infra_files": [
     "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
     "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
-    "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
     "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json"
   ],
+  "_validator_infra_note": "These are machine-readable validator inputs, not human-navigable current surfaces. Excluded from current_files on 2026-04-20 to fix routing-coverage false positives. Still loaded directly by validators via explicit paths.",
   "live_entrypoints": [
     "structured-unity-framework/README.md",
     "structured-unity-framework/START_HERE.md",

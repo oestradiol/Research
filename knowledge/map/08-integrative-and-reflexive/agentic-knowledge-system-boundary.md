@@ -93,9 +93,9 @@ Automated checks for repository health:
 
 ## Cross-References
 
-- AKS prototype design: `Internal/Agentic Knowledge System Prototype.md`
-- Language policy: `Internal/LANGUAGE_POLICY_v0_1.md`
-- Agent instructions: `Internal/Agent Custom Instructions.md`
+- AKS prototype design: `Internal/delta/aks-prototype.md`
+- Language policy: `Internal/delta/language-policy.md`
+- Agent instructions: `Internal/active/agent-instructions.md`
 - Bridge file: `Translation Decision Map.md`
 - SUF framework: `Research/structured-unity-framework/`
 

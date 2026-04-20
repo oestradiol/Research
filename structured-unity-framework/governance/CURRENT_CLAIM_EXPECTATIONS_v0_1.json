@@ -49,10 +49,10 @@
       "message": "Control surface names interpretive pressure as current control work."
     },
     {
-      "check_name": "suf-execution-parallel-instrumentation",
+      "check_name": "suf-execution-order-phase-tagged",
       "path": "structured-unity-framework/docs/current-execution-order.md",
-      "needle": "run minimum challenge tooling in parallel",
-      "message": "Execution-order surface keeps bounded instrumentation parallel to Taiwan work."
+      "needle": "phase:",
+      "message": "Execution-order surface carries phase tagging (v0.2 YAML frontmatter)."
     }
   ],
   "absent": [

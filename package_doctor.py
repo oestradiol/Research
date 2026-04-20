@@ -138,12 +138,11 @@ def main() -> None:
         control_error is None and "## Interpretive pressure and minimum challenge tooling" in suf_control_text and "O / C / M / I / P" in suf_control_text,
         "control surface must keep interpretive-pressure language explicit" if control_error is None else control_error,
     )
-    suf_execution_text, execution_error = _safe_read_text(suf_execution_path)
-    record(
-        "suf:execution-order-parallel-instrumentation",
-        execution_error is None and "run minimum challenge tooling in parallel" in suf_execution_text,
-        "execution order must keep minimum challenge tooling parallel to Taiwan work" if execution_error is None else execution_error,
-    )
+    # `suf:execution-order-parallel-instrumentation` was dropped 2026-04-20:
+    # Taiwan chapter is complete (20 events landed, three-case synthesis closed).
+    # The "parallel-to-Taiwan instrumentation" hook belonged to an earlier phase.
+    # If a new parallel-work discipline is needed, re-add with current wording.
+    _ = suf_execution_path  # kept for future phase checks
 
     for name, results in [
         ("audit:current-surfaces", validate_current_surfaces(BASE)),

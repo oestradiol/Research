@@ -31,7 +31,7 @@
     },
     {
       "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_2.json",
-      "sha256": "2f1e122d2b532089e3f2b3cca2ebb49ca53663b8077e4a277b8a33899e419e65",
+      "sha256": "9dc0b3a5080e91cacd3fadef94bca81af2ebaf2d000b29a87026ad768ed3892b",
       "status": "current"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "d1095d7b359074a62ca9f75a2b1c4b04503c0e9929d062037e2e963adb7c888e",
+      "sha256": "dca15780c033e5be1a7e371bbe8c16a94078700baa51d3954cec801c65c8e4aa",
       "status": "current"
     },
     {

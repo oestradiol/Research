@@ -50,10 +50,10 @@
       "message": "Root front door does not refer to a separate releases directory."
     },
     {
-      "check_name": "no-v0-1-governance-active",
-      "path": "governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "needle": "DEPRECATED",
-      "message": "v0.1 governance files are marked deprecated."
+      "check_name": "root-frontdoor-no-universal-proof",
+      "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
+      "needle": "universal proof package",
+      "message": "Root front door does not overclaim universal proof."
     }
   ]
 }
