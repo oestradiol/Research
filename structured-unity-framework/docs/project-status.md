@@ -1,6 +1,6 @@
 # Project Status
 
-This file is the current-state summary for the public package on `main`. Use `current-execution-order.md` for the shortest live sequencing surface, `monograph-and-closure-program.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred Informational Awareness.
+This file is the current-state summary for the public package on `main`. Use `current-execution-order.md` for the shortest live sequencing surface, `monograph/CLOSURE_PROGRAM.md` for the canonical long-range phase ladder, `../ROADMAP.md` for the compressed future-facing summary, and `pending-inventory.md` for deferred Informational Awareness.
 
 ## 1. Status-surface rule
 
@@ -8,7 +8,7 @@ Use the public status files by role:
 
 - this file = current package posture on `main`
 - `current-execution-order.md` = shortest live execution order for the active `v1.x` pass
-- `monograph-and-closure-program.md` = canonical long-range program
+- `monograph/CLOSURE_PROGRAM.md` = canonical long-range program
 - `../ROADMAP.md` = compressed future-facing direction
 - `pending-inventory.md` = deferred Informational Awareness
 
@@ -121,7 +121,7 @@ These lessons are part of the current control state, not only branch-local histo
 ## 11. Cross-links
 
 - navigation: `docs/INDEX.md`
-- boundaries: `docs/claims-and-boundaries.md`
+- boundaries: `docs/frontdoor/claims-and-boundaries.md`
 - contribution candidates: `docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 - methods: `framework/research-program.md`
 - IA clarification: `framework/ia-downstream-role.md`
@@ -129,6 +129,7 @@ These lessons are part of the current control state, not only branch-local histo
 - evidence status: `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 - applications: `applications/README.md`
 - live sequencing: `docs/current-execution-order.md`
-- long-range program: `docs/monograph-and-closure-program.md`
+- long-range program: `docs/monograph/CLOSURE_PROGRAM.md`
+
 - future direction: `ROADMAP.md`
 - deferred and optional later work: `docs/pending-inventory.md`

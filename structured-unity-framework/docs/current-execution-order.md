@@ -5,7 +5,7 @@ phase_type: tooling
 active_workstream: analysis-ready-tooling
 upstream_dependencies:
   - project-status.md
-  - monograph-and-closure-program.md
+  - monograph/CLOSURE_PROGRAM.md
   - ../ROADMAP.md
 downstream_dependencies: []
 validation_gate: research-tools validate all
@@ -24,7 +24,7 @@ This file states the shortest live execution order for the current `v1.x` phase.
 
 Use it when the question is not "what is the whole long-range program?" but "what do we do next without drifting?"
 
-For current package posture, use [project-status.md](project-status.md). For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed roadmap, use [../ROADMAP.md](../ROADMAP.md).
+For current package posture, use [project-status.md](project-status.md). For the canonical long-range phase ladder, use [monograph/CLOSURE_PROGRAM.md](monograph/CLOSURE_PROGRAM.md). For the compressed roadmap, use [../ROADMAP.md](../ROADMAP.md).
 
 ## Phase completion status
 
@@ -123,7 +123,7 @@ v1.5 must explicitly prevent the stale-surface failure mode that persisted here.
 - [x] ROADMAP.md phase markers match actual completion
 - [x] Automated or manual freshness check documented (`validate all` gate)
 
-**Surface synchronization completed**: Fixed `nz-taiwan-issuing-concentration` metric (border-control 9/20, removed devils-advocate-audit.md internal leakage).
+**Surface synchronization completed**: Fixed `nz-taiwan-issuing-concentration` metric (border-control 9/20, removed devils-advocate-audit.md stale handoff).
 
 ## Status
 

@@ -10,7 +10,7 @@ Default order for the later long-range program:
 2. Australia
 3. later optional comparator only if explicitly reopened after Australia
 
-See [../../../docs/monograph-and-closure-program.md](../../../docs/monograph-and-closure-program.md) for the canonical long-range phase ladder.
+See [../../../docs/monograph/CLOSURE_PROGRAM.md](../../../docs/monograph/CLOSURE_PROGRAM.md) for the canonical long-range phase ladder.
 
 ## Recommended shortlist
 

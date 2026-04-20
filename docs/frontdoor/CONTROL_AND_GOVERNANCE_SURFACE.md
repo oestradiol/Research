@@ -2,7 +2,7 @@
 
 This is the shortest current map of how the root repository stays bounded, current, hard to drift by accident, and readable without inflating package claims.
 
-> **Terminology note:** Terms like "federation," "subsystems," "handoffs," and "boot" are interpretive metaphors drawn from the Agentic Knowledge System (AKS) infrastructure layer. They describe the research repository's organizational structure using systems-engineering vocabulary, not ontological claims about the research itself. See [knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md] for the explicit separation between AKS infrastructure language and SUF academic language.
+> **Terminology note:** Terms like "federation," "subsystems," "handoffs," and "boot" are organizational metaphors describing the repository's structure using systems-engineering vocabulary, not ontological claims about the research itself.
 
 ## Table of contents
 - [Core rule](#core-rule)
@@ -73,7 +73,6 @@ Packages and operator layers should mainly own themselves:
 - `structured-unity-framework/` owns academic-core truth
 - `knowledge/` owns atlas structure and route logic
 - `tools/` owns read-only validation and reporting
-- private operator overlays should remain outside the public repo rather than leaking into package-governance surfaces
 
 Shared protocol between parts should remain simple and explicit:
 
@@ -138,7 +137,6 @@ Actor classes:
 
 - human operator
 - external memoryless agent
-- internal agent working from private delta surfaces
 - subsystem-local validator or tool worker
 
 Scope classes:
@@ -147,7 +145,6 @@ Scope classes:
 - subsystem scope
 - cross-subsystem coordination scope
 - root-governance scope
-- private-internal scope
 
 Default trust order:
 

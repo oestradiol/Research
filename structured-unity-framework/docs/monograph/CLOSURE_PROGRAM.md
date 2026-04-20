@@ -10,7 +10,7 @@ It defines the finish line, phase order, required artifacts, default comparator 
 - strong multi-case closure within pandemic-governance inside the current states-and-societies route family
 - a strong final empirical result in bounded form, without claiming universal validation or cross-domain closure
 
-Use this file when planning later execution. Use [project-status.md](project-status.md) for current package posture, [pending-inventory.md](pending-inventory.md) for queued later work, and [../ROADMAP.md](../ROADMAP.md) for the compressed future-facing summary.
+Use this file when planning later execution. Use [project-status.md](../project-status.md) for current package posture, [pending-inventory.md](../pending-inventory.md) for queued later work, and [../../ROADMAP.md](../../ROADMAP.md) for the compressed future-facing summary.
 
 ## Current phase state
 
@@ -66,15 +66,9 @@ Explicit non-goals:
 
 The long-range program should treat these docs as stable public interfaces:
 
-- [Monograph and Closure Program](monograph-and-closure-program.md)
-  Canonical phase ladder and finish-line definition.
-- [Monograph Table of Contents](monograph/MONOGRAPH_SUPPORT_PACKAGE.md)
-  Repo-native monograph shape and chapter order.
-- [Monograph Evidence Map](monograph/MONOGRAPH_SUPPORT_PACKAGE.md)
-  Chapter-to-artifact, source-family, validator, and gap map.
-- [Bounded Pandemic Closure Note](monograph/MONOGRAPH_SUPPORT_PACKAGE.md)
-  Stable synthesis surface for later three-case closure.
-- [Rival-Framework Positioning Note](argument/CONTRIBUTION_AND_POSITIONING.md)
+- [Monograph Support Package](MONOGRAPH_SUPPORT_PACKAGE.md)
+  Repo-native monograph shape, chapter-to-artifact map, and bounded closure note.
+- [Rival-Framework Positioning Note](../argument/CONTRIBUTION_AND_POSITIONING.md)
   Stable surface for later bounded comparison against nearby explanatory frames.
 
 The planned Australia route should live alongside the current New Zealand and Taiwan route materials under:
@@ -263,10 +257,10 @@ Acceptance scenarios:
 
 Future agents should follow this order:
 
-1. [project-status.md](project-status.md) for current package posture
+1. [project-status.md](../project-status.md) for current package posture
 2. this file for the canonical long-range program
-3. [pending-inventory.md](pending-inventory.md) for the queued later-work inventory
-4. [monograph/MONOGRAPH_SUPPORT_PACKAGE.md](monograph/MONOGRAPH_SUPPORT_PACKAGE.md) and [monograph/MONOGRAPH_SUPPORT_PACKAGE.md](monograph/MONOGRAPH_SUPPORT_PACKAGE.md) for chapter and artifact structure
+3. [pending-inventory.md](../pending-inventory.md) for the queued later-work inventory
+4. [MONOGRAPH_SUPPORT_PACKAGE.md](MONOGRAPH_SUPPORT_PACKAGE.md) for chapter and artifact structure
 5. route-level docs only after the phase and chapter target are clear
 
 Future agents must keep these distinctions explicit:

@@ -1,6 +1,6 @@
 # Roadmap
 
-This file is the compressed future-facing summary for the public package. For the current package state on `main`, use `docs/project-status.md`. For the canonical long-range phase ladder, use [docs/monograph-and-closure-program.md](docs/monograph-and-closure-program.md). For queued later work, use `docs/pending-inventory.md`.
+This file is the compressed future-facing summary for the public package. For the current package state on `main`, use `docs/project-status.md`. For the canonical long-range phase ladder, use [docs/monograph/CLOSURE_PROGRAM.md](docs/monograph/CLOSURE_PROGRAM.md). For queued later work, use `docs/pending-inventory.md`.
 
 ## 1. Hosted `v1.5.0` and current `main`
 
@@ -16,7 +16,7 @@ The canonical long-range program is now:
 - strong multi-case closure within pandemic-governance inside the current states-and-societies family
 - a strong final empirical result in bounded form, without universal validation or cross-domain closure
 
-See [Monograph and Closure Program](docs/monograph-and-closure-program.md).
+See [Monograph and Closure Program](docs/monograph/CLOSURE_PROGRAM.md).
 
 ## 3. Phase order
 

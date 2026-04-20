@@ -14,7 +14,7 @@ This file combines the scientific-grounding note and the explicit validity-and-l
 - `../../framework/research-program.md`
 - `../../framework/literature-guide.md`
 - `../../references/source-registry.md`
-- `../../docs/claims-and-boundaries.md`
+- `../../docs/frontdoor/claims-and-boundaries.md`
 - `../../docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 - `../../meta/publication-scope.md`
 

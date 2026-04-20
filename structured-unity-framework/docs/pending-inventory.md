@@ -1,6 +1,6 @@
 # Pending Inventory
 
-This file records the queued later work after the New Zealand monograph-baseline release was completed on `main`. For the current package state, use `project-status.md`. For the shortest live sequencing surface, use `current-execution-order.md`. For the canonical long-range phase ladder, use [monograph-and-closure-program.md](monograph-and-closure-program.md). For the compressed future-facing summary, use `../ROADMAP.md`.
+This file records the queued later work after the New Zealand monograph-baseline release was completed on `main`. For the current package state, use `project-status.md`. For the shortest live sequencing surface, use `current-execution-order.md`. For the canonical long-range phase ladder, use [monograph/CLOSURE_PROGRAM.md](monograph/CLOSURE_PROGRAM.md). For the compressed future-facing summary, use `../ROADMAP.md`.
 
 ## A. No remaining publication or active-core blockers
 

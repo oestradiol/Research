@@ -10,7 +10,7 @@ Read these in order:
 4. `docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md`
 5. `docs/project-status.md`
 6. `docs/current-execution-order.md`
-7. `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
+7. `docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
 8. `docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 9. `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 10. `docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md`

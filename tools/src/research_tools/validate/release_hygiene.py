@@ -7,19 +7,16 @@ from research_tools.models.reports import ValidationResult
 
 PLACEHOLDER_RE = re.compile(r"\b(TODO|FIXME)\b")
 ABSOLUTE_PATH_RE = re.compile(r"(/home/|/Users/|file://|vscode://)")
+CROSS_REPO_RE = re.compile(r"\b(AKS|Dotfiles|Aistra|Internal/)\b")
 IGNORED_DIR_NAMES = {".venv", ".pytest_cache", ".ruff_cache", "__pycache__", "out"}
-# Files that legitimately reference Internal/ as a boundary concept (not as leaks)
-INTERNAL_REF_EXCLUDED_PATHS = {
-    "knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md",
-    "governance/COMPRESSION_MIGRATION_PLAN_v0_2.md",
-    "governance/FEDERATION_AND_LAYERS_v0_2.md",
-}
+# knowledge/map/ atlas nodes may reference "AKS" etc. as domain topics, not as cross-repo leaks
+CROSS_REPO_EXCLUDED_PREFIXES = ("knowledge/",)
 
 
 def validate_release_hygiene(research_root: Path) -> list[ValidationResult]:
     results: list[ValidationResult] = []
     placeholder_hits: list[str] = []
-    internal_hits: list[str] = []
+    cross_repo_hits: list[str] = []
     absolute_path_hits: list[str] = []
 
     for path in research_root.rglob("*"):
@@ -32,10 +29,10 @@ def validate_release_hygiene(research_root: Path) -> list[ValidationResult]:
         text = path.read_text(encoding="utf-8")
         if path.suffix in {".md", ".toml", ".cff"} and PLACEHOLDER_RE.search(text):
             placeholder_hits.append(str(path))
-        if path.suffix in {".md", ".toml", ".cff"} and "Internal/" in text:
-            rel_path = path.relative_to(research_root).as_posix()
-            if rel_path not in INTERNAL_REF_EXCLUDED_PATHS:
-                internal_hits.append(str(path))
+        if path.suffix in {".md", ".toml", ".cff"} and CROSS_REPO_RE.search(text):
+            rel = path.relative_to(research_root).as_posix()
+            if not any(rel.startswith(p) for p in CROSS_REPO_EXCLUDED_PREFIXES):
+                cross_repo_hits.append(str(path))
         if path.suffix in {".md", ".toml", ".cff"} and ABSOLUTE_PATH_RE.search(text):
             absolute_path_hits.append(str(path))
 
@@ -47,10 +44,10 @@ def validate_release_hygiene(research_root: Path) -> list[ValidationResult]:
             "Unresolved TODO/FIXME residue remains in public repo files.",
         ),
         (
-            "release-hygiene-internal-leakage",
-            internal_hits,
-            "No Internal-layer references leak into the public repo.",
-            "Internal-layer references leak into the public repo.",
+            "release-hygiene-cross-repo-refs",
+            cross_repo_hits,
+            "No cross-repo references (AKS, Dotfiles, Aistra, Internal/) leak into the Research repo.",
+            "Cross-repo references leak into the Research repo.",
         ),
         (
             "release-hygiene-absolute-paths",

@@ -13,7 +13,7 @@ This package validates structure, parseability, consistency, version-surface ali
 - route-summary consistency against current SUF published docs
 - Knowledge package entry/index integrity
 - version, changelog, citation, and package-snapshot consistency
-- release-readiness hygiene for public placeholders, internal leakage, and local absolute paths
+- release-readiness hygiene for placeholders and local absolute paths
 
 Recognized fixed archive surfaces in tranche 1 are:
 

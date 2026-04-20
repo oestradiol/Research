@@ -1,6 +1,6 @@
 # Backlog
 
-This file tracks tooling work against the canonical long-range program. For the full phase ladder, use [../../structured-unity-framework/docs/monograph-and-closure-program.md](../../structured-unity-framework/docs/monograph-and-closure-program.md).
+This file tracks tooling work against the canonical long-range program. For the full phase ladder, use [../../structured-unity-framework/docs/monograph/CLOSURE_PROGRAM.md](../../structured-unity-framework/docs/monograph/CLOSURE_PROGRAM.md).
 
 ## Baseline complete
 

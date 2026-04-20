@@ -271,7 +271,7 @@ The default comparator order for that later program is:
 2. Australia federal comparator
 3. only then any later optional comparator, if explicitly reopened
 
-See [../docs/monograph-and-closure-program.md](../docs/monograph-and-closure-program.md) for the canonical long-range phase ladder.
+See [../docs/monograph/CLOSURE_PROGRAM.md](../docs/monograph/CLOSURE_PROGRAM.md) for the canonical long-range phase ladder.
 
 ## 11. Relation to the public atlas
 
@@ -292,7 +292,7 @@ These items remain open without undermining the current research-ready public pa
 - deeper comparative execution beyond the current bounded Taiwan comparator
 - wider atlas expansion beyond the targeted public map
 
-The canonical later completion path is now defined in [../docs/monograph-and-closure-program.md](../docs/monograph-and-closure-program.md).
+The canonical later completion path is now defined in [../docs/monograph/CLOSURE_PROGRAM.md](../docs/monograph/CLOSURE_PROGRAM.md).
 
 ## 13. Reviewer-pressure points
 
@@ -306,7 +306,7 @@ Readers are most likely to press on:
 
 This package addresses those pressures through:
 
-- explicit claim boundaries in `../docs/claims-and-boundaries.md`
+- explicit claim boundaries in `../docs/frontdoor/claims-and-boundaries.md`
 - the anti-fake-precision rule in this document
 - route-local structured evidence organizer disclosure in the demonstrated route package
 - published null and sensitivity logic rather than silent methodological confidence

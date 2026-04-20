@@ -62,14 +62,6 @@
       "visibility": "public",
       "entry": "tools/README.md",
       "validation_policy": "tools/docs/validation-policy.md"
-    },
-    "internal": {
-      "owner": "Private delta",
-      "purpose": "stronger formulations, unresolved tensions, compressed AI notation",
-      "scope_prefixes": ["../Internal/"],
-      "visibility": "private",
-      "entry": "Internal/active/framework-control.md",
-      "note": "Outside git repo; delta layer only. Path is informational; scope_prefixes point outside repo so validators treat this subsystem as an expected exception."
     }
   },
 
@@ -81,10 +73,6 @@
     "external-agent": {
       "authority": "bounded operator recovering state from files not chat",
       "reads_first": ["AGENTS.md boot path", "owning subsystem entry", "GOVERNANCE_CORE"]
-    },
-    "internal-agent": {
-      "authority": "bounded operator with local context, no unilateral irreversible decisions",
-      "reads_first": ["Internal/active/framework-control.md", "Translation Decision Map.md", "GOVERNANCE_CORE"]
     },
     "validator": {
       "authority": "deterministic support role, not meaning authority",
@@ -132,8 +120,7 @@
     "local_file": {"description": "single file, note, or module scope"},
     "subsystem": {"description": "one bounded package or operating layer"},
     "cross_subsystem": {"description": "coordination layer spanning more than one bounded part"},
-    "root_governance": {"description": "umbrella routing, policy, and release hygiene"},
-    "private_internal": {"description": "non-public operator and agent delta surfaces"}
+    "root_governance": {"description": "umbrella routing, policy, and release hygiene"}
   },
 
   "durable_writeback_packet": {

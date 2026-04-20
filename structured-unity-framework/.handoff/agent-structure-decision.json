@@ -100,13 +100,10 @@
   },
   
   "documentation": {
-    "decision_policy": "Internal/DECISION_POLICY.md",
-    "architecture_proposal": "Internal/AGENT_OS_ARCHITECTURE_PROPOSAL.md",
     "proof_of_concepts": [
       "Research/structured-unity-framework/docs/current-execution-order.md",
       "Research/structured-unity-framework/.handoff/v1.5-tooling.json",
       "Research/structured-unity-framework/.handoff/comparison-metrics.json"
-    ],
-    "canonical_reference": "Internal/active/framework-control.md §Current Substantive Decisions"
+    ]
   }
 }

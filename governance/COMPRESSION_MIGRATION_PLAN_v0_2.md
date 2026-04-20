@@ -86,7 +86,7 @@ def derive_validation_cluster(subsystem_id):
 | Tooling breaks | Phase 1: update tools before touching files |
 | Lost verification | Derive integrity at runtime; keep full catalog |
 | Navigation confusion | Soft transition: both versions visible |
-| Agent cold-start failure | Keep `AGENTS.md` → `Translation Decision Map.md` path stable |
+| Agent cold-start failure | Keep `AGENTS.md` path stable |
 
 ## Success Criteria
 
@@ -96,13 +96,6 @@ def derive_validation_cluster(subsystem_id):
 - [ ] File count: 13 → 5 governance files
 - [ ] No loss of verification capability
 - [ ] Repository simpler to navigate
-
-## Post-Migration: "a" (Notation Convergence)
-
-After governance compression is stable, proceed to:
-- Formalize Internal/ compressed notation grammar
-- Or replace with constrained natural language
-- Preserve lossless constraint for goals, decisions, provenance
 
 ---
 

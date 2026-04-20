@@ -8,7 +8,7 @@
     },
     {
       "check_name": "suf-orientation-layer-framing",
-      "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
+      "path": "structured-unity-framework/docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
       "needle": "one methodological preface, two substantive layers, and a bridge/control layer",
       "message": "Orientation guide reflects the current layer framing."
     },

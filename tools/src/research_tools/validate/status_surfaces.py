@@ -85,8 +85,8 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
     pending_inventory = paths.suf_root / "docs" / "pending-inventory.md"
     contribution_note = paths.suf_root / "docs" / "argument" / "CONTRIBUTION_AND_POSITIONING.md"
     v1_bundle = paths.suf_root / "docs" / "argument" / "CONTRIBUTION_AND_POSITIONING.md"
-    framework_overview = paths.suf_root / "docs" / "orientation" / "FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md"
-    how_to_read = paths.suf_root / "docs" / "orientation" / "FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md"
+    framework_overview = paths.suf_root / "docs" / "frontdoor" / "FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md"
+    how_to_read = paths.suf_root / "docs" / "frontdoor" / "FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md"
     index_doc = paths.suf_root / "docs" / "INDEX.md"
     reviewer_doc = paths.suf_root / "docs" / "audit" / "OBJECTIONS_AND_EVIDENCE_STATUS.md"
     evidence_doc = paths.suf_root / "docs" / "audit" / "OBJECTIONS_AND_EVIDENCE_STATUS.md"
@@ -118,7 +118,7 @@ def validate_status_surfaces(paths: RepoPaths) -> list[ValidationResult]:
         ("status-v1-bundle-taiwan", v1_bundle, f"A bounded Taiwan comparator now adds a `{taiwan_summary.event_count}`-event archive-clean tranche under the same source-admission rule.", "v1 academic bundle current Taiwan baseline matches the comparator ledger."),
         ("status-interface-bridge-control", interface_doc, "Framework Interface is the **bridge/control** layer of Structured Unity Framework.", "Framework Interface explicitly uses bridge/control wording."),
         ("status-overview-layer-framing", framework_overview, "one methodological preface, two substantive layers, and a bridge/control layer", "Framework overview reflects the updated layer framing."),
-        ("status-how-to-read-sp-link", how_to_read, "framework/structural-phenomenology-downstream-role.md", "Reading path includes the Structural Phenomenology downstream-role note."),
+        ("status-how-to-read-sp-link", how_to_read, "framework/sp-downstream-role.md", "Reading path includes the Structural Phenomenology downstream-role note."),
         ("status-how-to-read-bounded-gain-link", how_to_read, "bounded-gain-against-simpler-readings.md", "Reading path includes the bounded-gain note."),
         ("status-index-reviewer-doc", index_doc, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "Index includes the reviewer-objections doc."),
         ("status-index-evidence-doc", index_doc, "audit/OBJECTIONS_AND_EVIDENCE_STATUS.md", "Index includes the evidence-status matrix."),

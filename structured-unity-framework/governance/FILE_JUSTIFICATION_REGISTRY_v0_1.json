@@ -422,7 +422,7 @@
       "reason": "current surface, package content, reference surface, or operational support"
     },
     {
-      "path": "structured-unity-framework/docs/claims-and-boundaries.md",
+      "path": "structured-unity-framework/docs/frontdoor/claims-and-boundaries.md",
       "job": "recorded package file",
       "reason": "current surface, package content, reference surface, or operational support"
     },
@@ -477,7 +477,7 @@
       "reason": "current surface, package content, reference surface, or operational support"
     },
     {
-      "path": "structured-unity-framework/docs/monograph-and-closure-program.md",
+      "path": "structured-unity-framework/docs/monograph/CLOSURE_PROGRAM.md",
       "job": "recorded package file",
       "reason": "current surface, package content, reference surface, or operational support"
     },
@@ -492,7 +492,7 @@
       "reason": "current surface, package content, reference surface, or operational support"
     },
     {
-      "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
+      "path": "structured-unity-framework/docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
       "job": "recorded package file",
       "reason": "current surface, package content, reference surface, or operational support"
     },
@@ -532,7 +532,7 @@
       "reason": "current surface, package content, reference surface, or operational support"
     },
     {
-      "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
+      "path": "structured-unity-framework/framework/sp-downstream-role.md",
       "job": "recorded package file",
       "reason": "current surface, package content, reference surface, or operational support"
     },

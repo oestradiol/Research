@@ -18,8 +18,7 @@ SUPPORT_SURFACE_BOUNDARY_EXPECTATIONS = {
         ],
         "contains_any": [
             [
-                # Updated 2026-04-20: prose renamed "estimators" -> "structured evidence organizers"
-                # per Internal/active/framework-control.md §Current Substantive Decisions
+                # 2026-04-20: prose renamed "estimators" -> "structured evidence organizers"
                 # (Estimator -> Structured Evidence Organizer rename to prevent predictive overselling).
                 "The package should not imply that current route-local structured evidence organizers already yield objective cross-domain measurement or mature high-fit prediction.",
                 "The package should not imply that current route-local estimators already yield objective cross-domain measurement or mature high-fit prediction.",
@@ -90,6 +89,7 @@ ROUTING_SURFACES = {
         "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
         "structured-unity-framework/docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
         "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
+        "structured-unity-framework/docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
         "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
     ],
 }
@@ -112,7 +112,7 @@ MERGED_DOC_EXPECTATIONS = {
         "## Detailed limits surfaces",
         "## Provenance",
     ],
-    "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md": [
+    "structured-unity-framework/docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md": [
         "## Table of contents",
         "## Reader paths",
         "## Reading and audit paths",
@@ -332,9 +332,6 @@ def validate_subsystem_registry(repo_root: Path) -> list[ValidationResult]:
             )
         ]
 
-    # Private subsystems are scope-prefixed outside the public repo by design
-    # (see Internal/ subsystem.note). Exclude them from public-scope validation
-    # rather than flagging the expected boundary-crossing as a failure.
     public_subsystems = [s for s in subsystems if s.visibility != 'private']
 
     results: list[ValidationResult] = []

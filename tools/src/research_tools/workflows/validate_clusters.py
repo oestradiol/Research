@@ -129,7 +129,7 @@ def _collect_v2_clusters(paths: RepoPaths, governance: GovernanceCore) -> list[V
     
     for subsystem_id, subsystem in governance.subsystems.items():
         if subsystem.visibility == "private":
-            continue  # Skip internal subsystems in public validation
+            continue  # Skip private subsystems in public validation
         
         spec = _cluster_spec_from_v2(subsystem, paths.research_root)
         if spec is None:

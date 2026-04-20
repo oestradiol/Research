@@ -34,7 +34,7 @@ def collect_current_surfaces(gov: Dict) -> Set[str]:
     """Collect all current surface paths from GOVERNANCE_CORE.
     
     Resolves subsystem surfaces relative to scope_prefixes.
-    Filters out paths outside the Research/ repo (e.g., Internal/)."""
+    Filters out paths outside the Research/ repo."""
     paths = set()
     current = gov.get('current_surfaces', {})
     
@@ -51,7 +51,7 @@ def collect_current_surfaces(gov: Dict) -> Set[str]:
         prefixes = subsys.get('scope_prefixes', [])
         primary_prefix = prefixes[0] if prefixes else ''
         
-        # Skip paths outside Research/ repo (Internal/, etc.)
+        # Skip paths outside Research/ repo
         if primary_prefix.startswith('..'):
             continue
         

@@ -15,7 +15,7 @@
 | Test // turbo annotation | ✅ Complete | Working as expected |
 | v1.5 Australia tooling | ✅ Complete | Parser, validator, CLI integration |
 | Australia event completion | ✅ Complete | 18 events with verified sources (Phase 2 target) |
-| Surface synchronization | ✅ Complete | Fixed Taiwan issuing concentration, removed internal leakage |
+| Surface synchronization | ✅ Complete | Fixed Taiwan issuing concentration, removed cross-repo leakage |
 
 ---
 
@@ -50,7 +50,7 @@
 
 Previous failures resolved:
 - `nz-taiwan-issuing-concentration`: Fixed stale metric in comparison note (border-control 9/20, not both issuers)
-- `release-hygiene-internal-leakage`: Removed devils-advocate-audit.md from public `.handoff/`
+- `release-hygiene-cross-repo-refs`: Removed devils-advocate-audit.md from public `.handoff/`
 
 ## Open Risks (RK)
 
@@ -115,5 +115,5 @@ Research/structured-unity-framework/applications/demonstrated-routes/states-and-
 ## Cross-References
 
 - `.handoff/rebirth-protocol-2026-04-18.md` — OS state review that triggered this work
-- ~~`.handoff/devils-advocate-audit.md`~~ — Removed (internal leakage resolved)
+- ~~`.handoff/devils-advocate-audit.md`~~ — Removed (cross-repo leakage resolved)
 - `Research/tools/out/validate-route-australia.md` — Latest validation report

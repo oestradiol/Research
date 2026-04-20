@@ -19,7 +19,7 @@ Structured Unity Framework is the current academic core of the repository. It is
 
 ### One methodological preface, two substantive layers, and a bridge/control layer
 
-- **Structural Phenomenology** — *methodological preface*: supplies the epistemic starting conditions and boundary discipline. Carries no predictive or measurement weight of its own.
+- **Structural Phenomenology (SP)** — *methodological preface*: supplies the epistemic starting conditions and boundary discipline. Carries no predictive or measurement weight of its own.
 - **Informational Awareness (IA)** — *substantive layer*: supplies the bounded modeling vocabulary and bridge language.
 - **Unity Dynamics (UD)** — *substantive layer*: supplies the most technical-facing route-local measurement vocabulary.
 - **Framework Interface** — *bridge/control layer*: stops silent hardening from modeling language into final ontology and keeps layer roles explicit.
@@ -46,17 +46,17 @@ The framework does not stand alone from the research program.
 
 ### Newcomer path
 1. `README.md`
-2. `docs/claims-and-boundaries.md`
-3. `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
+2. `docs/frontdoor/claims-and-boundaries.md`
+3. `docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
 4. `framework/framework-interface.md`
 5. `framework/research-program.md`
 
 ### Theory-first path
 1. `README.md`
-2. `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
+2. `docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
 3. `framework/framework-interface.md`
 4. `framework/structural-phenomenology.md`
-5. `framework/structural-phenomenology-downstream-role.md`
+5. `framework/sp-downstream-role.md`
 6. `framework/informational-awareness.md`
 7. `framework/ia-downstream-role.md`
 8. `framework/unity-dynamics.md`
@@ -64,7 +64,7 @@ The framework does not stand alone from the research program.
 
 ### Demonstrated-route path
 1. `README.md`
-2. `docs/claims-and-boundaries.md`
+2. `docs/frontdoor/claims-and-boundaries.md`
 3. `applications/README.md`
 4. `applications/demonstrated-routes/README.md`
 5. New Zealand route package
@@ -78,10 +78,10 @@ The framework does not stand alone from the research program.
 ## Reading and audit paths
 
 ### Primary reading path
-`README.md` -> `docs/argument/CONTRIBUTION_AND_POSITIONING.md` -> `docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md` -> `docs/claims-and-boundaries.md` -> `framework/framework-interface.md`
+`README.md` -> `docs/argument/CONTRIBUTION_AND_POSITIONING.md` -> `docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md` -> `docs/frontdoor/claims-and-boundaries.md` -> `framework/framework-interface.md`
 
 ### Skeptical audit path
-`docs/argument/CONTRIBUTION_AND_POSITIONING.md` -> `docs/claims-and-boundaries.md` -> `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md` -> `framework/framework-interface.md` -> `framework/research-program.md`
+`docs/argument/CONTRIBUTION_AND_POSITIONING.md` -> `docs/frontdoor/claims-and-boundaries.md` -> `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md` -> `framework/framework-interface.md` -> `framework/research-program.md`
 
 ## Open edges and non-assumptions
 

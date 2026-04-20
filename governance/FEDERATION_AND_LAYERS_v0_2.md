@@ -1,6 +1,6 @@
 # Federation and Layers v0.2
 
-> **Terminology note:** "Federation," "subsystems," and related infrastructure terms are interpretive metaphors from the Agentic Knowledge System (AKS) layer. They describe the repository's organizational structure using systems vocabulary, not claims that the research constitutes a computational system. See [knowledge/map/08-integrative-and-reflexive/agentic-knowledge-system-boundary.md] for AKS/SUF language separation.
+> **Terminology note:** "Federation," "subsystems," and related infrastructure terms are organizational metaphors. They describe the repository's structure using systems vocabulary, not claims that the research itself constitutes a computational system.
 
 ## Purpose
 
@@ -19,7 +19,6 @@ Each major part owns its local truth:
 - SUF owns academic truth
 - Knowledge owns atlas structure  
 - Tools owns validation logic
-- Internal (private) owns stronger formulations
 
 ### Minimization
 
@@ -43,7 +42,6 @@ Growth phases followed by deliberate **recompression**:
 | structured-unity-framework | SUF package | academic truth, route posture | structured-unity-framework/START_HERE.md |
 | knowledge | Knowledge package | atlas, study routes | knowledge/README.md |
 | tools | Tools package | read-only validation | tools/README.md |
-| internal | Private delta | stronger formulations | Internal/active/framework-control.md |
 
 Cross-subsystem edits require explicit handoff: provenance, summary, target, status, change_class.
 
@@ -69,7 +67,6 @@ Choose the narrowest adequate layer. Keep durable truth, machine coordination, e
 |-------|-------------|-----------|
 | human-operator | owning subsystem state, GOVERNANCE_CORE for cross-subsystem | objectives, irreversible approvals |
 | external-agent | AGENTS.md → owning subsystem → GOVERNANCE_CORE | bounded operator, file-based recovery |
-| internal-agent | Framework Control.md → Translation Decision Map → GOVERNANCE_CORE | local context, no unilateral irreversible |
 | validator | GOVERNANCE_CORE → REGISTRY_MANIFEST → local inputs | deterministic support, not meaning authority |
 
 **Trust order:** subsystem surfaces > GOVERNANCE_CORE > REGISTRY_MANIFEST > validation outputs > supportive prose > prompt memory.
@@ -91,4 +88,3 @@ Pause expansion when:
 
 - `GOVERNANCE_CORE_v0_2.json` — canonical machine-readable state
 - `REGISTRY_MANIFEST_v0_2.json` — file catalog and integrity
-- `Translation Decision Map.md` — private/public boundary bridge

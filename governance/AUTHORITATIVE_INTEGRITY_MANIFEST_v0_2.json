@@ -16,12 +16,12 @@
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "5a211bbf06b4876a1b37e11ed98bdb1ea09275c22ed47354c99e7e359131c098",
+      "sha256": "a47917b8a6d68bd88f45de8a4e3a0056fb77d64c417c22f0bc8ef8da3ccaa848",
       "status": "current"
     },
     {
       "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "c9a7c2b878df267bca6a0e59ff74050e1c5ad667992b213d7db820fd8059da23",
+      "sha256": "ac0d3c905690d50e2b3567d88da2bb00c8562e8339905b92fce1b58e67f89224",
       "status": "current"
     },
     {
@@ -36,17 +36,17 @@
     },
     {
       "path": "governance/FEDERATION_AND_LAYERS_v0_2.md",
-      "sha256": "08606f4f52a6340aedb18f2bcb1a970b3cc7f1f4f9d2e98454f73e87398967db",
+      "sha256": "9cfb6061b5aa28b8b8ca4329e1b304d58d701d560c8add20a976495e31ad7b81",
       "status": "current"
     },
     {
       "path": "governance/GOVERNANCE_CORE_v0_2.json",
-      "sha256": "0bd831b70369644969adfa27bb7ec25383e8d96692fa784bd41edbae28b719b3",
+      "sha256": "deb6d34b3b24d508e5fa932de04a27cab1dde7f7869d62afd0a26691a9f32341",
       "status": "current"
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "a9f8629f5df17b825c137d6e5b7d4d2d32899b4f8c9acac9da15c16602bf6f3c",
+      "sha256": "431a841242f608cac6daf7a01ee742905bc7f2bfea8e6f80c7ec1694d73d2032",
       "status": "current"
     },
     {
@@ -56,12 +56,12 @@
     },
     {
       "path": "structured-unity-framework/START_HERE.md",
-      "sha256": "9174847e086f186926398725f4a86348a31dc0a8716dce1dce4879bbe2936a92",
+      "sha256": "bb0be03f2db47f4c65259580501e9f4bf0038c39b0e72b613f5e330e8fcab6e6",
       "status": "current"
     },
     {
       "path": "structured-unity-framework/docs/project-status.md",
-      "sha256": "f79c893c39a578e4fa34c20755da4a3094bd7c5c161a82e3d9742a549f71e403",
+      "sha256": "200934529d9a5d30b6cc29023b6b694bf80717c1877d03a72fb3539fe4e5e073",
       "status": "current"
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "path": "tools/docs/validation-policy.md",
-      "sha256": "6d1e3b84c82460878f78039abdd513ff947de337f5d348b621bea708c38b77b0",
+      "sha256": "a2df7610e28009784891c24c74a5916115e550f7e68ac353e977ebdd84c3ff98",
       "status": "current"
     },
     {

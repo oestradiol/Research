@@ -6,7 +6,7 @@ Anyone proposing edits to Structured Unity Framework public materials: maintaine
 
 ## 2. Before editing anything
 
-Use `docs/INDEX.md` to locate files. Read `docs/claims-and-boundaries.md`, `framework/framework-interface.md`, `framework/research-program.md`, and `meta/publication-scope.md` before making scope-sensitive edits.
+Use `docs/INDEX.md` to locate files. Read `docs/frontdoor/claims-and-boundaries.md`, `framework/framework-interface.md`, `framework/research-program.md`, and `meta/publication-scope.md` before making scope-sensitive edits.
 
 Use the status surfaces by role:
 

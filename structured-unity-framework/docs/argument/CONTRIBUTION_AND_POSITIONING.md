@@ -123,7 +123,7 @@ The current package does **not** claim:
 
 ### Where objections and limits are handled
 
-- `docs/claims-and-boundaries.md`
+- `docs/frontdoor/claims-and-boundaries.md`
 - `docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 - `framework/framework-interface.md`
 - `framework/research-program.md`

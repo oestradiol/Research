@@ -3,7 +3,7 @@
   "purpose": "Full Research/ repository file catalog with integrity. INTEGRITY_MANIFEST derived from this + GOVERNANCE_CORE.current_surfaces at validation time.",
   "updated": "6b4b195e",
   "algorithm": "sha256",
-  "file_count": 386,
+  "file_count": 377,
   "note": "Full catalog for tooling. GOVERNANCE_CORE defines 'current' surfaces; this provides integrity for all tracked files.",
   "catalog_uri": "governance/REGISTRY_MANIFEST_v0_2.json",
   "generation_rule": "regenerate on release or when file tree changes materially",
@@ -48,21 +48,6 @@
       "size_bytes": 1175
     },
     {
-      "path": ".gitignore",
-      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
-      "size_bytes": 10
-    },
-    {
-      "path": ".handoff/2026-04-18-australia-tooling.md",
-      "sha256": "8d861dcdf738857cda582054c0962ffb2c56ee81941faca49fb8ce2113f3bae7",
-      "size_bytes": 4493
-    },
-    {
-      "path": ".handoff/2026-04-19-rebirth-devils-advocate-audit.md",
-      "sha256": "bf58ee2271358cfeb0efe3edcb8cc596e1e2000353fcb68e7c8c94ee0a3187e0",
-      "size_bytes": 6635
-    },
-    {
       "path": "CHANGELOG.md",
       "sha256": "07e2ab7b0bef49a7db3e10bbd6eb915f0a2d60e216cb2cdb30421f6cd625f7eb",
       "size_bytes": 8161
@@ -94,13 +79,13 @@
     },
     {
       "path": "docs/frontdoor/CONTROL_AND_GOVERNANCE_SURFACE.md",
-      "sha256": "5a211bbf06b4876a1b37e11ed98bdb1ea09275c22ed47354c99e7e359131c098",
-      "size_bytes": 10369
+      "sha256": "a47917b8a6d68bd88f45de8a4e3a0056fb77d64c417c22f0bc8ef8da3ccaa848",
+      "size_bytes": 9902
     },
     {
       "path": "docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "c9a7c2b878df267bca6a0e59ff74050e1c5ad667992b213d7db820fd8059da23",
-      "size_bytes": 2996
+      "sha256": "ac0d3c905690d50e2b3567d88da2bb00c8562e8339905b92fce1b58e67f89224",
+      "size_bytes": 2814
     },
     {
       "path": "docs/ops/RELEASE_CHECKLIST_v0_1.md",
@@ -129,8 +114,8 @@
     },
     {
       "path": "governance/COMPRESSION_MIGRATION_PLAN_v0_2.md",
-      "sha256": "5763c3cd17fe59d8e3eb63dce17405bd2d92651deb768c2fa705706a7b11c3c6",
-      "size_bytes": 4383
+      "sha256": "a67496a6c8686045530259c27e82fab5f973281238dfef1f10959bbb9cddcca0",
+      "size_bytes": 4088
     },
     {
       "path": "governance/CURRENT_CLAIM_EXPECTATIONS_v0_2.json",
@@ -139,18 +124,18 @@
     },
     {
       "path": "governance/FEDERATION_AND_LAYERS_v0_2.md",
-      "sha256": "08606f4f52a6340aedb18f2bcb1a970b3cc7f1f4f9d2e98454f73e87398967db",
-      "size_bytes": 4121
+      "sha256": "9cfb6061b5aa28b8b8ca4329e1b304d58d701d560c8add20a976495e31ad7b81",
+      "size_bytes": 3608
     },
     {
       "path": "governance/GOVERNANCE_CORE_v0_2.json",
-      "sha256": "0bd831b70369644969adfa27bb7ec25383e8d96692fa784bd41edbae28b719b3",
-      "size_bytes": 6814
+      "sha256": "deb6d34b3b24d508e5fa932de04a27cab1dde7f7869d62afd0a26691a9f32341",
+      "size_bytes": 6044
     },
     {
       "path": "governance/REGISTRY_MANIFEST_v0_2.json",
-      "sha256": "7ba8a368c189631876de04749571c034131a283d20044fbaa93042cd1e2acc49",
-      "size_bytes": 80615
+      "sha256": "f5a377039cff10a1c4e0bb3d9ca42465a94f9b911d6065a0785e3483fbaf48f6",
+      "size_bytes": 80592
     },
     {
       "path": "knowledge/.gitignore",
@@ -748,26 +733,6 @@
       "size_bytes": 22
     },
     {
-      "path": "structured-unity-framework/.handoff/agent-structure-decision.json",
-      "sha256": "6d94f94ed08b11fa5e20388cedb207dad241d8714bf21b8f02c1c4fa6eec7a44",
-      "size_bytes": 4656
-    },
-    {
-      "path": "structured-unity-framework/.handoff/q3-q5-completion.md",
-      "sha256": "30bca3f450c191e4d110aeb00268a7efcb41c00e678f68e01fd2e61ecb435955",
-      "size_bytes": 3956
-    },
-    {
-      "path": "structured-unity-framework/.handoff/v1.5-tooling.json",
-      "sha256": "ec536175e10e46c34ff9c80fd02beb9f4ba1662ef5f178c678b02bb9f1697716",
-      "size_bytes": 2365
-    },
-    {
-      "path": "structured-unity-framework/.handoff/v16-completion.md",
-      "sha256": "d94788ec06f3c2a4c2eb9733cbd3299288913299780a25426f49da7e58060101",
-      "size_bytes": 1812
-    },
-    {
       "path": "structured-unity-framework/CHANGELOG.md",
       "sha256": "49ac35b0c3e505912c301dd4a36d183b4e215c48a92e51b758e0395cb978766e",
       "size_bytes": 6042
@@ -779,8 +744,8 @@
     },
     {
       "path": "structured-unity-framework/CONTRIBUTING.md",
-      "sha256": "fe7fd247d2999db77be05fcea59d28a2aa925d19b7b95952a5d7f9bc814b81ad",
-      "size_bytes": 2599
+      "sha256": "89df9badbf01c304270ea014b41756b4cfb54a9292d0cc2ab3a71f6c1c36e368",
+      "size_bytes": 2609
     },
     {
       "path": "structured-unity-framework/LICENSE",
@@ -789,18 +754,18 @@
     },
     {
       "path": "structured-unity-framework/README.md",
-      "sha256": "77beb38819095c7bd0bede987d9ce90b37a90ec9796396414fda9fa93cf1dc52",
-      "size_bytes": 2976
+      "sha256": "ae0159d0bda2c21673905e78ca8aee76d9a2a70982c0388ed87d69cc274a5195",
+      "size_bytes": 2988
     },
     {
       "path": "structured-unity-framework/ROADMAP.md",
-      "sha256": "17fa811138fdb4af4855a13b13b767382a00fe8ebff536f9403ec3254e70e09c",
-      "size_bytes": 2380
+      "sha256": "72864457fff460a30f931b364afaecf3cfae8e7d5e24b203e2b71470799e5fb4",
+      "size_bytes": 2368
     },
     {
       "path": "structured-unity-framework/START_HERE.md",
-      "sha256": "9174847e086f186926398725f4a86348a31dc0a8716dce1dce4879bbe2936a92",
-      "size_bytes": 983
+      "sha256": "bb0be03f2db47f4c65259580501e9f4bf0038c39b0e72b613f5e330e8fcab6e6",
+      "size_bytes": 981
     },
     {
       "path": "structured-unity-framework/applications/README.md",
@@ -899,8 +864,8 @@
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/future-comparative-cases.md",
-      "sha256": "fb8fafe68b80b2d64a30c987e71beb6cfeb217cc26d75c5a157e265de2bd550d",
-      "size_bytes": 3082
+      "sha256": "ba9f2616dc36b3ea526a22f289386eccc35dab511e2e48401ea121b4260154e2",
+      "size_bytes": 3074
     },
     {
       "path": "structured-unity-framework/applications/demonstrated-routes/states-and-societies/institutional-coordination-under-perturbation/README.md",
@@ -1204,13 +1169,13 @@
     },
     {
       "path": "structured-unity-framework/docs/INDEX.md",
-      "sha256": "1a1591b13b4d440857fb443578e618dbb69cfef41118304cff9f714372620bb4",
-      "size_bytes": 3818
+      "sha256": "18f6768ec856b557997bc172e419c7f3d18693e8a56e789b409a1ca99bd182b7",
+      "size_bytes": 3810
     },
     {
       "path": "structured-unity-framework/docs/argument/CONTRIBUTION_AND_POSITIONING.md",
-      "sha256": "bf82a39244eecf5c91e38491e969f9619ab396797965c1080efa42854a1b4bb9",
-      "size_bytes": 8941
+      "sha256": "b110fa7fdbc54bee4c7cd62bd109e8b1f4ddea3d7681e43780040eae225bffc9",
+      "size_bytes": 8951
     },
     {
       "path": "structured-unity-framework/docs/argument/UD_DIFFERENTIATION_SCAFFOLD.md",
@@ -1219,18 +1184,13 @@
     },
     {
       "path": "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md",
-      "sha256": "a74190f605d2aa38cca799f7f4c5c6ace22aa2cb5ab0a219910f71f15760fd48",
-      "size_bytes": 11250
-    },
-    {
-      "path": "structured-unity-framework/docs/claims-and-boundaries.md",
-      "sha256": "2f5d06b44748685062368977d589637557491011df094b3c4400eb09b339d87c",
-      "size_bytes": 4732
+      "sha256": "46eeed1b1b80523bf4504cedb04007e9229db898c428afe5f35d614e4367b05e",
+      "size_bytes": 11268
     },
     {
       "path": "structured-unity-framework/docs/current-execution-order.md",
-      "sha256": "a087243677ca775959485f5660f6b047ac0d949f43fb8695d932bfbf131b8753",
-      "size_bytes": 5340
+      "sha256": "55c475fef9f154d75f7502e819eaa3ee718afce70e68ed2b205487db5fa8f16c",
+      "size_bytes": 5337
     },
     {
       "path": "structured-unity-framework/docs/diagrams/dependency-map.md",
@@ -1258,14 +1218,24 @@
       "size_bytes": 6440
     },
     {
+      "path": "structured-unity-framework/docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
+      "sha256": "272280eefc960321a5647993b9586fc7970928c535f11580e4b97503bed27305",
+      "size_bytes": 4425
+    },
+    {
       "path": "structured-unity-framework/docs/frontdoor/PROJECT_PURPOSE_AND_USE_CASES.md",
-      "sha256": "4e3b32be99046fbd18ff54e02554d8e1a0f3b214cbd78b06021bb97b682124cd",
-      "size_bytes": 1419
+      "sha256": "e40a6de5e2345d5c4a0dc1d31a25807035a79b290d473b1c73085851d8379300",
+      "size_bytes": 1404
     },
     {
       "path": "structured-unity-framework/docs/frontdoor/SCIENTIFIC_GROUNDING_AND_LIMITS.md",
-      "sha256": "84dfd58956da4626d5c5e2bc3587a9f4ed6fe547e9f05743eaa4000f8ece6fbb",
-      "size_bytes": 1596
+      "sha256": "86eca7a68b8788604b06a1eebbc3889e0db3e869134315231e6457467ea60ef0",
+      "size_bytes": 1606
+    },
+    {
+      "path": "structured-unity-framework/docs/frontdoor/claims-and-boundaries.md",
+      "sha256": "2f5d06b44748685062368977d589637557491011df094b3c4400eb09b339d87c",
+      "size_bytes": 4732
     },
     {
       "path": "structured-unity-framework/docs/glossary.md",
@@ -1273,29 +1243,14 @@
       "size_bytes": 2569
     },
     {
-      "path": "structured-unity-framework/docs/meta/frontier-rejections.md",
-      "sha256": "82ca810bf60e10fca8ad68f345bff75a19f2beb9392d6962af5afeff0addb951",
-      "size_bytes": 2977
-    },
-    {
-      "path": "structured-unity-framework/docs/monograph-and-closure-program.md",
-      "sha256": "511ae38326434d4ef0f10b078558e39c18f0548c0c079093281bde3bebe3aa6e",
-      "size_bytes": 13316
+      "path": "structured-unity-framework/docs/monograph/CLOSURE_PROGRAM.md",
+      "sha256": "fba99cfe71fa2dca07a103a9cb9da2a9667c81347fc00e60707f5008fdafc392",
+      "size_bytes": 12851
     },
     {
       "path": "structured-unity-framework/docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
-      "sha256": "1fe6b0b3502538b2c6fef738b28ef2c0000a0d7469e122b15433bf6f4e3b504b",
-      "size_bytes": 3852
-    },
-    {
-      "path": "structured-unity-framework/docs/ops/OPS_SUMMARY.md",
-      "sha256": "656e4b89ac7642c50dde400a88d0fddc55393ef34f236a90610f78b6ca5ef39f",
-      "size_bytes": 3797
-    },
-    {
-      "path": "structured-unity-framework/docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md",
-      "sha256": "53b74506fbcd8f16e043b67b0cc0a77c16b3bce972892ffbab305d252e5c9364",
-      "size_bytes": 4408
+      "sha256": "b7a00306e9e22028bf9ebe89f02a102da7d653812ada13a7247542d8b155ddb1",
+      "size_bytes": 7168
     },
     {
       "path": "structured-unity-framework/docs/pending-inventory.md",
@@ -1304,8 +1259,8 @@
     },
     {
       "path": "structured-unity-framework/docs/project-status.md",
-      "sha256": "f79c893c39a578e4fa34c20755da4a3094bd7c5c161a82e3d9742a549f71e403",
-      "size_bytes": 10971
+      "sha256": "d6cc8c5b15d7a5809eae5131ca824367cddc4fc84b502ae8ea5ab4cd554376fb",
+      "size_bytes": 10977
     },
     {
       "path": "structured-unity-framework/framework/framework-interface.md",
@@ -1329,11 +1284,11 @@
     },
     {
       "path": "structured-unity-framework/framework/research-program.md",
-      "sha256": "dc7cdd91e57e5f56d6fb2854eef3b544933548ac3b695032f71f3f6830883afe",
-      "size_bytes": 12579
+      "sha256": "5e29674c80a82a821b372c1ea81d0f1ea5979fc2e288bcb7afd573660df72df0",
+      "size_bytes": 12573
     },
     {
-      "path": "structured-unity-framework/framework/structural-phenomenology-downstream-role.md",
+      "path": "structured-unity-framework/framework/sp-downstream-role.md",
       "sha256": "312f80e067b1f20e3769b8b32451e21d58307ee681bfe6874fd035ab69608c6c",
       "size_bytes": 7323
     },
@@ -1349,8 +1304,8 @@
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INDEX_v0_1.md",
-      "sha256": "b866905254fc6cad673b739b98f80d25a9b446661c6906b3995d8ea32c4e323d",
-      "size_bytes": 2370
+      "sha256": "c307ca628a7388ccc6d1bebc5acb5d5b1f9b0afd40430c2fc9aed23811f6c421",
+      "size_bytes": 2378
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_INTEGRITY_MANIFEST_v0_1.json",
@@ -1359,23 +1314,23 @@
     },
     {
       "path": "structured-unity-framework/governance/AUTHORITATIVE_SOURCES_v0_1.json",
-      "sha256": "24309fbc826334450718d3a5142977137f30b8613d1cecf4c8e5232528d0cd9d",
-      "size_bytes": 974
+      "sha256": "4876dab6005bee9e673805a1e84491c1bcc0ceec25342d8075a64c57732dc948",
+      "size_bytes": 984
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_CLAIM_EXPECTATIONS_v0_1.json",
-      "sha256": "adc36b70d87e42c25d5b68ed5d248a3f2ef588eb0a8c3635ab9326e53339a526",
-      "size_bytes": 3205
+      "sha256": "b69b50569f3a271b391a5f8235d9b9d405fea4d58495c7fd361a56382de4f8e2",
+      "size_bytes": 3203
     },
     {
       "path": "structured-unity-framework/governance/CURRENT_SURFACES_REGISTRY_v0_1.json",
-      "sha256": "057d510870891856238d9bf03b7d2d509664b3f7d9caf09bb49e66b1bc6cbe1d",
-      "size_bytes": 2935
+      "sha256": "5e84ac3b3d8d4b627c0312f5833880bf58c90ee39e5011ff3090249be61c449e",
+      "size_bytes": 2943
     },
     {
       "path": "structured-unity-framework/governance/FILE_JUSTIFICATION_REGISTRY_v0_1.json",
-      "sha256": "97d2fc4567e66ace6f8afb283af59de293928363376ea6f8ab578fc15bac1c01",
-      "size_bytes": 33511
+      "sha256": "64757aa79382232cd1fed930d127c92d2f0b4d3497e95aa38ee5c15099226820",
+      "size_bytes": 33493
     },
     {
       "path": "structured-unity-framework/governance/PACKAGE_MINIMIZATION_POLICY_v0_1.md",
@@ -1389,8 +1344,8 @@
     },
     {
       "path": "structured-unity-framework/governance/REPOSITORY_FILE_REGISTRY_v0_1.json",
-      "sha256": "98338c2034b643feb78f3c02476e76d65b4b1e3e553d59cff332f9698b6fdcce",
-      "size_bytes": 25894
+      "sha256": "5b19d7ffb8942e59e1475c4ade751218080c771bca0f0c0837e4f991e9da7130",
+      "size_bytes": 30453
     },
     {
       "path": "structured-unity-framework/governance/ROOT_ALLOWLIST_v0_1.json",
@@ -1401,6 +1356,11 @@
       "path": "structured-unity-framework/meta/claim-structure.md",
       "sha256": "e5b977caa78ad92e7ca322074d3184d96dca797ffe623dcd4092a75271f13eac",
       "size_bytes": 1394
+    },
+    {
+      "path": "structured-unity-framework/meta/frontier-rejections.md",
+      "sha256": "82ca810bf60e10fca8ad68f345bff75a19f2beb9392d6962af5afeff0addb951",
+      "size_bytes": 2977
     },
     {
       "path": "structured-unity-framework/meta/publication-scope.md",
@@ -1421,11 +1381,6 @@
       "path": "structured-unity-framework/meta/weak-naturalization.md",
       "sha256": "32175efa6efbb3307bf724a68b7b5b935a64e709e8ce201ba8d759895ec1055d",
       "size_bytes": 1366
-    },
-    {
-      "path": "structured-unity-framework/monograph/MONOGRAPH_SUPPORT_PACKAGE.md",
-      "sha256": "5eaacca1aee79569ad61691ef74a46de555ed80f1ee0831add8e6a5934e64c8b",
-      "size_bytes": 4423
     },
     {
       "path": "structured-unity-framework/references/README.md",
@@ -1624,23 +1579,23 @@
     },
     {
       "path": "tools/docs/architecture.md",
-      "sha256": "d0b07a9996077c29b6e33b795d2b1fb7781f0f454d95b6a089043d7841c9156b",
-      "size_bytes": 3040
+      "sha256": "c0f8cdfcc353ea20afea19c7432af2699b3e574456699d01444a000ac6fd8aef",
+      "size_bytes": 2983
     },
     {
       "path": "tools/docs/archive/sprint-log.md",
-      "sha256": "275ddd0a20687cab6b4b8b7f0e74a0abe1fdfcbb97dc853aa00dcde5d1c6f29b",
-      "size_bytes": 2649
+      "sha256": "100de51b7a44eadf00a83b42096e0540d2cd9a290333a781c047bc90ac4de3f3",
+      "size_bytes": 2630
     },
     {
       "path": "tools/docs/backlog.md",
-      "sha256": "42be4c3a754efce200f85b19c574a7f9a8d1a9b1133124be73c4c24c44ad9640",
-      "size_bytes": 2503
+      "sha256": "0e2afca1c21156ac0d7389b76458af4866183fac3fad5d805531dd069ea5b07d",
+      "size_bytes": 2495
     },
     {
       "path": "tools/docs/validation-policy.md",
-      "sha256": "6d1e3b84c82460878f78039abdd513ff947de337f5d348b621bea708c38b77b0",
-      "size_bytes": 2205
+      "sha256": "a2df7610e28009784891c24c74a5916115e550f7e68ac353e977ebdd84c3ff98",
+      "size_bytes": 2179
     },
     {
       "path": "tools/flake.lock",
@@ -1714,8 +1669,8 @@
     },
     {
       "path": "tools/src/research_tools/generate/integrity_manifest.py",
-      "sha256": "7ab2748f54588a0dfd6623f48976aa37994e45b34fe50a7c6249d818edd5e556",
-      "size_bytes": 6504
+      "sha256": "9500a2e14cb3fc10e21a1750988c6f31a91172d7d0cddf3946c8a851afb5899e",
+      "size_bytes": 6468
     },
     {
       "path": "tools/src/research_tools/models/__init__.py",
@@ -1849,8 +1804,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/governance.py",
-      "sha256": "b954d8dd329b4c30efff1eeb135c2bba06350c935f525f7cdbe1df8e870e1f2f",
-      "size_bytes": 47274
+      "sha256": "d8ed073cc3e259eb49ae2fa36b55b482210722a1e61126976f4038cc7a7707b4",
+      "size_bytes": 46943
     },
     {
       "path": "tools/src/research_tools/validate/governance_consistency.py",
@@ -1874,8 +1829,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/release_hygiene.py",
-      "sha256": "06102fc6f8ef55468591c344d1e0d0cc9645b890a5cb996b411f9945d70b0e9a",
-      "size_bytes": 2866
+      "sha256": "9a2021758ec30b4172afb8b079f0e8d49cab9d3194d563cf884dfbcf57bb3b9e",
+      "size_bytes": 2541
     },
     {
       "path": "tools/src/research_tools/validate/route_consistency.py",
@@ -1889,8 +1844,8 @@
     },
     {
       "path": "tools/src/research_tools/validate/status_surfaces.py",
-      "sha256": "83a988052b968b39c140b217f965200e9e137b84d81f877add41492f58a4ee6b",
-      "size_bytes": 15136
+      "sha256": "0c9e2d8167e61f6e1af67e57d6e5d0124b80b77d7817d988d388bfcfbdeec385",
+      "size_bytes": 15114
     },
     {
       "path": "tools/src/research_tools/validate/three_case_synthesis.py",
@@ -1914,8 +1869,8 @@
     },
     {
       "path": "tools/src/research_tools/workflows/validate_clusters.py",
-      "sha256": "5de75995ceb7180f44e6d4df56c7ad6f54354089cddb75f5d33325b0ff63b308",
-      "size_bytes": 11117
+      "sha256": "277da8c0f1f2adc211e6541a0cd4dc55acc2f2ed32aa174ffbe73190746fddb5",
+      "size_bytes": 11116
     },
     {
       "path": "tools/sync_governance_state.py",

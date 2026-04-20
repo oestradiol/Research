@@ -16,7 +16,7 @@
     "structured-unity-framework/references/source-registry.md"
   ],
   "reviewer_surfaces": [
-    "structured-unity-framework/docs/claims-and-boundaries.md",
+    "structured-unity-framework/docs/frontdoor/claims-and-boundaries.md",
     "structured-unity-framework/docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md"
   ]
 }

@@ -30,7 +30,7 @@ For each objection below, the package keeps four things explicit:
 - **Current answer:** the package does not present itself as finished metaphysics; Structural Phenomenology is an epistemic ground and constraint layer, while Framework Interface blocks silent hardening into final ontology.
 - **Current evidence status:** partially handled at the framework-architecture level.
 - **Unresolved remainder:** the repo is stronger at marking the philosophical boundary than at proving why this starting point should dominate all rivals.
-- **Primary surfaces:** `framework/framework-interface.md`, `framework/structural-phenomenology-downstream-role.md`, `docs/claims-and-boundaries.md`
+- **Primary surfaces:** `framework/framework-interface.md`, `framework/sp-downstream-role.md`, `docs/frontdoor/claims-and-boundaries.md`
 
 ### 2. “IA sounds verbal rather than technical.”
 - **Current answer:** substantially accepted; IA is presented as a bounded modeling and bridge vocabulary, not a finished technical theory.
@@ -42,13 +42,13 @@ For each objection below, the package keeps four things explicit:
 - **Current answer:** the package says UD is technical-facing but still route-local, judgment-laden, and not a closed predictive theory.
 - **Current evidence status:** explicitly handled.
 - **Unresolved remainder:** route-local metrics and sensitivity work do not settle cross-domain measurement or strong predictive closure.
-- **Primary surfaces:** `framework/unity-dynamics.md`, `framework/research-program.md`, `docs/claims-and-boundaries.md`
+- **Primary surfaces:** `framework/unity-dynamics.md`, `framework/research-program.md`, `docs/frontdoor/claims-and-boundaries.md`
 
 ### 4. “This anthropomorphizes states.”
 - **Current answer:** the package distinguishes unity-like organization from strong consciousness attribution and blocks silent anthropomorphic inflation.
 - **Current evidence status:** explicitly handled.
 - **Unresolved remainder:** this still depends on readers respecting the package’s boundary discipline rather than importing stronger consciousness language.
-- **Primary surfaces:** `framework/framework-interface.md`, `docs/claims-and-boundaries.md`, `meta/publication-scope.md`
+- **Primary surfaces:** `framework/framework-interface.md`, `docs/frontdoor/claims-and-boundaries.md`, `meta/publication-scope.md`
 
 ### 5. “One New Zealand case cannot validate the framework.”
 - **Current answer:** accepted; the New Zealand route is a demonstrated anchor, not proof of the whole framework.
@@ -78,7 +78,7 @@ For each objection below, the package keeps four things explicit:
 - **Current answer:** current contribution, claims, limits, and audit surfaces are explicit and cross-linked.
 - **Current evidence status:** explicitly handled.
 - **Unresolved remainder:** stronger evidence-to-claim mapping and careful prose discipline are still ongoing burdens.
-- **Primary surfaces:** `docs/claims-and-boundaries.md`, `docs/argument/CONTRIBUTION_AND_POSITIONING.md`, `meta/publication-scope.md`
+- **Primary surfaces:** `docs/frontdoor/claims-and-boundaries.md`, `docs/argument/CONTRIBUTION_AND_POSITIONING.md`, `meta/publication-scope.md`
 
 ## Evidence-status matrix role
 

@@ -25,7 +25,7 @@ SUF is the bounded academic core of `Research/`.
 
 ## Primary reading and audit paths
 
-- orientation and first-pass reading: `../orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
+- orientation and first-pass reading: `FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
 - current state and next work: `../project-status.md`, `../current-execution-order.md`, `../pending-inventory.md`
 - contribution and public framing: `../argument/CONTRIBUTION_AND_POSITIONING.md`
 - skeptical audit and evidence posture: `../audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`

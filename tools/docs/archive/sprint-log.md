@@ -73,7 +73,7 @@ Extend the tooling surface from SUF-route validation to a bounded whole-repo v1 
 
 - Knowledge package entry/index checks
 - version, changelog, citation, and snapshot-surface checks
-- release-readiness hygiene checks for placeholders, internal leakage, and absolute local paths
+- release-readiness hygiene checks for placeholders and absolute local paths
 
 ### Tests added
 

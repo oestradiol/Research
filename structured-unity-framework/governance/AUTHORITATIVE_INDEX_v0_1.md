@@ -32,8 +32,8 @@ See root `../../governance/GOVERNANCE_CORE_v0_2.json` for umbrella current surfa
 - `../docs/project-status.md`
 - `../docs/current-execution-order.md`
 - `../docs/pending-inventory.md`
-- `../docs/claims-and-boundaries.md`
-- `../docs/orientation/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
+- `../docs/frontdoor/claims-and-boundaries.md`
+- `../docs/frontdoor/FRAMEWORK_OVERVIEW_AND_READING_GUIDE.md`
 - `../docs/argument/CONTRIBUTION_AND_POSITIONING.md`
 - `../docs/audit/OBJECTIONS_AND_EVIDENCE_STATUS.md`
 - `../docs/monograph/MONOGRAPH_SUPPORT_PACKAGE.md`
