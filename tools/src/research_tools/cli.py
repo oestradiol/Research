@@ -43,6 +43,7 @@ from research_tools.validate.route_consistency import validate_nz_route, validat
 from research_tools.validate.sources import validate_source_registry
 from research_tools.validate.status_surfaces import validate_status_surfaces
 from research_tools.validate.versions import validate_versions
+from research_tools.validate.ground_truth import validate_ground_truth
 from research_tools.workflows.validate_clusters import (
     collect_validation_clusters,
     render_cluster_report,
@@ -222,6 +223,25 @@ def handle_validate_versions(_: argparse.Namespace) -> int:
         ],
     )
     output_path = _write_output("validate-versions.md", output)
+    print(output_path)
+    return _results_exit_code(results)
+
+
+def handle_validate_ground_truth(_: argparse.Namespace) -> int:
+    paths = get_paths()
+    results = validate_ground_truth(paths)
+    output = _render_simple_results(
+        "Validate Ground Truth",
+        _generated_at(),
+        results,
+        [
+            paths.nz_route_root / "event-ledger-seed.md",
+            paths.taiwan_route_root / "taiwan-event-ledger-seed.md",
+            paths.australia_route_root / "australia-event-ledger-seed.md",
+            paths.suf_root / "docs" / "project-status.md",
+        ],
+    )
+    output_path = _write_output("validate-ground-truth.md", output)
     print(output_path)
     return _results_exit_code(results)
 
@@ -490,6 +510,9 @@ def build_parser() -> argparse.ArgumentParser:
     validate_subparsers.add_parser("versions").set_defaults(func=handle_validate_versions)
     validate_subparsers.add_parser("status-surfaces").set_defaults(
         func=handle_validate_status_surfaces
+    )
+    validate_subparsers.add_parser("ground-truth").set_defaults(
+        func=handle_validate_ground_truth
     )
     validate_route_parser = validate_subparsers.add_parser("route")
     validate_route_parser.add_argument("--route", choices=("nz", "taiwan", "australia"), required=True)
